@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DigiIndia Search Engine – Public Developer Discovery</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/Icon.svg">
+    <link rel="shortcut icon" href="/Icon.svg">
+
+    <!-- Primary SEO Meta Tags -->
+    <meta name="title" content="DigiIndia Search Engine – Public Developer Discovery">
+    <meta name="description" content="Search verified student innovation projects, SPN student profiles, open-source repositories, and multi-lingual tech stacks across India.">
+    <meta name="keywords" content="DigiIndia Search, Student Developer Directory, Open Source Projects India, SPN Lookup, Code Ownership Index">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://digiindia-studentcollaboration.web.app/search.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://digiindia-studentcollaboration.web.app/search.html">
+    <meta property="og:title" content="DigiIndia Search Engine – Public Developer Discovery">
+    <meta property="og:description" content="Discover verified student innovation projects, SPN student profiles, and developer repositories.">
+    <meta property="og:image" content="https://digiindia-studentcollaboration.web.app/Icon.svg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://digiindia-studentcollaboration.web.app/search.html">
+    <meta property="twitter:title" content="DigiIndia Search Engine – Public Developer Discovery">
+    <meta property="twitter:description" content="Discover verified student innovation projects, SPN student profiles, and developer repositories.">
+    <meta property="twitter:image" content="https://digiindia-studentcollaboration.web.app/Icon.svg">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+
 </head>
 <body class="bg-light">
 
@@ -449,8 +475,23 @@
 
 
 
-        // Execute default search on load
-        document.addEventListener("DOMContentLoaded", () => executePublicSearch());
+        // Execute default or URL query search on load
+        document.addEventListener("DOMContentLoaded", () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const qParam = urlParams.get("q") || urlParams.get("query") || urlParams.get("spn") || "";
+            const catParam = urlParams.get("category") || urlParams.get("tab") || "";
+            
+            if (qParam) {
+                const inputEl = document.getElementById("engineQueryInput") || document.getElementById("searchEngineQueryInput");
+                if (inputEl) inputEl.value = qParam;
+            }
+            if (catParam) {
+                setCategory(catParam);
+            } else {
+                executePublicSearch();
+            }
+        });
+
     </script>
 
 </body>

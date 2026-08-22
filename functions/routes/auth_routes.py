@@ -5,16 +5,6 @@ from middleware.auth_middleware import require_authenticated_user
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
-@router.get("/register")
-def register_info():
-    return {
-        "status": "online",
-        "service": "DigiIndia Registration Service",
-        "endpoint": "/api/v1/auth/register",
-        "supported_method": "POST",
-        "description": "Submit JSON payload via POST to register new student identity."
-    }
-
 @router.post("/register")
 def register(schema: StudentRegisterSchema):
     try:
@@ -22,18 +12,9 @@ def register(schema: StudentRegisterSchema):
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 
-@router.get("/login")
-def login_info():
-    return {
-        "status": "online",
-        "service": "DigiIndia Authentication Service",
-        "endpoint": "/api/v1/auth/login",
-        "supported_method": "POST",
-        "description": "Submit JSON payload { identifier: 'SPN or Email', password: '...' } via POST to authenticate."
-    }
-
 @router.post("/login")
 def login(schema: LoginSchema):
+
 
     try:
         return AuthService.login(schema)

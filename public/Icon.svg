@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gradPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    <linearGradient id="gradAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#4F46E5" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background Shield Node -->
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="url(#gradPrimary)" filter="url(#shadow)"/>
+  
+  <!-- Outer Circuit Ring -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="12" stroke-dasharray="24 16"/>
+
+  <!-- Center Microchip / Student Identity Hub -->
+  <rect x="146" y="146" width="220" height="220" rx="36" fill="#FFFFFF" fill-opacity="0.95"/>
+  <rect x="176" y="176" width="160" height="160" rx="24" fill="url(#gradAccent)"/>
+
+  <!-- Innovation Star / Code Node Icon -->
+  <path d="M256 200 L270 240 L312 254 L270 268 L256 308 L242 268 L200 254 L242 240 Z" fill="#FFFFFF"/>
+  
+  <!-- Circuit Nodes -->
+  <circle cx="146" cy="216" r="12" fill="#FFFFFF"/>
+  <circle cx="146" cy="296" r="12" fill="#FFFFFF"/>
+  <circle cx="366" cy="216" r="12" fill="#FFFFFF"/>
+  <circle cx="366" cy="296" r="12" fill="#FFFFFF"/>
+  <circle cx="216" cy="146" r="12" fill="#FFFFFF"/>
+  <circle cx="296" cy="146" r="12" fill="#FFFFFF"/>
+  <circle cx="216" cy="366" r="12" fill="#FFFFFF"/>
+  <circle cx="296" cy="366" r="12" fill="#FFFFFF"/>
+</svg>

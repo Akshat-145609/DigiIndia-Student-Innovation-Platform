@@ -205,42 +205,47 @@ class FirestoreRepository:
         return True
 
 
-    def query(self, filters: list = None, limit: int = 100):
-        """Query collection with optional field equality filters [(field, op, val)]"""
+    def query(self, filters: list = None, limit: int = 500):
+        """Query collection combining local disk store and Cloud Firestore docs"""
+        disk_col = _load_collection(self.collection_name)
+        combined_dict = dict(disk_col)
+
         if self.col_ref:
             try:
-                q = self.col_ref
-                if filters:
-                    for field, op, val in filters:
-                        q = q.where(field, op, val)
-                if limit:
-                    q = q.limit(limit)
-                docs = q.stream(timeout=2.0)
-                results = []
+                docs = self.col_ref.stream(timeout=3.0)
                 for doc in docs:
-                    results.append({"id": doc.id, **doc.to_dict()})
-                if results:
-                    return results
+                    d = doc.to_dict()
+                    d_id = doc.id
+                    if d_id not in combined_dict:
+                        combined_dict[d_id] = d
+                    else:
+                        combined_dict[d_id].update(d)
             except Exception as e:
-                logger.debug(f"Firestore query bypass to persistent disk: {e}")
+                logger.debug(f"Firestore query stream note: {e}")
 
-        # Disk Query Fallback
-        col = _load_collection(self.collection_name)
         results = []
-        for doc_id, doc_data in col.items():
+        for doc_id, doc_data in combined_dict.items():
             match = True
             if filters:
                 for field, op, val in filters:
                     doc_val = doc_data.get(field)
-                    if op == "==" and doc_val != val:
-                        match = False
-                    elif op == "!=" and doc_val == val:
-                        match = False
-                    elif op == "in" and doc_val not in (val if isinstance(val, (list, set, tuple)) else [val]):
-                        match = False
+                    val_str = str(val).lower() if isinstance(val, str) else val
+                    doc_val_str = str(doc_val).lower() if isinstance(doc_val, str) else doc_val
+
+                    if op == "==":
+                        if doc_val_str != val_str and doc_val != val:
+                            match = False
+                    elif op == "!=":
+                        if doc_val_str == val_str or doc_val == val:
+                            match = False
+                    elif op == "in":
+                        val_list = [str(x).lower() for x in val] if isinstance(val, (list, set, tuple)) else [str(val).lower()]
+                        if doc_val_str not in val_list:
+                            match = False
             if match:
                 results.append({"id": doc_id, **doc_data})
             if len(results) >= limit:
                 break
         return results
+
 

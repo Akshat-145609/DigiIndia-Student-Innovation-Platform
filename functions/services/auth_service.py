@@ -151,29 +151,37 @@ class AuthService:
     @classmethod
     def login(cls, schema: LoginSchema):
         identifier = schema.identifier.strip()
+        target = identifier.lower()
         student = None
 
-        # Check if identifier is 8-digit SPN
-        if len(identifier) == 8 and identifier.isdigit():
-            res = students_repo.query(filters=[("spn", "==", identifier)])
-            if res:
-                student = res[0]
-        else:
-            res = students_repo.query(filters=[("email", "==", identifier)])
-            if res:
-                student = res[0]
+        # Fetch all student records across Firestore and local store
+        all_students = students_repo.query(limit=500)
+        
+        # 1. Search for matching SPN, Email, SecurityEmail, Phone, or UID
+        for s in all_students:
+            spn = str(s.get("spn", "")).strip().lower()
+            email = str(s.get("email", "")).strip().lower()
+            sec_email = str(s.get("securityEmail", "")).strip().lower()
+            phone = str(s.get("phone", "")).strip().lower()
+            uid = str(s.get("uid", "")).strip().lower()
 
-        # Check for Admin default login first
-        if identifier.lower() == settings.ADMIN_EMAIL.lower():
+            if target in [spn, email, sec_email, phone, uid]:
+                student = s
+                break
+
+        # Check for Super Admin bypass login
+        is_admin_id = (target == settings.ADMIN_EMAIL.lower() or (student and student.get("role") == "admin"))
+        if is_admin_id:
             if schema.password == settings.ADMIN_PASSWORD or (student and cls.verify_password(schema.password, student.get("passwordHash", ""))):
                 uid = student["uid"] if student else "admin_super_uid"
-                spn = student.get("spn", "00000000") if student else "00000000"
-                token = cls.create_jwt_token(uid, settings.ADMIN_EMAIL, "admin")
+                spn = student.get("spn", "26360087") if student else "26360087"
+                email = student.get("email", settings.ADMIN_EMAIL) if student else settings.ADMIN_EMAIL
+                token = cls.create_jwt_token(uid, email, "admin")
                 return {
                     "student": {
                         "uid": uid,
                         "spn": spn,
-                        "email": settings.ADMIN_EMAIL,
+                        "email": email,
                         "fullName": settings.ADMIN_NAME,
                         "role": "admin"
                     },
@@ -186,7 +194,6 @@ class AuthService:
         if not cls.verify_password(schema.password, student.get("passwordHash", "")):
             raise Exception("Invalid SPN/Email or password")
 
-
         uid = student["uid"]
         profile = profiles_repo.get(uid) or {}
         role = student.get("role", "student")
@@ -197,13 +204,14 @@ class AuthService:
         return {
             "student": {
                 "uid": uid,
-                "spn": student["spn"],
+                "spn": student.get("spn", ""),
                 "email": student["email"],
-                "fullName": profile.get("fullName", "Student"),
+                "fullName": profile.get("fullName", student.get("email", "").split("@")[0]),
                 "role": role
             },
             "token": token
         }
+
 
     @classmethod
     def request_otp(cls, email: str, name: str = "Student"):

@@ -1,0 +1,15 @@
+# Environment & Secrets
+.env
+*.env
+.env.*
+
+# Python bytecode & virtual envs
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.local
+
+# Logs
+*.log

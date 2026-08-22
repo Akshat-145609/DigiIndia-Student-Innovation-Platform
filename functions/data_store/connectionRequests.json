@@ -1,0 +1,20 @@
+{
+  "df3cab28-bcb4-49d8-a88a-defa83802ba3_fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8": {
+    "requestId": "df3cab28-bcb4-49d8-a88a-defa83802ba3_fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8",
+    "senderUID": "df3cab28-bcb4-49d8-a88a-defa83802ba3",
+    "receiverUID": "fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8",
+    "status": "accepted",
+    "message": "",
+    "createdAt": 1787380882.6305008,
+    "id": "df3cab28-bcb4-49d8-a88a-defa83802ba3_fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8"
+  },
+  "fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8_df3cab28-bcb4-49d8-a88a-defa83802ba3": {
+    "requestId": "fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8_df3cab28-bcb4-49d8-a88a-defa83802ba3",
+    "senderUID": "fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8",
+    "receiverUID": "df3cab28-bcb4-49d8-a88a-defa83802ba3",
+    "status": "accepted",
+    "message": "",
+    "createdAt": 1787382014.8706186,
+    "id": "fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8_df3cab28-bcb4-49d8-a88a-defa83802ba3"
+  }
+}

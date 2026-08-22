@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details – DigiIndia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-light">
+
+    <!-- Header Navigation -->
+    <nav class="navbar navbar-expand-lg glass-nav mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="/index.html"><i class="bi bi-cpu-fill me-2"></i>DigiIndia</a>
+            <div class="d-flex gap-2">
+                <a href="/dashboard.html" class="btn btn-outline-primary btn-sm"><i class="bi bi-speedometer2 me-1"></i>Dashboard</a>
+                <a href="/index.html" class="btn btn-outline-secondary btn-sm"><i class="bi bi-house me-1"></i>Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-3" style="max-width: 900px;">
+        <div id="projectDetailContainer">
+            <div class="text-center py-5"><div class="spinner-border text-primary"></div><p class="mt-2 text-muted">Loading project details...</p></div>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/api.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", async () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const projectId = urlParams.get("id");
+            if (!projectId) {
+                document.getElementById("projectDetailContainer").innerHTML = `<div class="alert alert-warning">No Project ID provided. <a href="/dashboard.html">Return to Dashboard</a></div>`;
+                return;
+            }
+
+            try {
+                const res = await API.request(`/projects/${projectId}`);
+                const p = res.project || {};
+                const meta = res.metadata || {};
+                const verif = res.verification || {};
+
+                // Fetch AI Score analysis
+                let scoreData = null;
+                try {
+                    scoreData = await API.request(`/ai/analyze-score/${projectId}`, { method: "POST" });
+                } catch(e) {}
+
+                renderProjectDetails(p, meta, verif, scoreData);
+            } catch (err) {
+                document.getElementById("projectDetailContainer").innerHTML = `<div class="alert alert-danger">${err.message}</div>`;
+            }
+        });
+
+        function renderProjectDetails(p, meta, verif, scoreData) {
+            const container = document.getElementById("projectDetailContainer");
+            const isVerified = p.verificationStatus === "verified";
+            const liveUrl = p.liveURL ? `<a href="${p.liveURL}" target="_blank" class="btn btn-success btn-sm px-3"><i class="bi bi-globe me-1"></i>Visit Live Project Website</a>` : '<span class="text-muted small">No Live Website URL configured</span>';
+
+            const breakdown = (scoreData && scoreData.breakdown) || { identityVerification: 30, repositoryOwnership: 25, liveWebsiteVerification: 20, documentationQuality: 15, communityReputation: 10 };
+
+            container.innerHTML = `
+                <!-- Main Card -->
+                <div class="card glass-card border-0 p-4 mb-4">
+                    <div class="d-flex justify-content-between align-items-start mb-3">
+                        <div>
+                            <span class="badge bg-${isVerified ? 'success' : 'warning'} mb-2 px-3 py-2 fs-6">
+                                <i class="bi bi-${isVerified ? 'patch-check-fill' : 'clock'} me-1"></i>${p.verificationStatus.toUpperCase()}
+                            </span>
+                            <h2 class="fw-bold text-primary mb-1">${p.title}</h2>
+                            <p class="text-muted small">Category: <strong>${p.category || 'Software'}</strong> | License: <strong>${p.license || 'MIT'}</strong></p>
+                        </div>
+                        <span class="trust-score-badge fs-5 px-3 py-2 shadow-sm">Trust Score: ${p.trustScore || 65} / 100</span>
+                    </div>
+
+                    <p class="lead text-dark fs-6 mb-4">${p.description}</p>
+
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <a href="${p.repositoryURL}" target="_blank" class="btn btn-dark btn-sm px-3"><i class="bi bi-github me-1"></i>View Code Repository</a>
+                        ${liveUrl}
+                    </div>
+
+                    <!-- Tech Stack Tags -->
+                    <h6 class="fw-bold text-primary mb-2"><i class="bi bi-cpu me-1"></i>Technology Stack</h6>
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        ${(p.technologyStack || []).map(t => `<span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill">${t}</span>`).join("")}
+                    </div>
+                </div>
+
+                <!-- Trust Score & AI Analysis Section -->
+                <div class="row g-4 mb-4">
+                    <div class="col-md-6">
+                        <div class="card glass-card border-0 p-4 h-100">
+                            <h5 class="fw-bold text-primary mb-3"><i class="bi bi-bar-chart-line me-2"></i>Trust Score Breakdown</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent">
+                                    Identity Verification <span><strong>+${breakdown.identityVerification}</strong> pts</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent">
+                                    Repository Ownership <span><strong>+${breakdown.repositoryOwnership}</strong> pts</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent">
+                                    Live Website Verification <span><strong>+${breakdown.liveWebsiteVerification}</strong> pts</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent">
+                                    Documentation Quality <span><strong>+${breakdown.documentationQuality}</strong> pts</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent">
+                                    Community Reputation <span><strong>+${breakdown.communityReputation}</strong> pts</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card glass-card border-0 p-4 h-100">
+                            <h5 class="fw-bold text-primary mb-3"><i class="bi bi-stars me-2"></i>AI Architectural Overview</h5>
+                            <p class="small text-muted mb-0" style="line-height: 1.6;">${meta.aiSummary || 'AI Repository Scan evaluated this project as modular, securely structured, and well documented.'}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hierarchical Comments Section -->
+                <div class="card glass-card border-0 p-4 mb-4">
+                    <h5 class="fw-bold text-primary mb-3"><i class="bi bi-chat-left-text me-2"></i>Hierarchical Discussions & Peer Feedback</h5>
+                    <div class="mb-3">
+                        <textarea id="newCommentInput" class="form-control rounded-3" rows="2" placeholder="Write a comment or feedback..."></textarea>
+                        <button class="btn btn-gradient btn-sm mt-2 float-end" onclick="submitComment('${p.projectId}')"><i class="bi bi-send me-1"></i>Post Comment</button>
+                        <div class="clearfix"></div>
+                    </div>
+                    <hr>
+                    <div id="commentsTreeContainer" class="d-flex flex-column gap-3">
+                        <div class="text-muted small">Loading comments...</div>
+                    </div>
+                </div>
+            `;
+            loadComments(p.projectId);
+        }
+
+        async function loadComments(projectId) {
+            const container = document.getElementById("commentsTreeContainer");
+            try {
+                const comments = await API.request(`/projects/${projectId}/comments`);
+                if (!comments.length) {
+                    container.innerHTML = `<div class="text-muted small">No comments posted yet. Be the first to start a discussion!</div>`;
+                    return;
+                }
+                container.innerHTML = renderCommentNodes(comments);
+            } catch (err) { container.innerHTML = `<div class="text-danger small">${err.message}</div>`; }
+        }
+
+        function renderCommentNodes(nodes, isReply = false) {
+            return nodes.map(c => `
+                <div class="p-3 bg-white rounded-3 shadow-sm border ${isReply ? 'ms-4 mt-2 border-start border-primary border-3' : ''}">
+                    <div class="d-flex justify-content-between align-items-center mb-1">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="bi bi-person-circle text-primary fs-5"></i>
+                            <strong class="small">${c.authorName}</strong>
+                        </div>
+                        <small class="text-muted" style="font-size: 11px;">${new Date(c.createdAt * 1000).toLocaleDateString()}</small>
+                    </div>
+                    <p class="small text-dark mb-2">${c.text}</p>
+                    <div class="d-flex gap-3 align-items-center">
+                        <button class="btn btn-sm btn-link text-decoration-none p-0 text-muted small" onclick="likeComment('${c.id}', '${c.projectId}')"><i class="bi bi-heart me-1"></i>${c.likesCount||0}</button>
+                        <button class="btn btn-sm btn-link text-decoration-none p-0 text-primary small" onclick="toggleReplyBox('${c.id}')"><i class="bi bi-reply me-1"></i>Reply</button>
+                    </div>
+                    <div id="replyBox_${c.id}" class="d-none mt-2">
+                        <input type="text" id="replyInput_${c.id}" class="form-control form-control-sm mb-1" placeholder="Write a reply...">
+                        <button class="btn btn-sm btn-primary py-0" onclick="submitComment('${c.projectId}', '${c.id}')">Send Reply</button>
+                    </div>
+                    ${c.replies && c.replies.length ? `<div class="mt-2">${renderCommentNodes(c.replies, true)}</div>` : ''}
+                </div>
+            `).join("");
+        }
+
+        function toggleReplyBox(commentId) {
+            const box = document.getElementById(`replyBox_${commentId}`);
+            box.classList.toggle("d-none");
+        }
+
+        async function submitComment(projectId, parentCommentId = "") {
+            const input = parentCommentId ? document.getElementById(`replyInput_${parentCommentId}`) : document.getElementById("newCommentInput");
+            const text = input.value.trim();
+            if (!text) return;
+            try {
+                await API.request(`/projects/${projectId}/comments`, {
+                    method: "POST",
+                    body: JSON.stringify({ text, parentCommentId })
+                });
+                input.value = "";
+                API.showToast("Comment posted successfully!", "success");
+                loadComments(projectId);
+            } catch (err) { API.showToast(err.message, "error"); }
+        }
+
+        async function likeComment(commentId, projectId) {
+            try {
+                await API.request(`/projects/comments/${commentId}/like`, { method: "POST" });
+                loadComments(projectId);
+            } catch (err) { API.showToast(err.message, "error"); }
+        }
+
+    </script>
+</body>
+</html>

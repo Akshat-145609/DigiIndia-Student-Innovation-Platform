@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account – DigiIndia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-light">
+
+    <!-- Header Navigation -->
+    <nav class="navbar navbar-expand-lg glass-nav mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="/index.html"><i class="bi bi-cpu-fill me-2"></i>DigiIndia</a>
+            <a href="/index.html" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left me-1"></i>Back to Home</a>
+        </div>
+    </nav>
+
+    <div class="container py-3 mb-5" style="max-width: 750px;">
+        <div class="card glass-card p-4 border-0">
+            <h3 class="fw-bold text-primary text-center mb-1">Student Registration Wizard</h3>
+            <p class="text-muted text-center small mb-4">Complete 6 quick steps to obtain your permanent Student Portal Number (SPN)</p>
+
+            <!-- Stepper Progress Bar -->
+            <div class="stepper-nav mb-4">
+                <div class="stepper-step active" id="stepIndicator1">1</div>
+                <div class="stepper-step" id="stepIndicator2">2</div>
+                <div class="stepper-step" id="stepIndicator3">3</div>
+                <div class="stepper-step" id="stepIndicator4">4</div>
+                <div class="stepper-step" id="stepIndicator5">5</div>
+                <div class="stepper-step" id="stepIndicator6">6</div>
+            </div>
+
+            <form id="registrationForm">
+
+                <!-- STEP 1: Student Verification -->
+                <div class="step-content" id="step1">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-person-vcard text-primary me-2"></i>Step 1: Student Verification</h5>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Full Student Name (As on Documents)</label>
+                        <input type="text" id="regFullName" class="form-control rounded-3" placeholder="e.g. Akshat Sharma" required>
+                    </div>
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">ABC ID (Academic Bank of Credits)</label>
+                            <input type="text" id="regAbcId" class="form-control rounded-3" placeholder="e.g. 240031456789">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Aadhaar Number (Optional / Private)</label>
+                            <input type="text" id="regAadhaar" class="form-control rounded-3" placeholder="e.g. 1234 5678 9012">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Upload Identity Document (ABC ID / Aadhaar)</label>
+                        <input type="file" id="regIdFile" class="form-control rounded-3">
+                        <span class="form-text small">Formats accepted: JPG, PNG, PDF. Cloudinary encrypted authenticated upload.</span>
+                    </div>
+                    <div class="d-flex justify-content-end mt-4">
+                        <button type="button" class="btn btn-gradient px-4" onclick="nextStep(2)">Next: College Info <i class="bi bi-arrow-right ms-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- STEP 2: College Verification -->
+                <div class="step-content d-none" id="step2">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-building text-primary me-2"></i>Step 2: College & Academic Details</h5>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">College / Institution Name</label>
+                        <input type="text" id="regCollege" class="form-control rounded-3" placeholder="e.g. Indian Institute of Technology" required>
+                    </div>
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Course / Degree</label>
+                            <input type="text" id="regCourse" class="form-control rounded-3" placeholder="e.g. B.Tech Computer Science" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label fw-semibold">Semester</label>
+                            <select id="regSemester" class="form-select rounded-3">
+                                <option value="1">Sem 1</option>
+                                <option value="2">Sem 2</option>
+                                <option value="3">Sem 3</option>
+                                <option value="4">Sem 4</option>
+                                <option value="5">Sem 5</option>
+                                <option value="6">Sem 6</option>
+                                <option value="7">Sem 7</option>
+                                <option value="8">Sem 8</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label fw-semibold">Graduation</label>
+                            <input type="text" id="regGraduationYear" class="form-control rounded-3" value="2027">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-4">
+                        <button type="button" class="btn btn-outline-secondary" onclick="prevStep(1)"><i class="bi bi-arrow-left me-1"></i> Back</button>
+                        <button type="button" class="btn btn-gradient px-4" onclick="nextStep(3)">Next: Contact Details <i class="bi bi-arrow-right ms-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- STEP 3: Contact Details & OTP -->
+                <div class="step-content d-none" id="step3">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-envelope-at text-primary me-2"></i>Step 3: Contact Information & Brevo OTP</h5>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Primary Student Email Address</label>
+                        <div class="input-group">
+                            <input type="email" id="regEmail" class="form-control rounded-3-start" placeholder="student@college.edu" required>
+                            <button type="button" class="btn btn-outline-primary" onclick="sendOtp()"><i class="bi bi-send me-1"></i>Send Brevo OTP</button>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Enter 6-Digit Email OTP</label>
+                        <div class="input-group">
+                            <input type="text" id="regOtpInput" class="form-control rounded-3-start" placeholder="6-digit code">
+                            <button type="button" class="btn btn-success" onclick="verifyOtp()"><i class="bi bi-check-circle me-1"></i>Verify OTP</button>
+                        </div>
+                        <span id="otpStatusMsg" class="form-text"></span>
+                    </div>
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Phone Number</label>
+                            <input type="tel" id="regPhone" class="form-control rounded-3" placeholder="+91 9876543210" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">WhatsApp Number</label>
+                            <input type="tel" id="regWhatsapp" class="form-control rounded-3" placeholder="Same as phone">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-4">
+                        <button type="button" class="btn btn-outline-secondary" onclick="prevStep(2)"><i class="bi bi-arrow-left me-1"></i> Back</button>
+                        <button type="button" class="btn btn-gradient px-4" onclick="nextStep(4)">Next: Security Email <i class="bi bi-arrow-right ms-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- STEP 4: Security Email -->
+                <div class="step-content d-none" id="step4">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-shield-lock text-primary me-2"></i>Step 4: Secondary Security Email (Optional)</h5>
+                    <p class="text-muted small">A secondary security email address is used to send security login alerts and account recovery notifications.</p>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Security Email Address</label>
+                        <input type="email" id="regSecurityEmail" class="form-control rounded-3" placeholder="personal.email@gmail.com">
+                    </div>
+                    <div class="d-flex justify-content-between mt-4">
+                        <button type="button" class="btn btn-outline-secondary" onclick="prevStep(3)"><i class="bi bi-arrow-left me-1"></i> Back</button>
+                        <button type="button" class="btn btn-gradient px-4" onclick="nextStep(5)">Next: Social Profiles <i class="bi bi-arrow-right ms-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- STEP 5: Social Profiles -->
+                <!-- STEP 5: Social, Avatar & Developer Profiles -->
+                <div class="step-content d-none" id="step5">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-share text-primary me-2"></i>Step 5: Photos & Social Profiles</h5>
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold"><i class="bi bi-person-bounding-box me-1"></i>Profile Photo (Avatar)</label>
+                            <input type="file" id="regAvatarFile" class="form-control rounded-3" accept="image/*">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold"><i class="bi bi-image me-1"></i>Backcover Image</label>
+                            <input type="file" id="regCoverFile" class="form-control rounded-3" accept="image/*">
+                        </div>
+                    </div>
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold"><i class="bi bi-github me-1"></i>GitHub Profile URL</label>
+                            <input type="url" id="regGithub" class="form-control rounded-3" placeholder="https://github.com/username">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold"><i class="bi bi-linkedin me-1"></i>LinkedIn Profile URL</label>
+                            <input type="url" id="regLinkedin" class="form-control rounded-3" placeholder="https://linkedin.com/in/username">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Skills (Comma separated)</label>
+                        <input type="text" id="regSkills" class="form-control rounded-3" placeholder="e.g. Python, FastAPI, JavaScript, Firebase, AI">
+                    </div>
+                    <div class="d-flex justify-content-between mt-4">
+                        <button type="button" class="btn btn-outline-secondary" onclick="prevStep(4)"><i class="bi bi-arrow-left me-1"></i> Back</button>
+                        <button type="button" class="btn btn-gradient px-4" onclick="nextStep(6)">Next: Security Password <i class="bi bi-arrow-right ms-1"></i></button>
+                    </div>
+                </div>
+
+                <!-- STEP 6: Password & Captcha -->
+                <div class="step-content d-none" id="step6">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-key text-primary me-2"></i>Step 6: Account Password & Submit</h5>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Password</label>
+                        <input type="password" id="regPassword" class="form-control rounded-3" placeholder="At least 12 characters" onkeyup="checkPasswordStrength(this.value)" required>
+                        <div class="progress mt-2" style="height: 6px;">
+                            <div id="passwordStrengthBar" class="progress-bar bg-danger" style="width: 20%;"></div>
+                        </div>
+                        <span id="passwordStrengthText" class="form-text text-danger small">Weak Password</span>
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label fw-semibold">Captcha Verification</label>
+                        <div class="p-3 bg-white border rounded-3 d-flex align-items-center justify-content-between">
+                            <span class="fw-bold fs-5 text-primary tracking-wider" style="letter-spacing: 4px;">DIGI-2026</span>
+                            <input type="text" id="regCaptcha" class="form-control w-50" placeholder="Type text above" required>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-4">
+                        <button type="button" class="btn btn-outline-secondary" onclick="prevStep(5)"><i class="bi bi-arrow-left me-1"></i> Back</button>
+                        <button type="submit" class="btn btn-gradient btn-lg px-5 shadow-lg"><i class="bi bi-check-circle me-1"></i> Complete Registration & Get SPN</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/api.js"></script>
+    <script>
+        let currentStep = 1;
+
+        function updateStepUI(step) {
+            document.querySelectorAll(".step-content").forEach(el => el.classList.add("d-none"));
+            document.getElementById(`step${step}`).classList.remove("d-none");
+
+            document.querySelectorAll(".stepper-step").forEach((el, idx) => {
+                const sNum = idx + 1;
+                el.classList.remove("active", "completed");
+                if (sNum === step) el.classList.add("active");
+                else if (sNum < step) el.classList.add("completed");
+            });
+            currentStep = step;
+        }
+
+        function nextStep(target) {
+            if (currentStep === 1 && !document.getElementById("regFullName").value.trim()) {
+                API.showToast("Full Name is required", "error");
+                return;
+            }
+            if (currentStep === 2 && (!document.getElementById("regCollege").value.trim() || !document.getElementById("regCourse").value.trim())) {
+                API.showToast("College and Course are required", "error");
+                return;
+            }
+            updateStepUI(target);
+        }
+
+        function prevStep(target) {
+            updateStepUI(target);
+        }
+
+        function fileToBase64(file) {
+            return new Promise((resolve) => {
+                if (!file) { resolve(""); return; }
+                const reader = new FileReader();
+                reader.onload = (e) => resolve(e.target.result);
+                reader.readAsDataURL(file);
+            });
+        }
+
+        async function sendOtp() {
+            const email = document.getElementById("regEmail").value.trim();
+            const name = document.getElementById("regFullName").value.trim() || "Student";
+            if (!email) {
+                API.showToast("Please enter email address first", "error");
+                return;
+            }
+            try {
+                const res = await API.request("/auth/otp/request", {
+                    method: "POST",
+                    body: JSON.stringify({ email, name })
+                });
+                API.showToast(res.message, "success");
+                document.getElementById("otpStatusMsg").innerText = "OTP sent to your email via Brevo REST API!";
+                document.getElementById("otpStatusMsg").className = "form-text text-success";
+            } catch (err) {
+                API.showToast(err.message, "error");
+            }
+        }
+
+        async function verifyOtp() {
+            const email = document.getElementById("regEmail").value.trim();
+            const otp = document.getElementById("regOtpInput").value.trim();
+            if (!email || !otp) {
+                API.showToast("Enter email and OTP code", "error");
+                return;
+            }
+            try {
+                const res = await API.request("/auth/otp/verify", {
+                    method: "POST",
+                    body: JSON.stringify({ email, otp })
+                });
+                API.showToast(res.message, "success");
+                document.getElementById("otpStatusMsg").innerText = "✓ Email Verified Successfully!";
+                document.getElementById("otpStatusMsg").className = "form-text text-success fw-bold";
+            } catch (err) {
+                API.showToast(err.message, "error");
+            }
+        }
+
+        function checkPasswordStrength(val) {
+            const bar = document.getElementById("passwordStrengthBar");
+            const text = document.getElementById("passwordStrengthText");
+            if (val.length < 6) {
+                bar.style.width = "20%"; bar.className = "progress-bar bg-danger"; text.innerText = "Weak Password";
+            } else if (val.length < 10) {
+                bar.style.width = "60%"; bar.className = "progress-bar bg-warning"; text.innerText = "Medium Password";
+            } else {
+                bar.style.width = "100%"; bar.className = "progress-bar bg-success"; text.innerText = "Strong & Secure Password";
+            }
+        }
+
+        document.getElementById("registrationForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const captcha = document.getElementById("regCaptcha").value.trim();
+            if (captcha.toUpperCase() !== "DIGI-2026") {
+                API.showToast("Captcha code is invalid", "error");
+                return;
+            }
+
+            const avatarFile = document.getElementById("regAvatarFile").files[0];
+            const coverFile = document.getElementById("regCoverFile").files[0];
+            const avatarURL = await fileToBase64(avatarFile);
+            const coverURL = await fileToBase64(coverFile);
+
+            const payload = {
+                fullName: document.getElementById("regFullName").value.trim(),
+                email: document.getElementById("regEmail").value.trim(),
+                phone: document.getElementById("regPhone").value.trim(),
+                whatsapp: document.getElementById("regWhatsapp").value.trim(),
+                password: document.getElementById("regPassword").value.trim(),
+                securityEmail: document.getElementById("regSecurityEmail").value.trim() || undefined,
+                college: document.getElementById("regCollege").value.trim(),
+                course: document.getElementById("regCourse").value.trim(),
+                semester: document.getElementById("regSemester").value,
+                graduationYear: document.getElementById("regGraduationYear").value,
+                abcId: document.getElementById("regAbcId").value.trim(),
+                aadhaar: document.getElementById("regAadhaar").value.trim(),
+                socialLinks: {
+                    github: document.getElementById("regGithub").value.trim(),
+                    linkedin: document.getElementById("regLinkedin").value.trim()
+                },
+                skills: document.getElementById("regSkills").value.split(",").map(s => s.trim()).filter(Boolean),
+                avatarURL,
+                coverURL
+            };
+
+            try {
+                const res = await API.request("/auth/register", {
+                    method: "POST",
+                    body: JSON.stringify(payload)
+                });
+                API.setToken(res.token);
+                API.setUser(res.student);
+                API.showCustomAlert(
+                    "Registration Successful!",
+                    `Welcome to DigiIndia! Your 8-Digit Student Portal Number (SPN) is: <strong class="fs-4 text-primary d-block mt-2">${res.student.spn}</strong>`,
+                    () => { window.location.href = "/dashboard.html"; }
+                );
+            } catch (err) {
+                API.showToast(err.message, "error");
+            }
+        });
+
+    </script>
+</body>
+</html>

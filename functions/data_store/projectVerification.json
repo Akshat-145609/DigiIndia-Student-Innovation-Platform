@@ -1,0 +1,62 @@
+{
+  "10f58fc7-0fae-4b12-a25f-7a4b2eaedacf": {
+    "projectId": "10f58fc7-0fae-4b12-a25f-7a4b2eaedacf",
+    "verificationToken": "8COwXHmA9iO2PTTrzXryJw",
+    "verificationMethod": "meta_tag",
+    "verificationStatus": "verified",
+    "metaTag": "<meta name=\"digiindia-student-innovation-platform\" content=\"8COwXHmA9iO2PTTrzXryJw\">",
+    "attemptCount": 3,
+    "createdAt": 1785319835.9617205,
+    "lastAttempt": 1785818616.1546257,
+    "verifiedAt": 1785818622.7624362,
+    "crawlerLog": "Meta tag verification successful!"
+  },
+  "a9314e73-00cd-4e18-98d7-6409901b9cc0": {
+    "projectId": "a9314e73-00cd-4e18-98d7-6409901b9cc0",
+    "verificationToken": "Kz0eSdwhAat5MoBYJ6At6g",
+    "verificationMethod": "meta_tag",
+    "verificationStatus": "verified",
+    "metaTag": "<meta name=\"digiindia-student-innovation-platform\" content=\"Kz0eSdwhAat5MoBYJ6At6g\">",
+    "attemptCount": 1,
+    "createdAt": 1785392472.6033056,
+    "lastAttempt": 1785395619.0991824,
+    "verifiedAt": 1785395620.7369068,
+    "crawlerLog": "Meta tag verification successful!"
+  },
+  "ddb826b1-d498-48b1-9f20-acf0a2c62335": {
+    "projectId": "ddb826b1-d498-48b1-9f20-acf0a2c62335",
+    "verificationToken": "2nky4xOG6WwjlXTk1-Ckpw",
+    "verificationMethod": "meta_tag",
+    "verificationStatus": "verified",
+    "metaTag": "<meta name=\"digiindia-student-innovation-platform\" content=\"2nky4xOG6WwjlXTk1-Ckpw\">",
+    "attemptCount": 2,
+    "createdAt": 1785396564.082345,
+    "lastAttempt": 1785818628.3179748,
+    "verifiedAt": 1785818639.2380762,
+    "crawlerLog": "Meta tag verification successful!"
+  },
+  "8b4f38f2-5504-4cbb-a567-91e238334b99": {
+    "projectId": "8b4f38f2-5504-4cbb-a567-91e238334b99",
+    "verificationToken": "vXLGkKJ4xknUhjgJIS21LQ",
+    "verificationMethod": "meta_tag",
+    "verificationStatus": "verified",
+    "metaTag": "<meta name=\"digiindia-student-innovation-platform\" content=\"vXLGkKJ4xknUhjgJIS21LQ\">",
+    "attemptCount": 3,
+    "createdAt": 1785398572.9795208,
+    "lastAttempt": 1785398848.9773111,
+    "failureReason": "Meta tag 'digiindia-student-innovation-platform' with content 'vXLGkKJ4xknUhjgJIS21LQ' not found on https://akshat-881236.github.io/AkshatNetworkHub/ai/index.htm",
+    "verifiedAt": 1785398850.5164528,
+    "crawlerLog": "Meta tag verification successful!"
+  },
+  "d4aa67b3-382f-40ba-9cd0-8381949cf43a": {
+    "projectId": "d4aa67b3-382f-40ba-9cd0-8381949cf43a",
+    "verificationToken": "2kV9BlePhk89XPlAvirJIw",
+    "verificationMethod": "meta_tag",
+    "verificationStatus": "failed",
+    "metaTag": "<meta name=\"digiindia-student-innovation-platform\" content=\"2kV9BlePhk89XPlAvirJIw\">",
+    "attemptCount": 8,
+    "createdAt": 1785400412.0636983,
+    "lastAttempt": 1785402410.3994133,
+    "failureReason": "Meta tag 'digiindia-student-innovation-platform' with content '2kV9BlePhk89XPlAvirJIw' not found on https://dpgnotes.web.app/"
+  }
+}

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiIndia – Student Innovation Platform</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Glassmorphic Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-primary" href="/index.html">
+                <i class="bi bi-cpu-fill fs-3 text-primary"></i>
+                <span>DigiIndia</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active fw-medium" href="/index.html"><i class="bi bi-house-door me-1"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="#documentation" data-bs-toggle="modal" data-bs-target="#docsModal"><i class="bi bi-book me-1"></i>Documentation</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="#legal" data-bs-toggle="modal" data-bs-target="#legalModal"><i class="bi bi-shield-check me-1"></i>Legal Center</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="/dashboard.html"><i class="bi bi-speedometer2 me-1"></i>Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="/profile.html"><i class="bi bi-person-badge me-1"></i>Profile</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium text-danger" href="/Admin.html"><i class="bi bi-shield-lock me-1"></i>Admin</a></li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-outline-primary rounded-3 px-3" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        <i class="bi bi-box-arrow-in-right me-1"></i>Login
+                    </button>
+                    <a href="/CreateAccount.html" class="btn btn-gradient">
+                        <i class="bi bi-person-plus me-1"></i>Create Account
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero-banner text-center">
+        <div class="container py-5">
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill mb-3 fw-semibold">
+                <i class="bi bi-stars me-1"></i>Verified Student Ecosystem
+            </span>
+            <h1 class="display-4 fw-bold mb-3">One Digital Identity for Every Verified Student</h1>
+            <p class="lead text-muted mx-auto mb-4" style="max-width: 750px;">
+                DigiIndia Student Innovation Platform enables verified students to build projects, verify repository ownership, collaborate with peers, generate developer APIs, and receive AI-powered code reviews.
+            </p>
+            <div class="d-flex justify-content-center gap-3 mb-5">
+                <a href="/CreateAccount.html" class="btn btn-gradient btn-lg px-4 py-3 shadow-lg">
+                    <i class="bi bi-rocket-takeoff me-2"></i>Get Started (Register)
+                </a>
+                <button class="btn btn-outline-dark btn-lg px-4 py-3 rounded-3" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    <i class="bi bi-person-check me-2"></i>Login with SPN
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Features Section -->
+    <section class="container py-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card glass-card p-4 h-100 border-0">
+                    <div class="display-6 text-primary mb-3"><i class="bi bi-person-bounding-box"></i></div>
+                    <h5 class="fw-bold mb-2">Student Verification</h5>
+                    <p class="text-muted small mb-0">ABC ID & Aadhaar document OCR validation with unique 8-digit Student Portal Number (SPN) generation.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card glass-card p-4 h-100 border-0">
+                    <div class="display-6 text-purple mb-3" style="color: #6610F2;"><i class="bi bi-patch-check-fill"></i></div>
+                    <h5 class="fw-bold mb-2">Project Ownership Meta Crawler</h5>
+                    <p class="text-muted small mb-0">Verify project ownership by inserting a unique HTML meta-tag. Automatically boosts project Trust Score.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card glass-card p-4 h-100 border-0">
+                    <div class="display-6 text-success mb-3"><i class="bi bi-key-fill"></i></div>
+                    <h5 class="fw-bold mb-2">Developer API Gateway</h5>
+                    <p class="text-muted small mb-0">Generate secure API keys (`di_live_...`) to expose your portfolio and project APIs to third-party web apps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content glass-card p-2 border-0">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold text-primary"><i class="bi bi-box-arrow-in-right me-2"></i>Login to DigiIndia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="homeLoginForm">
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">SPN or Email</label>
+                            <input type="text" id="loginIdentifier" class="form-control rounded-3" placeholder="e.g. 26012345 or student@college.edu" required>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <label class="form-label fw-semibold mb-0">Password</label>
+                                <a href="#" class="small text-primary text-decoration-none fw-semibold" onclick="openForgotPasswordModal(event)"><i class="bi bi-key me-1"></i>Forgot Password?</a>
+                            </div>
+                            <input type="password" id="loginPassword" class="form-control rounded-3" placeholder="••••••••••••" required>
+                        </div>
+                        <div class="alert alert-info py-2 small">
+                            <i class="bi bi-info-circle me-1"></i>Use your 8-digit SPN or registered Email address.
+                        </div>
+                        <button type="submit" class="btn btn-gradient w-100 py-2 shadow-sm mb-2">Login Now</button>
+                    </form>
+                    <div class="text-center mt-3 pt-2 border-top">
+                        <span class="small text-muted">Don't have an account? </span>
+                        <a href="/register.html" class="small fw-bold text-primary text-decoration-none">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Forgot Password Multi-Factor Recovery Modal -->
+    <div class="modal fade" id="forgotPasswordModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content glass-card p-3 border-0">
+                <div class="modal-header border-0 pb-0">
+                    <h5 class="modal-title fw-bold text-primary"><i class="bi bi-shield-lock me-2"></i>Multi-Factor Password Recovery</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="forgotStep1">
+                        <p class="small text-muted mb-3">Enter your 8-digit SPN or Primary/Security Email to receive a 6-digit verification OTP code.</p>
+                        <div class="mb-3">
+                            <label class="form-label small fw-semibold">SPN or Email Address</label>
+                            <input type="text" id="fpIdentifier" class="form-control rounded-3" placeholder="e.g. 26776089 or student@gmail.com">
+                        </div>
+                        <button type="button" class="btn btn-primary w-100 py-2" onclick="sendPasswordResetOTP()"><i class="bi bi-send me-1"></i>Send Verification OTP</button>
+                    </div>
+
+                    <div id="forgotStep2" class="d-none">
+                        <div class="alert alert-success py-2 small mb-3"><i class="bi bi-check-circle me-1"></i>OTP sent to your verified Primary and Security emails!</div>
+                        <div class="mb-3">
+                            <label class="form-label small fw-semibold">6-Digit Verification OTP Code</label>
+                            <input type="text" id="fpOtpCode" class="form-control rounded-3 text-center fs-5" placeholder="123456" maxlength="6">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label small fw-semibold">New Password</label>
+                            <input type="password" id="fpNewPassword" class="form-control rounded-3" placeholder="Enter new strong password">
+                        </div>
+                        <button type="button" class="btn btn-success w-100 py-2" onclick="submitPasswordReset()"><i class="bi bi-key-fill me-1"></i>Set New Password</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                    <div class="text-center mt-3">
+                        <span class="text-muted small">Don't have an account?</span>
+                        <a href="/CreateAccount.html" class="fw-semibold text-primary ms-1">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Documentation Modal -->
+    <div class="modal fade" id="docsModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content glass-card border-0">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold"><i class="bi bi-book me-2 text-primary"></i>Platform Documentation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="fw-bold text-primary">1. Getting Started</h6>
+                    <p class="small text-muted">Register using the 6-step wizard. Complete identity validation to obtain your permanent 8-digit Student Portal Number (SPN).</p>
+                    
+                    <h6 class="fw-bold text-primary mt-3">2. Project Upload & Meta Verification</h6>
+                    <p class="small text-muted">Submit your software projects. Copy the generated meta tag into your homepage HTML: <code>&lt;meta name="digiindia-student-innovation-platform" content="..."&gt;</code> and click verify.</p>
+
+                    <h6 class="fw-bold text-primary mt-3">3. Developer APIs</h6>
+                    <p class="small text-muted">Generate API keys starting with <code>di_live_</code> from the dashboard. Pass key in request header: <code>X-DigiIndia-Key: di_live_...</code></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Legal Center Modal -->
+    <div class="modal fade" id="legalModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content glass-card border-0">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold"><i class="bi bi-shield-check me-2 text-success"></i>Legal Center & Compliance</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="fw-bold">Privacy Policy (DPDP Act India & GDPR Compliant)</h6>
+                    <p class="small text-muted">Student identity data and uploaded verification documents are stored securely using Cloudinary authenticated private storage. Aadhaar details are processed strictly for verification and never exposed publicly.</p>
+
+                    <h6 class="fw-bold mt-3">Terms of Service</h6>
+                    <p class="small text-muted">Only original student innovation projects may be submitted. Plagiarism, fake repository ownership claims, or spam will result in instant account revocation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-top py-4 mt-5 bg-white text-center text-muted small">
+        <div class="container">
+            <p class="mb-0">DigiIndia – Student Innovation Platform © 2026. Built with FastAPI & Bootstrap 5.</p>
+        </div>
+    </footer>
+
+    <div id="toast-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/api.js"></script>
+    <script>
+        document.getElementById("homeLoginForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const identifier = document.getElementById("loginIdentifier").value.trim();
+            const password = document.getElementById("loginPassword").value.trim();
+
+            try {
+                const res = await API.request("/auth/login", {
+                    method: "POST",
+                    body: JSON.stringify({ identifier, password })
+                });
+                API.setToken(res.token);
+                API.setUser(res.student);
+                API.showToast("Login successful! Redirecting to Dashboard...", "success");
+                setTimeout(() => {
+                    if (res.student.role === "admin") {
+                        window.location.href = "/Admin.html";
+                    } else {
+                        window.location.href = "/dashboard.html";
+                    }
+                }, 1000);
+            } catch (err) {
+                API.showToast(err.message, "error");
+            }
+        });
+
+        let fpTargetIdentifier = "";
+
+        function openForgotPasswordModal(e) {
+            if (e) e.preventDefault();
+            const loginModalEl = document.getElementById("loginModal");
+            const loginModal = bootstrap.Modal.getInstance(loginModalEl);
+            if (loginModal) loginModal.hide();
+
+            document.getElementById("forgotStep1").classList.remove("d-none");
+            document.getElementById("forgotStep2").classList.add("d-none");
+            
+            const prefill = document.getElementById("loginIdentifier").value.trim();
+            if (prefill) document.getElementById("fpIdentifier").value = prefill;
+
+            const fpModal = new bootstrap.Modal(document.getElementById("forgotPasswordModal"));
+            fpModal.show();
+        }
+
+        async function sendPasswordResetOTP() {
+            const identifier = document.getElementById("fpIdentifier").value.trim();
+            if (!identifier) {
+                API.showToast("Please enter your SPN or Email address", "error");
+                return;
+            }
+            try {
+                await API.request("/auth/forgot-password/request-otp", {
+                    method: "POST",
+                    body: JSON.stringify({ identifier })
+                });
+                fpTargetIdentifier = identifier;
+                document.getElementById("forgotStep1").classList.add("d-none");
+                document.getElementById("forgotStep2").classList.remove("d-none");
+                API.showToast("Verification OTP sent to registered email addresses!", "success");
+            } catch (err) {
+                API.showToast(err.message, "error");
+            }
+        }
+
+        async function submitPasswordReset() {
+            const otpCode = document.getElementById("fpOtpCode").value.trim();
+            const newPassword = document.getElementById("fpNewPassword").value.trim();
+
+            if (!otpCode || otpCode.length !== 6) {
+                API.showToast("Please enter valid 6-digit OTP code", "error");
+                return;
+            }
+            if (!newPassword || newPassword.length < 6) {
+                API.showToast("New password must be at least 6 characters", "error");
+                return;
+            }
+
+            try {
+                await API.request("/auth/forgot-password/reset", {
+                    method: "POST",
+                    body: JSON.stringify({
+                        identifier: fpTargetIdentifier,
+                        otp: otpCode,
+                        newPassword: newPassword
+                    })
+
+                });
+                API.showToast("Password updated successfully! Log in with your new password.", "success");
+                const fpModalEl = document.getElementById("forgotPasswordModal");
+                const fpModal = bootstrap.Modal.getInstance(fpModalEl);
+                if (fpModal) fpModal.hide();
+
+                const loginModal = new bootstrap.Modal(document.getElementById("loginModal"));
+                loginModal.show();
+            } catch (err) {
+                API.showToast(err.message, "error");
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "ac28de40-2904-446a-95f6-ea8b4aa27d34": {
+    "keyId": "ac28de40-2904-446a-95f6-ea8b4aa27d34",
+    "ownerUID": "fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8",
+    "apiName": "Portfolio Website Integration",
+    "hashedKey": "1d80c88a814784be90bea9c60a9812c41843cc9c78c7c4416b5a0e793c63fa67",
+    "keyPrefix": "di_live_0b75...",
+    "permissions": [
+      "search",
+      "projects"
+    ],
+    "usageCount": 0,
+    "status": "active",
+    "createdAt": 1785399193.7254677,
+    "expiresAt": 1816935193.7254589,
+    "lastUsed": null
+  }
+}

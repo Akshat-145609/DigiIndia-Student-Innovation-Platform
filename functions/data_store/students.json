@@ -1,0 +1,30 @@
+{
+  "fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8": {
+    "uid": "fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8",
+    "spn": "26776089",
+    "email": "akshatpsd2005@gmail.com",
+    "phone": "+917838250289",
+    "whatsapp": "+917838250289",
+    "passwordHash": "$2b$12$zCoMDi.pwBPvUfq9xbr1uO3zbA5bgSmBOvIQdUu5In7mFvWxZKjXO",
+    "role": "student",
+    "status": "active",
+    "verificationStatus": "verified",
+    "securityEmail": "akshatpsd23@gmail.com",
+    "createdAt": 1785319422.8874023,
+    "updatedAt": 1785320127.8457408
+  },
+  "df3cab28-bcb4-49d8-a88a-defa83802ba3": {
+    "uid": "df3cab28-bcb4-49d8-a88a-defa83802ba3",
+    "spn": "26360087",
+    "email": "its.akshatnetworkhub23@gmail.com",
+    "phone": "9953854901",
+    "whatsapp": "7838250289",
+    "passwordHash": "$2b$12$WQiNtKVzWKHre2cpKA9dyOj8Kb1te7iZWIkd8x.DXiDbnF/5wmJj6",
+    "role": "admin",
+    "status": "active",
+    "verificationStatus": "verified",
+    "securityEmail": "akshatpsd2005@gmail.com",
+    "createdAt": 1785399706.5310836,
+    "updatedAt": 1785399797.3026962
+  }
+}

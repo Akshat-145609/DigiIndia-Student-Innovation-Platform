@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiIndia Search Engine – Public Developer Discovery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-light">
+
+    <!-- Topbar Navbar -->
+    <nav class="navbar navbar-expand-lg glass-nav mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary d-flex align-items-center gap-2" href="/search.html">
+                <i class="bi bi-search-heart fs-3"></i>
+                <span>DigiIndia Search Engine</span>
+            </a>
+            <div class="d-flex gap-2">
+                <a href="/index.html" class="btn btn-outline-secondary btn-sm"><i class="bi bi-house me-1"></i>Home</a>
+                <a href="/dashboard.html" class="btn btn-gradient btn-sm"><i class="bi bi-speedometer2 me-1"></i>Dashboard</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Engine Hero Section -->
+    <div class="container py-4 text-center" style="max-width: 850px;">
+        <div class="mb-3">
+            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fw-semibold">
+                <i class="bi bi-key-fill me-1"></i>Public Developer & Project Search API
+            </span>
+        </div>
+        <h2 class="display-6 fw-bold mb-3">Discover Student Innovation & Projects</h2>
+        <p class="text-muted mb-4">Powered by DigiIndia REST API Gateway using <code>X-DigiIndia-Key</code> Developer Authentication</p>
+
+        <!-- Search Bar Box with Auto-Complete Dropdown -->
+        <div class="glass-card p-3 shadow-lg border-0 mb-3 text-start position-relative">
+            <div class="row g-2">
+                <div class="col-md-7 position-relative">
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-0"><i class="bi bi-search text-primary fs-5"></i></span>
+                        <input type="text" id="engineQueryInput" class="form-control form-control-lg border-0 ps-0" placeholder="Search projects (or speak: 'Find Python ML projects')..." oninput="handleAutoCompleteInput(this.value)" onkeyup="if(event.key==='Enter') executePublicSearch()">
+                        <button class="btn bg-white border-0 text-danger px-3" onclick="startVoiceSearch()" title="Voice Search"><i class="bi bi-mic-fill fs-5" id="voiceMicIcon"></i></button>
+                    </div>
+                    <!-- Auto-Complete Suggestion Box -->
+                    <div id="autoCompleteDropdown" class="list-group position-absolute w-100 shadow-lg d-none z-3" style="top: 100%; left: 0;"></div>
+                </div>
+
+                <div class="col-md-3">
+                    <input type="text" id="engineApiKeyInput" class="form-control form-control-lg" placeholder="X-DigiIndia-Key (Optional)">
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-gradient btn-lg w-100 fw-bold" onclick="executePublicSearch()"><i class="bi bi-search me-1"></i>Search</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Faceted Filters & Multi-Language Selector Bar -->
+        <div class="glass-card p-3 border-0 mb-4 text-start">
+            <div class="row g-2 align-items-center">
+                <div class="col-md-3">
+                    <select id="filterLanguage" class="form-select form-select-sm rounded-3" onchange="executePublicSearch()">
+                        <option value="">All Languages</option>
+                        <option value="Python">Python</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="TypeScript">TypeScript</option>
+                        <option value="C++">C++</option>
+                        <option value="Java">Java</option>
+                        <option value="Rust">Rust</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select id="filterLicense" class="form-select form-select-sm rounded-3" onchange="executePublicSearch()">
+                        <option value="">All Licenses</option>
+                        <option value="MIT">MIT License</option>
+                        <option value="Apache">Apache 2.0</option>
+                        <option value="GPL">GPL 3.0</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select id="filterSortBy" class="form-select form-select-sm rounded-3" onchange="executePublicSearch()">
+                        <option value="relevance">Sort by Relevance</option>
+                        <option value="trust_score">Sort by Trust Score</option>
+                        <option value="stars">Sort by Stargazers</option>
+                        <option value="date">Sort by Date</option>
+                    </select>
+                </div>
+                <div class="col-md-3 text-end">
+                    <span class="small fw-bold text-muted me-1">Lang:</span>
+                    <button class="btn btn-sm btn-outline-dark px-2 py-0 active" onclick="setLang('en', this)">EN</button>
+                    <button class="btn btn-sm btn-outline-dark px-2 py-0" onclick="setLang('hi', this)">HI</button>
+                    <button class="btn btn-sm btn-outline-dark px-2 py-0" onclick="setLang('es', this)">ES</button>
+                    <button class="btn btn-sm btn-outline-dark px-2 py-0" onclick="setLang('fr', this)">FR</button>
+                    <button class="btn btn-sm btn-outline-dark px-2 py-0" onclick="setLang('de', this)">DE</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Category Chips -->
+        <div class="d-flex justify-content-center flex-wrap gap-2 mb-4">
+            <button class="btn btn-sm btn-outline-primary active" onclick="setSearchCategory('all', this)">All Results</button>
+            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('semantic', this)"><i class="bi bi-cpu me-1"></i>Semantic Vector (RAG)</button>
+            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('projects', this)">Projects</button>
+            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('students', this)">Students</button>
+            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('verified', this)">Verified Only</button>
+            <button class="btn btn-sm btn-outline-purple" onclick="setSearchCategory('global', this)"><i class="bi bi-globe me-1"></i>Global Web Results</button>
+            <button class="btn btn-sm btn-success" onclick="triggerDigiBot()"><i class="bi bi-robot me-1"></i>Run DigiBot/1.0 Indexer</button>
+        </div>
+
+        <!-- AI Overview Card -->
+        <div id="searchAiOverviewCard" class="card glass-card border-0 mb-4 p-4 text-start d-none" style="background: linear-gradient(135deg, rgba(13,110,253,0.05), rgba(102,16,242,0.05)); border-left: 4px solid #0D6EFD !important;">
+            <div class="d-flex align-items-center gap-2 mb-2">
+                <span class="badge bg-primary text-white"><i class="bi bi-stars me-1"></i>AI Overview</span>
+                <span class="small text-muted">Synthesized from DigiIndia Innovation Knowledge Base</span>
+            </div>
+            <p id="searchAiOverviewText" class="mb-0 text-dark fw-medium small" style="white-space: pre-wrap;"></p>
+        </div>
+
+
+        <!-- Search Results Grid -->
+        <div id="searchEngineResultsGrid" class="search-results-grid text-start mb-5">
+
+
+            <div class="col-12 text-center text-muted py-5">
+                <i class="bi bi-search fs-1 text-primary opacity-50 d-block mb-2"></i>
+                Type a query above or click Search to explore public student projects.
+            </div>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/api.js"></script>
+    <script>
+        let currentCategory = "all";
+        let currentTargetLang = "en";
+
+        function setSearchCategory(cat, btn) {
+            currentCategory = cat;
+            document.querySelectorAll(".btn-outline-primary, .btn-outline-purple").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            executePublicSearch();
+        }
+
+        function setLang(lang, btn) {
+            currentTargetLang = lang;
+            document.querySelectorAll(".col-md-3.text-end .btn").forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+            executePublicSearch();
+        }
+
+        async function handleAutoCompleteInput(val) {
+            const dropdown = document.getElementById("autoCompleteDropdown");
+            if (!val || val.trim().length < 2) {
+                dropdown.classList.add("d-none");
+                return;
+            }
+            try {
+                const res = await API.request(`/search/autocomplete?q=${encodeURIComponent(val.trim())}`);
+                const suggestions = res.suggestions || [];
+                if (!suggestions.length) {
+                    dropdown.classList.add("d-none");
+                    return;
+                }
+                dropdown.innerHTML = suggestions.map(s => `
+                    <button class="list-group-item list-group-item-action py-2 text-start small fw-medium" onclick="applySuggestion('${s}')">
+                        <i class="bi bi-search text-primary me-2"></i>${s}
+                    </button>
+                `).join("");
+                dropdown.classList.remove("d-none");
+            } catch(e) { dropdown.classList.add("d-none"); }
+        }
+
+        function applySuggestion(term) {
+            document.getElementById("engineQueryInput").value = term;
+            document.getElementById("autoCompleteDropdown").classList.add("d-none");
+            executePublicSearch();
+        }
+
+        function startVoiceSearch() {
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            if (!SpeechRecognition) {
+                API.showToast("Web Speech API is not supported in this browser. Please use Chrome or Edge.", "warning");
+                return;
+            }
+            const recognition = new SpeechRecognition();
+            recognition.lang = "en-US";
+            recognition.interimResults = false;
+
+            const micIcon = document.getElementById("voiceMicIcon");
+            micIcon.classList.add("text-success", "spinner-grow", "spinner-grow-sm");
+
+            API.showToast("Listening... Speak your project query now", "info");
+
+            recognition.onresult = (event) => {
+                const transcript = event.results[0][0].transcript;
+                document.getElementById("engineQueryInput").value = transcript;
+                micIcon.classList.remove("text-success", "spinner-grow", "spinner-grow-sm");
+                API.showToast(`Voice query detected: "${transcript}"`, "success");
+                executePublicSearch();
+            };
+
+            recognition.onerror = (event) => {
+                micIcon.classList.remove("text-success", "spinner-grow", "spinner-grow-sm");
+                API.showToast(`Voice Recognition Error: ${event.error}`, "error");
+            };
+
+            recognition.start();
+        }
+
+        async function triggerDigiBot() {
+
+            const query = document.getElementById("engineQueryInput").value.trim() || "student project";
+            API.showToast("DigiBot/1.0 starting crawl cycle across GitHub & GitLab...", "info");
+            try {
+                const res = await API.request(`/search/digibot/crawl?query=${encodeURIComponent(query)}`, { method: "POST" });
+                API.showToast(`DigiBot/1.0 indexed ${res.indexedCount} new repositories!`, "success");
+                executePublicSearch();
+            } catch(e) { API.showToast(e.message, "error"); }
+        }
+
+        async function executePublicSearch() {
+            const query = document.getElementById("engineQueryInput").value.trim();
+            const customApiKey = document.getElementById("engineApiKeyInput").value.trim();
+            const language = document.getElementById("filterLanguage").value;
+            const licenseType = document.getElementById("filterLicense").value;
+            const sortBy = document.getElementById("filterSortBy").value;
+            const grid = document.getElementById("searchEngineResultsGrid");
+
+            grid.innerHTML = `<div class="col-12 text-center py-4"><div class="spinner-border text-primary"></div><p class="mt-2 text-muted small">Executing DigiIndia Engine Query...</p></div>`;
+
+            const headers = {};
+            if (customApiKey) {
+                headers["X-DigiIndia-Key"] = customApiKey;
+            }
+
+            try {
+                const verifiedOnly = currentCategory === "verified";
+                
+                // Fetch AI Overview if query is present
+                if (query.length >= 3) {
+                    API.request(`/ai/assistant`, {
+                        method: "POST",
+                        body: JSON.stringify({ prompt: `Provide a concise 2-sentence developer AI Overview summary for search query: ${query}` }),
+                        headers
+                    }).then(res => {
+                        if (res && res.reply) {
+                            document.getElementById("searchAiOverviewText").innerText = res.reply;
+                            document.getElementById("searchAiOverviewCard").classList.remove("d-none");
+                        }
+                    }).catch(() => {});
+                } else {
+                    document.getElementById("searchAiOverviewCard").classList.add("d-none");
+                }
+
+                if (currentCategory === "global") {
+                    grid.innerHTML = `<div class="col-12 text-center py-4"><div class="spinner-border text-primary"></div><p class="mt-2 text-muted small">Fetching Live GitHub, Google Search & YouTube Resources...</p></div>`;
+                    try {
+                        const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
+                        let gHtml = `
+                            <div class="col-12 mb-3">
+                                <div class="alert alert-primary py-2 small d-flex justify-content-between align-items-center">
+                                    <span><i class="bi bi-globe me-1"></i>Live Global Web Index for: <strong>"${query || 'Student Projects'}"</strong></span>
+                                    <span class="badge bg-primary">Real-Time Crawl</span>
+                                </div>
+                            </div>
+                        `;
+
+                        // 1. Render GitHub Repositories
+                        if (globalRes.githubRepositories && globalRes.githubRepositories.length) {
+                            gHtml += `
+                                <div class="col-12 mb-2"><h6 class="fw-bold text-dark"><i class="bi bi-github me-2"></i>Live GitHub Repositories</h6></div>
+                            `;
+                            gHtml += globalRes.githubRepositories.map(repo => `
+                                <div class="col-md-6 mb-3">
+                                    <div class="card glass-card p-3 border-0 h-100">
+                                        <div class="d-flex justify-content-between align-items-start mb-2">
+                                            <h6 class="fw-bold text-primary mb-0 text-truncate"><a href="${repo.url}" target="_blank" class="text-decoration-none">${repo.title}</a></h6>
+                                            <span class="badge bg-warning text-dark"><i class="bi bi-star-fill me-1"></i>${repo.stars}</span>
+                                        </div>
+                                        <p class="small text-muted text-clamp-expandable mb-2">${repo.description}</p>
+                                        <div class="d-flex justify-content-between align-items-center mt-auto pt-2 border-top">
+                                            <span class="badge bg-secondary-subtle text-secondary small">${repo.language}</span>
+                                            <a href="${repo.url}" target="_blank" class="btn btn-outline-dark btn-sm"><i class="bi bi-box-arrow-up-right me-1"></i>View Repo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            `).join("");
+                        }
+
+                        // 2. Render Google Search Web Results
+                        if (globalRes.googleWebResults && globalRes.googleWebResults.length) {
+                            gHtml += `
+                                <div class="col-12 mt-3 mb-2"><h6 class="fw-bold text-dark"><i class="bi bi-google me-2"></i>Google Search Engine Web Index</h6></div>
+                            `;
+                            gHtml += globalRes.googleWebResults.map(web => `
+                                <div class="col-12 mb-3">
+                                    <div class="card glass-card p-3 border-0">
+                                        <h6 class="fw-bold mb-1"><a href="${web.url}" target="_blank" class="text-decoration-none text-primary">${web.title}</a></h6>
+                                        <small class="text-success d-block mb-2 text-truncate">${web.url}</small>
+                                        <p class="small text-muted mb-0 text-clamp-expandable">${web.snippet}</p>
+                                    </div>
+                                </div>
+                            `).join("");
+                        }
+
+                        // 3. Render YouTube Video Resources
+                        if (globalRes.youtubeResources && globalRes.youtubeResources.length) {
+                            gHtml += `
+                                <div class="col-12 mt-3 mb-2"><h6 class="fw-bold text-danger"><i class="bi bi-youtube me-2"></i>YouTube Video Tutorials & Demonstrations</h6></div>
+                            `;
+                            gHtml += globalRes.youtubeResources.map(yt => `
+                                <div class="col-md-6 mb-3">
+                                    <div class="card glass-card p-3 border-0 h-100">
+                                        <h6 class="fw-bold text-dark mb-2 text-truncate"><a href="${yt.url}" target="_blank" class="text-decoration-none text-danger"><i class="bi bi-play-btn-fill me-1"></i>${yt.title}</a></h6>
+                                        <p class="small text-muted mb-2 text-clamp-expandable">${yt.description}</p>
+                                        <a href="${yt.url}" target="_blank" class="btn btn-outline-danger btn-sm w-100 mt-auto"><i class="bi bi-youtube me-1"></i>Watch Video Tutorial</a>
+                                    </div>
+                                </div>
+                            `).join("");
+                        }
+
+                        grid.innerHTML = gHtml;
+                    } catch(err) {
+                        grid.innerHTML = `<div class="col-12"><div class="alert alert-danger">${err.message}</div></div>`;
+                    }
+                    return;
+                }
+
+                let projects = [];
+                if (currentCategory === "semantic") {
+                    projects = await API.request(`/search/semantic?q=${encodeURIComponent(query)}`, { headers });
+                } else {
+                    projects = await API.request(`/search/projects?q=${encodeURIComponent(query)}&language=${encodeURIComponent(language)}&license_type=${encodeURIComponent(licenseType)}&sort_by=${sortBy}&verified_only=${verifiedOnly}`, { headers });
+                }
+                
+                let students = [];
+                if (currentCategory === "all" || currentCategory === "students") {
+                    try {
+                        students = await API.request(`/search/students?q=${encodeURIComponent(query)}`, { headers });
+                    } catch(e) {}
+                }
+
+                if (!projects.length && !students.length) {
+                    grid.innerHTML = `
+                        <div class="col-12 text-center py-4">
+                            <div class="alert alert-info">No results matching query "${query}". Click <strong>"Run DigiBot/1.0 Indexer"</strong> to crawl GitHub for new student repositories.</div>
+                        </div>
+                    `;
+                    return;
+                }
+
+                let html = "";
+
+                if (projects.length && (currentCategory === "all" || currentCategory === "projects" || currentCategory === "verified" || currentCategory === "semantic")) {
+                    html += projects.map(p => `
+                        <div class="project-card-unified">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <h6 class="card-title-text"><a href="/project.html?id=${p.projectId}" class="text-decoration-none text-primary">${p.title}</a></h6>
+                                <span class="trust-badge-pill ms-2">Trust: ${p.trustScore||50}</span>
+                            </div>
+                            <p class="card-desc-clamp">${p.description}</p>
+                            <div class="d-flex flex-wrap gap-1 mb-3">
+                                ${(p.technologyStack||[]).map(t => `<span class="badge bg-secondary-subtle text-secondary small">${t}</span>`).join("")}
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-2 border-top">
+                                <a href="${p.repositoryURL}" target="_blank" class="btn btn-outline-dark btn-sm btn-card-action"><i class="bi bi-github me-1"></i>Repo Code</a>
+                                <a href="/project.html?id=${p.projectId}" class="btn btn-primary btn-sm btn-card-action">Overview <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    `).join("");
+                }
+
+                if (students.length && (currentCategory === "all" || currentCategory === "students")) {
+                    html += students.map(s => `
+                        <div class="student-card-unified">
+                            <div class="d-flex align-items-start justify-content-between mb-3">
+                                <div class="d-flex align-items-center gap-3 overflow-hidden">
+                                    <i class="bi bi-person-circle fs-1 text-primary flex-shrink-0"></i>
+                                    <div class="overflow-hidden">
+                                        <h6 class="fw-bold mb-0 text-dark text-truncate"><a href="/profile.html?spn=${s.spn}" class="text-decoration-none text-dark">${s.fullName}</a></h6>
+                                        <span class="spn-badge small my-1 d-inline-block">SPN: ${s.spn}</span>
+                                        <small class="text-muted d-block text-truncate">${s.college || 'Academic Institution'}</small>
+                                    </div>
+                                </div>
+                                <span class="trust-badge-pill ms-2">Trust: ${s.trustScore || 60}</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 mt-auto pt-2 border-top">
+                                <a href="/profile.html?spn=${s.spn}" class="btn btn-outline-primary btn-sm btn-card-action flex-grow-1 text-center"><i class="bi bi-person me-1"></i>Profile</a>
+                                <button id="btnConnect_${s.studentUID || s.profileId}" class="btn btn-gradient btn-sm btn-card-action flex-grow-1 text-center" onclick="handleSearchConnect('${s.studentUID || s.profileId}', this)"><i class="bi bi-person-plus me-1"></i>Connect</button>
+                                <button id="btnFollow_${s.studentUID || s.profileId}" class="btn btn-outline-dark btn-sm btn-card-action" onclick="handleSearchFollow('${s.studentUID || s.profileId}', this)"><i class="bi bi-bell"></i></button>
+                            </div>
+                        </div>
+                    `).join("");
+                }
+
+
+
+                grid.innerHTML = html;
+            } catch (err) {
+                grid.innerHTML = `<div class="col-12"><div class="alert alert-danger">${err.message}</div></div>`;
+            }
+        }
+
+        async function handleSearchConnect(uid, btnEl) {
+            let curState = btnEl.getAttribute("data-state") || "NONE";
+            await NetworkActions.handleConnectClick(uid, curState, (newState) => {
+                btnEl.setAttribute("data-state", newState);
+                if (newState === "PENDING_SENT") {
+                    btnEl.className = "btn btn-warning btn-sm text-dark";
+                    btnEl.innerHTML = `<i class="bi bi-clock me-1"></i>Pending`;
+                } else if (newState === "CONNECTED") {
+                    btnEl.className = "btn btn-outline-danger btn-sm";
+                    btnEl.innerHTML = `<i class="bi bi-person-dash me-1"></i>Disconnect`;
+                } else {
+                    btnEl.className = "btn btn-gradient btn-sm";
+                    btnEl.innerHTML = `<i class="bi bi-person-plus me-1"></i>Connect`;
+                }
+            });
+        }
+
+        async function handleSearchFollow(uid, btnEl) {
+            let isFollowing = btnEl.getAttribute("data-following") === "true";
+            await NetworkActions.handleFollowClick(uid, isFollowing, (newFollowing) => {
+                btnEl.setAttribute("data-following", newFollowing ? "true" : "false");
+                if (newFollowing) {
+                    btnEl.className = "btn btn-secondary btn-sm";
+                    btnEl.innerHTML = `<i class="bi bi-bell-slash me-1"></i>Unfollow`;
+                } else {
+                    btnEl.className = "btn btn-outline-dark btn-sm";
+                    btnEl.innerHTML = `<i class="bi bi-bell me-1"></i>Follow`;
+                }
+            });
+        }
+
+
+
+        // Execute default search on load
+        document.addEventListener("DOMContentLoaded", () => executePublicSearch());
+    </script>
+
+</body>
+</html>

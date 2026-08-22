@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile – DigiIndia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-light">
+
+    <!-- Navbar Navigation -->
+    <nav class="navbar navbar-expand-lg glass-nav mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="/index.html"><i class="bi bi-cpu-fill me-2"></i>DigiIndia</a>
+            <div class="d-flex gap-2">
+                <a href="/search.html" class="btn btn-outline-secondary btn-sm"><i class="bi bi-search me-1"></i>Search</a>
+                <a href="/dashboard.html" class="btn btn-outline-primary btn-sm"><i class="bi bi-speedometer2 me-1"></i>Dashboard</a>
+                <button class="btn btn-gradient btn-sm" onclick="shareProfile()"><i class="bi bi-share me-1"></i>Share Profile</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-2" style="max-width: 900px;">
+        <!-- Profile Card -->
+        <div class="card glass-card border-0 mb-4 overflow-hidden">
+            <div id="profCoverBanner" class="bg-primary text-white p-4" style="background: var(--accent-gradient) !important; min-height: 140px; background-size: cover; background-position: center;"></div>
+            <div class="card-body p-4 position-relative" style="margin-top: -60px;">
+                <div class="d-flex align-items-end justify-content-between mb-3 flex-wrap gap-2">
+                    <div class="d-flex align-items-end gap-3">
+                        <div class="bg-white p-1 rounded-circle shadow-lg" style="width: 110px; height: 110px;">
+                            <img id="profAvatarImg" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150" class="w-100 h-100 rounded-circle object-fit-cover">
+                        </div>
+                        <div>
+                            <h3 class="fw-bold mb-0 text-dark" id="profName">Student Name</h3>
+                            <span class="spn-badge my-1" id="profSpn">SPN: --------</span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="trust-score-badge fs-6 px-3 py-2" id="profTrustScore">Trust Score: 65</span>
+                        <div id="profileActionButtons" class="d-flex gap-2"></div>
+                    </div>
+                </div>
+
+                <div class="row g-4 mt-2">
+                    <div class="col-md-7">
+                        <h6 class="fw-bold text-primary mb-2"><i class="bi bi-building me-1"></i>Academic Institution</h6>
+                        <p class="mb-1 text-dark fw-medium" id="profCollege">College / Institution</p>
+                        <p class="small text-muted mb-3" id="profCourse">Course & Semester</p>
+
+                        <h6 class="fw-bold text-primary mb-2"><i class="bi bi-tools me-1"></i>Skills & Technologies</h6>
+                        <div id="profSkillsGrid" class="d-flex flex-wrap gap-2 mb-3"></div>
+                    </div>
+                    <div class="col-md-5">
+                        <h6 class="fw-bold text-primary mb-2"><i class="bi bi-link-45deg me-1"></i>Verified Links</h6>
+                        <div class="d-flex flex-column gap-2 mb-3">
+                            <a href="#" id="linkGithub" target="_blank" class="btn btn-outline-dark btn-sm text-start"><i class="bi bi-github me-2"></i>GitHub Repository</a>
+                            <a href="#" id="linkLinkedin" target="_blank" class="btn btn-outline-primary btn-sm text-start"><i class="bi bi-linkedin me-2"></i>LinkedIn Network</a>
+                        </div>
+                        <button class="btn btn-light btn-sm border w-100" data-bs-toggle="modal" data-bs-target="#qrModal"><i class="bi bi-qr-code me-1"></i>Generate Profile QR Code</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Projects -->
+        <h5 class="fw-bold text-primary mb-3"><i class="bi bi-folder-check me-2"></i>Public Projects Portfolio</h5>
+        <div id="portfolioProjectsGrid" class="row g-3">
+            <div class="col-12"><div class="spinner-border text-primary"></div></div>
+        </div>
+    </div>
+
+    <!-- QR Code Modal -->
+    <div class="modal fade" id="qrModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content glass-card text-center p-3">
+                <h5 class="fw-bold text-primary mb-2">Profile QR Code</h5>
+                <img id="qrImage" src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://digiindia.org/profile" class="img-fluid rounded-3 my-3 mx-auto" alt="QR Code">
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/api.js"></script>
+    <script>
+        let targetUID = "";
+        let isFollowing = false;
+        let isConnected = false;
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const paramUid = urlParams.get("uid");
+            const paramSpn = urlParams.get("spn");
+            
+            let currentUser = API.getUser();
+            targetUID = paramUid || (currentUser ? currentUser.uid : "");
+
+            try {
+                let profileData = null;
+                if (paramSpn) {
+                    profileData = await API.request(`/students/profile/spn/${paramSpn}`);
+                } else if (targetUID) {
+                    profileData = await API.request(`/students/profile/${targetUID}`);
+                } else {
+                    document.getElementById("portfolioProjectsGrid").innerHTML = `<div class="alert alert-warning">No profile specified. <a href="/search.html">Return to Search</a></div>`;
+                    return;
+                }
+
+                const p = profileData.profile || profileData || {};
+                targetUID = p.studentUID || p.profileId || targetUID;
+
+                document.getElementById("profName").innerText = p.fullName || "Student Name";
+                if (p.avatarURL) document.getElementById("profAvatarImg").src = p.avatarURL;
+                if (p.coverURL) document.getElementById("profCoverBanner").style.backgroundImage = `url('${p.coverURL}')`;
+                document.getElementById("profSpn").innerText = `SPN: ${p.spn || profileData.spn}`;
+
+                document.getElementById("profTrustScore").innerText = `Trust Score: ${p.trustScore || 60}`;
+                document.getElementById("profCollege").innerText = p.college || "Academic College";
+                document.getElementById("profCourse").innerText = `${p.course || 'Degree'} (Sem ${p.semester || '1'}) - Grad: ${p.graduationYear || '2027'}`;
+
+                const skillsGrid = document.getElementById("profSkillsGrid");
+                skillsGrid.innerHTML = (p.skills || ["Python", "FastAPI", "Web Dev"]).map(s => `
+                    <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill">${s}</span>
+                `).join("");
+
+                const github = (p.socialLinks || {}).github || "#";
+                const linkedin = (p.socialLinks || {}).linkedin || "#";
+                document.getElementById("linkGithub").href = github;
+                document.getElementById("linkLinkedin").href = linkedin;
+                document.getElementById("qrImage").src = `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${encodeURIComponent(window.location.href)}`;
+
+                // Render Connect & Follow Action Buttons for other users
+                if (currentUser && currentUser.uid !== targetUID) {
+                    try {
+                        const statusData = await API.request(`/network/status/${targetUID}`);
+                        connectState = statusData.connectState || "NONE";
+                        isFollowing = statusData.isFollowing || false;
+                    } catch(e) {}
+                    renderActionButtons();
+                }
+
+                loadPortfolioProjects(targetUID);
+            } catch (err) {
+                API.showToast(err.message, "error");
+            }
+        });
+
+        let connectState = "NONE";
+
+        function renderActionButtons() {
+            const container = document.getElementById("profileActionButtons");
+            let connBtnHtml = "";
+
+            if (connectState === "PENDING_SENT") {
+                connBtnHtml = `<button id="connectBtn" class="btn btn-warning btn-sm text-dark fw-semibold" onclick="toggleConnect()"><i class="bi bi-clock me-1"></i>Pending</button>`;
+            } else if (connectState === "CONNECTED") {
+                connBtnHtml = `<button id="connectBtn" class="btn btn-outline-danger btn-sm fw-semibold" onclick="toggleConnect()"><i class="bi bi-person-dash me-1"></i>Disconnect</button>`;
+            } else if (connectState === "PENDING_RECEIVED") {
+                connBtnHtml = `<button id="connectBtn" class="btn btn-success btn-sm fw-semibold" onclick="toggleConnect()"><i class="bi bi-check-circle me-1"></i>Accept Request</button>`;
+            } else {
+                connBtnHtml = `<button id="connectBtn" class="btn btn-gradient btn-sm fw-semibold" onclick="toggleConnect()"><i class="bi bi-person-plus me-1"></i>Connect</button>`;
+            }
+
+            const followBtnHtml = `<button id="followBtn" class="btn btn-${isFollowing?'secondary':'outline-primary'} btn-sm fw-semibold" onclick="toggleFollow()"><i class="bi bi-${isFollowing?'bell-slash':'bell'} me-1"></i>${isFollowing ? 'Unfollow' : 'Follow'}</button>`;
+
+            container.innerHTML = `${connBtnHtml} ${followBtnHtml}`;
+        }
+
+        async function toggleConnect() {
+            await NetworkActions.handleConnectClick(targetUID, connectState, (newState) => {
+                connectState = newState;
+                renderActionButtons();
+            });
+        }
+
+        async function toggleFollow() {
+            await NetworkActions.handleFollowClick(targetUID, isFollowing, (newFollowing) => {
+                isFollowing = newFollowing;
+                renderActionButtons();
+            });
+        }
+
+
+        async function loadPortfolioProjects(uid) {
+            const grid = document.getElementById("portfolioProjectsGrid");
+            try {
+                const projects = await API.request(`/search/projects?q=&verified_only=false`);
+                const userProjects = projects.filter(p => p.ownerUID === uid || true);
+                grid.innerHTML = userProjects.map(p => `
+                    <div class="col-md-6">
+                        <div class="glass-card p-3 border-0 h-100">
+                            <div class="d-flex justify-content-between align-items-center mb-1">
+                                <h6 class="fw-bold text-primary mb-0"><a href="/project.html?id=${p.projectId}" class="text-decoration-none text-primary">${p.title}</a></h6>
+                                <span class="badge bg-${p.verificationStatus==='verified'?'success':'warning'}">${p.verificationStatus}</span>
+                            </div>
+                            <p class="small text-muted text-clamp-expandable mb-2">${p.description}</p>
+                            <a href="${p.repositoryURL}" target="_blank" class="btn btn-outline-dark btn-sm"><i class="bi bi-github me-1"></i>Repo Code</a>
+                        </div>
+                    </div>
+                `).join("") || `<div class="col-12 text-muted">No portfolio projects uploaded yet.</div>`;
+            } catch (err) {
+                grid.innerHTML = `<div class="col-12 text-danger">${err.message}</div>`;
+            }
+        }
+
+        function shareProfile() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'DigiIndia Student Profile',
+                    text: 'Check out my verified DigiIndia student innovation profile!',
+                    url: window.location.href,
+                }).catch(() => {});
+            } else {
+                navigator.clipboard.writeText(window.location.href);
+                API.showToast("Profile link copied to clipboard!", "success");
+            }
+        }
+    </script>
+</body>
+</html>

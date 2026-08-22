@@ -1,0 +1,16 @@
+{
+  "its.akshatnetworkhub23@gmail.com": {
+    "email": "its.akshatnetworkhub23@gmail.com",
+    "otp": "883508",
+    "expiresAt": 1785399740.97488,
+    "createdAt": 1785399440.974898
+  },
+  "akshatpsd2005@gmail.com": {
+    "email": "akshatpsd2005@gmail.com",
+    "otp": "936180",
+    "uid": "fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8",
+    "type": "password_reset",
+    "expiresAt": 1787385328.1050882,
+    "createdAt": 1787385028.1050997
+  }
+}

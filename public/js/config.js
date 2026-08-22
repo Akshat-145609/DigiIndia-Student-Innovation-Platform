@@ -1,7 +1,7 @@
 const CONFIG = {
     API_BASE_URL: (window.location.origin.includes("localhost") || window.location.origin.includes("127.0.0.1"))
         ? "http://localhost:8000/api/v1"
-        : (window.location.origin.includes("web.app") || window.location.origin.includes("firebaseapp.com") || window.location.origin.includes("onrender.com"))
+        : (window.location.origin.includes("web.app") || window.location.origin.includes("firebaseapp.com"))
             ? "https://digiindia-student-platform.onrender.com/api/v1"
             : window.location.origin + "/api/v1",
     APP_NAME: "DigiIndia",

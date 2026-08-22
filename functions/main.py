@@ -1,6 +1,6 @@
 import os
-from fastapi import FastAPI
-from fastapi.responses import Response, PlainTextResponse
+from fastapi import FastAPI, Request
+from fastapi.responses import Response, PlainTextResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from config import settings
@@ -134,6 +134,18 @@ def get_sitemap_xml():
     xml_lines.append('</urlset>')
 
     return Response(content="\n".join(xml_lines), media_type="application/xml")
+
+# Catch-all 404 for unmatched /api/ endpoints to prevent HTML fall-through
+@app.api_route("/api/{path:path}", methods=["GET", "POST", "PUT", "DELETE", "PATCH", "HEAD", "OPTIONS"])
+async def api_404_handler(request: Request, path: str):
+    return JSONResponse(
+        status_code=404,
+        content={
+            "detail": f"API endpoint '/api/{path}' not found",
+            "status": 404,
+            "error": "Not Found"
+        }
+    )
 
 # Mount Static Front-End (public folder)
 public_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "public")

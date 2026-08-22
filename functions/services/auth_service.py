@@ -30,8 +30,9 @@ class AuthService:
                 return spn
 
     @staticmethod
-    def _prepare_password(password: str) -> str:
-        salted = f"{password}{settings.PASSWORD_PEPPER}"
+    def _prepare_password(password: str, pepper: str = None) -> str:
+        p = pepper if pepper is not None else settings.PASSWORD_PEPPER
+        salted = f"{password}{p}"
         return hashlib.sha256(salted.encode('utf-8')).hexdigest()
 
     @classmethod
@@ -47,13 +48,25 @@ class AuthService:
         if not plain_password or not hashed_password:
             return False
         
-        # 1. Try verify with prepared sha256 pepper (truncated to 72 bytes)
-        try:
-            prep = cls._prepare_password(plain_password)[:72]
-            if pwd_context.verify(prep, hashed_password):
-                return True
-        except Exception:
-            pass
+        # Candidate peppers to attempt in order
+        peppers_to_try = [
+            settings.PASSWORD_PEPPER,
+            "hGhdbw8FdCjWuqRFlF3EyY5VohMf3Thvof864WMrBKo",
+            ""
+        ]
+        
+        # Deduplicate while preserving order
+        seen = set()
+        peppers = [p for p in peppers_to_try if not (p in seen or seen.add(p))]
+
+        # 1. Try verify with candidate peppers
+        for pepper in peppers:
+            try:
+                prep = cls._prepare_password(plain_password, pepper)[:72]
+                if pwd_context.verify(prep, hashed_password):
+                    return True
+            except Exception:
+                pass
 
         # 2. Try direct verify with raw password truncated to 72 bytes
         try:

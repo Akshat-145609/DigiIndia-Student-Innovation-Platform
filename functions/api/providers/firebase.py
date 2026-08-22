@@ -208,20 +208,25 @@ class FirestoreRepository:
     def query(self, filters: list = None, limit: int = 500):
         """Query collection combining local disk store and Cloud Firestore docs"""
         disk_col = _load_collection(self.collection_name)
-        combined_dict = dict(disk_col)
+        combined_dict = {}
 
         if self.col_ref:
             try:
                 docs = self.col_ref.stream(timeout=3.0)
                 for doc in docs:
-                    d = doc.to_dict()
-                    d_id = doc.id
-                    if d_id not in combined_dict:
-                        combined_dict[d_id] = d
-                    else:
-                        combined_dict[d_id].update(d)
+                    combined_dict[doc.id] = {"id": doc.id, **doc.to_dict()}
             except Exception as e:
                 logger.debug(f"Firestore query stream note: {e}")
+
+        # Local disk store supplements and overrides remote docs
+        for doc_id, doc_data in disk_col.items():
+            if doc_id in combined_dict:
+                merged = dict(combined_dict[doc_id])
+                merged.update(doc_data)
+                combined_dict[doc_id] = merged
+            else:
+                combined_dict[doc_id] = {"id": doc_id, **doc_data}
+
 
         results = []
         for doc_id, doc_data in combined_dict.items():

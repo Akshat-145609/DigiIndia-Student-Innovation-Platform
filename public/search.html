@@ -479,17 +479,42 @@
         document.addEventListener("DOMContentLoaded", () => {
             const urlParams = new URLSearchParams(window.location.search);
             const qParam = urlParams.get("q") || urlParams.get("query") || urlParams.get("spn") || "";
-            const catParam = urlParams.get("category") || urlParams.get("tab") || "";
+            const catParam = urlParams.get("tab") || urlParams.get("category") || "";
+            const langParam = urlParams.get("lang") || urlParams.get("language") || "";
+            const licenseParam = urlParams.get("license") || urlParams.get("license_type") || "";
+            const sortParam = urlParams.get("sort") || urlParams.get("sort_by") || "";
             
             if (qParam) {
-                const inputEl = document.getElementById("engineQueryInput") || document.getElementById("searchEngineQueryInput");
+                const inputEl = document.getElementById("engineQueryInput");
                 if (inputEl) inputEl.value = qParam;
             }
-            if (catParam) {
-                setCategory(catParam);
-            } else {
-                executePublicSearch();
+            if (langParam) {
+                const langEl = document.getElementById("filterLanguage");
+                if (langEl) langEl.value = langParam;
             }
+            if (licenseParam) {
+                const licEl = document.getElementById("filterLicense");
+                if (licEl) licEl.value = licenseParam;
+            }
+            if (sortParam) {
+                const sortEl = document.getElementById("filterSortBy");
+                if (sortEl) sortEl.value = sortParam;
+            }
+
+            if (catParam) {
+                const buttons = Array.from(document.querySelectorAll(".d-flex.justify-content-center.flex-wrap.gap-2 button"));
+                const matchedBtn = buttons.find(b => {
+                    const onclickStr = b.getAttribute("onclick") || "";
+                    return onclickStr.includes(`'${catParam}'`);
+                });
+                if (matchedBtn) {
+                    setSearchCategory(catParam, matchedBtn);
+                    return;
+                } else {
+                    currentCategory = catParam;
+                }
+            }
+            executePublicSearch();
         });
 
     </script>

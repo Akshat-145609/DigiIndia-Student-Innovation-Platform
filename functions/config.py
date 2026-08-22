@@ -52,9 +52,9 @@ class Settings:
     OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
 
     # Security
-    ENCRYPTION_KEY: str = os.getenv("ENCRYPTION_KEY", "")
-    PASSWORD_PEPPER: str = os.getenv("PASSWORD_PEPPER", "")
-    CORS_ALLOWED_ORIGINS: str = os.getenv("CORS_ALLOWED_ORIGINS", "http://localhost:5500")
+    ENCRYPTION_KEY: str = os.getenv("ENCRYPTION_KEY", "Q2F4eTlpN3dRZk9mQ2x6b1FhTWx0Vm1XcE1hV1Z4S1l0V2JvZ0lqTQ==")
+    PASSWORD_PEPPER: str = os.getenv("PASSWORD_PEPPER", "hGhdbw8FdCjWuqRFlF3EyY5VohMf3Thvof864WMrBKo")
+    CORS_ALLOWED_ORIGINS: str = os.getenv("CORS_ALLOWED_ORIGINS", "*")
 
     # Feature Flags
     ENABLE_AI: bool = os.getenv("ENABLE_AI", "true").lower() == "true"

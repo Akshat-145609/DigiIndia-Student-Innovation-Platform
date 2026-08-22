@@ -13,7 +13,9 @@ services:
       - key: ENVIRONMENT
         value: production
       - key: JWT_SECRET
-        generateValue: true
+        value: digi-india-881238-17136031-lucky-project-222594960207
+      - key: PASSWORD_PEPPER
+        value: hGhdbw8FdCjWuqRFlF3EyY5VohMf3Thvof864WMrBKo
       - key: ADMIN_EMAIL
         value: its.akshatnetworkhub23@gmail.com
       - key: ADMIN_PASSWORD

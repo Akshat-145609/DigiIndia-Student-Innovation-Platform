@@ -73,11 +73,71 @@ def health_check():
         }
     }
 
-# Serve public web assets if run directly
-public_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "public"))
-if os.path.exists(public_path):
-    app.mount("/", StaticFiles(directory=public_path, html=True), name="public")
+@app.get("/robots.txt", response_class=PlainTextResponse)
+def get_robots_txt():
+    content = """User-agent: *
+Allow: /
+Allow: /search.html
+Allow: /profile.html
+Allow: /project.html
+Allow: /index.html
+Allow: /CreateAccount.html
+Allow: /Admin.html
+Allow: /*?spn=*
+Allow: /*?q=*
+Allow: /*?id=*
+
+Sitemap: https://digiindia-student-platform.onrender.com/sitemap.xml
+Sitemap: https://digiindia-studentcollaboration.web.app/sitemap.xml
+"""
+    return content
+
+@app.get("/sitemap.xml")
+def get_sitemap_xml():
+    from api.providers.firebase import FirestoreRepository
+    students_repo = FirestoreRepository("students")
+    projects_repo = FirestoreRepository("projects")
+
+    students = students_repo.query()
+    projects = projects_repo.query()
+
+    urls = [
+        "https://digiindia-student-platform.onrender.com/",
+        "https://digiindia-student-platform.onrender.com/search.html",
+        "https://digiindia-student-platform.onrender.com/index.html",
+        "https://digiindia-student-platform.onrender.com/CreateAccount.html",
+        "https://digiindia-student-platform.onrender.com/Admin.html",
+    ]
+
+    for s in students:
+        spn = s.get("spn")
+        if spn:
+            urls.append(f"https://digiindia-student-platform.onrender.com/profile.html?spn={spn}")
+
+    for p in projects:
+        pid = p.get("projectId")
+        if pid:
+            urls.append(f"https://digiindia-student-platform.onrender.com/project.html?id={pid}")
+
+    tech_stacks = ["python", "javascript", "react", "fastapi", "ai", "machine-learning", "flutter", "java", "cpp"]
+    for t in tech_stacks:
+        urls.append(f"https://digiindia-student-platform.onrender.com/search.html?q={t}")
+
+    xml_lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+    ]
+    for u in urls:
+        xml_lines.append(f'  <url><loc>{u}</loc><changefreq>daily</changefreq><priority>0.8</priority></url>')
+    xml_lines.append('</urlset>')
+
+    return Response(content="\n".join(xml_lines), media_type="application/xml")
+
+# Mount Static Front-End (public folder)
+public_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "public")
+if os.path.exists(public_dir):
+    app.mount("/", StaticFiles(directory=public_dir, html=True), name="static")
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=settings.PORT)
+    uvicorn.run("main:app", host="0.0.0.0", port=settings.PORT, reload=True)

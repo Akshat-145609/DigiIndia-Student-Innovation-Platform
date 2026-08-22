@@ -222,6 +222,17 @@
             } catch(e) { API.showToast(e.message, "error"); }
         }
 
+        function stripHtmlAndSanitize(str) {
+            if (!str) return "No description provided.";
+            let clean = String(str).replace(/<[^>]*>?/gm, '');
+            clean = clean.replace(/\{%[\s\S]*?%\}/g, '');
+            clean = clean.replace(/\{\{[\s\S]*?\}\}/g, '');
+            clean = clean.replace(/[#*`_~]/g, '');
+            clean = clean.replace(/\s+/g, ' ').trim();
+            if (!clean) return "Student repository project submission.";
+            return clean;
+        }
+
         async function executePublicSearch() {
             const query = document.getElementById("engineQueryInput").value.trim();
             const customApiKey = document.getElementById("engineApiKeyInput").value.trim();
@@ -248,7 +259,7 @@
                         headers
                     }).then(res => {
                         if (res && res.reply) {
-                            document.getElementById("searchAiOverviewText").innerText = res.reply;
+                            document.getElementById("searchAiOverviewText").innerText = stripHtmlAndSanitize(res.reply);
                             document.getElementById("searchAiOverviewCard").classList.remove("d-none");
                         }
                     }).catch(() => {});
@@ -278,10 +289,10 @@
                                 <div class="col-md-6 mb-3">
                                     <div class="card glass-card p-3 border-0 h-100">
                                         <div class="d-flex justify-content-between align-items-start mb-2">
-                                            <h6 class="fw-bold text-primary mb-0 text-truncate"><a href="${repo.url}" target="_blank" class="text-decoration-none">${repo.title}</a></h6>
+                                            <h6 class="fw-bold text-primary mb-0 text-truncate"><a href="${repo.url}" target="_blank" class="text-decoration-none">${stripHtmlAndSanitize(repo.title)}</a></h6>
                                             <span class="badge bg-warning text-dark"><i class="bi bi-star-fill me-1"></i>${repo.stars}</span>
                                         </div>
-                                        <p class="small text-muted text-clamp-expandable mb-2">${repo.description}</p>
+                                        <p class="small text-muted card-desc-clamp mb-2">${stripHtmlAndSanitize(repo.description)}</p>
                                         <div class="d-flex justify-content-between align-items-center mt-auto pt-2 border-top">
                                             <span class="badge bg-secondary-subtle text-secondary small">${repo.language}</span>
                                             <a href="${repo.url}" target="_blank" class="btn btn-outline-dark btn-sm"><i class="bi bi-box-arrow-up-right me-1"></i>View Repo</a>
@@ -299,9 +310,9 @@
                             gHtml += globalRes.googleWebResults.map(web => `
                                 <div class="col-12 mb-3">
                                     <div class="card glass-card p-3 border-0">
-                                        <h6 class="fw-bold mb-1"><a href="${web.url}" target="_blank" class="text-decoration-none text-primary">${web.title}</a></h6>
+                                        <h6 class="fw-bold mb-1"><a href="${web.url}" target="_blank" class="text-decoration-none text-primary">${stripHtmlAndSanitize(web.title)}</a></h6>
                                         <small class="text-success d-block mb-2 text-truncate">${web.url}</small>
-                                        <p class="small text-muted mb-0 text-clamp-expandable">${web.snippet}</p>
+                                        <p class="small text-muted mb-0 card-desc-clamp">${stripHtmlAndSanitize(web.snippet)}</p>
                                     </div>
                                 </div>
                             `).join("");
@@ -315,8 +326,8 @@
                             gHtml += globalRes.youtubeResources.map(yt => `
                                 <div class="col-md-6 mb-3">
                                     <div class="card glass-card p-3 border-0 h-100">
-                                        <h6 class="fw-bold text-dark mb-2 text-truncate"><a href="${yt.url}" target="_blank" class="text-decoration-none text-danger"><i class="bi bi-play-btn-fill me-1"></i>${yt.title}</a></h6>
-                                        <p class="small text-muted mb-2 text-clamp-expandable">${yt.description}</p>
+                                        <h6 class="fw-bold text-dark mb-2 text-truncate"><a href="${yt.url}" target="_blank" class="text-decoration-none text-danger"><i class="bi bi-play-btn-fill me-1"></i>${stripHtmlAndSanitize(yt.title)}</a></h6>
+                                        <p class="small text-muted mb-2 card-desc-clamp">${stripHtmlAndSanitize(yt.description)}</p>
                                         <a href="${yt.url}" target="_blank" class="btn btn-outline-danger btn-sm w-100 mt-auto"><i class="bi bi-youtube me-1"></i>Watch Video Tutorial</a>
                                     </div>
                                 </div>
@@ -359,12 +370,12 @@
                     html += projects.map(p => `
                         <div class="project-card-unified">
                             <div class="d-flex justify-content-between align-items-center mb-1">
-                                <h6 class="card-title-text"><a href="/project.html?id=${p.projectId}" class="text-decoration-none text-primary">${p.title}</a></h6>
+                                <h6 class="card-title-text"><a href="/project.html?id=${p.projectId}" class="text-decoration-none text-primary" title="${stripHtmlAndSanitize(p.title)}">${stripHtmlAndSanitize(p.title)}</a></h6>
                                 <span class="trust-badge-pill ms-2">Trust: ${p.trustScore||50}</span>
                             </div>
-                            <p class="card-desc-clamp">${p.description}</p>
-                            <div class="d-flex flex-wrap gap-1 mb-3">
-                                ${(p.technologyStack||[]).map(t => `<span class="badge bg-secondary-subtle text-secondary small">${t}</span>`).join("")}
+                            <p class="card-desc-clamp">${stripHtmlAndSanitize(p.description)}</p>
+                            <div class="d-flex flex-wrap gap-1 mb-2 overflow-hidden" style="max-height: 28px;">
+                                ${(p.technologyStack||[]).map(t => `<span class="badge bg-secondary-subtle text-secondary small">${stripHtmlAndSanitize(t)}</span>`).join("")}
                             </div>
                             <div class="d-flex justify-content-between align-items-center mt-auto pt-2 border-top">
                                 <a href="${p.repositoryURL}" target="_blank" class="btn btn-outline-dark btn-sm btn-card-action"><i class="bi bi-github me-1"></i>Repo Code</a>

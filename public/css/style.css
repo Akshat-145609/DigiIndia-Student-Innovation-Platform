@@ -305,6 +305,9 @@ pre code {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 250px;
+    height: 250px;
+    overflow: hidden;
 }
 
 .project-card-unified:hover {
@@ -320,6 +323,7 @@ pre code {
     overflow: hidden;
     text-overflow: ellipsis;
     margin-bottom: 0;
+    max-width: 70%;
 }
 
 .card-desc-clamp {
@@ -328,11 +332,12 @@ pre code {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 0.875rem;
+    font-size: 0.85rem;
     color: var(--text-muted);
-    line-height: 1.5;
-    margin-top: 0.5rem;
-    margin-bottom: 0.75rem;
+    line-height: 1.45;
+    margin-top: 0.4rem;
+    margin-bottom: 0.6rem;
+    max-height: 58px;
     word-break: break-word;
 }
 
@@ -343,7 +348,14 @@ pre code {
     padding: 1.25rem;
     box-shadow: var(--shadow-soft);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 180px;
+    height: 180px;
+    overflow: hidden;
 }
+
 
 .student-card-unified:hover {
     transform: translateY(-3px);

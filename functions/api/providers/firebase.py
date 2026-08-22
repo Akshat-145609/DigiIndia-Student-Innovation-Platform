@@ -5,15 +5,41 @@ from config import settings
 
 logger = logging.getLogger(__name__)
 
+import os
+import json
+import base64
+
 # Initialize Firebase Admin SDK
 try:
     if not firebase_admin._apps:
-        # Default initialization uses environment or default project credentials
-        cred = credentials.ApplicationDefault() if False else None
-        if settings.FIREBASE_PROJECT_ID:
+        cred = None
+        service_acc_env = os.getenv("FIREBASE_SERVICE_ACCOUNT", "")
+        service_acc_file = os.path.join(os.path.dirname(__file__), "..", "..", "firebase-service-account.json")
+        
+        if service_acc_env:
+            try:
+                decoded_json = base64.b64decode(service_acc_env).decode('utf-8')
+                cred_dict = json.loads(decoded_json)
+                cred = credentials.Certificate(cred_dict)
+            except Exception:
+                try:
+                    cred_dict = json.loads(service_acc_env)
+                    cred = credentials.Certificate(cred_dict)
+                except Exception:
+                    pass
+        elif os.path.exists(service_acc_file):
+            try:
+                cred = credentials.Certificate(service_acc_file)
+            except Exception:
+                pass
+
+        if cred:
+            firebase_admin.initialize_app(cred, {'projectId': settings.FIREBASE_PROJECT_ID})
+        elif settings.FIREBASE_PROJECT_ID:
             firebase_admin.initialize_app(options={'projectId': settings.FIREBASE_PROJECT_ID})
         else:
             firebase_admin.initialize_app()
+
     db = firestore.client()
     logger.info("Firebase Admin SDK & Firestore client initialized successfully.")
 except Exception as e:
@@ -22,6 +48,7 @@ except Exception as e:
         db = firestore.client()
     except Exception:
         db = None
+
 
 class FirebaseProvider:
     @staticmethod

@@ -140,7 +140,50 @@
                 document.getElementById("profCollege").innerText = p.college || "Academic College";
                 document.getElementById("profCourse").innerText = `${p.course || 'Degree'} (Sem ${p.semester || '1'}) - Grad: ${p.graduationYear || '2027'}`;
 
+                // Dynamic SEO Updates for Search Engine Crawlers & Social Shares
+                const pageTitle = `${p.fullName || 'Student'} (SPN: ${p.spn || 'Verified'}) – DigiIndia Verified Developer Profile`;
+                const pageDesc = `${p.fullName || 'Student'} is a verified student developer from ${p.college || 'Academic College'}, studying ${p.course || 'Engineering'} with skills in ${(p.skills || ['Software Development']).join(', ')}.`;
+                const canonicalUrl = `https://digiindia-studentcollaboration.web.app/profile.html?spn=${p.spn || targetUID}`;
+                
+                document.title = pageTitle;
+                let metaDesc = document.querySelector('meta[name="description"]');
+                if (metaDesc) metaDesc.setAttribute("content", pageDesc);
+                let metaOgTitle = document.querySelector('meta[property="og:title"]');
+                if (metaOgTitle) metaOgTitle.setAttribute("content", pageTitle);
+                let metaOgDesc = document.querySelector('meta[property="og:description"]');
+                if (metaOgDesc) metaOgDesc.setAttribute("content", pageDesc);
+                let metaOgImage = document.querySelector('meta[property="og:image"]');
+                if (metaOgImage && p.avatarURL) metaOgImage.setAttribute("content", p.avatarURL);
+                
+                let canonicalEl = document.querySelector('link[rel="canonical"]');
+                if (!canonicalEl) {
+                    canonicalEl = document.createElement("link");
+                    canonicalEl.setAttribute("rel", "canonical");
+                    document.head.appendChild(canonicalEl);
+                }
+                canonicalEl.setAttribute("href", canonicalUrl);
+
+                // Inject Schema.org Person JSON-LD
+                let schemaScript = document.getElementById("dynamicProfileSchema");
+                if (!schemaScript) {
+                    schemaScript = document.createElement("script");
+                    schemaScript.id = "dynamicProfileSchema";
+                    schemaScript.type = "application/ld+json";
+                    document.head.appendChild(schemaScript);
+                }
+                schemaScript.textContent = JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": p.fullName,
+                    "identifier": p.spn,
+                    "jobTitle": p.headline || "Student Software Developer",
+                    "worksFor": { "@type": "EducationalOrganization", "name": p.college },
+                    "url": canonicalUrl,
+                    "image": p.avatarURL || "https://digiindia-studentcollaboration.web.app/Icon.svg"
+                });
+
                 const skillsGrid = document.getElementById("profSkillsGrid");
+
                 skillsGrid.innerHTML = (p.skills || ["Python", "FastAPI", "Web Dev"]).map(s => `
                     <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill">${s}</span>
                 `).join("");

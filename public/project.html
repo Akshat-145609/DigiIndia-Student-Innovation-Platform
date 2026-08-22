@@ -72,6 +72,46 @@
         function renderProjectDetails(p, meta, verif, scoreData) {
             const container = document.getElementById("projectDetailContainer");
             const isVerified = p.verificationStatus === "verified";
+            
+            // Dynamic SEO Updates for Search Engine Crawlers & Social Shares
+            const pageTitle = `${p.title || 'Student Project'} – Verified Project Audit | DigiIndia`;
+            const pageDesc = `${p.title}: ${(p.description || 'Verified student innovation project').slice(0, 160)}. Built with ${(p.technologyStack || ['Software']).join(', ')}.`;
+            const canonicalUrl = `https://digiindia-studentcollaboration.web.app/project.html?id=${p.projectId || ''}`;
+
+            document.title = pageTitle;
+            let metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) metaDesc.setAttribute("content", pageDesc);
+            let metaOgTitle = document.querySelector('meta[property="og:title"]');
+            if (metaOgTitle) metaOgTitle.setAttribute("content", pageTitle);
+            let metaOgDesc = document.querySelector('meta[property="og:description"]');
+            if (metaOgDesc) metaOgDesc.setAttribute("content", pageDesc);
+
+            let canonicalEl = document.querySelector('link[rel="canonical"]');
+            if (!canonicalEl) {
+                canonicalEl = document.createElement("link");
+                canonicalEl.setAttribute("rel", "canonical");
+                document.head.appendChild(canonicalEl);
+            }
+            canonicalEl.setAttribute("href", canonicalUrl);
+
+            // Inject Schema.org SoftwareSourceCode JSON-LD
+            let schemaScript = document.getElementById("dynamicProjectSchema");
+            if (!schemaScript) {
+                schemaScript = document.createElement("script");
+                schemaScript.id = "dynamicProjectSchema";
+                schemaScript.type = "application/ld+json";
+                document.head.appendChild(schemaScript);
+            }
+            schemaScript.textContent = JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "SoftwareSourceCode",
+                "name": p.title,
+                "description": p.description,
+                "programmingLanguage": p.technologyStack || [],
+                "codeRepository": p.repositoryURL,
+                "url": canonicalUrl
+            });
+
             const liveUrl = p.liveURL ? `<a href="${p.liveURL}" target="_blank" class="btn btn-success btn-sm px-3"><i class="bi bi-globe me-1"></i>Visit Live Project Website</a>` : '<span class="text-muted small">No Live Website URL configured</span>';
 
             const breakdown = (scoreData && scoreData.breakdown) || { identityVerification: 30, repositoryOwnership: 25, liveWebsiteVerification: 20, documentationQuality: 15, communityReputation: 10 };

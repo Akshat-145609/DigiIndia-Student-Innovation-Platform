@@ -19,6 +19,14 @@ def get_student_profile(uid: str):
         raise HTTPException(status_code=404, detail="Profile not found")
     return profile
 
+@router.get("/profile/spn/{spn}")
+def get_student_profile_by_spn(spn: str):
+    profile = StudentService.get_student_profile_by_spn(spn)
+    if not profile:
+        raise HTTPException(status_code=404, detail="Profile not found")
+    return profile
+
 @router.put("/profile/me")
 def update_my_profile(schema: ProfileUpdateSchema, user: dict = Depends(require_authenticated_user)):
     return StudentService.update_profile(user["uid"], schema.dict(exclude_unset=True))
+

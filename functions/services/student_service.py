@@ -9,18 +9,33 @@ followers_repo = FirestoreRepository("followers")
 class StudentService:
 
     @staticmethod
-    def get_student_profile(uid: str):
-        student = students_repo.get(uid)
-        profile = profiles_repo.get(uid) or {}
+    def get_student_profile(uid_or_spn: str):
+        ident = str(uid_or_spn).strip()
+        student = None
+        
+        # 1. Check direct UID lookup
+        student = students_repo.get(ident)
+        
+        # 2. If not found by UID or if identifier is 8-digit SPN, query by SPN
+        if not student:
+            res = students_repo.query(filters=[("spn", "==", ident)])
+            if res:
+                student = res[0]
+
         if not student:
             return None
+        
+        uid = student.get("uid")
+        profile = profiles_repo.get(uid) or {}
         
         # Calculate fresh trust score
         trust_score = StudentService.calculate_trust_score(uid)
         profile["trustScore"] = trust_score
+        profile["studentUID"] = uid
+        profile["spn"] = student.get("spn")
 
         return {
-            "uid": student.get("uid"),
+            "uid": uid,
             "spn": student.get("spn"),
             "email": student.get("email"),
             "phone": student.get("phone"),
@@ -29,6 +44,11 @@ class StudentService:
             "verificationStatus": student.get("verificationStatus", "pending"),
             "profile": profile
         }
+
+    @staticmethod
+    def get_student_profile_by_spn(spn: str):
+        return StudentService.get_student_profile(spn)
+
 
     @staticmethod
     def update_profile(uid: str, update_data: dict):

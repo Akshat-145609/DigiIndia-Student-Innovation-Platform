@@ -62,5 +62,22 @@
     "createdAt": 1785399708.7626374,
     "headline": "Full Stack Web Developer",
     "updatedAt": 1785400158.228734
+  },
+  "6ad883fd-8486-4da6-9acc-2fcdad25240d": {
+    "profileId": "6ad883fd-8486-4da6-9acc-2fcdad25240d",
+    "studentUID": "6ad883fd-8486-4da6-9acc-2fcdad25240d",
+    "spn": "26114399",
+    "fullName": "Test Student",
+    "college": "IIT Delhi",
+    "course": "",
+    "semester": "",
+    "graduationYear": "",
+    "skills": [],
+    "socialLinks": {},
+    "avatarURL": "",
+    "coverURL": "",
+    "trustScore": 40,
+    "visibility": "public",
+    "createdAt": 1788416823.411
   }
 }

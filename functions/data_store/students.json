@@ -5,13 +5,13 @@
     "email": "akshatpsd2005@gmail.com",
     "phone": "+917838250289",
     "whatsapp": "+917838250289",
-    "passwordHash": "$2b$12$pV5bTncaetty7XciVRGP7u4NKaDaywcewxazAiw3.skez7l.zIAfm",
+    "passwordHash": "$2b$12$eQ0cIBp2FguzHIPA18RleOQiADdSeA8ge4mgtCT/lEqvqCN/faegi",
     "role": "student",
     "status": "active",
     "verificationStatus": "verified",
     "securityEmail": "akshatpsd23@gmail.com",
     "createdAt": 1785319422.8874023,
-    "updatedAt": 1785320127.8457408
+    "updatedAt": 1788415921.2631404
   },
   "df3cab28-bcb4-49d8-a88a-defa83802ba3": {
     "uid": "df3cab28-bcb4-49d8-a88a-defa83802ba3",
@@ -19,12 +19,12 @@
     "email": "its.akshatnetworkhub23@gmail.com",
     "phone": "9953854901",
     "whatsapp": "7838250289",
-    "passwordHash": "$2b$12$pV5bTncaetty7XciVRGP7u4NKaDaywcewxazAiw3.skez7l.zIAfm",
+    "passwordHash": "$2b$12$eQ0cIBp2FguzHIPA18RleOQiADdSeA8ge4mgtCT/lEqvqCN/faegi",
     "role": "admin",
     "status": "active",
     "verificationStatus": "verified",
     "securityEmail": "akshatpsd2005@gmail.com",
     "createdAt": 1785399706.5310836,
-    "updatedAt": 1785399797.3026962
+    "updatedAt": 1788415921.2631512
   }
 }

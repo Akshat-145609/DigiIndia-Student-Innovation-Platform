@@ -145,7 +145,7 @@ function verifyPassword(plainPassword, hashedPassword) {
     if (bcrypt.compareSync(plainPassword, h)) return true;
   } catch (e) {}
 
-  return plainPassword === hashedPassword || plainPassword === ADMIN_PASSWORD;
+  return plainPassword === hashedPassword;
 }
 
 // Generate Unique 8-Digit SPN

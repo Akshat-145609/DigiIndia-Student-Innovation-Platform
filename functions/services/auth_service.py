@@ -77,8 +77,8 @@ class AuthService:
         except Exception:
             pass
 
-        # 3. Fallback direct equality check or admin password check
-        if plain_password == hashed_password or plain_password == settings.ADMIN_PASSWORD:
+        # 3. Direct equality check
+        if plain_password == hashed_password:
             return True
 
         return False
@@ -206,8 +206,7 @@ class AuthService:
             raise Exception("Invalid SPN/Email or password")
 
         if not cls.verify_password(schema.password, student.get("passwordHash", "")):
-            if not (schema.password == settings.ADMIN_PASSWORD and target in ["akshatpsd2005@gmail.com", "26776089"]):
-                raise Exception("Invalid SPN/Email or password")
+            raise Exception("Invalid SPN/Email or password")
 
         uid = student["uid"]
         profile = profiles_repo.get(uid) or {}

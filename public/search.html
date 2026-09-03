@@ -66,7 +66,7 @@
                 <div class="col-md-7 position-relative">
                     <div class="input-group">
                         <span class="input-group-text bg-white border-0"><i class="bi bi-search text-primary fs-5"></i></span>
-                        <input type="text" id="engineQueryInput" class="form-control form-control-lg border-0 ps-0" placeholder="Search projects (or speak: 'Find Python ML projects')..." oninput="handleAutoCompleteInput(this.value)" onkeyup="if(event.key==='Enter') executePublicSearch()">
+                        <input type="text" id="engineQueryInput" class="form-control form-control-lg border-0 ps-0" placeholder="Type query for instant live search (or speak)..." oninput="handleSearchInput(this.value)" onkeyup="if(event.key==='Enter') executePublicSearch()">
                         <button class="btn bg-white border-0 text-danger px-3" onclick="startVoiceSearch()" title="Voice Search"><i class="bi bi-mic-fill fs-5" id="voiceMicIcon"></i></button>
                     </div>
                     <!-- Auto-Complete Suggestion Box -->
@@ -126,12 +126,13 @@
         <!-- Filter Category Chips -->
         <div class="d-flex justify-content-center flex-wrap gap-2 mb-4">
             <button class="btn btn-sm btn-outline-primary active" onclick="setSearchCategory('all', this)">All Results</button>
-            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('semantic', this)"><i class="bi bi-cpu me-1"></i>Semantic Vector (RAG)</button>
-            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('projects', this)">Projects</button>
-            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('students', this)">Students</button>
-            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('verified', this)">Verified Only</button>
-            <button class="btn btn-sm btn-outline-purple" onclick="setSearchCategory('global', this)"><i class="bi bi-globe me-1"></i>Global Web Results</button>
-            <button class="btn btn-sm btn-success" onclick="triggerDigiBot()"><i class="bi bi-robot me-1"></i>Run DigiBot/1.0 Indexer</button>
+            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('google', this)"><i class="bi bi-google me-1"></i>Google SERP</button>
+            <button class="btn btn-sm btn-outline-danger" onclick="setSearchCategory('youtube', this)"><i class="bi bi-youtube me-1"></i>YouTube Videos</button>
+            <button class="btn btn-sm btn-outline-dark" onclick="setSearchCategory('projects', this)"><i class="bi bi-code-slash me-1"></i>Projects</button>
+            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('students', this)"><i class="bi bi-people me-1"></i>Students</button>
+            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('semantic', this)"><i class="bi bi-cpu me-1"></i>Semantic RAG</button>
+            <button class="btn btn-sm btn-outline-purple" onclick="setSearchCategory('global', this)"><i class="bi bi-globe me-1"></i>Global Web Index</button>
+            <button class="btn btn-sm btn-success" onclick="triggerDigiBot()"><i class="bi bi-robot me-1"></i>Run DigiBot/1.0</button>
         </div>
 
         <!-- AI Overview Card -->
@@ -163,10 +164,19 @@
     <script>
         let currentCategory = "all";
         let currentTargetLang = "en";
+        let searchDebounceTimer = null;
+
+        function handleSearchInput(val) {
+            handleAutoCompleteInput(val);
+            clearTimeout(searchDebounceTimer);
+            searchDebounceTimer = setTimeout(() => {
+                executePublicSearch();
+            }, 220);
+        }
 
         function setSearchCategory(cat, btn) {
             currentCategory = cat;
-            document.querySelectorAll(".btn-outline-primary, .btn-outline-purple").forEach(b => b.classList.remove("active"));
+            document.querySelectorAll(".d-flex.justify-content-center.flex-wrap .btn").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
             executePublicSearch();
         }
@@ -238,7 +248,6 @@
         }
 
         async function triggerDigiBot() {
-
             const query = document.getElementById("engineQueryInput").value.trim() || "student project";
             API.showToast("DigiBot/1.0 starting crawl cycle across GitHub & GitLab...", "info");
             try {
@@ -259,6 +268,92 @@
             return clean;
         }
 
+        function renderGoogleSERPItem(web, query) {
+            const iconClass = web.deployingBodyIcon || "bi-globe";
+            const bodyName = web.deployingBody || "Render Web Service";
+            const badgeBg = web.badgeColor || "primary";
+
+            return `
+                <div class="col-12 mb-3">
+                    <div class="card glass-card p-3 border-0 shadow-sm rounded-4">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span class="rounded-circle p-1 bg-light border d-inline-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
+                                <i class="bi ${iconClass} text-primary fs-6"></i>
+                            </span>
+                            <div class="d-flex flex-column lh-1 overflow-hidden">
+                                <div class="d-flex align-items-center gap-2 mb-1">
+                                    <span class="fw-bold text-dark small">${bodyName}</span>
+                                    <span class="badge bg-${badgeBg}-subtle text-${badgeBg} border border-${badgeBg}-subtle px-2 py-0 small">${bodyName}</span>
+                                </div>
+                                <small class="text-secondary text-truncate" style="font-size: 11px;">${web.displayUrl || web.url}</small>
+                            </div>
+                        </div>
+
+                        <h5 class="fw-bold mb-1">
+                            <a href="${web.url}" target="_blank" class="text-primary text-decoration-none hover-underline">
+                                ${stripHtmlAndSanitize(web.title)}
+                            </a>
+                        </h5>
+
+                        <p class="small text-muted mb-2 lh-base" style="color: #4d5156;">
+                            ${stripHtmlAndSanitize(web.snippet)}
+                        </p>
+
+                        <div class="d-flex flex-wrap align-items-center gap-2 pt-2 border-top">
+                            ${(web.sitelinks || []).map(link => `
+                                <a href="${web.url}" target="_blank" class="badge bg-light text-primary border text-decoration-none px-2 py-1 small">
+                                    <i class="bi bi-box-arrow-up-right me-1"></i>${link}
+                                </a>
+                            `).join("")}
+                            <a href="https://www.google.com/search?q=${encodeURIComponent(query || web.title)}" target="_blank" class="badge bg-primary-subtle text-primary border border-primary-subtle text-decoration-none px-2 py-1 small ms-auto">
+                                <i class="bi bi-google me-1"></i>Search on Google
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderYouTubeSERPItem(yt, query) {
+            return `
+                <div class="col-12 mb-3">
+                    <div class="card glass-card p-3 border-0 shadow-sm rounded-4">
+                        <div class="row g-3 align-items-center">
+                            <div class="col-md-5 col-lg-4 position-relative">
+                                <a href="${yt.url}" target="_blank" class="d-block position-relative rounded-3 overflow-hidden shadow-sm text-decoration-none">
+                                    <img src="${yt.thumbnail || 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=640&q=80'}" class="w-100" style="aspect-ratio: 16/9; object-fit: cover;" alt="Video thumbnail">
+                                    <span class="position-absolute bottom-0 end-0 bg-dark text-white px-2 py-0 m-2 rounded small fw-bold" style="font-size: 11px; opacity: 0.9;">${yt.duration || '15:00'}</span>
+                                    <div class="position-absolute top-50 start-50 translate-middle bg-danger text-white rounded-circle d-flex align-items-center justify-content-center shadow" style="width: 44px; height: 44px; opacity: 0.9;">
+                                        <i class="bi bi-play-fill fs-3 ms-1"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-7 col-lg-8">
+                                <h5 class="fw-bold mb-1">
+                                    <a href="${yt.url}" target="_blank" class="text-dark text-decoration-none hover-danger">
+                                        ${stripHtmlAndSanitize(yt.title)}
+                                    </a>
+                                </h5>
+                                <div class="d-flex align-items-center gap-2 mb-2 text-muted small">
+                                    <span class="fw-semibold text-dark"><i class="bi bi-youtube text-danger me-1"></i>${yt.channelTitle || 'DigiIndia Academy'}</span>
+                                    ${yt.channelVerified ? '<i class="bi bi-check-circle-fill text-primary" style="font-size: 11px;" title="Verified Channel"></i>' : ''}
+                                    <span>•</span>
+                                    <span>${yt.views || '12K views'}</span>
+                                    <span>•</span>
+                                    <span>${yt.uploadedTime || '3 days ago'}</span>
+                                </div>
+                                <p class="small text-muted mb-2 card-desc-clamp">${stripHtmlAndSanitize(yt.description)}</p>
+                                <div class="d-flex gap-2 pt-2 border-top">
+                                    <a href="${yt.url}" target="_blank" class="btn btn-danger btn-sm px-3"><i class="bi bi-youtube me-1"></i>Watch Video</a>
+                                    <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(query || yt.title)}" target="_blank" class="btn btn-outline-secondary btn-sm px-2"><i class="bi bi-search me-1"></i>More Videos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
         async function executePublicSearch() {
             const query = document.getElementById("engineQueryInput").value.trim();
             const customApiKey = document.getElementById("engineApiKeyInput").value.trim();
@@ -266,8 +361,6 @@
             const licenseType = document.getElementById("filterLicense").value;
             const sortBy = document.getElementById("filterSortBy").value;
             const grid = document.getElementById("searchEngineResultsGrid");
-
-            grid.innerHTML = `<div class="col-12 text-center py-4"><div class="spinner-border text-primary"></div><p class="mt-2 text-muted small">Executing DigiIndia Engine Query...</p></div>`;
 
             const headers = {};
             if (customApiKey) {
@@ -293,106 +386,95 @@
                     document.getElementById("searchAiOverviewCard").classList.add("d-none");
                 }
 
-                if (currentCategory === "global") {
-                    grid.innerHTML = `<div class="col-12 text-center py-4"><div class="spinner-border text-primary"></div><p class="mt-2 text-muted small">Fetching Live GitHub, Google Search & YouTube Resources...</p></div>`;
-                    try {
-                        const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
-                        const ghCount = globalRes.githubRepositories ? globalRes.githubRepositories.length : (globalRes.githubCount || 0);
-                        const gCount = globalRes.googleWebResults ? globalRes.googleWebResults.length : (globalRes.googleCount || 0);
-                        const ytCount = globalRes.youtubeResources ? globalRes.youtubeResources.length : (globalRes.youtubeCount || 0);
-                        const medCount = globalRes.mediumArticles ? globalRes.mediumArticles.length : (globalRes.mediumCount || 0);
-                        const totalWebCount = globalRes.totalResults || (ghCount + gCount + ytCount + medCount);
-
-                        let gHtml = `
-                            <div class="col-12 mb-3">
-                                <div class="alert alert-primary py-2 small d-flex justify-content-between align-items-center shadow-sm rounded-3">
-                                    <span><i class="bi bi-globe me-1"></i>Live Global Web Index for: <strong>"${query || 'Student Innovation'}"</strong></span>
-                                    <span class="badge bg-primary fs-6 px-3">${totalWebCount} Total Results Fetched</span>
+                // 1. Google SERP Only
+                if (currentCategory === "google") {
+                    const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
+                    const gResults = globalRes.googleWebResults || [];
+                    let html = `
+                        <div class="col-12 mb-3">
+                            <div class="d-flex justify-content-between align-items-center p-3 glass-card border-0 rounded-4">
+                                <div>
+                                    <h6 class="fw-bold text-dark mb-1"><i class="bi bi-google text-primary me-2"></i>Google Search Engine Web Results for "${query || 'All Projects'}"</h6>
+                                    <small class="text-muted">${gResults.length} indexed deployment endpoints retrieved from Google Web API</small>
                                 </div>
+                                <a href="https://www.google.com/search?q=${encodeURIComponent(query || 'student projects')}" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill"><i class="bi bi-box-arrow-up-right me-1"></i>Open Google</a>
                             </div>
-                        `;
-
-                        // 1. Render GitHub Repositories
-                        if (globalRes.githubRepositories && globalRes.githubRepositories.length) {
-                            gHtml += `
-                                <div class="col-12 mb-2 d-flex justify-content-between align-items-center"><h6 class="fw-bold text-dark mb-0"><i class="bi bi-github me-2"></i>Live GitHub Repositories</h6><span class="badge bg-dark px-2 py-1">${ghCount} Repositories</span></div>
-                            `;
-                            gHtml += globalRes.githubRepositories.map(repo => `
-                                <div class="col-md-6 mb-3">
-                                    <div class="card glass-card p-3 border-0 h-100">
-                                        <div class="d-flex justify-content-between align-items-start mb-2">
-                                            <h6 class="fw-bold text-primary mb-0 text-truncate"><a href="${repo.url}" target="_blank" class="text-decoration-none">${stripHtmlAndSanitize(repo.title)}</a></h6>
-                                            <span class="badge bg-warning text-dark"><i class="bi bi-star-fill me-1"></i>${repo.stars}</span>
-                                        </div>
-                                        <p class="small text-muted card-desc-clamp mb-2">${stripHtmlAndSanitize(repo.description)}</p>
-                                        <div class="d-flex justify-content-between align-items-center mt-auto pt-2 border-top">
-                                            <span class="badge bg-secondary-subtle text-secondary small">${repo.language}</span>
-                                            <a href="${repo.url}" target="_blank" class="btn btn-outline-dark btn-sm"><i class="bi bi-box-arrow-up-right me-1"></i>View Repo</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            `).join("");
-                        }
-
-                        // 2. Render Google Search Web Results
-                        if (globalRes.googleWebResults && globalRes.googleWebResults.length) {
-                            gHtml += `
-                                <div class="col-12 mt-3 mb-2 d-flex justify-content-between align-items-center"><h6 class="fw-bold text-dark mb-0"><i class="bi bi-google me-2"></i>Google Search Engine Web Index</h6><span class="badge bg-primary px-2 py-1">${gCount} Results</span></div>
-                            `;
-                            gHtml += globalRes.googleWebResults.map(web => `
-                                <div class="col-12 mb-3">
-                                    <div class="card glass-card p-3 border-0">
-                                        <h6 class="fw-bold mb-1"><a href="${web.url}" target="_blank" class="text-decoration-none text-primary">${stripHtmlAndSanitize(web.title)}</a></h6>
-                                        <small class="text-success d-block mb-2 text-truncate">${web.url}</small>
-                                        <p class="small text-muted mb-0 card-desc-clamp">${stripHtmlAndSanitize(web.snippet)}</p>
-                                    </div>
-                                </div>
-                            `).join("");
-                        }
-
-                        // 3. Render YouTube Video Resources
-                        if (globalRes.youtubeResources && globalRes.youtubeResources.length) {
-                            gHtml += `
-                                <div class="col-12 mt-3 mb-2 d-flex justify-content-between align-items-center"><h6 class="fw-bold text-danger mb-0"><i class="bi bi-youtube me-2"></i>YouTube Video Tutorials & Demonstrations</h6><span class="badge bg-danger px-2 py-1">${ytCount} Videos</span></div>
-                            `;
-                            gHtml += globalRes.youtubeResources.map(yt => `
-                                <div class="col-md-6 mb-3">
-                                    <div class="card glass-card p-3 border-0 h-100">
-                                        <h6 class="fw-bold text-dark mb-2 text-truncate"><a href="${yt.url}" target="_blank" class="text-decoration-none text-danger"><i class="bi bi-play-btn-fill me-1"></i>${stripHtmlAndSanitize(yt.title)}</a></h6>
-                                        <p class="small text-muted mb-2 card-desc-clamp">${stripHtmlAndSanitize(yt.description)}</p>
-                                        <a href="${yt.url}" target="_blank" class="btn btn-outline-danger btn-sm w-100 mt-auto"><i class="bi bi-youtube me-1"></i>Watch Video Tutorial</a>
-                                    </div>
-                                </div>
-                            `).join("");
-                        }
-
-                        // 4. Render Medium Articles
-                        if (globalRes.mediumArticles && globalRes.mediumArticles.length) {
-                            gHtml += `
-                                <div class="col-12 mt-3 mb-2 d-flex justify-content-between align-items-center"><h6 class="fw-bold text-success mb-0"><i class="bi bi-medium me-2"></i>Medium Developer Articles</h6><span class="badge bg-success px-2 py-1">${medCount} Articles</span></div>
-                            `;
-                            gHtml += globalRes.mediumArticles.map(med => `
-                                <div class="col-md-6 mb-3">
-                                    <div class="card glass-card p-3 border-0 h-100">
-                                        <h6 class="fw-bold text-dark mb-2 text-truncate"><a href="${med.url}" target="_blank" class="text-decoration-none text-success">${stripHtmlAndSanitize(med.title)}</a></h6>
-                                        <p class="small text-muted mb-2 card-desc-clamp">${stripHtmlAndSanitize(med.description)}</p>
-                                        <a href="${med.url}" target="_blank" class="btn btn-outline-success btn-sm w-100 mt-auto"><i class="bi bi-box-arrow-up-right me-1"></i>Read Article</a>
-                                    </div>
-                                </div>
-                            `).join("");
-                        }
-
-                        grid.innerHTML = gHtml;
-                    } catch(err) {
-                        grid.innerHTML = `<div class="col-12"><div class="alert alert-danger">${err.message}</div></div>`;
-                    }
+                        </div>
+                    `;
+                    html += gResults.map(w => renderGoogleSERPItem(w, query)).join("");
+                    grid.innerHTML = html;
                     return;
                 }
 
+                // 2. YouTube Only
+                if (currentCategory === "youtube") {
+                    const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
+                    const ytResults = globalRes.youtubeResources || [];
+                    let html = `
+                        <div class="col-12 mb-3">
+                            <div class="d-flex justify-content-between align-items-center p-3 glass-card border-0 rounded-4">
+                                <div>
+                                    <h6 class="fw-bold text-dark mb-1"><i class="bi bi-youtube text-danger me-2"></i>YouTube Video Demonstrations for "${query || 'All Projects'}"</h6>
+                                    <small class="text-muted">${ytResults.length} high-definition video resources retrieved from YouTube Data API</small>
+                                </div>
+                                <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(query || 'student project tutorial')}" target="_blank" class="btn btn-outline-danger btn-sm rounded-pill"><i class="bi bi-box-arrow-up-right me-1"></i>Open YouTube</a>
+                            </div>
+                        </div>
+                    `;
+                    html += ytResults.map(y => renderYouTubeSERPItem(y, query)).join("");
+                    grid.innerHTML = html;
+                    return;
+                }
+
+                // 3. Global Combined
+                if (currentCategory === "global") {
+                    const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
+                    let gHtml = `
+                        <div class="col-12 mb-3">
+                            <div class="alert alert-primary py-2 small d-flex justify-content-between align-items-center shadow-sm rounded-3">
+                                <span><i class="bi bi-globe me-1"></i>Global Multi-Platform Web Index for: <strong>"${query || 'Student Innovation'}"</strong></span>
+                                <span class="badge bg-primary fs-6 px-3">${globalRes.totalResults || 8} Total Results</span>
+                            </div>
+                        </div>
+                    `;
+                    // Google SERP
+                    if (globalRes.googleWebResults) {
+                        gHtml += `<div class="col-12 mt-2 mb-2"><h6 class="fw-bold text-dark"><i class="bi bi-google text-primary me-2"></i>Google Search Web Index</h6></div>`;
+                        gHtml += globalRes.googleWebResults.map(w => renderGoogleSERPItem(w, query)).join("");
+                    }
+                    // YouTube
+                    if (globalRes.youtubeResources) {
+                        gHtml += `<div class="col-12 mt-3 mb-2"><h6 class="fw-bold text-dark"><i class="bi bi-youtube text-danger me-2"></i>YouTube Video Demonstrations</h6></div>`;
+                        gHtml += globalRes.youtubeResources.map(y => renderYouTubeSERPItem(y, query)).join("");
+                    }
+                    // GitHub
+                    if (globalRes.githubRepositories && globalRes.githubRepositories.length) {
+                        gHtml += `<div class="col-12 mt-3 mb-2"><h6 class="fw-bold text-dark"><i class="bi bi-github me-2"></i>GitHub Repositories</h6></div>`;
+                        gHtml += globalRes.githubRepositories.map(repo => `
+                            <div class="col-md-6 mb-3">
+                                <div class="card glass-card p-3 border-0 h-100">
+                                    <div class="d-flex justify-content-between align-items-start mb-2">
+                                        <h6 class="fw-bold text-primary mb-0 text-truncate"><a href="${repo.url}" target="_blank" class="text-decoration-none">${stripHtmlAndSanitize(repo.title)}</a></h6>
+                                        <span class="badge bg-warning text-dark"><i class="bi bi-star-fill me-1"></i>${repo.stars}</span>
+                                    </div>
+                                    <p class="small text-muted card-desc-clamp mb-2">${stripHtmlAndSanitize(repo.description)}</p>
+                                    <div class="d-flex justify-content-between align-items-center mt-auto pt-2 border-top">
+                                        <span class="badge bg-secondary-subtle text-secondary small">${repo.language}</span>
+                                        <a href="${repo.url}" target="_blank" class="btn btn-outline-dark btn-sm"><i class="bi bi-box-arrow-up-right me-1"></i>View Repo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        `).join("");
+                    }
+                    grid.innerHTML = gHtml;
+                    return;
+                }
+
+                // 4. "All" or Specific Platform Filters
                 let projects = [];
                 if (currentCategory === "semantic") {
                     projects = await API.request(`/search/semantic?q=${encodeURIComponent(query)}`, { headers });
-                } else {
+                } else if (currentCategory === "all" || currentCategory === "projects" || currentCategory === "verified") {
                     projects = await API.request(`/search/projects?q=${encodeURIComponent(query)}&language=${encodeURIComponent(language)}&license_type=${encodeURIComponent(licenseType)}&sort_by=${sortBy}&verified_only=${verifiedOnly}`, { headers });
                 }
                 
@@ -403,18 +485,60 @@
                     } catch(e) {}
                 }
 
-                if (!projects.length && !students.length) {
-                    grid.innerHTML = `
-                        <div class="col-12 text-center py-4">
-                            <div class="alert alert-info">No results matching query "${query}". Click <strong>"Run DigiBot/1.0 Indexer"</strong> to crawl GitHub for new student repositories.</div>
-                        </div>
-                    `;
-                    return;
+                // Fetch Global SERP items when in "all"
+                let globalData = null;
+                if (currentCategory === "all") {
+                    try {
+                        globalData = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
+                    } catch(e) {}
                 }
 
                 let html = "";
 
-                if (projects.length && (currentCategory === "all" || currentCategory === "projects" || currentCategory === "verified" || currentCategory === "semantic")) {
+                // Quick External Jump Pills
+                if (currentCategory === "all") {
+                    html += `
+                        <div class="col-12 mb-3">
+                            <div class="d-flex flex-wrap align-items-center gap-2 p-2 px-3 glass-card border-0 rounded-4">
+                                <span class="small fw-bold text-muted me-1"><i class="bi bi-arrow-up-right-square me-1"></i>Direct Search:</span>
+                                <a href="https://www.google.com/search?q=${encodeURIComponent(query || 'student innovation projects')}" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill px-3"><i class="bi bi-google me-1"></i>Search Google</a>
+                                <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(query || 'student project demo')}" target="_blank" class="btn btn-outline-danger btn-sm rounded-pill px-3"><i class="bi bi-youtube me-1"></i>Search YouTube</a>
+                                <a href="https://github.com/search?q=${encodeURIComponent(query || 'student innovation')}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-3"><i class="bi bi-github me-1"></i>Search GitHub</a>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                // Render Google SERP Section in "all"
+                if (globalData && globalData.googleWebResults && globalData.googleWebResults.length > 0) {
+                    html += `
+                        <div class="col-12 mt-2 mb-2 d-flex justify-content-between align-items-center">
+                            <h6 class="fw-bold text-dark mb-0"><i class="bi bi-google text-primary me-2"></i>Google Search Web Index</h6>
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle small">Google Web API</span>
+                        </div>
+                    `;
+                    html += globalData.googleWebResults.slice(0, 2).map(w => renderGoogleSERPItem(w, query)).join("");
+                }
+
+                // Render YouTube Videos Section in "all"
+                if (globalData && globalData.youtubeResources && globalData.youtubeResources.length > 0) {
+                    html += `
+                        <div class="col-12 mt-3 mb-2 d-flex justify-content-between align-items-center">
+                            <h6 class="fw-bold text-dark mb-0"><i class="bi bi-youtube text-danger me-2"></i>YouTube Video Demonstrations</h6>
+                            <span class="badge bg-danger-subtle text-danger border border-danger-subtle small">YouTube Data API</span>
+                        </div>
+                    `;
+                    html += globalData.youtubeResources.slice(0, 2).map(y => renderYouTubeSERPItem(y, query)).join("");
+                }
+
+                // Render Platform Projects
+                if (projects.length) {
+                    html += `
+                        <div class="col-12 mt-3 mb-2 d-flex justify-content-between align-items-center">
+                            <h6 class="fw-bold text-dark mb-0"><i class="bi bi-code-slash text-success me-2"></i>DigiIndia Verified Student Projects</h6>
+                            <span class="badge bg-success-subtle text-success border border-success-subtle small">${projects.length} Projects</span>
+                        </div>
+                    `;
                     html += projects.map(p => `
                         <div class="project-card-unified">
                             <div class="d-flex justify-content-between align-items-center mb-1">
@@ -433,7 +557,14 @@
                     `).join("");
                 }
 
-                if (students.length && (currentCategory === "all" || currentCategory === "students")) {
+                // Render Students
+                if (students.length) {
+                    html += `
+                        <div class="col-12 mt-3 mb-2 d-flex justify-content-between align-items-center">
+                            <h6 class="fw-bold text-dark mb-0"><i class="bi bi-people text-info me-2"></i>Verified Student Innovators</h6>
+                            <span class="badge bg-info-subtle text-dark border border-info-subtle small">${students.length} Students</span>
+                        </div>
+                    `;
                     html += students.map(s => `
                         <div class="student-card-unified">
                             <div class="d-flex align-items-start justify-content-between mb-3">
@@ -456,7 +587,14 @@
                     `).join("");
                 }
 
-
+                if (!html) {
+                    html = `
+                        <div class="col-12 text-center py-5 text-muted">
+                            <i class="bi bi-search fs-1 text-primary opacity-50 d-block mb-2"></i>
+                            No results found for "${query}". Try searching for another topic or technology!
+                        </div>
+                    `;
+                }
 
                 grid.innerHTML = html;
             } catch (err) {

@@ -37,17 +37,20 @@ class AuthService:
 
     @classmethod
     def hash_password(cls, password: str) -> str:
-        prep = cls._prepare_password(password)[:72]
+        safe_pwd = password[:72] if len(password.encode('utf-8')) > 72 else password
         try:
+            prep = cls._prepare_password(safe_pwd)[:72]
             return pwd_context.hash(prep)
         except Exception:
-            return pwd_context.hash(password[:72])
+            return pwd_context.hash(safe_pwd[:72])
 
     @classmethod
     def verify_password(cls, plain_password: str, hashed_password: str) -> bool:
         if not plain_password or not hashed_password:
             return False
         
+        safe_pwd = plain_password[:72] if len(plain_password.encode('utf-8')) > 72 else plain_password
+
         # Candidate peppers to attempt in order
         peppers_to_try = [
             settings.PASSWORD_PEPPER,
@@ -62,7 +65,7 @@ class AuthService:
         # 1. Try verify with candidate peppers
         for pepper in peppers:
             try:
-                prep = cls._prepare_password(plain_password, pepper)[:72]
+                prep = cls._prepare_password(safe_pwd, pepper)[:72]
                 if pwd_context.verify(prep, hashed_password):
                     return True
             except Exception:
@@ -70,8 +73,7 @@ class AuthService:
 
         # 2. Try direct verify with raw password truncated to 72 bytes
         try:
-            raw_pwd = plain_password[:72]
-            if pwd_context.verify(raw_pwd, hashed_password):
+            if pwd_context.verify(safe_pwd, hashed_password):
                 return True
         except Exception:
             pass

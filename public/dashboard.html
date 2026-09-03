@@ -150,21 +150,21 @@
             <!-- VIEW: Verify Project Meta-Tag Crawler -->
             <div class="dashboard-view d-none" id="view-verify">
                 <h4 class="fw-bold text-primary mb-3"><i class="bi bi-patch-check me-2"></i>Project Ownership Verification</h4>
-                <p class="text-muted">Insert your unique meta tag into your project's homepage HTML header. Then trigger our Python Crawler to verify project ownership.</p>
+                <p class="text-muted">Insert your unique meta tag into your project's homepage HTML header. Then run DigiBot Automated Crawler to verify project ownership.</p>
                 <div id="verifyProjectsList" class="row g-3"></div>
             </div>
 
             <!-- VIEW: AI Model Training -->
             <div class="dashboard-view d-none" id="view-train-models">
                 <h4 class="fw-bold text-primary mb-3"><i class="bi bi-cpu me-2"></i>Train AI Knowledge Models</h4>
-                <p class="text-muted mb-4">Enhance DigiIndia AI Knowledge Base using Python Web Crawler, Markdown Uploads, or User API Keys.</p>
+                <p class="text-muted mb-4">Enhance DigiIndia AI Knowledge Base using DigiBot Web Crawler, Document Uploads, or Developer API Keys.</p>
 
                 <div class="row g-4 mb-4">
                     <!-- Method 1: Enter URL -->
                     <div class="col-md-6">
                         <div class="card glass-card p-4 border-0 h-100">
                             <h6 class="fw-bold text-primary mb-2"><i class="bi bi-link-45deg me-1"></i>Method 1: Crawl & Train from URL</h6>
-                            <p class="small text-muted mb-3">Python Web Crawler fetches source code, extracts hyperlinks recursively, and compiles structured AI knowledge.</p>
+                            <p class="small text-muted mb-3">DigiBot Crawler extracts structural data, index references, and compiles knowledge base entries.</p>
                             <div class="mb-3">
                                 <input type="url" id="trainUrlInput" class="form-control rounded-3" placeholder="https://dpgnotes.web.app/">
                             </div>
@@ -671,7 +671,7 @@
             const url = document.getElementById("trainUrlInput").value.trim();
             const statusDiv = document.getElementById("trainUrlStatus");
             if (!url) { API.showToast("Please enter a valid URL", "error"); return; }
-            statusDiv.innerHTML = `<div class="spinner-border spinner-border-sm text-primary"></div> Starting Multi-Stage Python Crawler...`;
+            statusDiv.innerHTML = `<div class="spinner-border spinner-border-sm text-primary"></div> Starting Automated DigiBot Crawler...`;
             try {
                 const res = await API.request("/ai/train-url", { method: "POST", body: JSON.stringify({ url }) });
                 statusDiv.innerHTML = `

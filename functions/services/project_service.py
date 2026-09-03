@@ -15,15 +15,46 @@ class ProjectService:
 
     @classmethod
     def create_project(cls, owner_uid: str, schema: ProjectCreateSchema):
-        # 1. Duplicate Project Prevention Check
+        # 1. Duplicate Project Check & Graceful Upsert
         existing_user_projects = cls.list_user_projects(owner_uid)
         for ep in existing_user_projects:
-            if schema.repositoryURL and ep.get("repositoryURL", "").strip().lower() == schema.repositoryURL.strip().lower():
-                raise Exception("A project with this Repository URL already exists in your portfolio.")
-            if schema.liveURL and ep.get("liveURL", "").strip().lower() == schema.liveURL.strip().lower():
-                raise Exception("A project with this Live URL already exists in your portfolio.")
-            if ep.get("title", "").strip().lower() == schema.title.strip().lower():
-                raise Exception("A project with this exact Title already exists in your portfolio.")
+            is_same_repo = schema.repositoryURL and ep.get("repositoryURL", "").strip().lower() == schema.repositoryURL.strip().lower()
+            is_same_live = schema.liveURL and ep.get("liveURL", "").strip().lower() == schema.liveURL.strip().lower()
+            is_same_title = ep.get("title", "").strip().lower() == schema.title.strip().lower()
+            if is_same_repo or is_same_live or is_same_title:
+                # Gracefully update existing project rather than erroring out
+                project_id = ep["projectId"]
+                update_fields = {
+                    "title": schema.title,
+                    "description": schema.description,
+                    "repositoryURL": schema.repositoryURL,
+                    "liveURL": schema.liveURL or ep.get("liveURL", ""),
+                    "visibility": schema.visibility or ep.get("visibility", "public"),
+                    "technologyStack": schema.technologyStack or ep.get("technologyStack", []),
+                    "license": schema.license or ep.get("license", "MIT"),
+                    "updatedAt": time.time()
+                }
+                cls.update_project(owner_uid, project_id, update_fields)
+                existing_verif = verifications_repo.get(project_id) or {}
+                verif_token = existing_verif.get("verificationToken", secrets.token_urlsafe(16))
+                if not existing_verif:
+                    verifications_repo.set(project_id, {
+                        "projectId": project_id,
+                        "verificationToken": verif_token,
+                        "verificationMethod": "meta_tag",
+                        "verificationStatus": "pending",
+                        "metaTag": f'<meta name="digiindia-student-innovation-platform" content="{verif_token}">',
+                        "attemptCount": 0,
+                        "createdAt": time.time()
+                    })
+                return {
+                    "project": {**ep, **update_fields},
+                    "verification": {
+                        "verificationToken": verif_token,
+                        "metaTagHtml": f'<meta name="digiindia-student-innovation-platform" content="{verif_token}">'
+                    },
+                    "updated": True
+                }
 
         project_id = str(uuid.uuid4())
         verification_token = secrets.token_urlsafe(16)

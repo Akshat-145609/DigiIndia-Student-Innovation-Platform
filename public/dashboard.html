@@ -565,6 +565,24 @@
                 </div>
             </div>
         </div>
+    <!-- SEO & Crawler Audit Modal -->
+    <div class="modal fade" id="seoAuditModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content glass-card p-3 border-0 shadow-lg">
+                <div class="modal-header border-0 pb-0 d-flex justify-content-between align-items-center">
+                    <h5 class="modal-title fw-bold text-primary"><i class="bi bi-cpu me-2"></i>DigiBot Runtime SEO & Ownership Audit</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="seoAuditContent">
+                        <!-- Dynamic SEO Audit Results -->
+                    </div>
+                </div>
+                <div class="modal-footer border-0 pt-0">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="toast-container"></div>
@@ -897,15 +915,94 @@
         }
 
         async function triggerCrawl(projectId) {
+            API.showToast("Initiating DigiBot Runtime SEO & Meta-Tag Crawler...", "info");
             try {
                 const res = await API.request("/verification/project/crawl", {
                     method: "POST",
                     body: JSON.stringify({ projectId })
                 });
+
+                const comp = res.seoComparison || {};
+                const seo = res.runtimeSEO || {};
+                const bd = res.scoreBreakdown || {};
+
+                const modalHtml = `
+                    <div class="d-flex justify-content-between align-items-center p-3 rounded-3 mb-3 ${res.verified ? 'bg-success-subtle text-success' : 'bg-warning-subtle text-dark'}">
+                        <div>
+                            <h5 class="fw-bold mb-1"><i class="bi ${res.verified ? 'bi-check-circle-fill text-success' : 'bi-exclamation-triangle-fill text-warning'} me-2"></i>${res.verified ? 'Ownership Verified' : 'Verification Incomplete'}</h5>
+                            <small class="d-block">${res.log || 'Audit completed.'}</small>
+                        </div>
+                        <div class="text-end">
+                            <span class="fs-4 fw-bold text-primary">${res.trustScore || 20}/100</span>
+                            <small class="d-block text-muted">Trust & SEO Score</small>
+                        </div>
+                    </div>
+
+                    <h6 class="fw-bold text-dark mb-2"><i class="bi bi-award me-1"></i>Score Awards Algorithm Breakdown</h6>
+                    <div class="d-flex flex-wrap gap-2 mb-3">
+                        <span class="badge ${bd.ownershipVerified ? 'bg-success' : 'bg-secondary'} p-2"><i class="bi bi-check-circle me-1"></i>Ownership Token (+30 pts)</span>
+                        <span class="badge ${bd.titleOptimization ? 'bg-primary' : 'bg-secondary'} p-2"><i class="bi bi-fonts me-1"></i>Title Optimization (+15 pts)</span>
+                        <span class="badge ${bd.metaDescriptionQuality ? 'bg-info text-dark' : 'bg-secondary'} p-2"><i class="bi bi-file-text me-1"></i>Meta Description (+15 pts)</span>
+                        <span class="badge ${bd.socialMediaGraph ? 'bg-purple text-white' : 'bg-secondary'} p-2" style="background:#6f42c1;"><i class="bi bi-share me-1"></i>Social Graph (+10 pts)</span>
+                        <span class="badge ${bd.technicalSEO ? 'bg-dark' : 'bg-secondary'} p-2"><i class="bi bi-gear me-1"></i>Technical SEO (+5 pts)</span>
+                        <span class="badge ${bd.contentStructure ? 'bg-teal text-white' : 'bg-secondary'} p-2" style="background:#20c997;"><i class="bi bi-layout-text-window me-1"></i>H1 Structure (+5 pts)</span>
+                        <span class="badge ${bd.crawlerAssets ? 'bg-success' : 'bg-secondary'} p-2"><i class="bi bi-robot me-1"></i>Robots & Sitemap (+5 pts)</span>
+                    </div>
+
+                    <h6 class="fw-bold text-dark mb-2"><i class="bi bi-clipboard-check me-1"></i>Runtime vs Coded Source Code Comparison</h6>
+                    <div class="table-responsive small">
+                        <table class="table table-bordered align-middle">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>SEO Element</th>
+                                    <th>Runtime Detected Live Value</th>
+                                    <th>Comparison Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="fw-bold">Page Title</td>
+                                    <td class="text-truncate" style="max-width:280px;">${seo.title ? stripHtmlAndSanitize(seo.title) : '<em class="text-muted">None detected</em>'}</td>
+                                    <td>${comp.titleMatch ? '<span class="badge bg-success">Matched & Optimized</span>' : '<span class="badge bg-warning text-dark">Missing / Unmatched</span>'}</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">Meta Description</td>
+                                    <td class="text-truncate" style="max-width:280px;">${seo.description ? stripHtmlAndSanitize(seo.description) : '<em class="text-muted">None detected</em>'}</td>
+                                    <td>${comp.descriptionMatch ? '<span class="badge bg-success">Valid & Matched</span>' : '<span class="badge bg-warning text-dark">Too Short / Missing</span>'}</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">Ownership Meta Tag</td>
+                                    <td><code>${seo.metaTagToken ? stripHtmlAndSanitize(seo.metaTagToken) : 'None'}</code></td>
+                                    <td>${comp.ownershipMatch ? '<span class="badge bg-success">Verified</span>' : '<span class="badge bg-danger">Not Found</span>'}</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">Canonical Link</td>
+                                    <td class="text-truncate" style="max-width:280px;">${seo.canonical ? stripHtmlAndSanitize(seo.canonical) : '<em class="text-muted">None</em>'}</td>
+                                    <td>${comp.canonicalConfigured ? '<span class="badge bg-success">Configured</span>' : '<span class="badge bg-secondary">Unspecified</span>'}</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">OpenGraph Social Tags</td>
+                                    <td>${Object.keys(seo.openGraph || {}).length} tags found (og:title, og:image...)</td>
+                                    <td>${comp.socialGraphConfigured ? '<span class="badge bg-success">Active</span>' : '<span class="badge bg-secondary">Incomplete</span>'}</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">Crawler Assets</td>
+                                    <td>Robots.txt: ${res.hasRobotsTxt ? 'Yes' : 'No'} | Sitemap: ${res.hasSitemapXml ? 'Yes (' + res.sitemapUrlsCount + ' URLs)' : 'No'}</td>
+                                    <td>${comp.crawlerAssetsConfigured ? '<span class="badge bg-success">Discovered</span>' : '<span class="badge bg-secondary">Not Detected</span>'}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+
+                document.getElementById("seoAuditContent").innerHTML = modalHtml;
+                const bsModal = new bootstrap.Modal(document.getElementById("seoAuditModal"));
+                bsModal.show();
+
                 if (res.verified) {
                     API.showToast("Success! Ownership verified via meta-tag crawler.", "success");
                 } else {
-                    API.showToast(res.log, "error");
+                    API.showToast(res.log, "warning");
                 }
                 loadUserProjectsForVerification();
             } catch (err) {

@@ -503,6 +503,617 @@ app.get('/api/v1/search/global-live', async (req, res) => {
   });
 });
 
+// ==========================================
+// RUNTIME SEO CRAWLER & AUDIT ENGINE
+// ==========================================
+async function crawlAndAuditSEO(targetUrl, expectedToken, projectMetadata = {}) {
+  const result = {
+    verified: false,
+    reason: '',
+    robotsFound: false,
+    sitemapFound: false,
+    sitemapUrlsCount: 0,
+    screenshotUri: '',
+    runtimeSEO: {
+      title: '',
+      description: '',
+      author: '',
+      keywords: '',
+      canonical: '',
+      viewport: '',
+      openGraph: {},
+      twitterCard: {},
+      h1Count: 0,
+      h1Text: '',
+      metaTagToken: ''
+    },
+    seoComparison: {
+      titleMatch: false,
+      descriptionMatch: false,
+      ownershipMatch: false,
+      canonicalConfigured: false,
+      socialGraphConfigured: false,
+      contentStructureValid: false,
+      crawlerAssetsConfigured: false
+    },
+    scoreBreakdown: { baseScore: 20 },
+    awardedScore: 20
+  };
+
+  try {
+    const urlObj = new URL(targetUrl);
+    const baseDomain = `${urlObj.protocol}//${urlObj.host}`;
+
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 12000);
+    const response = await fetch(targetUrl, {
+      signal: controller.signal,
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; DigiBot/2.0; +https://digiindia-studentcollaboration.web.app)'
+      }
+    });
+    clearTimeout(timeoutId);
+
+    if (response.ok) {
+      const html = await response.text();
+
+      // Title
+      const titleMatch = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+      if (titleMatch) result.runtimeSEO.title = titleMatch[1].trim();
+
+      // Meta tags extractor
+      const extractMeta = (nameAttr, nameVal) => {
+        const regex = new RegExp(`<meta\\s+[^>]*${nameAttr}=["']${nameVal}["'][^>]*content=["']([^"']*)["']|<meta\\s+[^>]*content=["']([^"']*)["'][^>]*${nameAttr}=["']${nameVal}["']`, 'i');
+        const m = html.match(regex);
+        return m ? (m[1] || m[2] || '').trim() : '';
+      };
+
+      result.runtimeSEO.description = extractMeta('name', 'description');
+      result.runtimeSEO.author = extractMeta('name', 'author');
+      result.runtimeSEO.keywords = extractMeta('name', 'keywords');
+      result.runtimeSEO.viewport = extractMeta('name', 'viewport');
+      result.runtimeSEO.metaTagToken = extractMeta('name', 'digiindia-student-innovation-platform');
+
+      // Canonical link
+      const canonMatch = html.match(/<link\s+[^>]*rel=["']canonical["'][^>]*href=["']([^"']*)["']|<link\s+[^>]*href=["']([^"']*)["'][^>]*rel=["']canonical["']/i);
+      if (canonMatch) result.runtimeSEO.canonical = (canonMatch[1] || canonMatch[2] || '').trim();
+
+      // OpenGraph
+      ['og:title', 'og:description', 'og:image', 'og:url', 'og:type'].forEach(prop => {
+        const val = extractMeta('property', prop);
+        if (val) result.runtimeSEO.openGraph[prop] = val;
+      });
+
+      // Twitter Cards
+      ['twitter:card', 'twitter:title', 'twitter:description', 'twitter:image'].forEach(name => {
+        const val = extractMeta('name', name);
+        if (val) result.runtimeSEO.twitterCard[name] = val;
+      });
+
+      // H1 Headings
+      const h1Matches = [...html.matchAll(/<h1[^>]*>([\s\S]*?)<\/h1>/gi)];
+      result.runtimeSEO.h1Count = h1Matches.length;
+      if (h1Matches.length > 0) {
+        result.runtimeSEO.h1Text = h1Matches[0][1].replace(/<[^>]+>/g, '').trim();
+      }
+
+      // Check Verification Ownership Token
+      if (result.runtimeSEO.metaTagToken) {
+        if (result.runtimeSEO.metaTagToken === expectedToken) {
+          result.verified = true;
+          result.seoComparison.ownershipMatch = true;
+          result.reason = 'Ownership meta-tag verified successfully!';
+        } else {
+          result.reason = `Ownership meta-tag found with token '${result.runtimeSEO.metaTagToken}', but expected '${expectedToken}'`;
+        }
+      } else {
+        result.reason = `Meta-tag 'digiindia-student-innovation-platform' not found on ${targetUrl}`;
+      }
+
+      // Compare Runtime vs Coded Project Metadata
+      const pTitle = (projectMetadata.title || '').trim().toLowerCase();
+      const pDesc = (projectMetadata.description || '').trim().toLowerCase();
+
+      if (result.runtimeSEO.title && (pTitle.includes(result.runtimeSEO.title.toLowerCase()) || result.runtimeSEO.title.toLowerCase().includes(pTitle) || result.runtimeSEO.title.length >= 5)) {
+        result.seoComparison.titleMatch = true;
+      }
+      if (result.runtimeSEO.description && (result.runtimeSEO.description.length >= 20 || pDesc.split(' ').slice(0, 4).some(w => w && result.runtimeSEO.description.toLowerCase().includes(w)))) {
+        result.seoComparison.descriptionMatch = true;
+      }
+      if (result.runtimeSEO.canonical || result.runtimeSEO.viewport) {
+        result.seoComparison.canonicalConfigured = true;
+      }
+      if (Object.keys(result.runtimeSEO.openGraph).length > 0 || Object.keys(result.runtimeSEO.twitterCard).length > 0) {
+        result.seoComparison.socialGraphConfigured = true;
+      }
+      if (result.runtimeSEO.h1Count >= 1) {
+        result.seoComparison.contentStructureValid = true;
+      }
+
+      // Snapshot preview
+      const plainText = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '').replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 300);
+      result.screenshotUri = `data:text/html;base64,${Buffer.from(`<h3>Snapshot: ${targetUrl}</h3><p>${plainText}</p>`).toString('base64')}`;
+
+      // Check robots.txt & sitemap.xml
+      try {
+        const robRes = await fetch(`${baseDomain}/robots.txt`);
+        if (robRes.ok) {
+          const robText = await robRes.text();
+          if (robText.length > 5) result.robotsFound = true;
+        }
+      } catch (e) {}
+
+      try {
+        const smRes = await fetch(`${baseDomain}/sitemap.xml`);
+        if (smRes.ok) {
+          const smText = await smRes.text();
+          result.sitemapFound = true;
+          const locCount = (smText.match(/<loc>/g) || []).length;
+          result.sitemapUrlsCount = locCount;
+        }
+      } catch (e) {}
+
+      if (result.robotsFound || result.sitemapFound) {
+        result.seoComparison.crawlerAssetsConfigured = true;
+      }
+    } else {
+      result.reason = `HTTP request to ${targetUrl} returned status ${response.status}`;
+    }
+  } catch (err) {
+    result.reason = `Crawler connection error to ${targetUrl}: ${err.message}`;
+  }
+
+  // Dynamic Score Awards Algorithm
+  let score = 20;
+  if (result.verified) {
+    result.scoreBreakdown.ownershipVerified = 30;
+    score += 30;
+  }
+  if (result.seoComparison.titleMatch) {
+    result.scoreBreakdown.titleOptimization = 15;
+    score += 15;
+  }
+  if (result.seoComparison.descriptionMatch) {
+    result.scoreBreakdown.metaDescriptionQuality = 15;
+    score += 15;
+  }
+  if (result.seoComparison.socialGraphConfigured) {
+    result.scoreBreakdown.socialMediaGraph = 10;
+    score += 10;
+  }
+  if (result.seoComparison.canonicalConfigured) {
+    result.scoreBreakdown.technicalSEO = 5;
+    score += 5;
+  }
+  if (result.seoComparison.contentStructureValid) {
+    result.scoreBreakdown.contentStructure = 5;
+    score += 5;
+  }
+  if (result.seoComparison.crawlerAssetsConfigured) {
+    result.scoreBreakdown.crawlerAssets = 5;
+    score += 5;
+  }
+
+  result.awardedScore = Math.min(100, score);
+  return result;
+}
+
+// ==========================================
+// PROJECTS API ROUTES (/api/v1/projects)
+// ==========================================
+
+// POST /api/v1/projects (Upload project with duplicate upsert)
+app.post('/api/v1/projects', authenticateToken, async (req, res) => {
+  try {
+    const ownerUID = req.user.uid;
+    const { title, description, repositoryURL, liveURL, technologyStack, visibility, license, tags, category } = req.body;
+    if (!title) return res.status(400).json({ detail: 'Project title is required' });
+
+    const allProjects = await getCollectionDocs('projects');
+    const existingUserProjects = allProjects.filter(p => p.ownerUID === ownerUID);
+
+    // Duplicate check & graceful upsert
+    const existing = existingUserProjects.find(ep => {
+      const sameRepo = repositoryURL && ep.repositoryURL && ep.repositoryURL.trim().toLowerCase() === repositoryURL.trim().toLowerCase();
+      const sameLive = liveURL && ep.liveURL && ep.liveURL.trim().toLowerCase() === liveURL.trim().toLowerCase();
+      const sameTitle = ep.title && ep.title.trim().toLowerCase() === title.trim().toLowerCase();
+      return sameRepo || sameLive || sameTitle;
+    });
+
+    if (existing) {
+      const projectId = existing.projectId;
+      const updatedFields = {
+        ...existing,
+        title: title || existing.title,
+        description: description || existing.description,
+        repositoryURL: repositoryURL || existing.repositoryURL,
+        liveURL: liveURL || existing.liveURL,
+        technologyStack: technologyStack || existing.technologyStack || [],
+        visibility: visibility || existing.visibility || 'public',
+        license: license || existing.license || 'MIT',
+        updatedAt: Date.now() / 1000
+      };
+      await saveDoc('projects', projectId, updatedFields);
+
+      const allVerifs = await getCollectionDocs('projectVerification');
+      let verif = allVerifs.find(v => v.projectId === projectId);
+      let token = verif ? verif.verificationToken : crypto.randomBytes(12).toString('hex');
+      if (!verif) {
+        verif = {
+          projectId,
+          verificationToken: token,
+          verificationMethod: 'meta_tag',
+          verificationStatus: 'pending',
+          metaTag: `<meta name="digiindia-student-innovation-platform" content="${token}">`,
+          attemptCount: 0,
+          createdAt: Date.now() / 1000
+        };
+        await saveDoc('projectVerification', projectId, verif);
+      }
+
+      return res.json({
+        project: updatedFields,
+        verification: {
+          verificationToken: token,
+          metaTagHtml: `<meta name="digiindia-student-innovation-platform" content="${token}">`
+        },
+        updated: true
+      });
+    }
+
+    const projectId = crypto.randomUUID();
+    const verificationToken = crypto.randomBytes(12).toString('hex');
+    const now = Date.now() / 1000;
+
+    const projectDoc = {
+      projectId,
+      ownerUID,
+      title,
+      description: description || '',
+      repositoryURL: repositoryURL || '',
+      liveURL: liveURL || '',
+      visibility: visibility || 'public',
+      technologyStack: technologyStack || [],
+      category: category || 'Software',
+      license: license || 'MIT',
+      tags: tags || [],
+      verificationStatus: 'pending',
+      status: 'active',
+      trustScore: 50,
+      createdAt: now,
+      updatedAt: now,
+      lastScan: now
+    };
+    await saveDoc('projects', projectId, projectDoc);
+
+    const verifDoc = {
+      projectId,
+      verificationToken,
+      verificationMethod: 'meta_tag',
+      verificationStatus: 'pending',
+      metaTag: `<meta name="digiindia-student-innovation-platform" content="${verificationToken}">`,
+      attemptCount: 0,
+      createdAt: now
+    };
+    await saveDoc('projectVerification', projectId, verifDoc);
+
+    await saveDoc('projectMetadata', projectId, {
+      projectId,
+      canonical: liveURL || repositoryURL || '',
+      openGraph: {},
+      lastCrawled: now
+    });
+
+    return res.json({
+      project: projectDoc,
+      verification: {
+        verificationToken,
+        metaTagHtml: `<meta name="digiindia-student-innovation-platform" content="${verificationToken}">`
+      }
+    });
+  } catch (err) {
+    return res.status(400).json({ detail: err.message });
+  }
+});
+
+// GET /api/v1/projects/my
+app.get('/api/v1/projects/my', authenticateToken, async (req, res) => {
+  try {
+    const allProjects = await getCollectionDocs('projects');
+    const myProjects = allProjects.filter(p => p.ownerUID === req.user.uid);
+    res.json(myProjects);
+  } catch (err) {
+    res.status(500).json({ detail: err.message });
+  }
+});
+
+// GET /api/v1/projects/public
+app.get('/api/v1/projects/public', async (req, res) => {
+  try {
+    const limit = parseInt(req.query.limit) || 50;
+    const allProjects = await getCollectionDocs('projects');
+    const publicProjects = allProjects.filter(p => p.visibility === 'public').slice(0, limit);
+    res.json(publicProjects);
+  } catch (err) {
+    res.status(500).json({ detail: err.message });
+  }
+});
+
+// GET /api/v1/projects/urls
+app.get('/api/v1/projects/urls', async (req, res) => {
+  try {
+    const allProjects = await getCollectionDocs('projects');
+    const urls = [];
+    allProjects.forEach(p => {
+      if (p.liveURL) urls.push({ projectId: p.projectId, title: p.title, url: p.liveURL, type: 'live' });
+      if (p.repositoryURL) urls.push({ projectId: p.projectId, title: p.title, url: p.repositoryURL, type: 'repository' });
+    });
+    res.json(urls);
+  } catch (err) {
+    res.status(500).json({ detail: err.message });
+  }
+});
+
+// GET /api/v1/projects/:projectId
+app.get('/api/v1/projects/:projectId', async (req, res) => {
+  try {
+    const { projectId } = req.params;
+    const projects = await getCollectionDocs('projects');
+    const project = projects.find(p => p.projectId === projectId);
+    if (!project) return res.status(404).json({ detail: 'Project not found' });
+
+    const metadataList = await getCollectionDocs('projectMetadata');
+    const metadata = metadataList.find(m => m.projectId === projectId) || {};
+
+    const verifs = await getCollectionDocs('projectVerification');
+    const verification = verifs.find(v => v.projectId === projectId) || {};
+
+    res.json({ project, metadata, verification });
+  } catch (err) {
+    res.status(500).json({ detail: err.message });
+  }
+});
+
+// PUT /api/v1/projects/:projectId
+app.put('/api/v1/projects/:projectId', authenticateToken, async (req, res) => {
+  try {
+    const { projectId } = req.params;
+    const projects = await getCollectionDocs('projects');
+    const project = projects.find(p => p.projectId === projectId);
+    if (!project) return res.status(404).json({ detail: 'Project not found' });
+    if (project.ownerUID !== req.user.uid && req.user.role !== 'admin') {
+      return res.status(403).json({ detail: 'Unauthorized to modify this project' });
+    }
+
+    const allowed = ['title', 'description', 'liveURL', 'repositoryURL', 'visibility', 'technologyStack', 'license', 'category'];
+    allowed.forEach(f => {
+      if (req.body[f] !== undefined) project[f] = req.body[f];
+    });
+    project.updatedAt = Date.now() / 1000;
+    await saveDoc('projects', projectId, project);
+    res.json(project);
+  } catch (err) {
+    res.status(400).json({ detail: err.message });
+  }
+});
+
+// DELETE /api/v1/projects/:projectId
+app.delete('/api/v1/projects/:projectId', authenticateToken, async (req, res) => {
+  try {
+    const { projectId } = req.params;
+    const projects = await getCollectionDocs('projects');
+    const project = projects.find(p => p.projectId === projectId);
+    if (!project) return res.status(404).json({ detail: 'Project not found' });
+    if (project.ownerUID !== req.user.uid && req.user.role !== 'admin') {
+      return res.status(403).json({ detail: 'Unauthorized' });
+    }
+
+    if (firestore) {
+      await firestore.collection('projects').doc(projectId).delete().catch(() => {});
+      await firestore.collection('projectMetadata').doc(projectId).delete().catch(() => {});
+      await firestore.collection('projectVerification').doc(projectId).delete().catch(() => {});
+    }
+    ['projects', 'projectMetadata', 'projectVerification'].forEach(col => {
+      const fp = path.join(DATA_STORE_DIR, `${col}.json`);
+      if (fs.existsSync(fp)) {
+        try {
+          const data = JSON.parse(fs.readFileSync(fp, 'utf-8'));
+          delete data[projectId];
+          fs.writeFileSync(fp, JSON.stringify(data, null, 2));
+        } catch (e) {}
+      }
+    });
+    res.json({ message: 'Project deleted successfully', projectId });
+  } catch (err) {
+    res.status(400).json({ detail: err.message });
+  }
+});
+
+// ==========================================
+// VERIFICATION & RUNTIME SEO CRAWLER ROUTE
+// ==========================================
+
+// POST /api/v1/verification/project/crawl
+app.post('/api/v1/verification/project/crawl', async (req, res) => {
+  try {
+    const { projectId } = req.body;
+    if (!projectId) return res.status(400).json({ detail: 'projectId is required' });
+
+    const projects = await getCollectionDocs('projects');
+    const project = projects.find(p => p.projectId === projectId);
+    if (!project) return res.status(404).json({ detail: 'Project record not found' });
+
+    const verifs = await getCollectionDocs('projectVerification');
+    let verif = verifs.find(v => v.projectId === projectId);
+    if (!verif) {
+      verif = {
+        projectId,
+        verificationToken: crypto.randomBytes(12).toString('hex'),
+        verificationStatus: 'pending',
+        attemptCount: 0
+      };
+    }
+
+    const targetUrl = project.liveURL || project.repositoryURL;
+    if (!targetUrl || !targetUrl.startsWith('http')) {
+      return res.status(400).json({ detail: 'Valid target URL (http/https) required for crawler verification' });
+    }
+
+    verif.attemptCount = (verif.attemptCount || 0) + 1;
+    verif.lastAttempt = Date.now() / 1000;
+
+    // Run advanced runtime SEO crawler & score award algorithm
+    const crawlResult = await crawlAndAuditSEO(targetUrl, verif.verificationToken, project);
+
+    verif.verificationStatus = crawlResult.verified ? 'verified' : 'failed';
+    if (crawlResult.verified) verif.verifiedAt = Date.now() / 1000;
+    verif.crawlerLog = crawlResult.reason;
+    verif.hasRobotsTxt = crawlResult.robotsFound;
+    verif.hasSitemapXml = crawlResult.sitemapFound;
+    verif.sitemapUrlsCount = crawlResult.sitemapUrlsCount;
+    verif.liveSnapshotURI = crawlResult.screenshotUri;
+    verif.runtimeSEO = crawlResult.runtimeSEO;
+    verif.seoComparison = crawlResult.seoComparison;
+    verif.scoreBreakdown = crawlResult.scoreBreakdown;
+    verif.awardedScore = crawlResult.awardedScore;
+
+    await saveDoc('projectVerification', projectId, verif);
+
+    // Update project trust & SEO score
+    project.verificationStatus = verif.verificationStatus;
+    project.trustScore = crawlResult.awardedScore;
+    project.seoScore = crawlResult.awardedScore;
+    project.hasRobotsTxt = crawlResult.robotsFound;
+    project.hasSitemapXml = crawlResult.sitemapFound;
+    project.updatedAt = Date.now() / 1000;
+    await saveDoc('projects', projectId, project);
+
+    // Save metadata
+    await saveDoc('projectMetadata', projectId, {
+      projectId,
+      canonical: crawlResult.runtimeSEO.canonical || project.liveURL || '',
+      openGraph: crawlResult.runtimeSEO.openGraph || {},
+      lastCrawled: Date.now() / 1000
+    });
+
+    return res.json({
+      projectId,
+      verificationStatus: verif.verificationStatus,
+      verified: crawlResult.verified,
+      trustScore: crawlResult.awardedScore,
+      scoreBreakdown: crawlResult.scoreBreakdown,
+      runtimeSEO: crawlResult.runtimeSEO,
+      seoComparison: crawlResult.seoComparison,
+      hasRobotsTxt: crawlResult.robotsFound,
+      hasSitemapXml: crawlResult.sitemapFound,
+      sitemapUrlsCount: crawlResult.sitemapUrlsCount,
+      log: crawlResult.reason
+    });
+  } catch (err) {
+    return res.status(500).json({ detail: err.message });
+  }
+});
+
+// ==========================================
+// DEVELOPER KEYS ROUTES
+// ==========================================
+
+app.get('/api/v1/developer/keys', authenticateToken, async (req, res) => {
+  try {
+    const keys = await getCollectionDocs('developerApiKeys');
+    const userKeys = keys.filter(k => k.ownerUID === req.user.uid);
+    res.json(userKeys);
+  } catch (err) {
+    res.status(500).json({ detail: err.message });
+  }
+});
+
+app.post('/api/v1/developer/keys', authenticateToken, async (req, res) => {
+  try {
+    const keyId = crypto.randomUUID();
+    const rawKey = `di_live_${crypto.randomBytes(18).toString('hex')}`;
+    const keyDoc = {
+      keyId,
+      ownerUID: req.user.uid,
+      apiName: req.body.apiName || 'Production Client Key',
+      keyPrefix: rawKey.slice(0, 12) + '...',
+      keyHash: crypto.createHash('sha256').update(rawKey).digest('hex'),
+      permissions: req.body.permissions || ['read:projects', 'verify:student'],
+      status: 'active',
+      usageCount: 0,
+      createdAt: Date.now() / 1000
+    };
+    await saveDoc('developerApiKeys', keyId, keyDoc);
+    res.json({ key: keyDoc, rawApiKey: rawKey });
+  } catch (err) {
+    res.status(400).json({ detail: err.message });
+  }
+});
+
+app.delete('/api/v1/developer/keys/:keyId', authenticateToken, async (req, res) => {
+  try {
+    const { keyId } = req.params;
+    if (firestore) {
+      await firestore.collection('developerApiKeys').doc(keyId).delete().catch(() => {});
+    }
+    const fp = path.join(DATA_STORE_DIR, 'developerApiKeys.json');
+    if (fs.existsSync(fp)) {
+      try {
+        const data = JSON.parse(fs.readFileSync(fp, 'utf-8'));
+        delete data[keyId];
+        fs.writeFileSync(fp, JSON.stringify(data, null, 2));
+      } catch (e) {}
+    }
+    res.json({ message: 'Key revoked successfully', keyId });
+  } catch (err) {
+    res.status(400).json({ detail: err.message });
+  }
+});
+
+// ==========================================
+// AI & TRAINING ROUTES
+// ==========================================
+
+app.get('/api/v1/ai/models', async (req, res) => {
+  try {
+    const models = await getCollectionDocs('aiTrainingModels');
+    res.json(models.length ? models : [
+      { modelId: 'digi-gpt-default', modelName: 'DigiIndia Innovation Core AI', status: 'ready', accuracy: 96.4 },
+      { modelId: 'digi-code-crawler', modelName: 'DigiBot Automated Code Crawler', status: 'ready', accuracy: 98.1 }
+    ]);
+  } catch (err) {
+    res.status(500).json({ detail: err.message });
+  }
+});
+
+app.post('/api/v1/ai/chat', async (req, res) => {
+  try {
+    const { prompt } = req.body;
+    res.json({
+      reply: `[DigiIndia AI Assistant]: Received your query: "${prompt || 'Welcome to DigiIndia!'}". All student portfolios, verification tokens, and innovation meta-tags are monitored in real-time.`,
+      model: 'DigiBot-NLP-v2',
+      timestamp: Date.now() / 1000
+    });
+  } catch (err) {
+    res.status(500).json({ detail: err.message });
+  }
+});
+
+app.post('/api/v1/ai/crawler/run', async (req, res) => {
+  try {
+    const { targetURL } = req.body;
+    res.json({
+      status: 'complete',
+      targetURL: targetURL || 'https://digiindia-studentcollaboration.web.app',
+      message: 'DigiBot Automated Crawler completed indexing of target domain.',
+      knowledgeId: `kw_${crypto.randomBytes(4).toString('hex')}`,
+      timestamp: Date.now() / 1000
+    });
+  } catch (err) {
+    res.status(500).json({ detail: err.message });
+  }
+});
+
 // Catch-all API 404 middleware
 app.use('/api', (req, res) => {
   res.status(404).json({

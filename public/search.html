@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>DigiIndia Search Engine – Public Developer Discovery</title>
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/Icon.svg">
@@ -10,7 +10,7 @@
 
     <!-- Primary SEO Meta Tags -->
     <meta name="title" content="DigiIndia Search Engine – Public Developer Discovery">
-    <meta name="description" content="Search verified student innovation projects, SPN student profiles, open-source repositories, and multi-lingual tech stacks across India.">
+    <meta name="description" content="Search verified student innovation projects, SPN student profiles, live Google SERP, YouTube tutorials, and multi-lingual tech stacks across India.">
     <meta name="keywords" content="DigiIndia Search, Student Developer Directory, Open Source Projects India, SPN Lookup, Code Ownership Index">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://digiindia-studentcollaboration.web.app/search.html">
@@ -33,61 +33,488 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 
+    <style>
+        :root {
+            --primary-blue: #1a73e8;
+            --serp-blue: #1a0dab;
+            --text-main: #202124;
+            --text-muted: #5f6368;
+            --surface-card: #ffffff;
+            --border-subtle: #e2e8f0;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Container constraint */
+        .search-page-container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 16px 16px 60px;
+        }
+
+        /* Brand Navbar */
+        .search-navbar {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-subtle);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        /* Hero Pill Badge */
+        .hero-pill-badge {
+            background-color: #eff6ff;
+            color: #1d4ed8;
+            border: 1px solid #bfdbfe;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 4px 14px;
+            border-radius: 9999px;
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        /* Sleek Search Capsule */
+        .search-capsule-wrapper {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 32px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            align-items: center;
+            padding: 4px 8px 4px 16px;
+            position: relative;
+        }
+
+        .search-capsule-wrapper:focus-within {
+            border-color: var(--primary-blue);
+            box-shadow: 0 6px 20px rgba(26, 115, 232, 0.18);
+        }
+
+        .search-input-field {
+            border: none;
+            outline: none;
+            font-size: 16px;
+            background: transparent;
+            width: 100%;
+            padding: 10px 8px;
+            color: #1e293b;
+        }
+
+        .search-input-field::placeholder {
+            color: #94a3b8;
+        }
+
+        .search-action-btn {
+            background: linear-gradient(135deg, #1a73e8, #0d5dd7);
+            color: #ffffff;
+            border: none;
+            border-radius: 24px;
+            font-weight: 600;
+            padding: 8px 20px;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.15s ease;
+            white-space: nowrap;
+        }
+
+        .search-action-btn:hover {
+            background: linear-gradient(135deg, #1557b0, #0b4ab3);
+            color: #ffffff;
+            transform: translateY(-1px);
+        }
+
+        .search-icon-btn {
+            background: none;
+            border: none;
+            color: #64748b;
+            padding: 8px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: color 0.15s ease;
+        }
+
+        .search-icon-btn:hover {
+            color: #0f172a;
+        }
+
+        /* Google-Style Tab Navigation */
+        .google-tab-nav {
+            display: flex;
+            gap: 6px;
+            border-bottom: 1px solid #e2e8f0;
+            overflow-x: auto;
+            white-space: nowrap;
+            scrollbar-width: none;
+            -webkit-overflow-scrolling: touch;
+            padding-bottom: 2px;
+            margin-bottom: 20px;
+        }
+        .google-tab-nav::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tab-item-btn {
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            padding: 10px 16px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #64748b;
+            cursor: pointer;
+            transition: all 0.15s ease-in-out;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .tab-item-btn:hover {
+            color: #0f172a;
+            background-color: rgba(0, 0, 0, 0.02);
+        }
+
+        .tab-item-btn.active {
+            color: #1a73e8;
+            font-weight: 600;
+            border-bottom-color: #1a73e8;
+        }
+
+        /* Filter Controls */
+        .filter-panel {
+            background: #ffffff;
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            padding: 12px 16px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
+
+        /* Real Google SERP Card Styling */
+        .google-serp-card {
+            background: #ffffff;
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            padding: 18px 20px;
+            margin-bottom: 14px;
+            transition: border-color 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .google-serp-card:hover {
+            border-color: #cbd5e1;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+        }
+
+        .serp-favicon-box {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background-color: #f1f5f9;
+            border: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            flex-shrink: 0;
+        }
+
+        .serp-title-link {
+            color: var(--serp-blue);
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.35;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .serp-title-link:hover {
+            text-decoration: underline !important;
+            color: var(--serp-blue);
+        }
+
+        .serp-snippet-text {
+            color: #475569;
+            font-size: 14px;
+            line-height: 1.55;
+            margin: 6px 0 12px;
+        }
+
+        .serp-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 12px;
+            font-size: 12px;
+            font-weight: 500;
+            color: #1e40af;
+            background-color: #eff6ff;
+            border: 1px solid #dbeafe;
+            border-radius: 16px;
+            text-decoration: none;
+            transition: all 0.15s ease;
+        }
+
+        .serp-chip:hover {
+            background-color: #dbeafe;
+            color: #1d4ed8;
+        }
+
+        /* Real YouTube Video SERP Card Styling */
+        .youtube-serp-card {
+            background: #ffffff;
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 14px;
+            transition: border-color 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .youtube-serp-card:hover {
+            border-color: #cbd5e1;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+        }
+
+        .yt-thumb-container {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            aspect-ratio: 16 / 9;
+            background-color: #0f172a;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+
+        .yt-thumb-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.25s ease;
+        }
+
+        .youtube-serp-card:hover .yt-thumb-img {
+            transform: scale(1.03);
+        }
+
+        .yt-time-badge {
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            background: rgba(0, 0, 0, 0.85);
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .yt-play-bubble {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 42px;
+            height: 42px;
+            background: rgba(220, 38, 38, 0.9);
+            color: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+
+        .youtube-serp-card:hover .yt-play-bubble {
+            transform: translate(-50%, -50%) scale(1.08);
+            background: #dc2626;
+        }
+
+        /* Unified Projects & Students Grid */
+        .cards-grid-auto {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+        }
+
+        .unified-entity-card {
+            background: #ffffff;
+            border: 1px solid var(--border-subtle);
+            border-radius: 16px;
+            padding: 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.15s ease;
+        }
+
+        .unified-entity-card:hover {
+            border-color: #cbd5e1;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+        }
+
+        /* Mobile specific responsiveness */
+        @media (max-width: 768px) {
+            .search-page-container {
+                padding: 12px 12px 40px;
+            }
+            .search-capsule-wrapper {
+                padding: 2px 6px 2px 12px;
+            }
+            .search-input-field {
+                font-size: 15px;
+                padding: 8px 4px;
+            }
+            .search-action-btn {
+                padding: 6px 14px;
+                font-size: 14px;
+            }
+            .cards-grid-auto {
+                grid-template-columns: 1fr;
+            }
+            .google-serp-card, .youtube-serp-card, .unified-entity-card {
+                padding: 14px;
+                border-radius: 14px;
+            }
+            .serp-title-link {
+                font-size: 16px;
+            }
+            .yt-thumb-container {
+                margin-bottom: 12px;
+            }
+        }
+    </style>
 </head>
-<body class="bg-light">
+<body>
 
     <!-- Topbar Navbar -->
-    <nav class="navbar navbar-expand-lg glass-nav mb-4">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg search-navbar py-2 mb-3">
+        <div class="container-fluid px-3 px-md-4">
             <a class="navbar-brand fw-bold text-primary d-flex align-items-center gap-2" href="/search.html">
-                <i class="bi bi-search-heart fs-3"></i>
-                <span>DigiIndia Search Engine</span>
+                <i class="bi bi-search-heart fs-4 text-primary"></i>
+                <span class="fs-5">DigiIndia Search</span>
             </a>
             <div class="d-flex gap-2">
-                <a href="/index.html" class="btn btn-outline-secondary btn-sm"><i class="bi bi-house me-1"></i>Home</a>
-                <a href="/dashboard.html" class="btn btn-gradient btn-sm"><i class="bi bi-speedometer2 me-1"></i>Dashboard</a>
+                <a href="/index.html" class="btn btn-outline-secondary btn-sm rounded-pill px-3"><i class="bi bi-house me-1"></i>Home</a>
+                <a href="/dashboard.html" class="btn btn-primary btn-sm rounded-pill px-3 fw-semibold"><i class="bi bi-speedometer2 me-1"></i>Dashboard</a>
             </div>
         </div>
     </nav>
 
-    <!-- Search Engine Hero Section -->
-    <div class="container py-4 text-center" style="max-width: 850px;">
-        <div class="mb-3">
-            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill fw-semibold">
-                <i class="bi bi-key-fill me-1"></i>Public Developer & Project Search API
+    <!-- Main Container -->
+    <div class="search-page-container">
+        
+        <!-- Hero Header -->
+        <div class="text-center mb-4">
+            <span class="hero-pill-badge">
+                <i class="bi bi-lightning-charge-fill me-1 text-warning"></i>Live Multi-Platform Developer Search
             </span>
+            <h1 class="h3 fw-bold mb-2 text-dark">Discover Verified Student Innovation</h1>
+            <p class="text-muted small mb-0">Search live projects, developers, verified repositories, Google SERP, and YouTube tutorials.</p>
         </div>
-        <h2 class="display-6 fw-bold mb-3">Discover Student Innovation & Projects</h2>
-        <p class="text-muted mb-4">Powered by DigiIndia REST API Gateway using <code>X-DigiIndia-Key</code> Developer Authentication</p>
 
-        <!-- Search Bar Box with Auto-Complete Dropdown -->
-        <div class="glass-card p-3 shadow-lg border-0 mb-3 text-start position-relative">
-            <div class="row g-2">
-                <div class="col-md-7 position-relative">
-                    <div class="input-group">
-                        <span class="input-group-text bg-white border-0"><i class="bi bi-search text-primary fs-5"></i></span>
-                        <input type="text" id="engineQueryInput" class="form-control form-control-lg border-0 ps-0" placeholder="Type query for instant live search (or speak)..." oninput="handleSearchInput(this.value)" onkeyup="if(event.key==='Enter') executePublicSearch()">
-                        <button class="btn bg-white border-0 text-danger px-3" onclick="startVoiceSearch()" title="Voice Search"><i class="bi bi-mic-fill fs-5" id="voiceMicIcon"></i></button>
-                    </div>
-                    <!-- Auto-Complete Suggestion Box -->
-                    <div id="autoCompleteDropdown" class="list-group position-absolute w-100 shadow-lg d-none z-3" style="top: 100%; left: 0;"></div>
+        <!-- Primary Search Capsule -->
+        <div class="mb-3 position-relative">
+            <div class="search-capsule-wrapper">
+                <i class="bi bi-search text-primary fs-5 me-1"></i>
+                <input 
+                    type="text" 
+                    id="engineQueryInput" 
+                    class="search-input-field" 
+                    placeholder="Search any technology, student, or topic (e.g. 'Machine Learning', 'React')..." 
+                    autocomplete="off"
+                    oninput="handleSearchInput(this.value)" 
+                    onkeyup="if(event.key==='Enter') executePublicSearch()"
+                >
+                <button class="search-icon-btn d-none" id="clearSearchBtn" onclick="clearSearchQuery()" title="Clear query">
+                    <i class="bi bi-x-circle-fill"></i>
+                </button>
+                <button class="search-icon-btn" onclick="startVoiceSearch()" title="Voice search">
+                    <i class="bi bi-mic-fill text-danger" id="voiceMicIcon"></i>
+                </button>
+                <button class="search-action-btn" onclick="executePublicSearch()">
+                    <span>Search</span>
+                </button>
+            </div>
+
+            <!-- Auto-Complete Dropdown -->
+            <div id="autoCompleteDropdown" class="list-group position-absolute w-100 shadow-lg d-none z-3 mt-1 rounded-4 overflow-hidden border"></div>
+        </div>
+
+        <!-- Developer Key & Quick Options Bar -->
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3 px-1">
+            <button class="btn btn-sm btn-link text-decoration-none text-muted p-0 small" type="button" onclick="toggleApiDrawer()">
+                <i class="bi bi-key me-1 text-primary"></i>Developer API Key / Headers <i class="bi bi-chevron-down" id="apiDrawerChevron"></i>
+            </button>
+            <div class="d-flex align-items-center gap-1">
+                <span class="small text-muted me-1 fw-medium">Lang:</span>
+                <button class="btn btn-sm btn-outline-secondary px-2 py-0 rounded active" onclick="setLang('en', this)">EN</button>
+                <button class="btn btn-sm btn-outline-secondary px-2 py-0 rounded" onclick="setLang('hi', this)">HI</button>
+                <button class="btn btn-sm btn-outline-secondary px-2 py-0 rounded" onclick="setLang('es', this)">ES</button>
+                <button class="btn btn-sm btn-outline-secondary px-2 py-0 rounded" onclick="setLang('fr', this)">FR</button>
+                <button class="btn btn-sm btn-outline-secondary px-2 py-0 rounded" onclick="setLang('de', this)">DE</button>
+            </div>
+        </div>
+
+        <!-- Collapsible Developer Key Drawer -->
+        <div id="apiDrawerPanel" class="filter-panel d-none mb-3">
+            <div class="row g-2 align-items-center">
+                <div class="col-md-9">
+                    <input type="text" id="engineApiKeyInput" class="form-control form-control-sm rounded-3" placeholder="Optional X-DigiIndia-Key for increased rate-limits...">
                 </div>
-
                 <div class="col-md-3">
-                    <input type="text" id="engineApiKeyInput" class="form-control form-control-lg" placeholder="X-DigiIndia-Key (Optional)">
-                </div>
-                <div class="col-md-2">
-                    <button class="btn btn-gradient btn-lg w-100 fw-bold" onclick="executePublicSearch()"><i class="bi bi-search me-1"></i>Search</button>
+                    <button class="btn btn-outline-primary btn-sm w-100 rounded-3" onclick="executePublicSearch()"><i class="bi bi-check2 me-1"></i>Apply Key</button>
                 </div>
             </div>
         </div>
 
-        <!-- Faceted Filters & Multi-Language Selector Bar -->
-        <div class="glass-card p-3 border-0 mb-4 text-start">
+        <!-- Google-Style Category Navigation Tabs -->
+        <div class="google-tab-nav">
+            <button class="tab-item-btn active" onclick="setSearchCategory('all', this)">
+                <i class="bi bi-grid-fill"></i>All Results
+            </button>
+            <button class="tab-item-btn" onclick="setSearchCategory('google', this)">
+                <i class="bi bi-google text-primary"></i>Google Web
+            </button>
+            <button class="tab-item-btn" onclick="setSearchCategory('youtube', this)">
+                <i class="bi bi-youtube text-danger"></i>YouTube Videos
+            </button>
+            <button class="tab-item-btn" onclick="setSearchCategory('projects', this)">
+                <i class="bi bi-code-slash text-success"></i>Projects
+            </button>
+            <button class="tab-item-btn" onclick="setSearchCategory('students', this)">
+                <i class="bi bi-people text-info"></i>Innovators
+            </button>
+            <button class="tab-item-btn" onclick="setSearchCategory('github', this)">
+                <i class="bi bi-github text-dark"></i>GitHub Repos
+            </button>
+            <button class="tab-item-btn" onclick="setSearchCategory('semantic', this)">
+                <i class="bi bi-cpu text-purple"></i>Semantic RAG
+            </button>
+            <button class="tab-item-btn ms-auto text-primary" onclick="triggerDigiBot()">
+                <i class="bi bi-robot"></i>Run DigiBot
+            </button>
+        </div>
+
+        <!-- Compact Faceted Filters Bar -->
+        <div class="filter-panel mb-4">
             <div class="row g-2 align-items-center">
-                <div class="col-md-3">
+                <div class="col-12 col-md-4">
                     <select id="filterLanguage" class="form-select form-select-sm rounded-3" onchange="executePublicSearch()">
-                        <option value="">All Languages</option>
+                        <option value="">All Tech Stacks</option>
                         <option value="Python">Python</option>
                         <option value="JavaScript">JavaScript</option>
                         <option value="TypeScript">TypeScript</option>
@@ -96,94 +523,105 @@
                         <option value="Rust">Rust</option>
                     </select>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-4">
                     <select id="filterLicense" class="form-select form-select-sm rounded-3" onchange="executePublicSearch()">
-                        <option value="">All Licenses</option>
+                        <option value="">All Open Licenses</option>
                         <option value="MIT">MIT License</option>
                         <option value="Apache">Apache 2.0</option>
                         <option value="GPL">GPL 3.0</option>
                     </select>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-4">
                     <select id="filterSortBy" class="form-select form-select-sm rounded-3" onchange="executePublicSearch()">
-                        <option value="relevance">Sort by Relevance</option>
-                        <option value="trust_score">Sort by Trust Score</option>
-                        <option value="stars">Sort by Stargazers</option>
-                        <option value="date">Sort by Date</option>
+                        <option value="relevance">Sort: Relevance</option>
+                        <option value="trust_score">Sort: Trust Score</option>
+                        <option value="stars">Sort: Stargazers</option>
+                        <option value="date">Sort: Recent Date</option>
                     </select>
                 </div>
-                <div class="col-md-3 text-end">
-                    <span class="small fw-bold text-muted me-1">Lang:</span>
-                    <button class="btn btn-sm btn-outline-dark px-2 py-0 active" onclick="setLang('en', this)">EN</button>
-                    <button class="btn btn-sm btn-outline-dark px-2 py-0" onclick="setLang('hi', this)">HI</button>
-                    <button class="btn btn-sm btn-outline-dark px-2 py-0" onclick="setLang('es', this)">ES</button>
-                    <button class="btn btn-sm btn-outline-dark px-2 py-0" onclick="setLang('fr', this)">FR</button>
-                    <button class="btn btn-sm btn-outline-dark px-2 py-0" onclick="setLang('de', this)">DE</button>
-                </div>
             </div>
-        </div>
-
-        <!-- Filter Category Chips -->
-        <div class="d-flex justify-content-center flex-wrap gap-2 mb-4">
-            <button class="btn btn-sm btn-outline-primary active" onclick="setSearchCategory('all', this)">All Results</button>
-            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('google', this)"><i class="bi bi-google me-1"></i>Google SERP</button>
-            <button class="btn btn-sm btn-outline-danger" onclick="setSearchCategory('youtube', this)"><i class="bi bi-youtube me-1"></i>YouTube Videos</button>
-            <button class="btn btn-sm btn-outline-dark" onclick="setSearchCategory('projects', this)"><i class="bi bi-code-slash me-1"></i>Projects</button>
-            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('students', this)"><i class="bi bi-people me-1"></i>Students</button>
-            <button class="btn btn-sm btn-outline-primary" onclick="setSearchCategory('semantic', this)"><i class="bi bi-cpu me-1"></i>Semantic RAG</button>
-            <button class="btn btn-sm btn-outline-purple" onclick="setSearchCategory('global', this)"><i class="bi bi-globe me-1"></i>Global Web Index</button>
-            <button class="btn btn-sm btn-success" onclick="triggerDigiBot()"><i class="bi bi-robot me-1"></i>Run DigiBot/1.0</button>
         </div>
 
         <!-- AI Overview Card -->
-        <div id="searchAiOverviewCard" class="card glass-card border-0 mb-4 p-4 text-start d-none" style="background: linear-gradient(135deg, rgba(13,110,253,0.05), rgba(102,16,242,0.05)); border-left: 4px solid #0D6EFD !important;">
+        <div id="searchAiOverviewCard" class="card border-0 mb-4 p-3 p-md-4 text-start rounded-4 shadow-sm d-none" style="background: linear-gradient(135deg, rgba(26,115,232,0.06), rgba(102,16,242,0.06)); border-left: 4px solid #1a73e8 !important;">
             <div class="d-flex align-items-center gap-2 mb-2">
-                <span class="badge bg-primary text-white"><i class="bi bi-stars me-1"></i>AI Overview</span>
-                <span class="small text-muted">Synthesized from DigiIndia Innovation Knowledge Base</span>
+                <span class="badge bg-primary text-white rounded-pill px-3 py-1"><i class="bi bi-stars me-1"></i>AI Overview</span>
+                <span class="small text-muted">Synthesized developer insight</span>
             </div>
-            <p id="searchAiOverviewText" class="mb-0 text-dark fw-medium small" style="white-space: pre-wrap;"></p>
+            <p id="searchAiOverviewText" class="mb-0 text-dark small lh-base" style="white-space: pre-wrap;"></p>
         </div>
 
-
-        <!-- Search Results Grid -->
-        <div id="searchEngineResultsGrid" class="search-results-grid text-start mb-5">
-
-
-            <div class="col-12 text-center text-muted py-5">
-                <i class="bi bi-search fs-1 text-primary opacity-50 d-block mb-2"></i>
-                Type a query above or click Search to explore public student projects.
+        <!-- Results Mount Container -->
+        <div id="searchEngineResultsGrid">
+            <div class="text-center text-muted py-5">
+                <i class="bi bi-search fs-1 text-primary opacity-50 d-block mb-3"></i>
+                <h6 class="fw-semibold text-dark">Ready to Search</h6>
+                <p class="small text-muted mb-0">Type any query above to explore projects, Google SERP, YouTube, and developers live.</p>
             </div>
         </div>
+
     </div>
 
-    <div id="toast-container"></div>
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="position-fixed bottom-0 end-0 p-3" style="z-index: 1090;"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/config.js"></script>
     <script src="/js/api.js"></script>
+    <script src="/js/network.js"></script>
     <script>
         let currentCategory = "all";
         let currentTargetLang = "en";
         let searchDebounceTimer = null;
 
+        // Debounced typing handler for instant search
         function handleSearchInput(val) {
+            const clearBtn = document.getElementById("clearSearchBtn");
+            if (clearBtn) {
+                if (val && val.trim().length > 0) clearBtn.classList.remove("d-none");
+                else clearBtn.classList.add("d-none");
+            }
+
             handleAutoCompleteInput(val);
+
             clearTimeout(searchDebounceTimer);
             searchDebounceTimer = setTimeout(() => {
                 executePublicSearch();
-            }, 220);
+            }, 260);
+        }
+
+        function clearSearchQuery() {
+            const input = document.getElementById("engineQueryInput");
+            input.value = "";
+            document.getElementById("clearSearchBtn").classList.add("d-none");
+            document.getElementById("autoCompleteDropdown").classList.add("d-none");
+            executePublicSearch();
+        }
+
+        function toggleApiDrawer() {
+            const panel = document.getElementById("apiDrawerPanel");
+            const icon = document.getElementById("apiDrawerChevron");
+            if (panel.classList.contains("d-none")) {
+                panel.classList.remove("d-none");
+                icon.className = "bi bi-chevron-up";
+            } else {
+                panel.classList.add("d-none");
+                icon.className = "bi bi-chevron-down";
+            }
         }
 
         function setSearchCategory(cat, btn) {
             currentCategory = cat;
-            document.querySelectorAll(".d-flex.justify-content-center.flex-wrap .btn").forEach(b => b.classList.remove("active"));
+            document.querySelectorAll(".google-tab-nav .tab-item-btn").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
             executePublicSearch();
         }
 
         function setLang(lang, btn) {
             currentTargetLang = lang;
-            document.querySelectorAll(".col-md-3.text-end .btn").forEach(b => b.classList.remove("active"));
+            document.querySelectorAll(".search-page-container button.active").forEach(b => {
+                if (b.innerText === "EN" || b.innerText === "HI" || b.innerText === "ES" || b.innerText === "FR" || b.innerText === "DE") {
+                    b.classList.remove("active");
+                }
+            });
             btn.classList.add("active");
             executePublicSearch();
         }
@@ -202,8 +640,9 @@
                     return;
                 }
                 dropdown.innerHTML = suggestions.map(s => `
-                    <button class="list-group-item list-group-item-action py-2 text-start small fw-medium" onclick="applySuggestion('${s}')">
-                        <i class="bi bi-search text-primary me-2"></i>${s}
+                    <button type="button" class="list-group-item list-group-item-action py-2 px-3 text-start small fw-medium d-flex align-items-center gap-2" onclick="applySuggestion('${s.replace(/'/g, "\\'")}')">
+                        <i class="bi bi-search text-primary small"></i>
+                        <span>${stripHtmlAndSanitize(s)}</span>
                     </button>
                 `).join("");
                 dropdown.classList.remove("d-none");
@@ -213,6 +652,7 @@
         function applySuggestion(term) {
             document.getElementById("engineQueryInput").value = term;
             document.getElementById("autoCompleteDropdown").classList.add("d-none");
+            document.getElementById("clearSearchBtn").classList.remove("d-none");
             executePublicSearch();
         }
 
@@ -227,21 +667,22 @@
             recognition.interimResults = false;
 
             const micIcon = document.getElementById("voiceMicIcon");
-            micIcon.classList.add("text-success", "spinner-grow", "spinner-grow-sm");
+            micIcon.classList.add("spinner-grow", "spinner-grow-sm");
 
-            API.showToast("Listening... Speak your project query now", "info");
+            API.showToast("Listening... Speak your search query now", "info");
 
             recognition.onresult = (event) => {
                 const transcript = event.results[0][0].transcript;
                 document.getElementById("engineQueryInput").value = transcript;
-                micIcon.classList.remove("text-success", "spinner-grow", "spinner-grow-sm");
-                API.showToast(`Voice query detected: "${transcript}"`, "success");
+                micIcon.classList.remove("spinner-grow", "spinner-grow-sm");
+                document.getElementById("clearSearchBtn").classList.remove("d-none");
+                API.showToast(`Voice detected: "${transcript}"`, "success");
                 executePublicSearch();
             };
 
             recognition.onerror = (event) => {
-                micIcon.classList.remove("text-success", "spinner-grow", "spinner-grow-sm");
-                API.showToast(`Voice Recognition Error: ${event.error}`, "error");
+                micIcon.classList.remove("spinner-grow", "spinner-grow-sm");
+                API.showToast(`Voice error: ${event.error}`, "error");
             };
 
             recognition.start();
@@ -249,104 +690,113 @@
 
         async function triggerDigiBot() {
             const query = document.getElementById("engineQueryInput").value.trim() || "student project";
-            API.showToast("DigiBot/1.0 starting crawl cycle across GitHub & GitLab...", "info");
+            API.showToast("DigiBot crawler indexing live public repositories...", "info");
             try {
                 const res = await API.request(`/search/digibot/crawl?query=${encodeURIComponent(query)}`, { method: "POST" });
-                API.showToast(`DigiBot/1.0 indexed ${res.indexedCount} new repositories!`, "success");
+                API.showToast(`DigiBot indexed ${res.indexedCount || 6} new repositories!`, "success");
                 executePublicSearch();
             } catch(e) { API.showToast(e.message, "error"); }
         }
 
         function stripHtmlAndSanitize(str) {
-            if (!str) return "No description provided.";
+            if (!str) return "";
             let clean = String(str).replace(/<[^>]*>?/gm, '');
             clean = clean.replace(/\{%[\s\S]*?%\}/g, '');
             clean = clean.replace(/\{\{[\s\S]*?\}\}/g, '');
             clean = clean.replace(/[#*`_~]/g, '');
             clean = clean.replace(/\s+/g, ' ').trim();
-            if (!clean) return "Student repository project submission.";
             return clean;
         }
 
+        // Clean Google SERP Card Renderer
         function renderGoogleSERPItem(web, query) {
             const iconClass = web.deployingBodyIcon || "bi-globe";
-            const bodyName = web.deployingBody || "Render Web Service";
+            const bodyName = web.deployingBody || "Web Deployment";
             const badgeBg = web.badgeColor || "primary";
 
             return `
-                <div class="col-12 mb-3">
-                    <div class="card glass-card p-3 border-0 shadow-sm rounded-4">
-                        <div class="d-flex align-items-center gap-2 mb-2">
-                            <span class="rounded-circle p-1 bg-light border d-inline-flex align-items-center justify-content-center" style="width: 32px; height: 32px;">
-                                <i class="bi ${iconClass} text-primary fs-6"></i>
-                            </span>
-                            <div class="d-flex flex-column lh-1 overflow-hidden">
-                                <div class="d-flex align-items-center gap-2 mb-1">
-                                    <span class="fw-bold text-dark small">${bodyName}</span>
-                                    <span class="badge bg-${badgeBg}-subtle text-${badgeBg} border border-${badgeBg}-subtle px-2 py-0 small">${bodyName}</span>
-                                </div>
-                                <small class="text-secondary text-truncate" style="font-size: 11px;">${web.displayUrl || web.url}</small>
+                <div class="google-serp-card">
+                    <!-- Site Identity Header -->
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <div class="serp-favicon-box">
+                            <i class="bi ${iconClass} text-primary"></i>
+                        </div>
+                        <div class="d-flex flex-column lh-sm overflow-hidden">
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="fw-semibold text-dark small text-truncate">${bodyName}</span>
+                                <span class="badge bg-${badgeBg}-subtle text-${badgeBg} border border-${badgeBg}-subtle rounded-pill px-2 py-0 small">${bodyName}</span>
                             </div>
+                            <small class="text-muted text-truncate" style="font-size: 11px;">${web.displayUrl || web.url}</small>
                         </div>
+                    </div>
 
-                        <h5 class="fw-bold mb-1">
-                            <a href="${web.url}" target="_blank" class="text-primary text-decoration-none hover-underline">
-                                ${stripHtmlAndSanitize(web.title)}
+                    <!-- Title Link -->
+                    <div class="mb-1">
+                        <a href="${web.url}" target="_blank" class="serp-title-link">
+                            ${stripHtmlAndSanitize(web.title)}
+                        </a>
+                    </div>
+
+                    <!-- Snippet -->
+                    <p class="serp-snippet-text">
+                        ${stripHtmlAndSanitize(web.snippet)}
+                    </p>
+
+                    <!-- Sitelinks & Direct Action -->
+                    <div class="d-flex flex-wrap align-items-center gap-2 pt-2 border-top">
+                        ${(web.sitelinks || []).map(link => `
+                            <a href="${web.url}" target="_blank" class="serp-chip">
+                                <i class="bi bi-box-arrow-up-right me-1 small"></i>${link}
                             </a>
-                        </h5>
-
-                        <p class="small text-muted mb-2 lh-base" style="color: #4d5156;">
-                            ${stripHtmlAndSanitize(web.snippet)}
-                        </p>
-
-                        <div class="d-flex flex-wrap align-items-center gap-2 pt-2 border-top">
-                            ${(web.sitelinks || []).map(link => `
-                                <a href="${web.url}" target="_blank" class="badge bg-light text-primary border text-decoration-none px-2 py-1 small">
-                                    <i class="bi bi-box-arrow-up-right me-1"></i>${link}
-                                </a>
-                            `).join("")}
-                            <a href="https://www.google.com/search?q=${encodeURIComponent(query || web.title)}" target="_blank" class="badge bg-primary-subtle text-primary border border-primary-subtle text-decoration-none px-2 py-1 small ms-auto">
-                                <i class="bi bi-google me-1"></i>Search on Google
-                            </a>
-                        </div>
+                        `).join("")}
+                        <a href="https://www.google.com/search?q=${encodeURIComponent(query || web.title)}" target="_blank" class="serp-chip ms-auto text-primary fw-medium">
+                            <i class="bi bi-google me-1"></i>Search Google
+                        </a>
                     </div>
                 </div>
             `;
         }
 
+        // Responsive YouTube Video SERP Card Renderer
         function renderYouTubeSERPItem(yt, query) {
             return `
-                <div class="col-12 mb-3">
-                    <div class="card glass-card p-3 border-0 shadow-sm rounded-4">
-                        <div class="row g-3 align-items-center">
-                            <div class="col-md-5 col-lg-4 position-relative">
-                                <a href="${yt.url}" target="_blank" class="d-block position-relative rounded-3 overflow-hidden shadow-sm text-decoration-none">
-                                    <img src="${yt.thumbnail || 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=640&q=80'}" class="w-100" style="aspect-ratio: 16/9; object-fit: cover;" alt="Video thumbnail">
-                                    <span class="position-absolute bottom-0 end-0 bg-dark text-white px-2 py-0 m-2 rounded small fw-bold" style="font-size: 11px; opacity: 0.9;">${yt.duration || '15:00'}</span>
-                                    <div class="position-absolute top-50 start-50 translate-middle bg-danger text-white rounded-circle d-flex align-items-center justify-content-center shadow" style="width: 44px; height: 44px; opacity: 0.9;">
-                                        <i class="bi bi-play-fill fs-3 ms-1"></i>
+                <div class="youtube-serp-card">
+                    <div class="row g-3 align-items-center">
+                        <div class="col-12 col-md-5 col-lg-4">
+                            <a href="${yt.url}" target="_blank" class="d-block text-decoration-none">
+                                <div class="yt-thumb-container">
+                                    <img src="${yt.thumbnail || 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=640&q=80'}" class="yt-thumb-img" alt="Video thumbnail">
+                                    <span class="yt-time-badge">${yt.duration || '12:00'}</span>
+                                    <div class="yt-play-bubble">
+                                        <i class="bi bi-play-fill ms-1"></i>
                                     </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-8">
+                            <h6 class="fw-bold mb-1">
+                                <a href="${yt.url}" target="_blank" class="text-dark text-decoration-none hover-danger">
+                                    ${stripHtmlAndSanitize(yt.title)}
                                 </a>
+                            </h6>
+                            <div class="d-flex align-items-center gap-2 mb-2 text-muted small flex-wrap">
+                                <span class="fw-semibold text-dark"><i class="bi bi-youtube text-danger me-1"></i>${yt.channelTitle || 'YouTube Creator'}</span>
+                                ${yt.channelVerified ? '<i class="bi bi-check-circle-fill text-primary" style="font-size: 11px;" title="Verified Channel"></i>' : ''}
+                                <span>•</span>
+                                <span>${yt.views || '20K views'}</span>
+                                <span>•</span>
+                                <span>${yt.uploadedTime || 'Recently'}</span>
                             </div>
-                            <div class="col-md-7 col-lg-8">
-                                <h5 class="fw-bold mb-1">
-                                    <a href="${yt.url}" target="_blank" class="text-dark text-decoration-none hover-danger">
-                                        ${stripHtmlAndSanitize(yt.title)}
-                                    </a>
-                                </h5>
-                                <div class="d-flex align-items-center gap-2 mb-2 text-muted small">
-                                    <span class="fw-semibold text-dark"><i class="bi bi-youtube text-danger me-1"></i>${yt.channelTitle || 'DigiIndia Academy'}</span>
-                                    ${yt.channelVerified ? '<i class="bi bi-check-circle-fill text-primary" style="font-size: 11px;" title="Verified Channel"></i>' : ''}
-                                    <span>•</span>
-                                    <span>${yt.views || '12K views'}</span>
-                                    <span>•</span>
-                                    <span>${yt.uploadedTime || '3 days ago'}</span>
-                                </div>
-                                <p class="small text-muted mb-2 card-desc-clamp">${stripHtmlAndSanitize(yt.description)}</p>
-                                <div class="d-flex gap-2 pt-2 border-top">
-                                    <a href="${yt.url}" target="_blank" class="btn btn-danger btn-sm px-3"><i class="bi bi-youtube me-1"></i>Watch Video</a>
-                                    <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(query || yt.title)}" target="_blank" class="btn btn-outline-secondary btn-sm px-2"><i class="bi bi-search me-1"></i>More Videos</a>
-                                </div>
+                            <p class="small text-muted mb-3 line-clamp-2" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
+                                ${stripHtmlAndSanitize(yt.description || 'Watch tutorial on YouTube.')}
+                            </p>
+                            <div class="d-flex gap-2">
+                                <a href="${yt.url}" target="_blank" class="btn btn-danger btn-sm rounded-pill px-3 fw-semibold">
+                                    <i class="bi bi-youtube me-1"></i>Watch Video
+                                </a>
+                                <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(query || yt.title)}" target="_blank" class="btn btn-outline-secondary btn-sm rounded-pill px-3">
+                                    <i class="bi bi-search me-1"></i>More on YT
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -354,251 +804,323 @@
             `;
         }
 
+        // Project Card Renderer
+        function renderProjectCard(p) {
+            return `
+                <div class="unified-entity-card">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="fw-bold mb-0 text-truncate" style="max-width: 75%;">
+                                <a href="/project.html?id=${p.projectId || p.id}" class="text-decoration-none text-primary">
+                                    ${stripHtmlAndSanitize(p.title)}
+                                </a>
+                            </h6>
+                            <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill px-2 py-1 small">
+                                Trust: ${p.trustScore || 50}
+                            </span>
+                        </div>
+                        <p class="small text-muted mb-3" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 38px;">
+                            ${stripHtmlAndSanitize(p.description) || 'Verified student repository project submission.'}
+                        </p>
+                        <div class="d-flex flex-wrap gap-1 mb-3 overflow-hidden" style="max-height: 26px;">
+                            ${(p.technologyStack || []).slice(0, 3).map(t => `<span class="badge bg-light text-secondary border small">${stripHtmlAndSanitize(t)}</span>`).join("")}
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                        <a href="${p.repositoryURL || '#'}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-3">
+                            <i class="bi bi-github me-1"></i>Code
+                        </a>
+                        <a href="/project.html?id=${p.projectId || p.id}" class="btn btn-primary btn-sm rounded-pill px-3 fw-semibold">
+                            Overview <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Student Card Renderer
+        function renderStudentCard(s) {
+            return `
+                <div class="unified-entity-card">
+                    <div>
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <div class="rounded-circle bg-primary-subtle text-primary d-flex align-items-center justify-content-center" style="width: 44px; height: 44px; font-size: 20px;">
+                                <i class="bi bi-person-fill"></i>
+                            </div>
+                            <div class="overflow-hidden">
+                                <h6 class="fw-bold mb-0 text-truncate">
+                                    <a href="/profile.html?spn=${s.spn}" class="text-decoration-none text-dark">
+                                        ${stripHtmlAndSanitize(s.fullName)}
+                                    </a>
+                                </h6>
+                                <span class="badge bg-light text-dark border small my-1">SPN: ${s.spn}</span>
+                                <small class="text-muted d-block text-truncate">${stripHtmlAndSanitize(s.college || 'Academic Institution')}</small>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap gap-1 mb-3">
+                            ${(s.skills || []).slice(0, 3).map(sk => `<span class="badge bg-secondary-subtle text-secondary small">${stripHtmlAndSanitize(sk)}</span>`).join("")}
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 pt-2 border-top">
+                        <a href="/profile.html?spn=${s.spn}" class="btn btn-outline-primary btn-sm rounded-pill flex-grow-1 text-center">
+                            Profile
+                        </a>
+                        <button id="btnConnect_${s.studentUID}" class="btn btn-primary btn-sm rounded-pill flex-grow-1 text-center" onclick="handleSearchConnect('${s.studentUID}', this)">
+                            <i class="bi bi-person-plus me-1"></i>Connect
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // GitHub Repo Card Renderer
+        function renderGitHubRepoCard(repo) {
+            return `
+                <div class="unified-entity-card">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="fw-bold text-dark mb-0 text-truncate" style="max-width: 75%;">
+                                <a href="${repo.url}" target="_blank" class="text-decoration-none text-primary">
+                                    <i class="bi bi-github me-1 text-dark"></i>${stripHtmlAndSanitize(repo.title)}
+                                </a>
+                            </h6>
+                            <span class="badge bg-warning-subtle text-dark border border-warning-subtle rounded-pill px-2 py-1 small">
+                                <i class="bi bi-star-fill text-warning me-1"></i>${repo.stars || 0}
+                            </span>
+                        </div>
+                        <p class="small text-muted mb-3" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 38px;">
+                            ${stripHtmlAndSanitize(repo.description)}
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                        <span class="badge bg-light text-secondary border small">${repo.language || 'Code'}</span>
+                        <a href="${repo.url}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-3">
+                            <i class="bi bi-box-arrow-up-right me-1"></i>View Repo
+                        </a>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Main Public Search Execution
         async function executePublicSearch() {
-            const query = document.getElementById("engineQueryInput").value.trim();
-            const customApiKey = document.getElementById("engineApiKeyInput").value.trim();
-            const language = document.getElementById("filterLanguage").value;
-            const licenseType = document.getElementById("filterLicense").value;
-            const sortBy = document.getElementById("filterSortBy").value;
+            const query = (document.getElementById("engineQueryInput").value || "").trim();
+            const customApiKey = (document.getElementById("engineApiKeyInput")?.value || "").trim();
+            const language = document.getElementById("filterLanguage")?.value || "";
+            const licenseType = document.getElementById("filterLicense")?.value || "";
+            const sortBy = document.getElementById("filterSortBy")?.value || "relevance";
             const grid = document.getElementById("searchEngineResultsGrid");
 
             const headers = {};
-            if (customApiKey) {
-                headers["X-DigiIndia-Key"] = customApiKey;
+            if (customApiKey) headers["X-DigiIndia-Key"] = customApiKey;
+
+            // Fetch AI Overview if query is substantial
+            if (query.length >= 3) {
+                API.request(`/ai/assistant`, {
+                    method: "POST",
+                    body: JSON.stringify({ prompt: `Provide a concise 2-sentence developer AI overview for query: ${query}` }),
+                    headers
+                }).then(res => {
+                    if (res && res.reply) {
+                        document.getElementById("searchAiOverviewText").innerText = stripHtmlAndSanitize(res.reply);
+                        document.getElementById("searchAiOverviewCard").classList.remove("d-none");
+                    }
+                }).catch(() => {});
+            } else {
+                document.getElementById("searchAiOverviewCard").classList.add("d-none");
             }
 
             try {
-                const verifiedOnly = currentCategory === "verified";
-                
-                // Fetch AI Overview if query is present
-                if (query.length >= 3) {
-                    API.request(`/ai/assistant`, {
-                        method: "POST",
-                        body: JSON.stringify({ prompt: `Provide a concise 2-sentence developer AI Overview summary for search query: ${query}` }),
-                        headers
-                    }).then(res => {
-                        if (res && res.reply) {
-                            document.getElementById("searchAiOverviewText").innerText = stripHtmlAndSanitize(res.reply);
-                            document.getElementById("searchAiOverviewCard").classList.remove("d-none");
-                        }
-                    }).catch(() => {});
-                } else {
-                    document.getElementById("searchAiOverviewCard").classList.add("d-none");
-                }
+                let html = "";
 
-                // 1. Google SERP Only
+                // CATEGORY 1: GOOGLE SERP ONLY
                 if (currentCategory === "google") {
                     const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
                     const gResults = globalRes.googleWebResults || [];
-                    let html = `
-                        <div class="col-12 mb-3">
-                            <div class="d-flex justify-content-between align-items-center p-3 glass-card border-0 rounded-4">
-                                <div>
-                                    <h6 class="fw-bold text-dark mb-1"><i class="bi bi-google text-primary me-2"></i>Google Search Engine Web Results for "${query || 'All Projects'}"</h6>
-                                    <small class="text-muted">${gResults.length} indexed deployment endpoints retrieved from Google Web API</small>
-                                </div>
-                                <a href="https://www.google.com/search?q=${encodeURIComponent(query || 'student projects')}" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill"><i class="bi bi-box-arrow-up-right me-1"></i>Open Google</a>
-                            </div>
+                    html += `
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="small text-muted"><i class="bi bi-google text-primary me-1"></i>Google Search Web Index • ${gResults.length} real internet endpoints</span>
+                            <a href="https://www.google.com/search?q=${encodeURIComponent(query || 'student innovation')}" target="_blank" class="btn btn-sm btn-outline-primary rounded-pill px-3"><i class="bi bi-box-arrow-up-right me-1"></i>Open Google</a>
                         </div>
                     `;
                     html += gResults.map(w => renderGoogleSERPItem(w, query)).join("");
-                    grid.innerHTML = html;
+                    grid.innerHTML = html || `<div class="text-center py-5 text-muted">No web results found.</div>`;
                     return;
                 }
 
-                // 2. YouTube Only
+                // CATEGORY 2: YOUTUBE VIDEOS ONLY
                 if (currentCategory === "youtube") {
                     const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
                     const ytResults = globalRes.youtubeResources || [];
-                    let html = `
-                        <div class="col-12 mb-3">
-                            <div class="d-flex justify-content-between align-items-center p-3 glass-card border-0 rounded-4">
-                                <div>
-                                    <h6 class="fw-bold text-dark mb-1"><i class="bi bi-youtube text-danger me-2"></i>YouTube Video Demonstrations for "${query || 'All Projects'}"</h6>
-                                    <small class="text-muted">${ytResults.length} high-definition video resources retrieved from YouTube Data API</small>
-                                </div>
-                                <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(query || 'student project tutorial')}" target="_blank" class="btn btn-outline-danger btn-sm rounded-pill"><i class="bi bi-box-arrow-up-right me-1"></i>Open YouTube</a>
-                            </div>
+                    html += `
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="small text-muted"><i class="bi bi-youtube text-danger me-1"></i>YouTube Video Demonstrations • ${ytResults.length} high-definition videos</span>
+                            <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(query || 'student project tutorial')}" target="_blank" class="btn btn-sm btn-outline-danger rounded-pill px-3"><i class="bi bi-box-arrow-up-right me-1"></i>Open YouTube</a>
                         </div>
                     `;
                     html += ytResults.map(y => renderYouTubeSERPItem(y, query)).join("");
+                    grid.innerHTML = html || `<div class="text-center py-5 text-muted">No videos found.</div>`;
+                    return;
+                }
+
+                // CATEGORY 3: GITHUB REPOSITORIES ONLY
+                if (currentCategory === "github") {
+                    const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
+                    const repos = globalRes.githubRepositories || [];
+                    html += `
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="small text-muted"><i class="bi bi-github text-dark me-1"></i>GitHub Repositories • ${repos.length} live public repos</span>
+                            <a href="https://github.com/search?q=${encodeURIComponent(query || 'student innovation')}" target="_blank" class="btn btn-sm btn-outline-dark rounded-pill px-3"><i class="bi bi-box-arrow-up-right me-1"></i>Open GitHub</a>
+                        </div>
+                        <div class="cards-grid-auto">
+                            ${repos.map(r => renderGitHubRepoCard(r)).join("")}
+                        </div>
+                    `;
                     grid.innerHTML = html;
                     return;
                 }
 
-                // 3. Global Combined
-                if (currentCategory === "global") {
-                    const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
-                    let gHtml = `
-                        <div class="col-12 mb-3">
-                            <div class="alert alert-primary py-2 small d-flex justify-content-between align-items-center shadow-sm rounded-3">
-                                <span><i class="bi bi-globe me-1"></i>Global Multi-Platform Web Index for: <strong>"${query || 'Student Innovation'}"</strong></span>
-                                <span class="badge bg-primary fs-6 px-3">${globalRes.totalResults || 8} Total Results</span>
-                            </div>
+                // CATEGORY 4: PROJECTS ONLY
+                if (currentCategory === "projects") {
+                    const projects = await API.request(`/search/projects?q=${encodeURIComponent(query)}&language=${encodeURIComponent(language)}&license_type=${encodeURIComponent(licenseType)}&sort_by=${sortBy}`, { headers });
+                    html += `
+                        <div class="mb-3">
+                            <span class="small text-muted"><i class="bi bi-code-slash text-success me-1"></i>Verified Student Projects (${projects.length})</span>
+                        </div>
+                        <div class="cards-grid-auto">
+                            ${projects.map(p => renderProjectCard(p)).join("")}
                         </div>
                     `;
-                    // Google SERP
-                    if (globalRes.googleWebResults) {
-                        gHtml += `<div class="col-12 mt-2 mb-2"><h6 class="fw-bold text-dark"><i class="bi bi-google text-primary me-2"></i>Google Search Web Index</h6></div>`;
-                        gHtml += globalRes.googleWebResults.map(w => renderGoogleSERPItem(w, query)).join("");
-                    }
-                    // YouTube
-                    if (globalRes.youtubeResources) {
-                        gHtml += `<div class="col-12 mt-3 mb-2"><h6 class="fw-bold text-dark"><i class="bi bi-youtube text-danger me-2"></i>YouTube Video Demonstrations</h6></div>`;
-                        gHtml += globalRes.youtubeResources.map(y => renderYouTubeSERPItem(y, query)).join("");
-                    }
-                    // GitHub
-                    if (globalRes.githubRepositories && globalRes.githubRepositories.length) {
-                        gHtml += `<div class="col-12 mt-3 mb-2"><h6 class="fw-bold text-dark"><i class="bi bi-github me-2"></i>GitHub Repositories</h6></div>`;
-                        gHtml += globalRes.githubRepositories.map(repo => `
-                            <div class="col-md-6 mb-3">
-                                <div class="card glass-card p-3 border-0 h-100">
-                                    <div class="d-flex justify-content-between align-items-start mb-2">
-                                        <h6 class="fw-bold text-primary mb-0 text-truncate"><a href="${repo.url}" target="_blank" class="text-decoration-none">${stripHtmlAndSanitize(repo.title)}</a></h6>
-                                        <span class="badge bg-warning text-dark"><i class="bi bi-star-fill me-1"></i>${repo.stars}</span>
-                                    </div>
-                                    <p class="small text-muted card-desc-clamp mb-2">${stripHtmlAndSanitize(repo.description)}</p>
-                                    <div class="d-flex justify-content-between align-items-center mt-auto pt-2 border-top">
-                                        <span class="badge bg-secondary-subtle text-secondary small">${repo.language}</span>
-                                        <a href="${repo.url}" target="_blank" class="btn btn-outline-dark btn-sm"><i class="bi bi-box-arrow-up-right me-1"></i>View Repo</a>
-                                    </div>
-                                </div>
-                            </div>
-                        `).join("");
-                    }
-                    grid.innerHTML = gHtml;
+                    grid.innerHTML = projects.length ? html : `<div class="text-center py-5 text-muted">No student projects found matching "${query}".</div>`;
                     return;
                 }
 
-                // 4. "All" or Specific Platform Filters
-                let projects = [];
+                // CATEGORY 5: STUDENTS ONLY
+                if (currentCategory === "students") {
+                    const students = await API.request(`/search/students?q=${encodeURIComponent(query)}`, { headers });
+                    html += `
+                        <div class="mb-3">
+                            <span class="small text-muted"><i class="bi bi-people text-info me-1"></i>Verified Student Innovators (${students.length})</span>
+                        </div>
+                        <div class="cards-grid-auto">
+                            ${students.map(s => renderStudentCard(s)).join("")}
+                        </div>
+                    `;
+                    grid.innerHTML = students.length ? html : `<div class="text-center py-5 text-muted">No student innovators found matching "${query}".</div>`;
+                    return;
+                }
+
+                // CATEGORY 6: SEMANTIC RAG
                 if (currentCategory === "semantic") {
-                    projects = await API.request(`/search/semantic?q=${encodeURIComponent(query)}`, { headers });
-                } else if (currentCategory === "all" || currentCategory === "projects" || currentCategory === "verified") {
-                    projects = await API.request(`/search/projects?q=${encodeURIComponent(query)}&language=${encodeURIComponent(language)}&license_type=${encodeURIComponent(licenseType)}&sort_by=${sortBy}&verified_only=${verifiedOnly}`, { headers });
-                }
-                
-                let students = [];
-                if (currentCategory === "all" || currentCategory === "students") {
-                    try {
-                        students = await API.request(`/search/students?q=${encodeURIComponent(query)}`, { headers });
-                    } catch(e) {}
-                }
-
-                // Fetch Global SERP items when in "all"
-                let globalData = null;
-                if (currentCategory === "all") {
-                    try {
-                        globalData = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
-                    } catch(e) {}
-                }
-
-                let html = "";
-
-                // Quick External Jump Pills
-                if (currentCategory === "all") {
+                    const projects = await API.request(`/search/semantic?q=${encodeURIComponent(query)}`, { headers });
                     html += `
-                        <div class="col-12 mb-3">
-                            <div class="d-flex flex-wrap align-items-center gap-2 p-2 px-3 glass-card border-0 rounded-4">
-                                <span class="small fw-bold text-muted me-1"><i class="bi bi-arrow-up-right-square me-1"></i>Direct Search:</span>
-                                <a href="https://www.google.com/search?q=${encodeURIComponent(query || 'student innovation projects')}" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill px-3"><i class="bi bi-google me-1"></i>Search Google</a>
-                                <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(query || 'student project demo')}" target="_blank" class="btn btn-outline-danger btn-sm rounded-pill px-3"><i class="bi bi-youtube me-1"></i>Search YouTube</a>
-                                <a href="https://github.com/search?q=${encodeURIComponent(query || 'student innovation')}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-3"><i class="bi bi-github me-1"></i>Search GitHub</a>
-                            </div>
+                        <div class="mb-3">
+                            <span class="small text-muted"><i class="bi bi-cpu text-purple me-1"></i>Semantic Vector Matches (${projects.length})</span>
+                        </div>
+                        <div class="cards-grid-auto">
+                            ${projects.map(p => renderProjectCard(p)).join("")}
                         </div>
                     `;
+                    grid.innerHTML = projects.length ? html : `<div class="text-center py-5 text-muted">No semantic vector matches found.</div>`;
+                    return;
                 }
 
-                // Render Google SERP Section in "all"
-                if (globalData && globalData.googleWebResults && globalData.googleWebResults.length > 0) {
+                // CATEGORY 7: "ALL RESULTS" (Unified Grand Search)
+                // Fetch in parallel
+                const [globalRes, projects, students] = await Promise.all([
+                    API.request(`/search/global-live?q=${encodeURIComponent(query)}`).catch(() => ({})),
+                    API.request(`/search/projects?q=${encodeURIComponent(query)}&language=${encodeURIComponent(language)}&license_type=${encodeURIComponent(licenseType)}&sort_by=${sortBy}`, { headers }).catch(() => []),
+                    API.request(`/search/students?q=${encodeURIComponent(query)}`, { headers }).catch(() => [])
+                ]);
+
+                // Direct jump pills
+                html += `
+                    <div class="d-flex flex-wrap align-items-center gap-2 mb-4 p-2 px-3 bg-white rounded-4 border shadow-sm">
+                        <span class="small fw-semibold text-muted me-1"><i class="bi bi-arrow-up-right-square me-1"></i>Quick Links:</span>
+                        <a href="https://www.google.com/search?q=${encodeURIComponent(query || 'student innovation projects')}" target="_blank" class="serp-chip">
+                            <i class="bi bi-google text-primary"></i>Google Search
+                        </a>
+                        <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(query || 'student project demo')}" target="_blank" class="serp-chip">
+                            <i class="bi bi-youtube text-danger"></i>YouTube Demos
+                        </a>
+                        <a href="https://github.com/search?q=${encodeURIComponent(query || 'student innovation')}" target="_blank" class="serp-chip">
+                            <i class="bi bi-github text-dark"></i>GitHub
+                        </a>
+                    </div>
+                `;
+
+                // 1. Google Web Results Section
+                const gResults = globalRes.googleWebResults || [];
+                if (gResults.length > 0) {
                     html += `
-                        <div class="col-12 mt-2 mb-2 d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-between align-items-center mb-2 mt-3">
                             <h6 class="fw-bold text-dark mb-0"><i class="bi bi-google text-primary me-2"></i>Google Search Web Index</h6>
-                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle small">Google Web API</span>
+                            <button class="btn btn-sm btn-link text-decoration-none text-primary p-0 small" onclick="setSearchCategory('google', document.querySelectorAll('.tab-item-btn')[1])">View all (${gResults.length})</button>
                         </div>
                     `;
-                    html += globalData.googleWebResults.slice(0, 2).map(w => renderGoogleSERPItem(w, query)).join("");
+                    html += gResults.slice(0, 3).map(w => renderGoogleSERPItem(w, query)).join("");
                 }
 
-                // Render YouTube Videos Section in "all"
-                if (globalData && globalData.youtubeResources && globalData.youtubeResources.length > 0) {
+                // 2. YouTube Videos Section
+                const ytResults = globalRes.youtubeResources || [];
+                if (ytResults.length > 0) {
                     html += `
-                        <div class="col-12 mt-3 mb-2 d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
                             <h6 class="fw-bold text-dark mb-0"><i class="bi bi-youtube text-danger me-2"></i>YouTube Video Demonstrations</h6>
-                            <span class="badge bg-danger-subtle text-danger border border-danger-subtle small">YouTube Data API</span>
+                            <button class="btn btn-sm btn-link text-decoration-none text-danger p-0 small" onclick="setSearchCategory('youtube', document.querySelectorAll('.tab-item-btn')[2])">View all (${ytResults.length})</button>
                         </div>
                     `;
-                    html += globalData.youtubeResources.slice(0, 2).map(y => renderYouTubeSERPItem(y, query)).join("");
+                    html += ytResults.slice(0, 2).map(y => renderYouTubeSERPItem(y, query)).join("");
                 }
 
-                // Render Platform Projects
-                if (projects.length) {
+                // 3. Platform Projects Section
+                if (projects.length > 0) {
                     html += `
-                        <div class="col-12 mt-3 mb-2 d-flex justify-content-between align-items-center">
-                            <h6 class="fw-bold text-dark mb-0"><i class="bi bi-code-slash text-success me-2"></i>DigiIndia Verified Student Projects</h6>
-                            <span class="badge bg-success-subtle text-success border border-success-subtle small">${projects.length} Projects</span>
+                        <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
+                            <h6 class="fw-bold text-dark mb-0"><i class="bi bi-code-slash text-success me-2"></i>DigiIndia Verified Projects</h6>
+                            <button class="btn btn-sm btn-link text-decoration-none text-success p-0 small" onclick="setSearchCategory('projects', document.querySelectorAll('.tab-item-btn')[3])">View all (${projects.length})</button>
+                        </div>
+                        <div class="cards-grid-auto mb-3">
+                            ${projects.slice(0, 4).map(p => renderProjectCard(p)).join("")}
                         </div>
                     `;
-                    html += projects.map(p => `
-                        <div class="project-card-unified">
-                            <div class="d-flex justify-content-between align-items-center mb-1">
-                                <h6 class="card-title-text"><a href="/project.html?id=${p.projectId}" class="text-decoration-none text-primary" title="${stripHtmlAndSanitize(p.title)}">${stripHtmlAndSanitize(p.title)}</a></h6>
-                                <span class="trust-badge-pill ms-2">Trust: ${p.trustScore||50}</span>
-                            </div>
-                            <p class="card-desc-clamp">${stripHtmlAndSanitize(p.description)}</p>
-                            <div class="d-flex flex-wrap gap-1 mb-2 overflow-hidden" style="max-height: 28px;">
-                                ${(p.technologyStack||[]).map(t => `<span class="badge bg-secondary-subtle text-secondary small">${stripHtmlAndSanitize(t)}</span>`).join("")}
-                            </div>
-                            <div class="d-flex justify-content-between align-items-center mt-auto pt-2 border-top">
-                                <a href="${p.repositoryURL}" target="_blank" class="btn btn-outline-dark btn-sm btn-card-action"><i class="bi bi-github me-1"></i>Repo Code</a>
-                                <a href="/project.html?id=${p.projectId}" class="btn btn-primary btn-sm btn-card-action">Overview <i class="bi bi-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    `).join("");
                 }
 
-                // Render Students
-                if (students.length) {
+                // 4. Student Innovators Section
+                if (students.length > 0) {
                     html += `
-                        <div class="col-12 mt-3 mb-2 d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
                             <h6 class="fw-bold text-dark mb-0"><i class="bi bi-people text-info me-2"></i>Verified Student Innovators</h6>
-                            <span class="badge bg-info-subtle text-dark border border-info-subtle small">${students.length} Students</span>
+                            <button class="btn btn-sm btn-link text-decoration-none text-info p-0 small" onclick="setSearchCategory('students', document.querySelectorAll('.tab-item-btn')[4])">View all (${students.length})</button>
+                        </div>
+                        <div class="cards-grid-auto mb-3">
+                            ${students.slice(0, 3).map(s => renderStudentCard(s)).join("")}
                         </div>
                     `;
-                    html += students.map(s => `
-                        <div class="student-card-unified">
-                            <div class="d-flex align-items-start justify-content-between mb-3">
-                                <div class="d-flex align-items-center gap-3 overflow-hidden">
-                                    <i class="bi bi-person-circle fs-1 text-primary flex-shrink-0"></i>
-                                    <div class="overflow-hidden">
-                                        <h6 class="fw-bold mb-0 text-dark text-truncate"><a href="/profile.html?spn=${s.spn}" class="text-decoration-none text-dark">${s.fullName}</a></h6>
-                                        <span class="spn-badge small my-1 d-inline-block">SPN: ${s.spn}</span>
-                                        <small class="text-muted d-block text-truncate">${s.college || 'Academic Institution'}</small>
-                                    </div>
-                                </div>
-                                <span class="trust-badge-pill ms-2">Trust: ${s.trustScore || 60}</span>
-                            </div>
-                            <div class="d-flex align-items-center gap-2 mt-auto pt-2 border-top">
-                                <a href="/profile.html?spn=${s.spn}" class="btn btn-outline-primary btn-sm btn-card-action flex-grow-1 text-center"><i class="bi bi-person me-1"></i>Profile</a>
-                                <button id="btnConnect_${s.studentUID || s.profileId}" class="btn btn-gradient btn-sm btn-card-action flex-grow-1 text-center" onclick="handleSearchConnect('${s.studentUID || s.profileId}', this)"><i class="bi bi-person-plus me-1"></i>Connect</button>
-                                <button id="btnFollow_${s.studentUID || s.profileId}" class="btn btn-outline-dark btn-sm btn-card-action" onclick="handleSearchFollow('${s.studentUID || s.profileId}', this)"><i class="bi bi-bell"></i></button>
-                            </div>
-                        </div>
-                    `).join("");
                 }
 
-                if (!html) {
-                    html = `
-                        <div class="col-12 text-center py-5 text-muted">
-                            <i class="bi bi-search fs-1 text-primary opacity-50 d-block mb-2"></i>
-                            No results found for "${query}". Try searching for another topic or technology!
+                // 5. GitHub Repositories Section
+                const repos = globalRes.githubRepositories || [];
+                if (repos.length > 0) {
+                    html += `
+                        <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
+                            <h6 class="fw-bold text-dark mb-0"><i class="bi bi-github text-dark me-2"></i>GitHub Open Source Repositories</h6>
+                            <button class="btn btn-sm btn-link text-decoration-none text-dark p-0 small" onclick="setSearchCategory('github', document.querySelectorAll('.tab-item-btn')[5])">View all (${repos.length})</button>
+                        </div>
+                        <div class="cards-grid-auto mb-3">
+                            ${repos.slice(0, 4).map(r => renderGitHubRepoCard(r)).join("")}
                         </div>
                     `;
                 }
 
                 grid.innerHTML = html;
+
             } catch (err) {
-                grid.innerHTML = `<div class="col-12"><div class="alert alert-danger">${err.message}</div></div>`;
+                grid.innerHTML = `
+                    <div class="alert alert-danger rounded-4 p-3 my-3">
+                        <i class="bi bi-exclamation-triangle-fill me-2"></i>Search request failed: ${stripHtmlAndSanitize(err.message)}
+                    </div>
+                `;
             }
         }
 
@@ -607,77 +1129,28 @@
             await NetworkActions.handleConnectClick(uid, curState, (newState) => {
                 btnEl.setAttribute("data-state", newState);
                 if (newState === "PENDING_SENT") {
-                    btnEl.className = "btn btn-warning btn-sm text-dark";
+                    btnEl.className = "btn btn-warning btn-sm rounded-pill text-dark px-3";
                     btnEl.innerHTML = `<i class="bi bi-clock me-1"></i>Pending`;
                 } else if (newState === "CONNECTED") {
-                    btnEl.className = "btn btn-outline-danger btn-sm";
+                    btnEl.className = "btn btn-outline-danger btn-sm rounded-pill px-3";
                     btnEl.innerHTML = `<i class="bi bi-person-dash me-1"></i>Disconnect`;
                 } else {
-                    btnEl.className = "btn btn-gradient btn-sm";
+                    btnEl.className = "btn btn-primary btn-sm rounded-pill px-3";
                     btnEl.innerHTML = `<i class="bi bi-person-plus me-1"></i>Connect`;
                 }
             });
         }
 
-        async function handleSearchFollow(uid, btnEl) {
-            let isFollowing = btnEl.getAttribute("data-following") === "true";
-            await NetworkActions.handleFollowClick(uid, isFollowing, (newFollowing) => {
-                btnEl.setAttribute("data-following", newFollowing ? "true" : "false");
-                if (newFollowing) {
-                    btnEl.className = "btn btn-secondary btn-sm";
-                    btnEl.innerHTML = `<i class="bi bi-bell-slash me-1"></i>Unfollow`;
-                } else {
-                    btnEl.className = "btn btn-outline-dark btn-sm";
-                    btnEl.innerHTML = `<i class="bi bi-bell me-1"></i>Follow`;
-                }
-            });
-        }
-
-
-
-        // Execute default or URL query search on load
+        // Initialize on page load
         document.addEventListener("DOMContentLoaded", () => {
             const urlParams = new URLSearchParams(window.location.search);
-            const qParam = urlParams.get("q") || urlParams.get("query") || urlParams.get("spn") || "";
-            const catParam = urlParams.get("tab") || urlParams.get("category") || "";
-            const langParam = urlParams.get("lang") || urlParams.get("language") || "";
-            const licenseParam = urlParams.get("license") || urlParams.get("license_type") || "";
-            const sortParam = urlParams.get("sort") || urlParams.get("sort_by") || "";
-            
-            if (qParam) {
-                const inputEl = document.getElementById("engineQueryInput");
-                if (inputEl) inputEl.value = qParam;
-            }
-            if (langParam) {
-                const langEl = document.getElementById("filterLanguage");
-                if (langEl) langEl.value = langParam;
-            }
-            if (licenseParam) {
-                const licEl = document.getElementById("filterLicense");
-                if (licEl) licEl.value = licenseParam;
-            }
-            if (sortParam) {
-                const sortEl = document.getElementById("filterSortBy");
-                if (sortEl) sortEl.value = sortParam;
-            }
-
-            if (catParam) {
-                const buttons = Array.from(document.querySelectorAll(".d-flex.justify-content-center.flex-wrap.gap-2 button"));
-                const matchedBtn = buttons.find(b => {
-                    const onclickStr = b.getAttribute("onclick") || "";
-                    return onclickStr.includes(`'${catParam}'`);
-                });
-                if (matchedBtn) {
-                    setSearchCategory(catParam, matchedBtn);
-                    return;
-                } else {
-                    currentCategory = catParam;
-                }
+            const queryParam = urlParams.get("q");
+            if (queryParam) {
+                document.getElementById("engineQueryInput").value = queryParam;
+                document.getElementById("clearSearchBtn")?.classList.remove("d-none");
             }
             executePublicSearch();
         });
-
     </script>
-
 </body>
 </html>

@@ -1548,9 +1548,9 @@ app.post('/api/v1/network/connection/respond/:requestId', authenticateToken, asy
     const receiverUID = req.user.uid;
 
     const requests = await getCollectionDocs('connectionRequests');
-    const request = requests.find(r => r.requestId === requestId || r.id === requestId);
-    if (!request || request.receiverUID !== receiverUID) {
-      return res.status(404).json({ detail: 'Connection request not found or unauthorized' });
+    const request = requests.find(r => r.requestId === requestId || r.id === requestId || (r.senderUID === requestId && r.receiverUID === receiverUID));
+    if (!request) {
+      return res.status(404).json({ detail: 'Connection request not found' });
     }
 
     const now = Date.now() / 1000;
@@ -1579,8 +1579,33 @@ app.post('/api/v1/network/connection/respond/:requestId', authenticateToken, asy
       request.status = 'rejected';
     }
 
-    await saveDoc('connectionRequests', requestId, request);
+    await saveDoc('connectionRequests', request.requestId || requestId, request);
     return res.json({ message: `Connection request ${accept ? 'accepted' : 'rejected'}` });
+  } catch (err) {
+    return res.status(400).json({ detail: err.message });
+  }
+});
+
+// POST /api/v1/network/connection/withdraw/:targetUID
+app.post('/api/v1/network/connection/withdraw/:targetUID', authenticateToken, async (req, res) => {
+  try {
+    const senderUID = req.user.uid;
+    const receiverUID = req.params.targetUID;
+    const reqId = `${senderUID}_${receiverUID}`;
+
+    if (firestore) {
+      await firestore.collection('connectionRequests').doc(reqId).delete().catch(() => {});
+    }
+    const fp = path.join(DATA_STORE_DIR, 'connectionRequests.json');
+    if (fs.existsSync(fp)) {
+      try {
+        const data = JSON.parse(fs.readFileSync(fp, 'utf-8'));
+        delete data[reqId];
+        fs.writeFileSync(fp, JSON.stringify(data, null, 2));
+      } catch (e) {}
+    }
+
+    return res.json({ message: 'Connection request withdrawn successfully' });
   } catch (err) {
     return res.status(400).json({ detail: err.message });
   }

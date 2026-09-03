@@ -1,0 +1,14 @@
+{
+  "df3cab28-bcb4-49d8-a88a-defa83802ba3_fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8": {
+    "roomId": "df3cab28-bcb4-49d8-a88a-defa83802ba3_fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8",
+    "participants": [
+      "fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8",
+      "df3cab28-bcb4-49d8-a88a-defa83802ba3"
+    ],
+    "createdAt": 1788427545.168,
+    "updatedAt": 1788427560.917,
+    "lastMessage": "Hello from automated test!",
+    "lastMessageTime": 1788427560.917,
+    "id": "df3cab28-bcb4-49d8-a88a-defa83802ba3_fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8"
+  }
+}

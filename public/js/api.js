@@ -1,4 +1,21 @@
+const getApiBaseUrl = () => {
+    if (typeof CONFIG !== "undefined" && CONFIG.API_BASE_URL) {
+        return CONFIG.API_BASE_URL;
+    }
+    const origin = window.location.origin;
+    if (origin.includes("localhost") || origin.includes("127.0.0.1")) {
+        return "http://localhost:8000/api/v1";
+    }
+    if (origin.includes("web.app") || origin.includes("firebaseapp.com")) {
+        return "https://digiindia-student-innovation-platform-2.onrender.com/api/v1";
+    }
+    return `${origin}/api/v1`;
+};
+
 const API = {
+    getBaseUrl() {
+        return getApiBaseUrl();
+    },
     getToken() {
         return localStorage.getItem("digiindia_token") || "";
     },
@@ -17,7 +34,7 @@ const API = {
         localStorage.removeItem("digiindia_user");
     },
     async request(endpoint, options = {}) {
-        const url = `${CONFIG.API_BASE_URL}${endpoint}`;
+        const url = `${getApiBaseUrl()}${endpoint}`;
         const headers = options.headers || {};
 
         const token = this.getToken();
@@ -210,7 +227,12 @@ const NetworkActions = {
     }
 };
 
+window.API = API;
+window.NetworkActions = NetworkActions;
+
 // Auto warm-up Render backend on page load if sleeping due to inactivity
 document.addEventListener("DOMContentLoaded", () => {
-    fetch(`${CONFIG.API_BASE_URL}/health`).catch(() => {});
+    try {
+        fetch(`${getApiBaseUrl()}/health`).catch(() => {});
+    } catch (e) {}
 });

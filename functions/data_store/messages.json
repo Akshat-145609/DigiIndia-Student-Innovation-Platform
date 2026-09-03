@@ -1,0 +1,11 @@
+{
+  "332766f1-2332-4432-aac2-e436417145eb": {
+    "messageId": "332766f1-2332-4432-aac2-e436417145eb",
+    "roomId": "df3cab28-bcb4-49d8-a88a-defa83802ba3_fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8",
+    "senderUID": "fcdc7e2b-eadf-4ed5-a851-cdbcec5f11c8",
+    "message": "Hello from automated test!",
+    "messageType": "text",
+    "attachments": [],
+    "createdAt": 1788427560.917
+  }
+}

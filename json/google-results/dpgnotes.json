@@ -1,0 +1,163 @@
+{
+  "search_parameters": {
+    "engine": "google",
+    "q": "DPGNotes",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "DPGNotes",
+    "total_results": 94,
+    "time_taken_displayed": 0.2,
+    "organic_results_state": "Some results for exact spelling but showing fixed spelling",
+    "spelling_fix": "DPG Notes",
+    "showing_results_for": "DPG Notes"
+  },
+  "ai_overview": {
+    "page_token": "yLksKHiczVXrcqpIEH6AfY7Dn5PIRbwkVdSpYUSCRmWiiSZ_LBhwQFGUUdH82wfYt9in2qc5A97AoznJ_tjaqYK5dU_3dPc3359_B_5s8s8ff3nL5Zze83wcxwUShiRwCzgs-DPeotsZ5kdhQCPs_aDhKsKu7yjYi8Kpy3mB4vkcCRR_xq1WgavE3yEwkAGNerdfmlh9jduulSKHqSJwrq-gaGtbYbNRlx-Bf0vMFe6EAmpxqRVlaFvUHTM3NmPKD3n2m3wr1tikQAueX3jcjMMNjCduRy5IgnhX6PDWlAmA_7BpwACAgEnSsYYuCsFE7hNnaclRqpFZQurxhEOLkwlhQU1nzaun6akOAUTbadfkt2GrzQbt3X7tmrfMEZJ3P2Y_IzWdHKUC_xOXOSofBs_7_prRvPSvqzDjVCuzeTWyr7kZCys0Y4DQ0Yaa3TZy86fkp--8LYNN3I7964FOnUDgoUW6iABgfChI1J7XPIRAj1kuCO8QVrQCb0esE3kfezgdRDSpZdi7E0J9syZx8Oh3qsMKJc5Cp6L6NorqI9lGPLaZXBBajusMvaHwI52LklgS7oqV6k0KIkyPKKJZFL33DOTVelHxHRQeC6p4gBA83kPN-w_ZXL0Ycm8vql7Ym55W0THJZJH8j-Gq7wKZiV8m4U0ziRk8VY9aSarAywQbnrQuQijnXAohdX-Yf8parvChfqrHfGF2frmhdqbLVtT46ELuSYLnhiDoEnaxw9Vy0U1eF8iwQ5LlZyIbYbpcI-c40vIeqqkeMA4gOO6ivY0MhJL7ewm6SZcJNhBThEk-Di4d8q02zo0-gYuNPTrg5TKUf9c-htneD3DAylnpZyGjAdLrdqTSImr3V5XWoF-d1wbI3byRPrgMkXBqf4Fp8P8LRHseClKLWubtOwOR9gkQMR4iH_HQbrznocaeh66DCEJwkYfMnUCGh85BpJEciD7koS-DCH0Eol1_EUQJD10C0eQaiHbaGRB18zyUA9GJh44g-joPWf-Sh1JMubsuT0qrMblKTppZV1XTKFXbrriMF5JJbiVI2pV6swx-S06j6fJ-ajnBzdB37lWpsdw6N0O2EN67DrdQaqb-vR0uXcpNgyhUBKuCl8ZAnNvzxdN8SxcYke04kEY9U39ezhsPyNZGzTWd1e_uSs7rtvi0fn_BD64-0sN5NaKyue3LjUldc-W48Uy0lk7emnZ7NWv0-5VhJ3huvluoJhfjQbSqjKSaLfhr8W08E6b27Vguui-xsakv2mXw4i0Hj0JYLlZA6hlVHsy4XAy8QeUp5KYRVljmZALaCPSJigF8BYgVDoIh-1j2YRkgTeUotoYuXStYlmRcdRzJLllSCZe4KVlu54oscnQWKeJPeY1Hmg",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=yLksKHiczVXrcqpIEH6AfY7Dn5PIRbwkVdSpYUSCRmWiiSZ_LBhwQFGUUdH82wfYt9in2qc5A97AoznJ_tjaqYK5dU_3dPc3359_B_5s8s8ff3nL5Zze83wcxwUShiRwCzgs-DPeotsZ5kdhQCPs_aDhKsKu7yjYi8Kpy3mB4vkcCRR_xq1WgavE3yEwkAGNerdfmlh9jduulSKHqSJwrq-gaGtbYbNRlx-Bf0vMFe6EAmpxqRVlaFvUHTM3NmPKD3n2m3wr1tikQAueX3jcjMMNjCduRy5IgnhX6PDWlAmA_7BpwACAgEnSsYYuCsFE7hNnaclRqpFZQurxhEOLkwlhQU1nzaun6akOAUTbadfkt2GrzQbt3X7tmrfMEZJ3P2Y_IzWdHKUC_xOXOSofBs_7_prRvPSvqzDjVCuzeTWyr7kZCys0Y4DQ0Yaa3TZy86fkp--8LYNN3I7964FOnUDgoUW6iABgfChI1J7XPIRAj1kuCO8QVrQCb0esE3kfezgdRDSpZdi7E0J9syZx8Oh3qsMKJc5Cp6L6NorqI9lGPLaZXBBajusMvaHwI52LklgS7oqV6k0KIkyPKKJZFL33DOTVelHxHRQeC6p4gBA83kPN-w_ZXL0Ycm8vql7Ym55W0THJZJH8j-Gq7wKZiV8m4U0ziRk8VY9aSarAywQbnrQuQijnXAohdX-Yf8parvChfqrHfGF2frmhdqbLVtT46ELuSYLnhiDoEnaxw9Vy0U1eF8iwQ5LlZyIbYbpcI-c40vIeqqkeMA4gOO6ivY0MhJL7ewm6SZcJNhBThEk-Di4d8q02zo0-gYuNPTrg5TKUf9c-htneD3DAylnpZyGjAdLrdqTSImr3V5XWoF-d1wbI3byRPrgMkXBqf4Fp8P8LRHseClKLWubtOwOR9gkQMR4iH_HQbrznocaeh66DCEJwkYfMnUCGh85BpJEciD7koS-DCH0Eol1_EUQJD10C0eQaiHbaGRB18zyUA9GJh44g-joPWf-Sh1JMubsuT0qrMblKTppZV1XTKFXbrriMF5JJbiVI2pV6swx-S06j6fJ-ajnBzdB37lWpsdw6N0O2EN67DrdQaqb-vR0uXcpNgyhUBKuCl8ZAnNvzxdN8SxcYke04kEY9U39ezhsPyNZGzTWd1e_uSs7rtvi0fn_BD64-0sN5NaKyue3LjUldc-W48Uy0lk7emnZ7NWv0-5VhJ3huvluoJhfjQbSqjKSaLfhr8W08E6b27Vguui-xsakv2mXw4i0Hj0JYLlZA6hlVHsy4XAy8QeUp5KYRVljmZALaCPSJigF8BYgVDoIh-1j2YRkgTeUotoYuXStYlmRcdRzJLllSCZe4KVlu54oscnQWKeJPeY1Hmg"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "E- Notes For Students",
+      "url": "https://www.dpgpolytechnic.com/e-notes-for-students.html",
+      "displayUrl": "https://www.dpgpolytechnic.com › ...",
+      "snippet": "E-Notes For Students · Computer Engineering · Elect. & Comm. Engg. · Electrical Engineering · Mechanical Engineering · Civil Engineering · Automobile ...",
+      "deployingBody": "Dpgpolytechnic.com",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://www.dpgpolytechnic.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 2,
+      "title": "DGP Notes | PDF",
+      "url": "https://www.scribd.com/doc/39028159/DGP-Notes",
+      "displayUrl": "https://www.scribd.com › ...",
+      "snippet": "DGP Notes - Free download as Word Doc (.doc), PDF File (.pdf) or read online for free.",
+      "deployingBody": "Scribd Documents",
+      "deployingBodyIcon": "bi-file-earmark-pdf",
+      "badgeColor": "info",
+      "favicon": "https://www.scribd.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 3,
+      "title": "DPGNotes | Notes, Exams, Tutorials & Placement Resources ...",
+      "url": "https://dpgnotes.web.app/",
+      "displayUrl": "https://dpgnotes.web.app",
+      "snippet": "DPGNotes delivers peer-reviewed notes, sessional examination papers, and university question paper archives for Computer Science, Physical Education, Geography, ...",
+      "deployingBody": "Firebase Hosting",
+      "deployingBodyIcon": "bi-fire",
+      "badgeColor": "warning",
+      "favicon": "https://dpgnotes.web.app/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 4,
+      "title": "Buy Dgpnotes Font, Fonts, Handwritten Font, Notes, Note- ...",
+      "url": "https://www.etsy.com/in-en/listing/1392332323/dgpnotes-font-fonts-handwritten-font",
+      "displayUrl": "https://www.etsy.com › ...",
+      "snippet": "Buy Dgpnotes Font Fonts Handwritten Font Notes Note-taking online on Etsy India. Shop for handmade, vintage and unique Digital Drawings & Illustrations ...",
+      "deployingBody": "Etsy.com",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://www.etsy.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 5,
+      "title": "What Is DPG in Perfumery? Uses, Benefits & Safety Explained",
+      "url": "CAESYwHrOzAVBsqqnHq4HzHiUFRZ2GOBt2udQM66NL_Y-J6RqFdTF0NI-4o9FqmgKwyaYwtrg2ViHtwLLq_fvZ7FM1wPJ91BbjwAn5bJFCDztANfKdKzV2qLbK4sBqOydY7jLHEzaw",
+      "displayUrl": "1.7 हज़ार+ व्यू · 1 वर्ष पहले",
+      "snippet": "... notes by slowing top-note evaporation It's especially favored in ... Why DPG Is Used in Perfumery DPG is a versatile and inexpensive ...",
+      "deployingBody": "",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "/Icon.svg",
+      "sitelinks": []
+    },
+    {
+      "position": 6,
+      "title": "dipropylene glycol, 25265-71-8",
+      "url": "https://www.thegoodscentscompany.com/data/rw1018712.html",
+      "displayUrl": "https://www.thegoodscentscompany.com › ...",
+      "snippet": "Odor: practically odourless, slightly ethereal. Flavor: slightly sweet. Pell Wall Perfumes · DPG. Odor: Minimal odour – used as a solvent.",
+      "deployingBody": "Thegoodscentscompany.com",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://www.thegoodscentscompany.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 7,
+      "title": "ERP Login",
+      "url": "https://www.dpgstm.com/erp-login.html",
+      "displayUrl": "https://www.dpgstm.com › ...",
+      "snippet": "DPG School of Technology & Management 70A, Delhi-Jaipur Expy, Block A, Sector 34, Gurugram, Haryana 122001. Mob. : +91-7428738367. E-mail : dpgstm21@gmail.com ...",
+      "deployingBody": "Dpgstm.com",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://www.dpgstm.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 8,
+      "title": "What is DPG and Why is it Used in Perfumes?",
+      "url": "https://sarochem.com/2026/07/08/what-is-dpg-and-why-is-it-used-in-perfumes/",
+      "displayUrl": "https://sarochem.com › ...",
+      "snippet": "Learn what DPG (Dipropylene Glycol) is and why it is widely used in perfumes, fragrance oils, attars, reed diffusers, incense, and home ...",
+      "deployingBody": "Sarochem.com",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://sarochem.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 9,
+      "title": "DPG Degree College",
+      "url": "https://www.dpgdegreecollege.com/",
+      "displayUrl": "https://www.dpgdegreecollege.com",
+      "snippet": "",
+      "deployingBody": "Dpgdegreecollege.com",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://www.dpgdegreecollege.com/favicon.ico",
+      "sitelinks": []
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=DPG+Notes&sca_esv=c424c8dd2b5a25c5&hl=hi&gl=in&sxsrf=APpeQntUo3dhs1I5hSP9tafi84BF70KZwA:1788591170386&ei=QrybaoKJF4LAi-gPucOo0QM&start=10&sa=N&sstk=AS6-VmKZHGYjhqZf_P0Wq4lpJoRQVYU_tKdwH8Iqy5qXWY4YApWQlRzdzFe2eb-B1jNxPoFD-u2EOcllsnTSJcVVqwg8s4yy1NaigQ&ved=2ahUKEwiCsu-q7daWAxUC4AIHHbkhKjoQ8NMDegQIKxAU",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=DPG+Notes&sca_esv=c424c8dd2b5a25c5&hl=hi&gl=in&sxsrf=APpeQntUo3dhs1I5hSP9tafi84BF70KZwA:1788591170386&ei=QrybaoKJF4LAi-gPucOo0QM&start=10&sa=N&sstk=AS6-VmKZHGYjhqZf_P0Wq4lpJoRQVYU_tKdwH8Iqy5qXWY4YApWQlRzdzFe2eb-B1jNxPoFD-u2EOcllsnTSJcVVqwg8s4yy1NaigQ&ved=2ahUKEwiCsu-q7daWAxUC4AIHHbkhKjoQ8tMDegQIKxAE",
+      "3": "https://www.google.co.in/search?q=DPG+Notes&sca_esv=c424c8dd2b5a25c5&hl=hi&gl=in&sxsrf=APpeQntUo3dhs1I5hSP9tafi84BF70KZwA:1788591170386&ei=QrybaoKJF4LAi-gPucOo0QM&start=20&sa=N&sstk=AS6-VmKZHGYjhqZf_P0Wq4lpJoRQVYU_tKdwH8Iqy5qXWY4YApWQlRzdzFe2eb-B1jNxPoFD-u2EOcllsnTSJcVVqwg8s4yy1NaigQ&ved=2ahUKEwiCsu-q7daWAxUC4AIHHbkhKjoQ8tMDegQIKxAG",
+      "4": "https://www.google.co.in/search?q=DPG+Notes&sca_esv=c424c8dd2b5a25c5&hl=hi&gl=in&sxsrf=APpeQntUo3dhs1I5hSP9tafi84BF70KZwA:1788591170386&ei=QrybaoKJF4LAi-gPucOo0QM&start=30&sa=N&sstk=AS6-VmKZHGYjhqZf_P0Wq4lpJoRQVYU_tKdwH8Iqy5qXWY4YApWQlRzdzFe2eb-B1jNxPoFD-u2EOcllsnTSJcVVqwg8s4yy1NaigQ&ved=2ahUKEwiCsu-q7daWAxUC4AIHHbkhKjoQ8tMDegQIKxAI",
+      "5": "https://www.google.co.in/search?q=DPG+Notes&sca_esv=c424c8dd2b5a25c5&hl=hi&gl=in&sxsrf=APpeQntUo3dhs1I5hSP9tafi84BF70KZwA:1788591170386&ei=QrybaoKJF4LAi-gPucOo0QM&start=40&sa=N&sstk=AS6-VmKZHGYjhqZf_P0Wq4lpJoRQVYU_tKdwH8Iqy5qXWY4YApWQlRzdzFe2eb-B1jNxPoFD-u2EOcllsnTSJcVVqwg8s4yy1NaigQ&ved=2ahUKEwiCsu-q7daWAxUC4AIHHbkhKjoQ8tMDegQIKxAK",
+      "6": "https://www.google.co.in/search?q=DPG+Notes&sca_esv=c424c8dd2b5a25c5&hl=hi&gl=in&sxsrf=APpeQntUo3dhs1I5hSP9tafi84BF70KZwA:1788591170386&ei=QrybaoKJF4LAi-gPucOo0QM&start=50&sa=N&sstk=AS6-VmKZHGYjhqZf_P0Wq4lpJoRQVYU_tKdwH8Iqy5qXWY4YApWQlRzdzFe2eb-B1jNxPoFD-u2EOcllsnTSJcVVqwg8s4yy1NaigQ&ved=2ahUKEwiCsu-q7daWAxUC4AIHHbkhKjoQ8tMDegQIKxAM",
+      "7": "https://www.google.co.in/search?q=DPG+Notes&sca_esv=c424c8dd2b5a25c5&hl=hi&gl=in&sxsrf=APpeQntUo3dhs1I5hSP9tafi84BF70KZwA:1788591170386&ei=QrybaoKJF4LAi-gPucOo0QM&start=60&sa=N&sstk=AS6-VmKZHGYjhqZf_P0Wq4lpJoRQVYU_tKdwH8Iqy5qXWY4YApWQlRzdzFe2eb-B1jNxPoFD-u2EOcllsnTSJcVVqwg8s4yy1NaigQ&ved=2ahUKEwiCsu-q7daWAxUC4AIHHbkhKjoQ8tMDegQIKxAO",
+      "8": "https://www.google.co.in/search?q=DPG+Notes&sca_esv=c424c8dd2b5a25c5&hl=hi&gl=in&sxsrf=APpeQntUo3dhs1I5hSP9tafi84BF70KZwA:1788591170386&ei=QrybaoKJF4LAi-gPucOo0QM&start=70&sa=N&sstk=AS6-VmKZHGYjhqZf_P0Wq4lpJoRQVYU_tKdwH8Iqy5qXWY4YApWQlRzdzFe2eb-B1jNxPoFD-u2EOcllsnTSJcVVqwg8s4yy1NaigQ&ved=2ahUKEwiCsu-q7daWAxUC4AIHHbkhKjoQ8tMDegQIKxAQ",
+      "9": "https://www.google.co.in/search?q=DPG+Notes&sca_esv=c424c8dd2b5a25c5&hl=hi&gl=in&sxsrf=APpeQntUo3dhs1I5hSP9tafi84BF70KZwA:1788591170386&ei=QrybaoKJF4LAi-gPucOo0QM&start=80&sa=N&sstk=AS6-VmKZHGYjhqZf_P0Wq4lpJoRQVYU_tKdwH8Iqy5qXWY4YApWQlRzdzFe2eb-B1jNxPoFD-u2EOcllsnTSJcVVqwg8s4yy1NaigQ&ved=2ahUKEwiCsu-q7daWAxUC4AIHHbkhKjoQ8tMDegQIKxAS"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=DPG+Notes&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=DPG+Notes&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=DPG+Notes&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=DPG+Notes&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=DPG+Notes&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=DPG+Notes&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=DPG+Notes&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=DPG+Notes&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=DPG+Notes&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=DPG+Notes&start=80"
+    }
+  }
+}

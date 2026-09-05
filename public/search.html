@@ -78,7 +78,7 @@
             text-decoration: none;
             color: var(--primary-blue);
             font-weight: 700;
-            font-size: 18px;
+            font-size: clamp(15px, 2.5vw, 19px);
             white-space: nowrap;
             flex-shrink: 0;
         }
@@ -92,8 +92,8 @@
         }
 
         .header-btn {
-            padding: 4px 12px;
-            font-size: 13px;
+            padding: clamp(3px, 0.8vw, 5px) clamp(8px, 1.8vw, 14px);
+            font-size: clamp(11.5px, 1.8vw, 13.5px);
             font-weight: 500;
             border-radius: 9999px;
             white-space: nowrap;
@@ -317,7 +317,7 @@
 
         .serp-headline a {
             color: #1a0dab;
-            font-size: 20px;
+            font-size: clamp(16.5px, 2.4vw, 20px);
             font-weight: 500;
             line-height: 1.3;
             text-decoration: none;
@@ -330,8 +330,8 @@
 
         .serp-snippet {
             color: #4d5156;
-            font-size: 14px;
-            line-height: 1.58;
+            font-size: clamp(12.5px, 1.8vw, 14px);
+            line-height: 1.56;
             margin-top: 4px;
             margin-bottom: 8px;
         }
@@ -415,8 +415,8 @@
         /* Grid for Projects and Students */
         .serp-entity-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 16px;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: clamp(10px, 2vw, 16px);
             margin-bottom: 24px;
         }
 
@@ -424,16 +424,35 @@
             background: #ffffff;
             border: 1px solid #dfe1e5;
             border-radius: 14px;
-            padding: 16px;
+            padding: clamp(12px, 2.5vw, 16px);
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             text-align: left;
+            transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
         }
 
         .serp-entity-card:hover {
             border-color: #bdc1c6;
-            box-shadow: 0 1px 6px rgba(32,33,36,0.1);
+            box-shadow: 0 4px 12px rgba(32,33,36,0.08);
+            transform: translateY(-1px);
+        }
+
+        .serp-entity-title {
+            font-size: clamp(14px, 2vw, 16px);
+            font-weight: 600;
+            line-height: 1.35;
+        }
+
+        .serp-entity-desc {
+            font-size: clamp(12px, 1.6vw, 13.5px);
+            line-height: 1.5;
+            color: #4d5156;
+        }
+
+        .serp-entity-badge {
+            font-size: clamp(10px, 1.5vw, 11.5px);
+            padding: 2px 8px;
         }
 
         /* Mobile Adjustments */
@@ -901,27 +920,27 @@
                 <div class="serp-entity-card">
                     <div>
                         <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h6 class="fw-bold mb-0 text-truncate" style="max-width: 75%;">
+                            <h6 class="serp-entity-title mb-0 text-truncate" style="max-width: 75%;">
                                 <a href="/project.html?id=${p.projectId || p.id}" class="text-decoration-none text-primary">
                                     ${stripHtmlAndSanitize(p.title)}
                                 </a>
                             </h6>
-                            <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill px-2 py-0 small">
+                            <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill serp-entity-badge">
                                 Trust: ${p.trustScore || 50}
                             </span>
                         </div>
-                        <p class="small text-muted mb-3" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 38px;">
+                        <p class="serp-entity-desc text-muted mb-3" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 36px;">
                             ${stripHtmlAndSanitize(p.description) || 'Verified student innovation project submission.'}
                         </p>
                         <div class="d-flex flex-wrap gap-1 mb-3 overflow-hidden" style="max-height: 26px;">
-                            ${(p.technologyStack || []).slice(0, 3).map(t => `<span class="badge bg-light text-secondary border small">${stripHtmlAndSanitize(t)}</span>`).join("")}
+                            ${(p.technologyStack || []).slice(0, 3).map(t => `<span class="badge bg-light text-secondary border serp-entity-badge">${stripHtmlAndSanitize(t)}</span>`).join("")}
                         </div>
                     </div>
                     <div class="d-flex justify-content-between align-items-center pt-2 border-top">
-                        <a href="${p.repositoryURL || '#'}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-3">
+                        <a href="${p.repositoryURL || '#'}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-3 header-btn">
                             <i class="bi bi-github me-1"></i>Code
                         </a>
-                        <a href="/project.html?id=${p.projectId || p.id}" class="btn btn-primary btn-sm rounded-pill px-3 fw-semibold">
+                        <a href="/project.html?id=${p.projectId || p.id}" class="btn btn-primary btn-sm rounded-pill px-3 fw-semibold header-btn">
                             Overview <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -939,24 +958,24 @@
                                 <i class="bi bi-person-fill"></i>
                             </div>
                             <div class="overflow-hidden">
-                                <h6 class="fw-bold mb-0 text-truncate">
+                                <h6 class="serp-entity-title mb-0 text-truncate">
                                     <a href="/profile.html?spn=${s.spn}" class="text-decoration-none text-dark">
                                         ${stripHtmlAndSanitize(s.fullName)}
                                     </a>
                                 </h6>
-                                <span class="badge bg-light text-dark border small my-1">SPN: ${s.spn}</span>
-                                <small class="text-muted d-block text-truncate">${stripHtmlAndSanitize(s.college || 'Academic Institution')}</small>
+                                <span class="badge bg-light text-dark border serp-entity-badge my-1">SPN: ${s.spn}</span>
+                                <small class="text-muted d-block text-truncate" style="font-size: 12px;">${stripHtmlAndSanitize(s.college || 'Academic Institution')}</small>
                             </div>
                         </div>
                         <div class="d-flex flex-wrap gap-1 mb-3">
-                            ${(s.skills || []).slice(0, 3).map(sk => `<span class="badge bg-secondary-subtle text-secondary small">${stripHtmlAndSanitize(sk)}</span>`).join("")}
+                            ${(s.skills || []).slice(0, 3).map(sk => `<span class="badge bg-secondary-subtle text-secondary serp-entity-badge">${stripHtmlAndSanitize(sk)}</span>`).join("")}
                         </div>
                     </div>
                     <div class="d-flex align-items-center gap-2 pt-2 border-top">
-                        <a href="/profile.html?spn=${s.spn}" class="btn btn-outline-primary btn-sm rounded-pill flex-grow-1 text-center">
+                        <a href="/profile.html?spn=${s.spn}" class="btn btn-outline-primary btn-sm rounded-pill flex-grow-1 text-center header-btn">
                             Profile
                         </a>
-                        <button id="btnConnect_${s.studentUID}" class="btn btn-primary btn-sm rounded-pill flex-grow-1 text-center" onclick="handleSearchConnect('${s.studentUID}', this)">
+                        <button id="btnConnect_${s.studentUID}" class="btn btn-primary btn-sm rounded-pill flex-grow-1 text-center header-btn" onclick="handleSearchConnect('${s.studentUID}', this)">
                             <i class="bi bi-person-plus me-1"></i>Connect
                         </button>
                     </div>
@@ -970,22 +989,22 @@
                 <div class="serp-entity-card">
                     <div>
                         <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h6 class="fw-bold text-dark mb-0 text-truncate" style="max-width: 75%;">
+                            <h6 class="serp-entity-title text-dark mb-0 text-truncate" style="max-width: 75%;">
                                 <a href="${repo.url}" target="_blank" class="text-decoration-none text-primary">
                                     <i class="bi bi-github me-1 text-dark"></i>${stripHtmlAndSanitize(repo.title)}
                                 </a>
                             </h6>
-                            <span class="badge bg-warning-subtle text-dark border border-warning-subtle rounded-pill px-2 py-1 small">
+                            <span class="badge bg-warning-subtle text-dark border border-warning-subtle rounded-pill serp-entity-badge">
                                 <i class="bi bi-star-fill text-warning me-1"></i>${repo.stars || 0}
                             </span>
                         </div>
-                        <p class="small text-muted mb-3" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 38px;">
+                        <p class="serp-entity-desc text-muted mb-3" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 36px;">
                             ${stripHtmlAndSanitize(repo.description)}
                         </p>
                     </div>
                     <div class="d-flex justify-content-between align-items-center pt-2 border-top">
-                        <span class="badge bg-light text-secondary border small">${repo.language || 'Code'}</span>
-                        <a href="${repo.url}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-3">
+                        <span class="badge bg-light text-secondary border serp-entity-badge">${repo.language || 'Code'}</span>
+                        <a href="${repo.url}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-3 header-btn">
                             <i class="bi bi-box-arrow-up-right me-1"></i>View Repo
                         </a>
                     </div>

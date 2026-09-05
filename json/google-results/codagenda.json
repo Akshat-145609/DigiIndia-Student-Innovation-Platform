@@ -1,0 +1,249 @@
+{
+  "search_parameters": {
+    "engine": "google",
+    "q": "Codagenda",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Codagenda",
+    "total_results": 119,
+    "time_taken_displayed": 0.31,
+    "organic_results_state": "Some results for exact spelling but showing fixed spelling",
+    "spelling_fix": "Cod Agenda",
+    "showing_results_for": "Cod Agenda"
+  },
+  "related_questions": [
+    {
+      "question": "What is COD date?",
+      "type": "ai_overview",
+      "page_token": "41EEz3icHdBdboIwAADg7DI-yp-4zcQsYbYiUZTSUtOXpbTiD7VlwlbkbXfZqXaaLTvC9319q7Oufx7YqeuaduY41trx0ZijOoyFGZ-1w9u7Fo7gSpVc1LPp49R7qcQctDZ6NTbKSNMUC-RiaMKCdnFG-p4s0kqqQpO4CUvXTHCN9hKzooSmRyQ8ibun8wtrJUg-eQyhVNEg6-cu8_sN8z2DIPooKRqw3-V0XyiC62FzNT6uZYP3KueecQl4CvMLZGXcbDkI203M3vOhHphqduTq3Sj1XIwTyC_yvCbKplQMOU4q6Xv6cAV9Co459FeBpMlJDGyVaZRxLbcpjHoGo2BNoF6ekwjF6X1LGeZLzyKSLg-gsAwQP63DHY3l5M9xSQPgsyXSo0p8zoPR_9j8rbp2s-Zmjr_IIHqu",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=41EEz3icHdBdboIwAADg7DI-yp-4zcQsYbYiUZTSUtOXpbTiD7VlwlbkbXfZqXaaLTvC9319q7Oufx7YqeuaduY41trx0ZijOoyFGZ-1w9u7Fo7gSpVc1LPp49R7qcQctDZ6NTbKSNMUC-RiaMKCdnFG-p4s0kqqQpO4CUvXTHCN9hKzooSmRyQ8ibun8wtrJUg-eQyhVNEg6-cu8_sN8z2DIPooKRqw3-V0XyiC62FzNT6uZYP3KueecQl4CvMLZGXcbDkI203M3vOhHphqduTq3Sj1XIwTyC_yvCbKplQMOU4q6Xv6cAV9Co459FeBpMlJDGyVaZRxLbcpjHoGo2BNoF6ekwjF6X1LGeZLzyKSLg-gsAwQP63DHY3l5M9xSQPgsyXSo0p8zoPR_9j8rbp2s-Zmjr_IIHqu",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmNITm5Rbk5tVlRBdFYyaG5ORjl2TTNCWVNUZG9iM04yU2w5bFlVbHJUR2RpYVhWTFpIZHpaR0pVV0hOZlJWUTVOMko0YWt4V1NGbElOMTlOUnpsdFVHSnZZMlZsWVhaRk5FUllObTVCWm1odVkxVlpWR1ZWYm1ac2R4SVhZamQxWW1Gek5raENkRkJxZDA0MFVIRmtVSGN0UVdjYUlrRkVjM0k1WmxKelJIRldSbXB4T1dOelMyazRXbVpUZVRGRk9WOUlTRjlUYVhjIiwiZmN2IjoiMyIsImVpIjoiYjd1YmFzNkhCdFBqd040UHFkUHctQWciLCJxYyI6IkNncGpiMlFnWVdkbGJtUmhFQUI5SnVOTlB3IiwicXVlc3Rpb24iOiJXaGF0IGlzIENPRCBkYXRlPyIsImxrIjoiR2hCM2FHRjBJR2x6SUdOdlpDQmtZWFJsIiwiYnMiOiJjMjJPclFfQ01CVEVnMzFxRUpnb2lDZjRrQ1MxaUFyd2staG1mY3NhV0x1MEx5bjg5OUFHQ0dMMjduNTNCd2VZWDN2TmFDT2Vtd3NhemFUa1FsVHBJN2JlRkJGT3NDN0IxZy1qZHBZaUpoOXU2RjNtbE53SWthYnRkd00wc0N1d0RvVGNFeHJiZFJUSWNSbGxPOURkT29wSzdzVTJUUWZ6a1Y4UWpyQXFoVVlfdjljZFBWakpXaXpUbjVHcGJGU3pGdyIsImlkIjoiZmNfYjd1YmFzNkhCdFBqd040UHFkUHctQWdfNSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmNITm5Rbk5tVlRBdFYyaG5ORjl2TTNCWVNUZG9iM04yU2w5bFlVbHJUR2RpYVhWTFpIZHpaR0pVV0hOZlJWUTVOMko0YWt4V1NGbElOMTlOUnpsdFVHSnZZMlZsWVhaRk5FUllObTVCWm1odVkxVlpWR1ZWYm1ac2R4SVhZamQxWW1Gek5raENkRkJxZDA0MFVIRmtVSGN0UVdjYUlrRkVjM0k1WmxKelJIRldSbXB4T1dOelMyazRXbVpUZVRGRk9WOUlTRjlUYVhjIiwiZmN2IjoiMyIsImVpIjoiYjd1YmFzNkhCdFBqd040UHFkUHctQWciLCJxYyI6IkNncGpiMlFnWVdkbGJtUmhFQUI5SnVOTlB3IiwicXVlc3Rpb24iOiJXaGF0IGlzIENPRCBkYXRlPyIsImxrIjoiR2hCM2FHRjBJR2x6SUdOdlpDQmtZWFJsIiwiYnMiOiJjMjJPclFfQ01CVEVnMzFxRUpnb2lDZjRrQ1MxaUFyd2staG1mY3NhV0x1MEx5bjg5OUFHQ0dMMjduNTNCd2VZWDN2TmFDT2Vtd3NhemFUa1FsVHBJN2JlRkJGT3NDN0IxZy1qZHBZaUpoOXU2RjNtbE53SWthYnRkd00wc0N1d0RvVGNFeHJiZFJUSWNSbGxPOURkT29wSzdzVTJUUWZ6a1Y4UWpyQXFoVVlfdjljZFBWakpXaXpUbjVHcGJGU3pGdyIsImlkIjoiZmNfYjd1YmFzNkhCdFBqd040UHFkUHctQWdfNSJ9"
+    },
+    {
+      "question": "What companies work on COD?",
+      "type": "ai_overview",
+      "page_token": "qfwnXnicHdBfbpswHABg7TJ9TEwInRYpmkSxSb3gFGL_-PMyGUMwYGLW0ELztrvsVDtNpX5H-P7-M-21__9t0dM03nbr9TzPq8baxtQrZVftdS1vH1e1VtKYUqp-9_j90fl5UXv89uw__Xn2YzGOECTojGgucY5qbF3GmYaQOFyMG9GBxw6kzYH6vNciGsApg2abhEUcBc2sDvQGJHk5pl52BN-r7oYwovkp1BvhJt4pIwhSiyJhvFhgp0yrkwyMl_bF9mz0a8EBHTmz8k6hPozHfNChwNaBYTtDqtNzvyw8Ix4PGJNXwGWvfT5QlDk_ppLYLQB9igy7AzaLHCpemfFNhNTFumqZC22eRZszpkiEo8u7JFZpElcfjl8sto1FcledGYQDhgGdCgK_apJw2WGUdsqtSYHqHg5FRl5E_HBR73v34etz__syTLvx1TafPIiB-w",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=qfwnXnicHdBfbpswHABg7TJ9TEwInRYpmkSxSb3gFGL_-PMyGUMwYGLW0ELztrvsVDtNpX5H-P7-M-21__9t0dM03nbr9TzPq8baxtQrZVftdS1vH1e1VtKYUqp-9_j90fl5UXv89uw__Xn2YzGOECTojGgucY5qbF3GmYaQOFyMG9GBxw6kzYH6vNciGsApg2abhEUcBc2sDvQGJHk5pl52BN-r7oYwovkp1BvhJt4pIwhSiyJhvFhgp0yrkwyMl_bF9mz0a8EBHTmz8k6hPozHfNChwNaBYTtDqtNzvyw8Ix4PGJNXwGWvfT5QlDk_ppLYLQB9igy7AzaLHCpemfFNhNTFumqZC22eRZszpkiEo8u7JFZpElcfjl8sto1FcledGYQDhgGdCgK_apJw2WGUdsqtSYHqHg5FRl5E_HBR73v34etz__syTLvx1TafPIiB-w",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmNITm5Rbk5tVlRBdFYyaG5ORjl2TTNCWVNUZG9iM04yU2w5bFlVbHJUR2RpYVhWTFpIZHpaR0pVV0hOZlJWUTVOMko0YWt4V1NGbElOMTlOUnpsdFVHSnZZMlZsWVhaRk5FUllObTVCWm1odVkxVlpWR1ZWYm1ac2R4SVhZamQxWW1Gek5raENkRkJxZDA0MFVIRmtVSGN0UVdjYUlrRkVjM0k1WmxKelJIRldSbXB4T1dOelMyazRXbVpUZVRGRk9WOUlTRjlUYVhjIiwiZmN2IjoiMyIsImVpIjoiYjd1YmFzNkhCdFBqd040UHFkUHctQWciLCJxYyI6IkNncGpiMlFnWVdkbGJtUmhFQUI5SnVOTlB3IiwicXVlc3Rpb24iOiJXaGF0IGNvbXBhbmllcyB3b3JrIG9uIENPRD8iLCJsayI6IkdocDNhR0YwSUdOdmJYQmhibWxsY3lCM2IzSnJJRzl1SUdOdlpBIiwiYnMiOiJjMjJPclFfQ01CVEVnMzFxRUpnb2lDZjRrQ1MxaUFyd2staG1mY3NhV0x1MEx5bjg5OUFHQ0dMMjduNTNCd2VZWDN2TmFDT2Vtd3NhemFUa1FsVHBJN2JlRkJGT3NDN0IxZy1qZHBZaUpoOXU2RjNtbE53SWthYnRkd00wc0N1d0RvVGNFeHJiZFJUSWNSbGxPOURkT29wSzdzVTJUUWZ6a1Y4UWpyQXFoVVlfdjljZFBWakpXaXpUbjVHcGJGU3pGdyIsImlkIjoiZmNfYjd1YmFzNkhCdFBqd040UHFkUHctQWdfNSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmNITm5Rbk5tVlRBdFYyaG5ORjl2TTNCWVNUZG9iM04yU2w5bFlVbHJUR2RpYVhWTFpIZHpaR0pVV0hOZlJWUTVOMko0YWt4V1NGbElOMTlOUnpsdFVHSnZZMlZsWVhaRk5FUllObTVCWm1odVkxVlpWR1ZWYm1ac2R4SVhZamQxWW1Gek5raENkRkJxZDA0MFVIRmtVSGN0UVdjYUlrRkVjM0k1WmxKelJIRldSbXB4T1dOelMyazRXbVpUZVRGRk9WOUlTRjlUYVhjIiwiZmN2IjoiMyIsImVpIjoiYjd1YmFzNkhCdFBqd040UHFkUHctQWciLCJxYyI6IkNncGpiMlFnWVdkbGJtUmhFQUI5SnVOTlB3IiwicXVlc3Rpb24iOiJXaGF0IGNvbXBhbmllcyB3b3JrIG9uIENPRD8iLCJsayI6IkdocDNhR0YwSUdOdmJYQmhibWxsY3lCM2IzSnJJRzl1SUdOdlpBIiwiYnMiOiJjMjJPclFfQ01CVEVnMzFxRUpnb2lDZjRrQ1MxaUFyd2staG1mY3NhV0x1MEx5bjg5OUFHQ0dMMjduNTNCd2VZWDN2TmFDT2Vtd3NhemFUa1FsVHBJN2JlRkJGT3NDN0IxZy1qZHBZaUpoOXU2RjNtbE53SWthYnRkd00wc0N1d0RvVGNFeHJiZFJUSWNSbGxPOURkT29wSzdzVTJUUWZ6a1Y4UWpyQXFoVVlfdjljZFBWakpXaXpUbjVHcGJGU3pGdyIsImlkIjoiZmNfYjd1YmFzNkhCdFBqd040UHFkUHctQWdfNSJ9"
+    },
+    {
+      "question": "What are the different COD timelines?",
+      "type": "ai_overview",
+      "page_token": "UFNlznicHdBdToMwAADgeJk9DgpuZksWI24FKj-j0Hb0xUDr_igFGRHGm3fxVJ7GxO8I3_ePuujq94Gf-769rQ1jGIb5qWlO6mMumvlFG8XtroUhCqXKQlTr5dMSPB_FZncbnNdmcBLStnSLzVSjODfRZ2Yrm7qrsASwztyVFRAOckIz7pHHCKogJSoWZmMVV04_WNPLK5rkVnWFNVoxrcaoVoWAToIr2RImO8xQGFa4xzXvaQ3udIJ1SZFHPPzG6MuIqz6XB9yVVC6YwlGunI5YYBfVII8UOhAGTHnILe7mIJnOPt4Ni0TTPbv6KbR8WzJ0FhP3E42TQss4gs7IoWMHBGr3ghzsRfeYcZJSvscATmEmA1FhICEPErYiDNKlJCgtWa9nR_G1sWf_Y5v3Y92v2645_QE9sXkl",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=UFNlznicHdBdToMwAADgeJk9DgpuZksWI24FKj-j0Hb0xUDr_igFGRHGm3fxVJ7GxO8I3_ePuujq94Gf-769rQ1jGIb5qWlO6mMumvlFG8XtroUhCqXKQlTr5dMSPB_FZncbnNdmcBLStnSLzVSjODfRZ2Yrm7qrsASwztyVFRAOckIz7pHHCKogJSoWZmMVV04_WNPLK5rkVnWFNVoxrcaoVoWAToIr2RImO8xQGFa4xzXvaQ3udIJ1SZFHPPzG6MuIqz6XB9yVVC6YwlGunI5YYBfVII8UOhAGTHnILe7mIJnOPt4Ni0TTPbv6KbR8WzJ0FhP3E42TQss4gs7IoWMHBGr3ghzsRfeYcZJSvscATmEmA1FhICEPErYiDNKlJCgtWa9nR_G1sWf_Y5v3Y92v2645_QE9sXkl",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmNITm5Rbk5tVlRBdFYyaG5ORjl2TTNCWVNUZG9iM04yU2w5bFlVbHJUR2RpYVhWTFpIZHpaR0pVV0hOZlJWUTVOMko0YWt4V1NGbElOMTlOUnpsdFVHSnZZMlZsWVhaRk5FUllObTVCWm1odVkxVlpWR1ZWYm1ac2R4SVhZamQxWW1Gek5raENkRkJxZDA0MFVIRmtVSGN0UVdjYUlrRkVjM0k1WmxKelJIRldSbXB4T1dOelMyazRXbVpUZVRGRk9WOUlTRjlUYVhjIiwiZmN2IjoiMyIsImVpIjoiYjd1YmFzNkhCdFBqd040UHFkUHctQWciLCJxYyI6IkNncGpiMlFnWVdkbGJtUmhFQUI5SnVOTlB3IiwicXVlc3Rpb24iOiJXaGF0IGFyZSB0aGUgZGlmZmVyZW50IENPRCB0aW1lbGluZXM/IiwibGsiOiJHaVIzYUdGMElHRnlaU0IwYUdVZ1pHbG1abVZ5Wlc1MElHTnZaQ0IwYVcxbGJHbHVaWE0iLCJicyI6ImMyMk9yUV9DTUJURWczMXFFSmdvaUNmNGtDUzFpQXJ3ay1obWZjc2FXTHUwTHluODk5QUdDR0wyN241M0J3ZVlYM3ZOYUNPZW13c2F6YVRrUWxUcEk3YmVGQkZPc0M3QjFnLWpkcFlpSmg5dTZGM21sTndJa2FidGR3TTBzQ3V3RG9UY0V4cmJkUlRJY1JsbE85RGRPb3BLN3NVMlRRZnprVjhRanJBcWhVWV92OWNkUFZqSldpelRuNUdwYkZTekZ3IiwiaWQiOiJmY19iN3ViYXM2SEJ0UGp3TjRQcWRQdy1BZ181In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmNITm5Rbk5tVlRBdFYyaG5ORjl2TTNCWVNUZG9iM04yU2w5bFlVbHJUR2RpYVhWTFpIZHpaR0pVV0hOZlJWUTVOMko0YWt4V1NGbElOMTlOUnpsdFVHSnZZMlZsWVhaRk5FUllObTVCWm1odVkxVlpWR1ZWYm1ac2R4SVhZamQxWW1Gek5raENkRkJxZDA0MFVIRmtVSGN0UVdjYUlrRkVjM0k1WmxKelJIRldSbXB4T1dOelMyazRXbVpUZVRGRk9WOUlTRjlUYVhjIiwiZmN2IjoiMyIsImVpIjoiYjd1YmFzNkhCdFBqd040UHFkUHctQWciLCJxYyI6IkNncGpiMlFnWVdkbGJtUmhFQUI5SnVOTlB3IiwicXVlc3Rpb24iOiJXaGF0IGFyZSB0aGUgZGlmZmVyZW50IENPRCB0aW1lbGluZXM%2FIiwibGsiOiJHaVIzYUdGMElHRnlaU0IwYUdVZ1pHbG1abVZ5Wlc1MElHTnZaQ0IwYVcxbGJHbHVaWE0iLCJicyI6ImMyMk9yUV9DTUJURWczMXFFSmdvaUNmNGtDUzFpQXJ3ay1obWZjc2FXTHUwTHluODk5QUdDR0wyN241M0J3ZVlYM3ZOYUNPZW13c2F6YVRrUWxUcEk3YmVGQkZPc0M3QjFnLWpkcFlpSmg5dTZGM21sTndJa2FidGR3TTBzQ3V3RG9UY0V4cmJkUlRJY1JsbE85RGRPb3BLN3NVMlRRZnprVjhRanJBcWhVWV92OWNkUFZqSldpelRuNUdwYkZTekZ3IiwiaWQiOiJmY19iN3ViYXM2SEJ0UGp3TjRQcWRQdy1BZ181In0%3D"
+    },
+    {
+      "question": "What day is COD next?",
+      "type": "ai_overview",
+      "page_token": "xaYtqnicHdBdjpswFEBhdTPzmNgwk7aRokpMDA1SHBm418QvFbEDJnaAFjokeZu9dFVdTX8WcPRJ5_2Xbzv3-8PNTtMwrpfLeZ4XTd83_rzQ_aLtltV47_RSV96fKu3Wq48r-qXWG_ZzF71-30UChgG3GckRj9KZ0pQ-1oAJEvPgwXg3zvQ5mvm8ZQEn8XPl_PZ0sUqWvBZ0N-8dpYqa-m8hVBxZpDFyqvbFBdvMTS_6kVrR-QQlBQPU5my-lSTtEQdaFE0gWiqljKGgTXiAz2AwphWoOOsUOUh2V97GCOmbZEqJ4NMLXNMVJ1N9-Gpk7m6WJ7ZUmI3aDbksVcDRICRTyKxpeYjtsdwHOUsJJENYXDKhZSbMnUbq1rcCsoe--CvQqN-ThpweKauCf6Z5lq90BKDjmR0nQfgA4qnWb5vw6f_Pzbf6Oq2HH33zB6Gxgrs",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=xaYtqnicHdBdjpswFEBhdTPzmNgwk7aRokpMDA1SHBm418QvFbEDJnaAFjokeZu9dFVdTX8WcPRJ5_2Xbzv3-8PNTtMwrpfLeZ4XTd83_rzQ_aLtltV47_RSV96fKu3Wq48r-qXWG_ZzF71-30UChgG3GckRj9KZ0pQ-1oAJEvPgwXg3zvQ5mvm8ZQEn8XPl_PZ0sUqWvBZ0N-8dpYqa-m8hVBxZpDFyqvbFBdvMTS_6kVrR-QQlBQPU5my-lSTtEQdaFE0gWiqljKGgTXiAz2AwphWoOOsUOUh2V97GCOmbZEqJ4NMLXNMVJ1N9-Gpk7m6WJ7ZUmI3aDbksVcDRICRTyKxpeYjtsdwHOUsJJENYXDKhZSbMnUbq1rcCsoe--CvQqN-ThpweKauCf6Z5lq90BKDjmR0nQfgA4qnWb5vw6f_Pzbf6Oq2HH33zB6Gxgrs",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmNITm5Rbk5tVlRBdFYyaG5ORjl2TTNCWVNUZG9iM04yU2w5bFlVbHJUR2RpYVhWTFpIZHpaR0pVV0hOZlJWUTVOMko0YWt4V1NGbElOMTlOUnpsdFVHSnZZMlZsWVhaRk5FUllObTVCWm1odVkxVlpWR1ZWYm1ac2R4SVhZamQxWW1Gek5raENkRkJxZDA0MFVIRmtVSGN0UVdjYUlrRkVjM0k1WmxKelJIRldSbXB4T1dOelMyazRXbVpUZVRGRk9WOUlTRjlUYVhjIiwiZmN2IjoiMyIsImVpIjoiYjd1YmFzNkhCdFBqd040UHFkUHctQWciLCJxYyI6IkNncGpiMlFnWVdkbGJtUmhFQUI5SnVOTlB3IiwicXVlc3Rpb24iOiJXaGF0IGRheSBpcyBDT0QgbmV4dD8iLCJsayI6IkdoUjNhR0YwSUdSaGVTQnBjeUJqYjJRZ2JtVjRkQSIsImJzIjoiYzIyT3JRX0NNQlRFZzMxcUVKZ29pQ2Y0a0NTMWlBcndrLWhtZmNzYVdMdTBMeW44OTlBR0NHTDI3bjUzQndlWVgzdk5hQ09lbXdzYXphVGtRbFRwSTdiZUZCRk9zQzdCMWctamRwWWlKaDl1NkYzbWxOd0lrYWJ0ZHdNMHNDdXdEb1RjRXhyYmRSVEljUmxsTzlEZE9vcEs3c1UyVFFmemtWOFFqckFxaFVZX3Y5Y2RQVmpKV2l6VG41R3BiRlN6RnciLCJpZCI6ImZjX2I3dWJhczZIQnRQandONFBxZFB3LUFnXzUifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSmNITm5Rbk5tVlRBdFYyaG5ORjl2TTNCWVNUZG9iM04yU2w5bFlVbHJUR2RpYVhWTFpIZHpaR0pVV0hOZlJWUTVOMko0YWt4V1NGbElOMTlOUnpsdFVHSnZZMlZsWVhaRk5FUllObTVCWm1odVkxVlpWR1ZWYm1ac2R4SVhZamQxWW1Gek5raENkRkJxZDA0MFVIRmtVSGN0UVdjYUlrRkVjM0k1WmxKelJIRldSbXB4T1dOelMyazRXbVpUZVRGRk9WOUlTRjlUYVhjIiwiZmN2IjoiMyIsImVpIjoiYjd1YmFzNkhCdFBqd040UHFkUHctQWciLCJxYyI6IkNncGpiMlFnWVdkbGJtUmhFQUI5SnVOTlB3IiwicXVlc3Rpb24iOiJXaGF0IGRheSBpcyBDT0QgbmV4dD8iLCJsayI6IkdoUjNhR0YwSUdSaGVTQnBjeUJqYjJRZ2JtVjRkQSIsImJzIjoiYzIyT3JRX0NNQlRFZzMxcUVKZ29pQ2Y0a0NTMWlBcndrLWhtZmNzYVdMdTBMeW44OTlBR0NHTDI3bjUzQndlWVgzdk5hQ09lbXdzYXphVGtRbFRwSTdiZUZCRk9zQzdCMWctamRwWWlKaDl1NkYzbWxOd0lrYWJ0ZHdNMHNDdXdEb1RjRXhyYmRSVEljUmxsTzlEZE9vcEs3c1UyVFFmemtWOFFqckFxaFVZX3Y5Y2RQVmpKV2l6VG41R3BiRlN6RnciLCJpZCI6ImZjX2I3dWJhczZIQnRQandONFBxZFB3LUFnXzUifQ%3D%3D"
+    }
+  ],
+  "ai_overview": {
+    "page_token": "ge5fhHiczVVbkqJIFF3ArKP56SpBlEIrgujITFHxjc_SHwISTBCUKtBC6683MKuYVc1qJsEX2GpXzcfEZIQm-bh5T957T56ff3nOyv37jz_t9fo1fGbZKIpyxPeJZ-Wwn3NWrB7uVpid-14YYPvHZuNZUvQdAUVVkFIdTARXn8hM6G8CbDmmhO3AX1oM8SRnxdieZDvM7l0qMDiUOMZyJEPcGHr4VIfr3iLqFHtvZi96BIRJvEgaXbMWFMZ2EbIaS__cb4UKHeTCnO3kWtuFv0WRa3WLOZ7Ll3NdVl_SDeA_a5AAoABAgBt3tKlXtyEA5E-cJsvxUVBJTanwdMKxRfGA0IAno-bN02qJDQFE3ltXijOt3aEfnf165RZaCoRk4UcguSZ1HR8FgfOJy5yMjx-jQ3_LaXb3r7MoBaqdWrwZ2WlmRMOKehFQ1ZMPmF5uZcb9-K-2R_sEtlEncm4HOgGhgnqbDNR9PdxpBA7t5jEEtYjmgrAmoUXLsUZAuzzrYBsnH0EY1zIaljm_Ni4J3Up1WuY3uC28V96sAQwxeZ-tOcJig-7zfN20TM3WuB_JOM_nBa5cEEsPCYlweGJRmGbRx1BR7cowKHyAXCsH80cKodM9YBY_omN4NeT2YSu8suacZ9VTkkkS0lO4qvtApuKXSnizF8cMnasHinEV2GlkZ6urFMqASygED4c556xlCh_VzvWYLczu5QWBfGFLZ2B0gpB5ktClIwQGhF7seLVMdOPXBVHukHh6RIqKn0xXyCWP5CxCmNgB5UiC06p68JGiUHx_O2Y3GdCNDZUaojgfR0jHfMPGpdM-uNroowPG16n8u3afZgcc4MiVi9JPU6ZK1FHRwg52h2UjsGevI_V1bCyFUt2OrlPEXxpfUBr8fyJR46hDXuJRTr19FySSP0EiqkPkng7tvw861Djo0G0SIQSu6lBvvyGlQ5ckkkmGRHd16MskUu-RaN9fJVGsQ9dI5N4i0d46RaJBVocyJDrr0IlEX9ch_V_qUMIpa99lRWmzIDfFqW73G2Qx69TxY1v84GfTBhFn9WZ9OrOi34rTfLl-Xuqm96A55jPkG-ud-aDRCf_ZMpk3Cfnmd0CslakzSy_wJU4XOM9_79eqiuCJ-lzgXnSEx72m3OngHqzxFVza1pda861jLDblkTtzrLCv9PqVsWeV8NwqtAv66EXcVFvisCCMm5PtizGadke8VZfF2q60kn2uAJV-SVdbrqpbJlancF7WFmXXq28XkVvWXGWuRVxQfJyYQ2PS6iTIQkn2Fl2RF5U3q80sAyzR1BUJ6KhgQiAGaApUWjkq8umPph89AVWGTIh1zQrfJVzki7hkmrwh6LyABWZJ1rtXqZhnwlUg5f8Bpk1HAg",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=ge5fhHiczVVbkqJIFF3ArKP56SpBlEIrgujITFHxjc_SHwISTBCUKtBC6683MKuYVc1qJsEX2GpXzcfEZIQm-bh5T957T56ff3nOyv37jz_t9fo1fGbZKIpyxPeJZ-Wwn3NWrB7uVpid-14YYPvHZuNZUvQdAUVVkFIdTARXn8hM6G8CbDmmhO3AX1oM8SRnxdieZDvM7l0qMDiUOMZyJEPcGHr4VIfr3iLqFHtvZi96BIRJvEgaXbMWFMZ2EbIaS__cb4UKHeTCnO3kWtuFv0WRa3WLOZ7Ll3NdVl_SDeA_a5AAoABAgBt3tKlXtyEA5E-cJsvxUVBJTanwdMKxRfGA0IAno-bN02qJDQFE3ltXijOt3aEfnf165RZaCoRk4UcguSZ1HR8FgfOJy5yMjx-jQ3_LaXb3r7MoBaqdWrwZ2WlmRMOKehFQ1ZMPmF5uZcb9-K-2R_sEtlEncm4HOgGhgnqbDNR9PdxpBA7t5jEEtYjmgrAmoUXLsUZAuzzrYBsnH0EY1zIaljm_Ni4J3Up1WuY3uC28V96sAQwxeZ-tOcJig-7zfN20TM3WuB_JOM_nBa5cEEsPCYlweGJRmGbRx1BR7cowKHyAXCsH80cKodM9YBY_omN4NeT2YSu8suacZ9VTkkkS0lO4qvtApuKXSnizF8cMnasHinEV2GlkZ6urFMqASygED4c556xlCh_VzvWYLczu5QWBfGFLZ2B0gpB5ktClIwQGhF7seLVMdOPXBVHukHh6RIqKn0xXyCWP5CxCmNgB5UiC06p68JGiUHx_O2Y3GdCNDZUaojgfR0jHfMPGpdM-uNroowPG16n8u3afZgcc4MiVi9JPU6ZK1FHRwg52h2UjsGevI_V1bCyFUt2OrlPEXxpfUBr8fyJR46hDXuJRTr19FySSP0EiqkPkng7tvw861Djo0G0SIQSu6lBvvyGlQ5ckkkmGRHd16MskUu-RaN9fJVGsQ9dI5N4i0d46RaJBVocyJDrr0IlEX9ch_V_qUMIpa99lRWmzIDfFqW73G2Qx69TxY1v84GfTBhFn9WZ9OrOi34rTfLl-Xuqm96A55jPkG-ud-aDRCf_ZMpk3Cfnmd0CslakzSy_wJU4XOM9_79eqiuCJ-lzgXnSEx72m3OngHqzxFVza1pda861jLDblkTtzrLCv9PqVsWeV8NwqtAv66EXcVFvisCCMm5PtizGadke8VZfF2q60kn2uAJV-SVdbrqpbJlancF7WFmXXq28XkVvWXGWuRVxQfJyYQ2PS6iTIQkn2Fl2RF5U3q80sAyzR1BUJ6KhgQiAGaApUWjkq8umPph89AVWGTIh1zQrfJVzki7hkmrwh6LyABWZJ1rtXqZhnwlUg5f8Bpk1HAg"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Schedule",
+      "url": "https://callofdutyleague.com/en-us/schedule",
+      "displayUrl": "https://callofdutyleague.com › ...",
+      "snippet": "Call of Duty League and Call of Duty Challengers Official Match Schedule, Results & Broadcast Information.",
+      "deployingBody": "Callofdutyleague.com",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://callofdutyleague.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 2,
+      "title": "Meeting Dates/Notices | Board of Trustees",
+      "url": "https://cod.edu/about/board-of-trustees/notices.html",
+      "displayUrl": "https://cod.edu › ...",
+      "snippet": "Notice of FY 2027 Regular Board Meetings · September: third Thursday, Sept. 17, 6 p.m. · October: third Thursday, Oct. 15, 6 p.m. · November: third Thursday, Nov.",
+      "deployingBody": "Cod.edu",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://cod.edu/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 3,
+      "title": "COD Agenda Log - OPEN GovGuam",
+      "url": "https://go.opengovguam.com/uploads/govmeeting/agenda_1774917653_COD%20Board%20Meeting%20Agenda_04072026.pdf",
+      "displayUrl": "https://go.opengovguam.com › govmeeting",
+      "snippet": "I. Call to Order. II. Roll Call. III. Approval of Minutes - Regular Monthly Board Meeting - January 6, 2026. IV. Financial Report.",
+      "deployingBody": "Go.opengovguam.com",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://go.opengovguam.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 4,
+      "title": "Call of Duty",
+      "url": "https://en.wikipedia.org/wiki/Call_of_Duty",
+      "displayUrl": "https://en.wikipedia.org › ...",
+      "snippet": "Call of Duty (CoD) is a first-person shooter video game series and media franchise published by Activision, starting in 2003. The games were first developed ...",
+      "deployingBody": "Wikipedia Knowledge",
+      "deployingBodyIcon": "bi-book",
+      "badgeColor": "secondary",
+      "favicon": "https://en.wikipedia.org/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 5,
+      "title": "Call of Duty League (@CODLeague) / X",
+      "url": "https://x.com/CODLeague",
+      "displayUrl": "34.7 लाख+ फ़ॉलोअर",
+      "snippet": "The official home of the Call of Duty League on X.",
+      "deployingBody": "X.com",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://x.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 6,
+      "title": "COD Agenda 2024- 10-15-24.docx",
+      "url": "https://actonma.gov/Archive.aspx?ADID\\u003d20957",
+      "displayUrl": "https://actonma.gov › Archive",
+      "snippet": "a) Identify Slate and Elect officers b) Discuss and agree on role sharing c) Website: i). Town Manager and ADA Coordinator update on Title 2 (Local. Government ...",
+      "deployingBody": "Actonma.gov",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://actonma.gov/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 7,
+      "title": "COD Meeting",
+      "url": "https://www.instagram.com/cod.meeting/",
+      "displayUrl": "9.1 हज़ार+ फ़ॉलोअर",
+      "snippet": "9.1K+ followers · 322 following · 346 posts · @cod.meeting‎: “‎ أول حدث يجمع الشركات مع المحترفين في التجارة الالكترونية.‎”‎",
+      "deployingBody": "Instagram.com",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://www.instagram.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 8,
+      "title": "upcoming events",
+      "url": "https://callofdutyleague.com/en-us/events",
+      "displayUrl": "https://callofdutyleague.com › ...",
+      "snippet": "The official destination for information about upcoming Call of Duty League and Call of Duty Challengers events, ticket and venue information.",
+      "deployingBody": "Callofdutyleague.com",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://callofdutyleague.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 9,
+      "title": "Meeting of the CoD Executive Committee",
+      "url": "https://community-democracies.org/meeting-of-the-cod-executive-committee/",
+      "displayUrl": "https://community-democracies.org › ...",
+      "snippet": "The Executive Committee meeting discussed the CoD current and planned activities, in line with its Strategic Plan, including the 2020 ...",
+      "deployingBody": "Community-democracies.org",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://community-democracies.org/favicon.ico",
+      "sitelinks": []
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Call of Duty League 2026 schedule",
+      "link": "https://www.google.co.in/search?sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&q=Call+of+Duty+League+2026+schedule&sa=X&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q1QJ6BAhOEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Call+of+Duty+League+2026+schedule"
+    },
+    {
+      "block_position": 1,
+      "query": "Cod Major 4 2026",
+      "link": "https://www.google.co.in/search?sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&q=Cod+Major+4+2026&sa=X&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q1QJ6BAhSEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Major+4+2026"
+    },
+    {
+      "block_position": 1,
+      "query": "CoD tournament today",
+      "link": "https://www.google.co.in/search?sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&q=CoD+tournament+today&sa=X&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q1QJ6BAhREAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=CoD+tournament+today"
+    },
+    {
+      "block_position": 1,
+      "query": "COD Champs 2026 tickets",
+      "link": "https://www.google.co.in/search?sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&q=COD+Champs+2026+tickets&sa=X&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q1QJ6BAhQEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=COD+Champs+2026+tickets"
+    },
+    {
+      "block_position": 1,
+      "query": "Major 4 cod",
+      "link": "https://www.google.co.in/search?sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&q=Major+4+cod&sa=X&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q1QJ6BAhPEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Major+4+cod"
+    },
+    {
+      "block_position": 1,
+      "query": "Cod Major 3 2026",
+      "link": "https://www.google.co.in/search?sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&q=Cod+Major+3+2026&sa=X&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q1QJ6BAhMEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Major+3+2026"
+    },
+    {
+      "block_position": 1,
+      "query": "CoD Majors 2026",
+      "link": "https://www.google.co.in/search?sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&q=CoD+Majors+2026&sa=X&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q1QJ6BAhLEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=CoD+Majors+2026"
+    },
+    {
+      "block_position": 1,
+      "query": "COD Challengers Major 1 Bracket",
+      "link": "https://www.google.co.in/search?sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&q=COD+Challengers+Major+1+Bracket&sa=X&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q1QJ6BAhNEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=COD+Challengers+Major+1+Bracket"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=Cod+Agenda&sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&ei=b7ubas6HBtPjwN4PqdPw-Ag&start=10&sa=N&sstk=AS6-VmKW2NBDPET__82ERuedA4M-TmLOPS4oXU2zDY7q5OUINvXuOYvFAUHL859bkIIvf7ynK-X4_LjfdofaG2sCpjJdbYXUoPKxew&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q8NMDegQIPBAW",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=Cod+Agenda&sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&ei=b7ubas6HBtPjwN4PqdPw-Ag&start=10&sa=N&sstk=AS6-VmKW2NBDPET__82ERuedA4M-TmLOPS4oXU2zDY7q5OUINvXuOYvFAUHL859bkIIvf7ynK-X4_LjfdofaG2sCpjJdbYXUoPKxew&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q8tMDegQIPBAE",
+      "3": "https://www.google.co.in/search?q=Cod+Agenda&sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&ei=b7ubas6HBtPjwN4PqdPw-Ag&start=20&sa=N&sstk=AS6-VmKW2NBDPET__82ERuedA4M-TmLOPS4oXU2zDY7q5OUINvXuOYvFAUHL859bkIIvf7ynK-X4_LjfdofaG2sCpjJdbYXUoPKxew&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q8tMDegQIPBAG",
+      "4": "https://www.google.co.in/search?q=Cod+Agenda&sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&ei=b7ubas6HBtPjwN4PqdPw-Ag&start=30&sa=N&sstk=AS6-VmKW2NBDPET__82ERuedA4M-TmLOPS4oXU2zDY7q5OUINvXuOYvFAUHL859bkIIvf7ynK-X4_LjfdofaG2sCpjJdbYXUoPKxew&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q8tMDegQIPBAI",
+      "5": "https://www.google.co.in/search?q=Cod+Agenda&sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&ei=b7ubas6HBtPjwN4PqdPw-Ag&start=40&sa=N&sstk=AS6-VmKW2NBDPET__82ERuedA4M-TmLOPS4oXU2zDY7q5OUINvXuOYvFAUHL859bkIIvf7ynK-X4_LjfdofaG2sCpjJdbYXUoPKxew&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q8tMDegQIPBAK",
+      "6": "https://www.google.co.in/search?q=Cod+Agenda&sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&ei=b7ubas6HBtPjwN4PqdPw-Ag&start=50&sa=N&sstk=AS6-VmKW2NBDPET__82ERuedA4M-TmLOPS4oXU2zDY7q5OUINvXuOYvFAUHL859bkIIvf7ynK-X4_LjfdofaG2sCpjJdbYXUoPKxew&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q8tMDegQIPBAM",
+      "7": "https://www.google.co.in/search?q=Cod+Agenda&sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&ei=b7ubas6HBtPjwN4PqdPw-Ag&start=60&sa=N&sstk=AS6-VmKW2NBDPET__82ERuedA4M-TmLOPS4oXU2zDY7q5OUINvXuOYvFAUHL859bkIIvf7ynK-X4_LjfdofaG2sCpjJdbYXUoPKxew&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q8tMDegQIPBAO",
+      "8": "https://www.google.co.in/search?q=Cod+Agenda&sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&ei=b7ubas6HBtPjwN4PqdPw-Ag&start=70&sa=N&sstk=AS6-VmKW2NBDPET__82ERuedA4M-TmLOPS4oXU2zDY7q5OUINvXuOYvFAUHL859bkIIvf7ynK-X4_LjfdofaG2sCpjJdbYXUoPKxew&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q8tMDegQIPBAQ",
+      "9": "https://www.google.co.in/search?q=Cod+Agenda&sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&ei=b7ubas6HBtPjwN4PqdPw-Ag&start=80&sa=N&sstk=AS6-VmKW2NBDPET__82ERuedA4M-TmLOPS4oXU2zDY7q5OUINvXuOYvFAUHL859bkIIvf7ynK-X4_LjfdofaG2sCpjJdbYXUoPKxew&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q8tMDegQIPBAS",
+      "10": "https://www.google.co.in/search?q=Cod+Agenda&sca_esv=c424c8dd2b5a25c5&gl=in&hl=hi&ei=b7ubas6HBtPjwN4PqdPw-Ag&start=90&sa=N&sstk=AS6-VmKW2NBDPET__82ERuedA4M-TmLOPS4oXU2zDY7q5OUINvXuOYvFAUHL859bkIIvf7ynK-X4_LjfdofaG2sCpjJdbYXUoPKxew&ved=2ahUKEwiO-4_G7NaWAxXTMdAFHakpHI8Q8tMDegQIPBAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Agenda&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Agenda&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Agenda&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Agenda&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Agenda&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Agenda&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Agenda&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Agenda&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Agenda&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Agenda&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Cod+Agenda&start=90"
+    }
+  }
+}

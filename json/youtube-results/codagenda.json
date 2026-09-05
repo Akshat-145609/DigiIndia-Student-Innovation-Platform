@@ -1,0 +1,318 @@
+{
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "Codagenda"
+  },
+  "search_information": {
+    "total_results": 152,
+    "video_results_state": "Showing results for exact spelling despite spelling suggestion",
+    "spelling_fix": "Cod Agenda"
+  },
+  "playlist_results": [
+    {
+      "position_on_page": 1,
+      "title": "Codagenda",
+      "link": "https://www.youtube.com/playlist?list=PLSvF1rqBbUP8",
+      "channel": {
+        "name": "Akshat Network Hub",
+        "link": "https://www.youtube.com/@AkshatNetworkHub"
+      },
+      "videos": [
+        {
+          "title": "Prototyping a \"Wanderlust\" Travel Agency Website in Seconds (Codagenda Demo)",
+          "length": "2:42",
+          "link": "https://www.youtube.com/watch?v=MFPg6gz0_98&list=PLSvF1rqBbUP8"
+        },
+        {
+          "title": "Prompt to Full Responsive Website Blogs on Bhopal Gas Tragedy in Seconds! (Codagenda v2.0)",
+          "length": "3:49",
+          "link": "https://www.youtube.com/watch?v=09x7-z1SvyU&list=PLSvF1rqBbUP8"
+        }
+      ],
+      "video_count": 9,
+      "thumbnail": "https://i.ytimg.com/vi/MFPg6gz0_98/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBnALwqkyDcVkMnjI5BeuM6us_mBQ"
+    }
+  ],
+  "video_results": [
+    {
+      "title": "Building a Responsive Analytics Dashboard in Seconds using AI (Codagenda)",
+      "url": "https://www.youtube.com/watch?v=u91f07mMtPE",
+      "videoId": "u91f07mMtPE",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/u91f07mMtPE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAjN8l66At2EwpWFcl-p8vBSScYAA",
+        "rich": "https://i.ytimg.com/an_webp/u91f07mMtPE/mqdefault_6s.webp?du=3000&sqp=CP7u7tQG&rs=AOn4CLCbUbTX_PZ_qMYgPm5htOOdTWMOJw"
+      },
+      "duration": "1:35",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": false,
+      "views": "26 views",
+      "uploadedTime": "2 months ago",
+      "description": "Watch as I use Codagenda—a custom-built AI Web Dev Assistant—to generate a fully responsive analytics dashboard entirely ..."
+    },
+    {
+      "title": "Hello World Program with Codagenda AI",
+      "url": "https://www.youtube.com/watch?v=R_ER35oqjtQ",
+      "videoId": "R_ER35oqjtQ",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/R_ER35oqjtQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnqODg7uf9Sgyh7m_Yql1_Z0GSyA",
+        "rich": "https://i.ytimg.com/an_webp/R_ER35oqjtQ/mqdefault_6s.webp?du=3000&sqp=CNDw7tQG&rs=AOn4CLAU-MNGLaQAst82JL5Turvk6WfaKg"
+      },
+      "duration": "0:39",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": false,
+      "views": "13 views",
+      "uploadedTime": "2 months ago",
+      "description": "Witness Codagenda—my custom-built AI coding assistant—in action! In this demo, I challenged it to generate a visually ..."
+    },
+    {
+      "title": "Write Professional AI Blogs in Minutes | Codagenda AI Blog Writing Demo",
+      "url": "https://www.youtube.com/watch?v=7RgVerwta9Y",
+      "videoId": "7RgVerwta9Y",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/7RgVerwta9Y/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD2D-WRAZ6_8wfpqNshYH9YvseZ7Q"
+      },
+      "duration": "1:30",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": false,
+      "views": "20 views",
+      "uploadedTime": "2 months ago",
+      "description": "Transform a simple prompt into a complete, professionally written blog using Codagenda AI. In this demonstration, you'll see how ..."
+    },
+    {
+      "title": "Codagenda AI: Generating an Animated 'Hello World' Shockwave Effect",
+      "url": "https://www.youtube.com/watch?v=A8qxHAcoiE0",
+      "videoId": "A8qxHAcoiE0",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/A8qxHAcoiE0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjnxRZLfNcNS-cnBVem7yKw5Je0Q",
+        "rich": "https://i.ytimg.com/an_webp/A8qxHAcoiE0/mqdefault_6s.webp?du=3000&sqp=CPfj7tQG&rs=AOn4CLB4GVfo3YB7zz4SLA6HzcBw8d8nsg"
+      },
+      "duration": "0:29",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": false,
+      "views": "16 views",
+      "uploadedTime": "2 months ago",
+      "description": "Witness Codagenda—my custom-built AI coding assistant—in action! In this demo, I challenged it to generate a visually ..."
+    },
+    {
+      "title": "Quantum Student Profile Creating Using Codagenda AI",
+      "url": "https://www.youtube.com/watch?v=WO5P3XRYI70",
+      "videoId": "WO5P3XRYI70",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/WO5P3XRYI70/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBNN3nZOz6TXylHpdEYKxyRk1AzyQ",
+        "rich": "https://i.ytimg.com/an_webp/WO5P3XRYI70/mqdefault_6s.webp?du=3000&sqp=CMHQ7tQG&rs=AOn4CLAoqhd6-XJGEim6vv9T8DPVmNk5Fw"
+      },
+      "duration": "0:53",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": false,
+      "views": "19 views",
+      "uploadedTime": "2 months ago",
+      "description": "Learn how I test my Codagenda AI to test his code generation practices. I had ask codagenda to generate a Student Profile Page ..."
+    },
+    {
+      "title": "Prompt to Full Web Tool in 60 Seconds! (Codagenda SVG Editor Walkthrough)",
+      "url": "https://www.youtube.com/watch?v=GjizloPVYoY",
+      "videoId": "GjizloPVYoY",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/GjizloPVYoY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqZH1rvODZwFvUbJJrLJsyzqUHSw",
+        "rich": "https://i.ytimg.com/an_webp/GjizloPVYoY/mqdefault_6s.webp?du=3000&sqp=CMb17tQG&rs=AOn4CLBjPj07HlJbJGKLa2dICkzNyiTxAw"
+      },
+      "duration": "1:01",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": false,
+      "views": "37 views",
+      "uploadedTime": "1 month ago",
+      "description": "Watch how Codagenda v2.0 builds a fully functional, interactive tool inside a tool with a single natural language prompt!"
+    },
+    {
+      "title": "Prototyping a \"Wanderlust\" Travel Agency Website in Seconds (Codagenda Demo)",
+      "url": "https://www.youtube.com/watch?v=MFPg6gz0_98",
+      "videoId": "MFPg6gz0_98",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/MFPg6gz0_98/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBdLHCV8IFAVav33eg5-GiWPalQBA"
+      },
+      "duration": "2:42",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": false,
+      "views": "39 views",
+      "uploadedTime": "1 month ago",
+      "description": "In this video, I demonstrate how to build a fully responsive Travel Agency website from scratch using Codagenda v2.0, the ..."
+    },
+    {
+      "title": "Building a Neon Calculator from Scratch using AI Using Codagenda AI in Real time Coding Experience.",
+      "url": "https://www.youtube.com/watch?v=Cuzg4tDliFM",
+      "videoId": "Cuzg4tDliFM",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/Cuzg4tDliFM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVBtya73Ub83Xf2cNiN4ngqw6vuw",
+        "rich": "https://i.ytimg.com/an_webp/Cuzg4tDliFM/mqdefault_6s.webp?du=3000&sqp=CO7r7tQG&rs=AOn4CLCnP6JHpPgmxi6-fUtxIvzcGA7iXw"
+      },
+      "duration": "3:39",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": false,
+      "views": "35 views",
+      "uploadedTime": "2 months ago",
+      "description": "Watch me use Codagenda AI to build a fully functional, responsive, and futuristic 'Neon Arithmetic Calculator' in real-time. I prompt ..."
+    },
+    {
+      "title": "Generate Interactive HTML Learning Website with AI | HTML URL Parameters Tutorial | Codagenda Prompt",
+      "url": "https://www.youtube.com/watch?v=icpUqPPVsQ4",
+      "videoId": "icpUqPPVsQ4",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/icpUqPPVsQ4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC9jqykk11-v77_qdGFNtHHPLM9Dg",
+        "rich": "https://i.ytimg.com/an_webp/icpUqPPVsQ4/mqdefault_6s.webp?du=3000&sqp=CJCJ79QG&rs=AOn4CLDFGUTsY7Vdgy3dDPX_Rh5vYpjcwA"
+      },
+      "duration": "2:37",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": false,
+      "views": "56 views",
+      "uploadedTime": "1 month ago",
+      "description": "In this video, I demonstrate how I use **Codagenda** to generate an interactive HTML learning webpage from a simple prompt."
+    },
+    {
+      "title": "Prompt to Full Responsive Website Blogs on Bhopal Gas Tragedy in Seconds! (Codagenda v2.0)",
+      "url": "https://www.youtube.com/watch?v=09x7-z1SvyU",
+      "videoId": "09x7-z1SvyU",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/09x7-z1SvyU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDwZJppe2yTReVmzKEJO-7rtuAuRQ"
+      },
+      "duration": "3:49",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": false,
+      "views": "31 views",
+      "uploadedTime": "1 month ago",
+      "description": "Turn your text prompts into clean, fully responsive webpages instantly with Codagenda v2.0! In this video, we reference the ..."
+    },
+    {
+      "title": "COD Agenda",
+      "url": "https://www.youtube.com/watch?v=JngN8nLByP4",
+      "videoId": "JngN8nLByP4",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/JngN8nLByP4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhcF3P9Bt_H7xri5fNKB5ggcf7hg"
+      },
+      "duration": "0:43",
+      "channelTitle": "Jerone Farley",
+      "channelVerified": false,
+      "views": "14 views",
+      "uploadedTime": "11 years ago",
+      "description": "Watch video demonstration and tutorial on YouTube."
+    },
+    {
+      "title": "An end of summer vacation vlog 2021/ THE CAPE COD AGENDA",
+      "url": "https://www.youtube.com/watch?v=ptCt1-4FnZA",
+      "videoId": "ptCt1-4FnZA",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/ptCt1-4FnZA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJyYFceinAeRmYS4Lapltr-YsQ6g",
+        "rich": "https://i.ytimg.com/an_webp/ptCt1-4FnZA/mqdefault_6s.webp?du=3000&sqp=COCA79QG&rs=AOn4CLAl91RacPyizPkdLMeotsf-bQ_PvA"
+      },
+      "duration": "6:43",
+      "channelTitle": "Jules Skeebs",
+      "channelVerified": false,
+      "views": "349 views",
+      "uploadedTime": "5 years ago",
+      "description": "An end of summer vacation vlog 2021/ THE CAPE COD AGENDA Now introducing... THE CAPE COD AGENDA!! here's a little ..."
+    },
+    {
+      "title": "Code Mode: Why AI Agents Are Ditching Tool Calls for Code",
+      "url": "https://www.youtube.com/watch?v=IXe48aIw_X4",
+      "videoId": "IXe48aIw_X4",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/IXe48aIw_X4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOYWXPuCFJAPxA3AA3pQAFw-HqcA",
+        "rich": "https://i.ytimg.com/an_webp/IXe48aIw_X4/mqdefault_6s.webp?du=3000&sqp=CKzz7tQG&rs=AOn4CLC9LeQR4Uzf7ND-gM6LJIlcLxwmxQ"
+      },
+      "duration": "1:10:48",
+      "channelTitle": "Boundary",
+      "channelVerified": false,
+      "views": "3,574 views",
+      "uploadedTime": "11 hours ago",
+      "description": "AI agents are hitting a wall with normal tool calling — too many tools, too many round trips, too much of the context window spent ..."
+    },
+    {
+      "title": "CoD Agenda 20.11",
+      "url": "https://www.youtube.com/watch?v=9ynWCiSX8GI",
+      "videoId": "9ynWCiSX8GI",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/9ynWCiSX8GI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLArJXg3DqplZkMzX0IemVZUBd1LkQ",
+        "rich": "https://i.ytimg.com/an_webp/9ynWCiSX8GI/mqdefault_6s.webp?du=3000&sqp=CLaG79QG&rs=AOn4CLBKmHsDVONhtahRu5MCiYTrvXBf4Q"
+      },
+      "duration": "1:00:00",
+      "channelTitle": "dieMeinung ",
+      "channelVerified": false,
+      "views": "7 views",
+      "uploadedTime": "5 years ago",
+      "description": "https://store.playstation.com/#!/tid=CUSA15279_00."
+    },
+    {
+      "title": "Satrughan Luha Best perfermance by Papakshya Loka Mahotsav,Binka  #codprogramme#",
+      "url": "https://www.youtube.com/watch?v=RwG1L7ED_ws",
+      "videoId": "RwG1L7ED_ws",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/RwG1L7ED_ws/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAyte-Gd3vMAdfghFN8CbW1kqcd1A",
+        "rich": "https://i.ytimg.com/an_webp/RwG1L7ED_ws/mqdefault_6s.webp?du=3000&sqp=CObx7tQG&rs=AOn4CLDyvc_dVsInejbiZxQy8YhgsnuvDQ"
+      },
+      "duration": "3:36",
+      "channelTitle": "CODProgramme",
+      "channelVerified": false,
+      "views": "196 views",
+      "uploadedTime": "3 years ago",
+      "description": "Watch video demonstration and tutorial on YouTube."
+    },
+    {
+      "title": "Prototyping a \"Wanderlust\" Travel Agency Website in Seconds (Codagenda Demo)",
+      "url": "https://www.youtube.com/watch?v=MFPg6gz0_98&list=PLSvF1rqBbUP8",
+      "thumbnail": "https://i.ytimg.com/vi/MFPg6gz0_98/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBnALwqkyDcVkMnjI5BeuM6us_mBQ",
+      "duration": "2:42",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": true,
+      "views": "Playlist Collection",
+      "uploadedTime": "Curated",
+      "description": "Video playlist: Codagenda"
+    },
+    {
+      "title": "Prompt to Full Responsive Website Blogs on Bhopal Gas Tragedy in Seconds! (Codagenda v2.0)",
+      "url": "https://www.youtube.com/watch?v=09x7-z1SvyU&list=PLSvF1rqBbUP8",
+      "thumbnail": "https://i.ytimg.com/vi/MFPg6gz0_98/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBnALwqkyDcVkMnjI5BeuM6us_mBQ",
+      "duration": "3:49",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": true,
+      "views": "Playlist Collection",
+      "uploadedTime": "Curated",
+      "description": "Video playlist: Codagenda"
+    }
+  ],
+  "ads_results": [
+    {
+      "position_on_page": 4,
+      "title": "Start growing your home service business today.",
+      "link": "https://www.youtube.com/watch?v=YAh_V1LcAk8",
+      "serpapi_link": "https://serpapi.com/search.json?engine=youtube_video&v=YAh_V1LcAk8",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=C_XzxQsebasCJCt2Gy_sP5aOXwQT497SWiQHk9_3VpBZkEAEgAGDJhoWJiKSEEIIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAG99_a8A6kCekE-jStAqD6oAwTIAwqqBJoCT9CX52RbDXNzLi932GaIizGSUGJftzhasdnGnBUXkWhXH1IUne8Oa_MFD2QDLU8OWQTztOmcJNDAm6Ka7ZOrX1j_IilbALf7nitJTwkmKn1LPSZA3GPL2bgxGeT9_j9OxNBRvyfHi9xA-aG7hhDCt7NUg_RU6p-XN-FQPDqns84pjjYwew0EjKaYTCgf-WNsb0SQ1Lt0S71_WppNAWXU70dsdJXPkMvJXq58AsmvhytaH7vZBXNmuRXIIAQKgr22bfwFH6sr5ArpwPGlaizesasegu1MUzNBRqZMa7D372-CIBRXrnPPANP2BSrSmAnAxIGz4gMX9mL7tWcNJUrl67KPXy-81Spsl9pcPf86PnFXQicRr2Csld1HiAW54NnyU5IFBwgTeOz1thmgBqEBgAeUr9kYkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtZQWhfVjFMY0FrOKgIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWICLxen31pYDYAGaCSVodHRwOi8vZ2V0am9iYmVyLmNvbS9kZy9mc20tc29mdHdhcmUvsQn-H-z4g_zQVMgJF8gJjwHICcIBugtBCAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awl2aWF0bHphYWHQCxLgCwGiDDViFgoUY29tLmdldGpvYmJlci5qb2JiZXJqFgoUY29tLmdldGpvYmJlci5qb2JiZXJ4AIgBANIMAhAB2gwlCgoQgL6A5aD1_slxEgIBAxoNGLng2fJTIPKppePFBUABSgIQH5oNARKqDQJVU8gNAdINnwNodHRwczovL2FkLmRvdWJsZWNsaWNrLm5ldC9kZG0vdHJhY2tjbGsvTjI3NDQ1NDguNTg3ODQzMkpPQkJFUi1ZT1VUVUJFLUQvQjM1MjI0MjAwLjQ0MDAwOTc0MTtkY190cmtfYWlkPTYzMzE2Mzk1ODtkY190cmtfY2lkPTI1MDI0OTcyMjtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7O2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNBTXRmdm9BdHV0c3M5Y1M4UmZZcV9kZnZqS0lkUUhldnBZblFoYWtwQU4weS12SkhjalBHTW1oMWptUkduYUo2MFhDdXhpeWpuT2EyUEdpdztkY19wdWJpZD02P2h0dHA6Ly9nZXRqb2JiZXIuY29tL2RnL2ZzbS1zb2Z0d2FyZS8_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIyNTIwNjg4Njk3uBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpFwayKpT3CUOluhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIwLLF6ffWlgMVXcNyCR3l0SVIEAEYASAAEgI8h_D_BwE&num=1&cid=CAASwgHkaKlGewLQcHM3ENY2fJJWgMbJLW4XNeNDqZKTCslAOCI9p-ZSZc0aMSLb4IAKqP4CN2lG8UcB1z_6pE1-tvBFPt3rmOGR7gDvDOEAeOTy9OED98qUO91UMRbtpS0MG5Uoo3__f8fLlgmoXkNOJhLN-cFXXaSPNlu9Mwc1U3iRKpTfyhZ7u_PwVcFarr8jHr6W2ES20cOLfbBCo2sJrNQrj36iNGBpYMJwQQo5b8Gh1yEJr0XxOycD-u_I437DAtKW-w&ad_cpn=%5BCPN%5D&sig=AOD64_02jJtVj2qceMaoBsepuhrhah-2fQ&ctype=110&video_id=YAh_V1LcAk8&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Jobber",
+        "thumbnail": "https://yt3.ggpht.com/proxy/vES2egJ3496AURVe-er3Q5L5Jrwwfty0LikF5CqZ4jE2FsXjrFSvigMzyyw7yJOfYexR3jfglk61QcCMV-ZI524ZX7TVNcWes8rZuMVNI5IywuDJttw5AlbDhYYxU7EwdHKSTxmKC7yi4Tt_nwqsnaiOvZYWjfRnTDkuW5-CdOb1g5qIR-XCrcVixt25ZgXT92OyjB6CpiZ3ylMz557cvSVDi9DBg-xWooZMMLCKFOcTRMD4OBnrbVbt1we7dX0S43Ja5ug=w68-h68-nd"
+      },
+      "description": "When you use the best service, you provide the best service.",
+      "thumbnail": {
+        "static": "https://tpc.googlesyndication.com/simgad/7369791379826083360"
+      }
+    }
+  ],
+  "channel_results": [
+    {
+      "position_on_page": 13,
+      "title": "CodProgram",
+      "link": "https://www.youtube.com/@CodProgram",
+      "handle": "@CodProgram",
+      "subscribers": 1,
+      "thumbnail": "https://yt3.googleusercontent.com/ytc/AIdro_lOBtjBd3iHywMmY4bdnxgPYQXNr5MegOLQ7-cuV08=s88-c-k-c0x00ffffff-no-rj-mo"
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=Codagenda",
+    "next": "https://www.youtube.com/results?search_query=Codagenda&sp=SBSCAQ1QTFN2RjFycUJiVVA4ggELdTkxZjA3bU10UEWCAQtSX0VSMzVvcWp0UYIBCzdSZ1Zlcnd0YTlZggELQThxeEhBY29pRTCCAQtXTzVQM1hSWUk3MIIBC0dqaXpsb1BWWW9ZggELTUZQZzZnejBfOTiCAQtDdXpnNHREbGlGTYIBC2ljcFVxUFBWc1E0ggELMDl4Ny16MVN2eVWCARhVQ3k1aGY0WTNTTC1PUVhyaEY3U2ZUbGeCAQtKbmdOOG5MQnlQNIIBC3B0Q3QxLTRGblpBggELSVhlNDhhSXdfWDSCAQs5eW5XQ2lTWDhHSYIBC1J3RzFMN0VEX3dzsgEGCgQIExAC",
+    "next_page_token": "SBSCAQ1QTFN2RjFycUJiVVA4ggELdTkxZjA3bU10UEWCAQtSX0VSMzVvcWp0UYIBCzdSZ1Zlcnd0YTlZggELQThxeEhBY29pRTCCAQtXTzVQM1hSWUk3MIIBC0dqaXpsb1BWWW9ZggELTUZQZzZnejBfOTiCAQtDdXpnNHREbGlGTYIBC2ljcFVxUFBWc1E0ggELMDl4Ny16MVN2eVWCARhVQ3k1aGY0WTNTTC1PUVhyaEY3U2ZUbGeCAQtKbmdOOG5MQnlQNIIBC3B0Q3QxLTRGblpBggELSVhlNDhhSXdfWDSCAQs5eW5XQ2lTWDhHSYIBC1J3RzFMN0VEX3dzsgEGCgQIExAC"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=Codagenda",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=Codagenda&sp=SBSCAQ1QTFN2RjFycUJiVVA4ggELdTkxZjA3bU10UEWCAQtSX0VSMzVvcWp0UYIBCzdSZ1Zlcnd0YTlZggELQThxeEhBY29pRTCCAQtXTzVQM1hSWUk3MIIBC0dqaXpsb1BWWW9ZggELTUZQZzZnejBfOTiCAQtDdXpnNHREbGlGTYIBC2ljcFVxUFBWc1E0ggELMDl4Ny16MVN2eVWCARhVQ3k1aGY0WTNTTC1PUVhyaEY3U2ZUbGeCAQtKbmdOOG5MQnlQNIIBC3B0Q3QxLTRGblpBggELSVhlNDhhSXdfWDSCAQs5eW5XQ2lTWDhHSYIBC1J3RzFMN0VEX3dzsgEGCgQIExAC",
+    "next_page_token": "SBSCAQ1QTFN2RjFycUJiVVA4ggELdTkxZjA3bU10UEWCAQtSX0VSMzVvcWp0UYIBCzdSZ1Zlcnd0YTlZggELQThxeEhBY29pRTCCAQtXTzVQM1hSWUk3MIIBC0dqaXpsb1BWWW9ZggELTUZQZzZnejBfOTiCAQtDdXpnNHREbGlGTYIBC2ljcFVxUFBWc1E0ggELMDl4Ny16MVN2eVWCARhVQ3k1aGY0WTNTTC1PUVhyaEY3U2ZUbGeCAQtKbmdOOG5MQnlQNIIBC3B0Q3QxLTRGblpBggELSVhlNDhhSXdfWDSCAQs5eW5XQ2lTWDhHSYIBC1J3RzFMN0VEX3dzsgEGCgQIExAC"
+  }
+}

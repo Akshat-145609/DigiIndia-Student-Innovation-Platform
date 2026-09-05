@@ -54,8 +54,18 @@ def review_code(schema: AIReviewRequestSchema, user: dict = Depends(require_auth
         raise HTTPException(status_code=400, detail="codeSnippet required")
     return AIService.review_code_snippet(schema.codeSnippet, schema.language or "python")
 
+@router.get("/assistant")
+def get_assistant_status(q: Optional[str] = ""):
+    return {
+        "status": "online",
+        "service": "DigiIndia AI Assistant Engine",
+        "model": "Gemini 1.5 Flash + DigiIndia Knowledge Agent",
+        "message": "DigiIndia AI Assistant Engine is ready. Send POST with { prompt } to query.",
+        "query": q
+    }
+
 @router.post("/assistant")
-def ask_assistant(schema: AIReviewRequestSchema, user: dict = Depends(require_authenticated_user)):
+def ask_assistant(schema: AIReviewRequestSchema):
     if not schema.prompt:
         raise HTTPException(status_code=400, detail="prompt required")
     return AIService.ask_ai_assistant(schema.prompt, schema.codeSnippet or "")

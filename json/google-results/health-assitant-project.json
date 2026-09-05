@@ -1,0 +1,396 @@
+{
+  "search_parameters": {
+    "engine": "google",
+    "q": "Health Assistant Project",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Health Assistant Project",
+    "total_results": 162,
+    "time_taken_displayed": 0.17,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "inline_videos": [
+    {
+      "position": 1,
+      "title": "Build a Fullstack AI Medical Assistant (Step-by-Step Tutorial)",
+      "link": "https://www.youtube.com/watch?v=hULLuQ1UFaM",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR--dhrHL_9gay8B6NfXzMPSElSrVtTc4ipAmh7PerhfwpmRY334zEjyoEZOhKLw&s&ec=121966416",
+      "channel": "masynctech",
+      "duration": "37:23",
+      "platform": "YouTube",
+      "date": "13 अप्रैल 2025",
+      "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTWTo5NNBGuY-_lgxGNyzBU3-QMCnTSfiaumg",
+      "key_moments": [
+        {
+          "time": "00:00",
+          "title": "Intro & Project Demo Start",
+          "link": "https://www.google.co.in/goto?url=CAESZwHrOzAV_8Xg906R_tm3Ow-IuUWZ5RccW611RizMfc4WSMRW6bXwkX6m077_K_dc4mj8vPr8BjYsIfUrLrpJFUmhUu4Lu8eQ7lpR94HqgaONumqfEhs6cOMQSKOT0wqtU55SuPyrf44"
+        },
+        {
+          "time": "00:45",
+          "title": "Demo: Sign Up & Login",
+          "link": "https://www.google.co.in/goto?url=CAESaAHrOzAVLoA2V-YpUEdy5AOWBhDdYbc1iQntEMNEllubBkzKI2OmQuGjyoSmGyGyoRiiZ21NQznqqFmEJbxtAutty_U2J8cMM5yhcYgAloBOVPofW50Ewbxqt6inum8anQrLpitdfhtL"
+        },
+        {
+          "time": "01:12",
+          "title": "Demo: AI Chat Text & Audio",
+          "link": "https://www.google.co.in/goto?url=CAESaAHrOzAVBx0KamIfwK-7eDLdtVQzGXWaQ6P_4A3d5ZaRmAtGuEaDXs6S8GZ_1TVc6yY1l1KqhLgJnoS-YtsEXO1jpm5JoRWILvHPBVWEqlZE3aJi8Exd4moqf2mVLftMajOQTl-UP0px"
+        },
+        {
+          "time": "02:33",
+          "title": "Demo: Symptom Checker",
+          "link": "https://www.google.co.in/goto?url=CAESaQHrOzAVjQjJs4R540Zv_Rg9daEuHbr3nC4LQl90wBYo3K7rHD5Te7xb8YSO7i5ao7ngdhCWg3ETJfvqR-GjYPdhCoMsxrq6kMRaekF4BhTi4QkelaJOC8QR4xjiVdYYCvYCe9EcFPFMmg"
+        },
+        {
+          "time": "03:35",
+          "title": "Demo: Health Metrics & Charts",
+          "link": "https://www.google.co.in/goto?url=CAESaQHrOzAVFNbultCKvaDZqC6-E482YiPp8kD-vjL6nVQ8JEj6VctCdBaZz0TgKcD1SQ6QmtYebh4R5gwXeyly0pwAM0Y07CVKIJjpnfmB8qP2kjpTvY6o8STk2LRjvV5ESJFhpycgu8_TbQ"
+        },
+        {
+          "time": "04:55",
+          "title": "Demo: Medications",
+          "link": "https://www.google.co.in/goto?url=CAESaQHrOzAVCkPSXTyyQvbC9yaHlKyUMYpuXb97bRyO-qj1ZMMSiy3d2K04IAHE_G3LcEaYOnT_ED4kwHQlPwdXweBRYl27kJOBzOAnXF3O6ydbPhSQdld4E2MHIFWzlmqCyEh51gEUkOFEVw"
+        },
+        {
+          "time": "06:10",
+          "title": "AI Tools: WindSurf Editor",
+          "link": "https://www.google.co.in/goto?url=CAESaQHrOzAVN2vdsTQujVEGAXfJkT1Z6YJM1p02VS1uTzmE1TstVoaLiedrWY-qZTkGG1t2YNXrUhvEhLHo5oIO5OQLEVJaiHK346n3-e9vOwQajris4676zz0cfRlmaVUcHZqxH8Brdw2ZZQ"
+        },
+        {
+          "time": "06:40",
+          "title": "Planning: Product Requirement Document (PRD)",
+          "link": "https://www.google.co.in/goto?url=CAESaQHrOzAVawvd_vJJa9t8-ZmMvSTIW0szFVXCEQOPiHdb8yMbeyDGXtPpuHEUgW1nCDHikRUnaDSEjFo0QSTx3C47Kh2307BLDOxFi2Epm0QqzRyI9XruS2i1XzKyzatcJBEwxBpwKFdFWA"
+        },
+        {
+          "time": "08:30",
+          "title": "Project Setup with AI",
+          "link": "https://www.google.co.in/goto?url=CAESaQHrOzAVYvmPrI3NjCzRmdWCZMChTeRxhJrUg4t-XUbzpXtwpCYjPWnlQFWk4LE53cJgjkn5tLa_JrlOWyvcHUDv0qas6sIDw2z94DLRICbE2hvk-Z89SGxuxrC9iUg1egYuF2rR-Nu6kg"
+        },
+        {
+          "time": "11:35",
+          "title": "Build Feature 1: Authentication",
+          "link": "https://www.google.co.in/goto?url=CAESaQHrOzAVKb6gns_kAOMYPxS0hsHoUW4D4mDtuO_0z6XJW0CfmihlOe0dz9As5p8z_W6qSOOVHzPRTNzlNISW-MGSBxtOMRSpmtPTZqCSePTk5CMnSRY8vF1vZxkKxPluRoEf8lAxnA6f_Q"
+        },
+        {
+          "time": "13:35",
+          "title": "Setup: Environment Variables",
+          "link": "https://www.google.co.in/goto?url=CAESaQHrOzAVsvJvmRoRbLk_YGE6z31L6ynZgzH9rd8XQpSpStQI55BzBvmi-zWY6KDqpXDn7RXsIkNMI3NeFcFEXH_dG_eSK96CdSMqxAcFmSRL18sI9woswQCMJVFCUWboUU1My94rY8ne-g"
+        },
+        {
+          "time": "14:45",
+          "title": "Debugging Authentication",
+          "link": "https://www.google.co.in/goto?url=CAESaQHrOzAVFH-7R33qC_1f9wx7HV_h6pA8uGnBys9gC4cQwi5Aj1Zrdf3jlvZamWnLaFI9gJU24sdFgFtGFLhwkQ_2ku6GWOPU1D7RNqir06MCcMfh5usU8qARcHreQDCpmbfZshPcnPZs_A"
+        },
+        {
+          "time": "19:20",
+          "title": "Setup: Gemini API Key",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAVJWPZCfzE5QAGcOhbBiwddTYYgshkRmo424lwO4KaIjtqEGcRMTFf1FzFjYpjQsJZEd5ftrE4hBUJ-SbKoI5-ttEJuC1Eamtkf_rvUoy3rscbGTS9hO7YvpPuMUaa7-PCg6qhmgk"
+        },
+        {
+          "time": "21:15",
+          "title": "Debugging AI Chat",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAVKE02oldByHdZKzAlReMjYJxnge5JejJkeggbQnLBbuQtCGxhYXddEV5Vx735h7U__AoQrqXcQT1Ms3kFR_ai5vRBgf8c1eeQAbFctqx4eoUqCwzxAe6VP-938IaJAfyRiiKTWac"
+        },
+        {
+          "time": "23:15",
+          "title": "Improving Chat Response Format",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAVJuTyfh5mYxDOOUOPcpa1XVYEahaSksDvQiHJuQAg9YRi6BuT_czqYZE6l3tYAHok7a5upZCSyFvl4jSnBfDHBBqXas8asyWlU0eOpQi9uF8BIQMzsmSy12eo-YaQ7yqn_6JUXas"
+        },
+        {
+          "time": "24:05",
+          "title": "Build Feature 2.1: Chat History Persistence",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAVAsJsHEGJEq0gZyH9Q_UFeDukKS3UCRV4ozzcoT2tlHvNo9TumHgX7N-z1i99zAdFgK0OJuL3EZY12L4iytZE-k1TOregsJjC3B08_MEhBHVtruy56sNAa1fhpwjS4wBoQExZDMk"
+        },
+        {
+          "time": "24:45",
+          "title": "Debugging Chat Persistence",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAVsjyYoKMTW826cWfXG6njqlhcFl4VHxKKsp2Prn7hkBHCjauaFWeRvnDk1UNHt0YyK4ntIYXMa3Z60du7vMk1qJpfZPpZaJWYsGstAD6SoY5afVIL97_jmuQ7r4AZHCrjqgfN5Bg"
+        },
+        {
+          "time": "25:50",
+          "title": "Build Feature 3: Symptom Checker",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAVJfNioce9UPvvHxLUX4jNT61ua1GdSrgQiRGnrn6ppxWIoKvSiZejcaGX_eM_i9htih50EGJU-WRRgG0uGxHyIJZ1zbDcTBxNoKVlMTiMjce23NVFdJFKECVwz6cTHlJAUYCL7ys"
+        },
+        {
+          "time": "30:45",
+          "title": "Build Feature 5: Medications Tracking",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAVaoH8HzX5VSzSw8uoH1qMBcTEHksJbZlzMT0MYe0pMQs3Z6hgBqjI5G9RvM_DNt0ECYhQiHMJwJIg9INorugHqE3J2LRij6Dgist0JfRwKtDLO7Jg-aWvpO3ZPS88kWbL6CyXIno"
+        },
+        {
+          "time": "32:20",
+          "title": "UI Redesign Phase Start",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAV5Ru3V6LpiKwDb1iSRRGsrVw4rlmICdEvxK4feses24lxg8sjT2uKm2P6bDt8lD3BSLNm1aOW3ILo8A2jMKYxhsIoVGcNRBmPZL7T3oivl8XTNVe3nIxryRVeCHMxZeL6-RfpGHk"
+        },
+        {
+          "time": "32:37",
+          "title": "Prompting AI for UI Redesign",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAVqJO61r10fJs4P5NN5KPKjpTMOqAueMY3mRiabUmTCpu3wLuRBLBQpXzxWo6UUKIyBu-UXsvyFQ1pL8BPH4B85DohGAIIpVEzRg2m2pUfe4e1Rtv1UY4HciX3V0ziXWfq-6yabKA"
+        },
+        {
+          "time": "34:35",
+          "title": "Reviewing Initial UI Redesign (Landing/Auth Pages)",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAVeNKukJZ9kXrE19gE8dMh1s28k9DZLqDU4l1_l5PdLXcBpxNzd_ZumjG_eGILLyOQDLIcQHj3YeA36sPcyvPIZuPBGML820lrkyiWERDzfzpMhLGSh5TnucJKc1KphyrDJL5J1o0"
+        },
+        {
+          "time": "35:25",
+          "title": "Reviewing Dashboard UI (Needs Improvement)",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAVU1YP7in46cp2YjxllUocaSUGxH_rMGz2T6TOvk59xrJCG89oBBGQL3zuOJHl7FB_nWio7fb8nUe477Uk5ybnT-UuKI9IM9NuZ1NWT3Y6tFpagBF3dk2nQ0ONbVYQKCURvFVXWPs"
+        },
+        {
+          "time": "36:04",
+          "title": "Prompting AI for Dashboard UI Improvement",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAV1Dyqljl2Nfq7N-hLbZAld6v68Ea4MNPbMJtcu4q13WvyIbJZ9T2jhf6qIZuZGWYJWge6FhuivNNPl-VKvRPKgX-23dZo6GyRmiBxQDBJsifbfnro7B-7nNUnko4QV_iESAMBEpc"
+        },
+        {
+          "time": "37:07",
+          "title": "Conclusion",
+          "link": "https://www.google.co.in/goto?url=CAESagHrOzAVGBceW7ACJPAKt7_5ezEmG4HRzWyhoDFCackd6gaBy8BSon54AQ0zmfAO_owLbY03yXpnrR3CM5lXOBkd1-Fubl14VsIK9lw6YHK8GxGOmaYxFOxoasuTCxeBCm9_SuFO5BUW3wg"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "title": "AI Health Assistant  | Smart AI Healthcare Project",
+      "link": "https://www.youtube.com/watch?v=1koj_qtMY2c",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBIu8FRv0xmNesz6CEC8WVCDFxMhxn6pSjU5VkV5kjXy9QAFryzSnULfxWWhZm-w&s&ec=121966416",
+      "channel": "GoGlobalWays",
+      "duration": "2:20",
+      "platform": "YouTube",
+      "date": "29 जून 2026"
+    },
+    {
+      "position": 3,
+      "title": "Build Your Own AI Doctor! Medical Chatbot using LangChain & ...",
+      "link": "https://www.youtube.com/watch?v=6uPf3MFXvZ0",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb9qo7tXM5GucZIBZWQpApfF2CIVJKTP2JpTC1EZj8apL0er1uBozP3WIQcoDoKg&s&ec=121966416",
+      "channel": "Ieee Xpert",
+      "duration": "28:31",
+      "platform": "YouTube",
+      "date": "5 नव॰ 2025",
+      "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSx8m-xXZ527-2xOpqawuvVHH977DTzqWfW2Q"
+    }
+  ],
+  "related_questions": [
+    {
+      "question": "What are some good projects based on health care?",
+      "type": "ai_overview",
+      "page_token": "iRgEoXicHdBJbsIwAEBR9TIsyQChEhKqGmKbRnJKHGyDN1ViZ4A4gyBgyK536al6mqKu_uLt_vePPrb174uohqG_LC3LGDMtu67U-VR202NrpZdHKy2Zap2lsl4uXhfOWyFX4GL8dWf8mPY9C4idzFTBXOGzfWknQOiMe1iwzqgWjDlgGLuel2l2zThrCSJzhXQdu_U8P5Eo514dccgPI9zGrhNirrcMES5RVShbfEjoI8wrSqHwOA3Tg1accmXE6PfYHhoMK_zsPWo7JwdEU6DPGN0DwfSBBySONiyKHLanzfzOOLkKl9zwrEyg04_UDSsJVL1DId41Q5ywd2cHnw6BQcfQJ5vo8clFIhtpJ0jzpCacNirIoOijmfbzlq3JSYQU6XZSyNtqNvk_tvoqmmHZn7vyDw64eWE",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=iRgEoXicHdBJbsIwAEBR9TIsyQChEhKqGmKbRnJKHGyDN1ViZ4A4gyBgyK536al6mqKu_uLt_vePPrb174uohqG_LC3LGDMtu67U-VR202NrpZdHKy2Zap2lsl4uXhfOWyFX4GL8dWf8mPY9C4idzFTBXOGzfWknQOiMe1iwzqgWjDlgGLuel2l2zThrCSJzhXQdu_U8P5Eo514dccgPI9zGrhNirrcMES5RVShbfEjoI8wrSqHwOA3Tg1accmXE6PfYHhoMK_zsPWo7JwdEU6DPGN0DwfSBBySONiyKHLanzfzOOLkKl9zwrEyg04_UDSsJVL1DId41Q5ywd2cHnw6BQcfQJ5vo8clFIhtpJ0jzpCacNirIoOijmfbzlq3JSYQU6XZSyNtqNvk_tvoqmmHZn7vyDw64eWE",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWMwWm1ZMk15YUhkUWVWUlJiR2hHWDFaNmIzSkdiMGhKT1U1Sk5GcDFibFZoYXpOTmJHa3dSMUpmVkdsemNXazBia0pXZFdnelRGUlBVa1pFTXpWRFkzbE5TRlpqVFdVelNVUjNTVEZWYzJ3eGNIRm1PVEZQZEVsUFFSSVhXbk5UWW1Gd1IyUk1Za3hPYTFCSlVEVk1WRzh3VVRBYUlrRkVjM0k1WmxONWJIWnZiVzR6V1ZsUGNFNVpiRzlYVjBGdWREVkVOWEIxUm1jIiwiZmN2IjoiMyIsImVpIjoiWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTAiLCJxYyI6IkNoaG9aV0ZzZEdnZ1lYTnphWE4wWVc1MElIQnliMnBsWTNRUUFIMGtyd2NfIiwicXVlc3Rpb24iOiJXaGF0IGFyZSBzb21lIGdvb2QgcHJvamVjdHMgYmFzZWQgb24gaGVhbHRoIGNhcmU/IiwibGsiOiJHaDF3Y205cVpXTjBjeUJpWVhObFpDQnZiaUJvWldGc2RHZ2dZMkZ5WlEiLCJicyI6ImMzM1F2UXZDTUJBRmNGd3pPUWZGRzhSWkJlZmk2T1lnT01xWlh0dVRORmVTLVBfYkQwT1ZpbXZlN3g2UHFJdmFYU3VNZ0o0Z1NFMVFpdVRRZUhtUWlRSHVHQ2dIY1ZBUjJsaUJhVjIyWC1ubFg2RnU2dEMzY29CWUVYaXhCRklBSm9RaGNJam9XdUc2VndrTlI3VFpmcVBYRTFJVE9uWmxSeE5VWjdYOW5tMmUzbE9MajZkeFBLZFJ3LXFGMXNoaldval9pS2VOX1VmVWxMTkJDMUVhTnNNTnBvcS04UWQ0eF9QWkN3IiwiaWQiOiJmY19ac1NiYXBHZExiTE5rUElQNUxUbzBRMF81In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWMwWm1ZMk15YUhkUWVWUlJiR2hHWDFaNmIzSkdiMGhKT1U1Sk5GcDFibFZoYXpOTmJHa3dSMUpmVkdsemNXazBia0pXZFdnelRGUlBVa1pFTXpWRFkzbE5TRlpqVFdVelNVUjNTVEZWYzJ3eGNIRm1PVEZQZEVsUFFSSVhXbk5UWW1Gd1IyUk1Za3hPYTFCSlVEVk1WRzh3VVRBYUlrRkVjM0k1WmxONWJIWnZiVzR6V1ZsUGNFNVpiRzlYVjBGdWREVkVOWEIxUm1jIiwiZmN2IjoiMyIsImVpIjoiWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTAiLCJxYyI6IkNoaG9aV0ZzZEdnZ1lYTnphWE4wWVc1MElIQnliMnBsWTNRUUFIMGtyd2NfIiwicXVlc3Rpb24iOiJXaGF0IGFyZSBzb21lIGdvb2QgcHJvamVjdHMgYmFzZWQgb24gaGVhbHRoIGNhcmU%2FIiwibGsiOiJHaDF3Y205cVpXTjBjeUJpWVhObFpDQnZiaUJvWldGc2RHZ2dZMkZ5WlEiLCJicyI6ImMzM1F2UXZDTUJBRmNGd3pPUWZGRzhSWkJlZmk2T1lnT01xWlh0dVRORmVTLVBfYkQwT1ZpbXZlN3g2UHFJdmFYU3VNZ0o0Z1NFMVFpdVRRZUhtUWlRSHVHQ2dIY1ZBUjJsaUJhVjIyWC1ubFg2RnU2dEMzY29CWUVYaXhCRklBSm9RaGNJam9XdUc2VndrTlI3VFpmcVBYRTFJVE9uWmxSeE5VWjdYOW5tMmUzbE9MajZkeFBLZFJ3LXFGMXNoaldval9pS2VOX1VmVWxMTkJDMUVhTnNNTnBvcS04UWQ0eF9QWkN3IiwiaWQiOiJmY19ac1NiYXBHZExiTE5rUElQNUxUbzBRMF81In0%3D"
+    },
+    {
+      "question": "What is the role of a health assistant in a hospital?",
+      "type": "ai_overview",
+      "page_token": "sZSV-3icHdBbcpswFADQ6WbyaSOw09oznk6JAZsGqJCuwPrpYMk2hMsjDgmgv-6hS-iquprO9Czh_PqDVVv__fS7HIb-bbtcjuO4uHXdDS8L1S2qdlm8za1aqgLxXKh6-_j5kXy9qp33odynu3Ip9L3YpxYzMhXBcEhEOnDS4zk4Dkz49xP4GeUyUug7EJBXgOMq4_V0qqWVO3IP9uZdPhEDNZgL9xn30S-sELiHY2oLL2t6qjGWLC8PzBGdQt1Kex1G-xQvfjTT9rbSiE60D7_LYLWWKJNCYHOeSRIH5asUaCkTvydBPCkieSRkF9XT-lnoPAumObWAUCPcU4NFwqkpiBYqdxuoqRUzQp-5ZtoPG_Xybaa5NLKF0St1oUhcnXL3IL2p4t76Dh7SGCY4GzeN3K6ikBr1gg3w8Ic6CDvNykTDl5nVxxXPqGGWvkbBxtbexqX04ao-ds7D_-vdz2szbPt7d_sHxHKN6w",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=sZSV-3icHdBbcpswFADQ6WbyaSOw09oznk6JAZsGqJCuwPrpYMk2hMsjDgmgv-6hS-iquprO9Czh_PqDVVv__fS7HIb-bbtcjuO4uHXdDS8L1S2qdlm8za1aqgLxXKh6-_j5kXy9qp33odynu3Ip9L3YpxYzMhXBcEhEOnDS4zk4Dkz49xP4GeUyUug7EJBXgOMq4_V0qqWVO3IP9uZdPhEDNZgL9xn30S-sELiHY2oLL2t6qjGWLC8PzBGdQt1Kex1G-xQvfjTT9rbSiE60D7_LYLWWKJNCYHOeSRIH5asUaCkTvydBPCkieSRkF9XT-lnoPAumObWAUCPcU4NFwqkpiBYqdxuoqRUzQp-5ZtoPG_Xybaa5NLKF0St1oUhcnXL3IL2p4t76Dh7SGCY4GzeN3K6ikBr1gg3w8Ic6CDvNykTDl5nVxxXPqGGWvkbBxtbexqX04ao-ds7D_-vdz2szbPt7d_sHxHKN6w",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWMwWm1ZMk15YUhkUWVWUlJiR2hHWDFaNmIzSkdiMGhKT1U1Sk5GcDFibFZoYXpOTmJHa3dSMUpmVkdsemNXazBia0pXZFdnelRGUlBVa1pFTXpWRFkzbE5TRlpqVFdVelNVUjNTVEZWYzJ3eGNIRm1PVEZQZEVsUFFSSVhXbk5UWW1Gd1IyUk1Za3hPYTFCSlVEVk1WRzh3VVRBYUlrRkVjM0k1WmxONWJIWnZiVzR6V1ZsUGNFNVpiRzlYVjBGdWREVkVOWEIxUm1jIiwiZmN2IjoiMyIsImVpIjoiWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTAiLCJxYyI6IkNoaG9aV0ZzZEdnZ1lYTnphWE4wWVc1MElIQnliMnBsWTNRUUFIMGtyd2NfIiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSByb2xlIG9mIGEgaGVhbHRoIGFzc2lzdGFudCBpbiBhIGhvc3BpdGFsPyIsImxrIjoiR2lSb1pXRnNkR2dnWVhOemFYTjBZVzUwSUcxbFlXNXBibWNnYVc0Z2FHOXpjR2wwWVd3IiwiYnMiOiJjMzNRdlF2Q01CQUZjRnd6T1FmRkc4UlpCZWZpNk9ZZ09NcVpYdHVUTkZlUy1QX2JEME9WaW12ZTd4NlBxSXZhWFN1TWdKNGdTRTFRaXVUUWVIbVFpUUh1R0NnSGNWQVIybGlCYVYyMlgtbmxYNkZ1NnRDM2NvQllFWGl4QkZJQUpvUWhjSWpvV3VHNlZ3a05SN1RaZnFQWEUxSVRPblpsUnhOVVo3WDlubTJlM2xPTGo2ZHhQS2RSdy1xRjFzaGpXb2pfaUtlTl9VZlVsTE5CQzFFYU5zTU5wb3EtOFFkNHhfUFpDdyIsImlkIjoiZmNfWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTBfNSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWMwWm1ZMk15YUhkUWVWUlJiR2hHWDFaNmIzSkdiMGhKT1U1Sk5GcDFibFZoYXpOTmJHa3dSMUpmVkdsemNXazBia0pXZFdnelRGUlBVa1pFTXpWRFkzbE5TRlpqVFdVelNVUjNTVEZWYzJ3eGNIRm1PVEZQZEVsUFFSSVhXbk5UWW1Gd1IyUk1Za3hPYTFCSlVEVk1WRzh3VVRBYUlrRkVjM0k1WmxONWJIWnZiVzR6V1ZsUGNFNVpiRzlYVjBGdWREVkVOWEIxUm1jIiwiZmN2IjoiMyIsImVpIjoiWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTAiLCJxYyI6IkNoaG9aV0ZzZEdnZ1lYTnphWE4wWVc1MElIQnliMnBsWTNRUUFIMGtyd2NfIiwicXVlc3Rpb24iOiJXaGF0IGlzIHRoZSByb2xlIG9mIGEgaGVhbHRoIGFzc2lzdGFudCBpbiBhIGhvc3BpdGFsPyIsImxrIjoiR2lSb1pXRnNkR2dnWVhOemFYTjBZVzUwSUcxbFlXNXBibWNnYVc0Z2FHOXpjR2wwWVd3IiwiYnMiOiJjMzNRdlF2Q01CQUZjRnd6T1FmRkc4UlpCZWZpNk9ZZ09NcVpYdHVUTkZlUy1QX2JEME9WaW12ZTd4NlBxSXZhWFN1TWdKNGdTRTFRaXVUUWVIbVFpUUh1R0NnSGNWQVIybGlCYVYyMlgtbmxYNkZ1NnRDM2NvQllFWGl4QkZJQUpvUWhjSWpvV3VHNlZ3a05SN1RaZnFQWEUxSVRPblpsUnhOVVo3WDlubTJlM2xPTGo2ZHhQS2RSdy1xRjFzaGpXb2pfaUtlTl9VZlVsTE5CQzFFYU5zTU5wb3EtOFFkNHhfUFpDdyIsImlkIjoiZmNfWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTBfNSJ9"
+    },
+    {
+      "question": "What are some current AI projects in healthcare?",
+      "type": "ai_overview",
+      "page_token": "ZuB-93icHdBdboIwAADg7DI-KgV10cQsY6P4E-rsL_RlwVZFKZQoW8G33WWn2mm27ADfy_f1bc51-fMgi7ZtbvPRyDk3PFl7MoehssNzPcpvfa1GKjdmn6tyPn2cgqejWkQ3F75YF-5Y0_BX7BE-q1GNNgfTeHkgBWPdRqdFqwm4sjRMScqtLO0985IxA3CbsFUrOeJ7v_jImetJCkHyhzJfLhXQkMYFoGkySSB3SEir_RXILvKOqsKXAi6Rx0MszIbScqyrIkMXEzEa9ahaT6mRVyKQvzezYBuPnQqinkbdWy5Mq7yuQGcgcbkiEDR35q8LFemSxuuEVu2O8GdAIf5MYOTi8zrES9RvhcRI6EkOZ1ZxyCjXhKQGa3YLsMAdu-sdKWU4OKrPRTD4H1u8H6t23lzt6RddHXmL",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=ZuB-93icHdBdboIwAADg7DI-KgV10cQsY6P4E-rsL_RlwVZFKZQoW8G33WWn2mm27ADfy_f1bc51-fMgi7ZtbvPRyDk3PFl7MoehssNzPcpvfa1GKjdmn6tyPn2cgqejWkQ3F75YF-5Y0_BX7BE-q1GNNgfTeHkgBWPdRqdFqwm4sjRMScqtLO0985IxA3CbsFUrOeJ7v_jImetJCkHyhzJfLhXQkMYFoGkySSB3SEir_RXILvKOqsKXAi6Rx0MszIbScqyrIkMXEzEa9ahaT6mRVyKQvzezYBuPnQqinkbdWy5Mq7yuQGcgcbkiEDR35q8LFemSxuuEVu2O8GdAIf5MYOTi8zrES9RvhcRI6EkOZ1ZxyCjXhKQGa3YLsMAdu-sdKWU4OKrPRTD4H1u8H6t23lzt6RddHXmL",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWMwWm1ZMk15YUhkUWVWUlJiR2hHWDFaNmIzSkdiMGhKT1U1Sk5GcDFibFZoYXpOTmJHa3dSMUpmVkdsemNXazBia0pXZFdnelRGUlBVa1pFTXpWRFkzbE5TRlpqVFdVelNVUjNTVEZWYzJ3eGNIRm1PVEZQZEVsUFFSSVhXbk5UWW1Gd1IyUk1Za3hPYTFCSlVEVk1WRzh3VVRBYUlrRkVjM0k1WmxONWJIWnZiVzR6V1ZsUGNFNVpiRzlYVjBGdWREVkVOWEIxUm1jIiwiZmN2IjoiMyIsImVpIjoiWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTAiLCJxYyI6IkNoaG9aV0ZzZEdnZ1lYTnphWE4wWVc1MElIQnliMnBsWTNRUUFIMGtyd2NfIiwicXVlc3Rpb24iOiJXaGF0IGFyZSBzb21lIGN1cnJlbnQgQUkgcHJvamVjdHMgaW4gaGVhbHRoY2FyZT8iLCJsayI6IkdocGhhU0J3Y205cVpXTjBjeUJtYjNJZ2FHVmhiSFJvWTJGeVpRIiwiYnMiOiJjMzNRdlF2Q01CQUZjRnd6T1FmRkc4UlpCZWZpNk9ZZ09NcVpYdHVUTkZlUy1QX2JEME9WaW12ZTd4NlBxSXZhWFN1TWdKNGdTRTFRaXVUUWVIbVFpUUh1R0NnSGNWQVIybGlCYVYyMlgtbmxYNkZ1NnRDM2NvQllFWGl4QkZJQUpvUWhjSWpvV3VHNlZ3a05SN1RaZnFQWEUxSVRPblpsUnhOVVo3WDlubTJlM2xPTGo2ZHhQS2RSdy1xRjFzaGpXb2pfaUtlTl9VZlVsTE5CQzFFYU5zTU5wb3EtOFFkNHhfUFpDdyIsImlkIjoiZmNfWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTBfNSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWMwWm1ZMk15YUhkUWVWUlJiR2hHWDFaNmIzSkdiMGhKT1U1Sk5GcDFibFZoYXpOTmJHa3dSMUpmVkdsemNXazBia0pXZFdnelRGUlBVa1pFTXpWRFkzbE5TRlpqVFdVelNVUjNTVEZWYzJ3eGNIRm1PVEZQZEVsUFFSSVhXbk5UWW1Gd1IyUk1Za3hPYTFCSlVEVk1WRzh3VVRBYUlrRkVjM0k1WmxONWJIWnZiVzR6V1ZsUGNFNVpiRzlYVjBGdWREVkVOWEIxUm1jIiwiZmN2IjoiMyIsImVpIjoiWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTAiLCJxYyI6IkNoaG9aV0ZzZEdnZ1lYTnphWE4wWVc1MElIQnliMnBsWTNRUUFIMGtyd2NfIiwicXVlc3Rpb24iOiJXaGF0IGFyZSBzb21lIGN1cnJlbnQgQUkgcHJvamVjdHMgaW4gaGVhbHRoY2FyZT8iLCJsayI6IkdocGhhU0J3Y205cVpXTjBjeUJtYjNJZ2FHVmhiSFJvWTJGeVpRIiwiYnMiOiJjMzNRdlF2Q01CQUZjRnd6T1FmRkc4UlpCZWZpNk9ZZ09NcVpYdHVUTkZlUy1QX2JEME9WaW12ZTd4NlBxSXZhWFN1TWdKNGdTRTFRaXVUUWVIbVFpUUh1R0NnSGNWQVIybGlCYVYyMlgtbmxYNkZ1NnRDM2NvQllFWGl4QkZJQUpvUWhjSWpvV3VHNlZ3a05SN1RaZnFQWEUxSVRPblpsUnhOVVo3WDlubTJlM2xPTGo2ZHhQS2RSdy1xRjFzaGpXb2pfaUtlTl9VZlVsTE5CQzFFYU5zTU5wb3EtOFFkNHhfUFpDdyIsImlkIjoiZmNfWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTBfNSJ9"
+    },
+    {
+      "question": "What are some good medical topics for a project?",
+      "type": "ai_overview",
+      "page_token": "iJ1B4HicHdBtcqIwAIDh6WX6UwlYdnTG6SyVD9mSlpAEyJ8dCCqYD1J1DPqvd-gR9lR7mu3sDd7n_fwjBy3-Pnz1l4s5r-Zza-3sMI4HuZvxcTboeXO-aT7njZRtw8XK_-GD5z1fh1cevJx4kBNj6AY5hUwzGpuJeXLbxUZgKV0cRwvisboGyHKynMqEhR0OLBLggxxlliXpVKja4SJKcp3aJoksF9BnIi1IMi5aQLeZ2125MpvGBe873B9bL79xMt7YzfGgplOpfy5ghUgOmL8TUd2p3mYhjNo7KwrdpbSkCpO-LGJDqCscKJYAKengMK2QpB-oAEHnHhblBpomjrJOQZ9W0VPlLoc3ClWt0DuV5ty4S914EhWJScO-aziAQ10F36JpwOHTiYQyh2Qi7T1AWTAOOUF3fpSKaOl895RtvJ0ghr9eceiycrqQF3BimvY1oG_MPu75de09_n-9_r1Xl5U5jYd_kDGNoA",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=iJ1B4HicHdBtcqIwAIDh6WX6UwlYdnTG6SyVD9mSlpAEyJ8dCCqYD1J1DPqvd-gR9lR7mu3sDd7n_fwjBy3-Pnz1l4s5r-Zza-3sMI4HuZvxcTboeXO-aT7njZRtw8XK_-GD5z1fh1cevJx4kBNj6AY5hUwzGpuJeXLbxUZgKV0cRwvisboGyHKynMqEhR0OLBLggxxlliXpVKja4SJKcp3aJoksF9BnIi1IMi5aQLeZ2125MpvGBe873B9bL79xMt7YzfGgplOpfy5ghUgOmL8TUd2p3mYhjNo7KwrdpbSkCpO-LGJDqCscKJYAKengMK2QpB-oAEHnHhblBpomjrJOQZ9W0VPlLoc3ClWt0DuV5ty4S914EhWJScO-aziAQ10F36JpwOHTiYQyh2Qi7T1AWTAOOUF3fpSKaOl895RtvJ0ghr9eceiycrqQF3BimvY1oG_MPu75de09_n-9_r1Xl5U5jYd_kDGNoA",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWMwWm1ZMk15YUhkUWVWUlJiR2hHWDFaNmIzSkdiMGhKT1U1Sk5GcDFibFZoYXpOTmJHa3dSMUpmVkdsemNXazBia0pXZFdnelRGUlBVa1pFTXpWRFkzbE5TRlpqVFdVelNVUjNTVEZWYzJ3eGNIRm1PVEZQZEVsUFFSSVhXbk5UWW1Gd1IyUk1Za3hPYTFCSlVEVk1WRzh3VVRBYUlrRkVjM0k1WmxONWJIWnZiVzR6V1ZsUGNFNVpiRzlYVjBGdWREVkVOWEIxUm1jIiwiZmN2IjoiMyIsImVpIjoiWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTAiLCJxYyI6IkNoaG9aV0ZzZEdnZ1lYTnphWE4wWVc1MElIQnliMnBsWTNRUUFIMGtyd2NfIiwicXVlc3Rpb24iOiJXaGF0IGFyZSBzb21lIGdvb2QgbWVkaWNhbCB0b3BpY3MgZm9yIGEgcHJvamVjdD8iLCJsayI6IkdocHRaV1JwWTJGc0lIUnZjR2xqY3lCbWIzSWdjSEp2YW1WamRBIiwiYnMiOiJjMzNRdlF2Q01CQUZjRnd6T1FmRkc4UlpCZWZpNk9ZZ09NcVpYdHVUTkZlUy1QX2JEME9WaW12ZTd4NlBxSXZhWFN1TWdKNGdTRTFRaXVUUWVIbVFpUUh1R0NnSGNWQVIybGlCYVYyMlgtbmxYNkZ1NnRDM2NvQllFWGl4QkZJQUpvUWhjSWpvV3VHNlZ3a05SN1RaZnFQWEUxSVRPblpsUnhOVVo3WDlubTJlM2xPTGo2ZHhQS2RSdy1xRjFzaGpXb2pfaUtlTl9VZlVsTE5CQzFFYU5zTU5wb3EtOFFkNHhfUFpDdyIsImlkIjoiZmNfWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTBfNSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTWMwWm1ZMk15YUhkUWVWUlJiR2hHWDFaNmIzSkdiMGhKT1U1Sk5GcDFibFZoYXpOTmJHa3dSMUpmVkdsemNXazBia0pXZFdnelRGUlBVa1pFTXpWRFkzbE5TRlpqVFdVelNVUjNTVEZWYzJ3eGNIRm1PVEZQZEVsUFFSSVhXbk5UWW1Gd1IyUk1Za3hPYTFCSlVEVk1WRzh3VVRBYUlrRkVjM0k1WmxONWJIWnZiVzR6V1ZsUGNFNVpiRzlYVjBGdWREVkVOWEIxUm1jIiwiZmN2IjoiMyIsImVpIjoiWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTAiLCJxYyI6IkNoaG9aV0ZzZEdnZ1lYTnphWE4wWVc1MElIQnliMnBsWTNRUUFIMGtyd2NfIiwicXVlc3Rpb24iOiJXaGF0IGFyZSBzb21lIGdvb2QgbWVkaWNhbCB0b3BpY3MgZm9yIGEgcHJvamVjdD8iLCJsayI6IkdocHRaV1JwWTJGc0lIUnZjR2xqY3lCbWIzSWdjSEp2YW1WamRBIiwiYnMiOiJjMzNRdlF2Q01CQUZjRnd6T1FmRkc4UlpCZWZpNk9ZZ09NcVpYdHVUTkZlUy1QX2JEME9WaW12ZTd4NlBxSXZhWFN1TWdKNGdTRTFRaXVUUWVIbVFpUUh1R0NnSGNWQVIybGlCYVYyMlgtbmxYNkZ1NnRDM2NvQllFWGl4QkZJQUpvUWhjSWpvV3VHNlZ3a05SN1RaZnFQWEUxSVRPblpsUnhOVVo3WDlubTJlM2xPTGo2ZHhQS2RSdy1xRjFzaGpXb2pfaUtlTl9VZlVsTE5CQzFFYU5zTU5wb3EtOFFkNHhfUFpDdyIsImlkIjoiZmNfWnNTYmFwR2RMYkxOa1BJUDVMVG8wUTBfNSJ9"
+    }
+  ],
+  "ai_overview": {
+    "page_token": "bMAlV3iczVVLcuo4FF1Ar6M9SYLNN3GqXK8k4TiGBFAwIWTi8i-ywR-wIIbM3jp62qvq1bRsMNg05CU96GpV2fpd6R5d3aPz80_fC2d__faHu1zO6S3PJ0lSIVFEfKdiRRUv5A26CS3-LfJpbLk_XF9yPY5Gq9hyPFuy3DgKHG618h0puUBAxSpS74bj5swYyxzxJS_kNu9SnbOoJHCOJ73SoWnMFfvBfOjNBuqg-aBFAha4zIukmwZ1pgzGekp5nWe_2e_1NutUaMX1KiPvw7T7st4dg0pNqNUrfd4ImAH47wqRgcr-YJZWrOCTVggA-QubyXK6FVQLQxjud8hLknYIC23W657dTcnWkBRi1mo3XvXHHmv0tvPtc2gZEFKGn7CfmrlOt4LA-8Jh9ovzxmhXn3Natv7nKCqAeixMno3spNRjYUWDBGC89wGL051S_yn9KVu0LbBOeol3PtAZCAzuH8kQEwDUTw0J1NxuHgIlYXdBeJuwpBV4M2ZVlfcs18oaMU1zGWmiEN23qk_EW8vVLuy-I2FFrgTqjeayXBcS3jKZnR8ZtmPrri78yPrVWrUpiPXrm8uMRBbds4gWWfShqdhta3H9A1QeKrCaUwjtzwHL-BHrw5Mhd3em8MScdxjF-0smWUj34brbBrIQv8KFdwdpzNAhe-B1mgV-Edlh1UkKlcBlFIK7zbzDrZUSHymHfCwnZv_4gEA-WstGYLKHUHqS0LEjBIaEHSw_Wim66euCGHdIOjwiDTXKhtvkmEdyGSHM1gE1JwHKT453PgoUSs_vpuwmQ2bYwWxh9mLlkPL7hp1jp0_gZGGPDng-TeVflc9ptsMBcq4cpX6RMneK89wlo5bq3jxbDVHDa7WpTBRB8TRwmiJRYH5Daaz_FYlyHfIzj3Lh7TsikfwFEjEdIp_p0La906HOTofOkwghcFKHBluDgg4dk0gmJRJ9qkPfJhH-jETb-iSJUh06RaLZORJtVxdINCzrUIlEBx3ak-j7OmT8Sx3KOOVsq7IorabkvDjJz-ZEHeKJMB5MB_e2VbNnL9Qerubyr8XpLVjeBobtX-qefQtrneXGvtTZQHTr2NxCuncMf-leAEo9ujTC5cUgjqaOteQCP44kwWhCgj_aKrxru29gpr9rU1uZkehDiSajnpvcaE7y0vbb_fdw4kx6hkZftUVsPYtDz2wEj6DVX2xEDIPm1XR9xSB77HKfNnAcGtd-v3MdrtGD8qT3jJGyeAmMSexEQ7VhDppiPLPvmzUlSRbV0Fk0p-JINRYNsSVnwKi0eZs0xOtOKPQpF8SWxO6xQUAPgzEBFkATgJknjCL2sVxALYBlyFHL0B36LlWdmiCaotNoiIZZtVpcQJabuVQTORrGUvVvdHFMJA",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=bMAlV3iczVVLcuo4FF1Ar6M9SYLNN3GqXK8k4TiGBFAwIWTi8i-ywR-wIIbM3jp62qvq1bRsMNg05CU96GpV2fpd6R5d3aPz80_fC2d__faHu1zO6S3PJ0lSIVFEfKdiRRUv5A26CS3-LfJpbLk_XF9yPY5Gq9hyPFuy3DgKHG618h0puUBAxSpS74bj5swYyxzxJS_kNu9SnbOoJHCOJ73SoWnMFfvBfOjNBuqg-aBFAha4zIukmwZ1pgzGekp5nWe_2e_1NutUaMX1KiPvw7T7st4dg0pNqNUrfd4ImAH47wqRgcr-YJZWrOCTVggA-QubyXK6FVQLQxjud8hLknYIC23W657dTcnWkBRi1mo3XvXHHmv0tvPtc2gZEFKGn7CfmrlOt4LA-8Jh9ovzxmhXn3Natv7nKCqAeixMno3spNRjYUWDBGC89wGL051S_yn9KVu0LbBOeol3PtAZCAzuH8kQEwDUTw0J1NxuHgIlYXdBeJuwpBV4M2ZVlfcs18oaMU1zGWmiEN23qk_EW8vVLuy-I2FFrgTqjeayXBcS3jKZnR8ZtmPrri78yPrVWrUpiPXrm8uMRBbds4gWWfShqdhta3H9A1QeKrCaUwjtzwHL-BHrw5Mhd3em8MScdxjF-0smWUj34brbBrIQv8KFdwdpzNAhe-B1mgV-Edlh1UkKlcBlFIK7zbzDrZUSHymHfCwnZv_4gEA-WstGYLKHUHqS0LEjBIaEHSw_Wim66euCGHdIOjwiDTXKhtvkmEdyGSHM1gE1JwHKT453PgoUSs_vpuwmQ2bYwWxh9mLlkPL7hp1jp0_gZGGPDng-TeVflc9ptsMBcq4cpX6RMneK89wlo5bq3jxbDVHDa7WpTBRB8TRwmiJRYH5Daaz_FYlyHfIzj3Lh7TsikfwFEjEdIp_p0La906HOTofOkwghcFKHBluDgg4dk0gmJRJ9qkPfJhH-jETb-iSJUh06RaLZORJtVxdINCzrUIlEBx3ak-j7OmT8Sx3KOOVsq7IorabkvDjJz-ZEHeKJMB5MB_e2VbNnL9Qerubyr8XpLVjeBobtX-qefQtrneXGvtTZQHTr2NxCuncMf-leAEo9ujTC5cUgjqaOteQCP44kwWhCgj_aKrxru29gpr9rU1uZkehDiSajnpvcaE7y0vbb_fdw4kx6hkZftUVsPYtDz2wEj6DVX2xEDIPm1XR9xSB77HKfNnAcGtd-v3MdrtGD8qT3jJGyeAmMSexEQ7VhDppiPLPvmzUlSRbV0Fk0p-JINRYNsSVnwKi0eZs0xOtOKPQpF8SWxO6xQUAPgzEBFkATgJknjCL2sVxALYBlyFHL0B36LlWdmiCaotNoiIZZtVpcQJabuVQTORrGUvVvdHFMJA"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Project Idea | Virtual Health Assistant",
+      "url": "https://www.geeksforgeeks.org/websites-apps/project-idea-virtual-health-assistant/",
+      "displayUrl": "https://www.geeksforgeeks.org › ...",
+      "snippet": "It is a web service in which the proposed system tries to eliminate users' need to figure out their disease by giving them access to a ...",
+      "deployingBody": "GeeksforGeeks",
+      "deployingBodyIcon": "bi-journal-code",
+      "badgeColor": "success",
+      "favicon": "https://www.geeksforgeeks.org/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 2,
+      "title": "ahlem-phantom/AI-HealthCare-Assistant",
+      "url": "https://github.com/ahlem-phantom/AI-HealthCare-Assistant",
+      "displayUrl": "https://github.com › ...",
+      "snippet": "About The Project. NearestDoctor is a full-stack, AI-powered healthcare web application that bridges the gap between patients and medical professionals.",
+      "deployingBody": "GitHub Pages",
+      "deployingBodyIcon": "bi-github",
+      "badgeColor": "dark",
+      "favicon": "https://github.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 3,
+      "title": "AI-Powered Health Assistant Project Report | PDF",
+      "url": "https://www.scribd.com/document/828419263/AI-HEALTH-ASSISTANT-PROJECT-BY-TUSHAR-BISANE-2025",
+      "displayUrl": "https://www.scribd.com › ...",
+      "snippet": "The AI-Powered Health Assistant project aims to enhance healthcare accessibility and efficiency through an intelligent system that utilizes AI technologies such ...",
+      "deployingBody": "Scribd Documents",
+      "deployingBodyIcon": "bi-file-earmark-pdf",
+      "badgeColor": "info",
+      "favicon": "https://www.scribd.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 4,
+      "title": "(PDF) AI Based Healthcare Assistant",
+      "url": "https://www.researchgate.net/publication/390545600_AI_Based_Healthcare_Assistant",
+      "displayUrl": "https://www.researchgate.net › ...",
+      "snippet": "The ALICE: Your Health Assistant project aims to revolutionize the healthcare experience by developing an intelligent hospital assistant ...",
+      "deployingBody": "Researchgate.net",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://www.researchgate.net/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 5,
+      "title": "AI Powered HealthCare Assistant Capstone Project",
+      "url": "https://www.kaggle.com/code/khusilama/ai-powered-healthcare-assistant-capstone-project",
+      "displayUrl": "https://www.kaggle.com › ...",
+      "snippet": "This project aims to leverage generative AI to create a virtual healthcare assistant that can: Summarize medical records; Suggest possible ...",
+      "deployingBody": "Kaggle Community",
+      "deployingBodyIcon": "bi-clipboard-data",
+      "badgeColor": "info",
+      "favicon": "https://www.kaggle.com/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 6,
+      "title": "Report for AI powered healthcare Assistant.pdf",
+      "url": "https://www.slideshare.net/slideshow/report-for-ai-powered-healthcare-assistant-pdf/277124833",
+      "displayUrl": "https://www.slideshare.net › ...",
+      "snippet": "To address this issue, I have developed an AI-powered Healthcare Assistant Chatbot. This chatbot uses advanced AI to give users accurate health information ...",
+      "deployingBody": "Slideshare.net",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://www.slideshare.net/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 7,
+      "title": "AI Powered Healthcare Assistant Using Machine Learning ...",
+      "url": "https://ieeexplore.ieee.org/document/11069506/",
+      "displayUrl": "https://ieeexplore.ieee.org › ...",
+      "snippet": "This project presents an AI-powered healthcare chatbot designed to assist users in the preliminary diagnosis of health conditions and provide basic medical ...",
+      "deployingBody": "Ieeexplore.ieee.org",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://ieeexplore.ieee.org/favicon.ico",
+      "sitelinks": []
+    },
+    {
+      "position": 8,
+      "title": "Build Your Own AI Health Assistant, Part II - Medium",
+      "url": "https://jaredzimmerman.medium.com/build-your-own-ai-health-assistant-part-ii-65f559c44b94",
+      "displayUrl": "11 माह पहले",
+      "snippet": "If haven't read my previous article Build Your Own AI Health Assistant, then go do that first, but come back here before you start to build.",
+      "deployingBody": "Jaredzimmerman.medium.com",
+      "deployingBodyIcon": "bi-globe",
+      "badgeColor": "secondary",
+      "favicon": "https://jaredzimmerman.medium.com/favicon.ico",
+      "sitelinks": []
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "AI-powered healthcare assistant project GitHub",
+      "link": "https://www.google.co.in/search?sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&q=AI-powered+healthcare+assistant+project+GitHub&sa=X&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ1QJ6BAhBEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=AI-powered+healthcare+assistant+project+GitHub"
+    },
+    {
+      "block_position": 1,
+      "query": "AI-powered healthcare Assistant project PDF",
+      "link": "https://www.google.co.in/search?sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&q=AI-powered+healthcare+Assistant+project+PDF&sa=X&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ1QJ6BAg9EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=AI-powered+healthcare+Assistant+project+PDF"
+    },
+    {
+      "block_position": 1,
+      "query": "Virtual health assistant project",
+      "link": "https://www.google.co.in/search?sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&q=Virtual+health+assistant+project&sa=X&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ1QJ6BAhIEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Virtual+health+assistant+project"
+    },
+    {
+      "block_position": 1,
+      "query": "AI healthcare assistant",
+      "link": "https://www.google.co.in/search?sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&q=AI+healthcare+assistant&sa=X&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ1QJ6BAhAEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=AI+healthcare+assistant"
+    },
+    {
+      "block_position": 1,
+      "query": "AI healthcare projects GitHub",
+      "link": "https://www.google.co.in/search?sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&q=AI+healthcare+projects+GitHub&sa=X&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ1QJ6BAhHEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=AI+healthcare+projects+GitHub"
+    },
+    {
+      "block_position": 1,
+      "query": "Medical assistant project github",
+      "link": "https://www.google.co.in/search?sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&q=Medical+assistant+project+github&sa=X&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ1QJ6BAhCEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Medical+assistant+project+github"
+    },
+    {
+      "block_position": 1,
+      "query": "AI health Assistant app",
+      "link": "https://www.google.co.in/search?sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&q=AI+health+Assistant+app&sa=X&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ1QJ6BAhJEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=AI+health+Assistant+app"
+    },
+    {
+      "block_position": 1,
+      "query": "Ai health engine project",
+      "link": "https://www.google.co.in/search?sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&q=Ai+health+engine+project&sa=X&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ1QJ6BAhFEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Ai+health+engine+project"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=Health+Assistant+Project&sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&ei=ZsSbapGdLbLNkPIP5LTo0Q0&start=10&sa=N&sstk=AS6-VmKO4-LSdvlHFSpk7zpSvpPpIIiZuKGh4MVeyp2-9IerW6bT--Xpn8IC20c37jNm0abFfnn5KuIiQ-6qYffxJEpYv89rcPZncQ&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ8NMDegQIPhAW",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=Health+Assistant+Project&sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&ei=ZsSbapGdLbLNkPIP5LTo0Q0&start=10&sa=N&sstk=AS6-VmKO4-LSdvlHFSpk7zpSvpPpIIiZuKGh4MVeyp2-9IerW6bT--Xpn8IC20c37jNm0abFfnn5KuIiQ-6qYffxJEpYv89rcPZncQ&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ8tMDegQIPhAE",
+      "3": "https://www.google.co.in/search?q=Health+Assistant+Project&sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&ei=ZsSbapGdLbLNkPIP5LTo0Q0&start=20&sa=N&sstk=AS6-VmKO4-LSdvlHFSpk7zpSvpPpIIiZuKGh4MVeyp2-9IerW6bT--Xpn8IC20c37jNm0abFfnn5KuIiQ-6qYffxJEpYv89rcPZncQ&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ8tMDegQIPhAG",
+      "4": "https://www.google.co.in/search?q=Health+Assistant+Project&sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&ei=ZsSbapGdLbLNkPIP5LTo0Q0&start=30&sa=N&sstk=AS6-VmKO4-LSdvlHFSpk7zpSvpPpIIiZuKGh4MVeyp2-9IerW6bT--Xpn8IC20c37jNm0abFfnn5KuIiQ-6qYffxJEpYv89rcPZncQ&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ8tMDegQIPhAI",
+      "5": "https://www.google.co.in/search?q=Health+Assistant+Project&sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&ei=ZsSbapGdLbLNkPIP5LTo0Q0&start=40&sa=N&sstk=AS6-VmKO4-LSdvlHFSpk7zpSvpPpIIiZuKGh4MVeyp2-9IerW6bT--Xpn8IC20c37jNm0abFfnn5KuIiQ-6qYffxJEpYv89rcPZncQ&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ8tMDegQIPhAK",
+      "6": "https://www.google.co.in/search?q=Health+Assistant+Project&sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&ei=ZsSbapGdLbLNkPIP5LTo0Q0&start=50&sa=N&sstk=AS6-VmKO4-LSdvlHFSpk7zpSvpPpIIiZuKGh4MVeyp2-9IerW6bT--Xpn8IC20c37jNm0abFfnn5KuIiQ-6qYffxJEpYv89rcPZncQ&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ8tMDegQIPhAM",
+      "7": "https://www.google.co.in/search?q=Health+Assistant+Project&sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&ei=ZsSbapGdLbLNkPIP5LTo0Q0&start=60&sa=N&sstk=AS6-VmKO4-LSdvlHFSpk7zpSvpPpIIiZuKGh4MVeyp2-9IerW6bT--Xpn8IC20c37jNm0abFfnn5KuIiQ-6qYffxJEpYv89rcPZncQ&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ8tMDegQIPhAO",
+      "8": "https://www.google.co.in/search?q=Health+Assistant+Project&sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&ei=ZsSbapGdLbLNkPIP5LTo0Q0&start=70&sa=N&sstk=AS6-VmKO4-LSdvlHFSpk7zpSvpPpIIiZuKGh4MVeyp2-9IerW6bT--Xpn8IC20c37jNm0abFfnn5KuIiQ-6qYffxJEpYv89rcPZncQ&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ8tMDegQIPhAQ",
+      "9": "https://www.google.co.in/search?q=Health+Assistant+Project&sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&ei=ZsSbapGdLbLNkPIP5LTo0Q0&start=80&sa=N&sstk=AS6-VmKO4-LSdvlHFSpk7zpSvpPpIIiZuKGh4MVeyp2-9IerW6bT--Xpn8IC20c37jNm0abFfnn5KuIiQ-6qYffxJEpYv89rcPZncQ&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ8tMDegQIPhAS",
+      "10": "https://www.google.co.in/search?q=Health+Assistant+Project&sca_esv=1e209b9e449ab1c6&hl=hi&gl=in&sxsrf=APpeQnvL_crkMtOq7L1xSVtNYAjE2Ud6mw:1788593254747&ei=ZsSbapGdLbLNkPIP5LTo0Q0&start=90&sa=N&sstk=AS6-VmKO4-LSdvlHFSpk7zpSvpPpIIiZuKGh4MVeyp2-9IerW6bT--Xpn8IC20c37jNm0abFfnn5KuIiQ-6qYffxJEpYv89rcPZncQ&ved=2ahUKEwiR6OKM9daWAxWyJkQIHWQaOtoQ8tMDegQIPhAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Health+Assistant+Project&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Health+Assistant+Project&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Health+Assistant+Project&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Health+Assistant+Project&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Health+Assistant+Project&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Health+Assistant+Project&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Health+Assistant+Project&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Health+Assistant+Project&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Health+Assistant+Project&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Health+Assistant+Project&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Health+Assistant+Project&start=90"
+    }
+  }
+}

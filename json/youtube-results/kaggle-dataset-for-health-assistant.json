@@ -1,0 +1,611 @@
+{
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "Kaggle dataset for Health Assistant"
+  },
+  "search_information": {
+    "total_results": 1458,
+    "video_results_state": "Results for exact spelling"
+  },
+  "video_results": [
+    {
+      "title": "How to Find and Use Kaggle Datasets in Your Project | Kaggle Datasets for Data Science & ML",
+      "url": "https://www.youtube.com/watch?v=krkS9u140tM",
+      "videoId": "krkS9u140tM",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/krkS9u140tM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8VUMgTFywswiwE6_uqdWB0yUfAg",
+        "rich": "https://i.ytimg.com/an_webp/krkS9u140tM/mqdefault_6s.webp?du=3000&sqp=CPr_7tQG&rs=AOn4CLDwrRiQo5nfDvKQn5QIpXFDwQBclQ"
+      },
+      "duration": "9:57",
+      "channelTitle": "ProgrammingKnowledge",
+      "channelVerified": true,
+      "views": "112,429 views",
+      "uploadedTime": "1 year ago",
+      "description": "Want to use real-world datasets for your data science and machine learning projects?** Kaggle is the perfect place to find free ..."
+    },
+    {
+      "title": "Where to find the Best Healthcare Data",
+      "url": "https://www.youtube.com/watch?v=1ql4kNv0_qY",
+      "videoId": "1ql4kNv0_qY",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/1ql4kNv0_qY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7wre89i_6uQrcv7z_yzP3OGQPiw",
+        "rich": "https://i.ytimg.com/an_webp/1ql4kNv0_qY/mqdefault_6s.webp?du=3000&sqp=CPDp7tQG&rs=AOn4CLBxVLMg_xLROXaWpzQYgsCn0zet5w"
+      },
+      "duration": "7:51",
+      "channelTitle": "Alex The Analyst",
+      "channelVerified": true,
+      "views": "12,568 views",
+      "uploadedTime": "1 year ago",
+      "description": "In this video I'm going to show you where you can find Healthcare data for just about anything you could imagine! Websites: ..."
+    },
+    {
+      "title": "Best Places to Find Datasets for Your Projects",
+      "url": "https://www.youtube.com/watch?v=PExdWWcxmro",
+      "videoId": "PExdWWcxmro",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/PExdWWcxmro/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmfP7KdOKp0jHJa8Z0E8IvIWiT2A",
+        "rich": "https://i.ytimg.com/an_webp/PExdWWcxmro/mqdefault_6s.webp?du=3000&sqp=CPbd7tQG&rs=AOn4CLCr0DsyqMsk3g259f7FJiMz1dfF4Q"
+      },
+      "duration": "7:44",
+      "channelTitle": "Alex The Analyst",
+      "channelVerified": true,
+      "views": "286,259 views",
+      "uploadedTime": "3 years ago",
+      "description": "Looking for Datasets for a project? Here are some great options that I've used for a lot of my personal projects. Links: 1."
+    },
+    {
+      "title": "How to access datasets on Kaggle to build your machine learning models?",
+      "url": "https://www.youtube.com/watch?v=F7F31wvyEtY",
+      "videoId": "F7F31wvyEtY",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/F7F31wvyEtY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdCGT8Xfe_FK8YIcfbsYZ3hRc3jQ",
+        "rich": "https://i.ytimg.com/an_webp/F7F31wvyEtY/mqdefault_6s.webp?du=3000&sqp=CN6L79QG&rs=AOn4CLDHwTHYhjPEcNhvStWjzlizVoP7IQ"
+      },
+      "duration": "4:05",
+      "channelTitle": "AI Planet",
+      "channelVerified": false,
+      "views": "220,639 views",
+      "uploadedTime": "6 years ago",
+      "description": "Kaggle url: https://www.kaggle.com/ Dataset url: https://www.kaggle.com/uciml/indian-liver-patient-records ------ Connect with us- ..."
+    },
+    {
+      "title": "Getting Started on Kaggle: Writing code to analyze a dataset | Kaggle",
+      "url": "https://www.youtube.com/watch?v=fvF2H85ko9c",
+      "videoId": "fvF2H85ko9c",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/fvF2H85ko9c/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvhN7sort7HGbEww4DSrkgW9meCQ",
+        "rich": "https://i.ytimg.com/an_webp/fvF2H85ko9c/mqdefault_6s.webp?du=3000&sqp=CP_07tQG&rs=AOn4CLA3P7bPpme2qgRsskUJJItNeoj86w"
+      },
+      "duration": "4:54",
+      "channelTitle": "Kaggle",
+      "channelVerified": false,
+      "views": "65,155 views",
+      "uploadedTime": "7 years ago",
+      "description": "In this video, Kaggle Data Scientist Rachael shows you how to analyze Kaggle datasets in Kaggle Kernels, our in-browser ..."
+    },
+    {
+      "title": "Kaggle Dataset Competition Tutorial using Excel for Beginners",
+      "url": "https://www.youtube.com/watch?v=YvVEvmzUw2Q",
+      "videoId": "YvVEvmzUw2Q",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/YvVEvmzUw2Q/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRRX15jo8oxzB-vAEY9ljHUA6UOg",
+        "rich": "https://i.ytimg.com/an_webp/YvVEvmzUw2Q/mqdefault_6s.webp?du=3000&sqp=COjP7tQG&rs=AOn4CLDs0RCwyBVk1BUl48T3KgGQejEerQ"
+      },
+      "duration": "26:51",
+      "channelTitle": "Skills With Sid",
+      "channelVerified": false,
+      "views": "12,956 views",
+      "uploadedTime": "2 years ago",
+      "description": "In this video we tackle a dataset in Kaggle using Excel utilising feature engineering to create new custom fields that can help in ..."
+    },
+    {
+      "title": "How to Use Kaggle for Data Analysis",
+      "url": "https://www.youtube.com/watch?v=5oJkvTViXgY",
+      "videoId": "5oJkvTViXgY",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/5oJkvTViXgY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCxX2_D55y-wWmhBLsz9Lco9G0Uow",
+        "rich": "https://i.ytimg.com/an_webp/5oJkvTViXgY/mqdefault_6s.webp?du=3000&sqp=CL707tQG&rs=AOn4CLCi7dwX_7wXF6kCx6nHZTI8I1d3-A"
+      },
+      "duration": "9:51",
+      "channelTitle": "Usman Ahmad",
+      "channelVerified": false,
+      "views": "31,234 views",
+      "uploadedTime": "3 years ago",
+      "description": "In this video, I will show you how to use Kaggle, the world's largest data science community, for data analysis. Kaggle offers a vast ..."
+    },
+    {
+      "title": "How To DOWNLOAD DATASET From Kaggle (QUICK & EASY) 2026",
+      "url": "https://www.youtube.com/watch?v=H3vP90hM1aI",
+      "videoId": "H3vP90hM1aI",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/H3vP90hM1aI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxwEvW-Au62q703m1jA7K_nEF5fg",
+        "rich": "https://i.ytimg.com/an_webp/H3vP90hM1aI/mqdefault_6s.webp?du=3000&sqp=CMzr7tQG&rs=AOn4CLDa6G5qRTIoPBfJJ5PL8AMdKKed4g"
+      },
+      "duration": "0:41",
+      "channelTitle": "InstantHowTo",
+      "channelVerified": false,
+      "views": "5,314 views",
+      "uploadedTime": "8 months ago",
+      "description": "How To DOWNLOAD Dataset From Kaggle (QUICK & EASY) 2026 In this video, I'll show you how to download a dataset from ..."
+    },
+    {
+      "title": "What's Kaggle?",
+      "url": "https://www.youtube.com/watch?v=TNzDMOg_zsw",
+      "videoId": "TNzDMOg_zsw",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/TNzDMOg_zsw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAB-oNR95Adms6odnZkm1wFqF5Pqg",
+        "rich": "https://i.ytimg.com/an_webp/TNzDMOg_zsw/mqdefault_6s.webp?du=3000&sqp=CNyC79QG&rs=AOn4CLAfZQbHpCArINpMJJW1m6SoBVIKhg"
+      },
+      "duration": "1:02",
+      "channelTitle": "Kaggle",
+      "channelVerified": false,
+      "views": "699,996 views",
+      "uploadedTime": "7 years ago",
+      "description": "Stop staring at a blank cell. Kaggle makes it easy to start your next data science project with MORE than just a blinking cursor."
+    },
+    {
+      "title": "Pandas Project : World Health Statistics Dataset from Kaggle | Pandas | Pandas Data Science Tutorial",
+      "url": "https://www.youtube.com/watch?v=V6sc-HGzBxE",
+      "videoId": "V6sc-HGzBxE",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/V6sc-HGzBxE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLChTOIi65F87ZpPJ_ah-QETRZwa6A"
+      },
+      "duration": "9:33",
+      "channelTitle": "CodeHaven",
+      "channelVerified": false,
+      "views": "1,083 views",
+      "uploadedTime": "5 years ago",
+      "description": "Pandas Project : On World Health Statistics Dataset from Kaggle | Pandas for Beginners | Pandas Data Science Tutorial Hey there ..."
+    },
+    {
+      "title": "Earn Dataset Medals on Kaggle!  How to get data from the CDC NHANES survey",
+      "url": "https://www.youtube.com/watch?v=qgWkrv7AYxI",
+      "videoId": "qgWkrv7AYxI",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/qgWkrv7AYxI/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgTIE8ofzAP&rs=AOn4CLBZVlQ3hQQlT8gWdjHWX1D9SHsYGw",
+        "rich": "https://i.ytimg.com/an_webp/qgWkrv7AYxI/mqdefault_6s.webp?du=3000&sqp=CLKD79QG&rs=AOn4CLAAa-D1y3FSkg2yKUbf7OcY7Ofi-A"
+      },
+      "duration": "4:50",
+      "channelTitle": "Amy Does Data",
+      "channelVerified": false,
+      "views": "566 views",
+      "uploadedTime": "3 years ago",
+      "description": "In this tutorial, I'll walk you through the process of bringing data from the National Health and Nutrition Examination Survey ..."
+    },
+    {
+      "title": "How to Use Kaggle For Learning Data Science? | GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=u9MIwoFWXVg",
+      "videoId": "u9MIwoFWXVg",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/u9MIwoFWXVg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7vIMBmzyWwQMkADXQmI2doxUWgA",
+        "rich": "https://i.ytimg.com/an_webp/u9MIwoFWXVg/mqdefault_6s.webp?du=3000&sqp=CIiN79QG&rs=AOn4CLDu_hco_BXjkF873sNP7RMFJF2jXg"
+      },
+      "duration": "17:04",
+      "channelTitle": "GeeksforGeeks",
+      "channelVerified": true,
+      "views": "194,211 views",
+      "uploadedTime": "5 years ago",
+      "description": "In this video, we're going to discuss How we can use Kaggle to learn Data Science. Kaggle is an online community devoted to ..."
+    },
+    {
+      "title": "Getting Started on Kaggle: Finding datasets | Kaggle",
+      "url": "https://www.youtube.com/watch?v=r-KlpAunhgg",
+      "videoId": "r-KlpAunhgg",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/r-KlpAunhgg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhbTMGfp3r6t4Rby8tj-mEHwxkLg"
+      },
+      "duration": "1:05",
+      "channelTitle": "Kaggle",
+      "channelVerified": false,
+      "views": "22,551 views",
+      "uploadedTime": "7 years ago",
+      "description": "In this video, Kaggle Data Scientist Rachael shows you how to search for the perfect dataset for your project using Kaggle's ..."
+    },
+    {
+      "title": "How To DOWNLOAD DATASET From Kaggle To Excel (QUICK & EASY) 2026",
+      "url": "https://www.youtube.com/watch?v=5vHn5f8uWA0",
+      "videoId": "5vHn5f8uWA0",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/5vHn5f8uWA0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBkGsJB8PDc5iW1Do7g70D_hA3ACQ",
+        "rich": "https://i.ytimg.com/an_webp/5vHn5f8uWA0/mqdefault_6s.webp?du=3000&sqp=CPj47tQG&rs=AOn4CLBTOaro3sKHvddQM0v-_1bToBdZow"
+      },
+      "duration": "1:05",
+      "channelTitle": "InstantHowTo",
+      "channelVerified": false,
+      "views": "3,801 views",
+      "uploadedTime": "3 months ago",
+      "description": "How To DOWNLOAD DATASET From Kaggle To Excel (QUICK & EASY) 2026 In this video, I'll show you how to download dataset ..."
+    },
+    {
+      "title": "Kaggle Dataset Competition Tutorial using Excel for Data Analysis - Jobs Data in Australia - Part 1",
+      "url": "https://www.youtube.com/watch?v=TDpX8o6YplU",
+      "videoId": "TDpX8o6YplU",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/TDpX8o6YplU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7GFySfF2Ek-gPK1f8QO01lcmfdw",
+        "rich": "https://i.ytimg.com/an_webp/TDpX8o6YplU/mqdefault_6s.webp?du=3000&sqp=COiO79QG&rs=AOn4CLAPpjpDD6pST9ph-vFHj3BzbG0GSQ"
+      },
+      "duration": "22:12",
+      "channelTitle": "Skills With Sid",
+      "channelVerified": false,
+      "views": "866 views",
+      "uploadedTime": "10 months ago",
+      "description": "We revisit Kaggle and this time explore jobs data from Australia. Great for those who want to build data analysis skills for ..."
+    },
+    {
+      "title": "How to use Kaggle Datasets directly in Colab",
+      "url": "https://www.youtube.com/watch?v=s9O6soJES74",
+      "videoId": "s9O6soJES74",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/s9O6soJES74/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMNGQhWXJ2zSyPJO-HnhwhfmhidQ",
+        "rich": "https://i.ytimg.com/an_webp/s9O6soJES74/mqdefault_6s.webp?du=3000&sqp=CJTk7tQG&rs=AOn4CLAsKYYSQCX19C8ZBmRgSAjph1byyA"
+      },
+      "duration": "4:56",
+      "channelTitle": "Omar M. Atef",
+      "channelVerified": false,
+      "views": "46,659 views",
+      "uploadedTime": "2 years ago",
+      "description": "In this lecture, we will learn how to load datasets from Kaggle directly to Google Colab. This way is easier and more efficient than ..."
+    },
+    {
+      "title": "CS480/680 Lecture 6: Kaggle datasets and competitions",
+      "url": "https://www.youtube.com/watch?v=WoLTLru_UBI",
+      "videoId": "WoLTLru_UBI",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/WoLTLru_UBI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCseD7nND2OVUGP8AxUoi4rnbhz1Q",
+        "rich": "https://i.ytimg.com/an_webp/WoLTLru_UBI/mqdefault_6s.webp?du=3000&sqp=CIiD79QG&rs=AOn4CLBM_YhAVE1Bm4IBIcyDq4Y2kF63vQ"
+      },
+      "duration": "6:00",
+      "channelTitle": "Pascal Poupart",
+      "channelVerified": false,
+      "views": "2,342 views",
+      "uploadedTime": "7 years ago",
+      "description": "... to be their data sets so they maintain almost 17000 data sets from current and close competitions so even after a competition is ..."
+    },
+    {
+      "title": "How to Add Kaggle Dataset to Kaggle Notebook | Load & Use Datasets in Kaggle Kernel | Iris data",
+      "url": "https://www.youtube.com/watch?v=vwquYLDVzHU",
+      "videoId": "vwquYLDVzHU",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/vwquYLDVzHU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlMpu0j5R98qM1Tdp-sLaIrVUrjg",
+        "rich": "https://i.ytimg.com/an_webp/vwquYLDVzHU/mqdefault_6s.webp?du=3000&sqp=CJH37tQG&rs=AOn4CLBmOlMs9kwtzil8n03qIPLrh5Zywg"
+      },
+      "duration": "1:33",
+      "channelTitle": "Code and Circuits",
+      "channelVerified": false,
+      "views": "21,431 views",
+      "uploadedTime": "1 year ago",
+      "description": "Learn how to add and use Kaggle datasets in Kaggle Notebooks (Kaggle Kernel)! In this step-by-step tutorial, I'll show you how to ..."
+    },
+    {
+      "title": "How to Enter a Kaggle Competition (using Kernels) | Kaggle",
+      "url": "https://www.youtube.com/watch?v=GJBOMWpLpTQ&list=PLqFaTIg4myu8gbDh6oBl7XRYNBlthpDEW",
+      "thumbnail": "https://i.ytimg.com/vi/GJBOMWpLpTQ/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDptO2ONN5-EBq6sroLI1J_sOoVUw",
+      "duration": "7:10",
+      "channelTitle": "Kaggle",
+      "channelVerified": true,
+      "views": "Playlist Collection",
+      "uploadedTime": "Curated",
+      "description": "Video playlist: Getting Started on Kaggle | Kaggle"
+    },
+    {
+      "title": "Kaggle Etiquette | Kaggle",
+      "url": "https://www.youtube.com/watch?v=aIus8si_Et0&list=PLqFaTIg4myu8gbDh6oBl7XRYNBlthpDEW",
+      "thumbnail": "https://i.ytimg.com/vi/GJBOMWpLpTQ/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDptO2ONN5-EBq6sroLI1J_sOoVUw",
+      "duration": "11:45",
+      "channelTitle": "Kaggle",
+      "channelVerified": true,
+      "views": "Playlist Collection",
+      "uploadedTime": "Curated",
+      "description": "Video playlist: Getting Started on Kaggle | Kaggle"
+    },
+    {
+      "title": "Let's Build 3 Fintech Projects | Weekend Projects | Python",
+      "url": "https://www.youtube.com/watch?v=HmBeJ3rw2Vo&list=PL9n0l8rSshSnZHFChXIG5Q9f0UN8O-UYX",
+      "thumbnail": "https://i.ytimg.com/vi/HmBeJ3rw2Vo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC6ZWroInD_9a1g7TjR-lAeLSzXSg",
+      "duration": "1:42:46",
+      "channelTitle": "Build with Akshit",
+      "channelVerified": true,
+      "views": "Playlist Collection",
+      "uploadedTime": "Curated",
+      "description": "Video playlist: Kaggle Datasets Analysis"
+    },
+    {
+      "title": "I analysed Sleep Data | Data Science Project in 1 hr🔥",
+      "url": "https://www.youtube.com/watch?v=LO3SO2aj4_s&list=PL9n0l8rSshSnZHFChXIG5Q9f0UN8O-UYX",
+      "thumbnail": "https://i.ytimg.com/vi/HmBeJ3rw2Vo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC6ZWroInD_9a1g7TjR-lAeLSzXSg",
+      "duration": "56:28",
+      "channelTitle": "Build with Akshit",
+      "channelVerified": true,
+      "views": "Playlist Collection",
+      "uploadedTime": "Curated",
+      "description": "Video playlist: Kaggle Datasets Analysis"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 3,
+      "shorts": [
+        {
+          "title": "Does Kaggle Have Everything You Need to Start? #shorts",
+          "link": "https://www.youtube.com/shorts/SvOs5PP_OCo",
+          "thumbnail": "https://i.ytimg.com/vi/SvOs5PP_OCo/frame0.jpg",
+          "views_original": "55 views",
+          "views": 55,
+          "video_id": "SvOs5PP_OCo"
+        },
+        {
+          "title": "Learn to explore Datasets on Kaggle!! #technology2025 #aishorts #data",
+          "link": "https://www.youtube.com/shorts/nM3N3NN7kIw",
+          "thumbnail": "https://i.ytimg.com/vi/nM3N3NN7kIw/frame0.jpg",
+          "views_original": "147 views",
+          "views": 147,
+          "video_id": "nM3N3NN7kIw"
+        },
+        {
+          "title": "Fine k-NN for Asthma Detection 👂 #AI #Python #MachineLearning #healthcareai",
+          "link": "https://www.youtube.com/shorts/PWHN70y2d3I",
+          "thumbnail": "https://i.ytimg.com/vi/PWHN70y2d3I/frame0.jpg",
+          "views_original": "14 views",
+          "views": 14,
+          "video_id": "PWHN70y2d3I"
+        },
+        {
+          "title": "DIRECTLY Import Kaggle Datasets to VSCode",
+          "link": "https://www.youtube.com/shorts/XpvGk08Ejv4",
+          "thumbnail": "https://i.ytimg.com/vi/XpvGk08Ejv4/frame0.jpg",
+          "views_original": "12K views",
+          "views": 12000,
+          "video_id": "XpvGk08Ejv4"
+        },
+        {
+          "title": "This Is Why Kaggle Datasets Confuse Beginners|Day 23",
+          "link": "https://www.youtube.com/shorts/ZiZK4k2VQ7o",
+          "thumbnail": "https://i.ytimg.com/vi/ZiZK4k2VQ7o/frame0.jpg",
+          "views_original": "293 views",
+          "views": 293,
+          "video_id": "ZiZK4k2VQ7o"
+        }
+      ]
+    },
+    {
+      "position_on_page": 8,
+      "shorts": [
+        {
+          "title": "Download free Dataset from Kaggle | Dataset | Excel Data",
+          "link": "https://www.youtube.com/shorts/H5ZjuRj28l8",
+          "thumbnail": "https://i.ytimg.com/vi/H5ZjuRj28l8/frame0.jpg",
+          "views_original": "37K views",
+          "views": 37000,
+          "video_id": "H5ZjuRj28l8"
+        },
+        {
+          "title": "Decision Tree AI Detects Lung Sounds 🌳 Python Healthcare #ai #viralshorts  #biomedicalai #shorts",
+          "link": "https://www.youtube.com/shorts/r7_F6Cp8evU",
+          "thumbnail": "https://i.ytimg.com/vi/r7_F6Cp8evU/frame0.jpg",
+          "views_original": "16 views",
+          "views": 16,
+          "video_id": "r7_F6Cp8evU"
+        },
+        {
+          "title": "How To Find Good Datasets (Kaggle)",
+          "link": "https://www.youtube.com/shorts/uzcadVYZnRM",
+          "thumbnail": "https://i.ytimg.com/vi/uzcadVYZnRM/frame0.jpg",
+          "views_original": "30K views",
+          "views": 30000,
+          "video_id": "uzcadVYZnRM"
+        },
+        {
+          "title": "How To Download Kaggle Datasets In Jupyter Notebook Fast!",
+          "link": "https://www.youtube.com/shorts/lWCwRbIhxKg",
+          "thumbnail": "https://i.ytimg.com/vi/lWCwRbIhxKg/frame0.jpg",
+          "views_original": "7.9K views",
+          "views": 7900,
+          "video_id": "lWCwRbIhxKg"
+        },
+        {
+          "title": "Best places to find the datasets for data science projects #datascience #shorts #ytshorts",
+          "link": "https://www.youtube.com/shorts/y79WBVvjc7I",
+          "thumbnail": "https://i.ytimg.com/vi/y79WBVvjc7I/frame0.jpg",
+          "views_original": "562 views",
+          "views": 562,
+          "video_id": "y79WBVvjc7I"
+        },
+        {
+          "title": "How to Download 🧐 Any Dataset from Kaggle (Beginner Friendly)",
+          "link": "https://www.youtube.com/shorts/mzWUvBpMXrU",
+          "thumbnail": "https://i.ytimg.com/vi/mzWUvBpMXrU/frame0.jpg",
+          "views_original": "18K views",
+          "views": 18000,
+          "video_id": "mzWUvBpMXrU"
+        },
+        {
+          "title": "How to download datasets from Kaggle #datascience #sql",
+          "link": "https://www.youtube.com/shorts/l_M4EYpCcz0",
+          "thumbnail": "https://i.ytimg.com/vi/l_M4EYpCcz0/frame0.jpg",
+          "views_original": "37K views",
+          "views": 37000,
+          "video_id": "l_M4EYpCcz0"
+        },
+        {
+          "title": "Free Datasets- Start your journey from inbuilt dataset . Career learning opportunities",
+          "link": "https://www.youtube.com/shorts/2Em5vBNaCqE",
+          "thumbnail": "https://i.ytimg.com/vi/2Em5vBNaCqE/frame0.jpg",
+          "views_original": "158 views",
+          "views": 158,
+          "video_id": "2Em5vBNaCqE"
+        },
+        {
+          "title": "How to Import Kaggle Datasets into Google Colab Using Just 2 Commands #shorts #viralvideo #trending",
+          "link": "https://www.youtube.com/shorts/Dvh1gLZJUFs",
+          "thumbnail": "https://i.ytimg.com/vi/Dvh1gLZJUFs/frame0.jpg",
+          "views_original": "26K views",
+          "views": 26000,
+          "video_id": "Dvh1gLZJUFs"
+        },
+        {
+          "title": "How to find dataset for your machine learning study #kaggledatasets #machinelearning #datacollection",
+          "link": "https://www.youtube.com/shorts/2gOis0D6XU4",
+          "thumbnail": "https://i.ytimg.com/vi/2gOis0D6XU4/frame0.jpg",
+          "views_original": "37K views",
+          "views": 37000,
+          "video_id": "2gOis0D6XU4"
+        },
+        {
+          "title": "Statistical Analysis On Kaggle Dataset I Machine Learning and Data Science Project",
+          "link": "https://www.youtube.com/shorts/ph4efibKqns",
+          "thumbnail": "https://i.ytimg.com/vi/ph4efibKqns/frame0.jpg",
+          "views_original": "3.4K views",
+          "views": 3400,
+          "video_id": "ph4efibKqns"
+        },
+        {
+          "title": "OdinTalk on Kaggle and Competitive Data Science | OdinSchool",
+          "link": "https://www.youtube.com/shorts/bZ-9EH7wpxQ",
+          "thumbnail": "https://i.ytimg.com/vi/bZ-9EH7wpxQ/frame0.jpg",
+          "views_original": "47K views",
+          "views": 47000,
+          "video_id": "bZ-9EH7wpxQ"
+        },
+        {
+          "title": "Data Science Competitions - Kaggle & DataHack - Explained in 60 Seconds",
+          "link": "https://www.youtube.com/shorts/OKU32_-2X5A",
+          "thumbnail": "https://i.ytimg.com/vi/OKU32_-2X5A/frame0.jpg",
+          "views_original": "31K views",
+          "views": 31000,
+          "video_id": "OKU32_-2X5A"
+        },
+        {
+          "title": "ExtractBench Looks Like a Practical Document Extraction Dataset",
+          "link": "https://www.youtube.com/shorts/-lpT8ZWzRbA",
+          "thumbnail": "https://i.ytimg.com/vi/-lpT8ZWzRbA/frame0.jpg",
+          "views_original": "293 views",
+          "views": 293,
+          "video_id": "-lpT8ZWzRbA"
+        },
+        {
+          "title": "Countries with Top Life Expectancy",
+          "link": "https://www.youtube.com/shorts/X1spM1pyNvE",
+          "thumbnail": "https://i.ytimg.com/vi/X1spM1pyNvE/frame0.jpg",
+          "views_original": "59 views",
+          "views": 59,
+          "video_id": "X1spM1pyNvE"
+        },
+        {
+          "title": "The Only Segmentation Dataset You Need To Use for AI Research #shorts #artificialintelligence",
+          "link": "https://www.youtube.com/shorts/fKsEV1tMcxg",
+          "thumbnail": "https://i.ytimg.com/vi/fKsEV1tMcxg/frame0.jpg",
+          "views_original": "28 views",
+          "views": 28,
+          "video_id": "fKsEV1tMcxg"
+        },
+        {
+          "title": "How To Start On Kaggle According To World #1 | AI Stories Podcast",
+          "link": "https://www.youtube.com/shorts/zOcpcJtCddQ",
+          "thumbnail": "https://i.ytimg.com/vi/zOcpcJtCddQ/frame0.jpg",
+          "views_original": "45K views",
+          "views": 45000,
+          "video_id": "zOcpcJtCddQ"
+        },
+        {
+          "title": "Excel Practice Made Easy Top Kaggle Datasets to Learn #excel #data #analytics #viralvideo #tranding",
+          "link": "https://www.youtube.com/shorts/beL8fGsh9rY",
+          "thumbnail": "https://i.ytimg.com/vi/beL8fGsh9rY/frame0.jpg",
+          "views_original": "5.6K views",
+          "views": 5600,
+          "video_id": "beL8fGsh9rY"
+        },
+        {
+          "title": "🚀 5 resources to learn Excel, SQL, Power BI & build real projects — completely free!",
+          "link": "https://www.youtube.com/shorts/p-Cgbya8y24",
+          "thumbnail": "https://i.ytimg.com/vi/p-Cgbya8y24/frame0.jpg",
+          "views_original": "126 views",
+          "views": 126,
+          "video_id": "p-Cgbya8y24"
+        },
+        {
+          "title": "Download DATASET for free|Final year research project|How to download free datasets|Kaggle#trending",
+          "link": "https://www.youtube.com/shorts/SSjoWrMpZWM",
+          "thumbnail": "https://i.ytimg.com/vi/SSjoWrMpZWM/frame0.jpg",
+          "views_original": "7.6K views",
+          "views": 7600,
+          "video_id": "SSjoWrMpZWM"
+        }
+      ]
+    }
+  ],
+  "ads_results": [
+    {
+      "position_on_page": 4,
+      "title": "Sullivan’s Digital Tech programs prepare you for careers in IT, cybersecurity, and more.",
+      "link": "https://www.youtube.com/watch?v=KJo_dNXBGik",
+      "serpapi_link": "https://serpapi.com/search.json?engine=youtube_video&v=KJo_dNXBGik",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CkuXXDsibarXSAcbikNAP4LCPqQGr0te3iQGak7STkxawkB8QASAAYMmW94zkpKwTggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAcD6leoCqAMEyAMKqgS1Ak_QU8jG2A4ZcteKwtkACmJ6BPXLXOy3s6QX0iri219xxcpanvgzLnL8Ov6WrtNBpMWmUQHthwefsrG8VHEUBdX7PC9h3EKS4W-8j0DtnA9U35GcgnEbjdR_uMNqvpJkZNh1dYajQwuyxZdbzymXFGRWEg6wle4pwr7fD1QTCljm6zHLoppHpJTZ8Rmj44r_3Mxp3p8hStEedOPyvSR5aKZgNDHQI2Hbaz5xX2-DxtiudzBECJIZIuDl2S4TfUHTltd-yoIBwIQRhpjJihyBvce5J8LUEBk9BENpBUjNfaA7JRRgol-gMMHABj-hNmG8y4PC-y43GKJ3Ai4aDZp1fWv-HVhncGjAjDxvAJKye7ecrNEjf994kDiEuwzltu7ki3y93uqVHL-OQ6BnPyB3lGuQvd2tMogF59T_-lKSBQgIE3iAxYiWAaAGoQGAB6iF6pUBkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKSCAtLSm9fZE5YQkdpa6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWKiC4Mr41pYDYAGaCTNodHRwczovL3d3dy5zdWxsaXZhbi5lZHUvZGlnaXRhbC10ZWNobm9sb2d5LWRlZ3JlZXOxCc6RWcSUJQgyyAkXyAmPAcgJwgHICZcCmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWNiZtALEtIMAhABmg0BEqoNAlVTyA0B0g1baHR0cHM6Ly93d3cuc3VsbGl2YW4uZWR1L2RpZ2l0YWwtdGVjaG5vbG9neS1kZWdyZWVzP2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMjI2OTY1MTU1ObgT____________AbAUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRcbY0iMeiFmZboXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMItZHgyvjWlgMVRjEEBB1g2CMVEAEYASAAEgKphvD_BwE&num=1&cid=CAASwgHkaETYGvhYPsYqSCIf09yaxTA7RLd8KO6McnI9jFlkq7a6lOMAa_U5kzSiVRChQLBdR4xBatwx5sA60pzO1coWiWRSgQVvH4ICdbyz0rHYhbG8hy-eyFgXLMMthNOgYzLAAIy3lf0Ev_kgAF2nAjxIy7G7YF21AtxduvmvGeJOSJ-ZYqKmOb4h_Pa_vyVHkR7SNehhSn0LsBoDKtQl0MBqQS6iy-mSAXnUDS0ZjjNgXw0l355pWsPJyqbPgT8ZodrnOQ&ad_cpn=%5BCPN%5D&sig=AOD64_1fF1vaa7sJGoq6GEMxzYdrc4--nw&ctype=110&video_id=KJo_dNXBGik&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Sullivan University",
+        "thumbnail": "https://yt3.ggpht.com/proxy/wknGV2X3a-ka5R9CEH1tmLLDA5FOZZlczWZT-cMzJ9mN7gB6vt_mtOeO2s9KC2sDILCetunc8fbOWpPu25w47j40AM9nUOnRFy3tu95NZ1nFAO27qx39BasBAmo5PEL9782DOYdJtn-_Gma3a1PpmsHiIYOouxlqshRg0N5bog3Wh1vYfYNEhMT-gKtdu8-dU65-Fyq27cFxGxmOS-APRkmNs7FsKXqXo5w4maJf4j69gRm645FLffVD05nHQ6b8FJpy=w68-h68-nd"
+      },
+      "description": "Hands-on training for careers in IT, Cybersecurity, Forensics, and Development.",
+      "thumbnail": {
+        "static": "https://i.ytimg.com/vi/KJo_dNXBGik/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB20IuB5VZxwyawklEKZytOkCyYNQ"
+      }
+    }
+  ],
+  "playlist_results": [
+    {
+      "position_on_page": 20,
+      "title": "Getting Started on Kaggle | Kaggle",
+      "link": "https://www.youtube.com/playlist?list=PLqFaTIg4myu8gbDh6oBl7XRYNBlthpDEW",
+      "channel": {
+        "name": "Kaggle",
+        "link": "https://www.youtube.com/@kaggle"
+      },
+      "videos": [
+        {
+          "title": "How to Enter a Kaggle Competition (using Kernels) | Kaggle",
+          "length": "7:10",
+          "link": "https://www.youtube.com/watch?v=GJBOMWpLpTQ&list=PLqFaTIg4myu8gbDh6oBl7XRYNBlthpDEW"
+        },
+        {
+          "title": "Kaggle Etiquette | Kaggle",
+          "length": "11:45",
+          "link": "https://www.youtube.com/watch?v=aIus8si_Et0&list=PLqFaTIg4myu8gbDh6oBl7XRYNBlthpDEW"
+        }
+      ],
+      "video_count": 30,
+      "thumbnail": "https://i.ytimg.com/vi/GJBOMWpLpTQ/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDptO2ONN5-EBq6sroLI1J_sOoVUw"
+    },
+    {
+      "position_on_page": 21,
+      "title": "Kaggle Datasets Analysis",
+      "link": "https://www.youtube.com/playlist?list=PL9n0l8rSshSnZHFChXIG5Q9f0UN8O-UYX",
+      "channel": {
+        "name": "Build with Akshit",
+        "link": "https://www.youtube.com/@AkshitMadan"
+      },
+      "videos": [
+        {
+          "title": "Let's Build 3 Fintech Projects | Weekend Projects | Python",
+          "length": "1:42:46",
+          "link": "https://www.youtube.com/watch?v=HmBeJ3rw2Vo&list=PL9n0l8rSshSnZHFChXIG5Q9f0UN8O-UYX"
+        },
+        {
+          "title": "I analysed Sleep Data | Data Science Project in 1 hr🔥",
+          "length": "56:28",
+          "link": "https://www.youtube.com/watch?v=LO3SO2aj4_s&list=PL9n0l8rSshSnZHFChXIG5Q9f0UN8O-UYX"
+        }
+      ],
+      "video_count": 21,
+      "thumbnail": "https://i.ytimg.com/vi/HmBeJ3rw2Vo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC6ZWroInD_9a1g7TjR-lAeLSzXSg"
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=Kaggle+dataset+for+Health+Assistant",
+    "next": "https://www.youtube.com/results?search_query=Kaggle%20dataset%20for%20Health%20Assistant&sp=SBSCAQtrcmtTOXUxNDB0TYIBCzFxbDRrTnYwX3FZggELUEV4ZFdXY3htcm-CAQtGN0YzMXd2eUV0WYIBC2Z2RjJIODVrbzljggELWXZWRXZtelV3MlGCAQs1b0prdlRWaVhnWYIBC0gzdlA5MGhNMWFJggELVE56RE1PZ196c3eCAQtWNnNjLUhHekJ4RYIBC3FnV2tydjdBWXhJggELdTlNSXdvRldYVmeCAQtyLUtscEF1bmhnZ4IBCzV2SG41Zjh1V0EwggELVERwWDhvNllwbFWCAQtzOU82c29KRVM3NIIBIlBMcUZhVElnNG15dThnYkRoNm9CbDdYUllOQmx0aHBERVeCASJQTDluMGw4clNzaFNuWkhGQ2hYSUc1UTlmMFVOOE8tVVlYggELV29MVExydV9VQkmCAQt2d3F1WUxEVnpIVbIBBgoECBgQAuoBBAgCEBk%253D",
+    "next_page_token": "SBSCAQtrcmtTOXUxNDB0TYIBCzFxbDRrTnYwX3FZggELUEV4ZFdXY3htcm-CAQtGN0YzMXd2eUV0WYIBC2Z2RjJIODVrbzljggELWXZWRXZtelV3MlGCAQs1b0prdlRWaVhnWYIBC0gzdlA5MGhNMWFJggELVE56RE1PZ196c3eCAQtWNnNjLUhHekJ4RYIBC3FnV2tydjdBWXhJggELdTlNSXdvRldYVmeCAQtyLUtscEF1bmhnZ4IBCzV2SG41Zjh1V0EwggELVERwWDhvNllwbFWCAQtzOU82c29KRVM3NIIBIlBMcUZhVElnNG15dThnYkRoNm9CbDdYUllOQmx0aHBERVeCASJQTDluMGw4clNzaFNuWkhGQ2hYSUc1UTlmMFVOOE8tVVlYggELV29MVExydV9VQkmCAQt2d3F1WUxEVnpIVbIBBgoECBgQAuoBBAgCEBk%3D"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=Kaggle+dataset+for+Health+Assistant",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=Kaggle+dataset+for+Health+Assistant&sp=SBSCAQtrcmtTOXUxNDB0TYIBCzFxbDRrTnYwX3FZggELUEV4ZFdXY3htcm-CAQtGN0YzMXd2eUV0WYIBC2Z2RjJIODVrbzljggELWXZWRXZtelV3MlGCAQs1b0prdlRWaVhnWYIBC0gzdlA5MGhNMWFJggELVE56RE1PZ196c3eCAQtWNnNjLUhHekJ4RYIBC3FnV2tydjdBWXhJggELdTlNSXdvRldYVmeCAQtyLUtscEF1bmhnZ4IBCzV2SG41Zjh1V0EwggELVERwWDhvNllwbFWCAQtzOU82c29KRVM3NIIBIlBMcUZhVElnNG15dThnYkRoNm9CbDdYUllOQmx0aHBERVeCASJQTDluMGw4clNzaFNuWkhGQ2hYSUc1UTlmMFVOOE8tVVlYggELV29MVExydV9VQkmCAQt2d3F1WUxEVnpIVbIBBgoECBgQAuoBBAgCEBk%253D",
+    "next_page_token": "SBSCAQtrcmtTOXUxNDB0TYIBCzFxbDRrTnYwX3FZggELUEV4ZFdXY3htcm-CAQtGN0YzMXd2eUV0WYIBC2Z2RjJIODVrbzljggELWXZWRXZtelV3MlGCAQs1b0prdlRWaVhnWYIBC0gzdlA5MGhNMWFJggELVE56RE1PZ196c3eCAQtWNnNjLUhHekJ4RYIBC3FnV2tydjdBWXhJggELdTlNSXdvRldYVmeCAQtyLUtscEF1bmhnZ4IBCzV2SG41Zjh1V0EwggELVERwWDhvNllwbFWCAQtzOU82c29KRVM3NIIBIlBMcUZhVElnNG15dThnYkRoNm9CbDdYUllOQmx0aHBERVeCASJQTDluMGw4clNzaFNuWkhGQ2hYSUc1UTlmMFVOOE8tVVlYggELV29MVExydV9VQkmCAQt2d3F1WUxEVnpIVbIBBgoECBgQAuoBBAgCEBk%3D"
+  }
+}

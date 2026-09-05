@@ -1,11 +1,33 @@
-import httpx
+import os
+import sys
+from pathlib import Path
 from urllib.parse import quote
+import httpx
 
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+# Ensure parent directory is in sys.path to import serp_logic_engine
+ROOT_DIR = Path(__file__).resolve().parent.parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+try:
+    from serp_logic_engine import SerpLogicEngine
+except ImportError:
+    # Try alternate import path
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("serp_logic_engine", str(ROOT_DIR / "serp-logic-engine.py"))
+    if spec and spec.loader:
+        serp_logic_engine = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(serp_logic_engine)
+        SerpLogicEngine = serp_logic_engine.SerpLogicEngine
+    else:
+        SerpLogicEngine = None
+
+from services.multi_threaded_crawler import MultiThreadedLiveCrawler, USER_AGENT
 
 class GlobalWebService:
     """
-    Fetches real-time live search results from GitHub API, Google Crawl, and YouTube Video Resources.
+    Unified search service combining local JSON cache, live multi-threaded web crawl (Google CSE & DDG),
+    live YouTube inspection, and GitHub public repositories.
     """
 
     @classmethod
@@ -13,17 +35,58 @@ class GlobalWebService:
         if not query or len(query.strip()) < 2:
             query = "student innovation projects"
 
-        encoded_q = quote(query)
+        clean_q = query.strip()
+        encoded_q = quote(clean_q)
         headers = {"User-Agent": USER_AGENT}
 
-        github_results = []
-        google_web_results = []
-        youtube_results = []
+        # 1. Check local JSON cache via SerpLogicEngine (Instant)
+        cached_google = []
+        cached_yt = []
+        if SerpLogicEngine:
+            try:
+                cached_res = SerpLogicEngine.search_all(clean_q)
+                cached_google = cached_res.get("googleWebResults", [])
+                cached_yt = cached_res.get("youtubeResources", [])
+            except Exception:
+                pass
 
-        # 1. Fetch GitHub Repositories
+        # 2. Fetch Live Web Results via MultiThreadedLiveCrawler
+        live_google = []
+        try:
+            live_google = MultiThreadedLiveCrawler.crawl_google_web(clean_q, limit=6)
+        except Exception:
+            pass
+
+        # Merge and deduplicate Google Web Results
+        merged_google = []
+        seen_google_urls = set()
+        for item in (cached_google + live_google):
+            u = item.get("url")
+            if u and u not in seen_google_urls:
+                seen_google_urls.add(u)
+                merged_google.append(item)
+
+        # 3. Fetch Live YouTube Videos via MultiThreadedLiveCrawler
+        live_yt = []
+        try:
+            live_yt = MultiThreadedLiveCrawler.crawl_youtube_videos(clean_q, limit=6)
+        except Exception:
+            pass
+
+        # Merge and deduplicate YouTube Videos
+        merged_yt = []
+        seen_yt_urls = set()
+        for item in (cached_yt + live_yt):
+            u = item.get("url")
+            if u and u not in seen_yt_urls:
+                seen_yt_urls.add(u)
+                merged_yt.append(item)
+
+        # 4. Fetch GitHub Repositories
+        github_results = []
         try:
             gh_url = f"https://api.github.com/search/repositories?q={encoded_q}&sort=stars&order=desc&per_page=6"
-            with httpx.Client(timeout=6.0, follow_redirects=True) as client:
+            with httpx.Client(timeout=4.0, follow_redirects=True) as client:
                 res = client.get(gh_url, headers=headers)
                 if res.status_code == 200:
                     items = res.json().get("items", [])
@@ -41,66 +104,9 @@ class GlobalWebService:
         except Exception:
             pass
 
-        # 2. Fetch Google / DDG Web Results
-        try:
-            ddg_url = f"https://html.duckduckgo.com/html/?q={encoded_q}"
-            with httpx.Client(timeout=6.0, follow_redirects=True) as client:
-                res = client.get(ddg_url, headers=headers)
-                if res.status_code == 200:
-                    from bs4 import BeautifulSoup
-                    soup = BeautifulSoup(res.text, 'html.parser')
-                    results_divs = soup.find_all('div', class_='result')
-                    for div in results_divs[:5]:
-                        title_a = div.find('a', class_='result__a')
-                        snippet_a = div.find('a', class_='result__snippet')
-                        if title_a:
-                            google_web_results.append({
-                                "title": title_a.get_text(strip=True),
-                                "url": title_a.get('href', ''),
-                                "snippet": snippet_a.get_text(strip=True) if snippet_a else "Global search web result."
-                            })
-        except Exception:
-            pass
-
-        if not google_web_results:
-            google_web_results = [
-                {
-                    "title": f"Google Search Results for '{query}'",
-                    "url": f"https://www.google.com/search?q={encoded_q}",
-                    "snippet": f"Explore live Google web search articles, tutorials, and research papers matching '{query}'."
-                },
-                {
-                    "title": f"Academic Scholar Papers: {query}",
-                    "url": f"https://scholar.google.com/scholar?q={encoded_q}",
-                    "snippet": f"Read peer-reviewed academic papers and engineering documentation for '{query}'."
-                }
-            ]
-
-        # 3. Fetch YouTube Video Tutorials & Demos
-        try:
-            yt_search_url = f"https://www.youtube.com/results?search_query={encoded_q}+tutorial+project"
-            youtube_results = [
-                {
-                    "title": f"Watch YouTube Tutorials & Demos for '{query}'",
-                    "url": f"https://www.youtube.com/results?search_query={encoded_q}+project+tutorial",
-                    "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
-                    "channel": "YouTube Developers",
-                    "description": f"Video demonstrations, system architecture walkthroughs, and coding tutorials for {query}."
-                },
-                {
-                    "title": f"Full Stack {query} Project Walkthrough",
-                    "url": f"https://www.youtube.com/results?search_query=full+stack+{encoded_q}",
-                    "thumbnail": "https://img.youtube.com/vi/3JZ_D3ELwOQ/hqdefault.jpg",
-                    "channel": "Tech Innovation Hub",
-                    "description": f"Step-by-step build video and source code overview for {query}."
-                }
-            ]
-        except Exception:
-            pass
-
         return {
-            "query": query,
-            "githubRepositories": github_results,
-            "googleWebResults": google_web_results,
-            "youtubeResources": youtube_results
+            "query": clean_q,
+            "googleWebResults": merged_google[:10],
+            "youtubeResources": merged_yt[:8],
+            "githubRepositories": github_results
         }

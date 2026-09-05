@@ -6,6 +6,7 @@ from middleware.auth_middleware import require_authenticated_user
 router = APIRouter(prefix="/students", tags=["Students"])
 
 @router.get("/profile/me")
+@router.get("/me")
 def get_my_profile(user: dict = Depends(require_authenticated_user)):
     profile = StudentService.get_student_profile(user["uid"])
     if not profile:
@@ -27,6 +28,7 @@ def get_student_profile_by_spn(spn: str):
     return profile
 
 @router.put("/profile/me")
+@router.put("/me")
 def update_my_profile(schema: ProfileUpdateSchema, user: dict = Depends(require_authenticated_user)):
     return StudentService.update_profile(user["uid"], schema.dict(exclude_unset=True))
 

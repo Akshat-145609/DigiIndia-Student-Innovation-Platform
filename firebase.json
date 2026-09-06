@@ -27,6 +27,13 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [
+      {
+        "source": "/api/v1/verification/**",
+        "destination": "https://digiindia-student-innovation-platform-2.onrender.com/api/v1/verification/:splat",
+        "type": 307
+      }
+    ],
     "rewrites": [
       {
         "source": "/api/v1/search/redirect**",

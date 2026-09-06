@@ -11,11 +11,24 @@ class VerificationService:
 
     @classmethod
     def verify_project_ownership(cls, project_id: str):
-        verif = verifications_repo.get(project_id)
         proj = projects_repo.get(project_id)
+        if not proj:
+            all_projs = projects_repo.query(limit=500)
+            proj = next((p for p in all_projs if str(p.get("projectId") or p.get("id")) == str(project_id)), None)
 
-        if not verif or not proj:
-            raise Exception("Project or verification record not found")
+        if not proj:
+            raise Exception(f"Project record '{project_id}' not found")
+
+        real_proj_id = str(proj.get("projectId") or proj.get("id") or project_id)
+        verif = verifications_repo.get(real_proj_id)
+        if not verif:
+            import secrets
+            verif = {
+                "projectId": real_proj_id,
+                "verificationToken": secrets.token_hex(12),
+                "verificationStatus": "pending",
+                "attemptCount": 0
+            }
 
         token = verif.get("verificationToken")
         live_url = proj.get("liveURL") or proj.get("repositoryURL")

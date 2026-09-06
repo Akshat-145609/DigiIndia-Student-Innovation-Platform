@@ -270,6 +270,8 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
+            white-space: nowrap;
+            flex-shrink: 0;
         }
 
         .serp-tab-btn:hover {
@@ -416,8 +418,8 @@
         /* Grid for Projects and Students */
         .serp-entity-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-            gap: clamp(10px, 2vw, 16px);
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: clamp(12px, 2vw, 18px);
             margin-bottom: 24px;
         }
 
@@ -1075,6 +1077,11 @@
                 targetUrl = `/project.html?id=${item.projectId || item.id || ''}`;
                 currentLearnMoreUrl = window.location.origin + targetUrl;
 
+                const sName = item.studentName || item.creatorName || "";
+                const sSpn = item.studentSPN || item.creatorSPN || "";
+                const sCollege = item.studentCollege || item.creatorCollege || "";
+                const sAvatar = item.studentAvatar || "";
+
                 bodyHtml = `
                     <div class="p-3 bg-light rounded-4 border mb-3">
                         <div class="d-flex align-items-center gap-2 mb-2">
@@ -1082,10 +1089,28 @@
                                 <i class="bi bi-shield-check me-1"></i>Trust Score: ${item.trustScore || 85}/100
                             </span>
                             <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-2 py-1 ms-auto">
-                                ${item.visibility || 'Public Verified'}
+                                ${item.isUserSubmitted ? 'User Submitted & Verified' : (item.visibility || 'Public Verified')}
                             </span>
                         </div>
                         <h6 class="fw-bold text-dark mb-2">${escapeHtml(title)}</h6>
+
+                        ${(sName || sSpn) ? `
+                        <div class="d-flex align-items-center gap-2 p-2 mb-3 bg-white rounded-3 border">
+                            <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center flex-shrink-0" style="width: 38px; height: 38px; font-size: 16px; overflow: hidden;">
+                                ${sAvatar ? `<img src="${sAvatar}" alt="${escapeHtml(sName)}" class="w-100 h-100 object-fit-cover">` : `<i class="bi bi-person-fill"></i>`}
+                            </div>
+                            <div class="overflow-hidden flex-grow-1" style="font-size: 12.5px;">
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="fw-bold text-dark">${escapeHtml(sName || 'Student Innovator')}</span>
+                                    ${sSpn ? `<span class="badge bg-info-subtle text-dark border px-1 py-0 rounded" style="font-size: 10px;">SPN: ${escapeHtml(sSpn)}</span>` : ''}
+                                </div>
+                                <div class="text-muted small text-truncate"><i class="bi bi-building me-1"></i>${escapeHtml(sCollege || 'Academic Institution')}</div>
+                            </div>
+                            <a href="/profile.html?spn=${encodeURIComponent(sSpn)}" class="btn btn-sm btn-outline-primary rounded-pill px-2 py-1 flex-shrink-0" style="font-size: 11px;">
+                                View Profile
+                            </a>
+                        </div>` : ''}
+
                         <p class="text-secondary small mb-3">${escapeHtml(item.description || 'Verified student repository submission with code ownership audit.')}</p>
                         
                         <div class="mb-2">
@@ -1098,7 +1123,7 @@
 
                     <div class="card p-3 border-0 bg-light rounded-3 text-muted small">
                         <div class="d-flex justify-content-between mb-1">
-                            <span>Owner UID: <code>${escapeHtml((item.ownerUID || '').substring(0, 12))}...</code></span>
+                            <span>Innovator: <strong>${escapeHtml(sName || 'Student Innovator')}</strong></span>
                             <span>Verification: <strong class="text-success">${escapeHtml(item.verificationStatus || 'verified')}</strong></span>
                         </div>
                         <div class="d-flex justify-content-between">
@@ -1482,35 +1507,78 @@
         // Project Card Renderer
         function renderProjectCard(p, index = 0) {
             activeSerpRegistry.project[index] = p;
+            const isUserProject = p.isUserSubmitted || p.sourceType === 'user_submission' || !!p.studentName || !!p.creatorName;
+            const studentName = p.studentName || p.creatorName || "";
+            const studentSPN = p.studentSPN || p.creatorSPN || "";
+            const studentCollege = p.studentCollege || p.creatorCollege || "";
+            const studentAvatar = p.studentAvatar || "";
+            const pId = p.projectId || p.id || "";
+
             return `
                 <div class="serp-entity-card">
                     <div>
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h6 class="serp-entity-title mb-0 text-truncate" style="max-width: 75%;">
-                                <a href="/project.html?id=${p.projectId || p.id}" class="text-decoration-none text-primary">
+                        <!-- Card Header: Title & Trust Badge -->
+                        <div class="d-flex justify-content-between align-items-start gap-2 mb-2">
+                            <h6 class="serp-entity-title mb-0 flex-grow-1" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.4;">
+                                <a href="/project.html?id=${encodeURIComponent(pId)}" class="text-decoration-none text-primary fw-bold">
                                     ${stripHtmlAndSanitize(p.title)}
                                 </a>
                             </h6>
-                            <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill serp-entity-badge">
-                                Trust: ${p.trustScore || 50}
-                            </span>
+                            <div class="d-flex flex-column align-items-end gap-1 flex-shrink-0">
+                                <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill serp-entity-badge">
+                                    <i class="bi bi-shield-check me-1"></i>Trust: ${p.trustScore || 85}
+                                </span>
+                                ${isUserProject ? `
+                                <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill serp-entity-badge" style="font-size: 10px;">
+                                    <i class="bi bi-person-check me-1"></i>User Project
+                                </span>` : ''}
+                            </div>
                         </div>
-                        <p class="serp-entity-desc text-muted mb-3" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 36px;">
+
+                        <!-- Student / Innovator Attribution Section -->
+                        ${(isUserProject || studentName || studentSPN) ? `
+                        <div class="d-flex align-items-center gap-2 p-2 mb-2 bg-light rounded-3 border border-light-subtle">
+                            <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center flex-shrink-0" style="width: 32px; height: 32px; font-size: 14px; overflow: hidden;">
+                                ${studentAvatar ? `<img src="${studentAvatar}" alt="${stripHtmlAndSanitize(studentName)}" class="w-100 h-100 object-fit-cover">` : `<i class="bi bi-person-fill"></i>`}
+                            </div>
+                            <div class="overflow-hidden flex-grow-1" style="line-height: 1.2;">
+                                <div class="d-flex align-items-center gap-1">
+                                    <a href="/profile.html?spn=${encodeURIComponent(studentSPN)}" class="text-dark fw-bold text-truncate text-decoration-none" style="font-size: 12.5px;">
+                                        ${stripHtmlAndSanitize(studentName || 'Student Innovator')}
+                                    </a>
+                                    ${studentSPN ? `<span class="badge bg-info-subtle text-dark border px-1 py-0 rounded" style="font-size: 10px;">SPN: ${stripHtmlAndSanitize(studentSPN)}</span>` : ''}
+                                </div>
+                                <small class="text-muted d-block text-truncate" style="font-size: 11px;">
+                                    <i class="bi bi-mortarboard me-1"></i>${stripHtmlAndSanitize(studentCollege || 'Verified Student Innovator')}
+                                </small>
+                            </div>
+                            ${studentSPN ? `
+                            <a href="/profile.html?spn=${encodeURIComponent(studentSPN)}" class="btn btn-sm btn-outline-primary rounded-pill px-2 py-0 ms-auto flex-shrink-0" style="font-size: 11px; height: 24px; line-height: 22px;">
+                                Profile
+                            </a>` : ''}
+                        </div>
+                        ` : ''}
+
+                        <p class="serp-entity-desc text-muted mb-2" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 36px;">
                             ${stripHtmlAndSanitize(p.description) || 'Verified student innovation project submission.'}
                         </p>
-                        <div class="d-flex flex-wrap gap-1 mb-3 overflow-hidden" style="max-height: 26px;">
-                            ${(p.technologyStack || []).slice(0, 3).map(t => `<span class="badge bg-light text-secondary border serp-entity-badge">${stripHtmlAndSanitize(t)}</span>`).join("")}
+                        <div class="d-flex flex-wrap gap-1 mb-3">
+                            ${(p.technologyStack || []).slice(0, 4).map(t => `<span class="badge bg-light text-secondary border serp-entity-badge">${stripHtmlAndSanitize(t)}</span>`).join("")}
                         </div>
                     </div>
                     <div class="d-flex justify-content-between align-items-center pt-2 border-top gap-1">
-                        <a href="${p.repositoryURL || '#'}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-2 header-btn">
+                        ${p.repositoryURL ? `
+                        <a href="${p.repositoryURL}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-2 header-btn">
                             <i class="bi bi-github me-1"></i>Code
-                        </a>
+                        </a>` : `
+                        <button type="button" class="btn btn-outline-secondary btn-sm rounded-pill px-2 header-btn" disabled>
+                            <i class="bi bi-code-slash me-1"></i>Code
+                        </button>`}
                         <button type="button" class="btn btn-outline-primary btn-sm rounded-pill px-2 header-btn d-inline-flex align-items-center gap-1" onclick="openSerpLearnMore('project', ${index})">
                             <i class="bi bi-info-circle me-1"></i>Learn More
                         </button>
-                        <a href="/project.html?id=${p.projectId || p.id}" class="btn btn-primary btn-sm rounded-pill px-2 fw-semibold header-btn">
-                            Overview <i class="bi bi-arrow-right"></i>
+                        <a href="/project.html?id=${encodeURIComponent(pId)}" class="btn btn-primary btn-sm rounded-pill px-2 fw-semibold header-btn">
+                            View Project <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
@@ -1520,35 +1588,50 @@
         // Student Card Renderer
         function renderStudentCard(s, index = 0) {
             activeSerpRegistry.student[index] = s;
+            const isCreator = s.isProjectCreator || !!s.matchedProjectTitle;
+            const sUid = s.studentUID || s.uid || s.spn || '';
+            const sSpn = s.spn || '';
+
             return `
                 <div class="serp-entity-card">
                     <div>
-                        <div class="d-flex align-items-center gap-3 mb-3">
-                            <div class="rounded-circle bg-primary-subtle text-primary d-flex align-items-center justify-content-center" style="width: 44px; height: 44px; font-size: 20px;">
-                                <i class="bi bi-person-fill"></i>
+                        <div class="d-flex align-items-center gap-3 mb-2">
+                            <div class="rounded-circle bg-primary-subtle text-primary d-flex align-items-center justify-content-center flex-shrink-0" style="width: 44px; height: 44px; font-size: 20px; overflow: hidden;">
+                                ${s.profileImage ? `<img src="${s.profileImage}" alt="${stripHtmlAndSanitize(s.fullName)}" class="w-100 h-100 object-fit-cover">` : `<i class="bi bi-person-fill"></i>`}
                             </div>
-                            <div class="overflow-hidden">
-                                <h6 class="serp-entity-title mb-0 text-truncate">
-                                    <a href="/profile.html?spn=${s.spn}" class="text-decoration-none text-dark">
-                                        ${stripHtmlAndSanitize(s.fullName)}
-                                    </a>
-                                </h6>
-                                <span class="badge bg-light text-dark border serp-entity-badge my-1">SPN: ${s.spn}</span>
-                                <small class="text-muted d-block text-truncate" style="font-size: 12px;">${stripHtmlAndSanitize(s.college || 'Academic Institution')}</small>
+                            <div class="overflow-hidden flex-grow-1">
+                                <div class="d-flex align-items-center gap-1 flex-wrap">
+                                    <h6 class="serp-entity-title mb-0 text-truncate">
+                                        <a href="/profile.html?spn=${encodeURIComponent(sSpn)}" class="text-decoration-none text-dark fw-bold">
+                                            ${stripHtmlAndSanitize(s.fullName)}
+                                        </a>
+                                    </h6>
+                                    ${isCreator ? `<span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill serp-entity-badge" style="font-size:10px;"><i class="bi bi-stars me-1"></i>Project Innovator</span>` : ''}
+                                </div>
+                                <span class="badge bg-light text-dark border serp-entity-badge my-1">SPN: ${stripHtmlAndSanitize(sSpn || 'N/A')}</span>
+                                <small class="text-muted d-block text-truncate" style="font-size: 12px;"><i class="bi bi-building me-1"></i>${stripHtmlAndSanitize(s.college || 'Academic Institution')}</small>
                             </div>
                         </div>
+
+                        ${isCreator ? `
+                        <div class="p-2 mb-2 bg-primary-subtle bg-opacity-25 rounded-3 border border-primary-subtle small">
+                            <span class="text-primary fw-semibold d-block text-truncate" style="font-size: 11.5px;">
+                                <i class="bi bi-lightbulb-fill text-warning me-1"></i>Creator of: "${stripHtmlAndSanitize(s.matchedProjectTitle || s.headline || 'Verified Innovation')}"
+                            </span>
+                        </div>` : ''}
+
                         <div class="d-flex flex-wrap gap-1 mb-3">
-                            ${(s.skills || []).slice(0, 3).map(sk => `<span class="badge bg-secondary-subtle text-secondary serp-entity-badge">${stripHtmlAndSanitize(sk)}</span>`).join("")}
+                            ${(s.skills || []).slice(0, 4).map(sk => `<span class="badge bg-secondary-subtle text-secondary serp-entity-badge">${stripHtmlAndSanitize(sk)}</span>`).join("")}
                         </div>
                     </div>
                     <div class="d-flex align-items-center gap-1 pt-2 border-top">
-                        <a href="/profile.html?spn=${s.spn}" class="btn btn-outline-primary btn-sm rounded-pill flex-grow-1 text-center header-btn">
+                        <a href="/profile.html?spn=${encodeURIComponent(sSpn)}" class="btn btn-outline-primary btn-sm rounded-pill flex-grow-1 text-center header-btn">
                             Profile
                         </a>
                         <button type="button" class="btn btn-outline-info btn-sm rounded-pill flex-grow-1 text-center header-btn d-inline-flex align-items-center justify-content-center gap-1" onclick="openSerpLearnMore('student', ${index})">
                             <i class="bi bi-info-circle me-1"></i>Learn More
                         </button>
-                        <button id="btnConnect_${s.studentUID}" class="btn btn-primary btn-sm rounded-pill flex-grow-1 text-center header-btn" onclick="handleSearchConnect('${s.studentUID}', this)">
+                        <button id="btnConnect_${sUid}" class="btn btn-primary btn-sm rounded-pill flex-grow-1 text-center header-btn" onclick="handleSearchConnect('${sUid}', this)">
                             <i class="bi bi-person-plus me-1"></i>Connect
                         </button>
                     </div>
@@ -1562,13 +1645,13 @@
             return `
                 <div class="serp-entity-card">
                     <div>
-                        <div class="d-flex justify-content-between align-items-start mb-2">
-                            <h6 class="serp-entity-title text-dark mb-0 text-truncate" style="max-width: 75%;">
+                        <div class="d-flex justify-content-between align-items-start gap-2 mb-2">
+                            <h6 class="serp-entity-title text-dark mb-0 flex-grow-1" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.4;">
                                 <a href="${repo.url}" target="_blank" class="text-decoration-none text-primary">
                                     <i class="bi bi-github me-1 text-dark"></i>${stripHtmlAndSanitize(repo.title)}
                                 </a>
                             </h6>
-                            <span class="badge bg-warning-subtle text-dark border border-warning-subtle rounded-pill serp-entity-badge">
+                            <span class="badge bg-warning-subtle text-dark border border-warning-subtle rounded-pill serp-entity-badge flex-shrink-0">
                                 <i class="bi bi-star-fill text-warning me-1"></i>${repo.stars || 0}
                             </span>
                         </div>
@@ -2396,6 +2479,42 @@
             container.innerHTML = students.length ? html : `<div class="text-center py-5 text-muted">No student innovators found matching "${escapeHtml(currentSearchQuery)}".</div>`;
         }
 
+        function syncUserProjectsAndInnovators(query) {
+            const pKey = `projects_${query}`;
+            const sKey = `students_${query}`;
+            const projects = searchDataCache.get(pKey) || [];
+            let students = searchDataCache.get(sKey) || [];
+            const existingSpns = new Set(students.map(s => s.spn || s.studentUID || s.fullName));
+            let updated = false;
+
+            for (const p of projects) {
+                const isUserSub = p.isUserSubmitted || p.sourceType === 'user_submission' || !!p.studentName || !!p.creatorName;
+                const sName = p.studentName || p.creatorName;
+                const sSpn = p.studentSPN || p.creatorSPN;
+                if (isUserSub && (sName || sSpn)) {
+                    const key = sSpn || sName;
+                    if (!existingSpns.has(key)) {
+                        existingSpns.add(key);
+                        students.unshift({
+                            fullName: sName || "Student Innovator",
+                            spn: sSpn || "SPN-VERIFIED",
+                            studentUID: p.studentUID || p.ownerUID || p.userId || "",
+                            college: p.studentCollege || p.creatorCollege || "Verified Academic Institution",
+                            skills: Array.isArray(p.technologyStack) && p.technologyStack.length ? p.technologyStack : ["Innovation", "Full Stack"],
+                            matchedProjectTitle: p.title || "Verified Project",
+                            headline: `Innovator & Creator of "${p.title || 'Verified Project'}"`,
+                            isProjectCreator: true,
+                            profileImage: p.studentAvatar || ""
+                        });
+                        updated = true;
+                    }
+                }
+            }
+            if (updated) {
+                searchDataCache.set(sKey, students);
+            }
+        }
+
         function renderAllResultsPage() {
             const container = document.getElementById("serpResultsContainer");
             const globalRes = searchDataCache.get(`global_${currentSearchQuery}`) || {};
@@ -2412,6 +2531,7 @@
             activeSerpRegistry.github = [...repos];
 
             const totalCount = gResults.length + ytResults.length + projects.length + students.length + repos.length;
+            const hasUserSubmitted = projects.some(p => p.isUserSubmitted || p.sourceType === 'user_submission' || !!p.studentName || !!p.creatorName);
 
             document.getElementById("serpStatsText").innerText = `About ${totalCount} results retrieved live from internet & platform`;
 
@@ -2430,18 +2550,19 @@
                 </div>
             `;
 
-            // 1. Google Web Results Section
+            // Section 1: Google Web Results Generator
+            let googleSectionHtml = "";
             if (gResults.length > 0) {
                 const dispG = gResults.slice(0, paginationState.all.google);
-                html += `
+                googleSectionHtml += `
                     <div class="d-flex justify-content-between align-items-center mb-2 mt-2">
                         <h6 class="fw-bold text-dark mb-0"><i class="bi bi-google text-primary me-2"></i>Google Search Web Index</h6>
                         <span class="small text-muted">${dispG.length} of ${gResults.length}</span>
                     </div>
                 `;
-                html += dispG.map((w, idx) => renderGoogleSERPItem(w, currentSearchQuery, idx)).join("");
+                googleSectionHtml += dispG.map((w, idx) => renderGoogleSERPItem(w, currentSearchQuery, idx)).join("");
                 if (paginationState.all.google < gResults.length) {
-                    html += `
+                    googleSectionHtml += `
                         <div class="text-center mb-4">
                             <button class="btn btn-sm btn-outline-primary rounded-pill px-3" onclick="expandAllSection('google', this)">
                                 <i class="bi bi-chevron-down me-1"></i>View More Google Results (${gResults.length - paginationState.all.google} more)
@@ -2451,18 +2572,19 @@
                 }
             }
 
-            // 2. YouTube Video Demonstrations Section
+            // Section 2: YouTube Video Generator
+            let youtubeSectionHtml = "";
             if (ytResults.length > 0) {
                 const dispYt = ytResults.slice(0, paginationState.all.youtube);
-                html += `
+                youtubeSectionHtml += `
                     <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
                         <h6 class="fw-bold text-dark mb-0"><i class="bi bi-youtube text-danger me-2"></i>YouTube Video Demonstrations</h6>
                         <span class="small text-muted">${dispYt.length} of ${ytResults.length}</span>
                     </div>
                 `;
-                html += dispYt.map((y, idx) => renderYouTubeSERPItem(y, currentSearchQuery, idx)).join("");
+                youtubeSectionHtml += dispYt.map((y, idx) => renderYouTubeSERPItem(y, currentSearchQuery, idx)).join("");
                 if (paginationState.all.youtube < ytResults.length) {
-                    html += `
+                    youtubeSectionHtml += `
                         <div class="text-center mb-4">
                             <button class="btn btn-sm btn-outline-danger rounded-pill px-3" onclick="expandAllSection('youtube', this)">
                                 <i class="bi bi-chevron-down me-1"></i>View More YouTube Videos (${ytResults.length - paginationState.all.youtube} more)
@@ -2472,12 +2594,16 @@
                 }
             }
 
-            // 3. Platform Verified Projects Section
+            // Section 3: Platform Verified Projects Generator
+            let projectsSectionHtml = "";
             if (projects.length > 0) {
                 const dispP = projects.slice(0, paginationState.all.projects);
-                html += `
+                projectsSectionHtml += `
                     <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
-                        <h6 class="fw-bold text-dark mb-0"><i class="bi bi-code-slash text-success me-2"></i>DigiIndia Verified Projects</h6>
+                        <h6 class="fw-bold text-dark mb-0">
+                            <i class="bi bi-code-slash text-success me-2"></i>DigiIndia Verified Projects
+                            ${hasUserSubmitted ? '<span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill ms-2" style="font-size:11px;">User Innovation Found</span>' : ''}
+                        </h6>
                         <span class="small text-muted">${dispP.length} of ${projects.length}</span>
                     </div>
                     <div class="serp-entity-grid">
@@ -2485,7 +2611,7 @@
                     </div>
                 `;
                 if (paginationState.all.projects < projects.length) {
-                    html += `
+                    projectsSectionHtml += `
                         <div class="text-center mb-4">
                             <button class="btn btn-sm btn-outline-success rounded-pill px-3" onclick="expandAllSection('projects', this)">
                                 <i class="bi bi-chevron-down me-1"></i>View More Projects (${projects.length - paginationState.all.projects} more)
@@ -2495,10 +2621,11 @@
                 }
             }
 
-            // 4. Student Innovators Section
+            // Section 4: Student Innovators Generator
+            let studentsSectionHtml = "";
             if (students.length > 0) {
                 const dispS = students.slice(0, paginationState.all.students);
-                html += `
+                studentsSectionHtml += `
                     <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
                         <h6 class="fw-bold text-dark mb-0"><i class="bi bi-people text-info me-2"></i>Verified Student Innovators</h6>
                         <span class="small text-muted">${dispS.length} of ${students.length}</span>
@@ -2508,7 +2635,7 @@
                     </div>
                 `;
                 if (paginationState.all.students < students.length) {
-                    html += `
+                    studentsSectionHtml += `
                         <div class="text-center mb-4">
                             <button class="btn btn-sm btn-outline-info rounded-pill px-3" onclick="expandAllSection('students', this)">
                                 <i class="bi bi-chevron-down me-1"></i>View More Innovators (${students.length - paginationState.all.students} more)
@@ -2518,10 +2645,11 @@
                 }
             }
 
-            // 5. GitHub Repos Section
+            // Section 5: GitHub Repos Generator
+            let githubSectionHtml = "";
             if (repos.length > 0) {
                 const dispR = repos.slice(0, paginationState.all.github);
-                html += `
+                githubSectionHtml += `
                     <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
                         <h6 class="fw-bold text-dark mb-0"><i class="bi bi-github text-dark me-2"></i>GitHub Open Source Repositories</h6>
                         <span class="small text-muted">${dispR.length} of ${repos.length}</span>
@@ -2531,7 +2659,7 @@
                     </div>
                 `;
                 if (paginationState.all.github < repos.length) {
-                    html += `
+                    githubSectionHtml += `
                         <div class="text-center mb-4">
                             <button class="btn btn-sm btn-outline-dark rounded-pill px-3" onclick="expandAllSection('github', this)">
                                 <i class="bi bi-chevron-down me-1"></i>View More Repositories (${repos.length - paginationState.all.github} more)
@@ -2539,6 +2667,13 @@
                         </div>
                     `;
                 }
+            }
+
+            // If user-submitted projects exist, prioritize DigiIndia projects & student innovators right at the top
+            if (hasUserSubmitted) {
+                html += projectsSectionHtml + studentsSectionHtml + googleSectionHtml + youtubeSectionHtml + githubSectionHtml;
+            } else {
+                html += googleSectionHtml + youtubeSectionHtml + projectsSectionHtml + studentsSectionHtml + githubSectionHtml;
             }
 
             container.innerHTML = html;
@@ -2613,6 +2748,7 @@
                         const projects = await API.request(`/search/projects?q=${encodeURIComponent(query)}&sort_by=${sortBy}`).catch(() => []);
                         searchDataCache.set(pKey, projects);
                     }
+                    syncUserProjectsAndInnovators(query);
                     renderProjectsResultsPage();
                     return;
                 }
@@ -2620,10 +2756,16 @@
                 // 5. Innovators Tab
                 if (currentSerpCategory === "students") {
                     const sKey = `students_${query}`;
+                    const pKey = `projects_${query}`;
+                    if (!searchDataCache.has(pKey)) {
+                        const projects = await API.request(`/search/projects?q=${encodeURIComponent(query)}&sort_by=${sortBy}`).catch(() => []);
+                        searchDataCache.set(pKey, projects);
+                    }
                     if (!searchDataCache.has(sKey)) {
                         const students = await API.request(`/search/students?q=${encodeURIComponent(query)}`).catch(() => []);
                         searchDataCache.set(sKey, students);
                     }
+                    syncUserProjectsAndInnovators(query);
                     renderStudentsResultsPage();
                     return;
                 }
@@ -2652,6 +2794,7 @@
                     const students = await API.request(`/search/students?q=${encodeURIComponent(query)}`).catch(() => []);
                     searchDataCache.set(sKey, students);
                 }
+                syncUserProjectsAndInnovators(query);
 
                 renderAllResultsPage();
 

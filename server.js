@@ -1448,6 +1448,9 @@ app.get('/api/v1/search/projects', async (req, res) => {
     const sortBy = req.query.sort_by || 'relevance';
 
     const allProjects = await getCollectionDocs('projects');
+    const allProfiles = await getCollectionDocs('profiles');
+    const allStudents = await getCollectionDocs('students');
+
     const results = allProjects.filter(p => {
       if (p.visibility && p.visibility !== 'public') return false;
       if (verifiedOnly && p.verificationStatus !== 'verified') return false;
@@ -1461,7 +1464,8 @@ app.get('/api/v1/search/projects', async (req, res) => {
         const inDesc = (p.description || '').toLowerCase().includes(q);
         const inTags = (p.tags || []).some(t => t.toLowerCase().includes(q));
         const inTech = (p.technologyStack || []).some(t => t.toLowerCase().includes(q));
-        if (!inTitle && !inDesc && !inTags && !inTech) match = false;
+        const inAuthor = (p.author || p.studentName || '').toLowerCase().includes(q);
+        if (!inTitle && !inDesc && !inTags && !inTech && !inAuthor) match = false;
       }
 
       if (technology) {
@@ -1470,6 +1474,19 @@ app.get('/api/v1/search/projects', async (req, res) => {
       }
 
       return match;
+    }).map(p => {
+      const ownerId = p.ownerUID || p.studentUID || p.uid || '';
+      const prof = allProfiles.find(pr => (pr.studentUID || pr.id || pr.profileId) === ownerId) || {};
+      const stud = allStudents.find(s => s.uid === ownerId) || {};
+
+      return {
+        ...p,
+        studentName: p.studentName || prof.fullName || stud.fullName || stud.email || (p.author || 'Student Innovator'),
+        studentSPN: p.studentSPN || prof.spn || stud.spn || '',
+        studentCollege: p.studentCollege || prof.college || stud.college || 'Academic Institution',
+        studentAvatar: p.studentAvatar || prof.avatarURL || stud.avatarURL || '',
+        isUserSubmitted: Boolean(ownerId)
+      };
     });
 
     if (sortBy === 'trust_score') {
@@ -1495,8 +1512,11 @@ app.get('/api/v1/search/students', async (req, res) => {
 
     const allProfiles = await getCollectionDocs('profiles');
     const allStudents = await getCollectionDocs('students');
+    const allProjects = await getCollectionDocs('projects');
 
     const results = [];
+    const seenUids = new Set();
+
     allProfiles.forEach(prof => {
       const student = allStudents.find(s => s.uid === (prof.studentUID || prof.id || prof.profileId)) || {};
       let match = true;
@@ -1513,18 +1533,55 @@ app.get('/api/v1/search/students', async (req, res) => {
       if (skill && !(prof.skills || []).some(s => s.toLowerCase().includes(skill))) match = false;
 
       if (match) {
-        results.push({
-          studentUID: prof.studentUID || prof.id || student.uid,
-          fullName: prof.fullName || student.email || 'Student Developer',
-          spn: student.spn || prof.spn || '',
-          college: prof.college || 'Academic Institution',
-          headline: prof.headline || 'Verified Student Innovator',
-          skills: prof.skills || ['JavaScript', 'Python'],
-          avatarURL: prof.avatarURL || '',
-          trustScore: prof.trustScore || 85
-        });
+        const uid = prof.studentUID || prof.id || student.uid;
+        if (uid && !seenUids.has(uid)) {
+          seenUids.add(uid);
+          results.push({
+            studentUID: uid,
+            fullName: prof.fullName || student.email || 'Student Developer',
+            spn: student.spn || prof.spn || '',
+            college: prof.college || 'Academic Institution',
+            headline: prof.headline || 'Verified Student Innovator',
+            skills: prof.skills || ['JavaScript', 'Python'],
+            avatarURL: prof.avatarURL || '',
+            trustScore: prof.trustScore || 85
+          });
+        }
       }
     });
+
+    // If query matches any user-submitted project, include the project's creator student!
+    if (q) {
+      const matchingProjects = allProjects.filter(p => {
+        if (p.visibility && p.visibility !== 'public') return false;
+        const inTitle = (p.title || '').toLowerCase().includes(q);
+        const inDesc = (p.description || '').toLowerCase().includes(q);
+        const inTags = (p.tags || []).some(t => t.toLowerCase().includes(q));
+        const inTech = (p.technologyStack || []).some(t => t.toLowerCase().includes(q));
+        return inTitle || inDesc || inTags || inTech;
+      });
+
+      matchingProjects.forEach(proj => {
+        const ownerId = proj.ownerUID || proj.studentUID || '';
+        if (ownerId && !seenUids.has(ownerId)) {
+          seenUids.add(ownerId);
+          const prof = allProfiles.find(pr => (pr.studentUID || pr.id || pr.profileId) === ownerId) || {};
+          const stud = allStudents.find(s => s.uid === ownerId) || {};
+          results.push({
+            studentUID: ownerId,
+            fullName: prof.fullName || stud.fullName || stud.email || proj.studentName || proj.author || 'Student Innovator',
+            spn: prof.spn || stud.spn || proj.studentSPN || '',
+            college: prof.college || stud.college || proj.studentCollege || 'Academic Institution',
+            headline: `Innovator & Creator of "${proj.title}"`,
+            skills: proj.technologyStack || prof.skills || ['Developer'],
+            avatarURL: prof.avatarURL || stud.avatarURL || '',
+            trustScore: proj.trustScore || prof.trustScore || 90,
+            matchedProjectTitle: proj.title,
+            matchedProjectId: proj.projectId || proj.id
+          });
+        }
+      });
+    }
 
     return res.json(results);
   } catch (err) {
@@ -2098,25 +2155,21 @@ app.post('/api/v1/projects/comments/:commentId/like', async (req, res) => {
   }
 });
 
-// ==========================================
-// VERIFICATION & RUNTIME SEO CRAWLER ROUTE
-// ==========================================
-
-// POST /api/v1/verification/project/crawl
-app.post('/api/v1/verification/project/crawl', async (req, res) => {
+// GET & POST /api/v1/verification/project/crawl
+async function executeProjectCrawlVerification(projectId, req, res) {
   try {
-    const { projectId } = req.body;
     if (!projectId) return res.status(400).json({ detail: 'projectId is required' });
 
     const projects = await getCollectionDocs('projects');
-    const project = projects.find(p => p.projectId === projectId);
+    const project = projects.find(p => (p.projectId === projectId || p.id === projectId));
     if (!project) return res.status(404).json({ detail: 'Project record not found' });
 
+    const realProjectId = project.projectId || project.id || projectId;
     const verifs = await getCollectionDocs('projectVerification');
-    let verif = verifs.find(v => v.projectId === projectId);
+    let verif = verifs.find(v => (v.projectId === realProjectId || v.id === realProjectId));
     if (!verif) {
       verif = {
-        projectId,
+        projectId: realProjectId,
         verificationToken: crypto.randomBytes(12).toString('hex'),
         verificationStatus: 'pending',
         attemptCount: 0
@@ -2146,7 +2199,7 @@ app.post('/api/v1/verification/project/crawl', async (req, res) => {
     verif.scoreBreakdown = crawlResult.scoreBreakdown;
     verif.awardedScore = crawlResult.awardedScore;
 
-    await saveDoc('projectVerification', projectId, verif);
+    await saveDoc('projectVerification', realProjectId, verif);
 
     // Update project trust & SEO score
     project.verificationStatus = verif.verificationStatus;
@@ -2155,18 +2208,18 @@ app.post('/api/v1/verification/project/crawl', async (req, res) => {
     project.hasRobotsTxt = crawlResult.robotsFound;
     project.hasSitemapXml = crawlResult.sitemapFound;
     project.updatedAt = Date.now() / 1000;
-    await saveDoc('projects', projectId, project);
+    await saveDoc('projects', realProjectId, project);
 
     // Save metadata
-    await saveDoc('projectMetadata', projectId, {
-      projectId,
+    await saveDoc('projectMetadata', realProjectId, {
+      projectId: realProjectId,
       canonical: crawlResult.runtimeSEO.canonical || project.liveURL || '',
       openGraph: crawlResult.runtimeSEO.openGraph || {},
       lastCrawled: Date.now() / 1000
     });
 
     return res.json({
-      projectId,
+      projectId: realProjectId,
       verificationStatus: verif.verificationStatus,
       verified: crawlResult.verified,
       trustScore: crawlResult.awardedScore,
@@ -2181,6 +2234,27 @@ app.post('/api/v1/verification/project/crawl', async (req, res) => {
   } catch (err) {
     return res.status(500).json({ detail: err.message });
   }
+}
+
+app.get(['/api/v1/verification/project/crawl', '/verification/project/crawl'], async (req, res) => {
+  const projectId = (req.query.projectId || req.query.id || '').trim();
+  if (!projectId) {
+    return res.json({
+      status: 'active',
+      endpoint: '/api/v1/verification/project/crawl',
+      methods: ['GET', 'POST'],
+      message: 'DigiBot Runtime SEO & Meta-Tag Verification Gateway is operational. Pass ?projectId=<id> or POST JSON payload to audit project.'
+    });
+  }
+  return executeProjectCrawlVerification(projectId, req, res);
+});
+
+app.post(['/api/v1/verification/project/crawl', '/verification/project/crawl'], async (req, res) => {
+  const projectId = (req.body?.projectId || req.body?.id || req.query?.projectId || '').trim();
+  if (!projectId) {
+    return res.status(400).json({ detail: 'projectId is required in JSON body or query parameter' });
+  }
+  return executeProjectCrawlVerification(projectId, req, res);
 });
 
 // ==========================================

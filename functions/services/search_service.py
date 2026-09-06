@@ -83,6 +83,24 @@ class SearchService:
             if match:
                 results.append(p)
 
+        # Enrich projects with Student Innovator Profile Information
+        profiles = profiles_repo.query(limit=200)
+        profiles_by_uid = {str(pr.get("studentUID") or pr.get("id") or pr.get("profileId")): pr for pr in profiles}
+
+        enriched_results = []
+        for p in results:
+            owner_id = str(p.get("ownerUID") or p.get("studentUID") or "")
+            prof = profiles_by_uid.get(owner_id, {})
+            p_copy = dict(p)
+            p_copy["studentName"] = p.get("studentName") or prof.get("fullName") or p.get("author") or "Student Innovator"
+            p_copy["studentSPN"] = p.get("studentSPN") or prof.get("spn") or ""
+            p_copy["studentCollege"] = p.get("studentCollege") or prof.get("college") or "Academic Institution"
+            p_copy["studentAvatar"] = p.get("studentAvatar") or prof.get("avatarURL") or ""
+            p_copy["isUserSubmitted"] = bool(owner_id)
+            enriched_results.append(p_copy)
+
+        results = enriched_results
+
         # Sorting logic
         if sort_by == "trust_score":
             results.sort(key=lambda x: x.get("trustScore", 0), reverse=True)
@@ -129,10 +147,11 @@ class SearchService:
     def search_students(query: str = "", college: str = "", skill: str = ""):
         profiles = profiles_repo.query(filters=[("visibility", "==", "public")], limit=100)
         results = []
+        seen_uids = set()
 
-        q_lower = query.lower() if query else ""
-        col_lower = college.lower() if college else ""
-        skill_lower = skill.lower() if skill else ""
+        q_lower = query.lower().strip() if query else ""
+        col_lower = college.lower().strip() if college else ""
+        skill_lower = skill.lower().strip() if skill else ""
 
         for prof in profiles:
             match = True
@@ -152,6 +171,39 @@ class SearchService:
                     match = False
 
             if match:
+                uid = str(prof.get("studentUID") or prof.get("id") or prof.get("uid") or "")
+                if uid:
+                    seen_uids.add(uid)
                 results.append(prof)
+
+        # If search query is present, check if any user-submitted project matched query
+        # and include the project creator in the student results
+        if q_lower:
+            all_projs = projects_repo.query(filters=[("visibility", "==", "public")], limit=100)
+            profiles_by_uid = {str(pr.get("studentUID") or pr.get("id") or pr.get("profileId")): pr for pr in profiles}
+
+            for p in all_projs:
+                in_title = q_lower in p.get("title", "").lower()
+                in_desc = q_lower in p.get("description", "").lower()
+                in_tags = any(q_lower in t.lower() for t in p.get("tags", []))
+                in_tech = any(q_lower in t.lower() for t in p.get("technologyStack", []))
+
+                if in_title or in_desc or in_tags or in_tech:
+                    owner_id = str(p.get("ownerUID") or p.get("studentUID") or "")
+                    if owner_id and owner_id not in seen_uids:
+                        seen_uids.add(owner_id)
+                        prof = profiles_by_uid.get(owner_id, {})
+                        results.append({
+                            "studentUID": owner_id,
+                            "fullName": prof.get("fullName") or p.get("studentName") or p.get("author") or "Student Innovator",
+                            "spn": prof.get("spn") or p.get("studentSPN") or "Verified",
+                            "college": prof.get("college") or p.get("studentCollege") or "Academic Institution",
+                            "headline": f'Innovator & Creator of "{p.get("title")}"',
+                            "skills": p.get("technologyStack") or prof.get("skills") or ["Developer"],
+                            "avatarURL": prof.get("avatarURL") or "",
+                            "trustScore": p.get("trustScore") or 90,
+                            "matchedProjectTitle": p.get("title"),
+                            "matchedProjectId": p.get("projectId") or p.get("id")
+                        })
 
         return results

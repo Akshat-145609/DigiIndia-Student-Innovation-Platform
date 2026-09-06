@@ -53,7 +53,8 @@
 
             try {
                 const res = await API.request(`/projects/${projectId}`);
-                const p = res.project || {};
+                const p = res.project || res || {};
+                if (!p.projectId) p.projectId = projectId;
                 const meta = res.metadata || {};
                 const verif = res.verification || {};
 
@@ -65,7 +66,19 @@
 
                 renderProjectDetails(p, meta, verif, scoreData);
             } catch (err) {
-                document.getElementById("projectDetailContainer").innerHTML = `<div class="alert alert-danger">${err.message}</div>`;
+                document.getElementById("projectDetailContainer").innerHTML = `
+                    <div class="alert alert-danger shadow-sm rounded-4 p-4">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <i class="bi bi-exclamation-triangle-fill fs-4 text-danger"></i>
+                            <h5 class="mb-0 fw-bold">Project Details Unavailable</h5>
+                        </div>
+                        <p class="mb-3 text-muted">Could not load project: <strong>${err.message || 'Project not found'}</strong></p>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-outline-danger btn-sm" onclick="location.reload()"><i class="bi bi-arrow-clockwise me-1"></i>Retry Loading</button>
+                            <a href="/dashboard.html" class="btn btn-secondary btn-sm"><i class="bi bi-speedometer2 me-1"></i>Back to Dashboard</a>
+                        </div>
+                    </div>
+                `;
             }
         });
 
@@ -122,18 +135,18 @@
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <div>
                             <span class="badge bg-${isVerified ? 'success' : 'warning'} mb-2 px-3 py-2 fs-6">
-                                <i class="bi bi-${isVerified ? 'patch-check-fill' : 'clock'} me-1"></i>${p.verificationStatus.toUpperCase()}
+                                <i class="bi bi-${isVerified ? 'patch-check-fill' : 'clock'} me-1"></i>${(p.verificationStatus || 'pending').toUpperCase()}
                             </span>
-                            <h2 class="fw-bold text-primary mb-1">${p.title}</h2>
+                            <h2 class="fw-bold text-primary mb-1">${p.title || 'Student Project'}</h2>
                             <p class="text-muted small">Category: <strong>${p.category || 'Software'}</strong> | License: <strong>${p.license || 'MIT'}</strong></p>
                         </div>
                         <span class="trust-score-badge fs-5 px-3 py-2 shadow-sm">Trust Score: ${p.trustScore || 65} / 100</span>
                     </div>
 
-                    <p class="lead text-dark fs-6 mb-4">${p.description}</p>
+                    <p class="lead text-dark fs-6 mb-4">${p.description || 'No description provided.'}</p>
 
                     <div class="d-flex flex-wrap gap-2 mb-4">
-                        <a href="${p.repositoryURL}" target="_blank" class="btn btn-dark btn-sm px-3"><i class="bi bi-github me-1"></i>View Code Repository</a>
+                        ${p.repositoryURL ? `<a href="${p.repositoryURL}" target="_blank" class="btn btn-dark btn-sm px-3"><i class="bi bi-github me-1"></i>View Code Repository</a>` : '<span class="text-muted small">No Repository URL configured</span>'}
                         ${liveUrl}
                     </div>
 

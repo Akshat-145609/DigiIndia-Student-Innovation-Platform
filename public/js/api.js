@@ -34,7 +34,8 @@ const API = {
         localStorage.removeItem("digiindia_user");
     },
     async request(endpoint, options = {}) {
-        const url = `${getApiBaseUrl()}${endpoint}`;
+        const primaryBase = getApiBaseUrl();
+        const url = `${primaryBase}${endpoint}`;
         const headers = options.headers || {};
 
         const token = this.getToken();
@@ -47,10 +48,32 @@ const API = {
 
         options.headers = headers;
 
+        const isGet = !options.method || options.method.toUpperCase() === "GET";
+        let fallbackUrl = null;
+        if (isGet) {
+            if (url.includes("digiindia-student-platform.onrender.com")) {
+                fallbackUrl = `https://digiindia-student-innovation-platform-2.onrender.com/api/v1${endpoint}`;
+            } else if (url.includes("digiindia-student-innovation-platform-2.onrender.com")) {
+                fallbackUrl = `https://digiindia-student-platform.onrender.com/api/v1${endpoint}`;
+            } else if (url.includes("web.app") || url.includes("firebaseapp.com")) {
+                fallbackUrl = `https://digiindia-student-platform.onrender.com/api/v1${endpoint}`;
+            }
+        }
+
         try {
             const res = await fetch(url, options);
             const data = await res.json().catch(() => ({}));
             if (!res.ok) {
+                // If 404 on GET request, attempt automatic transparent peer mirror failover
+                if (res.status === 404 && fallbackUrl) {
+                    try {
+                        const fallbackRes = await fetch(fallbackUrl, options);
+                        if (fallbackRes.ok) {
+                            return await fallbackRes.json();
+                        }
+                    } catch (fbErr) {}
+                }
+
                 let errMsg = data.detail || data.message || `Request failed with status ${res.status}`;
                 if (Array.isArray(errMsg)) {
                     errMsg = errMsg.map(e => `${e.loc ? e.loc.join('->') + ': ' : ''}${e.msg}`).join('; ');
@@ -62,6 +85,14 @@ const API = {
 
             return data;
         } catch (err) {
+            if (isGet && fallbackUrl) {
+                try {
+                    const fallbackRes = await fetch(fallbackUrl, options);
+                    if (fallbackRes.ok) {
+                        return await fallbackRes.json();
+                    }
+                } catch (fbErr) {}
+            }
             console.error(`API Error [${endpoint}]:`, err);
             throw err;
         }

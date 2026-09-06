@@ -209,6 +209,25 @@ def _fetch_firestore_rest(collection_name: str, limit: int = 300) -> dict:
         logger.debug(f"Firestore REST fetch note: {e}")
     return result
 
+def _fetch_firestore_rest_doc(collection_name: str, doc_id: str) -> dict:
+    """Fetches a single document directly from Cloud Firestore REST API"""
+    if not doc_id:
+        return None
+    import httpx
+    api_key = getattr(settings, "FIREBASE_API_KEY", "") or _unmask_key("a2NQS3lTaHB1TWdHSX0fS31ncBxFH05cYm1SR21LYnBLXBpgTkJB")
+    project_id = getattr(settings, "FIREBASE_PROJECT_ID", "") or "digiindia-studentcollaboration"
+    url = f"https://firestore.googleapis.com/v1/projects/{project_id}/databases/(default)/documents/{collection_name}/{doc_id}?key={api_key}"
+    try:
+        with httpx.Client(timeout=4.5) as client:
+            r = client.get(url)
+            if r.status_code == 200:
+                did, data = _decode_firestore_doc(r.json())
+                if data:
+                    return data
+    except Exception as e:
+        logger.debug(f"Firestore REST single doc fetch note: {e}")
+    return None
+
 def _delete_firestore_rest(collection_name: str, doc_id: str):
     """Deletes document directly from Cloud Firestore REST API"""
     import httpx
@@ -228,16 +247,54 @@ class FirestoreRepository:
         self.col_ref = db.collection(collection_name) if db else None
 
     def get(self, doc_id: str):
+        if not doc_id:
+            return None
+
+        # 1. Local disk cache lookup by exact key
         col = _load_collection(self.collection_name)
         if doc_id in col:
             return col[doc_id]
+
+        # 2. Local disk cache lookup by entity fields
+        for k, v in col.items():
+            if isinstance(v, dict):
+                if v.get("projectId") == doc_id or v.get("id") == doc_id or v.get("uid") == doc_id or v.get("profileId") == doc_id:
+                    return v
+
+        # 3. Firebase Admin SDK check if available
         if self.col_ref:
             try:
                 doc = self.col_ref.document(doc_id).get(timeout=2.0)
                 if doc.exists:
-                    return {"id": doc.id, **doc.to_dict()}
+                    data = {"id": doc.id, **doc.to_dict()}
+                    col[doc.id] = data
+                    _save_collection(self.collection_name, col)
+                    return data
             except Exception:
                 pass
+
+        # 4. Direct Cloud Firestore REST single document lookup
+        rest_doc = _fetch_firestore_rest_doc(self.collection_name, doc_id)
+        if rest_doc:
+            col[doc_id] = rest_doc
+            _save_collection(self.collection_name, col)
+            return rest_doc
+
+        # 5. Full Cloud Firestore REST collection sync and search
+        try:
+            cloud_docs = _fetch_firestore_rest(self.collection_name, limit=500)
+            if cloud_docs:
+                col.update(cloud_docs)
+                _save_collection(self.collection_name, col)
+                if doc_id in col:
+                    return col[doc_id]
+                for k, v in col.items():
+                    if isinstance(v, dict):
+                        if v.get("projectId") == doc_id or v.get("id") == doc_id or v.get("uid") == doc_id or v.get("profileId") == doc_id:
+                            return v
+        except Exception:
+            pass
+
         return None
 
     def set(self, doc_id: str, data: dict, merge: bool = True):

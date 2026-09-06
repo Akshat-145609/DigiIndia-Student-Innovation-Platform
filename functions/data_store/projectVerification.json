@@ -58,5 +58,59 @@
     "createdAt": 1785400412.0636983,
     "lastAttempt": 1785402410.3994133,
     "failureReason": "Meta tag 'digiindia-student-innovation-platform' with content '2kV9BlePhk89XPlAvirJIw' not found on https://dpgnotes.web.app/"
+  },
+  "663722d3-a3ec-42bc-9ad1-095536328349": {
+    "id": "663722d3-a3ec-42bc-9ad1-095536328349",
+    "liveSnapshotURI": "data:text/html;base64,PGh0bWw+PGJvZHk+PGgzPlNuYXBzaG90IFByZXZpZXcgZm9yIGh0dHBzOi8vZHBnbm90ZXMud2ViLmFwcC9kcGdub3Rlcy1wZGYtdmlld2VyLmh0bWw/cmVzb3VyY2VJRD04TTF4TGpseE9RMHZSVnZ2VnFRMSZ0cmFja19pZD01NjAxODUwNDwvaDM+PHA+CgoKCgoKCgoKCgoKCgoKRFBHTm90ZXMgUERGIFZpZXdlciB8IFJlYWQsIEFubm90YXRlICYgQUkgQXNrIFF1ZXN0aW9uCgoKCgoKCgoKCgoKCgoKCgoKCgoKCkRQR05vdGVzCgpMb2FkaW5nLi4uCgogU2hhcmUKIEJhY2sKCgoKCgoKIFZpZXdlcgpMb2FkaW5nLi4uCgoKCiBEb2N1bWVudCBJbmZvClRpdGxl4oCUCkNhdGVnb3J54oCUCkRpc2NpcGxpbmXigJQKVXBsb2FkZXLigJQKRG9jIElE4oCUCgpEZXNjcmlwdGlvbgoKCgpUYWdzCgoKCgoKIE1pbmkgU2VhcmNoIEVuZ2luZQoKCgoKCiBBSSBDaGF0IEFzc2lzdGFudAoKDQogICAgICAgICAg8J+kliBIZWxsbyEgSSBhbSBEUEdOb3RlcyBBSS4gQ2xpY2sgIkFuYWx5c2UiIG9yIGFzayBtZSBhbnl0aGluZyBhYm91dCB0aGlzIGRvY3VtZW50IQ0KICAgICAgICAKCgoKCgogQW48L3A+PC9ib2R5PjwvaHRtbD4=",
+    "runtimeSEO": {
+      "h1Text": "",
+      "keywords": "DPGNotes PDF Viewer, Online PDF Reader, Academic Notes Viewer, Study Material Reader, AI PDF Q&A, Akshat Network Hub",
+      "h1Count": 0.0,
+      "twitterCard": {},
+      "metaTagToken": "dofP3Z_gTI6o71KvinoPuw",
+      "title": "DPGNotes PDF Viewer | Read, Annotate & AI Ask Question",
+      "openGraph": {
+        "og:title": "DPGNotes PDF Viewer",
+        "og:image": "ANH.png",
+        "og:description": "View university notes, textbooks, and study files with embedded AI summary and interactive tools.",
+        "og:type": "article"
+      },
+      "viewport": "width=device-width, initial-scale=1.0",
+      "description": "Secure, high-performance academic PDF viewer by DPGNotes. View university notes, practical files, study summaries, and interactive AI Q&A.",
+      "canonical": "",
+      "author": "DPGNotes / Akshat Network Hub"
+    },
+    "verifiedAt": 1788611774.5544002,
+    "sitemapUrlsCount": 29.0,
+    "lastAttempt": 1788611773.8968582,
+    "verificationStatus": "verified",
+    "awardedScore": 100.0,
+    "seoComparison": {
+      "crawlerAssetsConfigured": true,
+      "titleMatch": true,
+      "socialGraphConfigured": true,
+      "canonicalConfigured": true,
+      "ownershipMatch": true,
+      "descriptionMatch": true,
+      "contentStructureValid": false
+    },
+    "metaTag": "<meta name=\"digiindia-student-innovation-platform\" content=\"dofP3Z_gTI6o71KvinoPuw\">",
+    "verificationToken": "dofP3Z_gTI6o71KvinoPuw",
+    "createdAt": 1788611124.0188549,
+    "scoreBreakdown": {
+      "crawlerAssets": 5.0,
+      "titleOptimization": 15.0,
+      "technicalSEO": 5.0,
+      "ownershipVerified": 30.0,
+      "metaDescriptionQuality": 15.0,
+      "socialMediaGraph": 10.0,
+      "baseScore": 20.0
+    },
+    "hasSitemapXml": true,
+    "attemptCount": 1.0,
+    "crawlerLog": "Ownership meta tag verified successfully!",
+    "hasRobotsTxt": true,
+    "verificationMethod": "meta_tag",
+    "projectId": "663722d3-a3ec-42bc-9ad1-095536328349"
   }
 }

@@ -193,6 +193,40 @@ async function _fetchFirestoreRest(colName, limit = 300) {
   }
 }
 
+async function _fetchFirestoreRestDoc(colName, docId) {
+  if (!docId) return null;
+  try {
+    const https = require('https');
+    const url = `https://firestore.googleapis.com/v1/projects/${FIREBASE_PROJECT_ID}/databases/(default)/documents/${colName}/${encodeURIComponent(docId)}?key=${FIREBASE_API_KEY}`;
+    return new Promise((resolve) => {
+      const req = https.get(url, (res) => {
+        let body = '';
+        res.on('data', chunk => body += chunk);
+        res.on('end', () => {
+          try {
+            if (res.statusCode >= 200 && res.statusCode < 300) {
+              const json = JSON.parse(body);
+              const doc = decodeFirestoreDoc(json);
+              resolve(doc);
+            } else {
+              resolve(null);
+            }
+          } catch (e) {
+            resolve(null);
+          }
+        });
+      });
+      req.on('error', () => resolve(null));
+      req.setTimeout(3500, () => {
+        req.destroy();
+        resolve(null);
+      });
+    });
+  } catch (e) {
+    return null;
+  }
+}
+
 async function _syncFirestoreRest(colName, docId, data) {
   try {
     const https = require('https');
@@ -2005,14 +2039,65 @@ app.get('/api/v1/projects/:projectId', async (req, res) => {
   try {
     const { projectId } = req.params;
     const projects = await getCollectionDocs('projects');
-    const project = projects.find(p => p.projectId === projectId);
+    let project = projects.find(p => p.projectId === projectId || p.id === projectId);
+
+    // 1. Direct Cloud Firestore REST fetch fallback
+    if (!project) {
+      try {
+        const restDoc = await _fetchFirestoreRestDoc('projects', projectId);
+        if (restDoc && (restDoc.projectId || restDoc.title)) {
+          project = restDoc;
+          await saveDoc('projects', projectId, project);
+        }
+      } catch (e) {}
+    }
+
+    // 2. Peer failover to Python Render Gateway
+    if (!project) {
+      try {
+        const https = require('https');
+        const pythonUrl = `https://digiindia-student-platform.onrender.com/api/v1/projects/${projectId}`;
+        project = await new Promise((resolve) => {
+          https.get(pythonUrl, (pRes) => {
+            let pData = '';
+            pRes.on('data', chunk => pData += chunk);
+            pRes.on('end', () => {
+              try {
+                if (pRes.statusCode === 200) {
+                  const parsed = JSON.parse(pData);
+                  const pObj = parsed.project || parsed;
+                  if (pObj && (pObj.projectId || pObj.title)) {
+                    saveDoc('projects', projectId, pObj).catch(() => {});
+                    resolve(pObj);
+                    return;
+                  }
+                }
+                resolve(null);
+              } catch(e) { resolve(null); }
+            });
+          }).on('error', () => resolve(null));
+        });
+      } catch(e) {}
+    }
+
     if (!project) return res.status(404).json({ detail: 'Project not found' });
 
+    if (!project.projectId) project.projectId = projectId;
+    if (!project.verificationStatus) project.verificationStatus = 'pending';
+
     const metadataList = await getCollectionDocs('projectMetadata');
-    const metadata = metadataList.find(m => m.projectId === projectId) || {};
+    const metadata = metadataList.find(m => m.projectId === projectId || m.id === projectId) || {};
 
     const verifs = await getCollectionDocs('projectVerification');
-    const verification = verifs.find(v => v.projectId === projectId) || {};
+    let verification = verifs.find(v => v.projectId === projectId || v.id === projectId);
+    if (!verification) {
+      verification = {
+        projectId,
+        verificationStatus: project.verificationStatus || 'pending',
+        verificationMethod: 'meta_tag',
+        verificationToken: project.verificationToken || projectId.slice(0, 16)
+      };
+    }
 
     res.json({ project, metadata, verification });
   } catch (err) {

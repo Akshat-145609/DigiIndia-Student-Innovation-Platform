@@ -481,7 +481,7 @@
             margin: 16px 0;
             overflow: hidden;
             border: 1px solid #313244;
-            box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+            box-shadow: 0 4px 14px rgba(0,0,0,0.14);
         }
         .code-card-header {
             background: #181825;
@@ -499,27 +499,43 @@
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.5px;
+            display: inline-flex;
+            align-items: center;
         }
         .code-card-actions {
             display: flex;
             gap: 6px;
             align-items: center;
+            flex-wrap: wrap;
         }
-        .code-card-actions button {
+        .code-card-actions .btn {
             font-size: 11.5px;
             padding: 3px 10px;
             border-radius: 20px;
             font-weight: 500;
+            line-height: 1.3;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
         }
-        .code-card pre {
-            margin: 0;
-            padding: 16px;
-            overflow-x: auto;
-            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-            font-size: 13px;
-            line-height: 1.5;
-            color: #cdd6f4;
-            background: transparent;
+        .code-card-pre {
+            margin: 0 !important;
+            padding: 16px !important;
+            overflow-x: auto !important;
+            background: #1e1e2e !important;
+            max-height: 480px;
+            border: none !important;
+        }
+        .code-card-code {
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+            font-size: 13px !important;
+            line-height: 1.55 !important;
+            color: #cdd6f4 !important;
+            background: transparent !important;
+            padding: 0 !important;
+            display: block !important;
+            white-space: pre !important;
+            tab-size: 4;
         }
         .live-preview-box {
             background: #ffffff;
@@ -532,6 +548,213 @@
             border: 1px solid #dfe1e5;
             border-radius: 8px;
             background: #ffffff;
+        }
+
+        /* RICH DOCUMENT TYPOGRAPHY FOR STORY & DOCUMENT SANDBOX */
+        .sandbox-doc-view {
+            color: #1e293b;
+            font-size: 15.5px;
+            line-height: 1.8;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        .sandbox-doc-view h1,
+        .sandbox-doc-view h2,
+        .sandbox-doc-view h3,
+        .sandbox-doc-view h4 {
+            color: #0f172a;
+            font-weight: 700;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            line-height: 1.35;
+        }
+        .sandbox-doc-view h1 {
+            font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+        }
+        .sandbox-doc-view h2 {
+            font-size: clamp(1.2rem, 2vw, 1.5rem);
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 6px;
+        }
+        .sandbox-doc-view h3 {
+            font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+        }
+        .sandbox-doc-view p {
+            margin-bottom: 14px;
+            color: #334155;
+        }
+        .sandbox-doc-view ul,
+        .sandbox-doc-view ol {
+            padding-left: 26px;
+            margin-bottom: 16px;
+        }
+        .sandbox-doc-view li {
+            margin-bottom: 6px;
+            color: #334155;
+        }
+        .sandbox-doc-view blockquote {
+            border-left: 4px solid #2563eb;
+            background: #f0f7ff;
+            padding: 12px 18px;
+            margin: 18px 0;
+            border-radius: 0 8px 8px 0;
+            color: #1e3a8a;
+            font-style: italic;
+        }
+        .sandbox-doc-view table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        .sandbox-doc-view table th,
+        .sandbox-doc-view table td {
+            border: 1px solid #e2e8f0;
+            padding: 10px 14px;
+            text-align: left;
+        }
+        .sandbox-doc-view table th {
+            background: #f8fafc;
+            color: #0f172a;
+            font-weight: 600;
+        }
+        .sandbox-doc-view table tr:nth-child(even) {
+            background: #f8fafc;
+        }
+        .sandbox-doc-view code:not(.code-card-code) {
+            background: #f1f5f9;
+            color: #0f172a;
+            padding: 2px 6px;
+            border-radius: 6px;
+            font-size: 13.5px;
+            font-family: "SFMono-Regular", Consolas, Menlo, monospace;
+            border: 1px solid #e2e8f0;
+        }
+        .sandbox-doc-view pre {
+            background: #1e1e2e;
+            color: #cdd6f4;
+            padding: 16px;
+            border-radius: 10px;
+            overflow-x: auto;
+            margin: 18px 0;
+            border: 1px solid #313244;
+        }
+        .sandbox-doc-view pre code {
+            background: transparent;
+            color: #cdd6f4;
+            border: none;
+            padding: 0;
+        }
+
+        /* PRINT STYLESHEET FOR PDF / PRINT PURPOSE */
+        @media print {
+            body {
+                background: #ffffff !important;
+                color: #000000 !important;
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+            body.printing-doc-sandbox > *:not(#docSandboxModal),
+            body.modal-open > *:not(#docSandboxModal) {
+                display: none !important;
+            }
+            body:not(.printing-doc-sandbox):not(.modal-open) .modal {
+                display: none !important;
+            }
+            .search-header-nav,
+            .serp-mobile-header,
+            .modal-backdrop,
+            #toast-container,
+            .modal-header .btn,
+            .modal-header .btn-close,
+            .modal-footer {
+                display: none !important;
+            }
+            body.printing-doc-sandbox #docSandboxModal,
+            body.modal-open #docSandboxModal {
+                position: static !important;
+                display: block !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                overflow: visible !important;
+                width: 100% !important;
+                height: auto !important;
+                background: #ffffff !important;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            #docSandboxModal .modal-dialog {
+                position: static !important;
+                max-width: 100% !important;
+                width: 100% !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                transform: none !important;
+            }
+            #docSandboxModal .modal-content {
+                border: none !important;
+                box-shadow: none !important;
+                border-radius: 0 !important;
+                background: #ffffff !important;
+            }
+            #docSandboxModal .modal-header {
+                border-bottom: 2px solid #2563eb !important;
+                background: transparent !important;
+                padding: 0 0 14px 0 !important;
+                margin-bottom: 20px !important;
+                display: flex !important;
+            }
+            #docSandboxModal .modal-body {
+                padding: 0 !important;
+                color: #0f172a !important;
+                font-size: 11pt !important;
+                line-height: 1.6 !important;
+            }
+            .sandbox-doc-view h1, 
+            .sandbox-doc-view h2, 
+            .sandbox-doc-view h3, 
+            .sandbox-doc-view h4 {
+                color: #0f172a !important;
+                page-break-after: avoid !important;
+            }
+            .sandbox-doc-view p, 
+            .sandbox-doc-view li {
+                color: #1e293b !important;
+            }
+            .sandbox-doc-view table {
+                width: 100% !important;
+                border-collapse: collapse !important;
+                page-break-inside: avoid !important;
+                margin: 14px 0 !important;
+            }
+            .sandbox-doc-view table th, 
+            .sandbox-doc-view table td {
+                border: 1px solid #cbd5e1 !important;
+                padding: 6px 10px !important;
+            }
+            .sandbox-doc-view table th {
+                background: #f1f5f9 !important;
+                color: #0f172a !important;
+            }
+            .sandbox-doc-view pre, 
+            .sandbox-doc-view code {
+                background: #f8fafc !important;
+                color: #0f172a !important;
+                border: 1px solid #cbd5e1 !important;
+                page-break-inside: avoid !important;
+                white-space: pre-wrap !important;
+                word-break: break-word !important;
+            }
+            .sandbox-doc-view blockquote {
+                border-left: 4px solid #2563eb !important;
+                padding-left: 12px !important;
+                color: #475569 !important;
+            }
+            @page {
+                size: A4 portrait;
+                margin: 15mm 15mm 15mm 15mm;
+            }
         }
 
         /* AI CHAT & MARKDOWN STYLING */
@@ -629,6 +852,45 @@
         .quick-prompt-pill:hover {
             background: #e2e8f0;
             color: #0f172a;
+        }
+
+        /* MOBILE & MEDIA QUERIES FOR MODALS & CODE */
+        @media (max-width: 576px) {
+            #serpLearnMoreModal .modal-dialog {
+                margin: 10px auto;
+            }
+            #serpLearnMoreModal .modal-content {
+                border-radius: 16px !important;
+            }
+            #serpLearnMoreModal .modal-header {
+                padding-top: 14px !important;
+                padding-left: 54px !important;
+                padding-right: 14px !important;
+            }
+            #serpLearnMoreModal .modal-body {
+                padding: 12px 14px !important;
+            }
+            #serpLearnMoreModal .modal-footer {
+                padding: 10px 14px 16px 14px !important;
+            }
+            #docSandboxModal .modal-header {
+                padding: 12px 14px !important;
+            }
+            #docSandboxModal .modal-body {
+                padding: 16px 14px !important;
+            }
+            .code-card-header {
+                padding: 8px 10px;
+            }
+            .code-card-actions {
+                width: 100%;
+                justify-content: flex-start;
+                margin-top: 4px;
+            }
+            .code-card-pre {
+                padding: 12px !important;
+                font-size: 12px !important;
+            }
         }
     </style>
 </head>
@@ -827,28 +1089,33 @@
     <div class="modal fade" id="docSandboxModal" tabindex="-1" aria-labelledby="docSandboxModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-lg-down">
             <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
-                <div class="modal-header border-bottom bg-light px-4 py-3">
-                    <div class="d-flex align-items-center gap-2">
-                        <i class="bi bi-journal-richtext text-primary fs-4"></i>
-                        <div>
-                            <h5 class="modal-title fw-bold text-dark mb-0" id="docSandboxModalLabel">DigiIndia Story & Document Sandbox</h5>
-                            <small class="text-muted">Fullscreen developer preview, README markdown export, Word .doc and PDF generation</small>
+                <div class="modal-header border-bottom bg-light px-3 px-md-4 py-3 d-flex flex-column flex-md-row align-items-stretch align-items-md-center justify-content-between gap-3">
+                    <div class="d-flex align-items-center justify-content-between w-100 w-md-auto">
+                        <div class="d-flex align-items-center gap-2">
+                            <div class="rounded-circle bg-primary-subtle text-primary d-flex align-items-center justify-content-center flex-shrink-0" style="width: 38px; height: 38px; font-size: 20px;">
+                                <i class="bi bi-journal-richtext"></i>
+                            </div>
+                            <div>
+                                <h5 class="modal-title fw-bold text-dark mb-0" id="docSandboxModalLabel" style="font-size: clamp(15px, 2.5vw, 18px);">DigiIndia Story & Document Sandbox</h5>
+                                <small class="text-muted d-none d-sm-block" style="font-size: 11.5px;">Developer preview, README markdown export, Word .doc and PDF generation</small>
+                            </div>
                         </div>
+                        <button type="button" class="btn-close d-md-none ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="d-flex align-items-center flex-wrap gap-2 ms-auto">
-                        <button class="btn btn-outline-dark btn-sm rounded-pill px-3" onclick="exportDocSandbox('readme')">
-                            <i class="bi bi-file-earmark-code me-1"></i>Download README.md
+                    <div class="d-flex align-items-center gap-2 flex-wrap justify-content-end">
+                        <button type="button" class="btn btn-outline-dark btn-sm rounded-pill px-2 px-sm-3 header-btn" onclick="exportDocSandbox('readme')">
+                            <i class="bi bi-file-earmark-code me-1"></i>README.md
                         </button>
-                        <button class="btn btn-outline-primary btn-sm rounded-pill px-3" onclick="exportDocSandbox('doc')">
-                            <i class="bi bi-file-earmark-word me-1"></i>Download .doc
+                        <button type="button" class="btn btn-outline-primary btn-sm rounded-pill px-2 px-sm-3 header-btn" onclick="exportDocSandbox('doc')">
+                            <i class="bi bi-file-earmark-word me-1"></i>Word .doc
                         </button>
-                        <button class="btn btn-outline-danger btn-sm rounded-pill px-3" onclick="exportDocSandbox('pdf')">
-                            <i class="bi bi-file-earmark-pdf me-1"></i>Print / PDF
+                        <button type="button" class="btn btn-outline-danger btn-sm rounded-pill px-2 px-sm-3 header-btn" onclick="exportDocSandbox('pdf')">
+                            <i class="bi bi-printer me-1"></i>Print / PDF
                         </button>
-                        <button type="button" class="btn-close ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn-close d-none d-md-block ms-1" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                 </div>
-                <div class="modal-body p-4 p-md-5" id="docSandboxBody" style="background:#ffffff; color:#202124; font-size:15px; line-height:1.75;">
+                <div class="modal-body p-3 p-md-5" id="docSandboxBody" style="background:#ffffff; color:#202124; font-size:15px; line-height:1.75;">
                     <!-- Formatted Markdown content rendered here -->
                 </div>
             </div>
@@ -878,38 +1145,38 @@
 
     <!-- LEARN MORE CUSTOM MODAL (WITH TOP-LEFT CROSS & BOTTOM-LEFT CLOSE BUTTONS) -->
     <div class="modal fade" id="serpLearnMoreModal" tabindex="-1" aria-labelledby="serpLearnMoreModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
             <div class="modal-content rounded-4 border-0 shadow-lg position-relative overflow-hidden">
                 <!-- Cross Button at Top-Left as requested -->
                 <button type="button" class="btn btn-sm btn-light border rounded-circle position-absolute d-flex align-items-center justify-content-center" 
-                        style="top: 16px; left: 16px; z-index: 1060; width: 38px; height: 38px; box-shadow: 0 2px 8px rgba(0,0,0,0.12);" 
+                        style="top: 12px; left: 12px; z-index: 1060; width: 34px; height: 34px; box-shadow: 0 2px 8px rgba(0,0,0,0.12);" 
                         data-bs-dismiss="modal" aria-label="Close" title="Close (Top Left)">
                     <i class="bi bi-x-lg text-dark"></i>
                 </button>
 
-                <div class="modal-header border-bottom-0 pb-0 pt-4 px-4 ps-5">
-                    <div class="ms-3">
+                <div class="modal-header border-bottom-0 pb-0 pt-3 pt-sm-4 px-3 px-sm-4 ps-5">
+                    <div class="ms-2">
                         <span class="badge rounded-pill px-3 py-1 mb-1" id="learnMoreBadge" style="background: #1a73e8; color: white;">
                             <i class="bi bi-info-circle me-1"></i>Resource Overview
                         </span>
-                        <h5 class="modal-title fw-bold text-dark" id="serpLearnMoreModalLabel">Resource Overview</h5>
+                        <h5 class="modal-title fw-bold text-dark text-truncate" id="serpLearnMoreModalLabel" style="font-size: clamp(16px, 2.5vw, 20px);">Resource Overview</h5>
                     </div>
                 </div>
 
-                <div class="modal-body px-4 py-3" id="serpLearnMoreModalBody">
+                <div class="modal-body px-3 px-sm-4 py-2 py-sm-3" id="serpLearnMoreModalBody">
                     <!-- Injected via openSerpLearnMore() -->
                 </div>
 
-                <div class="modal-footer border-top-0 pt-0 pb-4 px-4 justify-content-between align-items-center">
+                <div class="modal-footer border-top-0 pt-0 pb-3 pb-sm-4 px-3 px-sm-4 d-flex flex-column-reverse flex-sm-row justify-content-between align-items-stretch align-items-sm-center gap-2">
                     <!-- Close Button at Bottom-Left as requested -->
-                    <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal" title="Close (Bottom Left)">
+                    <button type="button" class="btn btn-secondary rounded-pill px-4 header-btn" data-bs-dismiss="modal" title="Close (Bottom Left)">
                         <i class="bi bi-x-circle me-1"></i>Close
                     </button>
-                    <div class="d-flex gap-2">
-                        <button type="button" class="btn btn-outline-primary rounded-pill px-3" id="learnMoreCopyBtn" onclick="copyLearnMoreUrl()">
+                    <div class="d-flex flex-column flex-sm-row gap-2">
+                        <button type="button" class="btn btn-outline-primary rounded-pill px-3 header-btn" id="learnMoreCopyBtn" onclick="copyLearnMoreUrl()">
                             <i class="bi bi-clipboard me-1"></i>Copy Link
                         </button>
-                        <a id="learnMoreActionBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill px-4 fw-semibold">
+                        <a id="learnMoreActionBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill px-4 fw-semibold header-btn text-center">
                             Visit Resource <i class="bi bi-box-arrow-up-right ms-1"></i>
                         </a>
                     </div>
@@ -1010,7 +1277,6 @@
                                 <i class="bi bi-shield-check me-1"></i>Verified Safe
                             </span>
                         </div>
-                        <h6 class="fw-bold text-dark mb-1">${escapeHtml(title)}</h6>
                         <div class="text-muted small text-truncate mb-2" style="font-size:12px;">${escapeHtml(item.displayUrl || targetUrl)}</div>
                         <p class="text-secondary small mb-0">${escapeHtml(item.snippet || 'No snippet description available.')}</p>
                     </div>
@@ -1024,9 +1290,13 @@
                     </div>` : ''}
 
                     <div class="card p-3 border-0 bg-light rounded-3">
-                        <div class="d-flex justify-content-between text-muted small">
-                            <span>Protocol: <strong>${targetUrl.startsWith('https') ? 'HTTPS (SSL Secured)' : 'HTTP'}</strong></span>
-                            <span>Destination Gateway: <strong>Verified Redirection Interstitial</strong></span>
+                        <div class="row g-2 text-muted small">
+                            <div class="col-12 col-sm-6">
+                                <span>Protocol: <strong>${targetUrl.startsWith('https') ? 'HTTPS (SSL Secured)' : 'HTTP'}</strong></span>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <span>Gateway: <strong>Verified Redirection Interstitial</strong></span>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -1041,8 +1311,8 @@
 
                 bodyHtml = `
                     ${thumb ? `
-                    <div class="mb-3 rounded-4 overflow-hidden position-relative shadow-sm text-center bg-dark" style="max-height: 280px;">
-                        <img src="${thumb}" alt="${escapeHtml(title)}" class="img-fluid w-100 object-fit-cover" style="max-height: 280px;">
+                    <div class="mb-3 rounded-4 overflow-hidden position-relative shadow-sm text-center bg-dark" style="max-height: 260px;">
+                        <img src="${thumb}" alt="${escapeHtml(title)}" class="img-fluid w-100 object-fit-cover" style="max-height: 260px;">
                         <a href="${wrapUrl(targetUrl)}" target="_blank" class="yt-play-btn-circle position-absolute top-50 start-50 translate-middle">
                             <i class="bi bi-play-fill fs-3 ms-1 text-white"></i>
                         </a>
@@ -1055,18 +1325,23 @@
                             </span>
                             <span class="small text-muted ms-auto">${escapeHtml(item.duration || 'Video')} • ${escapeHtml(item.views || 'Verified Views')}</span>
                         </div>
-                        <h6 class="fw-bold text-dark mb-2">${escapeHtml(title)}</h6>
                         <p class="text-secondary small mb-0">${escapeHtml(item.description || 'Watch verified video demonstration and technical implementation walkthrough.')}</p>
                     </div>
 
                     <div class="card p-3 border-0 bg-light rounded-3 text-muted small">
-                        <div class="d-flex justify-content-between mb-1">
-                            <span>Channel: <strong>${escapeHtml(item.channelTitle || 'Creator')}</strong></span>
-                            <span>Uploaded: <strong>${escapeHtml(item.uploadedTime || 'Recently')}</strong></span>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <span>Resolution: <strong>Native YouTube CDN (1080p)</strong></span>
-                            <span>Video ID: <code>${escapeHtml(vid || 'N/A')}</code></span>
+                        <div class="row g-2">
+                            <div class="col-12 col-sm-6 text-truncate">
+                                <span>Channel: <strong class="text-dark">${escapeHtml(item.channelTitle || 'Creator')}</strong></span>
+                            </div>
+                            <div class="col-12 col-sm-6 text-truncate">
+                                <span>Uploaded: <strong>${escapeHtml(item.uploadedTime || 'Recently')}</strong></span>
+                            </div>
+                            <div class="col-12 col-sm-6 text-truncate">
+                                <span>Resolution: <strong>Native YouTube CDN (1080p)</strong></span>
+                            </div>
+                            <div class="col-12 col-sm-6 text-truncate">
+                                <span>Video ID: <code>${escapeHtml(vid || 'N/A')}</code></span>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -1089,10 +1364,9 @@
                                 <i class="bi bi-shield-check me-1"></i>Trust Score: ${item.trustScore || 85}/100
                             </span>
                             <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-2 py-1 ms-auto">
-                                ${item.isUserSubmitted ? 'User Submitted & Verified' : (item.visibility || 'Public Verified')}
+                                ${item.isUserSubmitted ? 'User Submitted' : (item.visibility || 'Public Verified')}
                             </span>
                         </div>
-                        <h6 class="fw-bold text-dark mb-2">${escapeHtml(title)}</h6>
 
                         ${(sName || sSpn) ? `
                         <div class="d-flex align-items-center gap-2 p-2 mb-3 bg-white rounded-3 border">
@@ -1100,15 +1374,16 @@
                                 ${sAvatar ? `<img src="${sAvatar}" alt="${escapeHtml(sName)}" class="w-100 h-100 object-fit-cover">` : `<i class="bi bi-person-fill"></i>`}
                             </div>
                             <div class="overflow-hidden flex-grow-1" style="font-size: 12.5px;">
-                                <div class="d-flex align-items-center gap-1">
-                                    <span class="fw-bold text-dark">${escapeHtml(sName || 'Student Innovator')}</span>
+                                <div class="d-flex align-items-center gap-1 flex-wrap">
+                                    <span class="fw-bold text-dark text-truncate">${escapeHtml(sName || 'Student Innovator')}</span>
                                     ${sSpn ? `<span class="badge bg-info-subtle text-dark border px-1 py-0 rounded" style="font-size: 10px;">SPN: ${escapeHtml(sSpn)}</span>` : ''}
                                 </div>
                                 <div class="text-muted small text-truncate"><i class="bi bi-building me-1"></i>${escapeHtml(sCollege || 'Academic Institution')}</div>
                             </div>
+                            ${sSpn ? `
                             <a href="/profile.html?spn=${encodeURIComponent(sSpn)}" class="btn btn-sm btn-outline-primary rounded-pill px-2 py-1 flex-shrink-0" style="font-size: 11px;">
                                 View Profile
-                            </a>
+                            </a>` : ''}
                         </div>` : ''}
 
                         <p class="text-secondary small mb-3">${escapeHtml(item.description || 'Verified student repository submission with code ownership audit.')}</p>
@@ -1122,13 +1397,25 @@
                     </div>
 
                     <div class="card p-3 border-0 bg-light rounded-3 text-muted small">
-                        <div class="d-flex justify-content-between mb-1">
-                            <span>Innovator: <strong>${escapeHtml(sName || 'Student Innovator')}</strong></span>
-                            <span>Verification: <strong class="text-success">${escapeHtml(item.verificationStatus || 'verified')}</strong></span>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <span>Repository: <a href="${wrapUrl(item.repositoryURL || '#')}" target="_blank" class="text-primary">${escapeHtml(item.repositoryURL || 'GitHub Repo')}</a></span>
-                            <span>Live URL: <a href="${wrapUrl(item.liveURL || '#')}" target="_blank" class="text-success">${escapeHtml(item.liveURL || 'Web App')}</a></span>
+                        <div class="row g-2">
+                            <div class="col-12 col-sm-6 text-truncate">
+                                <span>Innovator: <strong class="text-dark">${escapeHtml(sName || 'Student Innovator')}</strong></span>
+                            </div>
+                            <div class="col-12 col-sm-6 text-truncate">
+                                <span>Verification: <strong class="text-success"><i class="bi bi-patch-check-fill me-1"></i>${escapeHtml(item.verificationStatus || 'verified')}</strong></span>
+                            </div>
+                            <div class="col-12 col-sm-6 overflow-hidden">
+                                <span class="d-block text-secondary">Repository:</span>
+                                <a href="${wrapUrl(item.repositoryURL || '#')}" target="_blank" class="text-primary text-truncate d-block" title="${escapeHtml(item.repositoryURL || '')}">
+                                    <i class="bi bi-github me-1"></i>${escapeHtml(item.repositoryURL || 'GitHub Repo')}
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 overflow-hidden">
+                                <span class="d-block text-secondary">Live URL:</span>
+                                <a href="${wrapUrl(item.liveURL || '#')}" target="_blank" class="text-success text-truncate d-block" title="${escapeHtml(item.liveURL || '')}">
+                                    <i class="bi bi-box-arrow-up-right me-1"></i>${escapeHtml(item.liveURL || 'Web App')}
+                                </a>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -1149,9 +1436,15 @@
                                 <i class="bi bi-patch-check-fill me-1"></i>${item.verificationStatus || 'verified'}
                             </span>
                         </div>
-                        <h6 class="fw-bold text-dark mb-1">${escapeHtml(title)}</h6>
                         <div class="text-muted small mb-2"><i class="bi bi-building me-1"></i>${escapeHtml(item.college || 'Academic Institution')}</div>
                         
+                        ${item.matchedProjectTitle ? `
+                        <div class="p-2 mb-2 bg-primary-subtle bg-opacity-25 rounded-3 border border-primary-subtle small">
+                            <span class="text-primary fw-semibold d-block text-truncate" style="font-size: 11.5px;">
+                                <i class="bi bi-lightbulb-fill text-warning me-1"></i>Creator of: "${escapeHtml(item.matchedProjectTitle)}"
+                            </span>
+                        </div>` : ''}
+
                         <div class="mb-2">
                             <span class="small fw-semibold text-muted d-block mb-1">Developer Skills:</span>
                             <div class="d-flex flex-wrap gap-1">
@@ -1161,13 +1454,19 @@
                     </div>
 
                     <div class="card p-3 border-0 bg-light rounded-3 text-muted small">
-                        <div class="d-flex justify-content-between mb-1">
-                            <span>Course: <strong>${escapeHtml(item.course || 'Engineering / CS')}</strong></span>
-                            <span>Semester: <strong>${escapeHtml(item.semester || 'Final Year')}</strong></span>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <span>Identity Status: <strong class="text-success">Verified Active</strong></span>
-                            <span>Student UID: <code>${escapeHtml((item.studentUID || item.uid || '').substring(0, 10))}...</code></span>
+                        <div class="row g-2">
+                            <div class="col-12 col-sm-6 text-truncate">
+                                <span>Course: <strong class="text-dark">${escapeHtml(item.course || 'Engineering / CS')}</strong></span>
+                            </div>
+                            <div class="col-12 col-sm-6 text-truncate">
+                                <span>Semester: <strong>${escapeHtml(item.semester || 'Final Year')}</strong></span>
+                            </div>
+                            <div class="col-12 col-sm-6 text-truncate">
+                                <span>Identity Status: <strong class="text-success"><i class="bi bi-check-circle-fill me-1"></i>Verified Active</strong></span>
+                            </div>
+                            <div class="col-12 col-sm-6 text-truncate">
+                                <span>Student UID: <code>${escapeHtml((item.studentUID || item.uid || '').substring(0, 10))}...</code></span>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -1188,23 +1487,30 @@
                                 <i class="bi bi-star-fill text-warning me-1"></i>${item.stars || 0} Stars
                             </span>
                         </div>
-                        <h6 class="fw-bold text-dark mb-2">${escapeHtml(title)}</h6>
                         <p class="text-secondary small mb-0">${escapeHtml(item.description || 'Open source software repository hosted on GitHub.')}</p>
                     </div>
 
                     <div class="card p-3 border-0 bg-light rounded-3 text-muted small">
-                        <div class="d-flex justify-content-between mb-1">
-                            <span>Source: <strong>GitHub Official Public API</strong></span>
-                            <span>Forks: <strong>${item.forks || 0}</strong></span>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <span>Full Repository: <a href="${wrapUrl(targetUrl)}" target="_blank" class="text-primary text-truncate">${escapeHtml(targetUrl)}</a></span>
+                        <div class="row g-2">
+                            <div class="col-12 col-sm-6 text-truncate">
+                                <span>Source: <strong>GitHub Official Public API</strong></span>
+                            </div>
+                            <div class="col-12 col-sm-6 text-truncate">
+                                <span>Forks: <strong>${item.forks || 0}</strong></span>
+                            </div>
+                            <div class="col-12 overflow-hidden">
+                                <span class="d-block text-secondary">Target Repository:</span>
+                                <a href="${wrapUrl(targetUrl)}" target="_blank" class="text-primary text-truncate d-block" title="${escapeHtml(targetUrl)}">
+                                    <i class="bi bi-box-arrow-up-right me-1"></i>${escapeHtml(targetUrl)}
+                                </a>
+                            </div>
                         </div>
                     </div>
                 `;
             }
 
             modalTitle.textContent = title;
+            modalTitle.title = title;
             modalBadge.innerHTML = badgeText;
             modalBadge.style.background = badgeBg;
             modalBody.innerHTML = bodyHtml;
@@ -1678,7 +1984,9 @@
         // CODE CARD CONTAINER & LIVE PREVIEW ENGINE
         // ==========================================
         function parseAndRenderAiMarkdown(text, messageIndex) {
-            const codeBlockRegex = /```([a-zA-Z0-9_-]*)\n([\s\S]*?)```/g;
+            if (!text) return "";
+
+            const codeBlockRegex = /```([a-zA-Z0-9_-]*)\r?\n([\s\S]*?)```/g;
             let blockIdx = 0;
 
             let hasHtml = false;
@@ -1688,60 +1996,70 @@
             let combinedCss = "";
             let combinedJs = "";
 
-            let m;
-            while ((m = codeBlockRegex.exec(text)) !== null) {
-                const lang = (m[1] || "code").toLowerCase();
-                const code = m[2];
-                const codeId = `code_${messageIndex}_${blockIdx++}`;
-                activeCodeSnippets[codeId] = { code, lang };
+            const placeholders = {};
 
-                if (['html', 'htm'].includes(lang)) { hasHtml = true; combinedHtml += code + "\n"; }
-                if (['css'].includes(lang)) { hasCss = true; combinedCss += code + "\n"; }
-                if (['javascript', 'js'].includes(lang)) { hasJs = true; combinedJs += code + "\n"; }
-            }
-
-            blockIdx = 0;
-            const textWithCards = text.replace(codeBlockRegex, (match, lang, code) => {
+            // 1. Extract and tokenize code blocks BEFORE calling marked.parse
+            const tokenizedText = text.replace(codeBlockRegex, (match, lang, code) => {
                 const codeId = `code_${messageIndex}_${blockIdx++}`;
-                const cleanLang = (lang || "code").toLowerCase();
+                const cleanLang = (lang || "code").toLowerCase().trim();
                 const isWebCode = ['html', 'htm', 'css', 'js', 'javascript'].includes(cleanLang);
+                const trimmedCode = code.trim();
 
-                return `
+                activeCodeSnippets[codeId] = { code: trimmedCode, lang: cleanLang };
+
+                if (['html', 'htm'].includes(cleanLang)) { hasHtml = true; combinedHtml += trimmedCode + "\n"; }
+                if (['css'].includes(cleanLang)) { hasCss = true; combinedCss += trimmedCode + "\n"; }
+                if (['javascript', 'js'].includes(cleanLang)) { hasJs = true; combinedJs += trimmedCode + "\n"; }
+
+                const cardHtml = `
 <div class="code-card my-3" id="card_${codeId}">
     <div class="code-card-header">
-        <span class="code-card-lang"><i class="bi bi-code-square me-1"></i>${cleanLang}</span>
+        <span class="code-card-lang"><i class="bi bi-file-earmark-code me-1"></i>${cleanLang.toUpperCase()}</span>
         <div class="code-card-actions">
-            <button class="btn btn-sm btn-outline-light" onclick="copyCodeSnippet(this, '${codeId}')" title="Copy to clipboard">
+            <button type="button" class="btn btn-sm btn-outline-light" onclick="copyCodeSnippet(this, '${codeId}')" title="Copy to clipboard">
                 <i class="bi bi-clipboard"></i> Copy
             </button>
-            <button class="btn btn-sm btn-outline-light" onclick="editCodeSnippet('${codeId}')" title="Edit code">
+            <button type="button" class="btn btn-sm btn-outline-light" onclick="editCodeSnippet('${codeId}')" title="Edit code">
                 <i class="bi bi-pencil"></i> Edit
             </button>
-            <button class="btn btn-sm btn-outline-light" onclick="downloadCodeSnippet('${codeId}')" title="Download file">
+            <button type="button" class="btn btn-sm btn-outline-light" onclick="downloadCodeSnippet('${codeId}')" title="Download file">
                 <i class="bi bi-download"></i> Download
             </button>
             ${isWebCode ? `
-            <button class="btn btn-sm btn-success text-white" onclick="toggleLivePreview('${codeId}')" title="Run live preview without reload">
+            <button type="button" class="btn btn-sm btn-success text-white" onclick="toggleLivePreview('${codeId}')" title="Run live preview">
                 <i class="bi bi-play-fill"></i> Run Preview
             </button>
             ` : ''}
         </div>
     </div>
-    <pre><code id="code_content_${codeId}">${escapeHtml(code)}</code></pre>
+    <pre class="code-card-pre"><code id="code_content_${codeId}" class="code-card-code">${escapeHtml(trimmedCode)}</code></pre>
     <div id="preview_box_${codeId}" class="live-preview-box d-none">
         <div class="d-flex justify-content-between align-items-center mb-2">
             <span class="small fw-semibold text-primary"><i class="bi bi-display me-1"></i>Live Interactive Sandbox Preview</span>
-            <button class="btn btn-sm btn-link text-danger p-0 small" onclick="toggleLivePreview('${codeId}')">Close Sandbox</button>
+            <button type="button" class="btn btn-sm btn-link text-danger p-0 small text-decoration-none" onclick="toggleLivePreview('${codeId}')">
+                <i class="bi bi-x-circle me-1"></i>Close Sandbox
+            </button>
         </div>
         <iframe id="iframe_${codeId}" class="live-preview-iframe" sandbox="allow-scripts allow-modals"></iframe>
     </div>
-</div>
-                `;
+</div>`;
+
+                placeholders[codeId] = cardHtml;
+                return `\n\n%%%CODE_PLACEHOLDER_${codeId}%%%\n\n`;
             });
 
-            let renderedHtml = (typeof marked !== "undefined") ? marked.parse(textWithCards) : textWithCards;
+            // 2. Safely parse markdown without mangling HTML code card tags
+            let renderedHtml = (typeof marked !== "undefined") ? marked.parse(tokenizedText) : tokenizedText;
 
-            // Multi-File Linking Algorithm: Combine separate HTML, CSS, JS blocks
+            // 3. Re-insert pristine code card HTML
+            for (const [codeId, cardHtml] of Object.entries(placeholders)) {
+                const pRegex = new RegExp(`<p>\\s*%%%CODE_PLACEHOLDER_${codeId}%%%\\s*<\\/p>`, 'g');
+                renderedHtml = renderedHtml.replace(pRegex, cardHtml);
+                const rawRegex = new RegExp(`%%%CODE_PLACEHOLDER_${codeId}%%%`, 'g');
+                renderedHtml = renderedHtml.replace(rawRegex, cardHtml);
+            }
+
+            // 4. Multi-File Linking Algorithm: Combine separate HTML, CSS, JS blocks
             if ((hasHtml && hasCss) || (hasHtml && hasJs) || (hasCss && hasJs)) {
                 const combinedId = `combined_${messageIndex}`;
                 activeCodeSnippets[combinedId] = { html: combinedHtml, css: combinedCss, js: combinedJs, lang: 'combined' };
@@ -1751,18 +2069,17 @@
         <strong class="text-primary"><i class="bi bi-layers-fill me-1"></i>Combined Web Component Detected</strong>
         <p class="small text-muted mb-0">Separate HTML, CSS, and JS blocks linked into a unified executable document.</p>
     </div>
-    <button class="btn btn-primary rounded-pill px-3 fw-semibold header-btn" onclick="runCombinedPreview('${combinedId}')">
+    <button type="button" class="btn btn-primary rounded-pill px-3 fw-semibold header-btn" onclick="runCombinedPreview('${combinedId}')">
         <i class="bi bi-play-circle-fill me-1"></i>Run Full Web App Preview
     </button>
 </div>
 <div id="combined_preview_box_${combinedId}" class="live-preview-box rounded-4 border mb-3 d-none">
     <div class="d-flex justify-content-between align-items-center mb-2">
         <span class="small fw-bold text-success"><i class="bi bi-window me-1"></i>Unified Application Live Sandbox</span>
-        <button class="btn btn-sm btn-link text-danger p-0 small" onclick="document.getElementById('combined_preview_box_${combinedId}').classList.add('d-none')">Close</button>
+        <button type="button" class="btn btn-sm btn-link text-danger p-0 small text-decoration-none" onclick="document.getElementById('combined_preview_box_${combinedId}').classList.add('d-none')"><i class="bi bi-x-circle me-1"></i>Close</button>
     </div>
     <iframe id="combined_iframe_${combinedId}" class="live-preview-iframe" style="min-height: 340px;" sandbox="allow-scripts allow-modals"></iframe>
-</div>
-                `;
+</div>`;
                 renderedHtml = comboBanner + renderedHtml;
             }
 
@@ -1892,7 +2209,31 @@
             currentActiveDocMarkdown = text || "";
             const body = document.getElementById('docSandboxBody');
             if (body && typeof marked !== "undefined") {
-                body.innerHTML = marked.parse(currentActiveDocMarkdown);
+                const parsedContent = marked.parse(currentActiveDocMarkdown);
+                const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+                const modelBadge = currentAiModel || "DigiIndia Verified AI";
+                body.innerHTML = `
+                    <div class="sandbox-doc-view">
+                        <div class="doc-header-block p-3 p-sm-4 mb-4 rounded-3 border bg-light d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-3">
+                            <div>
+                                <div class="d-flex align-items-center gap-2 mb-1 flex-wrap">
+                                    <span class="badge bg-primary text-white"><i class="bi bi-file-earmark-text me-1"></i>DigiIndia Spec</span>
+                                    <span class="badge bg-white text-secondary border"><i class="bi bi-cpu me-1"></i>${escapeHtml(modelBadge)}</span>
+                                </div>
+                                <h4 class="mb-1 fw-bold text-dark">Technical Documentation & Architecture Spec</h4>
+                                <small class="text-muted"><i class="bi bi-calendar-event me-1"></i>Generated on ${today} &bull; Markdown / Word / PDF Export Ready</small>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2 rounded-pill font-monospace small">
+                                    <i class="bi bi-check2-circle me-1"></i>VERIFIED READY
+                                </span>
+                            </div>
+                        </div>
+                        <div class="doc-content-body">
+                            ${parsedContent}
+                        </div>
+                    </div>
+                `;
             }
             const modalEl = document.getElementById('docSandboxModal');
             if (modalEl && window.bootstrap) {
@@ -1929,7 +2270,11 @@
                 URL.revokeObjectURL(url);
                 API.showToast("Word document (.doc) downloaded.", "success");
             } else if (format === 'pdf') {
+                document.body.classList.add('printing-doc-sandbox');
                 window.print();
+                setTimeout(() => {
+                    document.body.classList.remove('printing-doc-sandbox');
+                }, 1000);
             }
         }
 

@@ -1,0 +1,678 @@
+{
+  "search_metadata": {
+    "id": "6a9c0dd603b1368aaf5e9905",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/i1oo6seM7EGlegnD7JYVyOmpkfT6juglPxsYGpIiDuQ/6a9c0dd603b1368aaf5e9905.json",
+    "markdown_endpoint": "https://serpapi.com/searches/i1oo6seM7EGlegnD7JYVyOmpkfT6juglPxsYGpIiDuQ/6a9c0dd603b1368aaf5e9905.md",
+    "created_at": "2026-09-05 12:40:54 UTC",
+    "processed_at": "2026-09-05 12:40:54 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=Pollution",
+    "raw_html_file": "https://serpapi.com/searches/i1oo6seM7EGlegnD7JYVyOmpkfT6juglPxsYGpIiDuQ/6a9c0dd603b1368aaf5e9905.html",
+    "total_time_taken": 2.52
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "Pollution"
+  },
+  "search_information": {
+    "total_results": 9252370,
+    "video_results_state": "Results for exact spelling"
+  },
+  "video_results": [
+    {
+      "position_on_page": 1,
+      "title": "Air Pollution 101 | National Geographic",
+      "link": "https://www.youtube.com/watch?v=e6rglsLy1Ys",
+      "video_id": "e6rglsLy1Ys",
+      "channel": {
+        "name": "National Geographic",
+        "link": "https://www.youtube.com/@NatGeo",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/-FOFg8o1y4dAHDB2MvhORHnLMOaaOKnaNUNsrU-U57Eac6gjB5VO8sYJQC1KkULGQvKP2XpArA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "8 years ago",
+      "views": "13,276,673 views",
+      "length": "3:53",
+      "description": "What is air pollution? Learn how greenhouse gasses, smog, and toxic pollutants effect climate change, and human health.",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/e6rglsLy1Ys/hqdefault.jpg",
+      "videoId": "e6rglsLy1Ys",
+      "url": "https://www.youtube.com/watch?v=e6rglsLy1Ys",
+      "channelTitle": "National Geographic",
+      "channelVerified": true,
+      "duration": "3:53"
+    },
+    {
+      "position_on_page": 2,
+      "title": "Air Pollution for Kids | Learn about the Causes and Effects of Air Pollution",
+      "link": "https://www.youtube.com/watch?v=Yjtgu2CxtEk",
+      "video_id": "Yjtgu2CxtEk",
+      "channel": {
+        "name": "Learn Bright",
+        "link": "https://www.youtube.com/@LearnBright",
+        "thumbnail": "https://yt3.ggpht.com/Raq_gpeiOhRFPD8pIhZRPIEWEK_jZ7qd9hIMoBC3pn3eiaZ-ANV2EatwcG-DY3C4iFdTYfStgWM=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 years ago",
+      "views": "2,375,497 views",
+      "length": "7:05",
+      "description": "Air is all around us and we need it to survive. In this video we will learn about air pollution, what causes it, some of the bad effects ...",
+      "thumbnail": "https://i.ytimg.com/vi/Yjtgu2CxtEk/hqdefault.jpg",
+      "videoId": "Yjtgu2CxtEk",
+      "url": "https://www.youtube.com/watch?v=Yjtgu2CxtEk",
+      "channelTitle": "Learn Bright",
+      "channelVerified": false,
+      "duration": "7:05"
+    },
+    {
+      "position_on_page": 3,
+      "title": "Air Pollution | What Causes Air Pollution? | The Dr Binocs Show | Kids Learning Videos|Peekaboo Kidz",
+      "link": "https://www.youtube.com/watch?v=fephtrPt6wk",
+      "video_id": "fephtrPt6wk",
+      "channel": {
+        "name": "Peekaboo Kidz",
+        "link": "https://www.youtube.com/@Peekaboo_Kidz",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lTFIu2b6QlZMJHCQ2F3--ukEBs8fd_tEahtv38sm8WwME=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "2,327,529 views",
+      "length": "6:10",
+      "description": "Hey kids, in this video, Dr Binocs will explain, what is air pollution? what causes air pollution? how to prevent air pollution?",
+      "thumbnail": "https://i.ytimg.com/vi/fephtrPt6wk/hqdefault.jpg",
+      "videoId": "fephtrPt6wk",
+      "url": "https://www.youtube.com/watch?v=fephtrPt6wk",
+      "channelTitle": "Peekaboo Kidz",
+      "channelVerified": true,
+      "duration": "6:10"
+    },
+    {
+      "position_on_page": 5,
+      "title": "Plastic Pollution: How Humans are Turning the World into Plastic",
+      "link": "https://www.youtube.com/watch?v=RS7IzU2VJIQ",
+      "video_id": "RS7IzU2VJIQ",
+      "channel": {
+        "name": "Kurzgesagt – In a Nutshell",
+        "link": "https://www.youtube.com/@kurzgesagt",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_n1Ribd7LwdP_qKtqWL3ZDfIgv9M1d6g78VwpHGXVR2Ir4=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "8 years ago",
+      "views": "10,051,619 views",
+      "length": "9:02",
+      "description": "Modern life would be impossible without plastic – but we have long since lost control over our invention. Why has plastic turned ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/RS7IzU2VJIQ/hqdefault.jpg",
+      "videoId": "RS7IzU2VJIQ",
+      "url": "https://www.youtube.com/watch?v=RS7IzU2VJIQ",
+      "channelTitle": "Kurzgesagt – In a Nutshell",
+      "channelVerified": true,
+      "duration": "9:02"
+    },
+    {
+      "position_on_page": 6,
+      "title": "What is POLLUTION? | Types of POLLUTION - Air | Water | Soil | Noise | Dr Binocs Show -Peekaboo Kidz",
+      "link": "https://www.youtube.com/watch?v=7qkaz8ChelI",
+      "video_id": "7qkaz8ChelI",
+      "channel": {
+        "name": "Peekaboo Kidz",
+        "link": "https://www.youtube.com/@Peekaboo_Kidz",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lTFIu2b6QlZMJHCQ2F3--ukEBs8fd_tEahtv38sm8WwME=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "7,005,775 views",
+      "length": "21:55",
+      "description": "Pollution | What Causes POLLUTION | Save EARTH | Air Pollution | Water Pollution | Noise Pollution | Soil Pollution | Land ...",
+      "thumbnail": "https://i.ytimg.com/vi/7qkaz8ChelI/hqdefault.jpg",
+      "videoId": "7qkaz8ChelI",
+      "url": "https://www.youtube.com/watch?v=7qkaz8ChelI",
+      "channelTitle": "Peekaboo Kidz",
+      "channelVerified": true,
+      "duration": "21:55"
+    },
+    {
+      "position_on_page": 7,
+      "title": "Air, Water and Land Pollution",
+      "link": "https://www.youtube.com/watch?v=J3Df0-ZJ_WA",
+      "video_id": "J3Df0-ZJ_WA",
+      "channel": {
+        "name": "Next Generation Science",
+        "link": "https://www.youtube.com/@NGScience",
+        "thumbnail": "https://yt3.ggpht.com/xo46acvnfhAWpi-MLR92J0HPQ6von0hrKl9BAdVKxJoFwEwZgBmgSXK_BKLU40palBudQfU7_F0=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "433,929 views",
+      "length": "2:05",
+      "description": "ngscience #airpollution #waterpollution #landpollution https://ngscience.com Did you know pollution happens when harmful ...",
+      "extensions": [
+        "Beginner",
+        "Next Generation Science Standards"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/J3Df0-ZJ_WA/hqdefault.jpg",
+      "videoId": "J3Df0-ZJ_WA",
+      "url": "https://www.youtube.com/watch?v=J3Df0-ZJ_WA",
+      "channelTitle": "Next Generation Science",
+      "channelVerified": false,
+      "duration": "2:05"
+    },
+    {
+      "position_on_page": 8,
+      "title": "Water Pollution for Kids | Learn How to Keep Our Water Clean",
+      "link": "https://www.youtube.com/watch?v=A3rLfrIUzY4",
+      "video_id": "A3rLfrIUzY4",
+      "channel": {
+        "name": "Learn Bright",
+        "link": "https://www.youtube.com/@LearnBright",
+        "thumbnail": "https://yt3.ggpht.com/Raq_gpeiOhRFPD8pIhZRPIEWEK_jZ7qd9hIMoBC3pn3eiaZ-ANV2EatwcG-DY3C4iFdTYfStgWM=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "984,968 views",
+      "length": "7:22",
+      "description": "What is water pollution? Did you know there are different kinds of pollution? In this video, you and your kids will learn all about the ...",
+      "thumbnail": "https://i.ytimg.com/vi/A3rLfrIUzY4/hqdefault.jpg",
+      "videoId": "A3rLfrIUzY4",
+      "url": "https://www.youtube.com/watch?v=A3rLfrIUzY4",
+      "channelTitle": "Learn Bright",
+      "channelVerified": false,
+      "duration": "7:22"
+    },
+    {
+      "position_on_page": 9,
+      "title": "This is your brain on air pollution | María Neira",
+      "link": "https://www.youtube.com/watch?v=utiLrnvawQQ",
+      "video_id": "utiLrnvawQQ",
+      "channel": {
+        "name": "TED",
+        "link": "https://www.youtube.com/@TED",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_koIFcCOrvh0KThLNOiazAIDu6hcs8bjkGNwe1f6A_OYm8=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "104,457 views",
+      "length": "12:53",
+      "description": "Visit http://TED.com to get our entire library of TED Talks, transcripts, translations, personalized Talk recommendations and more.",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/utiLrnvawQQ/hqdefault.jpg",
+      "videoId": "utiLrnvawQQ",
+      "url": "https://www.youtube.com/watch?v=utiLrnvawQQ",
+      "channelTitle": "TED",
+      "channelVerified": true,
+      "duration": "12:53"
+    },
+    {
+      "position_on_page": 11,
+      "title": "Pollution: Crash Course Ecology #11",
+      "link": "https://www.youtube.com/watch?v=kdDSRRCKMiI",
+      "video_id": "kdDSRRCKMiI",
+      "channel": {
+        "name": "CrashCourse",
+        "link": "https://www.youtube.com/@crashcourse",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/E454zI2spNFZsN_wgJPTHjMsqs1fFqb_qp4PYanWuyaXQJp98wKEV1kIQYlR57epaweO5P8v=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "13 years ago",
+      "views": "794,813 views",
+      "length": "9:22",
+      "description": "Hank talks about the last major way humans are impacting the environment in this penultimate episode of Crash Course Ecology.",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/kdDSRRCKMiI/hqdefault.jpg",
+      "videoId": "kdDSRRCKMiI",
+      "url": "https://www.youtube.com/watch?v=kdDSRRCKMiI",
+      "channelTitle": "CrashCourse",
+      "channelVerified": true,
+      "duration": "9:22"
+    },
+    {
+      "position_on_page": 12,
+      "title": "Pollution",
+      "link": "https://www.youtube.com/watch?v=EHmgNDo5rqA",
+      "video_id": "EHmgNDo5rqA",
+      "channel": {
+        "name": "limpbizkit",
+        "link": "https://www.youtube.com/channel/UCCndqRyI-5Zl8Mutlq71ASw",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/3sNwGkXaHWJNTq_gzrr2XGChzjeI8nJCLQSoC4GlW6P5U8PULB64c1PHy96kyg1HFEcRnaj0=s88-c-k-c0x00ffffff-no-rj"
+      },
+      "views": "4,630,641 views",
+      "length": "3:53",
+      "description": "Provided to YouTube by Universal Music Group Pollution · Limp Bizkit Three Dollar Bill, Y'all $ ℗ 1997 UMG Recordings, Inc.",
+      "thumbnail": "https://i.ytimg.com/vi/EHmgNDo5rqA/hqdefault.jpg",
+      "videoId": "EHmgNDo5rqA",
+      "url": "https://www.youtube.com/watch?v=EHmgNDo5rqA",
+      "channelTitle": "limpbizkit",
+      "channelVerified": true,
+      "duration": "3:53"
+    },
+    {
+      "position_on_page": 13,
+      "title": "The Yamuna, India's most polluted river",
+      "link": "https://www.youtube.com/watch?v=eHCaIvPN2rY",
+      "video_id": "eHCaIvPN2rY",
+      "channel": {
+        "name": "The Guardian",
+        "link": "https://www.youtube.com/@theGuardian",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/nic8lu6MJQg0LQ093PiOfzrCd4e6BefWdO92sbOgTO_dCkZfWfVbH4_shpUDRe-tuPYeeeav6Q=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "9 years ago",
+      "views": "11,355,969 views",
+      "length": "9:59",
+      "description": "Guardian India correspondent Michael Safi takes a journey along the Yamuna river. Subscribe to The Guardian on YouTube ...",
+      "thumbnail": "https://i.ytimg.com/vi/eHCaIvPN2rY/hqdefault.jpg",
+      "videoId": "eHCaIvPN2rY",
+      "url": "https://www.youtube.com/watch?v=eHCaIvPN2rY",
+      "channelTitle": "The Guardian",
+      "channelVerified": true,
+      "duration": "9:59"
+    },
+    {
+      "position_on_page": 15,
+      "title": "The leading cause of India’s air pollution? Non-stop burning. #india #pollution #environment",
+      "link": "https://www.youtube.com/watch?v=hyRFw0uxyGU",
+      "video_id": "hyRFw0uxyGU",
+      "channel": {
+        "name": "Insider",
+        "link": "https://www.youtube.com/@Insider",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_l5tZObYHzS68glmJHa8mTawjTNCHt8aRucAN8WOjOCBmU=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "110,286 views",
+      "length": "1:00",
+      "description": "Insider is great journalism about what passionate people actually want to know. That's everything from news to food, celebrity to ...",
+      "thumbnail": "https://i.ytimg.com/vi/hyRFw0uxyGU/hqdefault.jpg",
+      "videoId": "hyRFw0uxyGU",
+      "url": "https://www.youtube.com/watch?v=hyRFw0uxyGU",
+      "channelTitle": "Insider",
+      "channelVerified": true,
+      "duration": "1:00"
+    },
+    {
+      "position_on_page": 16,
+      "title": "What is WATER POLLUTION? | What Causes Water Pollution? | The Dr Binocs Show | Peekaboo Kidz",
+      "link": "https://www.youtube.com/watch?v=MEb7nnMLcaA",
+      "video_id": "MEb7nnMLcaA",
+      "channel": {
+        "name": "Peekaboo Kidz",
+        "link": "https://www.youtube.com/@Peekaboo_Kidz",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lTFIu2b6QlZMJHCQ2F3--ukEBs8fd_tEahtv38sm8WwME=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "4,969,937 views",
+      "length": "5:48",
+      "description": "Hey kids, in this video, Dr Binocs will explain, what is water pollution? what causes water pollution? how to prevent water pollution ...",
+      "thumbnail": "https://i.ytimg.com/vi/MEb7nnMLcaA/hqdefault.jpg",
+      "videoId": "MEb7nnMLcaA",
+      "url": "https://www.youtube.com/watch?v=MEb7nnMLcaA",
+      "channelTitle": "Peekaboo Kidz",
+      "channelVerified": true,
+      "duration": "5:48"
+    },
+    {
+      "position_on_page": 17,
+      "title": "POWERFUL VIDEO: Why We Need to Stop Plastic Pollution in Our Oceans FOR GOOD",
+      "link": "https://www.youtube.com/watch?v=Yomf5pBN8dY",
+      "video_id": "Yomf5pBN8dY",
+      "channel": {
+        "name": "Oceana",
+        "link": "https://www.youtube.com/@OceanaOrg",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/CLQk0DPfM12J9Tv-IoGW94SWWRNT0emDCO65qj49db1dXVVp6U6kd42YTkLW-O7Zj53ILQ3w7A=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "2,763,355 views",
+      "length": "4:36",
+      "description": "Our oceans are being filled and killed by throwaway plastics. But together, we can create a movement to reduce throwaway plastic ...",
+      "thumbnail": "https://i.ytimg.com/vi/Yomf5pBN8dY/hqdefault.jpg",
+      "videoId": "Yomf5pBN8dY",
+      "url": "https://www.youtube.com/watch?v=Yomf5pBN8dY",
+      "channelTitle": "Oceana",
+      "channelVerified": true,
+      "duration": "4:36"
+    },
+    {
+      "position_on_page": 18,
+      "title": "Light Pollution 101 | National Geographic",
+      "link": "https://www.youtube.com/watch?v=V_A78zDBwYE",
+      "video_id": "V_A78zDBwYE",
+      "channel": {
+        "name": "National Geographic",
+        "link": "https://www.youtube.com/@NatGeo",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/-FOFg8o1y4dAHDB2MvhORHnLMOaaOKnaNUNsrU-U57Eac6gjB5VO8sYJQC1KkULGQvKP2XpArA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 years ago",
+      "views": "570,251 views",
+      "length": "3:00",
+      "description": "Ever since the light bulb's invention 150 years ago, artificial light has illuminated homes, streets, and skies -- but with some ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/V_A78zDBwYE/hqdefault.jpg",
+      "videoId": "V_A78zDBwYE",
+      "url": "https://www.youtube.com/watch?v=V_A78zDBwYE",
+      "channelTitle": "National Geographic",
+      "channelVerified": true,
+      "duration": "3:00"
+    },
+    {
+      "position_on_page": 19,
+      "title": "What is Pollution (Learning Videos for Kids)",
+      "link": "https://www.youtube.com/watch?v=9GV4OKPkgTQ",
+      "video_id": "9GV4OKPkgTQ",
+      "channel": {
+        "name": "Fun World For Kids",
+        "link": "https://www.youtube.com/@funworldforkids",
+        "thumbnail": "https://yt3.ggpht.com/mvZNSO8yo1FA_MlPUcWJPttj49W4_yGDk-xXd1kjohoISGdoZlXKfHTbFQgYvWlXFF1laWeK=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "152,756 views",
+      "length": "2:13",
+      "description": "Ever wondered why the park isn't as clean as it used to be, or why sometimes the air feels a little yucky? It might be something ...",
+      "thumbnail": "https://i.ytimg.com/vi/9GV4OKPkgTQ/hqdefault.jpg",
+      "videoId": "9GV4OKPkgTQ",
+      "url": "https://www.youtube.com/watch?v=9GV4OKPkgTQ",
+      "channelTitle": "Fun World For Kids",
+      "channelVerified": false,
+      "duration": "2:13"
+    },
+    {
+      "position_on_page": 20,
+      "title": "How megacities around the world are tackling their air pollution",
+      "link": "https://www.youtube.com/watch?v=3F6mq20QOcE",
+      "video_id": "3F6mq20QOcE",
+      "channel": {
+        "name": "DW Planet A",
+        "link": "https://www.youtube.com/@DWPlanetA",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/Ffxmm2ypsWi57SwzljPgLohBhQbdGm7TQB-Lcr2rQvXlQJ44r96nqgAiWwfT1DaIEHa3qD3TKA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "660,428 views",
+      "length": "10:49",
+      "description": "Air pollution kills millions each year, especially in the world's megacities. But we found some surprising news: In many places, ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/3F6mq20QOcE/hqdefault.jpg",
+      "videoId": "3F6mq20QOcE",
+      "url": "https://www.youtube.com/watch?v=3F6mq20QOcE",
+      "channelTitle": "DW Planet A",
+      "channelVerified": true,
+      "duration": "10:49"
+    },
+    {
+      "position_on_page": 21,
+      "title": "Environmental pollution killing more people than war, study says",
+      "link": "https://www.youtube.com/watch?v=uAXT2uB87MM",
+      "video_id": "uAXT2uB87MM",
+      "channel": {
+        "name": "CBS Evening News",
+        "link": "https://www.youtube.com/@CBSEveningNews",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/HHHZ6n7L0qZXu2etI44t8iG6UzIBTPfrR2fApgbcPH1Ro8zpiTPQz1LiZZTD6xhvENdHxuCs3g=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "8 years ago",
+      "views": "108,843 views",
+      "length": "2:08",
+      "description": "The Lancet medical journal published a new study that says environmental pollution contributed to the deaths of 9 million people ...",
+      "thumbnail": "https://i.ytimg.com/vi/uAXT2uB87MM/hqdefault.jpg",
+      "videoId": "uAXT2uB87MM",
+      "url": "https://www.youtube.com/watch?v=uAXT2uB87MM",
+      "channelTitle": "CBS Evening News",
+      "channelVerified": true,
+      "duration": "2:08"
+    },
+    {
+      "position_on_page": 22,
+      "title": "Learn about Pollution | Environment Defilement | Cartoon",
+      "link": "https://www.youtube.com/watch?v=OqHp03RRTDs",
+      "video_id": "OqHp03RRTDs",
+      "channel": {
+        "name": "learning junction",
+        "link": "https://www.youtube.com/@learningjunction",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/rxncEKgIAwToEPxEQzBw9RiSO6xxZXQzJfmWpNmwC_dkgDoTKPkoBqRHnXpJSj-vqXn6argiWg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "9 years ago",
+      "views": "2,121,360 views",
+      "length": "5:47",
+      "description": "This video explains about different types of pollution: Air Pollution Water Pollution Soil Pollution For more videos go to: ...",
+      "thumbnail": "https://i.ytimg.com/vi/OqHp03RRTDs/hqdefault.jpg",
+      "videoId": "OqHp03RRTDs",
+      "url": "https://www.youtube.com/watch?v=OqHp03RRTDs",
+      "channelTitle": "learning junction",
+      "channelVerified": true,
+      "duration": "5:47"
+    },
+    {
+      "position_on_page": 23,
+      "title": "What Is SOIL POLLUTION | LAND POLLUTION | What Causes Soil Pollution | Dr Binocs Show |Peekaboo Kidz",
+      "link": "https://www.youtube.com/watch?v=Hnfdq2htoKU",
+      "video_id": "Hnfdq2htoKU",
+      "channel": {
+        "name": "Peekaboo Kidz",
+        "link": "https://www.youtube.com/@Peekaboo_Kidz",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lTFIu2b6QlZMJHCQ2F3--ukEBs8fd_tEahtv38sm8WwME=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "1,478,120 views",
+      "length": "5:45",
+      "description": "Hey kids, in this video, Dr Binocs will explain, Soil Pollution | What Is Soil Pollution? | Land Pollution | What is Land Pollution?",
+      "thumbnail": "https://i.ytimg.com/vi/Hnfdq2htoKU/hqdefault.jpg",
+      "videoId": "Hnfdq2htoKU",
+      "url": "https://www.youtube.com/watch?v=Hnfdq2htoKU",
+      "channelTitle": "Peekaboo Kidz",
+      "channelVerified": true,
+      "duration": "5:45"
+    }
+  ],
+  "ads_results": [
+    {
+      "position_on_page": 4,
+      "title": "The BMW X7.",
+      "link": "https://www.youtube.com/watch?v=hcr1iXpYLSc",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CxmRJ1w2capPZJ8PgkNAP6f_mwQe577KliQGY1_TDwxawkB8QASAAYMmGiomIpIAQggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYqvpt0qqAMEyAMKqgS5Ak_Qg8umHD92MvivHtMK1mZyw86PfLzLQ7GyMz97fp5w0zS5Fdhhh91IKKS-os8_8eCtVhfdmjmjR-8MkfGgJqSaL20bFbGCImuHWnGZ71VpZT9_wmFbP9o6vuaJcXX6kPPTyg06Si4gYvBmCDOhrbu2jRnEbNo5IYtGype9-pADuiUMdfQW_6pRE_h_a15-QuwI3OEgpfn5WBE82NTc0tMLdsDAVJY0-UFcNHMVuRUU1okSyAzK7zY7toQtrWnAnTUmtOh2xHMP4CqXv6rN8nJ5Q8OGgVgTIC6prWGWZOzwJW6PidcI9Uqnasd3nztP_ausqKpd1iIZmSnWe850rdJAkm3EhwaHI1iG3aEOREg7VZnF-nyLBjC7NKdgpLVR1FQ7pFSyVQre47wIdH4TQZGonNa47e0nHeyIBc29i61XkgUICBN45dnT8wWgBqEBgAeK5_a8BZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLaGNyMWlYcFlMU2OoCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjomN6Ru9eWA2ABmglIaHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjdTQS9maW5hbmNlsQkgjKb9WOVq5MgJF8gJjwHICcIByAmXAroLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMFdmljYmbQCxLgCwGiDEJiHgocZGUuYm13LmNvbm5lY3RlZC5tb2JpbGUyMC5uYWobChljb20uYm13LnRlY2huaWNpYW5jb25uZWN0eACIAQDSDAIQAdoMJQoKEMDstYPd5cXzHhICAQMaDRjNvYutVyCZnJWWwQVAAUoCEB-aDQESqg0CVVPIDQHSDa0FaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL04yMjY3MDgzLjUyMTA0OTVCTVdEVjM2MC9CMzUwMTkzNjAuNDM3ODU3NTgwO2RjX3Rya19haWQ9NjMxMzMwMTY4O2RjX3Rya19jaWQ9MjQ3OTY3MzcyO2RjX2RibV90b2tlbj1BT2plTE5FQUFBQThDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSXpiMkxyVmVvQXVYWjBfTUZzQUxvdEpMcEEwQTdFTVRINXVJRjBNa1FPOWFNNnYzZjN5SFZDNnViYlE9PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0J1ZEw3QUhBWjZ4OUlET1BaNzBZVUlQaDBBSE5UUi1qZjUzSjhjR3V1UjAtWFkyTk1YeHNVOFZtbERoMjJ6NzZyWUdBS0pMYTZRSWlINDZ3O2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjdTQS9maW5hbmNlP3ppcD0yMjMwNCZjaWQ9eXQtJTI1ZWNpZCFfJTI1ZXNpZCFfJTI1ZWJ1eSFfJTI1ZXBpZCEmdGllcj10MiZtYWNvPTQxNTEmY2g9dmlkZW8mdmVoPXg3Jm1vZGFsPXNwZWNpYWwtb2ZmZXJzLWxlZ2FsJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzQ0ODQ0NDYyMbAT-oG3JLgT____________AYgUAbAUA8AVgYCAQNAVAdgVAZgWAagWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRco9DnNw7KhiroXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMI06DfkbvXlgMVQzAEBB3pvzl4EAEYASAAEgJoD_D_BwE&num=1&cid=CAASqgHkaPwRwfEIkF0Mu-G-casLDSvsHYnlP8fJHSOxaqeJ9INMGYi-1NbeBu3hZXHej7HN8vGUdfXBAZKCCygkgA3cQaA9VxYWx7exC4ejRFCNeyGZ-R4Yy6-BB7vLH4jDceGoGJCcWVPCj2KX17I8CudypL0cqzU7IqoJ7lnp7BVkX6BVL92NPpe05MkZznvtua4pw_Y4Siu7wYfzrKnQgWMZm8IdBm-CKpBz5Q&ad_cpn=%5BCPN%5D&sig=AOD64_25Dy8Hd9VBv-dJG_HwKQ2UtEm0Eg&ctype=110&video_id=hcr1iXpYLSc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "BMW",
+        "thumbnail": "https://yt3.ggpht.com/proxy/3x8VumS4IFcfx62nnUhrY5i3EpLvsMu8s-1bw7MbZcaHnd65dZ2ZdLsFmRbmvuxObGGdXcRf66WSwGY_YBWYl5-7hjk98-rIE1bjto_UJzWUWslxiiW-qyEvK96jdqaSOsjSPNe6Qgq_rj-DzyUVP6rfnqaz1Cf3ntSW63xqMRvgDz2l3gcCODbIgXEX9uRCk3JKl9-DnujL2iNBHx9RsVeV9Ni_T_ht-TYlDLKXIaTYquv6Ldyp0213F8pnpXmlXU8q=w68-h68-nd"
+      },
+      "description": "Discover a ride that's spacious, sleek, and unapologetically powerful.",
+      "thumbnail": "https://i.ytimg.com/vi/hcr1iXpYLSc/hqdefault.jpg",
+      "videoId": "hcr1iXpYLSc",
+      "url": "https://www.youtube.com/watch?v=hcr1iXpYLSc"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 10,
+      "shorts": [
+        {
+          "title": "The Great Pacific Garbage Patch: A Map of Plastic Pollution",
+          "link": "https://www.youtube.com/shorts/ZLhhkpFnUAI",
+          "thumbnail": "https://i.ytimg.com/vi/ZLhhkpFnUAI/frame0.jpg",
+          "views_original": "745K views",
+          "views": 745000,
+          "video_id": "ZLhhkpFnUAI"
+        },
+        {
+          "title": "Essay On Pollution in English | Pollution Essay in English | Paragraph On Pollution in English",
+          "link": "https://www.youtube.com/shorts/reH-dRpMIdY",
+          "thumbnail": "https://i.ytimg.com/vi/reH-dRpMIdY/frame0.jpg",
+          "views_original": "102K views",
+          "views": 102000,
+          "video_id": "reH-dRpMIdY"
+        },
+        {
+          "title": "🌍 What is Pollution? | Types of Pollution: 🌬️ Air, 💧 Water, 🌱 Soil, 🔊 Noise #shorts #pollution",
+          "link": "https://www.youtube.com/shorts/T-ds2w2z6Ao",
+          "thumbnail": "https://i.ytimg.com/vi/T-ds2w2z6Ao/frame0.jpg",
+          "views_original": "216K views",
+          "views": 216000,
+          "video_id": "T-ds2w2z6Ao"
+        },
+        {
+          "title": "what is pollution | meaning of pollution | pollution | Types of pollution | #air #water #land",
+          "link": "https://www.youtube.com/shorts/MI8ZV9WBC6A",
+          "thumbnail": "https://i.ytimg.com/vi/MI8ZV9WBC6A/frame0.jpg",
+          "views_original": "226K views",
+          "views": 226000,
+          "video_id": "MI8ZV9WBC6A"
+        },
+        {
+          "title": "Essay On Pollution in English | Pollution Essay in English | Paragraph On Pollution in English",
+          "link": "https://www.youtube.com/shorts/XSv9xROqy_c",
+          "thumbnail": "https://i.ytimg.com/vi/XSv9xROqy_c/frame0.jpg",
+          "views_original": "686K views",
+          "views": 686000,
+          "video_id": "XSv9xROqy_c"
+        },
+        {
+          "title": "Rep. Alexandria Ocasio-Cortez: You Are Pollution Our Children | The Root",
+          "link": "https://www.youtube.com/shorts/-pGqF_Ch8jU",
+          "thumbnail": "https://i.ytimg.com/vi/-pGqF_Ch8jU/frame0.jpg",
+          "views_original": "2.2K views",
+          "views": 2200,
+          "video_id": "-pGqF_Ch8jU"
+        },
+        {
+          "title": "New plan targets flooding and pollution in Albertville",
+          "link": "https://www.youtube.com/shorts/HNApbmG2uwI",
+          "thumbnail": "https://i.ytimg.com/vi/HNApbmG2uwI/frame0.jpg",
+          "views_original": "88 views",
+          "views": 88,
+          "video_id": "HNApbmG2uwI"
+        },
+        {
+          "title": "Essay On Pollution in English | Pollution Essay in English | Paragraph On Pollution in English",
+          "link": "https://www.youtube.com/shorts/uNjRa1l_IwU",
+          "thumbnail": "https://i.ytimg.com/vi/uNjRa1l_IwU/frame0.jpg",
+          "views_original": "1.6M views",
+          "views": 1600000,
+          "video_id": "uNjRa1l_IwU"
+        },
+        {
+          "title": "Types of Pollution Drawing | Say no to Pollution Drawing | Water, Air, Noise, Land Pollution Drawing",
+          "link": "https://www.youtube.com/shorts/LsgvI2fZ5wI",
+          "thumbnail": "https://i.ytimg.com/vi/LsgvI2fZ5wI/frame0.jpg",
+          "views_original": "1.2M views",
+          "views": 1200000,
+          "video_id": "LsgvI2fZ5wI"
+        },
+        {
+          "title": "Air Pollution 🏭 || Causes, Effects and Solution",
+          "link": "https://www.youtube.com/shorts/mIwTa3AJFoE",
+          "thumbnail": "https://i.ytimg.com/vi/mIwTa3AJFoE/frame0.jpg",
+          "views_original": "312K views",
+          "views": 312000,
+          "video_id": "mIwTa3AJFoE"
+        }
+      ]
+    },
+    {
+      "position_on_page": 14,
+      "shorts": [
+        {
+          "title": "Rep. Alexandria Ocasio-Cortez: You Are Pollution Our Children | The Root",
+          "link": "https://www.youtube.com/shorts/-pGqF_Ch8jU",
+          "thumbnail": "https://i.ytimg.com/vi/-pGqF_Ch8jU/frame0.jpg",
+          "views_original": "2.2K views",
+          "views": 2200,
+          "video_id": "-pGqF_Ch8jU"
+        },
+        {
+          "title": "New plan targets flooding and pollution in Albertville",
+          "link": "https://www.youtube.com/shorts/HNApbmG2uwI",
+          "thumbnail": "https://i.ytimg.com/vi/HNApbmG2uwI/frame0.jpg",
+          "views_original": "88 views",
+          "views": 88,
+          "video_id": "HNApbmG2uwI"
+        },
+        {
+          "title": "Essay On Pollution in English | Pollution Essay in English | Paragraph On Pollution in English",
+          "link": "https://www.youtube.com/shorts/uNjRa1l_IwU",
+          "thumbnail": "https://i.ytimg.com/vi/uNjRa1l_IwU/frame0.jpg",
+          "views_original": "1.6M views",
+          "views": 1600000,
+          "video_id": "uNjRa1l_IwU"
+        },
+        {
+          "title": "Types of Pollution Drawing | Say no to Pollution Drawing | Water, Air, Noise, Land Pollution Drawing",
+          "link": "https://www.youtube.com/shorts/LsgvI2fZ5wI",
+          "thumbnail": "https://i.ytimg.com/vi/LsgvI2fZ5wI/frame0.jpg",
+          "views_original": "1.2M views",
+          "views": 1200000,
+          "video_id": "LsgvI2fZ5wI"
+        },
+        {
+          "title": "Air Pollution 🏭 || Causes, Effects and Solution",
+          "link": "https://www.youtube.com/shorts/mIwTa3AJFoE",
+          "thumbnail": "https://i.ytimg.com/vi/mIwTa3AJFoE/frame0.jpg",
+          "views_original": "312K views",
+          "views": 312000,
+          "video_id": "mIwTa3AJFoE"
+        },
+        {
+          "title": "LifeStraw VS Most Polluted Lake",
+          "link": "https://www.youtube.com/shorts/x59dIMkexug",
+          "thumbnail": "https://i.ytimg.com/vi/x59dIMkexug/frame0.jpg",
+          "views_original": "38M views",
+          "views": 38000000,
+          "video_id": "x59dIMkexug"
+        },
+        {
+          "title": "AI's climate impact is WAY worse than we thought",
+          "link": "https://www.youtube.com/shorts/efa5s_T7T_Y",
+          "thumbnail": "https://i.ytimg.com/vi/efa5s_T7T_Y/frame0.jpg",
+          "views_original": "1.7K views",
+          "views": 1700,
+          "video_id": "efa5s_T7T_Y"
+        },
+        {
+          "title": "Busting air pollution myths #shorts",
+          "link": "https://www.youtube.com/shorts/KJVbhdXs8uw",
+          "thumbnail": "https://i.ytimg.com/vi/KJVbhdXs8uw/frame0.jpg",
+          "views_original": "42 views",
+          "views": 42,
+          "video_id": "KJVbhdXs8uw"
+        },
+        {
+          "title": "Amazing Pollution Model | Land, Air & Water Pollution Explained with Miniature Setup! #explore",
+          "link": "https://www.youtube.com/shorts/STB-jHLy4hg",
+          "thumbnail": "https://i.ytimg.com/vi/STB-jHLy4hg/frame0.jpg",
+          "views_original": "2.1M views",
+          "views": 2100000,
+          "video_id": "STB-jHLy4hg"
+        },
+        {
+          "title": "Can you survive pollution?",
+          "link": "https://www.youtube.com/shorts/xf08mUtr_eE",
+          "thumbnail": "https://i.ytimg.com/vi/xf08mUtr_eE/frame0.jpg",
+          "views_original": "2.9M views",
+          "views": 2900000,
+          "video_id": "xf08mUtr_eE"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=Pollution",
+    "next": "https://www.youtube.com/results?search_query=Pollution&sp=SBSCAQtlNnJnbHNMeTFZc4IBC1lqdGd1MkN4dEVrggELZmVwaHRyUHQ2d2uCAQtSUzdJelUyVkpJUYIBCzdxa2F6OENoZWxJggELSjNEZjAtWkpfV0GCAQtBM3JMZnJJVXpZNIIBC3V0aUxybnZhd1FRggELa2REU1JSQ0tNaUmCAQtFSG1nTkRvNXJxQYIBC2VIQ2FJdlBOMnJZggELaHlSRncwdXh5R1WCAQtNRWI3bm5NTGNhQYIBC1lvbWY1cEJOOGRZggELVl9BNzh6REJ3WUWCAQs5R1Y0T0tQa2dUUYIBCzNGNm1xMjBRT2NFggELdUFYVDJ1Qjg3TU2CAQtPcUhwMDNSUlREc4IBC0huZmRxMmh0b0tVsgEGCgQIGBAC6gEECAIQFA%253D%253D",
+    "next_page_token": "SBSCAQtlNnJnbHNMeTFZc4IBC1lqdGd1MkN4dEVrggELZmVwaHRyUHQ2d2uCAQtSUzdJelUyVkpJUYIBCzdxa2F6OENoZWxJggELSjNEZjAtWkpfV0GCAQtBM3JMZnJJVXpZNIIBC3V0aUxybnZhd1FRggELa2REU1JSQ0tNaUmCAQtFSG1nTkRvNXJxQYIBC2VIQ2FJdlBOMnJZggELaHlSRncwdXh5R1WCAQtNRWI3bm5NTGNhQYIBC1lvbWY1cEJOOGRZggELVl9BNzh6REJ3WUWCAQs5R1Y0T0tQa2dUUYIBCzNGNm1xMjBRT2NFggELdUFYVDJ1Qjg3TU2CAQtPcUhwMDNSUlREc4IBC0huZmRxMmh0b0tVsgEGCgQIGBAC6gEECAIQFA%3D%3D"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=Pollution",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=Pollution&sp=SBSCAQtlNnJnbHNMeTFZc4IBC1lqdGd1MkN4dEVrggELZmVwaHRyUHQ2d2uCAQtSUzdJelUyVkpJUYIBCzdxa2F6OENoZWxJggELSjNEZjAtWkpfV0GCAQtBM3JMZnJJVXpZNIIBC3V0aUxybnZhd1FRggELa2REU1JSQ0tNaUmCAQtFSG1nTkRvNXJxQYIBC2VIQ2FJdlBOMnJZggELaHlSRncwdXh5R1WCAQtNRWI3bm5NTGNhQYIBC1lvbWY1cEJOOGRZggELVl9BNzh6REJ3WUWCAQs5R1Y0T0tQa2dUUYIBCzNGNm1xMjBRT2NFggELdUFYVDJ1Qjg3TU2CAQtPcUhwMDNSUlREc4IBC0huZmRxMmh0b0tVsgEGCgQIGBAC6gEECAIQFA%253D%253D",
+    "next_page_token": "SBSCAQtlNnJnbHNMeTFZc4IBC1lqdGd1MkN4dEVrggELZmVwaHRyUHQ2d2uCAQtSUzdJelUyVkpJUYIBCzdxa2F6OENoZWxJggELSjNEZjAtWkpfV0GCAQtBM3JMZnJJVXpZNIIBC3V0aUxybnZhd1FRggELa2REU1JSQ0tNaUmCAQtFSG1nTkRvNXJxQYIBC2VIQ2FJdlBOMnJZggELaHlSRncwdXh5R1WCAQtNRWI3bm5NTGNhQYIBC1lvbWY1cEJOOGRZggELVl9BNzh6REJ3WUWCAQs5R1Y0T0tQa2dUUYIBCzNGNm1xMjBRT2NFggELdUFYVDJ1Qjg3TU2CAQtPcUhwMDNSUlREc4IBC0huZmRxMmh0b0tVsgEGCgQIGBAC6gEECAIQFA%3D%3D"
+  }
+}

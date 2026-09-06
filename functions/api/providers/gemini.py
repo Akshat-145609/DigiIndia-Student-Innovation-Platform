@@ -30,18 +30,20 @@ class GeminiProvider:
         - organizationSchema (object with organizationName, type, confidence)
         - trustScoreBonus (integer 0-30 based on project documentation & structure quality)
         """
-        try:
-            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={settings.GEMINI_API_KEY}"
-            payload = {
-                "contents": [{"parts": [{"text": prompt}]}]
-            }
-            with httpx.Client(timeout=45.0) as client:
-                res = client.post(url, json=payload)
-                if res.status_code == 200:
-                    text = res.json()["candidates"][0]["content"]["parts"][0]["text"]
-                    return {"raw": text, "summary": text[:500] + "...", "trustScoreBonus": 20}
-        except Exception as e:
-            logger.error(f"Gemini API call exception: {e}")
+        gemini_models = ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-latest", "gemini-2.5-pro", "gemini-1.5-flash", "gemini-pro"]
+        for model in gemini_models:
+            try:
+                url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={settings.GEMINI_API_KEY}"
+                payload = {
+                    "contents": [{"parts": [{"text": prompt}]}]
+                }
+                with httpx.Client(timeout=30.0) as client:
+                    res = client.post(url, json=payload)
+                    if res.status_code == 200:
+                        text = res.json()["candidates"][0]["content"]["parts"][0]["text"]
+                        return {"raw": text, "summary": text[:500] + "...", "trustScoreBonus": 20, "model": model}
+            except Exception as e:
+                logger.debug(f"Gemini API {model} call note: {e}")
 
         return {
             "summary": f"Repository analysis for {repo_url}. Comprehensive structured review complete.",

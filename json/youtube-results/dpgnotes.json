@@ -1,0 +1,415 @@
+{
+  "search_metadata": {
+    "id": "6a9c0e5f4fa3baf14383040b",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/bDq1JPlSqtCyrkwYXr0OZ_VrO_bmOuk65mXqxEa2B20/6a9c0e5f4fa3baf14383040b.json",
+    "markdown_endpoint": "https://serpapi.com/searches/bDq1JPlSqtCyrkwYXr0OZ_VrO_bmOuk65mXqxEa2B20/6a9c0e5f4fa3baf14383040b.md",
+    "created_at": "2026-09-05 12:43:11 UTC",
+    "processed_at": "2026-09-05 12:43:11 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=DPGNotes",
+    "raw_html_file": "https://serpapi.com/searches/bDq1JPlSqtCyrkwYXr0OZ_VrO_bmOuk65mXqxEa2B20/6a9c0e5f4fa3baf14383040b.html",
+    "total_time_taken": 2.68
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "DPGNotes"
+  },
+  "search_information": {
+    "total_results": 19,
+    "video_results_state": "Showing results for exact spelling despite spelling suggestion",
+    "spelling_fix": "PDFNotes"
+  },
+  "ads_results": [
+    {
+      "position_on_page": 1,
+      "title": "The best way to try Shopify out — an extended, 3-month trial",
+      "link": "https://www.youtube.com/watch?v=HGS1zW38BQ8",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=C0kEMXw6casbyKNfeut0P0P3b0AnwhOCoiAHX95PwgRawkB8QASAAYMn2t4fco5QRggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLy-5sqqQJqSn6p-K22PqgDBMgDCqoEnAJP0PNWq7--rebBRdJxqccxev_dwgz1ltZzWekXa889oNOpoy0-EeMs-wTdT9fo_CH-MEWVMIGzp65icosqpx1e7K6j2z2CutTzrXtN7SYKDQk7l9GFifjWM3389mCWPLVxU8UgPMpAj4NUxicZyULy0BSAPGNNbRIRfDNJ_Q4k9YXWoGDutelNodAYD0Vw_iSqP5f_EqnWgUWBKX4_796BYCZ10FvEdU6BSBLucu1CZodK4WbEW4NhDwjUfkrONCisCoLyXdvxmYJI7j5-A90kiIyzfw0OypEfAyB1UuzWKw2KUg53w6445Tu0Ihv3tdM3r__nkgOaU9R-aUHUhDxUMsSd-XS551zYv5AA36HsPgbCK9Bg16PhumCpbogFyIfVvFmSBQgIE3iz5--sBaAGoQGAB_KqzPsEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtIR1MxelczOEJROKgIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWND-zNK715YDYAGaCU1odHRwczovL3d3dy5zdHlsZWZhY3Rvcnlwcm9kdWN0aW9ucy5jb20vaG93LXRvLXVubG9jay1hLTMtbW9udGgtc2hvcGlmeS10cmlhbLEJR1k_C2yTfDzICRfICY8ByAnCAZgLAboLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAISugMFdmlhdGzQCxPSDAIQAdoMJQoKELDbsvWG17v-aBICAQMaDRjIh9W8WSCPtLLh3QVAAUoCEB-aDQETqg0CVVPIDQHSDXVodHRwczovL3d3dy5zdHlsZWZhY3Rvcnlwcm9kdWN0aW9ucy5jb20vaG93LXRvLXVubG9jay1hLTMtbW9udGgtc2hvcGlmeS10cmlhbD9nYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQwMTc5NzgzMTK4E____________wGwFAPAFYGAgEDQFQHYFQGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF42O1BF5LBY9uhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIhp7N0rvXlgMVV6-uBR3Q_haaEAEYASAAEgJH4fD_BwE&num=1&cid=CAASqgHkaP2JK_g13DbD5rK6EDBU0uKYqVj3MauEFXIyQAzN5J_Kgi4mH7hA2YrzZFD-l3MSACqU8gCyjsa8pF_PJIkrsuaN0Ec8PzIDIcePRKwjHmjeBBV7QHViL_3BiWHGUabx612oNGtZuFpAaoVnwNrQXN2IMV6KCT2uWGKDWcGwOCiwfwLa411Lro7LwxwLVOZgRpyZkHSZBeyV27E3_4DkPGiKy2LfGKZy2w&ad_cpn=%5BCPN%5D&sig=AOD64_1nuW8AJr_mfi4SvBq2ZMHHZmud2w&ctype=110&video_id=HGS1zW38BQ8&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Style Factory",
+        "thumbnail": "https://yt3.ggpht.com/proxy/lXILA8k5vCLoCqam4gFoS6UzbgO-H0JeHffp3_WwddZvVWNIeFZk7rXSvqdZ4TodxkslRpIOY8naQiAu2agA9g_MHehKzzDhp8v2jKPVWA1ZPOt-mb1Zf6EPOO3I9XGf_PFKlonXkTPSht4hLbIroCeRBdEp4IBh8KJaYvxzWpFHXX5jvAAWYT0GCpdKaeVSdsWDnlrwRBAlmnBiiNqDiJHMa3jfliJ5wXgG1367owc0fJx0ik1Z0zJQDwKyN9TLG0ux=w68-h68-nd"
+      },
+      "description": "Get a guide to unlocking a 3-month Shopify trial for just $1/mo.",
+      "thumbnail": "https://i.ytimg.com/vi/HGS1zW38BQ8/hqdefault.jpg",
+      "videoId": "HGS1zW38BQ8",
+      "url": "https://www.youtube.com/watch?v=HGS1zW38BQ8"
+    },
+    {
+      "position_on_page": 4,
+      "title": "Legally Scrape Data APIs",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CRaxPXw6casbyKNfeut0P0P3b0AnWkfOxiQG3jcnA_hWwkB8QAiAAYMn2t4fco5QRggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLR8tgDqAMEyAMKqgSVAk_Q81arv76t5sFF0nGpxzF6_93CDPWW1nNZ6Rdrzz2g06mjLT4R4yz7BN1P1-j8If4wRZUwgbOnrmJyiyqnHV7srqPbPYK61POte03tJgoNCTuX0YWJ-NYzffz2YJY8tXFTxSA8ykCPg1TGJxnJQvLQFIA8Y01tEhF8M0n9DiT1hdagYO616U2h0BgPRXD-JKo_l_8SqdaBRYEpfj_v3oFgJnXQW8R1ToFIEu5y7UJmh0rhZsRbg2EPCNR-Ss40KKwKgvJd2_GZgkjuPn4D3SSIjLN_Mo0IUxjO6t1eg_yS92yKGUILzzXhqmVhu8BvQT8M_rvNx9tg_-dyaOMEOdCxNUQPSInCjVgzoi7HKzH_UT_EA1GIBdjnkflZkgUHCBN43qTSJ6AGboAH9q2NJ5AHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjQ_szSu9eWA2ABmgkZaHR0cHM6Ly9zdGV2ZXNpZS5jb20vYXBwc7EJhedx15T4UqbICQDICYoCmAsBugs9CAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWF0bNALEtIMAhAB2gwmCgsQwKullvXFwvKEARICAQMaDRjY55H5WSD6-MeH1QVAAUoCEB-aDQESqg0CVVPIDQHSDUFodHRwczovL3N0ZXZlc2llLmNvbS9hcHBzP2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDE0NDgwMjc3NrgT____________AbAUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRcytIcweErcJ7oXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIhp7N0rvXlgMVV6-uBR3Q_haaEAEYAiAAEgI-y_D_BwE&num=2&cid=CAASqgHkaP2JK_g13DbD5rK6EDBU0uKYqVj3MauEFXIyQAzN5J_Kgi4mH7hA2YrzZFD-l3MSACqU8gCyjsa8pF_PJIkrsuaN0Ec8PzIDIcePRKwjHmjeBBV7QHViL_3BiWHGUabx612oNGtZuFpAaoVnwNrQXN2IMV6KCT2uWGKDWcGwOCiwfwLa411Lro7LwxwLVOZgRpyZkHSZBeyV27E3_4DkPGiKy2LfGKZy2w&sig=AOD64_3m0EhNjd2Wg8WLpzZ7llpqJY72WA&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Stevesie Data",
+        "thumbnail": "https://lh5.googleusercontent.com/proxy/03UaEqY6aHdxVj9yDqop3zSrCWEDleZE_FdH5kxHYwkVvFTdTcrOPcCvSh2zYX6AY8raMcf2U-8k5BsrL0NxihNyskkE5ByaIxXN1TM8EbsgW4QMPuzyxDaDp4PERFDeLw"
+      },
+      "description": "Get it done with data. Impress clients & grow sales.",
+      "thumbnail": {
+        "static": "https://lh5.googleusercontent.com/proxy/03UaEqY6aHdxVj9yDqop3zSrCWEDleZE_FdH5kxHYwkVvFTdTcrOPcCvSh2zYX6AY8raMcf2U-8k5BsrL0NxihNyskkE5ByaIxXN1TM8EbsgW4QMPuzyxDaDp4PERFDeLw"
+      }
+    },
+    {
+      "position_on_page": 7,
+      "title": "The All-In-One Platform That Works As Hard As You Do",
+      "link": "https://www.youtube.com/watch?v=Mwppvy_4yvw",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CYQnzXw6casbyKNfeut0P0P3b0An7qMqviQGBsczqqBawkB8QAyAAYMn2t4fco5QRggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfClvdICqAMEyAMKqgS4Ak_Q81arv76t5sFF0nGpxzF6_93CDPWW1nNZ6Rdrzz2g06mjLT4R4yz7BN1P1-j8If4wRZUwgbOnrmJyiyqnHV7srqPbPYK61POte03tJgoNCTuX0YWJ-NYzffz2YJY8tXFTxSA8ykCPg1TGJxnJQvLQFIA8Y01tEhF8M0n9DiT1hdagYO616U2h0BgPRXD-JKo_l_8SqdaBRYEpfj_v3oFgJnXQW8R1ToFIEu5y7UJmh0rhZsRbg2EPCNR-Ss40KKwKgvJd2_GZgkjuPn4D3SSIjLN_BfEIUxXO6vgOipeP5W9f_5kkAi0rG7lAI8mN3ZHWF78JzwhrpLCfGm88mVVtatYNf5G69mkvjAxfybxtwvLJIZdTiQm10jlD_AR6Q4nks7NcK68V8lTUddjyqlSXpJ4gvIiTvYgFupKqolGSBQgIE3ik-eGtAaAGoQGAB_jZwq0BkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtNd3BwdnlfNHl2d6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWND-zNK715YDYAGaCTBodHRwczovL3d3dy5zcXVhcmVzcGFjZS5jb20vZ28vY3JlYXRlLWEtd2Vic2l0ZS-xCR2Qzjb39ceiyAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWF0bNALEuALAaIMUWIgCh5jb20uc3F1YXJlc3BhY2Uuc3F1YXJlc3BhY2VhcHBqKAomY29tLnNxdWFyZXNwYWNlLmFuZHJvaWQuc3F1YXJlc3BhY2VhcHB4AIgBANIMAhAB2gwmCgsQgKzC953gm5DeARICAQMaDRi6kqqiUSDFtNLL9QRAAUoCEB-aDQESqg0CVVPIDQHSDd4FaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL043MTg2NzkuMzE1OUdPT0dMRS9CMzQ0NDU0ODkuNDU2MTc2NTQ3O2RjX3Rya19haWQ9NjUwMDQzNDU2O2RjX3Rya19jaWQ9MjYzMzQ3MzgyO2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTZDak1LREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhNSXVwS3FvbEdvQW9QZ3RRS3dBdF9DOE9VRFFEc1F1NEMwQXBiRXNwWGxlNGdGVzE5Qm5VN3N3XzQ9O2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjQ3k5aVFwbnI5RFlUXzlIbktGWGozbktaN0Nnem1ScHV0OEstMEJuUDZ0dWNGdVB4TTJIbHpYOGlJQW5zZW9zVTh2aVM2eFp0TGcwYkYyWGc7ZGNfcHViaWQ9Nj9odHRwczovL3d3dy5zcXVhcmVzcGFjZS5jb20vZ28vY3JlYXRlLWEtd2Vic2l0ZS8_Y2hhbm5lbD12aWRlb19wcm9ncmFtbWF0aWMmc3ViY2hhbm5lbD1ONzE4Njc5LjMxNTlHT09HTEUmY2FtcGFpZ249MzQ0NDU0ODkmc3ViY2FtcGFpZ249NDU2MTc2NTQ3XzY1MDA0MzQ1NiZzb3VyY2U9MjYzMzQ3MzgyJnV0bV9tZWRpdW09dmlkZW9fcHJvZ3JhbW1hdGljJnV0bV9zb3VyY2U9TjcxODY3OS4zMTU5R09PR0xFJnV0bV9jb250ZW50PSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjE4MTUyNjU1OTSwE8K5wyS4E____________wGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXzYBTjhs5jVi6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIhp7N0rvXlgMVV6-uBR3Q_haaEAEYAyAAEgLZLPD_BwE&num=3&cid=CAASqgHkaP2JK_g13DbD5rK6EDBU0uKYqVj3MauEFXIyQAzN5J_Kgi4mH7hA2YrzZFD-l3MSACqU8gCyjsa8pF_PJIkrsuaN0Ec8PzIDIcePRKwjHmjeBBV7QHViL_3BiWHGUabx612oNGtZuFpAaoVnwNrQXN2IMV6KCT2uWGKDWcGwOCiwfwLa411Lro7LwxwLVOZgRpyZkHSZBeyV27E3_4DkPGiKy2LfGKZy2w&ad_cpn=%5BCPN%5D&sig=AOD64_0WH4itKC0BvqT4jkwCiBe15Qlfaw&ctype=110&video_id=Mwppvy_4yvw&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Squarespace",
+        "thumbnail": "https://yt3.ggpht.com/proxy/OV0yjYL3Kk9I_i7Omx09d9RPjt0_v4WbF7A4zOK17mKSTTLGS6IO5mPBrpBATxaPMOmf0MGg_Ub91n5qb0n0PLL_J9gidUb63dm9kE-Nwkg_7ZqLObNCs5G-E0YLi1MvkceqjxZndTLsAbHnJpP7OC_QAhOQZtbUFk8jZD838Uhn1Ibf0TfqBSYqRLc2WV7uen0op44FyOJoJOb0pAE2hP68C2i7Kf-ZIeH6Z7WWqDm3UWjzKA17dHtTZKxulgfXUtKJF44=w68-h68-nd"
+      },
+      "description": "Sell more of your products, services, and skills with AI, emails, and other easy tools.",
+      "thumbnail": "https://i.ytimg.com/vi/Mwppvy_4yvw/hqdefault.jpg",
+      "videoId": "Mwppvy_4yvw",
+      "url": "https://www.youtube.com/watch?v=Mwppvy_4yvw"
+    },
+    {
+      "position_on_page": 13,
+      "title": "The BMW X1.",
+      "link": "https://www.youtube.com/watch?v=midNtXAC5Io",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CfCM2Xw6casbyKNfeut0P0P3b0AmzrOuCiQH9yu6UnxawkB8QBCAAYMn2t4fco5QRggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYqvpt0qqAMEyAMKqgS5Ak_Q81arv76t5sFF0nGpxzF6_93CDPWW1nNZ6Rdrzz2g06mjLT4R4yz7BN1P1-j8If4wRZUwgbOnrmJyiyqnHV7srqPbPYK61POte03tJgoNCTuX0YWJ-NYzffz2YJY8tXFTxSA8ykCPg1TGJxnJQvLQFIA8Y01tEhF8M0n9DiT1hdagYO616U2h0BgPRXD-JKo_l_8SqdaBRYEpfj_v3oFgJnXQW8R1ToFIEu5y7UJmh0rhZsRbg2EPCNR-Ss40KKwKgvJd2_GZgkjuPn4D3SSIjLN_FOQIUwbO6ok-68yX5W9f_5kkAi0rG4VHI8mN3dD2JeENzwhd0uqcGm88mVU99E2dRqpbi39IKiPHp6cPJMMJMa8yQBAZXxJh_A9pw4qo0npPCa8Z5oypGroUuXaXqojZwZ70G6yIBdqSurlXkgUICBN45dnT8wWgBqEBgAeK5_a8BZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLbWlkTnRYQUM1SW-oCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjQ_szSu9eWA2ABmglGaHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjZYQi9sZWFzZbEJuwk1mZters3ICRfICY8ByAnCAcgJlwK6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBA4ACAYgCBboDBXZpYXRs0AsS4AsBogxCYh4KHGRlLmJtdy5jb25uZWN0ZWQubW9iaWxlMjAubmFqGwoZY29tLmJtdy50ZWNobmljaWFuY29ubmVjdHgAiAEA0gwCEAHaDCUKChCg5u370M2Jo2oSAgEDGg0Y2pK6uVcgoJHY0OMFQAFKAhAfmg0BEqoNAlVTyA0B0g2tBWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMjI2NzA4My4xNTkzNzVZT1VUVUJFLkNPTS9CMzQ5NTMyNDguNDM4MzAwMDA5O2RjX3Rya19haWQ9NjMxNDI5MDkyO2RjX3Rya19jaWQ9MjQ4MjA3ODM2O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQThDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSTJwSzZ1VmVvQXVYWjBfTUZzQUtmam9UcEEwQTdFTVRINXVJRkdMc01TYXBIVHYxczBvYTcyX3pTQVE9PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0JxWlZmTU9jUXJUaF92TUxULWNXZGNSTllLdUxxQXQ2andPM2pteEtvaWFhN0R6a2FNTGEzWG9VSUVOM3k2RENBTC1QZE9PeW14T1JSVWl3O2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjZYQi9sZWFzZT96aXA9MzMzMTYmY2lkPXl0LSUyNWVjaWQhXyUyNWVzaWQhXyUyNWVidXkhXyUyNWVwaWQhJnRpZXI9dDImbWFjbz0wNDI4JmNoPXZpZGVvJnZlaD14MSZtb2RhbD1zcGVjaWFsLW9mZmVycy1sZWdhbCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM0NzQzNzUwMDKwE--FsCS4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXKPQ5zcOyoYq6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIhp7N0rvXlgMVV6-uBR3Q_haaEAEYBCAAEgIZyvD_BwE&num=4&cid=CAASqgHkaP2JK_g13DbD5rK6EDBU0uKYqVj3MauEFXIyQAzN5J_Kgi4mH7hA2YrzZFD-l3MSACqU8gCyjsa8pF_PJIkrsuaN0Ec8PzIDIcePRKwjHmjeBBV7QHViL_3BiWHGUabx612oNGtZuFpAaoVnwNrQXN2IMV6KCT2uWGKDWcGwOCiwfwLa411Lro7LwxwLVOZgRpyZkHSZBeyV27E3_4DkPGiKy2LfGKZy2w&ad_cpn=%5BCPN%5D&sig=AOD64_1s81ZlCMtgzlFA35HEGbV-Vl0RFg&ctype=110&video_id=midNtXAC5Io&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "BMW",
+        "thumbnail": "https://yt3.ggpht.com/proxy/3x8VumS4IFcfx62nnUhrY5i3EpLvsMu8s-1bw7MbZcaHnd65dZ2ZdLsFmRbmvuxObGGdXcRf66WSwGY_YBWYl5-7hjk98-rIE1bjto_UJzWUWslxiiW-qyEvK96jdqaSOsjSPNe6Qgq_rj-DzyUVP6rfnqaz1Cf3ntSW63xqMRvgDz2l3gcCODbIgXEX9uRCk3JKl9-DnujL2iNBHx9RsVeV9Ni_T_ht-TYlDLKXIaTYquv6Ldyp0213F8pnpXmlXU8q=w68-h68-nd"
+      },
+      "description": "Discover true versatility in the BMW X1. Find yours today.",
+      "thumbnail": "https://i.ytimg.com/vi/midNtXAC5Io/hqdefault.jpg",
+      "videoId": "midNtXAC5Io",
+      "url": "https://www.youtube.com/watch?v=midNtXAC5Io"
+    }
+  ],
+  "video_results": [
+    {
+      "position_on_page": 2,
+      "title": "Building the DPGNotes Legal Center | Enterprise Documentation Portal (HTML, CSS & JavaScript)",
+      "link": "https://www.youtube.com/watch?v=lvmXZwtEQ2I",
+      "video_id": "lvmXZwtEQ2I",
+      "channel": {
+        "name": "Akshat Network Hub",
+        "link": "https://www.youtube.com/@AkshatNetworkHub",
+        "thumbnail": "https://yt3.ggpht.com/HpHt-TEoVhzL2_hEEGKX8yKwhB53Dx7PiT56ePq5AKlDeBuYEoaN6JbUH48ZhU1dKzxZxT2A9A=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 month ago",
+      "views": "9 views",
+      "length": "1:17",
+      "description": "Welcome to the DPGNotes Legal Center Showcase. In this video, I present the complete Legal Documentation Center developed ...",
+      "thumbnail": "https://i.ytimg.com/vi/lvmXZwtEQ2I/hqdefault.jpg",
+      "videoId": "lvmXZwtEQ2I",
+      "url": "https://www.youtube.com/watch?v=lvmXZwtEQ2I",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": false,
+      "duration": "1:17"
+    },
+    {
+      "position_on_page": 3,
+      "title": "Introducing DPGNotes Pdf Viewer: The Smart AI That Solves & Summarizes Education Notes in Seconds! 🤯",
+      "link": "https://www.youtube.com/watch?v=CgdR5BGT9w0",
+      "video_id": "CgdR5BGT9w0",
+      "channel": {
+        "name": "Akshat Network Hub",
+        "link": "https://www.youtube.com/@AkshatNetworkHub",
+        "thumbnail": "https://yt3.ggpht.com/HpHt-TEoVhzL2_hEEGKX8yKwhB53Dx7PiT56ePq5AKlDeBuYEoaN6JbUH48ZhU1dKzxZxT2A9A=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 month ago",
+      "views": "35 views",
+      "length": "2:31",
+      "description": "Imagine having a personal AI tutor that reads your entire college syllabus, solves old exam papers, and writes perfect study ...",
+      "thumbnail": "https://i.ytimg.com/vi/CgdR5BGT9w0/hqdefault.jpg",
+      "videoId": "CgdR5BGT9w0",
+      "url": "https://www.youtube.com/watch?v=CgdR5BGT9w0",
+      "channelTitle": "Akshat Network Hub",
+      "channelVerified": false,
+      "duration": "2:31"
+    },
+    {
+      "position_on_page": 8,
+      "title": "A Notebook Method to Reverse Brain Rot",
+      "link": "https://www.youtube.com/watch?v=Qi8Xt-IraGA",
+      "video_id": "Qi8Xt-IraGA",
+      "channel": {
+        "name": "ParkNotes",
+        "link": "https://www.youtube.com/@ParkerNotes",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/y1lbe1wsvgxuqpVck0BWdWXBu5egdlhoO2yDyWPi5bMqr50T7zazeWADpoQsZxP6CmhuDmYBdQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 days ago",
+      "views": "114,289 views",
+      "length": "23:04",
+      "description": "Try Brilliant's tutor for free: https://brilliant.org/ParkNotes/ . You'll also get 20% off an annual Premium subscription. Read the blog ...",
+      "extensions": [
+        "New",
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Qi8Xt-IraGA/hqdefault.jpg",
+      "videoId": "Qi8Xt-IraGA",
+      "url": "https://www.youtube.com/watch?v=Qi8Xt-IraGA",
+      "channelTitle": "ParkNotes",
+      "channelVerified": true,
+      "duration": "23:04"
+    },
+    {
+      "position_on_page": 9,
+      "title": "Improv and the Unexpected (GM Tips w/ Matt Mercer)",
+      "link": "https://www.youtube.com/watch?v=rKU2e5Xrx1k",
+      "video_id": "rKU2e5Xrx1k",
+      "channel": {
+        "name": "Geek & Sundry",
+        "link": "https://www.youtube.com/@GeekandSundry",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/zi7GbYQvBWcaaIZSBtY7ns4KHXz-Twukt8q9kMkFWGJJAcbSiG0f6LuWKFnSFPF3IJHO_oES=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "9 years ago",
+      "views": "1,531,635 views",
+      "length": "5:38",
+      "description": "Matthew Mercer shares insight on the importance of improv and how to effectively prepare for and react to the unexpected in this ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/rKU2e5Xrx1k/hqdefault.jpg",
+      "videoId": "rKU2e5Xrx1k",
+      "url": "https://www.youtube.com/watch?v=rKU2e5Xrx1k",
+      "channelTitle": "Geek & Sundry",
+      "channelVerified": true,
+      "duration": "5:38"
+    },
+    {
+      "position_on_page": 10,
+      "title": "SYNCeSports Free Scrims 42 Alive Last Zone Fights | Scrims Highlights | Pubg Mobile",
+      "link": "https://www.youtube.com/watch?v=QQAggNa2PaE",
+      "video_id": "QQAggNa2PaE",
+      "channel": {
+        "name": "SYNCeSports",
+        "link": "https://www.youtube.com/@syncesports3862",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kPnHA_K5FGC2-39Ga890219RtO_NxVJ7yC95oAfONOyw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "102 views",
+      "length": "1:21",
+      "description": "SYNCeSports Free Scrims 42 Alive Last Zone Fights | Scrims Highlights | Pubg Mobile ▻ GFX Partner ...",
+      "thumbnail": "https://i.ytimg.com/vi/QQAggNa2PaE/hqdefault.jpg",
+      "videoId": "QQAggNa2PaE",
+      "url": "https://www.youtube.com/watch?v=QQAggNa2PaE",
+      "channelTitle": "SYNCeSports",
+      "channelVerified": false,
+      "duration": "1:21"
+    },
+    {
+      "position_on_page": 11,
+      "title": "SYNCeSports Free Scrims Last Zone Fights",
+      "link": "https://www.youtube.com/watch?v=tbUnzImfw_Q",
+      "video_id": "tbUnzImfw_Q",
+      "channel": {
+        "name": "SYNCeSports",
+        "link": "https://www.youtube.com/@syncesports3862",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kPnHA_K5FGC2-39Ga890219RtO_NxVJ7yC95oAfONOyw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "79 views",
+      "length": "2:23",
+      "description": "SYNCeSports Free Scrims Last Zone Fights | Scrims Highlights | Pubg Mobile ▻ GFX Partner ...",
+      "thumbnail": "https://i.ytimg.com/vi/tbUnzImfw_Q/hqdefault.jpg",
+      "videoId": "tbUnzImfw_Q",
+      "url": "https://www.youtube.com/watch?v=tbUnzImfw_Q",
+      "channelTitle": "SYNCeSports",
+      "channelVerified": false,
+      "duration": "2:23"
+    },
+    {
+      "position_on_page": 12,
+      "title": "Competitive Scrims Montage syncVICKUyt | PubgMobile",
+      "link": "https://www.youtube.com/watch?v=nH9qLygSJ4A",
+      "video_id": "nH9qLygSJ4A",
+      "channel": {
+        "name": "SYNCeSports",
+        "link": "https://www.youtube.com/@syncesports3862",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kPnHA_K5FGC2-39Ga890219RtO_NxVJ7yC95oAfONOyw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "86 views",
+      "length": "2:14",
+      "description": "Competitive Scrims Montage syncVICKUyt | PubgMobile ▻ GFX Partner : https://www.fiverr.com/share/Q6r4Y3 ▻ Subscribe to ...",
+      "thumbnail": "https://i.ytimg.com/vi/nH9qLygSJ4A/hqdefault.jpg",
+      "videoId": "nH9qLygSJ4A",
+      "url": "https://www.youtube.com/watch?v=nH9qLygSJ4A",
+      "channelTitle": "SYNCeSports",
+      "channelVerified": false,
+      "duration": "2:14"
+    },
+    {
+      "position_on_page": 14,
+      "title": "Noob To Pro  | PubgMobile Competitive Montage",
+      "link": "https://www.youtube.com/watch?v=DBw3EU3OPnw",
+      "video_id": "DBw3EU3OPnw",
+      "channel": {
+        "name": "SYNCeSports",
+        "link": "https://www.youtube.com/@syncesports3862",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kPnHA_K5FGC2-39Ga890219RtO_NxVJ7yC95oAfONOyw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "65 views",
+      "length": "2:05",
+      "description": "Noob To Pro | PubgMobile Competitive Montage ▻ GFX Partner : https://www.fiverr.com/share/Q6r4Y3 ▻ Subscribe to ...",
+      "thumbnail": "https://i.ytimg.com/vi/DBw3EU3OPnw/hqdefault.jpg",
+      "videoId": "DBw3EU3OPnw",
+      "url": "https://www.youtube.com/watch?v=DBw3EU3OPnw",
+      "channelTitle": "SYNCeSports",
+      "channelVerified": false,
+      "duration": "2:05"
+    },
+    {
+      "position_on_page": 15,
+      "title": "SYNCeSports Free Scrims  Highlights | PubgMobile",
+      "link": "https://www.youtube.com/watch?v=Rc7Zz_n7_t4",
+      "video_id": "Rc7Zz_n7_t4",
+      "channel": {
+        "name": "SYNCeSports",
+        "link": "https://www.youtube.com/@syncesports3862",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kPnHA_K5FGC2-39Ga890219RtO_NxVJ7yC95oAfONOyw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "32 views",
+      "length": "3:08",
+      "description": "SYNCeSports Free Scrims Highlights | PubgMobile ▻ GFX Partner : https://www.fiverr.com/share/Q6r4Y3 ▻ Subscribe to ...",
+      "thumbnail": "https://i.ytimg.com/vi/Rc7Zz_n7_t4/hqdefault.jpg",
+      "videoId": "Rc7Zz_n7_t4",
+      "url": "https://www.youtube.com/watch?v=Rc7Zz_n7_t4",
+      "channelTitle": "SYNCeSports",
+      "channelVerified": false,
+      "duration": "3:08"
+    },
+    {
+      "position_on_page": 16,
+      "title": "How I take notes as a medical student 🩺 | Notability tips, features & study hacks",
+      "link": "https://www.youtube.com/watch?v=9JDNYV7znEM",
+      "video_id": "9JDNYV7znEM",
+      "channel": {
+        "name": "Doddie",
+        "link": "https://www.youtube.com/@DoseOfDoddie",
+        "thumbnail": "https://yt3.ggpht.com/gcZyTLtIyYI081bQg5ofq8mm6BsW85YV7tmZ4exeM0gzxuYjHe5A0Qnk2jZCXK3m9pq6hzBUcGY=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "8 days ago",
+      "views": "20,374 views",
+      "length": "14:14",
+      "description": "Get 25% off Notability! ✨ Click here: https://notability.com/ambassador/doddie Use code DODDIE25 at checkout. Hello you lovely ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/9JDNYV7znEM/hqdefault.jpg",
+      "videoId": "9JDNYV7znEM",
+      "url": "https://www.youtube.com/watch?v=9JDNYV7znEM",
+      "channelTitle": "Doddie",
+      "channelVerified": false,
+      "duration": "14:14"
+    },
+    {
+      "position_on_page": 17,
+      "title": "Heptabase is the best visual notes app",
+      "link": "https://www.youtube.com/watch?v=57F2HIJSx0A",
+      "video_id": "57F2HIJSx0A",
+      "channel": {
+        "name": "DPA",
+        "link": "https://www.youtube.com/@danielpourasg",
+        "thumbnail": "https://yt3.ggpht.com/mNYyfz-3iRmZHBt6GI_19TDHC-rG7jk2Xf_jAVHm3tyzkiBln5uQjkcl_ws-RcKQP05R6_GkihE=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "9 days ago",
+      "views": "2,995 views",
+      "length": "10:16",
+      "description": "Are you looking for a visual note-taking app? Then Heptabase might actually be the app you are looking for. Capacities: ...",
+      "thumbnail": "https://i.ytimg.com/vi/57F2HIJSx0A/hqdefault.jpg",
+      "videoId": "57F2HIJSx0A",
+      "url": "https://www.youtube.com/watch?v=57F2HIJSx0A",
+      "channelTitle": "DPA",
+      "channelVerified": false,
+      "duration": "10:16"
+    },
+    {
+      "position_on_page": 18,
+      "title": "#2 Structured: Simple to dos for beginners",
+      "link": "https://www.youtube.com/watch?v=YHbQeUjLElU",
+      "video_id": "YHbQeUjLElU",
+      "channel": {
+        "name": "Paperless Humans and Paperless X",
+        "thumbnail": "https://yt3.ggpht.com/j-_pnJ0HGrjXsS7ekpCptomhG0t4bojDTnHsZpjaLtlZQJ1_Gpt4DCt56CYR53bltKHYApg3=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "8 days ago",
+      "views": "280 views",
+      "length": "1:16",
+      "description": "Our courses for beginners: https://howto.beingpaperless.com/category/courses/paid-video-courses/ MarginNote: ...",
+      "extensions": [
+        "4K",
+        "Beginner"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/YHbQeUjLElU/hqdefault.jpg",
+      "videoId": "YHbQeUjLElU",
+      "url": "https://www.youtube.com/watch?v=YHbQeUjLElU",
+      "channelTitle": "Paperless Humans and Paperless X",
+      "channelVerified": false,
+      "duration": "1:16"
+    },
+    {
+      "position_on_page": 19,
+      "title": "#ಸಾರ್ಥಕ ಬದುಕಿನ ಸಾಧಕ ಪಾಠದ ಪ್ರಶ್ನೋತ್ತರಗಳು #Sarthak Vadhu Sadhaka lesson question and answers notes",
+      "link": "https://www.youtube.com/watch?v=4uIOqWGsQ8g",
+      "video_id": "4uIOqWGsQ8g",
+      "channel": {
+        "name": "Shri Knowledge",
+        "link": "https://www.youtube.com/@shriknowledge4988",
+        "thumbnail": "https://yt3.ggpht.com/aEpbOWCyVKBHw-zkM2hWkF2W3x_m2wNrRuFF4p6s8VJWToQ-NDnqR75IX79nPnf0v7oYHx2j=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 months ago",
+      "views": "30,283 views",
+      "length": "15:22",
+      "description": "ಸಾರ್ಥಕ ಬದುಕಿನ ಸಾಧಕ ಪಾಠದ ಪ್ರಶ್ನೋತ್ತರಗಳು #Sarthak Vadhu Sadhaka lesson question and ...",
+      "thumbnail": "https://i.ytimg.com/vi/4uIOqWGsQ8g/hqdefault.jpg",
+      "videoId": "4uIOqWGsQ8g",
+      "url": "https://www.youtube.com/watch?v=4uIOqWGsQ8g",
+      "channelTitle": "Shri Knowledge",
+      "channelVerified": false,
+      "duration": "15:22"
+    }
+  ],
+  "playlist_results": [
+    {
+      "position_on_page": 5,
+      "title": "JavaScript Projects",
+      "link": "https://www.youtube.com/playlist?list=PLS0UJluwZqAM",
+      "channel": {
+        "name": "Akshat Network Hub",
+        "link": "https://www.youtube.com/@AkshatNetworkHub"
+      },
+      "videos": [
+        {
+          "title": "NovaPlay Suite: Building an Immersive Audio OS from Scratch! (Vanilla JS & HTML5)",
+          "length": "2:24",
+          "link": "https://www.youtube.com/watch?v=hcOz0sm5rvU&list=PLS0UJluwZqAM"
+        },
+        {
+          "title": "How to Create a Modern Dark/Light Mode Calculator using Vanilla JS & Bootstrap 5",
+          "length": "0:49",
+          "link": "https://www.youtube.com/watch?v=7LuXz7EFU40&list=PLS0UJluwZqAM"
+        }
+      ],
+      "video_count": 6,
+      "thumbnail": "https://i.ytimg.com/vi/hcOz0sm5rvU/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDMs9kG7ewPyZHWwaURgI7YFlu0Qw"
+    }
+  ],
+  "channel_results": [
+    {
+      "position_on_page": 6,
+      "title": "Akshat Network Hub",
+      "link": "https://www.youtube.com/@AkshatNetworkHub",
+      "handle": "@AkshatNetworkHub",
+      "subscribers": 5,
+      "description": "Welcome to Akshat Network Hub (ANH)! I am Akshat Prasad, a BCA student, developer, and creator of the Akshat Network Hub ...",
+      "thumbnail": "https://yt3.ggpht.com/HpHt-TEoVhzL2_hEEGKX8yKwhB53Dx7PiT56ePq5AKlDeBuYEoaN6JbUH48ZhU1dKzxZxT2A9A=s88-c-k-c0x00ffffff-no-rj-mo"
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=DPGNotes",
+    "next": "https://www.youtube.com/results?search_query=DPGNotes&sp=DPGNotes",
+    "next_page_token": "DPGNotes"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=DPGNotes",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=DPGNotes&sp=DPGNotes",
+    "next_page_token": "DPGNotes"
+  }
+}

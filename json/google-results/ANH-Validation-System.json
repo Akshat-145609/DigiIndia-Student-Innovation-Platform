@@ -1,0 +1,344 @@
+{
+  "search_metadata": {
+    "id": "6a9d4f5b0d0b29c79adc8d0e",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/sfvPWIQKQUXjfe6BFQX1QZ9Qs42fcQ-HcxEOs6OFdYo/6a9d4f5b0d0b29c79adc8d0e.json",
+    "markdown_endpoint": "https://serpapi.com/searches/sfvPWIQKQUXjfe6BFQX1QZ9Qs42fcQ-HcxEOs6OFdYo/6a9d4f5b0d0b29c79adc8d0e.md",
+    "created_at": "2026-09-06 11:32:43 UTC",
+    "processed_at": "2026-09-06 11:32:43 UTC",
+    "google_url": "https://www.google.com/search?q=ANH+Validation+System&oq=ANH+Validation+System&uule=w+CAIQICIaQXVzdGluLFRleGFzLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/sfvPWIQKQUXjfe6BFQX1QZ9Qs42fcQ-HcxEOs6OFdYo/6a9d4f5b0d0b29c79adc8d0e.html",
+    "total_time_taken": 6.92
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "ANH Validation System",
+    "location_requested": "Austin, Texas, United States",
+    "location_used": "Austin,Texas,United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "ANH Validation System",
+    "total_results": 3590000,
+    "time_taken_displayed": 0.43,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "ANH Validation Protocol Documentation | Alpha-1.1 Architecture ...",
+      "link": "https://akshat-145609.github.io/ValidationSystem/Documentation.htm",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESegHrOzAV_IgBCvtsvjgVQu1BB4fxv4CBhGlIkEAmxf6VBc6miocYyA9JNhU_TvMvMj-g02V32v-5RJtTbgZlXSlYRnTQkCzuc5sa6sL_tEcRF5KdsRbw8lKOsU3dpPWTCpAeEvPzuYhlVzxv0CMeZTiyTlCYA90jQDpX&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8QFnoECBoQAQ&uoh=1",
+      "displayed_link": "https://akshat-145609.github.io › ValidationSystem › Do...",
+      "snippet": "ANH Validation Protocol Documentation. Alpha-1.1 architecture ensures identity verification, metadata integrity and trust scoring across the ANH ecosystem.",
+      "snippet_highlighted_words": [
+        "Alpha-1.1 architecture ensures identity verification, metadata integrity and trust scoring"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "ANH Validation Protocol Documentation. Alpha-1.1 architecture ensures identity verification, metadata integrity and trust scoring across the ANH ecosystem.",
+          "source_info_link": "https://akshat-145609.github.io/ValidationSystem/Documentation.htm"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "US"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://akshat-145609.github.io/ValidationSystem/Documentation.htm&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fakshat-145609.github.io%2FValidationSystem%2FDocumentation.htm",
+      "source": "GitHub Pages documentation"
+    },
+    {
+      "position": 2,
+      "title": "Anh Doan - Hardware Development/Validation at Meta",
+      "link": "https://www.linkedin.com/in/anhdoan",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESWwHrOzAVyBLAm8i_Y8S7sP43fWl0VRaw_JkuJnVpt1uuHbbqjx6AJvjcdJdQYP4k3aXetoY8icB44BUd7ZUwjMrrF56t20VC9ub9huaExDnAv5_hKNydqJlC2Iw&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8QFnoECBsQAQ&uoh=1",
+      "displayed_link": "440+ followers",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAm0lEQVR4AWP4__8_RRhMyLfs3sNQvOk_KRikB24ATNB2yhEQJtoQuAEwzVAAYtPVAMJe4Cjf8l-0bsd_RkIGQAGc_ej9t_-TDt_7_-vPXzD_6Yfv_-2nHSXWAAT49P33_z9__4HZl559JM2Aqm3XwXyXGcfA_H___pFmgFj9DjCfp3IrTIgkA5ADbbAbQA6mKDPp9x7YBTOAIgwAVba5DGceMlQAAAAASUVORK5CYII.png",
+      "snippet": "Design, bringup, and validate low power consumer product. • Architect and fully develop complex automation tools for system, processor and memory validation",
+      "snippet_highlighted_words": [
+        "Design, bringup, and validate low power consumer product"
+      ],
+      "rich_snippet": {
+        "top": {
+          "extensions": [
+            "Santa Clara, California, United States",
+            "Hardware Development/Validation",
+            "Meta - Reality Labs"
+          ]
+        }
+      },
+      "about_this_result": {
+        "source": {
+          "description": "Design, bringup, and validate low power consumer product. • Architect and fully develop complex automation tools for system, processor and memory validation",
+          "source_info_link": "https://www.linkedin.com/in/anhdoan",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAm0lEQVR4AWP4__8_RRhMyLfs3sNQvOk_KRikB24ATNB2yhEQJtoQuAEwzVAAYtPVAMJe4Cjf8l-0bsd_RkIGQAGc_ej9t_-TDt_7_-vPXzD_6Yfv_-2nHSXWAAT49P33_z9__4HZl559JM2Aqm3XwXyXGcfA_H___pFmgFj9DjCfp3IrTIgkA5ADbbAbQA6mKDPp9x7YBTOAIgwAVba5DGceMlQAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "US"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.linkedin.com/in/anhdoan&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.linkedin.com%2Fin%2Fanhdoan",
+      "source": "LinkedIn · Anh Doan",
+      "read_more_link": "https://www.linkedin.com/in/anhdoan#:~:text=%E2%80%A2%20Design%2C%20bringup%2C%20and%20validate,system%2C%20processor%20and%20memory%20validation"
+    },
+    {
+      "position": 3,
+      "title": "Agri-food: Development and validation of a rapid ...",
+      "link": "https://www.anh-academy.org/workstreams/grants/grants-round-2/agri-food-development-and-validation-of-a-rapid-assessment-tool",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAEStQEB6zswFecD9GBjSXgO8ehd29yPLs-XOYSpV1T2FaC9h3Gt-HzCDHW9FrSKCCyDolp6FaBnqVkvFdHNftR6Xt--fhUYBNKYZvX_MAuBjZfxkkYtDq4R8YROFTAgaNaanRtIfWcIyMIpzxVL5hscx2jVOtgv54N0WGpJReBPw2vhbbK_bHo2EXJ6UzVdFOAMmXwrpBuQZ6k_u8K5-YdJC72VdBX2HlOqefF_CHIo1JfF7QRapptw&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8QFnoECBwQAQ&uoh=1",
+      "displayed_link": "https://www.anh-academy.org › grants › grants-round-2",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwTh3oTh3oTh3oTh3oTh3oTh3oTh3oTh3oTh3oCg3UAe2z___-RvbZsqaHz9_ey0MtImY7g7OrI3dkka0ctAAAACnRSTlMATk3_pMnsEpPqum7fggAAAQ9JREFUOI2NU4mygyAMxCJKc3D5___6NthOrbWPZkaM7JKNIXHuZVMMi_dLiJO7sHX2B5vXMx79yeL78fsZ9_5-CLJ-wmbrAH8xLuI_VL7kd8r0q8BTZP6PMIOwe0TXDNR3xzXRJw9f0yNFksZ4cTMe5Z1GNVF0wVwumxiSjEe67QFYlIJbui-ccRaLVMK6qdFV2C89R27K2EMALkpVwDcrBTQjsDbuT1ZKGXIqubXcxBKCBEIJdsQjAHSr1LKllCpcgkSAsjJXzcWUqUjucshIED24SCWz_TLbpicvhWql_hNstzGdSkcA93KR5Xh7lvrAePN-uazhdQ8bZtxy46Ydtv14cMaj98Pwmt2uxv8PdE4SRghLTDgAAAAASUVORK5CYII.png",
+      "date": "Dec 1, 2016",
+      "snippet": "Development and validation of a rapid assessment tool to identify nutrient gaps in local food systems and help design nutrition sensitive ...",
+      "snippet_highlighted_words": [
+        "validation",
+        "systems"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Development and validation of a rapid assessment tool to identify nutrient gaps in local food systems and help design nutrition sensitive ...",
+          "source_info_link": "https://www.anh-academy.org/workstreams/grants/grants-round-2/agri-food-development-and-validation-of-a-rapid-assessment-tool",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAPFBMVEVHcEwTh3oTh3oTh3oTh3oTh3oTh3oTh3oTh3oTh3oCg3UAe2z___-RvbZsqaHz9_ey0MtImY7g7OrI3dkka0ctAAAACnRSTlMATk3_pMnsEpPqum7fggAAAQ9JREFUOI2NU4mygyAMxCJKc3D5___6NthOrbWPZkaM7JKNIXHuZVMMi_dLiJO7sHX2B5vXMx79yeL78fsZ9_5-CLJ-wmbrAH8xLuI_VL7kd8r0q8BTZP6PMIOwe0TXDNR3xzXRJw9f0yNFksZ4cTMe5Z1GNVF0wVwumxiSjEe67QFYlIJbui-ccRaLVMK6qdFV2C89R27K2EMALkpVwDcrBTQjsDbuT1ZKGXIqubXcxBKCBEIJdsQjAHSr1LKllCpcgkSAsjJXzcWUqUjucshIED24SCWz_TLbpicvhWql_hNstzGdSkcA93KR5Xh7lvrAePN-uazhdQ8bZtxy46Ydtv14cMaj98Pwmt2uxv8PdE4SRghLTDgAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "US"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.anh-academy.org/workstreams/grants/grants-round-2/agri-food-development-and-validation-of-a-rapid-assessment-tool&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.anh-academy.org%2Fworkstreams%2Fgrants%2Fgrants-round-2%2Fagri-food-development-and-validation-of-a-rapid-assessment-tool",
+      "source": "ANH Academy"
+    },
+    {
+      "position": 4,
+      "title": "AI Empowers Smarter Ops Management with Enterprise ...",
+      "link": "https://www.linkedin.com/posts/anhselissen_ai-empowering-smarter-operational-management-activity-7490085322840506368-ENwx",
+      "displayed_link": "50+ reactions · 1 month ago",
+      "thumbnail": "https://serpapi.com/searches/6a9d4f5b0d0b29c79adc8d0e/images/AyFZiDcEO2ux8-ywqewxUCSMs35ISPVa-xV37kIgpls.jpeg",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAm0lEQVR4AWP4__8_RRhMyLfs3sNQvOk_KRikB24ATNB2yhEQJtoQuAEwzVAAYtPVAMJe4Cjf8l-0bsd_RkIGQAGc_ej9t_-TDt_7_-vPXzD_6Yfv_-2nHSXWAAT49P33_z9__4HZl559JM2Aqm3XwXyXGcfA_H___pFmgFj9DjCfp3IrTIgkA5ADbbAbQA6mKDPp9x7YBTOAIgwAVba5DGceMlQAAAAASUVORK5CYII.png",
+      "snippet": "Validate models, defend against prompt attacks, and enforce output safety. evals, permissions, and workflow state.",
+      "duration": "1:06",
+      "about_this_result": {
+        "source": {
+          "description": "Validate models, defend against prompt attacks, and enforce output safety. evals, permissions, and workflow state.",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAm0lEQVR4AWP4__8_RRhMyLfs3sNQvOk_KRikB24ATNB2yhEQJtoQuAEwzVAAYtPVAMJe4Cjf8l-0bsd_RkIGQAGc_ej9t_-TDt_7_-vPXzD_6Yfv_-2nHSXWAAT49P33_z9__4HZl559JM2Aqm3XwXyXGcfA_H___pFmgFj9DjCfp3IrTIgkA5ADbbAbQA6mKDPp9x7YBTOAIgwAVba5DGceMlQAAAAASUVORK5CYII.png"
+        }
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.google.com/goto?url=CAESsQEB6zswFQ8_D0wvO8SJqC5QZd_097S001t4sd_1OopJPlq8ixpSsVbWZar8ThSXs_YH1aUC-e7zgkZ86Wg_7YzifBw4vTkpeQHb0XzrmtLE4cfIa8ytAJt3wcTIM6eBVeYeJUHrINFtOjDb_mGGCAEKHD1Hr469WHL65Qrpp_HLz_oNnDmVhesnK2nVXv11_9KluceguEFTnbSp08j-pEtZAbo2TnrQP07bb29V7pCWpwI&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.google.com%2Fgoto%3Furl%3DCAESsQEB6zswFQ8_D0wvO8SJqC5QZd_097S001t4sd_1OopJPlq8ixpSsVbWZar8ThSXs_YH1aUC-e7zgkZ86Wg_7YzifBw4vTkpeQHb0XzrmtLE4cfIa8ytAJt3wcTIM6eBVeYeJUHrINFtOjDb_mGGCAEKHD1Hr469WHL65Qrpp_HLz_oNnDmVhesnK2nVXv11_9KluceguEFTnbSp08j-pEtZAbo2TnrQP07bb29V7pCWpwI",
+      "source": "LinkedIn · Anh Selissen"
+    },
+    {
+      "position": 5,
+      "title": "Machine Learning Approach to Reduce Alert Fatigue Using ...",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/33211018/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYQHrOzAVwI7oY-nyUyfEK5imcLI8YsjZajfME6Zf3VELb2hwXQmuErNL4RbMNYyq4ExF3i9YqnUxQyoGQGXuGg1b7ht1O1HoBkN7flgjvMufx-EYgjYL5-xwab71Gu4Bhls&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8QFnoECDIQAQ&uoh=1",
+      "displayed_link": "https://pubmed.ncbi.nlm.nih.gov › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd-UAAABA0lEQVR4AWJwL_ChKwYTEqE9BglJae0kYGe4AUFTPIB4ChRXAM1SxGshUHMCEP8nFQfG54tBHasItOg_Gk7EZ-EjkAFk4JVIvqxAt1QspJcb0GwdWAAIhGEYnqVtGqNtWqAlAjdKbRBNEXD5cZyPu4_zRvgF9Kh7-9UC8-jIq70ETV-Ah5xlrifaoMGYpUKToCcA2oAeDciAeEBPBORBNqDNg3xAkwfhgDzIb6CZBmPW6ik3AS8PwvGwoPk8uDOU84trYwGg4OoKJcHbLXEB0VDOxpbBQLtHUbCsrLhxKxQF2Y9cQiHBu7yuiKIXioI7sKg1lNT7Lx1BDw1Fq-yC9PwKfAFmoVRnLcb2rQAAAABJRU5ErkJggg.png",
+      "author": "by TN Poly",
+      "snippet": "In this study, ANN showed substantially better performance in predicting individual physician responses to an alert from a disease ...",
+      "about_this_result": {
+        "source": {
+          "description": "In this study, ANN showed substantially better performance in predicting individual physician responses to an alert from a disease ...",
+          "source_info_link": "https://pubmed.ncbi.nlm.nih.gov/33211018/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd-UAAABA0lEQVR4AWJwL_ChKwYTEqE9BglJae0kYGe4AUFTPIB4ChRXAM1SxGshUHMCEP8nFQfG54tBHasItOg_Gk7EZ-EjkAFk4JVIvqxAt1QspJcb0GwdWAAIhGEYnqVtGqNtWqAlAjdKbRBNEXD5cZyPu4_zRvgF9Kh7-9UC8-jIq70ETV-Ah5xlrifaoMGYpUKToCcA2oAeDciAeEBPBORBNqDNg3xAkwfhgDzIb6CZBmPW6ik3AS8PwvGwoPk8uDOU84trYwGg4OoKJcHbLXEB0VDOxpbBQLtHUbCsrLhxKxQF2Y9cQiHBu7yuiKIXioI7sKg1lNT7Lx1BDw1Fq-yC9PwKfAFmoVRnLcb2rQAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "US"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://pubmed.ncbi.nlm.nih.gov/33211018/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F33211018%2F",
+      "source": "National Institutes of Health (NIH) | (.gov)"
+    },
+    {
+      "position": 6,
+      "title": "Verification and Validation of Simulation Models (System",
+      "link": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-tai-chinh-thanh-pho-ho-chi-minh/tieng-anh-5/chapter-10-verification-and-validation-of-simulation-models-system/138873168",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAES6wEB6zswFecwooEQXmgBawrYzqg3BfTwZRw-lIB5DxhRlq91Pr6c-makROFwEccjHEQ4F4lxB_otxaEHf2MIlqv_acsl1atPj0O1BjDS1XUjuWAyMjlti6J8qoM4GiBbessC8sYs9A9xAm-ajHN6hV2c-KuNvV9f_snRd52CK927pA3Z4Yyemu68fAgh2efT-vcMqRWy77NJ5L1srVLdmmBf87eqP4QsM-aUHQSGw1WxWnbSxoZB6qzXcp2IPjR_5t8IjaELbU0_r5E7QJ0GjwKUtC1kuBP1ayOqljTKWGTEg64YBLE7TC1S7avb&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8QFnoECC0QAQ&uoh=1",
+      "displayed_link": "https://www.studocu.vn › ... › Tiếng Anh 5",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAx0lEQVR4AWLgwgOIkwRwRYYwDMJQED3vPd7PzJsmqGrMvJg36FrMRBM8bt7g7SwKUz2POvIDP_R4rnm99Pc-Lu4SaNPnIPdQiVh40aCW6FmxShKRNZPKIrKrJVoKMi2SuAWSzDTmPBr5NwTglty8hgdZIm5vvvz6RrKHTju5nO0U4TJef_dGCrQh4JBPGgHS7Rsnf5MJ1VbCsJ5_-dLIkH0udDRpgEKQZEdHpzUwiYwqVzrSkIGGjnTrxYwHOdVb2Yc7bZKf4gGEMhNcLfOWrgAAAABJRU5ErkJggg.png",
+      "snippet": "Validation is an integral part of model development Verification – building the model correctly",
+      "snippet_highlighted_words": [
+        "Validation",
+        "Verification"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Validation is an integral part of model development Verification – building the model correctly",
+          "source_info_link": "https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-tai-chinh-thanh-pho-ho-chi-minh/tieng-anh-5/chapter-10-verification-and-validation-of-simulation-models-system/138873168",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAx0lEQVR4AWLgwgOIkwRwRYYwDMJQED3vPd7PzJsmqGrMvJg36FrMRBM8bt7g7SwKUz2POvIDP_R4rnm99Pc-Lu4SaNPnIPdQiVh40aCW6FmxShKRNZPKIrKrJVoKMi2SuAWSzDTmPBr5NwTglty8hgdZIm5vvvz6RrKHTju5nO0U4TJef_dGCrQh4JBPGgHS7Rsnf5MJ1VbCsJ5_-dLIkH0udDRpgEKQZEdHpzUwiYwqVzrSkIGGjnTrxYwHOdVb2Yc7bZKf4gGEMhNcLfOWrgAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "US"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.studocu.vn/vn/document/truong-dai-hoc-kinh-te-tai-chinh-thanh-pho-ho-chi-minh/tieng-anh-5/chapter-10-verification-and-validation-of-simulation-models-system/138873168&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.studocu.vn%2Fvn%2Fdocument%2Ftruong-dai-hoc-kinh-te-tai-chinh-thanh-pho-ho-chi-minh%2Ftieng-anh-5%2Fchapter-10-verification-and-validation-of-simulation-models-system%2F138873168",
+      "source": "Studocu Vietnam"
+    },
+    {
+      "position": 7,
+      "title": "ANH Verified Sites Dashboard",
+      "link": "https://akshat-145609.github.io/ValidationSystem/Dashboard.htm",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdgHrOzAVJcUzE4YtQyUqPh8dVMYCMdjvaIGXyYUMGWVM6b__MZZZtL2JLC-hEmH3yelcSgfzzz4UorZ_7y9u3ZijybV3kTvPInFr-Pihr4YdyX024n5E6rxPQ7KVmYE-2Rvny8zUB0bpRz7fURl2uzfx6qOdPEM&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8QFnoECCsQAQ&uoh=1",
+      "displayed_link": "https://akshat-145609.github.io › ValidationSystem › Da...",
+      "snippet": "Explore verified projects of Akshat Network Hub validated via ANH. Create trusted identity metadata for static websites with runtime verification support.",
+      "snippet_highlighted_words": [
+        "Explore verified projects of Akshat Network Hub validated via ANH"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Explore verified projects of Akshat Network Hub validated via ANH. Create trusted identity metadata for static websites with runtime verification support.",
+          "source_info_link": "https://akshat-145609.github.io/ValidationSystem/Dashboard.htm"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "US"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://akshat-145609.github.io/ValidationSystem/Dashboard.htm&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fakshat-145609.github.io%2FValidationSystem%2FDashboard.htm",
+      "source": "GitHub Pages documentation"
+    },
+    {
+      "position": 8,
+      "title": "Validation of an automated artificial intelligence system for ...",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0022073623002698",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESewHrOzAVlxdsMYZbGfaZzZp6s8BG20IeLe8YAXRiWIOKSTcKPH1C1L67UfdLaFw1m-3MUswHCONh4Q9lL2d_LLQ3kpMkFyIKc4x7iukIHYrIJgD5nJB_Hw5mv9lmfVaxKJmDCJADU8vNJKg3YIsxvrnOr_6vKALqVVsxsA&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8QFnoECCwQAQ&uoh=1",
+      "displayed_link": "https://www.sciencedirect.com › science › article › pii",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABKElEQVR4AdzXAUQEQRTG8Y8KkThBUnAAAJEAkCIHEECAmH2zKYKIQAAEiCgFkCABBORAAFQoAMIFJMDX8xywaKpbH-Hvwc76GQMPazs9af8fQMMcM1aKAUzoRjXmfXaiGtN_AJwwg-WADLbQjwDH3iUNtz77Ph99vrULKKjgh41YYVYJiGgYqAH3WkDGqRqwScODAFBWawAaZriNRR0g48Cj8gau1YDXFgHl6QHCR_iifgNXasC-FlBhigldGaAJwnqcTehoABln3ofkBriFCRoG3pMGUGM1zhnuRgbgLiaLzxrOh4CLXwF4iPEGoMZy7AwbGGt87zgmLDBjiYY9n59DwNF3gNB6N8zoe8_eu8eRVCHJFpPI0CtezeIKvwbrmqUx8A_b3jEAhZpfRTDQgH4AAAAASUVORK5CYII.png",
+      "author": "by R Herman",
+      "snippet": "AI-powered system detects 20 essential diagnostic patterns and standard ECG measurements from 12-lead ECGs. • AI outperforms state-of-the-art CIE",
+      "snippet_highlighted_words": [
+        "AI-powered system detects 20 essential diagnostic patterns"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "AI-powered system detects 20 essential diagnostic patterns and standard ECG measurements from 12-lead ECGs. • AI outperforms state-of-the-art CIE",
+          "source_info_link": "https://www.sciencedirect.com/science/article/pii/S0022073623002698",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABKElEQVR4AdzXAUQEQRTG8Y8KkThBUnAAAJEAkCIHEECAmH2zKYKIQAAEiCgFkCABBORAAFQoAMIFJMDX8xywaKpbH-Hvwc76GQMPazs9af8fQMMcM1aKAUzoRjXmfXaiGtN_AJwwg-WADLbQjwDH3iUNtz77Ph99vrULKKjgh41YYVYJiGgYqAH3WkDGqRqwScODAFBWawAaZriNRR0g48Cj8gau1YDXFgHl6QHCR_iifgNXasC-FlBhigldGaAJwnqcTehoABln3ofkBriFCRoG3pMGUGM1zhnuRgbgLiaLzxrOh4CLXwF4iPEGoMZy7AwbGGt87zgmLDBjiYY9n59DwNF3gNB6N8zoe8_eu8eRVCHJFpPI0CtezeIKvwbrmqUx8A_b3jEAhZpfRTDQgH4AAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "US"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://www.sciencedirect.com/science/article/pii/S0022073623002698&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0022073623002698",
+      "source": "ScienceDirect.com"
+    },
+    {
+      "position": 9,
+      "title": "VALIDATION | Định nghĩa trong Từ điển tiếng Anh Cambridge",
+      "link": "https://dictionary.cambridge.org/vi/dictionary/english/validation",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=CAESeQHrOzAVlOdLOykxIbVulogBeNhTz13r8rnsut36ByxT4fXyRpfSWLYFL7xtof9B-7I-FkYJ4OG197la4tGp4aPfoBM1daNNBQ0WzmC6cl2qO0JC7nDlPj_hr_BuvLW3HJlximAocrCLF7s5gK7EKs12KciHwzbLfPI&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8QFnoECC4QAQ&uoh=1",
+      "displayed_link": "https://dictionary.cambridge.org › dictionary › english",
+      "favicon": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkOBwgNCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kHDQsJCYxJx8fLT0tMTU3Ojo6Iys_RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3NTc3Nzc4NTc3Nzc3NzczNzgrNzcuNzc3Nys3ODUvNjc1NzUvN__AABEIABwAHAMBEQACEQEDEQH_xAAZAAACAwEAAAAAAAAAAAAAAAAFBgIEBwH_xAAmEAACAQMDAwQDAAAAAAAAAAABAgMABBEFITESQVEGEyKRgYKh_8QAGQEAAgMBAAAAAAAAAAAAAAAAAQMCBAUA_8QAJhEAAgIBAwMDBQAAAAAAAAAAAAECAxEEIVFBYaEx0fAFEhNxwf_aAAwDAQACEQMRAD8AylRV9Chm0r0hqWo2plgmtVQWxuSJHcHoGM8RnfcVWf1CiNkq3nMd3sOjpbJpNdf6D9U02bTrj252RmKhsxkkYOfIHirOnvhqa1ZX6MRZB1y-2QPKmp4BkiooJHM1P0frVpcaIsUksEElhZM-GIjZ2TAAY5-anuOOKydTRqPzSajmOMrHPDNLT3QVcU5dt-ndcftegqerL-PVNVaWIIFWMRgxp0qcZ3A_P8rV0VVlenStSUuuDP1Fina3F7fOQCV3pzQrJ3TZBDf27s3SqyqWbHAzufqltbExxF9YfL27y1QHcZsI2Ix-wye-Tx4zUIt8Pz7Ba7rwD9fvYJLOJIZLaVuodTRWixtsNt-snHbGO322D36-fYhIWmfejk7BFOaCCy1HTUQZyXigzkVG5pTJn__Z.jpeg",
+      "snippet": "VALIDATION ý nghĩa, định nghĩa, VALIDATION là gì: 1. the act or process of making something officially or legally acceptable or approved: 2. proof…",
+      "snippet_highlighted_words": [
+        "VALIDATION",
+        "VALIDATION"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "VALIDATION ý nghĩa, định nghĩa, VALIDATION là gì: 1. the act or process of making something officially or legally acceptable or approved: 2. proof…",
+          "source_info_link": "https://dictionary.cambridge.org/vi/dictionary/english/validation",
+          "icon": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkOBwgNCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kHDQsJCYxJx8fLT0tMTU3Ojo6Iys_RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3NTc3Nzc4NTc3Nzc3NzczNzgrNzcuNzc3Nys3ODUvNjc1NzUvN__AABEIABwAHAMBEQACEQEDEQH_xAAZAAACAwEAAAAAAAAAAAAAAAAFBgIEBwH_xAAmEAACAQMDAwQDAAAAAAAAAAABAgMABBEFITESQVEGEyKRgYKh_8QAGQEAAgMBAAAAAAAAAAAAAAAAAQMCBAUA_8QAJhEAAgIBAwMDBQAAAAAAAAAAAAECAxEEIVFBYaEx0fAFEhNxwf_aAAwDAQACEQMRAD8AylRV9Chm0r0hqWo2plgmtVQWxuSJHcHoGM8RnfcVWf1CiNkq3nMd3sOjpbJpNdf6D9U02bTrj252RmKhsxkkYOfIHirOnvhqa1ZX6MRZB1y-2QPKmp4BkiooJHM1P0frVpcaIsUksEElhZM-GIjZ2TAAY5-anuOOKydTRqPzSajmOMrHPDNLT3QVcU5dt-ndcftegqerL-PVNVaWIIFWMRgxp0qcZ3A_P8rV0VVlenStSUuuDP1Fina3F7fOQCV3pzQrJ3TZBDf27s3SqyqWbHAzufqltbExxF9YfL27y1QHcZsI2Ix-wye-Tx4zUIt8Pz7Ba7rwD9fvYJLOJIZLaVuodTRWixtsNt-snHbGO322D36-fYhIWmfejk7BFOaCCy1HTUQZyXigzkVG5pTJn__Z.jpeg"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "US"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://dictionary.cambridge.org/vi/dictionary/english/validation&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fdictionary.cambridge.org%2Fvi%2Fdictionary%2Fenglish%2Fvalidation",
+      "source": "Cambridge Dictionary"
+    },
+    {
+      "position": 10,
+      "title": "Anh-Tu Nguyen - Publications",
+      "link": "https://sites.google.com/view/anh-tu-nguyen/publications",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sites.google.com/view/anh-tu-nguyen/publications&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8QFnoECDEQAQ",
+      "displayed_link": "https://sites.google.com › view › publications",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAJ1BMVEVHcExHWLZHWLZHWLZHWLU4TLH___8xR7DKzeb29_s-UbOjqtbs7faJiFd3AAAABHRSTlMATdbaerUhWgAAAGdJREFUKJHVkjsWwCAIBBeViJj7nzehMA1iPl2mnULGtwDlMiURQHNlEFIsM2JXyr3k6uAhWZpD-JKb45nULo6u4yBlh75PsbfClPOSukcpJluU8gO56Fz-0McNBZM20nrUoGDWmXAAVuAP7H7fmaAAAAAASUVORK5CYII.png",
+      "snippet": "Anh-Tu Nguyen*, Chouki Sentouh, Jean-Christophe Popieul, “Driver-Automation Cooperative Approach for Shared Steering Control under Multiple System ...",
+      "snippet_highlighted_words": [
+        "Anh",
+        "System"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Anh-Tu Nguyen*, Chouki Sentouh, Jean-Christophe Popieul, “Driver-Automation Cooperative Approach for Shared Steering Control under Multiple System ...",
+          "source_info_link": "https://sites.google.com/view/anh-tu-nguyen/publications",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAJ1BMVEVHcExHWLZHWLZHWLZHWLU4TLH___8xR7DKzeb29_s-UbOjqtbs7faJiFd3AAAABHRSTlMATdbaerUhWgAAAGdJREFUKJHVkjsWwCAIBBeViJj7nzehMA1iPl2mnULGtwDlMiURQHNlEFIsM2JXyr3k6uAhWZpD-JKb45nULo6u4yBlh75PsbfClPOSukcpJluU8gO56Fz-0McNBZM20nrUoGDWmXAAVuAP7H7fmaAAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "en"
+        ],
+        "regions": [
+          "US"
+        ]
+      },
+      "about_page_link": "https://www.google.com/search?q=About+https://sites.google.com/view/anh-tu-nguyen/publications&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.com&q=About+https%3A%2F%2Fsites.google.com%2Fview%2Fanh-tu-nguyen%2Fpublications",
+      "source": "Google",
+      "read_more_link": "https://sites.google.com/view/anh-tu-nguyen/publications#:~:text=Anh%2DTu%20Nguyen*%2C%20Chouki%20Sentouh%2C%20Jean%2DChristophe,Transactions%20on%20Industrial%20Electronics%2C%20vol."
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=ANH+Validation+System+&sca_esv=def51ffada9549d3&gl=us&hl=en&ei=YE-dava1OJWo0-kP-6Si-Aw&start=10&sa=N&sstk=AS6-VmKek7CWA9jXqzcKT4prLKzigBk-VReqHruDvvniKZLs92qqkSa_3adBvYbqnQLzL76f0sqXj5A6LEqVDw-Qljs-0TGv2czs6A&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8Q8NMDegQIIhAW",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=ANH+Validation+System+&sca_esv=def51ffada9549d3&gl=us&hl=en&ei=YE-dava1OJWo0-kP-6Si-Aw&start=10&sa=N&sstk=AS6-VmKek7CWA9jXqzcKT4prLKzigBk-VReqHruDvvniKZLs92qqkSa_3adBvYbqnQLzL76f0sqXj5A6LEqVDw-Qljs-0TGv2czs6A&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8Q8tMDegQIIhAE",
+      "3": "https://www.google.com/search?q=ANH+Validation+System+&sca_esv=def51ffada9549d3&gl=us&hl=en&ei=YE-dava1OJWo0-kP-6Si-Aw&start=20&sa=N&sstk=AS6-VmKek7CWA9jXqzcKT4prLKzigBk-VReqHruDvvniKZLs92qqkSa_3adBvYbqnQLzL76f0sqXj5A6LEqVDw-Qljs-0TGv2czs6A&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8Q8tMDegQIIhAG",
+      "4": "https://www.google.com/search?q=ANH+Validation+System+&sca_esv=def51ffada9549d3&gl=us&hl=en&ei=YE-dava1OJWo0-kP-6Si-Aw&start=30&sa=N&sstk=AS6-VmKek7CWA9jXqzcKT4prLKzigBk-VReqHruDvvniKZLs92qqkSa_3adBvYbqnQLzL76f0sqXj5A6LEqVDw-Qljs-0TGv2czs6A&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8Q8tMDegQIIhAI",
+      "5": "https://www.google.com/search?q=ANH+Validation+System+&sca_esv=def51ffada9549d3&gl=us&hl=en&ei=YE-dava1OJWo0-kP-6Si-Aw&start=40&sa=N&sstk=AS6-VmKek7CWA9jXqzcKT4prLKzigBk-VReqHruDvvniKZLs92qqkSa_3adBvYbqnQLzL76f0sqXj5A6LEqVDw-Qljs-0TGv2czs6A&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8Q8tMDegQIIhAK",
+      "6": "https://www.google.com/search?q=ANH+Validation+System+&sca_esv=def51ffada9549d3&gl=us&hl=en&ei=YE-dava1OJWo0-kP-6Si-Aw&start=50&sa=N&sstk=AS6-VmKek7CWA9jXqzcKT4prLKzigBk-VReqHruDvvniKZLs92qqkSa_3adBvYbqnQLzL76f0sqXj5A6LEqVDw-Qljs-0TGv2czs6A&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8Q8tMDegQIIhAM",
+      "7": "https://www.google.com/search?q=ANH+Validation+System+&sca_esv=def51ffada9549d3&gl=us&hl=en&ei=YE-dava1OJWo0-kP-6Si-Aw&start=60&sa=N&sstk=AS6-VmKek7CWA9jXqzcKT4prLKzigBk-VReqHruDvvniKZLs92qqkSa_3adBvYbqnQLzL76f0sqXj5A6LEqVDw-Qljs-0TGv2czs6A&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8Q8tMDegQIIhAO",
+      "8": "https://www.google.com/search?q=ANH+Validation+System+&sca_esv=def51ffada9549d3&gl=us&hl=en&ei=YE-dava1OJWo0-kP-6Si-Aw&start=70&sa=N&sstk=AS6-VmKek7CWA9jXqzcKT4prLKzigBk-VReqHruDvvniKZLs92qqkSa_3adBvYbqnQLzL76f0sqXj5A6LEqVDw-Qljs-0TGv2czs6A&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8Q8tMDegQIIhAQ",
+      "9": "https://www.google.com/search?q=ANH+Validation+System+&sca_esv=def51ffada9549d3&gl=us&hl=en&ei=YE-dava1OJWo0-kP-6Si-Aw&start=80&sa=N&sstk=AS6-VmKek7CWA9jXqzcKT4prLKzigBk-VReqHruDvvniKZLs92qqkSa_3adBvYbqnQLzL76f0sqXj5A6LEqVDw-Qljs-0TGv2czs6A&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8Q8tMDegQIIhAS",
+      "10": "https://www.google.com/search?q=ANH+Validation+System+&sca_esv=def51ffada9549d3&gl=us&hl=en&ei=YE-dava1OJWo0-kP-6Si-Aw&start=90&sa=N&sstk=AS6-VmKek7CWA9jXqzcKT4prLKzigBk-VReqHruDvvniKZLs92qqkSa_3adBvYbqnQLzL76f0sqXj5A6LEqVDw-Qljs-0TGv2czs6A&ved=2ahUKEwj25eLj7dmWAxUV1DQHHXuSCM8Q8tMDegQIIhAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=ANH+Validation+System+&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=ANH+Validation+System+&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=ANH+Validation+System+&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=ANH+Validation+System+&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=ANH+Validation+System+&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=ANH+Validation+System+&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=ANH+Validation+System+&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=ANH+Validation+System+&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=ANH+Validation+System+&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=ANH+Validation+System+&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=ANH+Validation+System+&start=90"
+    }
+  }
+}

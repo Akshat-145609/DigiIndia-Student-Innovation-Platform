@@ -1,0 +1,717 @@
+{
+  "search_metadata": {
+    "id": "6a9d4de065f7013c4f5ef45f",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/-5_ApcNaOAmBAcgbql4eqKq2787RdYAdJGWVfNhG3L8/6a9d4de065f7013c4f5ef45f.json",
+    "markdown_endpoint": "https://serpapi.com/searches/-5_ApcNaOAmBAcgbql4eqKq2787RdYAdJGWVfNhG3L8/6a9d4de065f7013c4f5ef45f.md",
+    "created_at": "2026-09-06 11:26:24 UTC",
+    "processed_at": "2026-09-06 11:26:24 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=How+to+become+a+software+engineer",
+    "raw_html_file": "https://serpapi.com/searches/-5_ApcNaOAmBAcgbql4eqKq2787RdYAdJGWVfNhG3L8/6a9d4de065f7013c4f5ef45f.html",
+    "total_time_taken": 1.81
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "How to become a software engineer"
+  },
+  "search_information": {
+    "total_results": 2464738,
+    "video_results_state": "Results for exact spelling"
+  },
+  "ads_results": [
+    {
+      "position_on_page": 1,
+      "title": "Stevesie Data",
+      "link": "https://www.youtube.com/watch?v=X4rbee3wl5k",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CdElE4E2dau3VKeWtv8IP8Nnq4QzWkfOxiQGG1MaQlBawkB8QASAAYMnmu4zYpOwRggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLR8tgDqAMEyAMKqgS0Ak_QOy0mVWR64tDbEtX7IpHF3vIKl9G3-D215HpqZYZn4bpp-xlGC5WIJEuFsU7xxafkeyb5Y-KTaOKClLD2o1Z668nJU4NvYptRyLx_z5yP0PE1KvCGqFVeo9E0PUi2J4xf2uou-kFGgHzCwVTV5mGj6xjfgkhBH6mU_jRktLK91k1JHLB2DK9j5xAul8Gw-SwxWnXWtHZ59kJ1IZn8RsIDLpNOE97dCp4dMtSmqPm3fRMdfzLfCa9lCIYC0_L2_QxTRSsZXNTaWvcWtZQdBcedn11PEe-d41oSFILy9CmJHf1_njcsPG1GtgbWNBVgc1qpxbMzRX_tTBbaEN_YbWdD9y5kIEcktYJT-9Edu1g2AJTjrPRjYuIB9EHexS5R0vvcQn7729_xalzdehyksdxkZDlZiAXY55H5WZIFBwgTeN6k0iegBqEBgAf2rY0nkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKSCAtYNHJiZWUzd2w1a6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWMjaxazs2ZYDYAGaCRlodHRwczovL3N0ZXZlc2llLmNvbS9hcHBzsQmF53HXlPhSpsgJF8gJjwHICcIByAmXApgLAboLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMFdmljYmbQCxLSDAIQAZoNARKqDQJVU8gNAdINQWh0dHBzOi8vc3RldmVzaWUuY29tL2FwcHM_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MTQ0ODAyNzc2uBP___________8BiBQBsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpFzK0hzB4StwnuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMI7cXGrOzZlgMV5dZPAh3wrDrMEAEYASAAEgKm5_D_BwE&num=1&cid=CAASqgHkaIdCFXR75ITu2yPkVOUdCf7yvlUt-_AO5aLG321NPIoZaeYlI89EAsGmW4jHZtv1-YIt3XXPTgDxIXfk0Bfivjtw-KDOmdkc-da3MeGTEhmGC-tHS8JjYXWlA0rXyh9AP_MagLNKHi6jkAMSaVBsnPthit4kYYQXLGM98E7_IDZIVX14WlN_rlxiqE3LzyRPUe67q37o47lVeYjusDmaWWxQnItAYysu3w&ad_cpn=%5BCPN%5D&sig=AOD64_1GaiumLuhDYyvWHfWkdBM2pXRUzQ&ctype=110&video_id=X4rbee3wl5k&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Stevesie Data",
+        "thumbnail": "https://yt3.ggpht.com/proxy/-0cq4XjmDDxB61LEnuNEQ-efJC03boT0Q1paPJrW92Zs1Q3FaC4VPAlmk3AZFBvfp3Poo1DdyzKgNigHPL4tMgk2cESPXmo8W4pWFFGkEH1NTYp4b2Hf71yMESUf4Wkyy2CdRIhVrolqaBaKo6F-Yol1JGN1rgJVu5-6GOYgeBzCt-PglvyGbUTD1ju6qvqigF5HDGOpNZhPGq8FlgwjToy8n5XxL_-ZVfLd03YzX2rWJoMrAiiiw9S6faAUMRrmPIOlFis=w68-h68-nd"
+      },
+      "description": "Scrape Data Not Screens",
+      "thumbnail": "https://i.ytimg.com/vi/X4rbee3wl5k/hqdefault.jpg",
+      "videoId": "X4rbee3wl5k",
+      "url": "https://www.youtube.com/watch?v=X4rbee3wl5k"
+    },
+    {
+      "position_on_page": 4,
+      "title": "The All-In-One Platform That Works As Hard As You Do",
+      "link": "https://www.youtube.com/watch?v=4zzkS6pCUvQ",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CUpTR4E2dau3VKeWtv8IP8Nnq4Qz7qMqviQHb8aaylhawkB8QAiAAYMnmu4zYpOwRggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfClvdICqAMEyAMKqgTRAk_QOy0mVWR64tDbEtX7IpHF3vIKl9G3-D215HpqZYZn4bpp-xlGC5WIJEuFsU7xxafkeyb5Y-KTaOKClLD2o1Z668nJU4NvYptRyLx_z5yP0PE1KvCGqFVeo9E0PUi2J4xf2uou-kFGgHzCwVTV5mGj6xjfgkhBH6mU_jRktLK91k1JHLB2DK9j5xAul8Gw-SwxWnXWtHZ59kJ1IZn8RsIDLpNOE97dCp4dMtSmqPm3fRMdfzLfCa9lCIYC0_L2_QxTRSsZXNTaWvcWtZQdBcedn11PEe-d41oSFILy9CmJHf1_njcsPG1GtgbWNE-Du5ijCHm-BAGvq_s_HUN1t0Ce_CHEdTj9XYZ3C5c_kw80VaAgVumwWWqZi8TA9T3VOnlP0m7j2ubQbFz_uu1dI0-BLeNKeGOSiFgOWVgk2EJ5Zj05M2m5WV1gjle7EvYzWdqIBbqSqqJRkgUICBN4pPnhrQGgBqEBgAf42cKtAZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECkggLNHp6a1M2cENVdlGoCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjI2sWs7NmWA2ABmgkwaHR0cHM6Ly93d3cuc3F1YXJlc3BhY2UuY29tL2dvL2NyZWF0ZS1hLXdlYnNpdGUvsQm57iT4OxAZy8gJF8gJjwHICcIByAmXAroLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMFdmljYmbQCxLgCwGiDFFiIAoeY29tLnNxdWFyZXNwYWNlLnNxdWFyZXNwYWNlYXBwaigKJmNvbS5zcXVhcmVzcGFjZS5hbmRyb2lkLnNxdWFyZXNwYWNlYXBweACIAQDSDAIQAZoNARKqDQJVU8gNAdIN3gVodHRwczovL2FkLmRvdWJsZWNsaWNrLm5ldC9kZG0vdHJhY2tjbGsvTjcxODY3OS4zMTU5R09PR0xFL0IzNDQ0NTQ4OS40NTYxNzY1NTk7ZGNfdHJrX2FpZD02NTAwNDM0Njg7ZGNfdHJrX2NpZD0yNjQyMzU2Mjk7ZGNfZGJtX3Rva2VuPUFPamVMTkVBQUFBNkNqTUtEQWdBRlFBQUFBQWRBQUFBQUJJTUNBQVZBQUFBQUIwQUFBQUFJaE1JdXBLcW9sR29Bb1BndFFLd0F0X0M4T1VEUURzUXU0QzBBcWtlczF6Uk9FQnJvVkFHV1hjNmVmOD07ZGNfbGF0PTtkY19yZGlkPTt0YWdfZm9yX2NoaWxkX2RpcmVjdGVkX3RyZWF0bWVudD07dGZ1YT07bHRkPTtkY190ZHY9MTtkY190cmFuc3BhcmVudD0xO2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNDUGx6WVp0SThhVDlyaDgxWFFjc1pmTEtkV3FmNmEwakRYbV9fa21GOThhX3VVWUhWLTZVTVg2aVNCRmFVMTJhWG5oWXdHSUIyUEFtMUZOZztkY19wdWJpZD02P2h0dHBzOi8vd3d3LnNxdWFyZXNwYWNlLmNvbS9nby9jcmVhdGUtYS13ZWJzaXRlLz9jaGFubmVsPXZpZGVvX3Byb2dyYW1tYXRpYyZzdWJjaGFubmVsPU43MTg2NzkuMzE1OUdPT0dMRSZjYW1wYWlnbj0zNDQ0NTQ4OSZzdWJjYW1wYWlnbj00NTYxNzY1NTlfNjUwMDQzNDY4JnNvdXJjZT0yNjQyMzU2MjkmdXRtX21lZGl1bT12aWRlb19wcm9ncmFtbWF0aWMmdXRtX3NvdXJjZT1ONzE4Njc5LjMxNTlHT09HTEUmdXRtX2NvbnRlbnQ9JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMTgxNTI2NTU5NLATwrnDJLgT____________AbAUA8AVgYCAQNAVAdgVAZgWAagWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRfNgFOOGzmNWLoXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMI7cXGrOzZlgMV5dZPAh3wrDrMEAEYAiAAEgLFFPD_BwE&num=2&cid=CAASqgHkaIdCFXR75ITu2yPkVOUdCf7yvlUt-_AO5aLG321NPIoZaeYlI89EAsGmW4jHZtv1-YIt3XXPTgDxIXfk0Bfivjtw-KDOmdkc-da3MeGTEhmGC-tHS8JjYXWlA0rXyh9AP_MagLNKHi6jkAMSaVBsnPthit4kYYQXLGM98E7_IDZIVX14WlN_rlxiqE3LzyRPUe67q37o47lVeYjusDmaWWxQnItAYysu3w&ad_cpn=%5BCPN%5D&sig=AOD64_35emBt8pNnHwYR6imOJqwX-P1nPg&ctype=110&video_id=4zzkS6pCUvQ&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Squarespace",
+        "thumbnail": "https://yt3.ggpht.com/proxy/OV0yjYL3Kk9I_i7Omx09d9RPjt0_v4WbF7A4zOK17mKSTTLGS6IO5mPBrpBATxaPMOmf0MGg_Ub91n5qb0n0PLL_J9gidUb63dm9kE-Nwkg_7ZqLObNCs5G-E0YLi1MvkceqjxZndTLsAbHnJpP7OC_QAhOQZtbUFk8jZD838Uhn1Ibf0TfqBSYqRLc2WV7uen0op44FyOJoJOb0pAE2hP68C2i7Kf-ZIeH6Z7WWqDm3UWjzKA17dHtTZKxulgfXUtKJF44=w68-h68-nd"
+      },
+      "description": "Sell more of your products, services, and skills with AI, emails, and other easy tools.",
+      "thumbnail": "https://i.ytimg.com/vi/4zzkS6pCUvQ/hqdefault.jpg",
+      "videoId": "4zzkS6pCUvQ",
+      "url": "https://www.youtube.com/watch?v=4zzkS6pCUvQ"
+    },
+    {
+      "position_on_page": 7,
+      "title": "Get 3 months of full access to Shopify for $1/mo",
+      "link": "https://www.youtube.com/watch?v=5JXRUFEOvPs",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CXVK04E2dau3VKeWtv8IP8Nnq4QzwhOCoiAHX95PwgRawkB8QAyAAYMnmu4zYpOwRggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLy-5sqqQJqSn6p-K22PqgDBMgDCqoErQJP0DstJlVkeuLQ2xLV-yKRxd7yCpfRt_g9teR6amWGZ-G6afsZRguViCRLhbFO8cWn5Hsm-WPik2jigpSw9qNWeuvJyVODb2KbUci8f8-cj9DxNSrwhqhVXqPRND1ItieMX9rqLvpBRoB8wsFU1eZho-sY34JIQR-plP40ZLSyvdZNSRywdgyvY-cQLpfBsPksMVp11rR2efZCdSGZ_EbCAy6TThPe3QqeHTLUpqj5t30THX8y3wmvZQiGAtPy9v0MU0UrGVzU2lr3FrWUHQXHnZ9dTxHvneNaEhSC8vQpiR39f543LDxtRrYG1jRa1LuYrgh5hkwLh7PpPKXmkxNFVvcL-GLdjCeK8Pq-ESF4GSsekbjPgHtekg3jUvseXwgAKnJQ40IKSyblRMgxiAXIh9W8WZIFCAgTeLPn76wFoAahAYAH8qrM-wSQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxApIICzVKWFJVRkVPdlBzqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYyNrFrOzZlgNgAZoJTWh0dHBzOi8vd3d3LnN0eWxlZmFjdG9yeXByb2R1Y3Rpb25zLmNvbS9ob3ctdG8tdW5sb2NrLWEtMy1tb250aC1zaG9waWZ5LXRyaWFssQlHWT8LbJN8PMgJF8gJjwHICcIBmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAhK6AwV2aWNiZtALE9IMAhABmg0BE6oNAlVTyA0B0g11aHR0cHM6Ly93d3cuc3R5bGVmYWN0b3J5cHJvZHVjdGlvbnMuY29tL2hvdy10by11bmxvY2stYS0zLW1vbnRoLXNob3BpZnktdHJpYWw_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MDE3OTc4MzEyuBP___________8BsBQDwBWBgIBA0BUB2BUBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqReNjtQReSwWPboXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMI7cXGrOzZlgMV5dZPAh3wrDrMEAEYAyAAEgI34PD_BwE&num=3&cid=CAASqgHkaIdCFXR75ITu2yPkVOUdCf7yvlUt-_AO5aLG321NPIoZaeYlI89EAsGmW4jHZtv1-YIt3XXPTgDxIXfk0Bfivjtw-KDOmdkc-da3MeGTEhmGC-tHS8JjYXWlA0rXyh9AP_MagLNKHi6jkAMSaVBsnPthit4kYYQXLGM98E7_IDZIVX14WlN_rlxiqE3LzyRPUe67q37o47lVeYjusDmaWWxQnItAYysu3w&ad_cpn=%5BCPN%5D&sig=AOD64_2j9IxdW1IXPAjU3br_FXk1VH4UVw&ctype=110&video_id=5JXRUFEOvPs&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Style Factory",
+        "thumbnail": "https://yt3.ggpht.com/proxy/lXILA8k5vCLoCqam4gFoS6UzbgO-H0JeHffp3_WwddZvVWNIeFZk7rXSvqdZ4TodxkslRpIOY8naQiAu2agA9g_MHehKzzDhp8v2jKPVWA1ZPOt-mb1Zf6EPOO3I9XGf_PFKlonXkTPSht4hLbIroCeRBdEp4IBh8KJaYvxzWpFHXX5jvAAWYT0GCpdKaeVSdsWDnlrwRBAlmnBiiNqDiJHMa3jfliJ5wXgG1367owc0fJx0ik1Z0zJQDwKyN9TLG0ux=w68-h68-nd"
+      },
+      "description": "Find out how you can unlock an extended Shopify trial.",
+      "thumbnail": "https://i.ytimg.com/vi/5JXRUFEOvPs/hqdefault.jpg",
+      "videoId": "5JXRUFEOvPs",
+      "url": "https://www.youtube.com/watch?v=5JXRUFEOvPs"
+    },
+    {
+      "position_on_page": 13,
+      "title": "2025 F-150 is part of Ford F-Series, the best-selling truck lineup.",
+      "link": "https://www.youtube.com/watch?v=08Ru1K_5tIc",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cj2eA4E2dau3VKeWtv8IP8Nnq4QzyxYm7iQGMu-Sx4xRkEAQgAGDJ5ruM2KTsEYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGz6uTDPqgDBMgDCqoE0gJP0DstJlVkeuLQ2xLV-yKRxd7yCpfRt_g9teR6amWGZ-G6afsZRguViCRLhbFO8cWn5Hsm-WPik2jigpSw9qNWeuvJyVODb2KbUci8f8-cj9DxNSrwhqhVXqPRND1ItieMX9rqLvpBRoB8wsFU1eZho-sY34JIQR-plP40ZLSyvdZNSRywdgyvY-cQLpfBsPksMVp11rR2efZCdSGZ_EbCAy6TThPe3QqeHTLUpqj5t30THX8y3wmvZQiGAtPy9v0MU0UrGVzU2lr3FrWUHQXHnZ9dTxHvneNaEhSC8vQpiR39f543LDxtRrYG1jQc0LuYpwh59E8Y_rL7Px1DdbdAnvwh6Hc4_V2GNCyJIIsPNPMhT1bpsFlqmaoAW2UE7ttvOqGmx0KYqyeaznr5fzX7m4FuYVpjmZvYcCIT4stgeWop4SdLr-1NQo5ZrevgRioSAIgFz63s31aSBQgIE3jn3v-yGaAGoQGAB7OitaMZkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB8LIsQKSCAswOFJ1MUtfNXRJY6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWMjaxazs2ZYDYAGaCSZodHRwczovL3d3dy5mb3JkLmNvbS90cnVja3MvZjE1MC8yMDI1L7EJKbQian8UIYHICRfICY8ByAnCAcgJlwK6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBA4ACAYgCBboDBXZpY2Jm0AsS4AsBogwyYhUKE2NvbS5zaWVtZW5zLmZvcmQ4MEFqFAoSY29tLmZvcmQuZm9yZGFsZXhheACIAQDSDAIQAZoNARKqDQJVU8gNAdINuwVodHRwczovL2FkLmRvdWJsZWNsaWNrLm5ldC9kZG0vdHJhY2tjbGsvTjMwMTYuNTI2NzkyNUdNTkVYVVNNRURJQS1TT0xVVEkvQjM0NTgyMjQxLjQzNDIzMDExMztkY190cmtfYWlkPTYyODk5MTY4MTtkY190cmtfY2lkPTI0NjE2MDkxNjtkY19kYm1fdG9rZW49QU9qZUxORUFBQUE2Q2pRS0RBZ0FGUUFBQUFBZEFBQUFBQklNQ0FBVkFBQUFBQjBBQUFBQUloUUl6NjNzMzFhb0F1ZmVfN0lac0FMN3pyVG9BMEE3RU5YRVZJdDlTTVl3Ym9ybXEwY0ZscVM4ZngwPTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtnZHByPSR7R0RQUn07Z2Rwcl9jb25zZW50PSR7R0RQUl9DT05TRU5UXzc1NX07bHRkPTtkY190ZHY9MTtkY190cmFuc3BhcmVudD0xOztkY19ydWk9MTtkY19lcHM9QUhhczhjQVlBV3hJTjlvZ04zMEhsRTRZR0Z0TU1TdzBGZXYzU0ZybGFDMXk1T2pKcG03bXlaQlRQRzJpOEEteU5SYS0zSURVdHY5ZDVfMGZSWExHT2c7ZGNfcHViaWQ9Nj9odHRwczovL3d3dy5mb3JkLmNvbS90cnVja3MvZjE1MC8yMDI1Lz9sZWFkc291cmNlPWZkYWYtYmFubmVyYWQmYmFubmVyaWQ9MzQ1ODIyNDF8OTgwODMxMnw0MzQyMzAxMTN8MjQ2MTYwOTE2fDYyODk5MTY4MSZmY2lkPWRpc18zNDU4MjI0MV85ODA4MzEyLVlURCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjMyODY0NTM5NjewE-OcuyS4E____________wGIFAWwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakX0HS17cFp76e6FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMI7cXGrOzZlgMV5dZPAh3wrDrMEAEYBCAAEgJkMPD_BwE&num=4&cid=CAASqgHkaIdCFXR75ITu2yPkVOUdCf7yvlUt-_AO5aLG321NPIoZaeYlI89EAsGmW4jHZtv1-YIt3XXPTgDxIXfk0Bfivjtw-KDOmdkc-da3MeGTEhmGC-tHS8JjYXWlA0rXyh9AP_MagLNKHi6jkAMSaVBsnPthit4kYYQXLGM98E7_IDZIVX14WlN_rlxiqE3LzyRPUe67q37o47lVeYjusDmaWWxQnItAYysu3w&ad_cpn=%5BCPN%5D&sig=AOD64_0Wkv1t14ztu2WX-u4mDl3cS5yJXg&ctype=110&video_id=08Ru1K_5tIc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Ford",
+        "thumbnail": "https://yt3.ggpht.com/proxy/CcO1kwb0wHsy5J4tRTNPTDGlSPeGeiykAuN1FBSeIZhuqDVMnBQPCYTBr5JrhvbVGAxaUtEkUXQdwunKK3D8iB3CryGYstiisX1Gzqkw3XWFpaYhxGHdbw6G0lswwRRKs51nRq9yimW_byVr4gF-SX4lABxJeR33xOD1xzlEdWB8nhe1nHtiG25z8LBKKjRjO5flgOKWeIkHQuLD2hYxX60czXzWYwecHzqkdfhOmaK7cyzPnaWXa9zIV8ypMaRpKsLjnxU=w68-h68-nd"
+      },
+      "description": "Tough this smart can only be called F-150.",
+      "thumbnail": "https://i.ytimg.com/vi/08Ru1K_5tIc/hqdefault.jpg",
+      "videoId": "08Ru1K_5tIc",
+      "url": "https://www.youtube.com/watch?v=08Ru1K_5tIc"
+    },
+    {
+      "position_on_page": 19,
+      "title": "We Help Cleaners Book More Jobs—If You’re Serious, Apply For A Free Strategy Call",
+      "link": "https://www.youtube.com/watch?v=G-y7MRQbNzA",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cz_ur4E2dau3VKeWtv8IP8Nnq4QzpgvOLiQG0yI210hWwkB8QBSAAYMnmu4zYpOwRggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAc2Li8UBqAMEyAMKqgTDAk_QOy0mVWR64tDbEtX7IpHF3vIKl9G3-D215HpqZYZn4bpp-xlGC5WIJEuFsU7xxafkeyb5Y-KTaOKClLD2o1Z668nJU4NvYptRyLx_z5yP0PE1KvCGqFVeo9E0PUi2J4xf2uou-kFGgHzCwVTV5mGj6xjfgkhBH6mU_jRktLK91k1JHLB2DK9j5xAul8Gw-SwxWnXWtHZ59kJ1IZn8RsIDLpNOE97dCp4dMtSmqPm3fRMdfzLfCa9lCIYC0_L2_QxTRSsZXNTaWvcWtZQdBcedn11PEe-d41oSFILy9CmJHf1_njcsPG1GtgbWNEHSu5iuCHm8Qwe2sOk8y6DqBEJD95DzwEYktYJT-9pkk1g2EZSXuo5EReIJ-CC-xgYzPkJRcFq-YART73YZn4cnm1-pqeZw6bRafPHO2tIY4pei3dHviAW9s539VZIFCAgTeN2hlrsCoAahAYAHm_T0ugKQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxApIIC0cteTdNUlFiTnpBqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYyNrFrOzZlgNgAZoJIWh0dHBzOi8vYm9va2NsZWFuaW5nam9icy5jb20vYm9va7EJslClkywRrkzICRfICY8ByAnCAcgJlwKYCwG6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDBXZpY2Jm0AsS0gwCEAGaDQESqg0CVVPIDQHSDaQCaHR0cHM6Ly9ib29rY2xlYW5pbmdqb2JzLmNvbS9ib29rP3V0bV9zb3VyY2U9YWR3b3JkcyZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249Qm9va19BX0NhbGxfRGVtYW5kR2VuJnV0bV9jb250ZW50PURlbWFuZEdlbl9WaWRlb0FkcyZ1dG1fdGVybT1Zb3VUdWJlX1VzZXJzJnV0bV9rZXl3b3JkPSZ1dG1fbWF0Y2h0eXBlPSZjYW1wYWlnbl9pZD0yMzA3OTYzOTQ4NSZhZF9ncm91cF9pZD0yMDAwNDYyNDE2MzMmYWRfaWQ9ODE3NjcxOTMyMDk3JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzA3OTYzOTQ4NbgT____________AYgUAbAUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRfTgMa4NO_JgboXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMI7cXGrOzZlgMV5dZPAh3wrDrMEAEYBSAAEgJe2vD_BwE&num=5&cid=CAASqgHkaIdCFXR75ITu2yPkVOUdCf7yvlUt-_AO5aLG321NPIoZaeYlI89EAsGmW4jHZtv1-YIt3XXPTgDxIXfk0Bfivjtw-KDOmdkc-da3MeGTEhmGC-tHS8JjYXWlA0rXyh9AP_MagLNKHi6jkAMSaVBsnPthit4kYYQXLGM98E7_IDZIVX14WlN_rlxiqE3LzyRPUe67q37o47lVeYjusDmaWWxQnItAYysu3w&ad_cpn=%5BCPN%5D&sig=AOD64_1xD4ROEeD57dt74biz8xMvVnZAnQ&ctype=110&video_id=G-y7MRQbNzA&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "BookCleaningJobs.com",
+        "thumbnail": "https://yt3.ggpht.com/proxy/gX_CHoKWqbUKkB-u9IhV3fd2z4wzUJCdRE0dg2mH4z9_aOf5oX6zrzpekprreNJA9-f63-NHYHqQgcTjI8rYBYmZ-bs_KfBsFtQTw2ogrESl9kCz_j9Yd-pKNZUZE8Ni5ZYQIvuGcxup0tspfamPc3vVNfEpVNNQbAowQxUIUlzkSbWft4yA5nwv1Zp4mgU5KBn4pkXLFSdGGygjs_kHOaVuz8MsLkjvRHmXAl7ZmRj-o0URwGdFmGL-XalcfZAXNewB=w68-h68-nd"
+      },
+      "description": "This Is Not For Beginners. Apply If You’re Doing $10K+/Mo & Ready To Scale Fast",
+      "thumbnail": "https://i.ytimg.com/vi/G-y7MRQbNzA/hqdefault.jpg",
+      "videoId": "G-y7MRQbNzA",
+      "url": "https://www.youtube.com/watch?v=G-y7MRQbNzA"
+    }
+  ],
+  "video_results": [
+    {
+      "position_on_page": 2,
+      "title": "If I Wanted to Become a Software Engineer in 2026, This is What I’d Do [FULL BLUEPRINT]",
+      "link": "https://www.youtube.com/watch?v=avdDEZCcluo",
+      "video_id": "avdDEZCcluo",
+      "channel": {
+        "name": "Sajjaad Khader",
+        "link": "https://www.youtube.com/@SajjaadKhader",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/cs-8bhqefhiquqoe94NFueqi3z1t4Yrm_sQN09wbKi1fRwWX7GWAi4lfH0QU2bDGomYVsBXp=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "603,229 views",
+      "length": "17:17",
+      "description": "In this video, I reveal the ultimate roadmap to becoming a software engineer in 2025. This is a comprehensive guide that breaks ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/avdDEZCcluo/hqdefault.jpg",
+      "videoId": "avdDEZCcluo",
+      "url": "https://www.youtube.com/watch?v=avdDEZCcluo",
+      "channelTitle": "Sajjaad Khader",
+      "channelVerified": true,
+      "duration": "17:17"
+    },
+    {
+      "position_on_page": 3,
+      "title": "How to become a Software Engineer in 2026",
+      "link": "https://www.youtube.com/watch?v=cO42oAeC4jk",
+      "video_id": "cO42oAeC4jk",
+      "channel": {
+        "name": "The Cherno",
+        "link": "https://www.youtube.com/@TheCherno",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/EmbIHnpmF1J0LgyUbCMK7QmfDZZm7u_GQd5eVx4XG06wIvgbagCY6WYpf2fvSdPoL1LMLkw8Iw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 months ago",
+      "views": "58,773 views",
+      "length": "16:01",
+      "description": "Sign up for a FREE TripleTen career consultation with my link: https://get.tripleten.com/lSPQ Improve your career using my code ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/cO42oAeC4jk/hqdefault.jpg",
+      "videoId": "cO42oAeC4jk",
+      "url": "https://www.youtube.com/watch?v=cO42oAeC4jk",
+      "channelTitle": "The Cherno",
+      "channelVerified": true,
+      "duration": "16:01"
+    },
+    {
+      "position_on_page": 5,
+      "title": "So You Want to Be a SOFTWARE ENGINEER | Inside Software Engineering [Ep. 3]",
+      "link": "https://www.youtube.com/watch?v=AlqTPomaSLA",
+      "video_id": "AlqTPomaSLA",
+      "channel": {
+        "name": "Engineering Insiders",
+        "link": "https://www.youtube.com/@EngineeringInsiders",
+        "thumbnail": "https://yt3.ggpht.com/sSPSXOF7M5660LCZbpmA3BagEaK7EEOPilfX2DcaIewf_QFO4c1wmNp3U48Kh2MNPtBJrFhT=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "83,452 views",
+      "length": "12:45",
+      "description": "SoYouWantToBe #softwareengineer #softwareengineering So you want to be a Software Engineer... With professions like data ...",
+      "thumbnail": "https://i.ytimg.com/vi/AlqTPomaSLA/hqdefault.jpg",
+      "videoId": "AlqTPomaSLA",
+      "url": "https://www.youtube.com/watch?v=AlqTPomaSLA",
+      "channelTitle": "Engineering Insiders",
+      "channelVerified": false,
+      "duration": "12:45"
+    },
+    {
+      "position_on_page": 6,
+      "title": "How I Learned to Code in 4 Months & Got a Job! (No CS Degree, No Bootcamp)",
+      "link": "https://www.youtube.com/watch?v=WR1ydijTx5E",
+      "video_id": "WR1ydijTx5E",
+      "channel": {
+        "name": "Tim Kim",
+        "link": "https://www.youtube.com/@timkimdotcom",
+        "thumbnail": "https://yt3.ggpht.com/L4386qLIL3DNrDsk8jAWHMT6uUFjrwhJ1lzLL7mvfrLoTGF6w5U1fhrZcSohYQOHGof112zUGlw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "9,439,124 views",
+      "length": "9:51",
+      "description": "I went from being a college dropout with zero technical skills to landing a software developer job in 4 months. This video is about ...",
+      "extensions": [
+        "4K",
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/WR1ydijTx5E/hqdefault.jpg",
+      "videoId": "WR1ydijTx5E",
+      "url": "https://www.youtube.com/watch?v=WR1ydijTx5E",
+      "channelTitle": "Tim Kim",
+      "channelVerified": false,
+      "duration": "9:51"
+    },
+    {
+      "position_on_page": 9,
+      "title": "What Do Software Engineers ACTUALLY Do?",
+      "link": "https://www.youtube.com/watch?v=iIxZrYzJJ7I",
+      "video_id": "iIxZrYzJJ7I",
+      "channel": {
+        "name": "Sajjaad Khader",
+        "link": "https://www.youtube.com/@SajjaadKhader",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/cs-8bhqefhiquqoe94NFueqi3z1t4Yrm_sQN09wbKi1fRwWX7GWAi4lfH0QU2bDGomYVsBXp=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "594,984 views",
+      "length": "9:30",
+      "description": "In this video, I will talk about what software engineers actually do all day. Software engineering is much more than just sitting ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/iIxZrYzJJ7I/hqdefault.jpg",
+      "videoId": "iIxZrYzJJ7I",
+      "url": "https://www.youtube.com/watch?v=iIxZrYzJJ7I",
+      "channelTitle": "Sajjaad Khader",
+      "channelVerified": true,
+      "duration": "9:30"
+    },
+    {
+      "position_on_page": 10,
+      "title": "How to become a software engineer with no experience",
+      "link": "https://www.youtube.com/watch?v=h-grthPvpB0",
+      "video_id": "h-grthPvpB0",
+      "channel": {
+        "name": "SuperSimpleDev",
+        "link": "https://www.youtube.com/@SuperSimpleDev",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_laf9dDyNATE1_RdVUKthwnwT9TSm9N0my0jL2H8gCvjw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 years ago",
+      "views": "562,804 views",
+      "length": "8:49",
+      "description": "We look at the 3 ways everyone becomes a software engineer: college, coding bootcamps, and self-taught. Which one you ...",
+      "extensions": [
+        "4K",
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/h-grthPvpB0/hqdefault.jpg",
+      "videoId": "h-grthPvpB0",
+      "url": "https://www.youtube.com/watch?v=h-grthPvpB0",
+      "channelTitle": "SuperSimpleDev",
+      "channelVerified": true,
+      "duration": "8:49"
+    },
+    {
+      "position_on_page": 11,
+      "title": "How to Become a Software Engineer in 2026 (Full Roadmap)",
+      "link": "https://www.youtube.com/watch?v=0mi3IrUH6P0",
+      "video_id": "0mi3IrUH6P0",
+      "channel": {
+        "name": "James Blue",
+        "link": "https://www.youtube.com/@jamesblueai",
+        "thumbnail": "https://yt3.ggpht.com/z_o_xLDMaUJ8D6nAB1tytIY2fD1pu0gPwm_FhrCnChWf35hLGB68szQF-v9cI4WSGsUdELDyVA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 months ago",
+      "views": "22,298 views",
+      "length": "9:14",
+      "description": "Access The Complete Web Developer Bootcamp in Zero to Mastery ...",
+      "thumbnail": "https://i.ytimg.com/vi/0mi3IrUH6P0/hqdefault.jpg",
+      "videoId": "0mi3IrUH6P0",
+      "url": "https://www.youtube.com/watch?v=0mi3IrUH6P0",
+      "channelTitle": "James Blue",
+      "channelVerified": false,
+      "duration": "9:14"
+    },
+    {
+      "position_on_page": 14,
+      "title": "How To (Actually) Get a Software Engineering Job in 2026",
+      "link": "https://www.youtube.com/watch?v=Egr6BiXpHQc",
+      "video_id": "Egr6BiXpHQc",
+      "channel": {
+        "name": "Maddy Zhang",
+        "link": "https://www.youtube.com/@maddyzhang",
+        "thumbnail": "https://yt3.ggpht.com/No7OfquqjWDPqhY2-6zIbXHYlvILRZK6TRTdwpobHGfecpAlevo4Tusv2UNQ9uXGwyh_K87Aq0M=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 months ago",
+      "views": "29,241 views",
+      "length": "9:19",
+      "description": "Everyone keeps saying software engineering is dead in 2026. The job market is brutal, AI is changing entry-level work, and the ...",
+      "thumbnail": "https://i.ytimg.com/vi/Egr6BiXpHQc/hqdefault.jpg",
+      "videoId": "Egr6BiXpHQc",
+      "url": "https://www.youtube.com/watch?v=Egr6BiXpHQc",
+      "channelTitle": "Maddy Zhang",
+      "channelVerified": false,
+      "duration": "9:19"
+    },
+    {
+      "position_on_page": 15,
+      "title": "If You Want To Become A Software Engineer In 2026, Do This",
+      "link": "https://www.youtube.com/watch?v=CHzha4Fxlg0",
+      "video_id": "CHzha4Fxlg0",
+      "channel": {
+        "name": "Erik Cupsa",
+        "link": "https://www.youtube.com/@SWErikCodes",
+        "thumbnail": "https://yt3.ggpht.com/JXUMAs_77dmgZyfoZ2hNH3wgbQSk5N5cSuFctiBMQJDQR-I0wWVGJQqhb4H1eOOtmEte-57szg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "11 months ago",
+      "views": "226,532 views",
+      "length": "14:56",
+      "description": "This is everything you need to do to land a high-paying software engineering job in 2026. The tech job market is incredibly ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/CHzha4Fxlg0/hqdefault.jpg",
+      "videoId": "CHzha4Fxlg0",
+      "url": "https://www.youtube.com/watch?v=CHzha4Fxlg0",
+      "channelTitle": "Erik Cupsa",
+      "channelVerified": false,
+      "duration": "14:56"
+    },
+    {
+      "position_on_page": 16,
+      "title": "Learning Software Engineering During the Era of AI | Raymond Fu | TEDxCSTU",
+      "link": "https://www.youtube.com/watch?v=w4rG5GY9IlA",
+      "video_id": "w4rG5GY9IlA",
+      "channel": {
+        "name": "TEDx Talks",
+        "link": "https://www.youtube.com/@TEDx",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/1gDPO-4YPWFErfn3yQBnv0yxpkmiud1m5CrorApkOqUYdNd9FrZQ9xB9C9VmDt4EsgArnlwqAQc=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "871,637 views",
+      "length": "12:27",
+      "description": "What happens when the future of your profession is challenged by the very technology it helped create? In this eye-opening ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/w4rG5GY9IlA/hqdefault.jpg",
+      "videoId": "w4rG5GY9IlA",
+      "url": "https://www.youtube.com/watch?v=w4rG5GY9IlA",
+      "channelTitle": "TEDx Talks",
+      "channelVerified": true,
+      "duration": "12:27"
+    },
+    {
+      "position_on_page": 17,
+      "title": "If I could give advice to myself when starting as a software engineer",
+      "link": "https://www.youtube.com/watch?v=QIyc6NKS5J0",
+      "video_id": "QIyc6NKS5J0",
+      "channel": {
+        "name": "ThePrimeagen",
+        "link": "https://www.youtube.com/@ThePrimeagen",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_laY82JAzs_2edBDxrxLgLWshhMK04SpAqOfoEzexOBZg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "777,395 views",
+      "length": "5:56",
+      "description": "Yes. If i could go back, what would I tell myself to be a better engineer. This is a heartfelt moment so please make sure you go to ...",
+      "thumbnail": "https://i.ytimg.com/vi/QIyc6NKS5J0/hqdefault.jpg",
+      "videoId": "QIyc6NKS5J0",
+      "url": "https://www.youtube.com/watch?v=QIyc6NKS5J0",
+      "channelTitle": "ThePrimeagen",
+      "channelVerified": true,
+      "duration": "5:56"
+    },
+    {
+      "position_on_page": 18,
+      "title": "Easiest Way to Become a Software Engineer In 2026",
+      "link": "https://www.youtube.com/watch?v=sGLHtPa_Qpk",
+      "video_id": "sGLHtPa_Qpk",
+      "channel": {
+        "name": "Phillip Choi",
+        "link": "https://www.youtube.com/@letphil",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/o_-GrwynOVO0bARViLP9_nbhhs8ed_6lA9oZbGEUJF4nUCugO6AV34FuS7ymSQGXetBJ5kNoHg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 month ago",
+      "views": "14,300 views",
+      "length": "24:49",
+      "description": "Discover how to make $8000 a month in tech: https://letphil.com/ Let Phil's FREE Community Discord Channel: ...",
+      "thumbnail": "https://i.ytimg.com/vi/sGLHtPa_Qpk/hqdefault.jpg",
+      "videoId": "sGLHtPa_Qpk",
+      "url": "https://www.youtube.com/watch?v=sGLHtPa_Qpk",
+      "channelTitle": "Phillip Choi",
+      "channelVerified": true,
+      "duration": "24:49"
+    },
+    {
+      "position_on_page": 20,
+      "title": "What I Wish I Knew Before Becoming A Software Developer",
+      "link": "https://www.youtube.com/watch?v=opD-rJVAPig",
+      "video_id": "opD-rJVAPig",
+      "channel": {
+        "name": "Jeremiah Peoples",
+        "link": "https://www.youtube.com/@JeremiahPeoples",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/XMupgWtagBJQ1YAQbyVns1_YrZ2IyQtJ3I2ZeicDdqYNgmVPEYwokmuNfcmccOST9K1DiTbyLQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "669,628 views",
+      "length": "15:06",
+      "description": "After being a software developer for a few years, I wish I knew these pieces of advice and warnings. I wish someone told me ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/opD-rJVAPig/hqdefault.jpg",
+      "videoId": "opD-rJVAPig",
+      "url": "https://www.youtube.com/watch?v=opD-rJVAPig",
+      "channelTitle": "Jeremiah Peoples",
+      "channelVerified": true,
+      "duration": "15:06"
+    },
+    {
+      "position_on_page": 21,
+      "title": "How to Become a Great Software Developer — Best Advice from Top-Notch Engineers",
+      "link": "https://www.youtube.com/watch?v=suATPK45sjk",
+      "video_id": "suATPK45sjk",
+      "channel": {
+        "name": "EngX Space",
+        "link": "https://www.youtube.com/@engxspace",
+        "thumbnail": "https://yt3.ggpht.com/0L4SVTcRUJMUXmycTqz2lSJXLD-7hBGAWirqz6DtybqjSSkNYkPGt4886_N3H5cMt3m-p_7EVHE=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "729,930 views",
+      "length": "11:11",
+      "description": "Check our documentary \"Beyond The Success Of Kotlin: https://youtu.be/E8CtE7qTb-Q Integrate GitHub Copilot and ChatGPT ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/suATPK45sjk/hqdefault.jpg",
+      "videoId": "suATPK45sjk",
+      "url": "https://www.youtube.com/watch?v=suATPK45sjk",
+      "channelTitle": "EngX Space",
+      "channelVerified": false,
+      "duration": "11:11"
+    },
+    {
+      "position_on_page": 22,
+      "title": "How to become a software engineer from scratch in 2026",
+      "link": "https://www.youtube.com/watch?v=Fj_OtWvaaVI",
+      "video_id": "Fj_OtWvaaVI",
+      "channel": {
+        "name": "Larry Wu",
+        "link": "https://www.youtube.com/@LarryWuProd",
+        "thumbnail": "https://yt3.ggpht.com/z4vNLL8ANlKdZBtNlf9xPxXJPjUYC9uDJx7OrwR0qobcx-KVOtSHX7zvnqf0Cb1G5t4xRZaXmw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 months ago",
+      "views": "38,600 views",
+      "length": "25:02",
+      "description": "Join my discord! https://discord.com/invite/msj36vCKMF This is a rather intense roadmap that's focused on cultivating your ability ...",
+      "thumbnail": "https://i.ytimg.com/vi/Fj_OtWvaaVI/hqdefault.jpg",
+      "videoId": "Fj_OtWvaaVI",
+      "url": "https://www.youtube.com/watch?v=Fj_OtWvaaVI",
+      "channelTitle": "Larry Wu",
+      "channelVerified": false,
+      "duration": "25:02"
+    },
+    {
+      "position_on_page": 23,
+      "title": "Why You Shouldn't Be a Software Engineer...",
+      "link": "https://www.youtube.com/watch?v=-b6NCt0AXyk",
+      "video_id": "-b6NCt0AXyk",
+      "channel": {
+        "name": "Senegoddess",
+        "link": "https://www.youtube.com/@Senegoddess",
+        "thumbnail": "https://yt3.ggpht.com/7bm6swxbHAbCUhvE3_z2gk1xshIA_9S1GEsf34YkI-gcPUc7U6S32kNbOO46i_aGJwv4EmXuqps=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 years ago",
+      "views": "454,817 views",
+      "length": "9:36",
+      "description": "Hey friend! Link to Lambda School IF you've decided to enroll: https://lambda-school.sjv.io/9WVJ3Y Wheeew don't come for me, ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/-b6NCt0AXyk/hqdefault.jpg",
+      "videoId": "-b6NCt0AXyk",
+      "url": "https://www.youtube.com/watch?v=-b6NCt0AXyk",
+      "channelTitle": "Senegoddess",
+      "channelVerified": false,
+      "duration": "9:36"
+    },
+    {
+      "position_on_page": 24,
+      "title": "How to Master Software Engineering (From Junior to Architect)",
+      "link": "https://www.youtube.com/watch?v=pNtkOZuWetg",
+      "video_id": "pNtkOZuWetg",
+      "channel": {
+        "name": "Beyond Coding",
+        "link": "https://www.youtube.com/@BeyondCoding",
+        "thumbnail": "https://yt3.ggpht.com/9JOjIatx5tloU7L5AOoTXJxyyrLpoTIrZTJq_3YJy-A8eAPg5GXkDxEZA5xtOuAM5QHeRZxulg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "198,850 views",
+      "length": "52:50",
+      "description": "Feeling overwhelmed by the constant change in software engineering? After 25 years in the industry, CTO Joris Kuipers shares a ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/pNtkOZuWetg/hqdefault.jpg",
+      "videoId": "pNtkOZuWetg",
+      "url": "https://www.youtube.com/watch?v=pNtkOZuWetg",
+      "channelTitle": "Beyond Coding",
+      "channelVerified": false,
+      "duration": "52:50"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 8,
+      "shorts": [
+        {
+          "title": "How I Became a Software Engineer #selftaught",
+          "link": "https://www.youtube.com/shorts/Kusnc5UcZfU",
+          "thumbnail": "https://i.ytimg.com/vi/Kusnc5UcZfU/frame0.jpg",
+          "views_original": "147K views",
+          "views": 147000,
+          "video_id": "Kusnc5UcZfU"
+        },
+        {
+          "title": "How to Become a Software Engineer: Skills Required for Software Engineer | Software Engineer Roadmap",
+          "link": "https://www.youtube.com/shorts/qZpp4VejSbE",
+          "thumbnail": "https://i.ytimg.com/vi/qZpp4VejSbE/frame0.jpg",
+          "views_original": "226K views",
+          "views": 226000,
+          "video_id": "qZpp4VejSbE"
+        },
+        {
+          "title": "How To Become a Software Developer: A Beginner’s Guide",
+          "link": "https://www.youtube.com/shorts/hXkIbXLQNEU",
+          "thumbnail": "https://i.ytimg.com/vi/hXkIbXLQNEU/frame0.jpg",
+          "views_original": "2K views",
+          "views": 2000,
+          "video_id": "hXkIbXLQNEU"
+        },
+        {
+          "title": "HOW TO BECOME A SOFTWARE ENGINEER??!! #informative #careerguidance",
+          "link": "https://www.youtube.com/shorts/5kNNgjdO9YM",
+          "thumbnail": "https://i.ytimg.com/vi/5kNNgjdO9YM/frame0.jpg",
+          "views_original": "617K views",
+          "views": 617000,
+          "video_id": "5kNNgjdO9YM"
+        },
+        {
+          "title": "how I became a software engineer after doing so many other things 👩🏻‍💻 #softwareengineer",
+          "link": "https://www.youtube.com/shorts/cXR7cxQwdRQ",
+          "thumbnail": "https://i.ytimg.com/vi/cXR7cxQwdRQ/frame0.jpg",
+          "views_original": "1.3M views",
+          "views": 1300000,
+          "video_id": "cXR7cxQwdRQ"
+        }
+      ]
+    },
+    {
+      "position_on_page": 12,
+      "shorts": [
+        {
+          "title": "What it Takes to be a Software Engineer",
+          "link": "https://www.youtube.com/shorts/nThKGYTswTI",
+          "thumbnail": "https://i.ytimg.com/vi/nThKGYTswTI/frame0.jpg",
+          "views_original": "6.1K views",
+          "views": 6100,
+          "video_id": "nThKGYTswTI"
+        },
+        {
+          "title": "How to Become a Software Engineer in 2026  #shorts #simplilearn",
+          "link": "https://www.youtube.com/shorts/pTE0Lk24fO4",
+          "thumbnail": "https://i.ytimg.com/vi/pTE0Lk24fO4/frame0.jpg",
+          "views_original": "24K views",
+          "views": 24000,
+          "video_id": "pTE0Lk24fO4"
+        },
+        {
+          "title": "How to ACTUALLY Become a Software Engineer in 2025",
+          "link": "https://www.youtube.com/shorts/qWkPeLahpnw",
+          "thumbnail": "https://i.ytimg.com/vi/qWkPeLahpnw/frame0.jpg",
+          "views_original": "39K views",
+          "views": 39000,
+          "video_id": "qWkPeLahpnw"
+        },
+        {
+          "title": "What Does it Take to Become a Software Engineer?",
+          "link": "https://www.youtube.com/shorts/_1xHseuZL-4",
+          "thumbnail": "https://i.ytimg.com/vi/_1xHseuZL-4/frame0.jpg",
+          "views_original": "64K views",
+          "views": 64000,
+          "video_id": "_1xHseuZL-4"
+        },
+        {
+          "title": "How to Become Software Developer in 2025? | BEST Software Development Raodmap | Intellipaat #Shorts",
+          "link": "https://www.youtube.com/shorts/Hmg8LARn-4c",
+          "thumbnail": "https://i.ytimg.com/vi/Hmg8LARn-4c/frame0.jpg",
+          "views_original": "209K views",
+          "views": 209000,
+          "video_id": "Hmg8LARn-4c"
+        },
+        {
+          "title": "Be A Software Engineer",
+          "link": "https://www.youtube.com/shorts/GDtVpfxqpXs",
+          "thumbnail": "https://i.ytimg.com/vi/GDtVpfxqpXs/frame0.jpg",
+          "views_original": "523K views",
+          "views": 523000,
+          "video_id": "GDtVpfxqpXs"
+        },
+        {
+          "title": "How to become a software engineer with no degree",
+          "link": "https://www.youtube.com/shorts/e9q8Kaq3CRQ",
+          "thumbnail": "https://i.ytimg.com/vi/e9q8Kaq3CRQ/frame0.jpg",
+          "views_original": "4.3K views",
+          "views": 4300,
+          "video_id": "e9q8Kaq3CRQ"
+        },
+        {
+          "title": "📚🎓 Complete guide to become a Software Engineer in 2025🔥 | Step by step Guide for beginners.",
+          "link": "https://www.youtube.com/shorts/ikEciPVRQqY",
+          "thumbnail": "https://i.ytimg.com/vi/ikEciPVRQqY/frame0.jpg",
+          "views_original": "3.5K views",
+          "views": 3500,
+          "video_id": "ikEciPVRQqY"
+        },
+        {
+          "title": "How To Become A Software Developer ? | How To Learn Coding ? | Simplilearn #Shorts",
+          "link": "https://www.youtube.com/shorts/25X9vmDKTaE",
+          "thumbnail": "https://i.ytimg.com/vi/25X9vmDKTaE/frame0.jpg",
+          "views_original": "1.1M views",
+          "views": 1100000,
+          "video_id": "25X9vmDKTaE"
+        },
+        {
+          "title": "Navigating Your Path: The Software Development Roadmap",
+          "link": "https://www.youtube.com/shorts/KPl9v7s9SyE",
+          "thumbnail": "https://i.ytimg.com/vi/KPl9v7s9SyE/frame0.jpg",
+          "views_original": "730K views",
+          "views": 730000,
+          "video_id": "KPl9v7s9SyE"
+        },
+        {
+          "title": "What Does It Take to Become a Software Engineer?",
+          "link": "https://www.youtube.com/shorts/V9N2Zf61WZw",
+          "thumbnail": "https://i.ytimg.com/vi/V9N2Zf61WZw/frame0.jpg",
+          "views_original": "2.6K views",
+          "views": 2600,
+          "video_id": "V9N2Zf61WZw"
+        },
+        {
+          "title": "How To Become A Software Engineer In 2026",
+          "link": "https://www.youtube.com/shorts/Gytnr_NbXPk",
+          "thumbnail": "https://i.ytimg.com/vi/Gytnr_NbXPk/frame0.jpg",
+          "views_original": "1.8K views",
+          "views": 1800,
+          "video_id": "Gytnr_NbXPk"
+        },
+        {
+          "title": "Becoming a Self-Taught Developer",
+          "link": "https://www.youtube.com/shorts/MDb5vODM1r8",
+          "thumbnail": "https://i.ytimg.com/vi/MDb5vODM1r8/frame0.jpg",
+          "views_original": "104K views",
+          "views": 104000,
+          "video_id": "MDb5vODM1r8"
+        },
+        {
+          "title": "How to become software engineer without degree in 2022 [2 rules of thought]",
+          "link": "https://www.youtube.com/shorts/uwi0IlijDHU",
+          "thumbnail": "https://i.ytimg.com/vi/uwi0IlijDHU/frame0.jpg",
+          "views_original": "35K views",
+          "views": 35000,
+          "video_id": "uwi0IlijDHU"
+        },
+        {
+          "title": "How I Got Promoted to Staff Software Engineer at a FANG-level Company in Just One Year!",
+          "link": "https://www.youtube.com/shorts/CJs6VDKKi8U",
+          "thumbnail": "https://i.ytimg.com/vi/CJs6VDKKi8U/frame0.jpg",
+          "views_original": "3.3K views",
+          "views": 3300,
+          "video_id": "CJs6VDKKi8U"
+        },
+        {
+          "title": "Become a Software Engineer without a Degree + Learn with Sandeep Khaira",
+          "link": "https://www.youtube.com/shorts/2B32rKSh1Yw",
+          "thumbnail": "https://i.ytimg.com/vi/2B32rKSh1Yw/frame0.jpg",
+          "views_original": "6K views",
+          "views": 6000,
+          "video_id": "2B32rKSh1Yw"
+        },
+        {
+          "title": "How To Get A Software Engineering Job In 2026",
+          "link": "https://www.youtube.com/shorts/GLSrSNxb8Xk",
+          "thumbnail": "https://i.ytimg.com/vi/GLSrSNxb8Xk/frame0.jpg",
+          "views_original": "40K views",
+          "views": 40000,
+          "video_id": "GLSrSNxb8Xk"
+        },
+        {
+          "title": "Top 5 skills to become a software engineer",
+          "link": "https://www.youtube.com/shorts/k7Rb9F-T_TI",
+          "thumbnail": "https://i.ytimg.com/vi/k7Rb9F-T_TI/frame0.jpg",
+          "views_original": "20K views",
+          "views": 20000,
+          "video_id": "k7Rb9F-T_TI"
+        },
+        {
+          "title": "Be A 10/10 Engineer In 2026 [Just Do This]",
+          "link": "https://www.youtube.com/shorts/5jzr_ric_I0",
+          "thumbnail": "https://i.ytimg.com/vi/5jzr_ric_I0/frame0.jpg",
+          "views_original": "12K views",
+          "views": 12000,
+          "video_id": "5jzr_ric_I0"
+        },
+        {
+          "title": "How Long to Become a Software Engineer?",
+          "link": "https://www.youtube.com/shorts/B07JHZgEUh0",
+          "thumbnail": "https://i.ytimg.com/vi/B07JHZgEUh0/frame0.jpg",
+          "views_original": "1.9K views",
+          "views": 1900,
+          "video_id": "B07JHZgEUh0"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=How+to+become+a+software+engineer",
+    "next": "https://www.youtube.com/results?search_query=How%20to%20become%20a%20software%20engineer&sp=SBSCAQthdmRERVpDY2x1b4IBC2NPNDJvQWVDNGprggELQWxxVFBvbWFTTEGCAQtXUjF5ZGlqVHg1RYIBC2lJeFpyWXpKSjdJggELaC1ncnRoUHZwQjCCAQswbWkzSXJVSDZQMIIBC0VncjZCaVhwSFFjggELQ0h6aGE0RnhsZzCCAQt3NHJHNUdZOUlsQYIBC1FJeWM2TktTNUowggELc0dMSHRQYV9RcGuCAQtvcEQtckpWQVBpZ4IBC3N1QVRQSzQ1c2prggELRmpfT3RXdmFhVkmCAQstYjZOQ3QwQVh5a4IBC3BOdGtPWnVXZXRnsgEGCgQIGBAC6gEECAIQGQ%253D%253D",
+    "next_page_token": "SBSCAQthdmRERVpDY2x1b4IBC2NPNDJvQWVDNGprggELQWxxVFBvbWFTTEGCAQtXUjF5ZGlqVHg1RYIBC2lJeFpyWXpKSjdJggELaC1ncnRoUHZwQjCCAQswbWkzSXJVSDZQMIIBC0VncjZCaVhwSFFjggELQ0h6aGE0RnhsZzCCAQt3NHJHNUdZOUlsQYIBC1FJeWM2TktTNUowggELc0dMSHRQYV9RcGuCAQtvcEQtckpWQVBpZ4IBC3N1QVRQSzQ1c2prggELRmpfT3RXdmFhVkmCAQstYjZOQ3QwQVh5a4IBC3BOdGtPWnVXZXRnsgEGCgQIGBAC6gEECAIQGQ%3D%3D"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=How+to+become+a+software+engineer",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=How+to+become+a+software+engineer&sp=SBSCAQthdmRERVpDY2x1b4IBC2NPNDJvQWVDNGprggELQWxxVFBvbWFTTEGCAQtXUjF5ZGlqVHg1RYIBC2lJeFpyWXpKSjdJggELaC1ncnRoUHZwQjCCAQswbWkzSXJVSDZQMIIBC0VncjZCaVhwSFFjggELQ0h6aGE0RnhsZzCCAQt3NHJHNUdZOUlsQYIBC1FJeWM2TktTNUowggELc0dMSHRQYV9RcGuCAQtvcEQtckpWQVBpZ4IBC3N1QVRQSzQ1c2prggELRmpfT3RXdmFhVkmCAQstYjZOQ3QwQVh5a4IBC3BOdGtPWnVXZXRnsgEGCgQIGBAC6gEECAIQGQ%253D%253D",
+    "next_page_token": "SBSCAQthdmRERVpDY2x1b4IBC2NPNDJvQWVDNGprggELQWxxVFBvbWFTTEGCAQtXUjF5ZGlqVHg1RYIBC2lJeFpyWXpKSjdJggELaC1ncnRoUHZwQjCCAQswbWkzSXJVSDZQMIIBC0VncjZCaVhwSFFjggELQ0h6aGE0RnhsZzCCAQt3NHJHNUdZOUlsQYIBC1FJeWM2TktTNUowggELc0dMSHRQYV9RcGuCAQtvcEQtckpWQVBpZ4IBC3N1QVRQSzQ1c2prggELRmpfT3RXdmFhVkmCAQstYjZOQ3QwQVh5a4IBC3BOdGtPWnVXZXRnsgEGCgQIGBAC6gEECAIQGQ%3D%3D"
+  }
+}

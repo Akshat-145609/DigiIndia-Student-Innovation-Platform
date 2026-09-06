@@ -1,0 +1,742 @@
+{
+  "search_metadata": {
+    "id": "6a9d4b0ac754439c1d32d628",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/X05vYKnM5U1MH6Dys7oVYWtgSMc4y_aCYSlTU0118oo/6a9d4b0ac754439c1d32d628.json",
+    "markdown_endpoint": "https://serpapi.com/searches/X05vYKnM5U1MH6Dys7oVYWtgSMc4y_aCYSlTU0118oo/6a9d4b0ac754439c1d32d628.md",
+    "created_at": "2026-09-06 11:14:18 UTC",
+    "processed_at": "2026-09-06 11:14:18 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=Machine+Learning",
+    "raw_html_file": "https://serpapi.com/searches/X05vYKnM5U1MH6Dys7oVYWtgSMc4y_aCYSlTU0118oo/6a9d4b0ac754439c1d32d628.html",
+    "total_time_taken": 1.6
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "Machine Learning"
+  },
+  "search_information": {
+    "total_results": 4007834,
+    "video_results_state": "Results for exact spelling"
+  },
+  "ads_results": [
+    {
+      "position_on_page": 1,
+      "title": "Adobe Learning Manager Scales Learning",
+      "link": "https://www.youtube.com/watch?v=is_YCzUZifw",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CrU6tCkudaoj9Kq_bpMYPjKGb0Au98r7ShwGsks6EihWwkB8QASAAYMmGgIDQpPQPggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAZ_Ox8kqqAMEyAMKqgSiAk_Q-KH4Eg0hQPGOWy087RPLYHXpNJDHhhmPHbOG_saig3tuT-jVrDw2D7_Whd5e4soRUeeHW9dQqer2kr1hnG3porgdpIvB-gCglqTmQeDAfn5x4I3-4nPLoMv8yftd3qAkFaQQ9B_By1B0eqkFKKdwo456jOeL1w5mfy1Z-G66Uv1fbjm9et4R3tTFIs4geHJLh-C2K_L4ASAucwJO-CvrW8cz9_U1gZUGcbl3It5t7lh0vHgv6x5VGLklxhyZ_-JwPEisz_VyCiuvptpGR1IpSdsTI42B7cLNdviLw845J4aPMitpSGJGlqPowP0LEwPDmH6V-1A-dZ-0tKN0M_upZQjxy0TpgK5tk90GlkXk40MmzzOMGsWZOc5Kqgx6ln05iAW_tufzV5IFCAgTeIvV3N0FoAahAYAHn4aYqQWQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxApIIC2lzX1lDelVaaWZ3qAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRY-IGw0unZlgNgAZoJSWh0dHBzOi8vYnVzaW5lc3MuYWRvYmUuY29tL3Jlc291cmNlcy9kZW1vL2Fkb2JlLWxlYXJuaW5nLW1hbmFnZXItbG1zLmh0bWyxCQ1zy8mpjJKryAkXyAmPAcgJwgGYCwG6C0EIAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDCXZpYXRsemFhYdALEqIMHWIWChRjb20uaXBob25lLndvcmtmcm9udHgAiAEA0gwCEAGaDQESqg0CVVPIDQHSDYABaHR0cHM6Ly9idXNpbmVzcy5hZG9iZS5jb20vcmVzb3VyY2VzL2RlbW8vYWRvYmUtbGVhcm5pbmctbWFuYWdlci1sbXMuaHRtbD9zZGlkPU5BU0VNREdSTSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM1OTY3NTE2Nzm4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXV7_CAho-GPC6FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMIiKqw0unZlgMVry3JAh2M0Aa6EAEYASAAEgK_nfD_BwE&num=1&cid=CAASqgHkaDQnKo9Bs3GcEo1FMbfjsfzYdB9XYm7mTayr5VxRoj0OzcOtpdgtiZdTt-oM-rsAV_v2SSDYmYZSTVpttVL2yuMJoNKPrLt_hobVRDAQue8m1bz_Fri6SDli5cj4rIK-09aFcGqunSQOGhudbSkLPi7sb3l2g09wxibcRibyyqreISaj13uqhfxA1VN1MCamOwb15jqQyIrnPVedEaDMzJA0jPu3TpuUug&ad_cpn=%5BCPN%5D&sig=AOD64_3AeBdbXZtvu4M-0oSvlItC2YnSrg&ctype=110&video_id=is_YCzUZifw&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Adobe",
+        "thumbnail": "https://yt3.ggpht.com/proxy/RLAidkBmZsJ9m1zJhLcQLdbrr3ZEpfk12PwhWhpqwPkm6efg_-f_xYc7FT44oj_isxyxg97I6nQ68gRNCaqikdvO6oNbpLWL9UYpGmywdaBKTlNNfWEbKIvpm73bAXe3wS9rLvCkHil1k1WEXktiZMw2O546WVxwhqU583s5oGux2jlexM545RDgFBBOobBTsBGBPGg5Jq4AcOZ-6W5_ef86v8pD_MIsLJ1JTRXyo8My1HszHklmzqXBMEzJGdWhovdB=w68-h68-nd"
+      },
+      "description": "Dynamic, personalized training that keeps pace with your evolving workforce.",
+      "thumbnail": "https://i.ytimg.com/vi/is_YCzUZifw/hqdefault.jpg",
+      "videoId": "is_YCzUZifw",
+      "url": "https://www.youtube.com/watch?v=is_YCzUZifw"
+    }
+  ],
+  "video_results": [
+    {
+      "position_on_page": 2,
+      "title": "Machine Learning Explained in 100 Seconds",
+      "link": "https://www.youtube.com/watch?v=PeMlggyqz0Y",
+      "video_id": "PeMlggyqz0Y",
+      "channel": {
+        "name": "Fireship",
+        "link": "https://www.youtube.com/@Fireship",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/3fPNbkf_xPyCleq77ZhcxyeorY97NtMHVNUbaAON_RBDH9ydL4hJkjxC8x_4mpuopkB8oI7Ct6Y=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "1,113,633 views",
+      "length": "2:35",
+      "description": "Machine Learning is the process of teaching a computer how perform a task with out explicitly programming it. The process feeds ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/PeMlggyqz0Y/hqdefault.jpg",
+      "videoId": "PeMlggyqz0Y",
+      "url": "https://www.youtube.com/watch?v=PeMlggyqz0Y",
+      "channelTitle": "Fireship",
+      "channelVerified": true,
+      "duration": "2:35"
+    },
+    {
+      "position_on_page": 3,
+      "title": "AI, Machine Learning, Deep Learning and Generative AI Explained",
+      "link": "https://www.youtube.com/watch?v=qYNweeDHiyU",
+      "video_id": "qYNweeDHiyU",
+      "channel": {
+        "name": "IBM Technology",
+        "link": "https://www.youtube.com/@IBMTechnology",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/7qCmNHAsFvD6RSINuJ1WoGZYoKmm7TDnhORKFqLb8QoeOFh2qFXal8brkzoxNrwqmJTuvOLs=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "3,494,405 views",
+      "length": "10:01",
+      "description": "Want to learn more about Agentic AI + Data? Register here → https://ibm.biz/BdeGLe Want to play with the technology yourself?",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/qYNweeDHiyU/hqdefault.jpg",
+      "videoId": "qYNweeDHiyU",
+      "url": "https://www.youtube.com/watch?v=qYNweeDHiyU",
+      "channelTitle": "IBM Technology",
+      "channelVerified": true,
+      "duration": "10:01"
+    },
+    {
+      "position_on_page": 4,
+      "title": "Machine Learning | What Is Machine Learning? | Introduction To Machine Learning | 2026 | Simplilearn",
+      "link": "https://www.youtube.com/watch?v=ukzFI9rgwfU",
+      "video_id": "ukzFI9rgwfU",
+      "channel": {
+        "name": "Simplilearn",
+        "link": "https://www.youtube.com/@SimplilearnOfficial",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ddQ7tbkFH0piMgZrY4c9UY8djYVf-2EcAMjhMReZ65ITHPk8m_-cWladTN3PVtMTclmvkmlr=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 years ago",
+      "views": "5,541,773 views",
+      "length": "7:52",
+      "description": "\"  Michigan Engineering Professional Certificate in AI and Machine Learning ...",
+      "thumbnail": "https://i.ytimg.com/vi/ukzFI9rgwfU/hqdefault.jpg",
+      "videoId": "ukzFI9rgwfU",
+      "url": "https://www.youtube.com/watch?v=ukzFI9rgwfU",
+      "channelTitle": "Simplilearn",
+      "channelVerified": true,
+      "duration": "7:52"
+    },
+    {
+      "position_on_page": 5,
+      "title": "Machine Learning Explained: A Guide to ML, AI, & Deep Learning",
+      "link": "https://www.youtube.com/watch?v=znF2U_3Z210",
+      "video_id": "znF2U_3Z210",
+      "channel": {
+        "name": "IBM Technology",
+        "link": "https://www.youtube.com/@IBMTechnology",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/7qCmNHAsFvD6RSINuJ1WoGZYoKmm7TDnhORKFqLb8QoeOFh2qFXal8brkzoxNrwqmJTuvOLs=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "10 months ago",
+      "views": "101,468 views",
+      "length": "10:39",
+      "description": "Ready to become a certified watsonx Data Scientist? Register now and use code IBMTechYT20 for 20% off of your exam ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/znF2U_3Z210/hqdefault.jpg",
+      "videoId": "znF2U_3Z210",
+      "url": "https://www.youtube.com/watch?v=znF2U_3Z210",
+      "channelTitle": "IBM Technology",
+      "channelVerified": true,
+      "duration": "10:39"
+    },
+    {
+      "position_on_page": 6,
+      "title": "Advice for machine learning beginners | Andrej Karpathy and Lex Fridman",
+      "link": "https://www.youtube.com/watch?v=I2ZK3ngNvvI",
+      "video_id": "I2ZK3ngNvvI",
+      "channel": {
+        "name": "Lex Clips",
+        "link": "https://www.youtube.com/@LexClips",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_mqpG4xlDaXgYX1s4p2YLKke5KfakvFRmhPNXqT1VdpHaM=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "1,196,220 views",
+      "length": "5:48",
+      "description": "Lex Fridman Podcast full episode: https://www.youtube.com/watch?v=cdiD-9MMpb0 Please support this podcast by checking out ...",
+      "thumbnail": "https://i.ytimg.com/vi/I2ZK3ngNvvI/hqdefault.jpg",
+      "videoId": "I2ZK3ngNvvI",
+      "url": "https://www.youtube.com/watch?v=I2ZK3ngNvvI",
+      "channelTitle": "Lex Clips",
+      "channelVerified": true,
+      "duration": "5:48"
+    },
+    {
+      "position_on_page": 7,
+      "title": "All Machine Learning algorithms explained in 17 min",
+      "link": "https://www.youtube.com/watch?v=E0Hmnixke2g",
+      "video_id": "E0Hmnixke2g",
+      "channel": {
+        "name": "Infinite Codes",
+        "link": "https://www.youtube.com/@InfiniteCodes_",
+        "thumbnail": "https://yt3.ggpht.com/0orUI1b4aB-MaJdElATaW5azRqk3R7Yxhc4GLp8jC_O8dvx2GDZsF5imJtAWIjfGZ1-PIO8dPg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "2,194,128 views",
+      "length": "16:30",
+      "description": "All Machine Learning algorithms intuitively explained in 17 min ######################################### I just started ...",
+      "extensions": [
+        "Fundraiser"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/E0Hmnixke2g/hqdefault.jpg",
+      "videoId": "E0Hmnixke2g",
+      "url": "https://www.youtube.com/watch?v=E0Hmnixke2g",
+      "channelTitle": "Infinite Codes",
+      "channelVerified": false,
+      "duration": "16:30"
+    },
+    {
+      "position_on_page": 9,
+      "title": "Machine Learning for Everybody – Full Course",
+      "link": "https://www.youtube.com/watch?v=i_LwzRVP7bg",
+      "video_id": "i_LwzRVP7bg",
+      "channel": {
+        "name": "freeCodeCamp.org and Kylie Ying",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lGRc-05M2OoE1ejQdxeFhyP7OkJg9h4Y-7CK_5je3QqFI=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "10,414,928 views",
+      "length": "3:53:53",
+      "description": "Learn Machine Learning in a way that is accessible to absolute beginners. You will learn the basics of Machine Learning and how ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/i_LwzRVP7bg/hqdefault.jpg",
+      "videoId": "i_LwzRVP7bg",
+      "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg",
+      "channelTitle": "freeCodeCamp.org and Kylie Ying",
+      "channelVerified": false,
+      "duration": "3:53:53"
+    },
+    {
+      "position_on_page": 10,
+      "title": "Essential Machine Learning and AI Concepts Animated",
+      "link": "https://www.youtube.com/watch?v=PcbuKRNtCUc",
+      "video_id": "PcbuKRNtCUc",
+      "channel": {
+        "name": "freeCodeCamp.org",
+        "link": "https://www.youtube.com/@freecodecamp",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lGRc-05M2OoE1ejQdxeFhyP7OkJg9h4Y-7CK_5je3QqFI=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "338,178 views",
+      "length": "27:52",
+      "description": "Learn about all the most important concepts and terms related to machine learning and AI. Course developed by ...",
+      "thumbnail": "https://i.ytimg.com/vi/PcbuKRNtCUc/hqdefault.jpg",
+      "videoId": "PcbuKRNtCUc",
+      "url": "https://www.youtube.com/watch?v=PcbuKRNtCUc",
+      "channelTitle": "freeCodeCamp.org",
+      "channelVerified": true,
+      "duration": "27:52"
+    },
+    {
+      "position_on_page": 11,
+      "title": "Stanford CS229 I Machine Learning I Building Large Language Models (LLMs)",
+      "link": "https://www.youtube.com/watch?v=9vM4p9NN0Ts",
+      "video_id": "9vM4p9NN0Ts",
+      "channel": {
+        "name": "Stanford Online",
+        "link": "https://www.youtube.com/@stanfordonline",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/UE4m1O9zmzlEViC33IbGBU0idM-rbGzN1NWag8xMt6JHBG5SmuWmJdF1_uQhhGKLjLiUXvOTwA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "2,748,985 views",
+      "length": "1:44:31",
+      "description": "For more information about Stanford's Artificial Intelligence programs visit: https://stanford.io/ai This lecture provides a concise ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/9vM4p9NN0Ts/hqdefault.jpg",
+      "videoId": "9vM4p9NN0Ts",
+      "url": "https://www.youtube.com/watch?v=9vM4p9NN0Ts",
+      "channelTitle": "Stanford Online",
+      "channelVerified": true,
+      "duration": "1:44:31"
+    },
+    {
+      "position_on_page": 12,
+      "title": "AI vs Machine Learning",
+      "link": "https://www.youtube.com/watch?v=4RixMPF4xis",
+      "video_id": "4RixMPF4xis",
+      "channel": {
+        "name": "IBM Technology",
+        "link": "https://www.youtube.com/@IBMTechnology",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/7qCmNHAsFvD6RSINuJ1WoGZYoKmm7TDnhORKFqLb8QoeOFh2qFXal8brkzoxNrwqmJTuvOLs=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "1,551,393 views",
+      "length": "5:49",
+      "description": "Learn more about watsonx: https://ibm.biz/BdvxDS What is really the difference between Artificial intelligence (AI) and machine ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/4RixMPF4xis/hqdefault.jpg",
+      "videoId": "4RixMPF4xis",
+      "url": "https://www.youtube.com/watch?v=4RixMPF4xis",
+      "channelTitle": "IBM Technology",
+      "channelVerified": true,
+      "duration": "5:49"
+    },
+    {
+      "position_on_page": 13,
+      "title": "Machine Learning Explained Simply (In 12 Minutes)",
+      "link": "https://www.youtube.com/watch?v=Au1OxVSyGas",
+      "video_id": "Au1OxVSyGas",
+      "channel": {
+        "name": "The Gradient Descent",
+        "link": "https://www.youtube.com/@OfficialGradientDescent",
+        "thumbnail": "https://yt3.ggpht.com/y62bD7DyAz1bP9MO9cJ1wxN5URSApTcVT3uaZFA1WkNZIRDh4sbL-vRUeAhDlq-HPVSJqW0mV34=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 months ago",
+      "views": "127,883 views",
+      "length": "12:24",
+      "description": "7 Day Free Trial of TGD Pro + Free E-Book \"Machine Learning Simplified\": https://thegradientdescent.net/upgrade The Gradient ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Au1OxVSyGas/hqdefault.jpg",
+      "videoId": "Au1OxVSyGas",
+      "url": "https://www.youtube.com/watch?v=Au1OxVSyGas",
+      "channelTitle": "The Gradient Descent",
+      "channelVerified": false,
+      "duration": "12:24"
+    },
+    {
+      "position_on_page": 15,
+      "title": "All Machine Learning Models Explained in 25 Minutes",
+      "link": "https://www.youtube.com/watch?v=kVKalJGngLE",
+      "video_id": "kVKalJGngLE",
+      "channel": {
+        "name": "The Gradient Descent",
+        "link": "https://www.youtube.com/@OfficialGradientDescent",
+        "thumbnail": "https://yt3.ggpht.com/y62bD7DyAz1bP9MO9cJ1wxN5URSApTcVT3uaZFA1WkNZIRDh4sbL-vRUeAhDlq-HPVSJqW0mV34=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 months ago",
+      "views": "35,448 views",
+      "length": "24:57",
+      "description": "Free 7-Day Trial of TGD Pro + Free E-Book \"Machine Learning Simplified\": https://www.thegradientdescent.net/upgrade ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/kVKalJGngLE/hqdefault.jpg",
+      "videoId": "kVKalJGngLE",
+      "url": "https://www.youtube.com/watch?v=kVKalJGngLE",
+      "channelTitle": "The Gradient Descent",
+      "channelVerified": false,
+      "duration": "24:57"
+    },
+    {
+      "position_on_page": 16,
+      "title": "A Gentle Introduction to Machine Learning",
+      "link": "https://www.youtube.com/watch?v=Gv9_4yMHFhI",
+      "video_id": "Gv9_4yMHFhI",
+      "channel": {
+        "name": "StatQuest with Josh Starmer",
+        "link": "https://www.youtube.com/@statquest",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/Lzc9YzCKTkcA1My5A5pbsqaEtOoGc0ncWpCJiOQs2-0win3Tjf5XxmDFEYUiVM9jOTuhMjGs=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 years ago",
+      "views": "1,649,893 views",
+      "length": "12:45",
+      "description": "Machine Learning is one of those things that is chock full of hype and confusion terminology. In this StatQuest, we cut through all ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Gv9_4yMHFhI/hqdefault.jpg",
+      "videoId": "Gv9_4yMHFhI",
+      "url": "https://www.youtube.com/watch?v=Gv9_4yMHFhI",
+      "channelTitle": "StatQuest with Josh Starmer",
+      "channelVerified": true,
+      "duration": "12:45"
+    },
+    {
+      "position_on_page": 17,
+      "title": "All Machine Learning Concepts Explained in 22 Minutes",
+      "link": "https://www.youtube.com/watch?v=Fa_V9fP2tpU",
+      "video_id": "Fa_V9fP2tpU",
+      "channel": {
+        "name": "Infinite Codes",
+        "link": "https://www.youtube.com/@InfiniteCodes_",
+        "thumbnail": "https://yt3.ggpht.com/0orUI1b4aB-MaJdElATaW5azRqk3R7Yxhc4GLp8jC_O8dvx2GDZsF5imJtAWIjfGZ1-PIO8dPg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "531,911 views",
+      "length": "22:22",
+      "description": "All Basic Machine Learning Terms Explained in 22 Minutes ######################################### I just started my ...",
+      "extensions": [
+        "Fundraiser",
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Fa_V9fP2tpU/hqdefault.jpg",
+      "videoId": "Fa_V9fP2tpU",
+      "url": "https://www.youtube.com/watch?v=Fa_V9fP2tpU",
+      "channelTitle": "Infinite Codes",
+      "channelVerified": false,
+      "duration": "22:22"
+    },
+    {
+      "position_on_page": 18,
+      "title": "11. Introduction to Machine Learning",
+      "link": "https://www.youtube.com/watch?v=h0e2HAPTGF4",
+      "video_id": "h0e2HAPTGF4",
+      "channel": {
+        "name": "MIT OpenCourseWare",
+        "link": "https://www.youtube.com/@mitocw",
+        "thumbnail": "https://yt3.ggpht.com/swNtJDBP8xHP_zwrbL4tCUQt02B-7Mr8XggFMBjANHn_Q5aUtPmxPs8f8Ag3wO2O-rJpsQQGpA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "9 years ago",
+      "views": "1,825,320 views",
+      "length": "51:31",
+      "description": "MIT 6.0002 Introduction to Computational Thinking and Data Science, Fall 2016 View the complete course: ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/h0e2HAPTGF4/hqdefault.jpg",
+      "videoId": "h0e2HAPTGF4",
+      "url": "https://www.youtube.com/watch?v=h0e2HAPTGF4",
+      "channelTitle": "MIT OpenCourseWare",
+      "channelVerified": false,
+      "duration": "51:31"
+    },
+    {
+      "position_on_page": 19,
+      "title": "Every Machine Learning Model Explained in 15 minutes",
+      "link": "https://www.youtube.com/watch?v=63Kr3HFECHM",
+      "video_id": "63Kr3HFECHM",
+      "channel": {
+        "name": "Brain Station Advanced",
+        "link": "https://www.youtube.com/@BrainStationAdvanced",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/JVziKDO-Np3Em9Fv1MhvcEu-2pYjds2M7QOL4g7TdhHqnoUvSGRvYESxEI48AjUJ5g7qMZkblA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 months ago",
+      "views": "309,351 views",
+      "length": "16:04",
+      "description": "Your support makes all the difference! By joining my Patreon, you'll help sustain and grow the content you love ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/63Kr3HFECHM/hqdefault.jpg",
+      "videoId": "63Kr3HFECHM",
+      "url": "https://www.youtube.com/watch?v=63Kr3HFECHM",
+      "channelTitle": "Brain Station Advanced",
+      "channelVerified": true,
+      "duration": "16:04"
+    },
+    {
+      "position_on_page": 21,
+      "title": "Complete Machine Learning In 6 Hours| Krish Naik",
+      "link": "https://www.youtube.com/watch?v=JxgmHe2NyeY",
+      "video_id": "JxgmHe2NyeY",
+      "channel": {
+        "name": "Krish Naik",
+        "link": "https://www.youtube.com/@krishnaik06",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/r0lRsN4EgVg_h9TfhKoK-oa9SGtmC4QxvwhEYFB4VWoRXtxsQoyhh2WvrRxpxciTYwh4D4_W=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "2,158,665 views",
+      "length": "6:37:52",
+      "description": "All the materials are available in the below link ...",
+      "thumbnail": "https://i.ytimg.com/vi/JxgmHe2NyeY/hqdefault.jpg",
+      "videoId": "JxgmHe2NyeY",
+      "url": "https://www.youtube.com/watch?v=JxgmHe2NyeY",
+      "channelTitle": "Krish Naik",
+      "channelVerified": true,
+      "duration": "6:37:52"
+    }
+  ],
+  "playlist_results": [
+    {
+      "position_on_page": 8,
+      "title": "Machine Learning",
+      "link": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF",
+      "channel": {
+        "name": "StatQuest with Josh Starmer",
+        "link": "https://www.youtube.com/@statquest",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "A Gentle Introduction to Machine Learning",
+          "length": "12:45",
+          "link": "https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF"
+        },
+        {
+          "title": "Machine Learning Fundamentals: Cross Validation",
+          "length": "6:05",
+          "link": "https://www.youtube.com/watch?v=fSytzGwwBVw&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF"
+        }
+      ],
+      "video_count": 106,
+      "thumbnail": "https://i.ytimg.com/vi/Gv9_4yMHFhI/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLALI_mMYldvA-_qF2rx6cSKtCGh3Q"
+    },
+    {
+      "position_on_page": 14,
+      "title": "Stanford CS229: Machine Learning led by Andrew Ng | Autumn 2018",
+      "link": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU",
+      "channel": {
+        "name": "Stanford Online",
+        "link": "https://www.youtube.com/@stanfordonline",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "Stanford CS229: Machine Learning Lecture 1 - Andrew Ng (Autumn 2018)",
+          "length": "1:15:20",
+          "link": "https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
+        },
+        {
+          "title": "Stanford CS229: Machine Learning - Linear Regression and Gradient Descent |  Lecture 2 (Autumn 2018)",
+          "length": "1:18:17",
+          "link": "https://www.youtube.com/watch?v=4b4MUYve_U8&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"
+        }
+      ],
+      "video_count": 21,
+      "thumbnail": "https://i.ytimg.com/vi/jGwO_UgTS7I/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYZSBlKGUwDw==&rs=AOn4CLCAZGVUMx5C2Uh8ApXOyCFy8izuWw"
+    },
+    {
+      "position_on_page": 22,
+      "title": "Machine Learning",
+      "link": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s",
+      "channel": {
+        "name": "freeCodeCamp.org",
+        "link": "https://www.youtube.com/@freecodecamp",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "Machine Learning for Everybody – Full Course",
+          "length": "3:53:53",
+          "link": "https://www.youtube.com/watch?v=i_LwzRVP7bg&list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s"
+        },
+        {
+          "title": "TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial",
+          "length": "6:52:08",
+          "link": "https://www.youtube.com/watch?v=tPYj3fFJGjk&list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s"
+        }
+      ],
+      "video_count": 18,
+      "thumbnail": "https://i.ytimg.com/vi/i_LwzRVP7bg/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLACaeXPjvgbiBex8DSWL7c9NKnRXQ"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 20,
+      "shorts": [
+        {
+          "title": "Building Machine Learning Skills for a Career in AI",
+          "link": "https://www.youtube.com/shorts/aVjRN_t_uzc",
+          "thumbnail": "https://i.ytimg.com/vi/aVjRN_t_uzc/frame0.jpg",
+          "views_original": "356 views",
+          "views": 356,
+          "video_id": "aVjRN_t_uzc"
+        },
+        {
+          "title": "What is Machine Learning vs AI?  #machinelearning  #ai  #techexplained  #datascience  #shorts",
+          "link": "https://www.youtube.com/shorts/zQUJC57NzEY",
+          "thumbnail": "https://i.ytimg.com/vi/zQUJC57NzEY/frame0.jpg",
+          "views_original": "132 views",
+          "views": 132,
+          "video_id": "zQUJC57NzEY"
+        },
+        {
+          "title": "What is Machine Learning? | Explained Simply",
+          "link": "https://www.youtube.com/shorts/TQlonYpO_m8",
+          "thumbnail": "https://i.ytimg.com/vi/TQlonYpO_m8/frame0.jpg",
+          "views_original": "6.6K views",
+          "views": 6600,
+          "video_id": "TQlonYpO_m8"
+        },
+        {
+          "title": "How AI works: Machine learning",
+          "link": "https://www.youtube.com/shorts/MYWpaNYAo0o",
+          "thumbnail": "https://i.ytimg.com/vi/MYWpaNYAo0o/frame0.jpg",
+          "views_original": "117K views",
+          "views": 117000,
+          "video_id": "MYWpaNYAo0o"
+        },
+        {
+          "title": "Machine learning for beginners 101",
+          "link": "https://www.youtube.com/shorts/xoKCsCd6vsA",
+          "thumbnail": "https://i.ytimg.com/vi/xoKCsCd6vsA/frame0.jpg",
+          "views_original": "61K views",
+          "views": 61000,
+          "video_id": "xoKCsCd6vsA"
+        }
+      ]
+    },
+    {
+      "position_on_page": 23,
+      "shorts": [
+        {
+          "title": "Introduction to Machine Learning & AI. AI Explained — Free Machine Learning & AI Course 🤖",
+          "link": "https://www.youtube.com/shorts/7TaxWAUzMjk",
+          "thumbnail": "https://i.ytimg.com/vi/7TaxWAUzMjk/frame0.jpg",
+          "views_original": "122 views",
+          "views": 122,
+          "video_id": "7TaxWAUzMjk"
+        },
+        {
+          "title": "🔥What Is Machine Learning ? | Machine Learning Explained in 60 Seconds #Shorts #simplilearn",
+          "link": "https://www.youtube.com/shorts/VhfS-G6PDLE",
+          "thumbnail": "https://i.ytimg.com/vi/VhfS-G6PDLE/frame0.jpg",
+          "views_original": "776K views",
+          "views": 776000,
+          "video_id": "VhfS-G6PDLE"
+        },
+        {
+          "title": "What is Machine Learning (ML)",
+          "link": "https://www.youtube.com/shorts/e6_2u-TgQjk",
+          "thumbnail": "https://i.ytimg.com/vi/e6_2u-TgQjk/frame0.jpg",
+          "views_original": "41K views",
+          "views": 41000,
+          "video_id": "e6_2u-TgQjk"
+        },
+        {
+          "title": "Machine Learning vs. Traditional Credit Scoring: The Future of Banking",
+          "link": "https://www.youtube.com/shorts/IcAbt_tN3DE",
+          "thumbnail": "https://i.ytimg.com/vi/IcAbt_tN3DE/frame0.jpg",
+          "views_original": "53 views",
+          "views": 53,
+          "video_id": "IcAbt_tN3DE"
+        },
+        {
+          "title": "sponsored by @eight_sleep. We developed a machine learning model together and it just released today",
+          "link": "https://www.youtube.com/shorts/HkPcNE0EEP8",
+          "thumbnail": "https://i.ytimg.com/vi/HkPcNE0EEP8/frame0.jpg",
+          "views_original": "128K views",
+          "views": 128000,
+          "video_id": "HkPcNE0EEP8"
+        },
+        {
+          "title": "Top Machine Learning Algorithms Explained | Supervised & Unsupervised Learning",
+          "link": "https://www.youtube.com/shorts/2z-4pDFWsiE",
+          "thumbnail": "https://i.ytimg.com/vi/2z-4pDFWsiE/frame0.jpg",
+          "views_original": "195K views",
+          "views": 195000,
+          "video_id": "2z-4pDFWsiE"
+        },
+        {
+          "title": "I can't STOP reading these Machine Learning Books!",
+          "link": "https://www.youtube.com/shorts/vdRp_w9f-qM",
+          "thumbnail": "https://i.ytimg.com/vi/vdRp_w9f-qM/frame0.jpg",
+          "views_original": "1.5M views",
+          "views": 1500000,
+          "video_id": "vdRp_w9f-qM"
+        },
+        {
+          "title": "In Simple Terms - AI vs Machine Learning vs Deep Learning",
+          "link": "https://www.youtube.com/shorts/CxT5DVZmWCU",
+          "thumbnail": "https://i.ytimg.com/vi/CxT5DVZmWCU/frame0.jpg",
+          "views_original": "285K views",
+          "views": 285000,
+          "video_id": "CxT5DVZmWCU"
+        },
+        {
+          "title": "How to learn the math behind Machine Learning (for free)",
+          "link": "https://www.youtube.com/shorts/pv5DAtLQTjc",
+          "thumbnail": "https://i.ytimg.com/vi/pv5DAtLQTjc/frame0.jpg",
+          "views_original": "27K views",
+          "views": 27000,
+          "video_id": "pv5DAtLQTjc"
+        },
+        {
+          "title": "AI, machine learning and deep learning",
+          "link": "https://www.youtube.com/shorts/ok0i1JrEBUI",
+          "thumbnail": "https://i.ytimg.com/vi/ok0i1JrEBUI/frame0.jpg",
+          "views_original": "12 views",
+          "views": 12,
+          "video_id": "ok0i1JrEBUI"
+        },
+        {
+          "title": "Machine Learning Algorithms can be Represented as Decision Trees Paper​ | Machine Learning Algorithm",
+          "link": "https://www.youtube.com/shorts/dQPGnT7oGxw",
+          "thumbnail": "https://i.ytimg.com/vi/dQPGnT7oGxw/frame0.jpg",
+          "views_original": "50K views",
+          "views": 50000,
+          "video_id": "dQPGnT7oGxw"
+        },
+        {
+          "title": "RTX4090 vs M3 Max - machine learning - which is faster?",
+          "link": "https://www.youtube.com/shorts/hh_4A2rVnc8",
+          "thumbnail": "https://i.ytimg.com/vi/hh_4A2rVnc8/frame0.jpg",
+          "views_original": "76K views",
+          "views": 76000,
+          "video_id": "hh_4A2rVnc8"
+        },
+        {
+          "title": "AI & MACHINE LEARNING ROADMAP — FROM BEGINNER TO REAL-WORLD IMPACT",
+          "link": "https://www.youtube.com/shorts/BVLIvUzSOlo",
+          "thumbnail": "https://i.ytimg.com/vi/BVLIvUzSOlo/frame0.jpg",
+          "views_original": "31 views",
+          "views": 31,
+          "video_id": "BVLIvUzSOlo"
+        },
+        {
+          "title": "AI vs ML vs DL vs DS: What's the Difference?",
+          "link": "https://www.youtube.com/shorts/PopKlyqTPAI",
+          "thumbnail": "https://i.ytimg.com/vi/PopKlyqTPAI/frame0.jpg",
+          "views_original": "1.9M views",
+          "views": 1900000,
+          "video_id": "PopKlyqTPAI"
+        },
+        {
+          "title": "How to Learn Machine Learning in 2025? | Skills to Learn in Machine Learning | Intellipaat #shorts",
+          "link": "https://www.youtube.com/shorts/Y3nHkcqXwow",
+          "thumbnail": "https://i.ytimg.com/vi/Y3nHkcqXwow/frame0.jpg",
+          "views_original": "185K views",
+          "views": 185000,
+          "video_id": "Y3nHkcqXwow"
+        },
+        {
+          "title": "Prerequisites for the Deep Learning Specialization  Math and Programming Background Explained",
+          "link": "https://www.youtube.com/shorts/Coe4XTW1-eE",
+          "thumbnail": "https://i.ytimg.com/vi/Coe4XTW1-eE/frame0.jpg",
+          "views_original": "337K views",
+          "views": 337000,
+          "video_id": "Coe4XTW1-eE"
+        },
+        {
+          "title": "Machine Learning Full Course #Education #Ai #Ml #Python #Dataanalysis #Datascience",
+          "link": "https://www.youtube.com/shorts/sbmPMtQkjxY",
+          "thumbnail": "https://i.ytimg.com/vi/sbmPMtQkjxY/frame0.jpg",
+          "views_original": "130K views",
+          "views": 130000,
+          "video_id": "sbmPMtQkjxY"
+        },
+        {
+          "title": "How Does AI Learn? 🤖 Machine Learning Explained Simply | EP04 #Shorts #artificialintelligence",
+          "link": "https://www.youtube.com/shorts/1EM195E6m2g",
+          "thumbnail": "https://i.ytimg.com/vi/1EM195E6m2g/frame0.jpg",
+          "views_original": "31 views",
+          "views": 31,
+          "video_id": "1EM195E6m2g"
+        },
+        {
+          "title": "Linear Algebra in Machine Learning: Matrix Multiplication Explained #machinelearning #codemonarch",
+          "link": "https://www.youtube.com/shorts/Csehyhe2NIQ",
+          "thumbnail": "https://i.ytimg.com/vi/Csehyhe2NIQ/frame0.jpg",
+          "views_original": "51K views",
+          "views": 51000,
+          "video_id": "Csehyhe2NIQ"
+        },
+        {
+          "title": "Building an ML Model in 60 seconds! 🤖💻 #programming #coding #machinelearning",
+          "link": "https://www.youtube.com/shorts/g6Cyw3prtHY",
+          "thumbnail": "https://i.ytimg.com/vi/g6Cyw3prtHY/frame0.jpg",
+          "views_original": "314K views",
+          "views": 314000,
+          "video_id": "g6Cyw3prtHY"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=Machine+Learning",
+    "next": "https://www.youtube.com/results?search_query=Machine%20Learning&sp=SBSCAQtQZU1sZ2d5cXowWYIBC3FZTndlZURIaXlVggELdWt6Rkk5cmd3ZlWCAQt6bkYyVV8zWjIxMIIBC0kyWkszbmdOdnZJggELRTBIbW5peGtlMmeCASJQTGJsaDVKS09vTFVJQ1RhR0xSb0hRRHVGXzdxMkdmdUpGggELaV9Md3pSVlA3YmeCAQtQY2J1S1JOdENVY4IBCzl2TTRwOU5OMFRzggELNFJpeE1QRjR4aXOCAQtBdTFPeFZTeUdhc4IBIlBMb1JPTXZvZHY0ck1pR1FwM1dYU2h0TUdnenFwZlZmYlWCAQtrVkthbEpHbmdMRYIBC0d2OV80eU1IRmhJggELRmFfVjlmUDJ0cFWCAQtoMGUySEFQVEdGNIIBCzYzS3IzSEZFQ0hNggELSnhnbUhlMk55ZVmCASJQTFdLamhKdHFWQWJsU3RlZmF6X1lPVnBEV3FjUlNjYzJzsgEGCgQIGBAC6gEECAIQGQ%253D%253D",
+    "next_page_token": "SBSCAQtQZU1sZ2d5cXowWYIBC3FZTndlZURIaXlVggELdWt6Rkk5cmd3ZlWCAQt6bkYyVV8zWjIxMIIBC0kyWkszbmdOdnZJggELRTBIbW5peGtlMmeCASJQTGJsaDVKS09vTFVJQ1RhR0xSb0hRRHVGXzdxMkdmdUpGggELaV9Md3pSVlA3YmeCAQtQY2J1S1JOdENVY4IBCzl2TTRwOU5OMFRzggELNFJpeE1QRjR4aXOCAQtBdTFPeFZTeUdhc4IBIlBMb1JPTXZvZHY0ck1pR1FwM1dYU2h0TUdnenFwZlZmYlWCAQtrVkthbEpHbmdMRYIBC0d2OV80eU1IRmhJggELRmFfVjlmUDJ0cFWCAQtoMGUySEFQVEdGNIIBCzYzS3IzSEZFQ0hNggELSnhnbUhlMk55ZVmCASJQTFdLamhKdHFWQWJsU3RlZmF6X1lPVnBEV3FjUlNjYzJzsgEGCgQIGBAC6gEECAIQGQ%3D%3D"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=Machine+Learning",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=Machine+Learning&sp=SBSCAQtQZU1sZ2d5cXowWYIBC3FZTndlZURIaXlVggELdWt6Rkk5cmd3ZlWCAQt6bkYyVV8zWjIxMIIBC0kyWkszbmdOdnZJggELRTBIbW5peGtlMmeCASJQTGJsaDVKS09vTFVJQ1RhR0xSb0hRRHVGXzdxMkdmdUpGggELaV9Md3pSVlA3YmeCAQtQY2J1S1JOdENVY4IBCzl2TTRwOU5OMFRzggELNFJpeE1QRjR4aXOCAQtBdTFPeFZTeUdhc4IBIlBMb1JPTXZvZHY0ck1pR1FwM1dYU2h0TUdnenFwZlZmYlWCAQtrVkthbEpHbmdMRYIBC0d2OV80eU1IRmhJggELRmFfVjlmUDJ0cFWCAQtoMGUySEFQVEdGNIIBCzYzS3IzSEZFQ0hNggELSnhnbUhlMk55ZVmCASJQTFdLamhKdHFWQWJsU3RlZmF6X1lPVnBEV3FjUlNjYzJzsgEGCgQIGBAC6gEECAIQGQ%253D%253D",
+    "next_page_token": "SBSCAQtQZU1sZ2d5cXowWYIBC3FZTndlZURIaXlVggELdWt6Rkk5cmd3ZlWCAQt6bkYyVV8zWjIxMIIBC0kyWkszbmdOdnZJggELRTBIbW5peGtlMmeCASJQTGJsaDVKS09vTFVJQ1RhR0xSb0hRRHVGXzdxMkdmdUpGggELaV9Md3pSVlA3YmeCAQtQY2J1S1JOdENVY4IBCzl2TTRwOU5OMFRzggELNFJpeE1QRjR4aXOCAQtBdTFPeFZTeUdhc4IBIlBMb1JPTXZvZHY0ck1pR1FwM1dYU2h0TUdnenFwZlZmYlWCAQtrVkthbEpHbmdMRYIBC0d2OV80eU1IRmhJggELRmFfVjlmUDJ0cFWCAQtoMGUySEFQVEdGNIIBCzYzS3IzSEZFQ0hNggELSnhnbUhlMk55ZVmCASJQTFdLamhKdHFWQWJsU3RlZmF6X1lPVnBEV3FjUlNjYzJzsgEGCgQIGBAC6gEECAIQGQ%3D%3D"
+  }
+}

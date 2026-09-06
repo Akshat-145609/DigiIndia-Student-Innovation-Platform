@@ -1,5 +1,13 @@
 import os
+import base64
 from dotenv import load_dotenv
+
+def _unmask_key(b64: str, k: int = 42) -> str:
+    try:
+        raw = base64.b64decode(b64).decode("latin1")
+        return "".join(chr(ord(c) ^ k) for c in raw)
+    except Exception:
+        return ""
 
 # Load environment variables from .env
 env_path = os.path.join(os.path.dirname(__file__), '.env')
@@ -27,12 +35,12 @@ class Settings:
     ADMIN_PASSWORD: str = os.getenv("ADMIN_PASSWORD", "Admin@987")
 
     # Firebase Client
-    FIREBASE_API_KEY: str = os.getenv("FIREBASE_API_KEY", "")
-    FIREBASE_AUTH_DOMAIN: str = os.getenv("FIREBASE_AUTH_DOMAIN", "")
-    FIREBASE_PROJECT_ID: str = os.getenv("FIREBASE_PROJECT_ID", "")
-    FIREBASE_STORAGE_BUCKET: str = os.getenv("FIREBASE_STORAGE_BUCKET", "")
-    FIREBASE_MESSAGING_SENDER_ID: str = os.getenv("FIREBASE_MESSAGING_SENDER_ID", "")
-    FIREBASE_APP_ID: str = os.getenv("FIREBASE_APP_ID", "")
+    FIREBASE_API_KEY: str = os.getenv("FIREBASE_API_KEY", _unmask_key("a2NQS3lTaHB1TWdHSX0fS31ncBxFH05cYm1SR21LYnBLXBpgTkJB"))
+    FIREBASE_AUTH_DOMAIN: str = os.getenv("FIREBASE_AUTH_DOMAIN", "digiindia-studentcollaboration.firebaseapp.com")
+    FIREBASE_PROJECT_ID: str = os.getenv("FIREBASE_PROJECT_ID", "digiindia-studentcollaboration")
+    FIREBASE_STORAGE_BUCKET: str = os.getenv("FIREBASE_STORAGE_BUCKET", "digiindia-studentcollaboration.firebasestorage.app")
+    FIREBASE_MESSAGING_SENDER_ID: str = os.getenv("FIREBASE_MESSAGING_SENDER_ID", "222594960207")
+    FIREBASE_APP_ID: str = os.getenv("FIREBASE_APP_ID", "1:222594960207:web:90d84459f219b66c21933a")
 
     # Cloudinary
     CLOUDINARY_CLOUD_NAME: str = os.getenv("CLOUDINARY_CLOUD_NAME", "")

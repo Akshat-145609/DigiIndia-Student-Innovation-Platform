@@ -1,0 +1,542 @@
+{
+  "search_metadata": {
+    "id": "6a9d4b033d8701115687bc0a",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/vvqlvSZR2NVKUVdflTwVM2KSRpNr0vIpsZkzMJHqg7A/6a9d4b033d8701115687bc0a.json",
+    "markdown_endpoint": "https://serpapi.com/searches/vvqlvSZR2NVKUVdflTwVM2KSRpNr0vIpsZkzMJHqg7A/6a9d4b033d8701115687bc0a.md",
+    "created_at": "2026-09-06 11:14:11 UTC",
+    "processed_at": "2026-09-06 11:14:11 UTC",
+    "google_url": "https://www.google.co.in/search?q=Machine+Learning&oq=Machine+Learning&uule=w+CAIQICIFSW5kaWE&hl=hi&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/vvqlvSZR2NVKUVdflTwVM2KSRpNr0vIpsZkzMJHqg7A/6a9d4b033d8701115687bc0a.html",
+    "total_time_taken": 2.62
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Machine Learning",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Machine Learning",
+    "total_results": 201000,
+    "time_taken_displayed": 0.26,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "short_videos": [
+    {
+      "position": 1,
+      "title": "Machine Learning EXPLAINED In 60 Seconds",
+      "source": "YouTube",
+      "profile_name": "edureka!",
+      "extensions": [
+        "edureka!"
+      ],
+      "source_logo": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+      "duration": "1:09",
+      "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTgIyBhqFGqX7VLrfq3B7hidjIUWCjzew6KgQ",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLfkqfuzXGWYYXeyxSFyLCjcyTe-9b3tnCuOohjFmnn4a2cExhqIK5sGo&s=10",
+      "link": "https://www.youtube.com/shorts/bI7FZkyZ4SE"
+    },
+    {
+      "position": 2,
+      "title": "Facebook पर Cotality की What is machine learning? You've probably heard the term. But .... Facebook पर चलाएं. 0:26",
+      "source": "Facebook",
+      "profile_name": "Cotality",
+      "extensions": [
+        "Cotality"
+      ],
+      "source_logo": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+      "duration": "0:26",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDNgRN96W_CFAEd-caZRE1XhByJqYHMFIqK2fmyOKOvBSkuiqDa8ZO4qQ&s=10",
+      "link": "https://www.facebook.com/Cotality/videos/what-is-machine-learningyouve-probably-heard-the-term-but-what-does-it-actually-/1650407659547795/"
+    },
+    {
+      "position": 3,
+      "title": "What is Machine Learning?",
+      "source": "YouTube",
+      "profile_name": "4.0 Solutions",
+      "extensions": [
+        "4.0 Solutions"
+      ],
+      "source_logo": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+      "duration": "0:42",
+      "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcR0DnokEgwTeLRZSu8EaHGtvEPNTbEIeso5WA",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ1nkakjKh5ze5iQ6gG7zWiHbOjRiapWfuI-rqs_CI7H0CeFzc5uWJ1to&s=10",
+      "link": "https://www.youtube.com/shorts/ZizbP44Jly4"
+    },
+    {
+      "position": 4,
+      "title": "Facebook पर Oregon State University की Experts answer: What is machine learning?. Facebook पर चलाएं. 0:53",
+      "source": "Facebook",
+      "profile_name": "Oregon State University",
+      "extensions": [
+        "Oregon State University"
+      ],
+      "source_logo": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+      "duration": "0:53",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHuTgH1MNfv5q3y42ZKUbnBf7r3qwaRzKnTTFua9dzQAHEiMaWnTKOXQY&s=10",
+      "link": "https://www.facebook.com/osubeavers/videos/experts-answer-what-is-machine-learning/847654611019682/"
+    },
+    {
+      "position": 5,
+      "title": "AI vs. Machine Learning vs. Deep Learning Explained",
+      "source": "YouTube",
+      "profile_name": "Sundas Khalid",
+      "extensions": [
+        "Sundas Khalid"
+      ],
+      "source_logo": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+      "duration": "1:17",
+      "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTPsI9vsphGcN4OWGWkNQChTfa35C2NstPVbw",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRveMP7A3YVFPf4s_GUU3FmxFlcOaJe0Tt_ehoTVBO0Qq7_7l_HDFuo5Ok&s=10",
+      "link": "https://www.youtube.com/shorts/vP6eAzDTE3s"
+    },
+    {
+      "position": 6,
+      "title": "Facebook पर World IT Center की What is Machine Learning? Machine Learning (ML) is a subset .... Facebook पर चलाएं. 1:29",
+      "source": "Facebook",
+      "profile_name": "World IT Center",
+      "extensions": [
+        "World IT Center"
+      ],
+      "source_logo": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+      "duration": "1:29",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVtiEQiAaGW1dv9YvhPaH5ruh1eR95eUvgTxg4w3nW7AV1hJeOGjFbgio&s=10",
+      "link": "https://www.facebook.com/worlditcenter/videos/what-is-machine-learningmachine-learning-ml-is-a-subset-of-artificial-intelligen/1292764075078873/"
+    },
+    {
+      "position": 7,
+      "title": "Exploring machine learning and its common models",
+      "source": "YouTube",
+      "profile_name": "Learning Science",
+      "extensions": [
+        "Learning Science"
+      ],
+      "source_logo": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+      "duration": "1:11",
+      "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcSt7mrzaIJWOkfvwDTj2qQunZgBWAyScfmvEA",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqgnwF7vzziuwCKFCXz20m15a_bEWUP8m7KqXjgREF0hQwS6FRuuJMbws&s=10",
+      "link": "https://www.youtube.com/watch?v=PwIsvJO4DZc"
+    },
+    {
+      "position": 8,
+      "title": "YouTube पर Darius Lukas की What is Machine Learning?. YouTube पर चलाएं. 0:34",
+      "source": "YouTube",
+      "profile_name": "Darius Lukas",
+      "extensions": [
+        "Darius Lukas"
+      ],
+      "source_logo": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+      "duration": "0:34",
+      "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcS7AbiGzDPlxRSePt8FSAIEYC8F9LQNzAQJyw",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOvECm85qXWSTiwChgajNrxK9Ick_fNy8FvxozNB0GFSqk38tocGCgeLU&s=10",
+      "link": "https://www.youtube.com/shorts/qODutSxIsQA"
+    },
+    {
+      "position": 9,
+      "title": "Facebook पर IT- HUB-Official की Machine Learning Machine Learning (ML) is a field of Artificial .... Facebook पर चलाएं. 1:00",
+      "source": "Facebook",
+      "profile_name": "IT- HUB-Official",
+      "extensions": [
+        "IT- HUB-Official"
+      ],
+      "source_logo": "https://serpapi.com/images/i/UklGRqoBAABXRUJQVlA4IJ4BAABwCQCdASocABwAPtEutFooIagoGAEAGglsAJ0yhHA3lfFBO1wAOUA_QD3LbivzzOpj3kDygCma-Rh7ANX--unhjJOlma5yFBwxABGtbBmfGruNiAAA_vYOb16QPF2AohybdBK44SXhExiRjqi-kNM3hHu_Yw7AJrL-7rM8d_rijdiRy0j-ZeW7w6RIRuMqgm_RO4f6lRIhYknlxf6mMoXAQaj6_tRkMRwBV5EdP_uMw4kqy2ZhqPi3PG5PpxthXgQWj6H4uUXexYHFqh3xYBX5dL6Dsx0kaiR__FvN_6m7_QiD5ix90ybowZPZ4EJjzU2ag7SQJ4wrf_2kwO1hPlzmly6sn4r0HSBDYT_CBJqgzjphFkqJAiVh_RCXqM9h1YZk1Q4HA5xuHo3rNsBGkg4DVoQb6lPRqlYEs1YLGkTSOA-pXnCCv-FX4cz9i_E71o22GBeX206C3AI8KMZxPikjU93MZF-5b_bVPypp2kWlnV7cYdOVJ_T0iqe1D8CmirqI-Ktb5K_S123btql4LlRpp_0gELOp_50DZ4WlAAA.webp",
+      "duration": "1:00",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSYImQJuAzcJGta1FzdRAwViscGRCvWTnex7455TeKrjR44kF0MG-r8Zg&s=10",
+      "link": "https://www.facebook.com/61580204671845/videos/machine-learning/1249771847091404/"
+    },
+    {
+      "position": 10,
+      "title": "Machine Learning Explained | Makaut",
+      "source": "YouTube",
+      "profile_name": "10 Minute Diploma",
+      "extensions": [
+        "10 Minute Diploma"
+      ],
+      "source_logo": "https://serpapi.com/images/i/UklGRpwAAABXRUJQVlA4IJAAAAAwBACdASoQABAAAsBMJbACdGsAYQB-gGWAbwASnnx4vADfdr4sQbHuTIgA_vQMxuNgMMWMsmouF7hbZvT51iCqgStGXinCzpYfdY0TLuw8u1p8i-R75HEyG3C9BMJ_SyeGe2BtG_fAxY-0nDUOWQ1YBl__mcybueh2sm_8KPzrhGf-yuX3HjbKaeK8Q3AcwAA.webp",
+      "duration": "1:47",
+      "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQgNohiFX_7_tP0RXPdwlpLea5d18WZ08hqUQ",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb30Gk5iw1OBAf3iI37T-UbNvQJUu3fJbwc-PG419kurxz2PK3gUJYn3Y&s",
+      "link": "https://www.youtube.com/shorts/uUBluPE2HtA"
+    }
+  ],
+  "related_questions": [
+    {
+      "question": "What do you mean by machine learning?",
+      "type": "ai_overview",
+      "page_token": "67ROunicHdDbTsIwGADg-DJeQjsVlYSYFDYOYV1a6WG7MVsHFPrTTTfc3J3v4lP5NCZ-j_B9_8DJu9-b3rZt3UzH467rRseqOsJ-ZKrRyY_z5subsckBity46eRxgl8OZhZe12T-viZM1LVccPQqpI4R6pmyXuC6V54n1JO8CJ_aGNe7ZPmEUg82WZQfKmw6Cvwqos3GgEFbVV-FyDqmIp8NxNEVsYmwDZcZVssyoai7L0RbFxKsHjafWZitJHItRfSQBgybRdSZM00SAWs9RPPcE7bz5Jpr2KmLHXYB2FJ1OHZ4qeDY7ldca_yM8kD0MihTE4gHuqCKesheFTwYGZHQlnOupUs10cbhwai2Sh2wvd_g-Gx5TKoTE3wwZ7jIkE8KB5c4pJxj2HIRTXKBmyLImnLZb00EAWO3B_M5u7v9_5y9HS7ttP6ojn8WvIUA",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=67ROunicHdDbTsIwGADg-DJeQjsVlYSYFDYOYV1a6WG7MVsHFPrTTTfc3J3v4lP5NCZ-j_B9_8DJu9-b3rZt3UzH467rRseqOsJ-ZKrRyY_z5subsckBity46eRxgl8OZhZe12T-viZM1LVccPQqpI4R6pmyXuC6V54n1JO8CJ_aGNe7ZPmEUg82WZQfKmw6Cvwqos3GgEFbVV-FyDqmIp8NxNEVsYmwDZcZVssyoai7L0RbFxKsHjafWZitJHItRfSQBgybRdSZM00SAWs9RPPcE7bz5Jpr2KmLHXYB2FJ1OHZ4qeDY7ldca_yM8kD0MihTE4gHuqCKesheFTwYGZHQlnOupUs10cbhwai2Sh2wvd_g-Gx5TKoTE3wwZ7jIkE8KB5c4pJxj2HIRTXKBmyLImnLZb00EAWO3B_M5u7v9_5y9HS7ttP6ojn8WvIUA",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZXcEVkbWh4UkVsbGJVTXlXR2xOYWw5dWQxaGFkSGRoVlY5eU0xUXhibnAzYW1KcVlUbExNRWQxZDBOMlQyRjFhMHBYUkROYWJqRklXblZSZUVOdFNVUlVjV0UxWTBOd1NXaFhTalpMZVV3eE4wWmhWSEp1VGxaMFp4SVhRa1YxWkdGd1YzSk5jM0ZyYUdKSlVIcHlkVEk0VVRBYUlrRkVjM0k1WmxSVlMyVlJVRXQ2UlUxVlJHUm9SbGR3ZUZRdGNEZzRVazE1YVVFIiwiZmN2IjoiMyIsImVpIjoiQkV1ZGFwV3JNc3FraGJJUHpydTI4UTAiLCJxYyI6IkNoQnRZV05vYVc1bElHeGxZWEp1YVc1bkVBQjlMNDRvUHciLCJxdWVzdGlvbiI6IldoYXQgZG8geW91IG1lYW4gYnkgbWFjaGluZSBsZWFybmluZz8iLCJsayI6IkdpRjNhR0YwSUdSdklIbHZkU0J0WldGdUlHMWhZMmhwYm1VZ2JHVmhjbTVwYm1jIiwiYnMiOiJjLVB5NFZJTnowZ3NVVWpKVjZqTUwxWElUVTNNVTBpcVZNaE5UTTdJekV0VnlFbE5MTXJMekV1M04xS1dVaXhIVjRpdWlrdVhTOFN6V01FWnFNNDlJRVRCMFZNaHYwakIxOGZlU0ZSS09MTllJUmtvbmw1UW9wQ1lDUkxQemVFeTVoSUhXNTVZbEtwZ3JsQlNXWkJhckpDZkJ0Um5ieVFoSlZhT1JTb3hrOHVQV0JlckV1RmlCVVlCUmdBIiwiaWQiOiJmY19CRXVkYXBXck1zcWtoYklQenJ1MjhRMF81In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZXcEVkbWh4UkVsbGJVTXlXR2xOYWw5dWQxaGFkSGRoVlY5eU0xUXhibnAzYW1KcVlUbExNRWQxZDBOMlQyRjFhMHBYUkROYWJqRklXblZSZUVOdFNVUlVjV0UxWTBOd1NXaFhTalpMZVV3eE4wWmhWSEp1VGxaMFp4SVhRa1YxWkdGd1YzSk5jM0ZyYUdKSlVIcHlkVEk0VVRBYUlrRkVjM0k1WmxSVlMyVlJVRXQ2UlUxVlJHUm9SbGR3ZUZRdGNEZzRVazE1YVVFIiwiZmN2IjoiMyIsImVpIjoiQkV1ZGFwV3JNc3FraGJJUHpydTI4UTAiLCJxYyI6IkNoQnRZV05vYVc1bElHeGxZWEp1YVc1bkVBQjlMNDRvUHciLCJxdWVzdGlvbiI6IldoYXQgZG8geW91IG1lYW4gYnkgbWFjaGluZSBsZWFybmluZz8iLCJsayI6IkdpRjNhR0YwSUdSdklIbHZkU0J0WldGdUlHMWhZMmhwYm1VZ2JHVmhjbTVwYm1jIiwiYnMiOiJjLVB5NFZJTnowZ3NVVWpKVjZqTUwxWElUVTNNVTBpcVZNaE5UTTdJekV0VnlFbE5MTXJMekV1M04xS1dVaXhIVjRpdWlrdVhTOFN6V01FWnFNNDlJRVRCMFZNaHYwakIxOGZlU0ZSS09MTllJUmtvbmw1UW9wQ1lDUkxQemVFeTVoSUhXNTVZbEtwZ3JsQlNXWkJhckpDZkJ0Um5ieVFoSlZhT1JTb3hrOHVQV0JlckV1RmlCVVlCUmdBIiwiaWQiOiJmY19CRXVkYXBXck1zcWtoYklQenJ1MjhRMF81In0%3D"
+    },
+    {
+      "question": "Is ChatGPT AI or ML?",
+      "type": "ai_overview",
+      "page_token": "C86CZXicHdDdTrMwGADgeDMebisONUuWL7LBYLGddLT8nBhoYd36jqJUQc6-e_GqvBoTn0t4_n_DudU_N6OytutX8_kwDLOTMSeoZ8LMzu287L9aMRclQFUKvbp_uEf_GrH2PyJv8xZ5Mes6vqWLI0Ru5duGTOKOamn5lvS0Bf3M9rhwCoIXkVuEPKRbr88cGI4B0RVAnCb0gB2aVX5XHkPPKSeSx4l6SbWZJKJZzgMfM3eHQ04T9DikLbwJh45i4rq-QMh27sgdhSWKbZXyS52O4YGNDeWdSXbjUjpdhlPJKqTeZUAKAt2V6WBDEPQFszlpPb8AsIlW2YETwClJeBJ4vpIbmnGdZ14mNJpEak2uIa7bPcIXRbFnzjGjk7jAlQd4qhbGzRP-SUL1UrD9kmhXHcOnr5o9LiVESA63jfhc393-fa5fm6tdde_m9AsSXIWg",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=C86CZXicHdDdTrMwGADgeDMebisONUuWL7LBYLGddLT8nBhoYd36jqJUQc6-e_GqvBoTn0t4_n_DudU_N6OytutX8_kwDLOTMSeoZ8LMzu287L9aMRclQFUKvbp_uEf_GrH2PyJv8xZ5Mes6vqWLI0Ru5duGTOKOamn5lvS0Bf3M9rhwCoIXkVuEPKRbr88cGI4B0RVAnCb0gB2aVX5XHkPPKSeSx4l6SbWZJKJZzgMfM3eHQ04T9DikLbwJh45i4rq-QMh27sgdhSWKbZXyS52O4YGNDeWdSXbjUjpdhlPJKqTeZUAKAt2V6WBDEPQFszlpPb8AsIlW2YETwClJeBJ4vpIbmnGdZ14mNJpEak2uIa7bPcIXRbFnzjGjk7jAlQd4qhbGzRP-SUL1UrD9kmhXHcOnr5o9LiVESA63jfhc393-fa5fm6tdde_m9AsSXIWg",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZXcEVkbWh4UkVsbGJVTXlXR2xOYWw5dWQxaGFkSGRoVlY5eU0xUXhibnAzYW1KcVlUbExNRWQxZDBOMlQyRjFhMHBYUkROYWJqRklXblZSZUVOdFNVUlVjV0UxWTBOd1NXaFhTalpMZVV3eE4wWmhWSEp1VGxaMFp4SVhRa1YxWkdGd1YzSk5jM0ZyYUdKSlVIcHlkVEk0VVRBYUlrRkVjM0k1WmxSVlMyVlJVRXQ2UlUxVlJHUm9SbGR3ZUZRdGNEZzRVazE1YVVFIiwiZmN2IjoiMyIsImVpIjoiQkV1ZGFwV3JNc3FraGJJUHpydTI4UTAiLCJxYyI6IkNoQnRZV05vYVc1bElHeGxZWEp1YVc1bkVBQjlMNDRvUHciLCJxdWVzdGlvbiI6IklzIENoYXRHUFQgQUkgb3IgTUw/IiwibGsiOiJHaE5wY3lCamFHRjBaM0IwSUdGcElHOXlJRzFzIiwiYnMiOiJjLVB5NFZJTnowZ3NVVWpKVjZqTUwxWElUVTNNVTBpcVZNaE5UTTdJekV0VnlFbE5MTXJMekV1M04xS1dVaXhIVjRpdWlrdVhTOFN6V01FWnFNNDlJRVRCMFZNaHYwakIxOGZlU0ZSS09MTllJUmtvbmw1UW9wQ1lDUkxQemVFeTVoSUhXNTVZbEtwZ3JsQlNXWkJhckpDZkJ0Um5ieVFoSlZhT1JTb3hrOHVQV0JlckV1RmlCVVlCUmdBIiwiaWQiOiJmY19CRXVkYXBXck1zcWtoYklQenJ1MjhRMF81In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZXcEVkbWh4UkVsbGJVTXlXR2xOYWw5dWQxaGFkSGRoVlY5eU0xUXhibnAzYW1KcVlUbExNRWQxZDBOMlQyRjFhMHBYUkROYWJqRklXblZSZUVOdFNVUlVjV0UxWTBOd1NXaFhTalpMZVV3eE4wWmhWSEp1VGxaMFp4SVhRa1YxWkdGd1YzSk5jM0ZyYUdKSlVIcHlkVEk0VVRBYUlrRkVjM0k1WmxSVlMyVlJVRXQ2UlUxVlJHUm9SbGR3ZUZRdGNEZzRVazE1YVVFIiwiZmN2IjoiMyIsImVpIjoiQkV1ZGFwV3JNc3FraGJJUHpydTI4UTAiLCJxYyI6IkNoQnRZV05vYVc1bElHeGxZWEp1YVc1bkVBQjlMNDRvUHciLCJxdWVzdGlvbiI6IklzIENoYXRHUFQgQUkgb3IgTUw%2FIiwibGsiOiJHaE5wY3lCamFHRjBaM0IwSUdGcElHOXlJRzFzIiwiYnMiOiJjLVB5NFZJTnowZ3NVVWpKVjZqTUwxWElUVTNNVTBpcVZNaE5UTTdJekV0VnlFbE5MTXJMekV1M04xS1dVaXhIVjRpdWlrdVhTOFN6V01FWnFNNDlJRVRCMFZNaHYwakIxOGZlU0ZSS09MTllJUmtvbmw1UW9wQ1lDUkxQemVFeTVoSUhXNTVZbEtwZ3JsQlNXWkJhckpDZkJ0Um5ieVFoSlZhT1JTb3hrOHVQV0JlckV1RmlCVVlCUmdBIiwiaWQiOiJmY19CRXVkYXBXck1zcWtoYklQenJ1MjhRMF81In0%3D"
+    },
+    {
+      "question": "What are 7 types of AI?",
+      "type": "ai_overview",
+      "page_token": "ZJTCh3icHdBZaoNAAABQepl8xiViaSAUjI5BotbZNPNTdIxLHZeoONG_3qWn6mkKfUd43z-i7prfF1bN8zAdFUVKuS_7vhT3Pe_3daek09pxhadCZClvjuarqb0X_ORM0jr30orIMFAbqth9Q7mdmyhmGz-rW5iIMYhZF8TVcsPA9x0ir0iLIBUTaZ-UXUqdELnyVuh0y5dMBw_85Q1cj1TceR8-ZSFyJ4M78BBiOt7a28wcb0SEG3gDRgjoQu1q5W4lcSN01IEii1nMiG9gW2DaiUuuigdVA-vuavSawJW04pkB2N4byjCIEFA9kMew4iBfcRI8U72qEbVM3pE1BI50a8-Cl2ANY4ZyDAx-AI9Ir8yo9dfQecKsrbRrDBJIfT3Q3uCu4MvpsPsfO30W7Xwcxr78A1uaelA",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=ZJTCh3icHdBZaoNAAABQepl8xiViaSAUjI5BotbZNPNTdIxLHZeoONG_3qWn6mkKfUd43z-i7prfF1bN8zAdFUVKuS_7vhT3Pe_3daek09pxhadCZClvjuarqb0X_ORM0jr30orIMFAbqth9Q7mdmyhmGz-rW5iIMYhZF8TVcsPA9x0ir0iLIBUTaZ-UXUqdELnyVuh0y5dMBw_85Q1cj1TceR8-ZSFyJ4M78BBiOt7a28wcb0SEG3gDRgjoQu1q5W4lcSN01IEii1nMiG9gW2DaiUuuigdVA-vuavSawJW04pkB2N4byjCIEFA9kMew4iBfcRI8U72qEbVM3pE1BI50a8-Cl2ANY4ZyDAx-AI9Ir8yo9dfQecKsrbRrDBJIfT3Q3uCu4MvpsPsfO30W7Xwcxr78A1uaelA",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZXcEVkbWh4UkVsbGJVTXlXR2xOYWw5dWQxaGFkSGRoVlY5eU0xUXhibnAzYW1KcVlUbExNRWQxZDBOMlQyRjFhMHBYUkROYWJqRklXblZSZUVOdFNVUlVjV0UxWTBOd1NXaFhTalpMZVV3eE4wWmhWSEp1VGxaMFp4SVhRa1YxWkdGd1YzSk5jM0ZyYUdKSlVIcHlkVEk0VVRBYUlrRkVjM0k1WmxSVlMyVlJVRXQ2UlUxVlJHUm9SbGR3ZUZRdGNEZzRVazE1YVVFIiwiZmN2IjoiMyIsImVpIjoiQkV1ZGFwV3JNc3FraGJJUHpydTI4UTAiLCJxYyI6IkNoQnRZV05vYVc1bElHeGxZWEp1YVc1bkVBQjlMNDRvUHciLCJxdWVzdGlvbiI6IldoYXQgYXJlIDcgdHlwZXMgb2YgQUk/IiwibGsiOiJHaFozYUdGMElHRnlaU0EzSUhSNWNHVnpJRzltSUdGcCIsImJzIjoiYy1QeTRWSU56MGdzVVVqSlY2ak1MMVhJVFUzTVUwaXFWTWhOVE03SXpFdFZ5RWxOTE1yTHpFdTNOMUtXVWl4SFY0aXVpa3VYUzhTeldNRVpxTTQ5SUVUQjBWTWh2MGpCMThmZVNGUktPTE5ZSVJrb25sNVFvcENZQ1JMUHplRXk1aElIVzU1WWxLcGdybEJTV1pCYXJKQ2ZCdFJuYnlRaEpWYU9SU294azh1UFdCZXJFdUZpQlVZQlJnQSIsImlkIjoiZmNfQkV1ZGFwV3JNc3FraGJJUHpydTI4UTBfNSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZXcEVkbWh4UkVsbGJVTXlXR2xOYWw5dWQxaGFkSGRoVlY5eU0xUXhibnAzYW1KcVlUbExNRWQxZDBOMlQyRjFhMHBYUkROYWJqRklXblZSZUVOdFNVUlVjV0UxWTBOd1NXaFhTalpMZVV3eE4wWmhWSEp1VGxaMFp4SVhRa1YxWkdGd1YzSk5jM0ZyYUdKSlVIcHlkVEk0VVRBYUlrRkVjM0k1WmxSVlMyVlJVRXQ2UlUxVlJHUm9SbGR3ZUZRdGNEZzRVazE1YVVFIiwiZmN2IjoiMyIsImVpIjoiQkV1ZGFwV3JNc3FraGJJUHpydTI4UTAiLCJxYyI6IkNoQnRZV05vYVc1bElHeGxZWEp1YVc1bkVBQjlMNDRvUHciLCJxdWVzdGlvbiI6IldoYXQgYXJlIDcgdHlwZXMgb2YgQUk%2FIiwibGsiOiJHaFozYUdGMElHRnlaU0EzSUhSNWNHVnpJRzltSUdGcCIsImJzIjoiYy1QeTRWSU56MGdzVVVqSlY2ak1MMVhJVFUzTVUwaXFWTWhOVE03SXpFdFZ5RWxOTE1yTHpFdTNOMUtXVWl4SFY0aXVpa3VYUzhTeldNRVpxTTQ5SUVUQjBWTWh2MGpCMThmZVNGUktPTE5ZSVJrb25sNVFvcENZQ1JMUHplRXk1aElIVzU1WWxLcGdybEJTV1pCYXJKQ2ZCdFJuYnlRaEpWYU9SU294azh1UFdCZXJFdUZpQlVZQlJnQSIsImlkIjoiZmNfQkV1ZGFwV3JNc3FraGJJUHpydTI4UTBfNSJ9"
+    },
+    {
+      "question": "मशीन लर्निंग से आप क्या समझते हैं?",
+      "type": "ai_overview",
+      "page_token": "hU0n_HicHdFbjpswFABQdTPzmfAY0hIpqobBTnBjjwD7QvxTgT2JgwmQxwwJf91Lt9MNdDWVerZwfv1uj539--WPud2G63I-H8dxduj7Q_s-U_3s2M2r66NTc1W1bV0pu1x8Xbjf92qFzsnr60cSpWIYIM4cHsvF7iSTvNwFqpR77kgmNjJ_tyHABHexMVS7sK6ag0-9kIvJHGkRLmpIPeronGIT55usZ1OWU5eccwQL2tiHjI1foVDUglXgvjgAUUSRC4W9o9TBW920H1vxbayabCdc9Mycoedl6vEJTzkeQLihFTjaUSwD2uGNcMKbPuFEgZa8jC6ak-YtVl7d2BG6LFLIvEnOMD-Rggq9lQgPtIOE2XbgXurAZFpdqECguxQduXIPTmoi66rLDLe44w62BQogiyFQiFhqjZdy1tTY7NIsKVMLrlzjEXzClI8v1ZoQsRkemifPgr9UicVI-UkgW0KKkvosZj-YB1fqqkliLWoPqG7NOe2GB_PV0159rvyn_0mrn_vTbTlc-sM_VgOdyw",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=hU0n_HicHdFbjpswFABQdTPzmfAY0hIpqobBTnBjjwD7QvxTgT2JgwmQxwwJf91Lt9MNdDWVerZwfv1uj539--WPud2G63I-H8dxduj7Q_s-U_3s2M2r66NTc1W1bV0pu1x8Xbjf92qFzsnr60cSpWIYIM4cHsvF7iSTvNwFqpR77kgmNjJ_tyHABHexMVS7sK6ag0-9kIvJHGkRLmpIPeronGIT55usZ1OWU5eccwQL2tiHjI1foVDUglXgvjgAUUSRC4W9o9TBW920H1vxbayabCdc9Mycoedl6vEJTzkeQLihFTjaUSwD2uGNcMKbPuFEgZa8jC6ak-YtVl7d2BG6LFLIvEnOMD-Rggq9lQgPtIOE2XbgXurAZFpdqECguxQduXIPTmoi66rLDLe44w62BQogiyFQiFhqjZdy1tTY7NIsKVMLrlzjEXzClI8v1ZoQsRkemifPgr9UicVI-UkgW0KKkvosZj-YB1fqqkliLWoPqG7NOe2GB_PV0159rvyn_0mrn_vTbTlc-sM_VgOdyw",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZXcEVkbWh4UkVsbGJVTXlXR2xOYWw5dWQxaGFkSGRoVlY5eU0xUXhibnAzYW1KcVlUbExNRWQxZDBOMlQyRjFhMHBYUkROYWJqRklXblZSZUVOdFNVUlVjV0UxWTBOd1NXaFhTalpMZVV3eE4wWmhWSEp1VGxaMFp4SVhRa1YxWkdGd1YzSk5jM0ZyYUdKSlVIcHlkVEk0VVRBYUlrRkVjM0k1WmxSVlMyVlJVRXQ2UlUxVlJHUm9SbGR3ZUZRdGNEZzRVazE1YVVFIiwiZmN2IjoiMyIsImVpIjoiQkV1ZGFwV3JNc3FraGJJUHpydTI4UTAiLCJxYyI6IkNoQnRZV05vYVc1bElHeGxZWEp1YVc1bkVBQjlMNDRvUHciLCJxdWVzdGlvbiI6IuCkruCktuClgOCkqCDgpLLgpLDgpY3gpKjgpL/gpILgpJcg4KS44KWHIOCkhuCkqiDgpJXgpY3gpK/gpL4g4KS44KSu4KSd4KSk4KWHIOCkueCliOCkgj8iLCJsayI6IkdpRjNhR0YwSUdSdklIbHZkU0J0WldGdUlHMWhZMmhwYm1VZ2JHVmhjbTVwYm1jZ0FRIiwiYnMiOiJjLVB5NFZJTnowZ3NVVWpKVjZqTUwxWElUVTNNVTBpcVZNaE5UTTdJekV0VnlFbE5MTXJMekV1M04xS1dVaXhIVjRpdWlrdVhTOFN6V01FWnFNNDlJRVRCMFZNaHYwakIxOGZlU0ZSS09MTllJUmtvbmw1UW9wQ1lDUkxQemVFeTVoSUhXNTVZbEtwZ3JsQlNXWkJhckpDZkJ0Um5ieVFoSlZhT1JTb3hrOHVQV0JlckV1RmlCVVlCUmdBIiwiaWQiOiJmY19CRXVkYXBXck1zcWtoYklQenJ1MjhRMF81In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZXcEVkbWh4UkVsbGJVTXlXR2xOYWw5dWQxaGFkSGRoVlY5eU0xUXhibnAzYW1KcVlUbExNRWQxZDBOMlQyRjFhMHBYUkROYWJqRklXblZSZUVOdFNVUlVjV0UxWTBOd1NXaFhTalpMZVV3eE4wWmhWSEp1VGxaMFp4SVhRa1YxWkdGd1YzSk5jM0ZyYUdKSlVIcHlkVEk0VVRBYUlrRkVjM0k1WmxSVlMyVlJVRXQ2UlUxVlJHUm9SbGR3ZUZRdGNEZzRVazE1YVVFIiwiZmN2IjoiMyIsImVpIjoiQkV1ZGFwV3JNc3FraGJJUHpydTI4UTAiLCJxYyI6IkNoQnRZV05vYVc1bElHeGxZWEp1YVc1bkVBQjlMNDRvUHciLCJxdWVzdGlvbiI6IuCkruCktuClgOCkqCDgpLLgpLDgpY3gpKjgpL%2FgpILgpJcg4KS44KWHIOCkhuCkqiDgpJXgpY3gpK%2FgpL4g4KS44KSu4KSd4KSk4KWHIOCkueCliOCkgj8iLCJsayI6IkdpRjNhR0YwSUdSdklIbHZkU0J0WldGdUlHMWhZMmhwYm1VZ2JHVmhjbTVwYm1jZ0FRIiwiYnMiOiJjLVB5NFZJTnowZ3NVVWpKVjZqTUwxWElUVTNNVTBpcVZNaE5UTTdJekV0VnlFbE5MTXJMekV1M04xS1dVaXhIVjRpdWlrdVhTOFN6V01FWnFNNDlJRVRCMFZNaHYwakIxOGZlU0ZSS09MTllJUmtvbmw1UW9wQ1lDUkxQemVFeTVoSUhXNTVZbEtwZ3JsQlNXWkJhckpDZkJ0Um5ieVFoSlZhT1JTb3hrOHVQV0JlckV1RmlCVVlCUmdBIiwiaWQiOiJmY19CRXVkYXBXck1zcWtoYklQenJ1MjhRMF81In0%3D"
+    }
+  ],
+  "ai_overview": {
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "Machine learning is a branch of artificial intelligence that lets computers learn from data and improve at tasks without being explicitly programmed.",
+        "snippet_highlighted_words": [
+          "a branch of artificial intelligence that lets computers learn from data and improve at tasks without being explicitly programmed"
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Main Types"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Supervised learning: The model learns using labeled data, meaning the correct answers are provided during training (e.g., email spam filters)."
+          },
+          {
+            "snippet": "Unsupervised learning: The model finds hidden patterns or structures in unlabeled data without guidance (e.g., grouping photos of faces)."
+          },
+          {
+            "snippet": "Reinforcement learning: An agent learns to make decisions through a system of trial, error, rewards, and penalties."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "How It Works"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Traditional programming uses input data and hardcoded logic to produce an output."
+          },
+          {
+            "snippet": "Machine learning reverses this by taking input data and known outputs to train a model that discovers the underlying logic itself."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you want to explore further, let me know if you would like to learn about specific algorithms, deep learning, or how to start coding in Python."
+      }
+    ],
+    "references": [
+      {
+        "link": "https://www.geeksforgeeks.org/machine-learning/machine-learning/",
+        "source": "geeksforgeeks.org",
+        "index": 0
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=SkvBO4ROl3Q",
+        "source": "youtube.com",
+        "index": 1
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=Au1OxVSyGas",
+        "source": "youtube.com",
+        "index": 2
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=g7H4TqGs5fw",
+        "source": "youtube.com",
+        "index": 3
+      },
+      {
+        "title": "Machine Learning Tutorial - GeeksforGeeks",
+        "link": "https://www.geeksforgeeks.org/machine-learning/machine-learning/",
+        "snippet": "Machine Learning Tutorial * Machine learning is a branch of Artificial Intelligence that focuses on developing models and algorithms that let computers le",
+        "source": "GeeksforGeeks",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6dDpKBjs-yV0x4REOm8ZxCZQO-oZpozjnK0YxoxZ0nF2ktPoneBp2iIme4-huNz1L2vfmJniQx2PZkvxin1Z-Z8y0MN0WTw9xOXld",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.geeksforgeeks.org&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 4
+      },
+      {
+        "title": "Machine Learning Tutorial for Beginners",
+        "link": "https://www.youtube.com/watch?v=SkvBO4ROl3Q&t=9",
+        "snippet": "Machine Learning Tutorial for Beginners we must stand together. order order this project will be done. by. This project will be done by statistical. machine. le",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSYz0237xwNRJdhap8qWtXU6U0xgD6pPV2TXVF-a07wt97RbhupCNv7jWxLMhn5MSFX8rosj8IWqxlMLBQnHO0RwCrmnpVHBjDO4ptNZg",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 5
+      },
+      {
+        "title": "Machine Learning Explained Simply (In 12 Minutes)",
+        "link": "https://www.youtube.com/watch?v=Au1OxVSyGas&t=509",
+        "snippet": "examples unsupervised learning is when the model finds patterns or structure in data without any labels reinforcement learning is when the model learns by takin",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSIAqOTZ4obn0ZqHKsUfbhCjEYRilkmYCjnaEwbv0BwSZFFF_ssfDgExFYB3obR0TJixmxhqmoM9neCZu13SBuFVXY5Hl54k2_Wq2QgyA",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 6
+      },
+      {
+        "title": "What is Machine Learning? Introduction for Beginners",
+        "link": "https://www.youtube.com/watch?v=g7H4TqGs5fw&t=189",
+        "snippet": "now that you understand the basics of machine learning let's take a closer look at how it works broadly there are three main ways a machine can learn supervised",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTgjGnY69K0_CXRm7zDll3ZDUGwsJ2NwCD8GO3aj6V3b_LCf8JyVTvGWNE17BvgEOvWFnlqoRKcMLlSV9iWpUIktbiWL-xhj0s_0wDY4A",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 7
+      }
+    ]
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Last Month's Machine Learning Lessons Learned",
+      "link": "https://towardsdatascience.com/last-months-lessons-learned/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScwHrOzAVbHyezGEPeEAXHGO9NS3OP3FEld1qTKwIYG68iRXmDZu55PgJyCibJUwxwzT2ECtglmCiMryadjlRS5UddBd9LqDtjq3UTgSmyWAvo8EVQhzTlPV5d9dD6GX4oU4nLg6EIna3BIVW1wcCOlyebas&ved=2ahUKEwiVvcnP6dmWAxVKUkEAHc6dLd4QFnoECCYQAQ&uoh=1",
+      "displayed_link": "https://towardsdatascience.com › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRuoAAABXRUJQVlA4IN4AAAAQBQCdASocABwAPtE-tFooIigoFAEAGglAE6ZQBRofFOQr95ba7O_1HP31cVf3IjUAAP64d_iI8JnnRWlR2hbDAQyXOapuMM2tPxWZ_kNrui2-oB7SNXm40DKbQYYnAC_PgU6Pf3qxAE4vyOP1wWOF7Evt-ijYT5LC5QZn_lppojPJy59_PdCl5O3k8xTd6HkCPh-LEx3cbtqDDVkczm3nC7nD8C4Wxf7M9xeWvr-ahxLR24k3vLg9LRM4C9uyLoP0s8JZgbu0PFrRS6ydP2DEqMNCzLgAAkQv3WOzWAA.webp",
+      "snippet": "The International Conference on Machine Learning (ICML) was first held in 1980. For its first decade, it was organized as a workshop; afterwards, it continued ...",
+      "snippet_highlighted_words": [
+        "Machine Learning"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "The International Conference on Machine Learning (ICML) was first held in 1980. For its first decade, it was organized as a workshop; afterwards, it continued ...",
+          "source_info_link": "https://towardsdatascience.com/last-months-lessons-learned/",
+          "icon": "https://serpapi.com/images/i/UklGRuoAAABXRUJQVlA4IN4AAAAQBQCdASocABwAPtE-tFooIigoFAEAGglAE6ZQBRofFOQr95ba7O_1HP31cVf3IjUAAP64d_iI8JnnRWlR2hbDAQyXOapuMM2tPxWZ_kNrui2-oB7SNXm40DKbQYYnAC_PgU6Pf3qxAE4vyOP1wWOF7Evt-ijYT5LC5QZn_lppojPJy59_PdCl5O3k8xTd6HkCPh-LEx3cbtqDDVkczm3nC7nD8C4Wxf7M9xeWvr-ahxLR24k3vLg9LRM4C9uyLoP0s8JZgbu0PFrRS6ydP2DEqMNCzLgAAkQv3WOzWAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://towardsdatascience.com/last-months-lessons-learned/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Ftowardsdatascience.com%2Flast-months-lessons-learned%2F",
+      "source": "Towards Data Science"
+    },
+    {
+      "position": 2,
+      "title": "Machine Learning Archives",
+      "link": "https://www.geeksforgeeks.org/category/ai-ml-ds/machine-learning/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESeQHrOzAVg0Nh3hBtGaFkV8PMcM_Kn2i-RzcTKn4tQhnvN60S8KUgqpS67csWUSt-Gt26kYmzilSidGouTCMABZBKQO58CKwQMpbfjDE9ZpM2L43aW8hOs3u5jhjDXKMqREOobxokmReBVwxOAOlNRe79K65_sTVepCg&ved=2ahUKEwiVvcnP6dmWAxVKUkEAHc6dLd4QFnoECCIQAQ&uoh=1",
+      "displayed_link": "https://www.geeksforgeeks.org › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRgwBAABXRUJQVlA4IAABAACQBQCdASocABwAPtE-tFooIigoFAEAGglqAMcjwWz_FsUDY-wl1mPE_3RRg2gjbnJg8ecAAAD-_SpvvHZ-cX20-wsm1etmCqaHASoYY_Kv5nc8B4isRV9I4-ZoOD2TKqbkHoNiqggBUi5fyPX4omTrYAH9sgee52qNDe9ya-2gP6SADgCG5dMGrY8gHo8A4PXa3eMxTt75gbpLZTAj3aV09rKCzunoflM-4NNTYTA09r-kLavN0UI_etioif2ERUn7apBv2V9M4Tz2IDboggPPNIdSX0XtPsqCTwZVkGnRpsCzXNI6xbdpouM1MsXip4gsN78KD-yRUcoLKyWqAAAA.webp",
+      "snippet": "MLOps (Machine Learning Operations) is a set of practices that helps teams build, deploy, monitor and maintain machine learning models in production systems ...",
+      "snippet_highlighted_words": [
+        "MLOps (Machine Learning Operations"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "MLOps (Machine Learning Operations) is a set of practices that helps teams build, deploy, monitor and maintain machine learning models in production systems ...",
+          "source_info_link": "https://www.geeksforgeeks.org/category/ai-ml-ds/machine-learning/",
+          "icon": "https://serpapi.com/images/i/UklGRgwBAABXRUJQVlA4IAABAACQBQCdASocABwAPtE-tFooIigoFAEAGglqAMcjwWz_FsUDY-wl1mPE_3RRg2gjbnJg8ecAAAD-_SpvvHZ-cX20-wsm1etmCqaHASoYY_Kv5nc8B4isRV9I4-ZoOD2TKqbkHoNiqggBUi5fyPX4omTrYAH9sgee52qNDe9ya-2gP6SADgCG5dMGrY8gHo8A4PXa3eMxTt75gbpLZTAj3aV09rKCzunoflM-4NNTYTA09r-kLavN0UI_etioif2ERUn7apBv2V9M4Tz2IDboggPPNIdSX0XtPsqCTwZVkGnRpsCzXNI6xbdpouM1MsXip4gsN78KD-yRUcoLKyWqAAAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.geeksforgeeks.org/category/ai-ml-ds/machine-learning/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.geeksforgeeks.org%2Fcategory%2Fai-ml-ds%2Fmachine-learning%2F",
+      "source": "GeeksforGeeks"
+    },
+    {
+      "position": 3,
+      "title": "Introduction to Machine Learning: A Beginner's Guide",
+      "link": "https://www.learnvern.com/supervised-machine-learning/introduction-to-machine-learning",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjgEB6zswFWZ-vtqvh-o8mQQFV2Pd5oSsLfRSEIoHQvms82jl3O14IYdQCsTvWFBSig5J84n4GGBHfvuM9wIi9en0rTsTUHx3BCWE0AhYdLAz7dRPmDVJpkCF7c9WWajcP23BuET1FGXA4DWLaO9-hz063POCIwlCHYuYa5bhpEQ9rBpm774fzJIxHlNK55-l&ved=2ahUKEwiVvcnP6dmWAxVKUkEAHc6dLd4QFnoECCQQAQ&uoh=1",
+      "displayed_link": "https://www.learnvern.com › supervised-machine-learning",
+      "favicon": "https://serpapi.com/images/i/UklGRqoAAABXRUJQVlA4IJ4AAACQAgCdASoQABAAAsBMJQBOgMUE85GDIo9xTqWNgAD-8by1krqZpALf4uNqVxeIDpOGh_TtsWPbM643HTuv9Lfe5887rrPKZzwhhqt_0lKhtwZDJb1sKsjk_5fB_yH-_0-mPkN7c82gMiKVQkLsqZx45amopkzU2tX9G6j3w78aXjKE70hh-m3Jmu7838yl8UxP4-e-fvN-ZzCMM6wAAA.webp",
+      "date": "18 मार्च 2022",
+      "snippet": "This is a beginner's guide to machine learning. It starts with an introduction to the topic and then goes into how it can be used in ...",
+      "snippet_highlighted_words": [
+        "beginner's guide to machine learning"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "This is a beginner's guide to machine learning. It starts with an introduction to the topic and then goes into how it can be used in ...",
+          "source_info_link": "https://www.learnvern.com/supervised-machine-learning/introduction-to-machine-learning",
+          "icon": "https://serpapi.com/images/i/UklGRqoAAABXRUJQVlA4IJ4AAACQAgCdASoQABAAAsBMJQBOgMUE85GDIo9xTqWNgAD-8by1krqZpALf4uNqVxeIDpOGh_TtsWPbM643HTuv9Lfe5887rrPKZzwhhqt_0lKhtwZDJb1sKsjk_5fB_yH-_0-mPkN7c82gMiKVQkLsqZx45amopkzU2tX9G6j3w78aXjKE70hh-m3Jmu7838yl8UxP4-e-fvN-ZzCMM6wAAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.learnvern.com/supervised-machine-learning/introduction-to-machine-learning&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.learnvern.com%2Fsupervised-machine-learning%2Fintroduction-to-machine-learning",
+      "source": "LearnVern"
+    },
+    {
+      "position": 4,
+      "title": "AI and Machine Learning Placement: How Shrushti Kale ...",
+      "link": "https://www.paruluniversity.ac.in/blog/ai-and-machine-learning-placement-at-parul-university-how-shrushti-kale-learned-to-create-impact-and-reached-jocata/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAES1AEB6zswFaFrWMUxdERsI4zzwY_xsSYdL98nLnFrebbnJJws9hH-lU6esJJ3byuuzw_42u_5ELWyaLpHCtTDCj0rle85opw4wZlgoeeSYGSbLnhXk5xpu0U2EJLPbd7TaqCBF6aYSkbBehyxN-A10fsjQP-0g2Ock1Pymg1N6XGzklCVvsyrL8-Cy1EEmoxC0c9uvzIRUxvuLKRw04H2L2oJCB3V7I3AFe_ZY3y9EXHB7zlQhBdsBZyoC-cW1BS1bOlq1Q9iIhNZopkBB4-EQbDIZRm9gg&ved=2ahUKEwiVvcnP6dmWAxVKUkEAHc6dLd4QFnoECCUQAQ&uoh=1",
+      "displayed_link": "https://www.paruluniversity.ac.in › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRqAAAABXRUJQVlA4IJQAAACQAgCdASoQABAAAsBMJbACsAYsjzECJKA45OtV2AD--q34Qp_aJRztb44xBluv-2noB5X-xKz-Lu_geLt2DtpFoMpWvSMCJXUfzPCZPNTKs2o6DVibxCrtECgUR6vwHJ2hkyVnx7-hZ7PhawKANoTG2e_30RaxFRjJv-GgIyABEvHa-4ONvkfBnw-YgicFRv_u00AA.webp",
+      "date": "7 अग॰ 2026",
+      "snippet": "How does a student land an AI and machine learning placement? Parul University's Shrushti Kale did it through self-directed learning, ...",
+      "snippet_highlighted_words": [
+        "self-directed learning"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "How does a student land an AI and machine learning placement? Parul University's Shrushti Kale did it through self-directed learning, ...",
+          "source_info_link": "https://www.paruluniversity.ac.in/blog/ai-and-machine-learning-placement-at-parul-university-how-shrushti-kale-learned-to-create-impact-and-reached-jocata/",
+          "icon": "https://serpapi.com/images/i/UklGRqAAAABXRUJQVlA4IJQAAACQAgCdASoQABAAAsBMJbACsAYsjzECJKA45OtV2AD--q34Qp_aJRztb44xBluv-2noB5X-xKz-Lu_geLt2DtpFoMpWvSMCJXUfzPCZPNTKs2o6DVibxCrtECgUR6vwHJ2hkyVnx7-hZ7PhawKANoTG2e_30RaxFRjJv-GgIyABEvHa-4ONvkfBnw-YgicFRv_u00AA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.paruluniversity.ac.in/blog/ai-and-machine-learning-placement-at-parul-university-how-shrushti-kale-learned-to-create-impact-and-reached-jocata/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.paruluniversity.ac.in%2Fblog%2Fai-and-machine-learning-placement-at-parul-university-how-shrushti-kale-learned-to-create-impact-and-reached-jocata%2F",
+      "source": "Parul University"
+    },
+    {
+      "position": 5,
+      "title": "My First Machine Learning Project in Python | by Manalimran",
+      "link": "https://python.plainenglish.io/my-first-machine-learning-project-in-python-eaae5a3ccedd",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjwEB6zswFUsxWIUseB6QGDkPzYyUvf9AnKozCe1Z0uUT9PxT5uRdGuukFZM7hqP0iNrQD444ofs9MNFPuG39IP1U2AiGanwwGzk357CfzYZ_Fd_IzcKrwRGrQPjbXKp7eQ3TYF7IvcPO_R6Kiw-hbmpzEokN49krTQDMKbUYUnKyuCDsM32D4He6af4yp5hwUQ&ved=2ahUKEwiVvcnP6dmWAxVKUkEAHc6dLd4QFnoECEgQAQ&uoh=1",
+      "displayed_link": "https://python.plainenglish.io › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRlQBAABXRUJQVlA4IEgBAADQBgCdASocABwAPtEwtFooIigoGAEAGglpAAzq71pc92cX6E9FXqq_sAM0L2JYbbZQyexZs_v-NrvA0U_FIAAA_sIYLXkbXykzt_3YNJ7eCObOzJSJIUK3TNIwx5T5djQFT7ZStkTTvgIhnq40fdJok7BALVaGNolDOeHbSXOIKODioKmP7R3S5LOLlECQO5Y5KdzMij8MDj19HbZ-M-v-xLfqGNYfsL6Imc2b0KTp4gRv9dErc-5NU_V6lufsojo3H16SD-AmH6KIbdenxCT9LrUpLf_I2l63ekMuwGZHXouDM1uGqlEXu4vTxXljUWXhCMi88CHq8DH8v6lFTcrf8RSY8-qSvTqGoip-_2z89tenN2sVinMXPY8brcY_COxeQbm61xg18_j-wboLoZV-zjlNxk7878y-ZJmG1mfD_qy6Ozw3BIAA.webp",
+      "date": "29 अग॰ 2025",
+      "snippet": "How I Built, Trained, and Improved a Model That Actually Worked. When I first dipped my toes into Machine Learning (ML), I felt both excited ...",
+      "snippet_highlighted_words": [
+        "How I Built, Trained, and Improved a Model That Actually Worked"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "How I Built, Trained, and Improved a Model That Actually Worked. When I first dipped my toes into Machine Learning (ML), I felt both excited ...",
+          "source_info_link": "https://python.plainenglish.io/my-first-machine-learning-project-in-python-eaae5a3ccedd",
+          "icon": "https://serpapi.com/images/i/UklGRlQBAABXRUJQVlA4IEgBAADQBgCdASocABwAPtEwtFooIigoGAEAGglpAAzq71pc92cX6E9FXqq_sAM0L2JYbbZQyexZs_v-NrvA0U_FIAAA_sIYLXkbXykzt_3YNJ7eCObOzJSJIUK3TNIwx5T5djQFT7ZStkTTvgIhnq40fdJok7BALVaGNolDOeHbSXOIKODioKmP7R3S5LOLlECQO5Y5KdzMij8MDj19HbZ-M-v-xLfqGNYfsL6Imc2b0KTp4gRv9dErc-5NU_V6lufsojo3H16SD-AmH6KIbdenxCT9LrUpLf_I2l63ekMuwGZHXouDM1uGqlEXu4vTxXljUWXhCMi88CHq8DH8v6lFTcrf8RSY8-qSvTqGoip-_2z89tenN2sVinMXPY8brcY_COxeQbm61xg18_j-wboLoZV-zjlNxk7878y-ZJmG1mfD_qy6Ozw3BIAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://python.plainenglish.io/my-first-machine-learning-project-in-python-eaae5a3ccedd&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fpython.plainenglish.io%2Fmy-first-machine-learning-project-in-python-eaae5a3ccedd",
+      "source": "Python in Plain English"
+    },
+    {
+      "position": 6,
+      "title": "Machine Learning - Google Play पर ऐप्लिकेशन",
+      "link": "https://play.google.com/store/apps/details?id=in.softecks.machinelearning&hl=hi",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Din.softecks.machinelearning%26hl%3Dhi&ved=2ahUKEwiVvcnP6dmWAxVKUkEAHc6dLd4QFnoECCEQAQ",
+      "displayed_link": "https://play.google.com › store › apps › details › id=in.so...",
+      "favicon": "https://serpapi.com/images/i/UklGRkABAABXRUJQVlA4IDQBAAAQCQCdASogACAAPtE-tFooIigoFAEAGglsALszNDmfmfEB73thtgOzN6APJJ6f_qAPQA8rf2MP2W9I4mYjJ8khuaW8I_yP45fxEOMKNHCNJKAA_vvXTofIAVduHb-TXX4D3dQelpbt9yrOpq96LYIcnaoaRz7UWh1LxKN2ikVNfzze6YfrH-paXZEvjZHmHxqvASu7QWwFwALL3kur9pNnpHcddaAvbCo13kZ3snMZ1bG69n-Nyp9qUX1mugDQb-f_RP6_Di07-pNxe9Ja_-mSzKIQqTntZt8Qny57cYw5z2yP2QgTpyTgRbzRYRD8X0Br4Wzh90vJxaT-98P41tufiNul_j00xlsWSfBs27mpIYAUOy6dHrbdDnJVG8ZPgssUqINxPQnEc4LXCAuo7MH9pKHgAA.webp",
+      "snippet": "कृत्रिम बुद्धिमत्ता, डेटा विज्ञान, भविष्यसूचक मॉडलिंग और मॉडल विकास को समझने में आपकी ...",
+      "about_this_result": {
+        "source": {
+          "description": "कृत्रिम बुद्धिमत्ता, डेटा विज्ञान, भविष्यसूचक मॉडलिंग और मॉडल विकास को समझने में आपकी ...",
+          "source_info_link": "https://play.google.com/store/apps/details?id=in.softecks.machinelearning&hl=hi",
+          "icon": "https://serpapi.com/images/i/UklGRkABAABXRUJQVlA4IDQBAAAQCQCdASogACAAPtE-tFooIigoFAEAGglsALszNDmfmfEB73thtgOzN6APJJ6f_qAPQA8rf2MP2W9I4mYjJ8khuaW8I_yP45fxEOMKNHCNJKAA_vvXTofIAVduHb-TXX4D3dQelpbt9yrOpq96LYIcnaoaRz7UWh1LxKN2ikVNfzze6YfrH-paXZEvjZHmHxqvASu7QWwFwALL3kur9pNnpHcddaAvbCo13kZ3snMZ1bG69n-Nyp9qUX1mugDQb-f_RP6_Di07-pNxe9Ja_-mSzKIQqTntZt8Qny57cYw5z2yP2QgTpyTgRbzRYRD8X0Br4Wzh90vJxaT-98P41tufiNul_j00xlsWSfBs27mpIYAUOy6dHrbdDnJVG8ZPgssUqINxPQnEc4LXCAuo7MH9pKHgAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://play.google.com/store/apps/details?id=in.softecks.machinelearning&hl=hi&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Din.softecks.machinelearning%26hl%3Dhi",
+      "source": "Google Play"
+    },
+    {
+      "position": 7,
+      "title": "परिचय | Machine Learning",
+      "link": "https://developers.google.com/machine-learning/recommendation?hl=hi",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=https://developers.google.com/machine-learning/recommendation%3Fhl%3Dhi&ved=2ahUKEwiVvcnP6dmWAxVKUkEAHc6dLd4QFnoECCMQAQ",
+      "displayed_link": "https://developers.google.com › ... › परिचय",
+      "favicon": "https://serpapi.com/images/i/UklGRpYBAABXRUJQVlA4IIoBAACwBwCdASocABwAPtEutFooIagoGAEAGglsALEMq3oCaY3ALGgw3cx_xyvgByn8hv16Bdj3K3pDLwDSJ1bi8k_koAdH_JQAAP73gOdlr58fRHMqu2eucnKRoHQ7WqxT5WXNMXzZDPfoX4CcrarH9uzwy7LeoBTryjQLhWqMewIa-JWCFvwx8863YV0yTZp2wHluunb02gTL8rdJhKKIt-_IEsdRbXIfGBSAhI5gclIVOypydsEGoeO-2RwEuVvcjtNmLhgn1YZVz1ny3lTyaBbaJvwT03ZpP06tz0TYp78_jH_e3vWd7T0E1tDDX2UBcdS7GfxOz2guP0YhZB-lcqWK0v-Gcppym5s18Sv7BlpapKYFBJ-vQwE50VygXnHxvlX7FdO6iZAD0E7mmo53gC0iHffVI5pmRmMy7hgU023WnNdomLg1gja9rO_wH0hUUu1s-39UssnRXNpqa51l6uAuWl7FMW0u2WeFOcQnkSsxCXCDVqA5bL6-__q-8pa_aa3gqN53lbH12AAA.webp",
+      "snippet": "इस कोर्स के लिए माना जाता है कि आपके पास: मशीन लर्निंग क्रैश कोर्स पूरा हुआ व्यक्तिगत तौर ...",
+      "snippet_highlighted_words": [
+        "मशीन लर्निंग क्रैश कोर्स"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "इस कोर्स के लिए माना जाता है कि आपके पास: मशीन लर्निंग क्रैश कोर्स पूरा हुआ व्यक्तिगत तौर ...",
+          "source_info_link": "https://developers.google.com/machine-learning/recommendation?hl=hi",
+          "icon": "https://serpapi.com/images/i/UklGRpYBAABXRUJQVlA4IIoBAACwBwCdASocABwAPtEutFooIagoGAEAGglsALEMq3oCaY3ALGgw3cx_xyvgByn8hv16Bdj3K3pDLwDSJ1bi8k_koAdH_JQAAP73gOdlr58fRHMqu2eucnKRoHQ7WqxT5WXNMXzZDPfoX4CcrarH9uzwy7LeoBTryjQLhWqMewIa-JWCFvwx8863YV0yTZp2wHluunb02gTL8rdJhKKIt-_IEsdRbXIfGBSAhI5gclIVOypydsEGoeO-2RwEuVvcjtNmLhgn1YZVz1ny3lTyaBbaJvwT03ZpP06tz0TYp78_jH_e3vWd7T0E1tDDX2UBcdS7GfxOz2guP0YhZB-lcqWK0v-Gcppym5s18Sv7BlpapKYFBJ-vQwE50VygXnHxvlX7FdO6iZAD0E7mmo53gC0iHffVI5pmRmMy7hgU023WnNdomLg1gja9rO_wH0hUUu1s-39UssnRXNpqa51l6uAuWl7FMW0u2WeFOcQnkSsxCXCDVqA5bL6-__q-8pa_aa3gqN53lbH12AAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://developers.google.com/machine-learning/recommendation?hl=hi&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fdevelopers.google.com%2Fmachine-learning%2Frecommendation%3Fhl%3Dhi",
+      "source": "Google for Developers"
+    },
+    {
+      "position": 8,
+      "title": "The best explanation of What is Machine Learning and How it ...",
+      "link": "https://www.reddit.com/r/ArtificialInteligence/comments/u41hxi/the_best_explanation_of_what_is_machine_learning/",
+      "displayed_link": "2 टिप्पणियां · 4 वर्ष पहले",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStUrPpfR3q3X0DvGEZxrcJqpVoCtDow2MDRfgqM2ql0oWam13Si5gvBg&s",
+      "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp",
+      "snippet": "The best explanation of What is Machine Learning and How it works? MUST WATCH. r/AIDevelopersSociety • 4 yr. ago. The best explanation of What ...",
+      "duration": "14:40",
+      "about_this_result": {
+        "source": {
+          "description": "The best explanation of What is Machine Learning and How it works? MUST WATCH. r/AIDevelopersSociety • 4 yr. ago. The best explanation of What ...",
+          "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+        }
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.google.co.in/goto?url=CAESqAEB6zswFTIu9f24_ITnMRY0Li-83l7v39IoX_kTVF9Eyc_RYW0ZKFcvslj8vw_-5wU8Poq9m04xk2DCvID-jEEPV6y4CIgNEXNap4UnT8SBePWPhfdtVRExfs-n7JcG7XHpiOr2wZ7pE__JNTaeGokSuzoZAxWPEYkGIyPexpGMX8i0_48Lzq7ozQcgQqUCESz44jQM_fXDt3wkvgaY6lHavo81lXP24uw&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.google.co.in%2Fgoto%3Furl%3DCAESqAEB6zswFTIu9f24_ITnMRY0Li-83l7v39IoX_kTVF9Eyc_RYW0ZKFcvslj8vw_-5wU8Poq9m04xk2DCvID-jEEPV6y4CIgNEXNap4UnT8SBePWPhfdtVRExfs-n7JcG7XHpiOr2wZ7pE__JNTaeGokSuzoZAxWPEYkGIyPexpGMX8i0_48Lzq7ozQcgQqUCESz44jQM_fXDt3wkvgaY6lHavo81lXP24uw",
+      "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcS6gxz9SVlQV9FJuse7uPeKhNGhW8zWpuf9fw",
+      "source": "Reddit · r/ArtificialInteligence"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=Machine+Learning&sca_esv=def51ffada9549d3&gl=in&hl=hi&sxsrf=APpeQns-2JZF7pooN93ZPl1Q89rXcobgXQ:1788693252833&ei=BEudapWrMsqkhbIPzru28Q0&start=10&sa=N&sstk=AS6-VmIbNASfr7yWaCUQa7kIF-xHESuJccoPps94NHO8YZrU4-fIeSJm7zYKXVwoS8djSKJlm6HkwHINc_08b1U1Qk8QzplzmYG11w&ved=2ahUKEwiVvcnP6dmWAxVKUkEAHc6dLd4Q8NMDegQIOxAI",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=Machine+Learning&sca_esv=def51ffada9549d3&gl=in&hl=hi&sxsrf=APpeQns-2JZF7pooN93ZPl1Q89rXcobgXQ:1788693252833&ei=BEudapWrMsqkhbIPzru28Q0&start=10&sa=N&sstk=AS6-VmIbNASfr7yWaCUQa7kIF-xHESuJccoPps94NHO8YZrU4-fIeSJm7zYKXVwoS8djSKJlm6HkwHINc_08b1U1Qk8QzplzmYG11w&ved=2ahUKEwiVvcnP6dmWAxVKUkEAHc6dLd4Q8tMDegQIOxAE",
+      "3": "https://www.google.co.in/search?q=Machine+Learning&sca_esv=def51ffada9549d3&gl=in&hl=hi&sxsrf=APpeQns-2JZF7pooN93ZPl1Q89rXcobgXQ:1788693252833&ei=BEudapWrMsqkhbIPzru28Q0&start=20&sa=N&sstk=AS6-VmIbNASfr7yWaCUQa7kIF-xHESuJccoPps94NHO8YZrU4-fIeSJm7zYKXVwoS8djSKJlm6HkwHINc_08b1U1Qk8QzplzmYG11w&ved=2ahUKEwiVvcnP6dmWAxVKUkEAHc6dLd4Q8tMDegQIOxAG"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Machine+Learning&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Machine+Learning&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Machine+Learning&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Machine+Learning&start=20"
+    }
+  }
+}

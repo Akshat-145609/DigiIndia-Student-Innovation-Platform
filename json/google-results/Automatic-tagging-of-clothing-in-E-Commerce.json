@@ -1,0 +1,345 @@
+{
+  "search_metadata": {
+    "id": "6a9d4d3d3d06ea3f356d3ec0",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/A4zjj_Q0rxUNy9DNjq41EbclUQk5BE7uZH2l8rW2HVo/6a9d4d3d3d06ea3f356d3ec0.json",
+    "markdown_endpoint": "https://serpapi.com/searches/A4zjj_Q0rxUNy9DNjq41EbclUQk5BE7uZH2l8rW2HVo/6a9d4d3d3d06ea3f356d3ec0.md",
+    "created_at": "2026-09-06 11:23:41 UTC",
+    "processed_at": "2026-09-06 11:23:41 UTC",
+    "google_url": "https://www.google.co.in/search?q=Automatic+tagging+of+clothing+in+E-Commerce&oq=Automatic+tagging+of+clothing+in+E-Commerce&uule=w+CAIQICIFSW5kaWE&hl=hi&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/A4zjj_Q0rxUNy9DNjq41EbclUQk5BE7uZH2l8rW2HVo/6a9d4d3d3d06ea3f356d3ec0.html",
+    "total_time_taken": 2.7
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Automatic tagging of clothing in E-Commerce",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Automatic tagging of clothing in E-Commerce",
+    "total_results": 140000,
+    "time_taken_displayed": 0.43,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "related_questions": [
+    {
+      "question": "What are the different types of clothing tags?",
+      "type": "ai_overview",
+      "page_token": "YhGbp3icHdBbbuIwFABQdTP9BDtMOhokVInmIUJjsJNrCD8jxw4k8c2jEBGav-6hS5hVzWpGmrOE8_UHq9b-ffouh6G_LefzcRxnl667YDHT3axq5-r22eq5Voi50nb58vOFvp71yr_r9dtVrzn0vfQESQg4kritDKkSvsGiEULSYGE8Q0VjrjE8mDpkNKHlMW9PG01wD35UsjriIjAjA_YOaaCkDEBisOVkdHYg3PjAtikpF2noopSc5F4ZpY6LrD7x_Iihhl7sjqcgb8tbgeWuCMsWPOyA9G8ZBHGaYhtbcWZ-34nD4154TEqJlfF9B-zmR5IaZSwf4npDTdg3Jxrtk-ZR5467T5BNesF4jkCgwSpDTYomuvql4bEX2ey4RgUXR04ZeQfJc4tx1jKhHl3FQUy6xgYc-yn8myvQUgh-fSjASViYknQzKCq2WeMegD-f9X21eP5_vfp9boZlf-0u_wCoC44j",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=YhGbp3icHdBbbuIwFABQdTP9BDtMOhokVInmIUJjsJNrCD8jxw4k8c2jEBGav-6hS5hVzWpGmrOE8_UHq9b-ffouh6G_LefzcRxnl667YDHT3axq5-r22eq5Voi50nb58vOFvp71yr_r9dtVrzn0vfQESQg4kritDKkSvsGiEULSYGE8Q0VjrjE8mDpkNKHlMW9PG01wD35UsjriIjAjA_YOaaCkDEBisOVkdHYg3PjAtikpF2noopSc5F4ZpY6LrD7x_Iihhl7sjqcgb8tbgeWuCMsWPOyA9G8ZBHGaYhtbcWZ-34nD4154TEqJlfF9B-zmR5IaZSwf4npDTdg3Jxrtk-ZR5467T5BNesF4jkCgwSpDTYomuvql4bEX2ey4RgUXR04ZeQfJc4tx1jKhHl3FQUy6xgYc-yn8myvQUgh-fSjASViYknQzKCq2WeMegD-f9X21eP5_vfp9boZlf-0u_wCoC44j",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTGIxVkhjVXRDU2sxcU9FaERXV28yTURCbGRYZzBTbFJMYzJwUlIxUlVjVGxXVGtKcVNEZHpYMEZxVVZwUlVtZFlhVnBtVVhkVFlYcGhWbGg1UVVaSlRrOUhhVzlNT1hOaWN6WXlTMnhzVlZSS1pFcFdaMG80U2psRVFSSVhVREF5WkdGd1pXbElObGMyTkMxRlVHNUpUR0p6VVdzYUlrRkVjM0k1WmxOWlEyTnhjVGxzTUdkUk9HUmxjVXR0WlZOcU9EaENkRGhXWlVFIiwiZmN2IjoiMyIsImVpIjoiUDAyZGFwZWlINlc2NC1FUG5JTGJzUWsiLCJxYyI6IkNpdGhkWFJ2YldGMGFXTWdkR0ZuWjJsdVp5QnZaaUJqYkc5MGFHbHVaeUJwYmlCbElHTnZiVzFsY21ObEVBQjlfOGtHUHciLCJxdWVzdGlvbiI6IldoYXQgYXJlIHRoZSBkaWZmZXJlbnQgdHlwZXMgb2YgY2xvdGhpbmcgdGFncz8iLCJsayI6IkdoSmpiRzkwYUdsdVp5QjBZV2NnZEhsd1pYTSIsImJzIjoiYzVXUHpRckNNQkNFOGJvbkVWSEphZFd6VmVJRDVDQUlmUUxQUzdyOWdUUXBTVXJwMjJzcjFkN0UwOERPTjhzTTNDRjVsQlNSUEdNc0diTXF6OW16alJqN2hnTzZITFZ4c2F4c2daR0tvT1Jhck9hWE53ZFgyS2JoaV9KSnU3cG1yMW5KbmRoVWN3c25DelNjYjJTeGR5MDJiUnpVby12cy1OWlo3RXBuT0pEaFQxakppMGowWHhGSTRUQXVmSFdnQ1NNc3lOZkRTazNHY0tia1VleTdYOVJ5OFFRIiwiaWQiOiJmY19QMDJkYXBlaUg2VzY0LUVQbklMYnNRa181In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTGIxVkhjVXRDU2sxcU9FaERXV28yTURCbGRYZzBTbFJMYzJwUlIxUlVjVGxXVGtKcVNEZHpYMEZxVVZwUlVtZFlhVnBtVVhkVFlYcGhWbGg1UVVaSlRrOUhhVzlNT1hOaWN6WXlTMnhzVlZSS1pFcFdaMG80U2psRVFSSVhVREF5WkdGd1pXbElObGMyTkMxRlVHNUpUR0p6VVdzYUlrRkVjM0k1WmxOWlEyTnhjVGxzTUdkUk9HUmxjVXR0WlZOcU9EaENkRGhXWlVFIiwiZmN2IjoiMyIsImVpIjoiUDAyZGFwZWlINlc2NC1FUG5JTGJzUWsiLCJxYyI6IkNpdGhkWFJ2YldGMGFXTWdkR0ZuWjJsdVp5QnZaaUJqYkc5MGFHbHVaeUJwYmlCbElHTnZiVzFsY21ObEVBQjlfOGtHUHciLCJxdWVzdGlvbiI6IldoYXQgYXJlIHRoZSBkaWZmZXJlbnQgdHlwZXMgb2YgY2xvdGhpbmcgdGFncz8iLCJsayI6IkdoSmpiRzkwYUdsdVp5QjBZV2NnZEhsd1pYTSIsImJzIjoiYzVXUHpRckNNQkNFOGJvbkVWSEphZFd6VmVJRDVDQUlmUUxQUzdyOWdUUXBTVXJwMjJzcjFkN0UwOERPTjhzTTNDRjVsQlNSUEdNc0diTXF6OW16alJqN2hnTzZITFZ4c2F4c2daR0tvT1Jhck9hWE53ZFgyS2JoaV9KSnU3cG1yMW5KbmRoVWN3c25DelNjYjJTeGR5MDJiUnpVby12cy1OWlo3RXBuT0pEaFQxakppMGowWHhGSTRUQXVmSFdnQ1NNc3lOZkRTazNHY0tia1VleTdYOVJ5OFFRIiwiaWQiOiJmY19QMDJkYXBlaUg2VzY0LUVQbklMYnNRa181In0%3D"
+    },
+    {
+      "question": "Is clothing e-commerce?",
+      "type": "ai_overview",
+      "page_token": "-kZ-PHicHdBRboIwAADQ7DJ-CgVxm4lZrEANGXUU2kp_FiwKjFKI4ED_dpedaqfZsgO8n_f1rSpd_zyIchi6fmUY4zjOi7Yt1Gku23mljay_aWnITKljJuvV8nEJXs5y7fUj3LYjjGjXMZeYscJXQVM7BMrnO-xKjd9w43jUhpVo8uBU98PRrc0DgNtEwyZuCElZPuWKWrEngogViz3Ck-DAkzqcJCAHiojLd6GDaa5ThjG18jarQM_R4r5PgowjkhCKr6mtFomup0g9AXxniqlnnZoUCJNYIXfK3FYWbkwrVeKNoT9hb6yTV8Q-2IxhQ0qJWBe74oA_ooEweI3pVEngX1AVQLLDtz0XRJp5QxVcCkt5R86cEIkyU6KXXje-0oWZUB_OzvJzbc_-x9bv52ZYdZe2-AV9Anfk",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=-kZ-PHicHdBRboIwAADQ7DJ-CgVxm4lZrEANGXUU2kp_FiwKjFKI4ED_dpedaqfZsgO8n_f1rSpd_zyIchi6fmUY4zjOi7Yt1Gku23mljay_aWnITKljJuvV8nEJXs5y7fUj3LYjjGjXMZeYscJXQVM7BMrnO-xKjd9w43jUhpVo8uBU98PRrc0DgNtEwyZuCElZPuWKWrEngogViz3Ck-DAkzqcJCAHiojLd6GDaa5ThjG18jarQM_R4r5PgowjkhCKr6mtFomup0g9AXxniqlnnZoUCJNYIXfK3FYWbkwrVeKNoT9hb6yTV8Q-2IxhQ0qJWBe74oA_ooEweI3pVEngX1AVQLLDtz0XRJp5QxVcCkt5R86cEIkyU6KXXje-0oWZUB_OzvJzbc_-x9bv52ZYdZe2-AV9Anfk",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTGIxVkhjVXRDU2sxcU9FaERXV28yTURCbGRYZzBTbFJMYzJwUlIxUlVjVGxXVGtKcVNEZHpYMEZxVVZwUlVtZFlhVnBtVVhkVFlYcGhWbGg1UVVaSlRrOUhhVzlNT1hOaWN6WXlTMnhzVlZSS1pFcFdaMG80U2psRVFSSVhVREF5WkdGd1pXbElObGMyTkMxRlVHNUpUR0p6VVdzYUlrRkVjM0k1WmxOWlEyTnhjVGxzTUdkUk9HUmxjVXR0WlZOcU9EaENkRGhXWlVFIiwiZmN2IjoiMyIsImVpIjoiUDAyZGFwZWlINlc2NC1FUG5JTGJzUWsiLCJxYyI6IkNpdGhkWFJ2YldGMGFXTWdkR0ZuWjJsdVp5QnZaaUJqYkc5MGFHbHVaeUJwYmlCbElHTnZiVzFsY21ObEVBQjlfOGtHUHciLCJxdWVzdGlvbiI6IklzIGNsb3RoaW5nIGUtY29tbWVyY2U/IiwibGsiOiJHaFpwY3lCamJHOTBhR2x1WnlCbElHTnZiVzFsY21ObCIsImJzIjoiYzVXUHpRckNNQkNFOGJvbkVWSEphZFd6VmVJRDVDQUlmUUxQUzdyOWdUUXBTVXJwMjJzcjFkN0UwOERPTjhzTTNDRjVsQlNSUEdNc0diTXF6OW16alJqN2hnTzZITFZ4c2F4c2daR0tvT1Jhck9hWE53ZFgyS2JoaV9KSnU3cG1yMW5KbmRoVWN3c25DelNjYjJTeGR5MDJiUnpVby12cy1OWlo3RXBuT0pEaFQxakppMGowWHhGSTRUQXVmSFdnQ1NNc3lOZkRTazNHY0tia1VleTdYOVJ5OFFRIiwiaWQiOiJmY19QMDJkYXBlaUg2VzY0LUVQbklMYnNRa181In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTGIxVkhjVXRDU2sxcU9FaERXV28yTURCbGRYZzBTbFJMYzJwUlIxUlVjVGxXVGtKcVNEZHpYMEZxVVZwUlVtZFlhVnBtVVhkVFlYcGhWbGg1UVVaSlRrOUhhVzlNT1hOaWN6WXlTMnhzVlZSS1pFcFdaMG80U2psRVFSSVhVREF5WkdGd1pXbElObGMyTkMxRlVHNUpUR0p6VVdzYUlrRkVjM0k1WmxOWlEyTnhjVGxzTUdkUk9HUmxjVXR0WlZOcU9EaENkRGhXWlVFIiwiZmN2IjoiMyIsImVpIjoiUDAyZGFwZWlINlc2NC1FUG5JTGJzUWsiLCJxYyI6IkNpdGhkWFJ2YldGMGFXTWdkR0ZuWjJsdVp5QnZaaUJqYkc5MGFHbHVaeUJwYmlCbElHTnZiVzFsY21ObEVBQjlfOGtHUHciLCJxdWVzdGlvbiI6IklzIGNsb3RoaW5nIGUtY29tbWVyY2U%2FIiwibGsiOiJHaFpwY3lCamJHOTBhR2x1WnlCbElHTnZiVzFsY21ObCIsImJzIjoiYzVXUHpRckNNQkNFOGJvbkVWSEphZFd6VmVJRDVDQUlmUUxQUzdyOWdUUXBTVXJwMjJzcjFkN0UwOERPTjhzTTNDRjVsQlNSUEdNc0diTXF6OW16alJqN2hnTzZITFZ4c2F4c2daR0tvT1Jhck9hWE53ZFgyS2JoaV9KSnU3cG1yMW5KbmRoVWN3c25DelNjYjJTeGR5MDJiUnpVby12cy1OWlo3RXBuT0pEaFQxakppMGowWHhGSTRUQXVmSFdnQ1NNc3lOZkRTazNHY0tia1VleTdYOVJ5OFFRIiwiaWQiOiJmY19QMDJkYXBlaUg2VzY0LUVQbklMYnNRa181In0%3D"
+    },
+    {
+      "question": "Can you put your own tag on wholesale clothing?",
+      "type": "ai_overview",
+      "page_token": "K8yYaHicHZBLbtswFADRy2Rp6xOljQEjqKuf1YotKfFR1KZgSNuSyUhqLISUd71Dj5BT9TQ1eoCZAeb3u-kH_ffDn26ep8tmvbbWrk7jeDKHlRxX_bAWl2WQaymMeRZSbx4-PvhPR7lN3uTuy6vcYTpNEBOvCro9DVOnwm6orsqD-HPEtD-yXGVlDo0IulixvZPscYcyPyJe8asEJVSuLGb4nqZFdPOktFE1GIVx2Mat-eTqAf1AHlSQ4ftWE6eyiZRQzsSAE14kWE564qPkO70sVBece04c9GxpjoA1cjmkKq-Y4qImwK8GMI0019GAfHVj1a1HrYzRAEk3SeZEtfhDnRWLOHe6hlYLAwwFBZKsi1pmfZY8pkmncBkXmjc7I-gpgCv3vlHAz9qUfEBEuLHHlFzl2bxQbypbuvdR1o7I64IqBUu165uQ-yhWXw9nA629O8q3bXj3__X25_Fl3kyv4-kf7AKOCg",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=K8yYaHicHZBLbtswFADRy2Rp6xOljQEjqKuf1YotKfFR1KZgSNuSyUhqLISUd71Dj5BT9TQ1eoCZAeb3u-kH_ffDn26ep8tmvbbWrk7jeDKHlRxX_bAWl2WQaymMeRZSbx4-PvhPR7lN3uTuy6vcYTpNEBOvCro9DVOnwm6orsqD-HPEtD-yXGVlDo0IulixvZPscYcyPyJe8asEJVSuLGb4nqZFdPOktFE1GIVx2Mat-eTqAf1AHlSQ4ftWE6eyiZRQzsSAE14kWE564qPkO70sVBece04c9GxpjoA1cjmkKq-Y4qImwK8GMI0019GAfHVj1a1HrYzRAEk3SeZEtfhDnRWLOHe6hlYLAwwFBZKsi1pmfZY8pkmncBkXmjc7I-gpgCv3vlHAz9qUfEBEuLHHlFzl2bxQbypbuvdR1o7I64IqBUu165uQ-yhWXw9nA629O8q3bXj3__X25_Fl3kyv4-kf7AKOCg",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTGIxVkhjVXRDU2sxcU9FaERXV28yTURCbGRYZzBTbFJMYzJwUlIxUlVjVGxXVGtKcVNEZHpYMEZxVVZwUlVtZFlhVnBtVVhkVFlYcGhWbGg1UVVaSlRrOUhhVzlNT1hOaWN6WXlTMnhzVlZSS1pFcFdaMG80U2psRVFSSVhVREF5WkdGd1pXbElObGMyTkMxRlVHNUpUR0p6VVdzYUlrRkVjM0k1WmxOWlEyTnhjVGxzTUdkUk9HUmxjVXR0WlZOcU9EaENkRGhXWlVFIiwiZmN2IjoiMyIsImVpIjoiUDAyZGFwZWlINlc2NC1FUG5JTGJzUWsiLCJxYyI6IkNpdGhkWFJ2YldGMGFXTWdkR0ZuWjJsdVp5QnZaaUJqYkc5MGFHbHVaeUJwYmlCbElHTnZiVzFsY21ObEVBQjlfOGtHUHciLCJxdWVzdGlvbiI6IkNhbiB5b3UgcHV0IHlvdXIgb3duIHRhZyBvbiB3aG9sZXNhbGUgY2xvdGhpbmc/IiwibGsiOiJjNVBTUzA3TVU2ak1MMVVvS0MwQjBVVUstZVY1Q2lXSjZRcjVlUXJsR2ZrNXFjV0pPYWtLeVRuNUpSbVplZWtBIiwiYnMiOiJjNVdQelFyQ01CQ0U4Ym9uRVZISmFkV3pWZUlENUNBSWZRTFBTN3I5Z1RRcFNVcnAyMnNyMWQ3RTA4RE9OOHNNM0NGNWxCU1JQR01zR2JNcXo5bXpqUmo3aGdPNkhMVnhzYXhzZ1pHS29PUmFyT2FYTndkWDJLYmhpX0pKdTdwbXIxbkpuZGhVY3dzbkN6U2NiMlN4ZHkwMmJSelVvLXZzLU5aWjdFcG5PSkRoVDFqSmkwajBYeEZJNFRBdWZIV2dDU01zeU5mRFNrM0djS2JrVWV5N1g5Unk4UVEiLCJpZCI6ImZjX1AwMmRhcGVpSDZXNjQtRVBuSUxic1FrXzUifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTGIxVkhjVXRDU2sxcU9FaERXV28yTURCbGRYZzBTbFJMYzJwUlIxUlVjVGxXVGtKcVNEZHpYMEZxVVZwUlVtZFlhVnBtVVhkVFlYcGhWbGg1UVVaSlRrOUhhVzlNT1hOaWN6WXlTMnhzVlZSS1pFcFdaMG80U2psRVFSSVhVREF5WkdGd1pXbElObGMyTkMxRlVHNUpUR0p6VVdzYUlrRkVjM0k1WmxOWlEyTnhjVGxzTUdkUk9HUmxjVXR0WlZOcU9EaENkRGhXWlVFIiwiZmN2IjoiMyIsImVpIjoiUDAyZGFwZWlINlc2NC1FUG5JTGJzUWsiLCJxYyI6IkNpdGhkWFJ2YldGMGFXTWdkR0ZuWjJsdVp5QnZaaUJqYkc5MGFHbHVaeUJwYmlCbElHTnZiVzFsY21ObEVBQjlfOGtHUHciLCJxdWVzdGlvbiI6IkNhbiB5b3UgcHV0IHlvdXIgb3duIHRhZyBvbiB3aG9sZXNhbGUgY2xvdGhpbmc%2FIiwibGsiOiJjNVBTUzA3TVU2ak1MMVVvS0MwQjBVVUstZVY1Q2lXSjZRcjVlUXJsR2ZrNXFjV0pPYWtLeVRuNUpSbVplZWtBIiwiYnMiOiJjNVdQelFyQ01CQ0U4Ym9uRVZISmFkV3pWZUlENUNBSWZRTFBTN3I5Z1RRcFNVcnAyMnNyMWQ3RTA4RE9OOHNNM0NGNWxCU1JQR01zR2JNcXo5bXpqUmo3aGdPNkhMVnhzYXhzZ1pHS29PUmFyT2FYTndkWDJLYmhpX0pKdTdwbXIxbkpuZGhVY3dzbkN6U2NiMlN4ZHkwMmJSelVvLXZzLU5aWjdFcG5PSkRoVDFqSmkwajBYeEZJNFRBdWZIV2dDU01zeU5mRFNrM0djS2JrVWV5N1g5Unk4UVEiLCJpZCI6ImZjX1AwMmRhcGVpSDZXNjQtRVBuSUxic1FrXzUifQ%3D%3D"
+    },
+    {
+      "question": "What is a tag on a garment called?",
+      "type": "ai_overview",
+      "page_token": "Ca9_MnicHdBRboIwAIDh7DI-KtDppolZplAVJ45CW-jLQitQaZE6UZxvu8tOtdPM7ABf_uT__tH7g_p9uMq2NafJYNB1Xb9smlLnfdH094dBdvo6iIHItOaZUJPR08h-KcTUO69m8-NqFmJjiIusiLIqVrLIEv0e6fBrGyMv15JSYuwcyrdoaQyvXm3q6Rg7Oz8n8IgTOMeVfORUH3dOYHEHLsWiXQkLjYiWHoNQEYUIVz5hQJ4ZCVq2tyyeyDWxZ-6mhl0a2RW2IEpreUb0qvgNgiBhCaNsGEF2jGP_cvddsHi241o4GSgfhTYgr68tpScnJRLwhb8WajzkBMFd3brbpQ88uQs3rq_SZKYzXDrkllpvmIRc6U16CFB2bfYhRjdR6Zos2jAl-sKxAYEr7x7dm2PAPdtF9bigy8AKw14hLlPQ-_85_SjqdmI-m_IPse-EQg",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=Ca9_MnicHdBRboIwAIDh7DI-KtDppolZplAVJ45CW-jLQitQaZE6UZxvu8tOtdPM7ABf_uT__tH7g_p9uMq2NafJYNB1Xb9smlLnfdH094dBdvo6iIHItOaZUJPR08h-KcTUO69m8-NqFmJjiIusiLIqVrLIEv0e6fBrGyMv15JSYuwcyrdoaQyvXm3q6Rg7Oz8n8IgTOMeVfORUH3dOYHEHLsWiXQkLjYiWHoNQEYUIVz5hQJ4ZCVq2tyyeyDWxZ-6mhl0a2RW2IEpreUb0qvgNgiBhCaNsGEF2jGP_cvddsHi241o4GSgfhTYgr68tpScnJRLwhb8WajzkBMFd3brbpQ88uQs3rq_SZKYzXDrkllpvmIRc6U16CFB2bfYhRjdR6Zos2jAl-sKxAYEr7x7dm2PAPdtF9bigy8AKw14hLlPQ-_85_SjqdmI-m_IPse-EQg",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTGIxVkhjVXRDU2sxcU9FaERXV28yTURCbGRYZzBTbFJMYzJwUlIxUlVjVGxXVGtKcVNEZHpYMEZxVVZwUlVtZFlhVnBtVVhkVFlYcGhWbGg1UVVaSlRrOUhhVzlNT1hOaWN6WXlTMnhzVlZSS1pFcFdaMG80U2psRVFSSVhVREF5WkdGd1pXbElObGMyTkMxRlVHNUpUR0p6VVdzYUlrRkVjM0k1WmxOWlEyTnhjVGxzTUdkUk9HUmxjVXR0WlZOcU9EaENkRGhXWlVFIiwiZmN2IjoiMyIsImVpIjoiUDAyZGFwZWlINlc2NC1FUG5JTGJzUWsiLCJxYyI6IkNpdGhkWFJ2YldGMGFXTWdkR0ZuWjJsdVp5QnZaaUJqYkc5MGFHbHVaeUJwYmlCbElHTnZiVzFsY21ObEVBQjlfOGtHUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgYSB0YWcgb24gYSBnYXJtZW50IGNhbGxlZD8iLCJsayI6IkdpRjNhR0YwSUdseklHRWdkR0ZuSUc5dUlHRWdaMkZ5YldWdWRDQmpZV3hzWldRIiwiYnMiOiJjNVdQelFyQ01CQ0U4Ym9uRVZISmFkV3pWZUlENUNBSWZRTFBTN3I5Z1RRcFNVcnAyMnNyMWQ3RTA4RE9OOHNNM0NGNWxCU1JQR01zR2JNcXo5bXpqUmo3aGdPNkhMVnhzYXhzZ1pHS29PUmFyT2FYTndkWDJLYmhpX0pKdTdwbXIxbkpuZGhVY3dzbkN6U2NiMlN4ZHkwMmJSelVvLXZzLU5aWjdFcG5PSkRoVDFqSmkwajBYeEZJNFRBdWZIV2dDU01zeU5mRFNrM0djS2JrVWV5N1g5Unk4UVEiLCJpZCI6ImZjX1AwMmRhcGVpSDZXNjQtRVBuSUxic1FrXzUifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTGIxVkhjVXRDU2sxcU9FaERXV28yTURCbGRYZzBTbFJMYzJwUlIxUlVjVGxXVGtKcVNEZHpYMEZxVVZwUlVtZFlhVnBtVVhkVFlYcGhWbGg1UVVaSlRrOUhhVzlNT1hOaWN6WXlTMnhzVlZSS1pFcFdaMG80U2psRVFSSVhVREF5WkdGd1pXbElObGMyTkMxRlVHNUpUR0p6VVdzYUlrRkVjM0k1WmxOWlEyTnhjVGxzTUdkUk9HUmxjVXR0WlZOcU9EaENkRGhXWlVFIiwiZmN2IjoiMyIsImVpIjoiUDAyZGFwZWlINlc2NC1FUG5JTGJzUWsiLCJxYyI6IkNpdGhkWFJ2YldGMGFXTWdkR0ZuWjJsdVp5QnZaaUJqYkc5MGFHbHVaeUJwYmlCbElHTnZiVzFsY21ObEVBQjlfOGtHUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgYSB0YWcgb24gYSBnYXJtZW50IGNhbGxlZD8iLCJsayI6IkdpRjNhR0YwSUdseklHRWdkR0ZuSUc5dUlHRWdaMkZ5YldWdWRDQmpZV3hzWldRIiwiYnMiOiJjNVdQelFyQ01CQ0U4Ym9uRVZISmFkV3pWZUlENUNBSWZRTFBTN3I5Z1RRcFNVcnAyMnNyMWQ3RTA4RE9OOHNNM0NGNWxCU1JQR01zR2JNcXo5bXpqUmo3aGdPNkhMVnhzYXhzZ1pHS29PUmFyT2FYTndkWDJLYmhpX0pKdTdwbXIxbkpuZGhVY3dzbkN6U2NiMlN4ZHkwMmJSelVvLXZzLU5aWjdFcG5PSkRoVDFqSmkwajBYeEZJNFRBdWZIV2dDU01zeU5mRFNrM0djS2JrVWV5N1g5Unk4UVEiLCJpZCI6ImZjX1AwMmRhcGVpSDZXNjQtRVBuSUxic1FrXzUifQ%3D%3D"
+    }
+  ],
+  "ai_overview": {
+    "page_token": "rMQqbXiczVXbkqo4FP2A-Y7hpbsFxfbSVdSpEGlF20tU-uKLBQEDyMUGbMS38yHzNl81XzMBb-Bon-55mJpUQW472Ss7e2X9_NOxvOVfv_1hRtEqfGDZOI5LxPeJY5SwX7I8Vg0TD7ML3wkDbP5Yrx1DiG8gkJEM5cfJy_1SfZEY4giWx5iOYFpM8iHwDA4FjjEsYcRVdHVlWJ3aS616J408-UkL0ZLJdhXmmhoaNnW7sUN2ztLf8ne-RTulsGRapaeN7W9gvDSG1VKFKzdLQ1Z1qQH47wqRgEz_YJlWtKCLVhAA6QubSVK6lSjnhpB43OFQ4rRDaICzXu_qbu1sDUkhZq1WdTbvD2hjsJtvXUNLgZAi_Jj-5Mx1upUIrC8c5rj40FD29TWnRet_jsIcqH5u8mpk3wo9GlY4igFCRx9ifrpb6I_TX3uHtgY28SC2rgc6A4FAp08miAAgf2pIxKnZO4SgHdO7IKxOaNJyrBbQqsxa2MRZIwjTXIbTJudLzecttv1IjINZxcPv_Cryx9L6qWOMCIs1auf4qm7oc3PO_cj65Ur5nmvy9cZtRiIcHlkU5lm0ncrIbE0DfgtKTyWxfKAQPJ5DLOKHtC9eDLm5NxUvzFmnUXS8ZJKF9Biux10gc_HLXXhvlMYMnrJHrKdZYOaRnVZdpFABXEYhcb-Zdbq1QuLD9ikfi4k5PD8gkM7W0hExPkIoPEnw3BEEE0IPdjhaIbrp6wIpd0g6rJCq7GfDLXLOI6mIUMzWAflAguMs2vvIUSg9v5mym0yoYRfRhTC9jwOkw32L3XOnY3Cx0EcHPF-m8q_K5zTb4wAHrpylfp4yjwQpVQNbeDltaoE5Wylo9ay5942OGV-miO9q31Aa_L8i0UGHnMyjlHv7zkgkfYFEVIfIZzq0a-91qLvXoeskghBc1KHRziCnQ-ckkkiBRJ_q0LdJhD4j0a6-SKJUhy6RaHmNRLvVORJNijpUINFJh44k-r4Oqf9ShzJOGbuqKEprm1wVp3Z_0NvyyUdH6yP7tf1ojWwddXDSnDbAL8Vp4UYPrqo7t3NLfxAr3SjRb-d0wH8wdOZdAOvId9XIwjeRSojlkRt_cYMdPzLTtuXdSHfQd10jwAbjOoEvcGp9-9bqB_3BR2hI9vvksXM3XW-TOMAJ__pi9qRwFXWGbm_7PoOtqDwZydKE19VaoxKHrfh-ayt-RVEMW1qMh8b0TcUtg99EQ6veqNz1Z95S1NrdWaL3x3b3g1PGmroRR2QwnicN9S1JRktcU_qLBgpmniK-vzoiyHCFwr25QFxLadS7hHEDLNCbrRIwQOCFAAzgG0A0sRD06UezA9YAkkQmxOrcCD-EeqWqLSq8VtUbBldTecYlUbISmhwTeoFQ_hvRSU9_",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=rMQqbXiczVXbkqo4FP2A-Y7hpbsFxfbSVdSpEGlF20tU-uKLBQEDyMUGbMS38yHzNl81XzMBb-Bon-55mJpUQW472Ss7e2X9_NOxvOVfv_1hRtEqfGDZOI5LxPeJY5SwX7I8Vg0TD7ML3wkDbP5Yrx1DiG8gkJEM5cfJy_1SfZEY4giWx5iOYFpM8iHwDA4FjjEsYcRVdHVlWJ3aS616J408-UkL0ZLJdhXmmhoaNnW7sUN2ztLf8ne-RTulsGRapaeN7W9gvDSG1VKFKzdLQ1Z1qQH47wqRgEz_YJlWtKCLVhAA6QubSVK6lSjnhpB43OFQ4rRDaICzXu_qbu1sDUkhZq1WdTbvD2hjsJtvXUNLgZAi_Jj-5Mx1upUIrC8c5rj40FD29TWnRet_jsIcqH5u8mpk3wo9GlY4igFCRx9ifrpb6I_TX3uHtgY28SC2rgc6A4FAp08miAAgf2pIxKnZO4SgHdO7IKxOaNJyrBbQqsxa2MRZIwjTXIbTJudLzecttv1IjINZxcPv_Cryx9L6qWOMCIs1auf4qm7oc3PO_cj65Ur5nmvy9cZtRiIcHlkU5lm0ncrIbE0DfgtKTyWxfKAQPJ5DLOKHtC9eDLm5NxUvzFmnUXS8ZJKF9Biux10gc_HLXXhvlMYMnrJHrKdZYOaRnVZdpFABXEYhcb-Zdbq1QuLD9ikfi4k5PD8gkM7W0hExPkIoPEnw3BEEE0IPdjhaIbrp6wIpd0g6rJCq7GfDLXLOI6mIUMzWAflAguMs2vvIUSg9v5mym0yoYRfRhTC9jwOkw32L3XOnY3Cx0EcHPF-m8q_K5zTb4wAHrpylfp4yjwQpVQNbeDltaoE5Wylo9ay5942OGV-miO9q31Aa_L8i0UGHnMyjlHv7zkgkfYFEVIfIZzq0a-91qLvXoeskghBc1KHRziCnQ-ckkkiBRJ_q0LdJhD4j0a6-SKJUhy6RaHmNRLvVORJNijpUINFJh44k-r4Oqf9ShzJOGbuqKEprm1wVp3Z_0NvyyUdH6yP7tf1ojWwddXDSnDbAL8Vp4UYPrqo7t3NLfxAr3SjRb-d0wH8wdOZdAOvId9XIwjeRSojlkRt_cYMdPzLTtuXdSHfQd10jwAbjOoEvcGp9-9bqB_3BR2hI9vvksXM3XW-TOMAJ__pi9qRwFXWGbm_7PoOtqDwZydKE19VaoxKHrfh-ayt-RVEMW1qMh8b0TcUtg99EQ6veqNz1Z95S1NrdWaL3x3b3g1PGmroRR2QwnicN9S1JRktcU_qLBgpmniK-vzoiyHCFwr25QFxLadS7hHEDLNCbrRIwQOCFAAzgG0A0sRD06UezA9YAkkQmxOrcCD-EeqWqLSq8VtUbBldTecYlUbISmhwTeoFQ_hvRSU9_"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "AI On-Model Garment Fidelity Guide: Prep Base Images & QC ...",
+      "link": "https://productshotai.app/blog/garment-fidelity-in-ai-fashion-model-images/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFSq8cvyxUMGdIc81GWmPSrlB4RVzuynN6B0rxJkYTeQO3nj8IMXjZQLoPCHnpwR6hbqdY8PjXiIRZyEVzjTQLD7LdvfxJjzWAiYzwqHPjjJ-mwZCxWhZfgmZRHauCD-U1k_Iirtborn4r0cQsMbKFz251dVbPzycLSA_syTq-A&ved=2ahUKEwjXvdnf69mWAxUl3TgGHRzBNpYQFnoECBoQAQ&uoh=1",
+      "displayed_link": "https://productshotai.app › ...",
+      "favicon": "https://serpapi.com/searches/6a9d4d3d3d06ea3f356d3ec0/images/_SfVoVHLpDWOBG4sHnAUdeUcAZXekbKfP0zViOatOyk.png",
+      "date": "6 अग॰ 2026",
+      "snippet": "Why \"Garment Fidelity\" Is the Lifeblood of AI Visuals in E-Commerce. In an AI visual reconstruction pipeline, algorithms recognize features and ...",
+      "snippet_highlighted_words": [
+        "Garment",
+        "E",
+        "Commerce"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Why \"Garment Fidelity\" Is the Lifeblood of AI Visuals in E-Commerce. In an AI visual reconstruction pipeline, algorithms recognize features and ...",
+          "source_info_link": "https://productshotai.app/blog/garment-fidelity-in-ai-fashion-model-images/",
+          "icon": "https://serpapi.com/searches/6a9d4d3d3d06ea3f356d3ec0/images/_SfVoVHLpDWOBG4sHnAUdZbw9iZGS4Wx_-B4OO6UID1SI5OyS3k6kwVslrpr4aHn.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://productshotai.app/blog/garment-fidelity-in-ai-fashion-model-images/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fproductshotai.app%2Fblog%2Fgarment-fidelity-in-ai-fashion-model-images%2F",
+      "source": "productshotai.app"
+    },
+    {
+      "position": 2,
+      "title": "Why Your Homepage Content Matters in Fashion ...",
+      "link": "https://www.okkular.io/why-your-homepage-content-matters-in-fashion-ecommerce/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShgEB6zswFdS2BDffcggQXUaDFRDxRh2aztnl2en4rxRzEyRHzBtBirw6ZJ_xuNoU7gkR6A68KkCmULzOCZi5eEiVeA0kbAXuW3OuGRxYu5a1IBnYF-ZYkIlG5eHxDhTvRp3o6RDG-imxvpwd4v1F0nzWQig8QP1z3oyi9f1uKX1cNQJPJe3rCA&ved=2ahUKEwjXvdnf69mWAxUl3TgGHRzBNpYQFnoECB8QAQ&uoh=1",
+      "displayed_link": "https://www.okkular.io › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAolBMVEVHcExUePV4cN5UePVUePVUePVUePVUePVUePVUePXwtk_yt0xUePVUePVUePU1b_vxtk7xtk1UePZAcv_0tUzwtk9Td_ZUePXwt07wtk9UevRUePXwtk_wtk_wtk9Rd_dAj_j1VHP1VHP2VHNC55r0lVr1VHP1VHP2UnNN4Jzxtk_3R24846D5U272VHP2VHP1VHP2U3PzWHT1UXTwtk_1VHOxaNQzAAAANnRSTlMAQAcSYOB0q_-JJEZONO8gyou7n6UPnVhb2i327f-0zgIynF13CLT_xv9vEpSE49n1bydGNno4-kSDAAABW0lEQVR4AazRBZaDQBBF0RcviDvWxNPEff9bm4rr8fk491Qr_5BUmkw285PSuXwuXRBxALf4gfkSZYdURaRarNVr71htaF0B8tJUabXfWnWcTldbzZOu1r22_2qOSA4IchKWIDLE3qMs1H9UC_q_K5KiFlEz3NLV1uiISC9DSrLv2Ie8SKOclwr9D8z3CqHkymh1j4aUFPFvGBS03S4MhiPG46ADvmJ8WzaHwGEytTYZz2ZjmJsIvPi6TI1Gr09ihywUly1jIpdii5oLaFZrNlvY7ZdL5vEcXHXPu6LdsF4z0EerDkxiY_y5zyuO7ILIeO26MfGEIi-4UTxoe0arXI7R_IEJige7HsC85uHWjHG55ZRgt_qwdpoGWtru655NR7vhRB_WnvYHLz7ymkTPoT2wX9vpLoF31MqBrtGCDQz3H7obwSLRVnervfqvDE4DRqvF37BJIeKXGAAA-qoiwr5eFH8AAAAASUVORK5CYII.png",
+      "snippet": "With tools like Okkular's AI Tagging solution, businesses can automatically generate highly accurate and detailed product attributes. These smart tags help ...",
+      "snippet_highlighted_words": [
+        "automatically generate highly accurate and detailed product attributes"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "With tools like Okkular's AI Tagging solution, businesses can automatically generate highly accurate and detailed product attributes. These smart tags help ...",
+          "source_info_link": "https://www.okkular.io/why-your-homepage-content-matters-in-fashion-ecommerce/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAolBMVEVHcExUePV4cN5UePVUePVUePVUePVUePVUePVUePXwtk_yt0xUePVUePVUePU1b_vxtk7xtk1UePZAcv_0tUzwtk9Td_ZUePXwt07wtk9UevRUePXwtk_wtk_wtk9Rd_dAj_j1VHP1VHP2VHNC55r0lVr1VHP1VHP2UnNN4Jzxtk_3R24846D5U272VHP2VHP1VHP2U3PzWHT1UXTwtk_1VHOxaNQzAAAANnRSTlMAQAcSYOB0q_-JJEZONO8gyou7n6UPnVhb2i327f-0zgIynF13CLT_xv9vEpSE49n1bydGNno4-kSDAAABW0lEQVR4AazRBZaDQBBF0RcviDvWxNPEff9bm4rr8fk491Qr_5BUmkw285PSuXwuXRBxALf4gfkSZYdURaRarNVr71htaF0B8tJUabXfWnWcTldbzZOu1r22_2qOSA4IchKWIDLE3qMs1H9UC_q_K5KiFlEz3NLV1uiISC9DSrLv2Ie8SKOclwr9D8z3CqHkymh1j4aUFPFvGBS03S4MhiPG46ADvmJ8WzaHwGEytTYZz2ZjmJsIvPi6TI1Gr09ihywUly1jIpdii5oLaFZrNlvY7ZdL5vEcXHXPu6LdsF4z0EerDkxiY_y5zyuO7ILIeO26MfGEIi-4UTxoe0arXI7R_IEJige7HsC85uHWjHG55ZRgt_qwdpoGWtru655NR7vhRB_WnvYHLz7ymkTPoT2wX9vpLoF31MqBrtGCDQz3H7obwSLRVnervfqvDE4DRqvF37BJIeKXGAAA-qoiwr5eFH8AAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.okkular.io/why-your-homepage-content-matters-in-fashion-ecommerce/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.okkular.io%2Fwhy-your-homepage-content-matters-in-fashion-ecommerce%2F",
+      "source": "Okkular"
+    },
+    {
+      "position": 3,
+      "title": "Top 10 ecommerce inventory management platforms ... - Centra",
+      "link": "https://centra.com/news/10-ecommerce-inventory-management-software-vendors-fashion-brands",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkQEB6zswFX6hAC-_eBXtzQ1oyH3VkqlmfruDqkvCS3j8p5np-0U8Df9CLSL_seXoNIlCTsbnPVnYeOidBKdJ8gks_37fhElXmVUKm4r3WVZVGYMthmS_XcdyS_W3Mp3KjtbYPmmEBEL7wxbYAOZu-LZuLr-oiVnNgYT9_HZMb8eLA2xzwO94_jIhOlB6pQYAgksX&ved=2ahUKEwjXvdnf69mWAxUl3TgGHRzBNpYQFnoECCMQAQ&uoh=1",
+      "displayed_link": "https://centra.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAPFBMVEVHcEwAAAAAAAAAAAAAAAAAAABmZmbMzMz____x8fFMTEylpaW4uLiTk5N7e3va2toSEhLh4eEpKSmvr69shnLMAAAABnRSTlMAJ7Dy_2RvjkWSAAAAn0lEQVR4AY3TAQrDIAxAUVtT_Vprbb3_XSe4MUqm7AMgPAQD0RizrFZUdl1Ma5NBW7snwxazjnE1dozWyKT_0XkIPv5ET29X2C0dCTgUZjilVQJJ4QX9EJ0oBD987Q37EAvUIQqEMdbPCClEhQLUWKKHS2PkXZAn5hpFbg9AkiceQFMpLjv1oJPvlAp3wIlG29VnbXa-YNPVnC319Du8AJcBDoO8N7M6AAAAAElFTkSuQmCC.png",
+      "date": "27 जुल॰ 2022",
+      "snippet": "Learn everything you need to know about the top 10 ecommerce inventory management software vendors for fashion brands.",
+      "snippet_highlighted_words": [
+        "ecommerce",
+        "fashion"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Learn everything you need to know about the top 10 ecommerce inventory management software vendors for fashion brands.",
+          "source_info_link": "https://centra.com/news/10-ecommerce-inventory-management-software-vendors-fashion-brands",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAPFBMVEVHcEwAAAAAAAAAAAAAAAAAAABmZmbMzMz____x8fFMTEylpaW4uLiTk5N7e3va2toSEhLh4eEpKSmvr69shnLMAAAABnRSTlMAJ7Dy_2RvjkWSAAAAn0lEQVR4AY3TAQrDIAxAUVtT_Vprbb3_XSe4MUqm7AMgPAQD0RizrFZUdl1Ma5NBW7snwxazjnE1dozWyKT_0XkIPv5ET29X2C0dCTgUZjilVQJJ4QX9EJ0oBD987Q37EAvUIQqEMdbPCClEhQLUWKKHS2PkXZAn5hpFbg9AkiceQFMpLjv1oJPvlAp3wIlG29VnbXa-YNPVnC319Du8AJcBDoO8N7M6AAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://centra.com/news/10-ecommerce-inventory-management-software-vendors-fashion-brands&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fcentra.com%2Fnews%2F10-ecommerce-inventory-management-software-vendors-fashion-brands",
+      "source": "centra.com"
+    },
+    {
+      "position": 4,
+      "title": "How do recommendation engines for fashion e-commerce ...",
+      "link": "https://www.pixyle.ai/blog/how-do-recommendation-engines-for-fashion-ecommerce-work",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiwEB6zswFRkxUFPSCeurm7-YWHbX8rMCvZRBdacq5CYPjnnZ1Zh2E3nTLdeU2W2Zn-Psx4Bd29omGrW-fQejJsCM7vXFtlPR5wA9F3mz7MSgnpJNBhsvbGhz9smXCDsqcjjc6dOAfiHAyv3Uv2k4udmXCp1orHzkMnPtSieHjxBJnB3J2_VyZRQj3fbP&ved=2ahUKEwjXvdnf69mWAxUl3TgGHRzBNpYQFnoECCQQAQ&uoh=1",
+      "displayed_link": "https://www.pixyle.ai › ...",
+      "favicon": "https://serpapi.com/searches/6a9d4d3d3d06ea3f356d3ec0/images/_SfVoVHLpDWOBG4sHnAUdVkg1H7eOU9_qeOm25fBHFs.png",
+      "date": "2 जून 2022",
+      "snippet": "Product recommendations in eCommerce are powered by machine learning and AI algorithms. Thanks to the automated configuration and management, ...",
+      "snippet_highlighted_words": [
+        "Product recommendations in eCommerce are powered by machine learning and AI algorithms"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Product recommendations in eCommerce are powered by machine learning and AI algorithms. Thanks to the automated configuration and management, ...",
+          "source_info_link": "https://www.pixyle.ai/blog/how-do-recommendation-engines-for-fashion-ecommerce-work",
+          "icon": "https://serpapi.com/searches/6a9d4d3d3d06ea3f356d3ec0/images/_SfVoVHLpDWOBG4sHnAUdfbNexo6B2pFculIaHmcrvw13M8F4FDEvny6pQD7Ung9.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.pixyle.ai/blog/how-do-recommendation-engines-for-fashion-ecommerce-work&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.pixyle.ai%2Fblog%2Fhow-do-recommendation-engines-for-fashion-ecommerce-work",
+      "source": "Pixyle AI"
+    },
+    {
+      "position": 5,
+      "title": "How To Launch A Clothing Brand In 2026 With Zero ...",
+      "link": "https://ecommercecoffeebreak.com/eprolo-start-fashion-brand-without-inventory/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShgEB6zswFTrfoUQFHLqwhvqYrNJitDcaULKLw3_3tFrozRierX0Ors7ce5-xrenHJKPn5CxJao1cfgrJF4xL-dBJCkVllwss6fC4ZrrgOATtT-7f9z2UNQna03iW_x4uoFNKDSVvJnFGhh7mr6QZSy7QILDm-eW2AeyVmxlSnG67B7qS85wPwQ&ved=2ahUKEwjXvdnf69mWAxUl3TgGHRzBNpYQFnoECCUQAQ&uoh=1",
+      "displayed_link": "https://ecommercecoffeebreak.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAZlBMVEX____Ix8dBOjsqIiKQjY3R0NDy8fF0cHBpZWXe3d0gFRVjX1_4-PhUT082Ly8nHR0aDg6fnZ3a2dleWlpNSEiMiYn19PSDgIDm5eUFAACmpKS1s7PBv7-Wk5N-enqdm5sRAAAxKSly9WcrAAAAy0lEQVR4Ab3JRWLEMBAAwTYzs2UZ_v_JZHm0cAqUNMzvsGzH5QPP8XED3gsjIOa9JAUyXkV54ZRF8Z2coqwwJTU0KdACZYohT6HrgSGFZMQwIQwWBgdhVkhjwwkWJ4tG8gbAStEzQB0gqYpeaeZ5Tbcev0XaFpTe3G3uKq1gR1prFr2pah5mV0GBlPlQb3jVigW0PsIOMIKuOQlqhBi43k_0wkPfYlAzD1GAwRt4SPekaZrMgvTUNIdCik4mn1adGp9X0aEHPlIZ_-ALfbYLL7P4zCAAAAAASUVORK5CYII.png",
+      "date": "7 जन॰ 2026",
+      "snippet": "Learn how eprolo helps fashion brands scale without inventory risk using automated dropshipping and custom branding for Shopify and Amazon ...",
+      "snippet_highlighted_words": [
+        "automated dropshipping"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Learn how eprolo helps fashion brands scale without inventory risk using automated dropshipping and custom branding for Shopify and Amazon ...",
+          "source_info_link": "https://ecommercecoffeebreak.com/eprolo-start-fashion-brand-without-inventory/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAZlBMVEX____Ix8dBOjsqIiKQjY3R0NDy8fF0cHBpZWXe3d0gFRVjX1_4-PhUT082Ly8nHR0aDg6fnZ3a2dleWlpNSEiMiYn19PSDgIDm5eUFAACmpKS1s7PBv7-Wk5N-enqdm5sRAAAxKSly9WcrAAAAy0lEQVR4Ab3JRWLEMBAAwTYzs2UZ_v_JZHm0cAqUNMzvsGzH5QPP8XED3gsjIOa9JAUyXkV54ZRF8Z2coqwwJTU0KdACZYohT6HrgSGFZMQwIQwWBgdhVkhjwwkWJ4tG8gbAStEzQB0gqYpeaeZ5Tbcev0XaFpTe3G3uKq1gR1prFr2pah5mV0GBlPlQb3jVigW0PsIOMIKuOQlqhBi43k_0wkPfYlAzD1GAwRt4SPekaZrMgvTUNIdCik4mn1adGp9X0aEHPlIZ_-ALfbYLL7P4zCAAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://ecommercecoffeebreak.com/eprolo-start-fashion-brand-without-inventory/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fecommercecoffeebreak.com%2Feprolo-start-fashion-brand-without-inventory%2F",
+      "source": "Ecommerce Coffee Break"
+    },
+    {
+      "position": 6,
+      "title": "Top e-commerce trends in 2026 and how small businesses ...",
+      "link": "https://www.networksolutions.com/blog/ecommerce-trends/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbwHrOzAVS9QlafX6mheoGd8j7GlcY-2TLTuOqbdHLCuqzS-GfVYBznXKnBXZmCvZ0iFsegI-wpo3hsIQ-RPdte6moEeQCIPvIfbAOVolOg0-nkP3q7lv8puSJwOiyfiTpwTD9kP2gta-62ImLB7NqQ&ved=2ahUKEwjXvdnf69mWAxUl3TgGHRzBNpYQFnoECCIQAQ&uoh=1",
+      "displayed_link": "https://www.networksolutions.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABNklEQVR4AY3SIajFIBiGYXtcP3HJsM76sh37ytZM62Ayry2a1zGu2OzBYhKMFtN35Y57LmNncN70ywOCKvm6QYnmER0gn4wGwLefpOVkiEBZP6G2lFWEo3fbkCaeckaWdyyAnrMxsB0Zy3bFETAb-BL6fgeg24vuCIfvGiV9tWT5v1DZ9R5REMIKgtETfVO7umx7WfSrzjoe28zZcHIjfQEQFGtJ7SU8cooxuKGuBGrZLO9b7bjJqKk6qxN594fNcqKo8-BCjCnDi9fvtkyFKsXLcys6MD5vR9JttS3L3ma3_h-UTtoEFEaISPB9Jyl5x20C4KVqOn8E7Nfn0tX2vg8Lx2aAkVzSZSSdhTF51kAht2RGzolPCfqO1AGIjNpq99ZScSD88zfyQKDkIQk48lQj1EC-7Qdnjt7OZvxtcwAAAABJRU5ErkJggg.png",
+      "date": "5 जून 2026",
+      "snippet": "Some trends are driven by technological innovation, such as artificial intelligence, augmented reality, voice search, and marketing automation.",
+      "about_this_result": {
+        "source": {
+          "description": "Some trends are driven by technological innovation, such as artificial intelligence, augmented reality, voice search, and marketing automation.",
+          "source_info_link": "https://www.networksolutions.com/blog/ecommerce-trends/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABNklEQVR4AY3SIajFIBiGYXtcP3HJsM76sh37ytZM62Ayry2a1zGu2OzBYhKMFtN35Y57LmNncN70ywOCKvm6QYnmER0gn4wGwLefpOVkiEBZP6G2lFWEo3fbkCaeckaWdyyAnrMxsB0Zy3bFETAb-BL6fgeg24vuCIfvGiV9tWT5v1DZ9R5REMIKgtETfVO7umx7WfSrzjoe28zZcHIjfQEQFGtJ7SU8cooxuKGuBGrZLO9b7bjJqKk6qxN594fNcqKo8-BCjCnDi9fvtkyFKsXLcys6MD5vR9JttS3L3ma3_h-UTtoEFEaISPB9Jyl5x20C4KVqOn8E7Nfn0tX2vg8Lx2aAkVzSZSSdhTF51kAht2RGzolPCfqO1AGIjNpq99ZScSD88zfyQKDkIQk48lQj1EC-7Qdnjt7OZvxtcwAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.networksolutions.com/blog/ecommerce-trends/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.networksolutions.com%2Fblog%2Fecommerce-trends%2F",
+      "source": "Network Solutions"
+    },
+    {
+      "position": 7,
+      "title": "Omnichannel Retailing: The Future Trend of Fashion - Medium",
+      "link": "https://hamidnaeem92.medium.com/omnichannel-retailing-the-future-trend-of-fashion-2f987c1a3cee",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlgEB6zswFcVYz_0okhkelNU2Vt_LXB_pXY_gtxVuTxI9Ofz_GkbuAJx4M88axnxjicNsUjHt7gT4VWu9u4_BTwFekm1r3hBNe-E1J7IriArbve0hhTS-2VlYbDUR86CEWGUnEKH006UkhNNirsUOw-Zgf6kO0KXCgCD-kkZamBf9iZxp4g_849icd5cQDWqyPy5QVP-18VY&ved=2ahUKEwjXvdnf69mWAxUl3TgGHRzBNpYQFnoECCEQAQ&uoh=1",
+      "displayed_link": "8 वर्ष पहले",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAARVBMVEVHcEwAAAAAAAAAAAAAAAAAAAB2dnanp6fW1tb___-JiYmzs7Pm5uaUlJS5ubm_v79XV1fMzMwuLi5GRkZgYGAWFhbz8_NaZDsbAAAABnRSTlMATcb6_504Ks4-AAAA00lEQVR4AX3TCw6DIBAEUNQpP_Gv3P-oHbJKpA1MErPwXAgRlVJdP-AvQ98p5oNKPuxDNZ3q69iroY6DQiOC2jAA8kC_ENY55yFhafHGkTNByonlWOC8cGpFShh_cVmJm-x4o7bbg_tG3VMj5oR86tx5pFYDHFZQuwBkRKCyOAWDM2_0RI8AJLx4HDNmBIjBT4JHehEZ5awRGU2BO9EgLxsLBE9z3YjIYxd4cvygT3vcaDWYeEIWsHxS8yfbU6vUjAa0DQqNNK9J84I1r2b7Urd-hy8WUBIcmpFBTAAAAABJRU5ErkJggg.png",
+      "snippet": "You can manage sales across all channels with automatic syncing, allowing you to optimize inventory, avoid errors like advertising out of stock ...",
+      "snippet_highlighted_words": [
+        "automatic syncing"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "You can manage sales across all channels with automatic syncing, allowing you to optimize inventory, avoid errors like advertising out of stock ...",
+          "source_info_link": "https://hamidnaeem92.medium.com/omnichannel-retailing-the-future-trend-of-fashion-2f987c1a3cee",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAARVBMVEVHcEwAAAAAAAAAAAAAAAAAAAB2dnanp6fW1tb___-JiYmzs7Pm5uaUlJS5ubm_v79XV1fMzMwuLi5GRkZgYGAWFhbz8_NaZDsbAAAABnRSTlMATcb6_504Ks4-AAAA00lEQVR4AX3TCw6DIBAEUNQpP_Gv3P-oHbJKpA1MErPwXAgRlVJdP-AvQ98p5oNKPuxDNZ3q69iroY6DQiOC2jAA8kC_ENY55yFhafHGkTNByonlWOC8cGpFShh_cVmJm-x4o7bbg_tG3VMj5oR86tx5pFYDHFZQuwBkRKCyOAWDM2_0RI8AJLx4HDNmBIjBT4JHehEZ5awRGU2BO9EgLxsLBE9z3YjIYxd4cvygT3vcaDWYeEIWsHxS8yfbU6vUjAa0DQqNNK9J84I1r2b7Urd-hy8WUBIcmpFBTAAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://hamidnaeem92.medium.com/omnichannel-retailing-the-future-trend-of-fashion-2f987c1a3cee&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fhamidnaeem92.medium.com%2Fomnichannel-retailing-the-future-trend-of-fashion-2f987c1a3cee",
+      "source": "Medium · Hamid Naeem"
+    },
+    {
+      "position": 8,
+      "title": "Scaling Clothing Brand Pakistan: The Automation Guide",
+      "link": "https://brandbuilders.com.pk/scaling-your-clothing-brand-moving-from-whatsapp-orders-to-a-fully-automated-funnel/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESqQEB6zswFfouorclpyLsmK1EXHLQl49uy4Cc-rVyyGDq23YaCV1pOEbbaFQldxJcfwCcCj2q2LS-6cxq2Oj9shJq_Z49oxYzGHdYukNdo2Obe_CammQPwJIdGwBi7LhDZ2Rafat12bqb1dif8J9FYfHVNu0aCtzQ2Af6QVp5cN1ylFhSL9-ZyLthv1YPO4G4S6DIyl_6TdrXS7VoA23HepCayw3jXhV4Lgww&ved=2ahUKEwjXvdnf69mWAxUl3TgGHRzBNpYQFnoECB4QAQ&uoh=1",
+      "displayed_link": "https://brandbuilders.com.pk › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAdVBMVEVHcEztNSLxOCTnHhfhDA_gCA3gCw7kFBPnHhfnHhfmGxbkFhTyOiXpIhrrKBzwNSLtLB7uMSHtLh_wNiPzPSbrJxvmGhXyOiXzPCXzPyf4Siz6Ti74TC33SS3vMyH3Ryv7UzH0Pib2Ryv1QynpJBrhDhDsLB4c7QzQAAAAJ3RSTlMABy9a533__5s7_rV6___E___0_-wb1f-T_2OM_81LIv8Q__-ri91vl_r7AAAA3ElEQVR4Ac2RRQKEMAwAocWdenD__w_XFb2SS22SplPtRKGjAwAb-j5gWrbjHgC27fnB5k3uA_DCMIo3IP8NJElKgtUa_u38CVDK1lvm2BFPQMYLD58UpGRKJfAZkOXfeV6AhPmb86Ks3vO6aADaGRAUXQ9x8MhTUHRKmwW6A5KmCRlEREFpi8hfQBSGnm2sWa8V-wC2Na7_eaXi5AlYeNMDx8SzLEvMPZQ_DTdFZFkLD132KdIVDTXWPaBHBQl9Z255mBxMUkqnfQ-2oe968FYt3HJaVGGMK66dLK6ufBGw06F5wAAAAABJRU5ErkJggg.png",
+      "snippet": "Master the art of Scaling Clothing Brand Pakistan. Move from manual WhatsApp orders to a fully automated sales funnel and boost profits in 2025.",
+      "snippet_highlighted_words": [
+        "Clothing",
+        "automated"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Master the art of Scaling Clothing Brand Pakistan. Move from manual WhatsApp orders to a fully automated sales funnel and boost profits in 2025.",
+          "source_info_link": "https://brandbuilders.com.pk/scaling-your-clothing-brand-moving-from-whatsapp-orders-to-a-fully-automated-funnel/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAdVBMVEVHcEztNSLxOCTnHhfhDA_gCA3gCw7kFBPnHhfnHhfmGxbkFhTyOiXpIhrrKBzwNSLtLB7uMSHtLh_wNiPzPSbrJxvmGhXyOiXzPCXzPyf4Siz6Ti74TC33SS3vMyH3Ryv7UzH0Pib2Ryv1QynpJBrhDhDsLB4c7QzQAAAAJ3RSTlMABy9a533__5s7_rV6___E___0_-wb1f-T_2OM_81LIv8Q__-ri91vl_r7AAAA3ElEQVR4Ac2RRQKEMAwAocWdenD__w_XFb2SS22SplPtRKGjAwAb-j5gWrbjHgC27fnB5k3uA_DCMIo3IP8NJElKgtUa_u38CVDK1lvm2BFPQMYLD58UpGRKJfAZkOXfeV6AhPmb86Ks3vO6aADaGRAUXQ9x8MhTUHRKmwW6A5KmCRlEREFpi8hfQBSGnm2sWa8V-wC2Na7_eaXi5AlYeNMDx8SzLEvMPZQ_DTdFZFkLD132KdIVDTXWPaBHBQl9Z255mBxMUkqnfQ-2oe968FYt3HJaVGGMK66dLK6ufBGw06F5wAAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://brandbuilders.com.pk/scaling-your-clothing-brand-moving-from-whatsapp-orders-to-a-fully-automated-funnel/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fbrandbuilders.com.pk%2Fscaling-your-clothing-brand-moving-from-whatsapp-orders-to-a-fully-automated-funnel%2F",
+      "source": "brandbuilders.com.pk"
+    },
+    {
+      "position": 9,
+      "title": "B2B Ecommerce Fashion: Wholesale Brand Guide (2025)",
+      "link": "https://www.shopify.com/ca/enterprise/blog/b2b-fashion-ecommerce",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESeAHrOzAV6I1STruaV9VkB-JtXtvcMxcMEnVEIyArwgCq2C-tIwzNFJdTs1S37ZJHPRO6bi5Yb3Bp7txtHSonUVFvgadhqLB_5hU89JGlxHinaDhmJsKJ008Yz26_I_8OWItb9asGYyiVmForr0Cbvev-EB-tjsWDxg&ved=2ahUKEwjXvdnf69mWAxUl3TgGHRzBNpYQFnoECCAQAQ&uoh=1",
+      "displayed_link": "https://www.shopify.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAn1BMVEX____1-PGuzoGawk-ixmPk7dX7_Pnx9uuQvCygxV2QvDrP4bX8_fybwlfp8d_s8-O404_K3qzC2Z7S47ve6sumyGqpyHra4taVv0eTvkGQukZIgyi-15iVv0hcjD5ViS5xmlhik07k6uKUv0dejj5JgxvK18WtzXeuwqSEtgq00ISOrnuKuR-PuzVfjkC50456oWhBgAi8zbSctosfcwAVHUP-AAABXElEQVR4AW3ShWLCMBAA0HahIYS6bBdWF7SC_f-3LckS_KD6aifGPcwvNLOw8THmxDIXhC4_me24BvJ8a-Z-wCA0wqURRHHy_fNq2LFxYs99oGz1-6pWasSIvzLLYJUXZVU_3pgmiDSQAQDHtu3WN4o3jApgrFFYbLWZO8aF0mS_nylsDxrdHrilpnjG8I9jqTEmACr5iUrkYesUB2AbUaM5dhqFnalwYjDEhpFSyk2jzjUBIB7fsEyn8pALyiSa-wFuqHPBNAMaiL2I3rA9ql71In9L7C6HTOFYqTQFNvJejDS2BZYYEQBGMyIy3TCNp1piSAE2S9YH8sP1Y1Uum0Z8j-mJKrP7Y88SF5mogYyUgsb2Is_IZgUmv89_SGWUuWCScaUEoUGaxlGg1_c9zWTAA7adzAXP4zBBpCeskRdwHMe8uD6MEXbjNIG-Hxo-YKfieNb2eEk0JQcNf_qmMR8K5c7QAAAAAElFTkSuQmCC.png",
+      "date": "29 अग॰ 2025",
+      "snippet": "Order-processing automation. Auto-tag wholesale orders, route large-quantity orders to specific warehouses, or kick off invoice generation based ...",
+      "snippet_highlighted_words": [
+        "Auto-tag wholesale orders"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Order-processing automation. Auto-tag wholesale orders, route large-quantity orders to specific warehouses, or kick off invoice generation based ...",
+          "source_info_link": "https://www.shopify.com/ca/enterprise/blog/b2b-fashion-ecommerce",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAn1BMVEX____1-PGuzoGawk-ixmPk7dX7_Pnx9uuQvCygxV2QvDrP4bX8_fybwlfp8d_s8-O404_K3qzC2Z7S47ve6sumyGqpyHra4taVv0eTvkGQukZIgyi-15iVv0hcjD5ViS5xmlhik07k6uKUv0dejj5JgxvK18WtzXeuwqSEtgq00ISOrnuKuR-PuzVfjkC50456oWhBgAi8zbSctosfcwAVHUP-AAABXElEQVR4AW3ShWLCMBAA0HahIYS6bBdWF7SC_f-3LckS_KD6aifGPcwvNLOw8THmxDIXhC4_me24BvJ8a-Z-wCA0wqURRHHy_fNq2LFxYs99oGz1-6pWasSIvzLLYJUXZVU_3pgmiDSQAQDHtu3WN4o3jApgrFFYbLWZO8aF0mS_nylsDxrdHrilpnjG8I9jqTEmACr5iUrkYesUB2AbUaM5dhqFnalwYjDEhpFSyk2jzjUBIB7fsEyn8pALyiSa-wFuqHPBNAMaiL2I3rA9ql71In9L7C6HTOFYqTQFNvJejDS2BZYYEQBGMyIy3TCNp1piSAE2S9YH8sP1Y1Uum0Z8j-mJKrP7Y88SF5mogYyUgsb2Is_IZgUmv89_SGWUuWCScaUEoUGaxlGg1_c9zWTAA7adzAXP4zBBpCeskRdwHMe8uD6MEXbjNIG-Hxo-YKfieNb2eEk0JQcNf_qmMR8K5c7QAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.shopify.com/ca/enterprise/blog/b2b-fashion-ecommerce&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.shopify.com%2Fca%2Fenterprise%2Fblog%2Fb2b-fashion-ecommerce",
+      "source": "Shopify"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=Automatic+tagging+of+clothing+in+E-Commerce&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=P02dapeiH6W64-EPnILbsQk&start=10&sa=N&sstk=AS6-VmJfKUDcSEzHjSSqFqbmD56bey7Ivzvz-_lrH9_j3UaA9Nm84b3pJHvfiBJjpjv-TrDV0-p6HCZg740jL23AKJIJsI6Ns35VSA&ved=2ahUKEwjXvdnf69mWAxUl3TgGHRzBNpYQ8NMDegQIPRAI",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=Automatic+tagging+of+clothing+in+E-Commerce&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=P02dapeiH6W64-EPnILbsQk&start=10&sa=N&sstk=AS6-VmJfKUDcSEzHjSSqFqbmD56bey7Ivzvz-_lrH9_j3UaA9Nm84b3pJHvfiBJjpjv-TrDV0-p6HCZg740jL23AKJIJsI6Ns35VSA&ved=2ahUKEwjXvdnf69mWAxUl3TgGHRzBNpYQ8tMDegQIPRAE",
+      "3": "https://www.google.co.in/search?q=Automatic+tagging+of+clothing+in+E-Commerce&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=P02dapeiH6W64-EPnILbsQk&start=20&sa=N&sstk=AS6-VmJfKUDcSEzHjSSqFqbmD56bey7Ivzvz-_lrH9_j3UaA9Nm84b3pJHvfiBJjpjv-TrDV0-p6HCZg740jL23AKJIJsI6Ns35VSA&ved=2ahUKEwjXvdnf69mWAxUl3TgGHRzBNpYQ8tMDegQIPRAG"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Automatic+tagging+of+clothing+in+E-Commerce&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Automatic+tagging+of+clothing+in+E-Commerce&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Automatic+tagging+of+clothing+in+E-Commerce&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Automatic+tagging+of+clothing+in+E-Commerce&start=20"
+    }
+  }
+}

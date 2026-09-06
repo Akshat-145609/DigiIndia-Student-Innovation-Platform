@@ -1,0 +1,704 @@
+{
+  "search_metadata": {
+    "id": "6a9d4b7fa204ab8b8ae683b8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/-K7FafUcOT1l0utAxBSZuP2UCUBWaDiy2bPiykLdZTc/6a9d4b7fa204ab8b8ae683b8.json",
+    "markdown_endpoint": "https://serpapi.com/searches/-K7FafUcOT1l0utAxBSZuP2UCUBWaDiy2bPiykLdZTc/6a9d4b7fa204ab8b8ae683b8.md",
+    "created_at": "2026-09-06 11:16:15 UTC",
+    "processed_at": "2026-09-06 11:16:15 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=Top+27+Free+Healthcare+Datasets+for+Machine+Learning",
+    "raw_html_file": "https://serpapi.com/searches/-K7FafUcOT1l0utAxBSZuP2UCUBWaDiy2bPiykLdZTc/6a9d4b7fa204ab8b8ae683b8.html",
+    "total_time_taken": 2.03
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "Top 27 Free Healthcare Datasets for Machine Learning"
+  },
+  "search_information": {
+    "total_results": 660,
+    "video_results_state": "Results for exact spelling"
+  },
+  "ads_results": [
+    {
+      "position_on_page": 1,
+      "title": "2025 F-150 is part of Ford F-Series, the best-selling truck lineup.",
+      "link": "https://www.youtube.com/watch?v=08Ru1K_5tIc",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CAKyhf0udavyBJb-fzLUPpL_AkQvyxYm7iQGMu-Sx4xRkEAEgAGDJ_reKpKScEYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGz6uTDPqgDBMgDCqoE5gJP0ACOOMGCzX_Q3VT05Qb41F6vo7ue7GChg587IBsefJNJJRGHklIjmsa0ISuOOYBqHWM5deLdWuv209U9gAZWn6YA4B-ppaqrppKHe0fnAw7U1PWqWnMR6foDVi8TmN-c6oVQAke6iJOwcXTNZ2i332tgjjf_ZjT7lGTgHWF9EnJshNvs710uiSPmHAqBtmhlzijF-qN0HacSYdS77SFY3NxEbga7ERaOABCP0csnr4FxAasWyA4jylA5P4ayYsdeDSAQ5nqeE38rW-asXAPeQNVS14AQd29u0d8hXgm2rZR_IFF_DCpVnWCFJz80bBAi8JzO7hhwRKwJLgmOVOKCbRxMT2EROooyUXqcbHLMss0DotREf1tQlRdwkfGO7d8Pg-4wIh-C8JoafB3WMzoJHN7W1GhAiMfeEw5eUWBwPLzdMKlgMG8aErsoTXdAbwR2tG8IwBzK1aQWoI-QqL9W5Fl8tdHaiAXPrezfVpIFCAgTeOfe_7IZoAahAYAHs6K1oxmQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxAqgHwsixApIICzA4UnUxS181dEljqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRY6JKPiurZlgNgAZoJJmh0dHBzOi8vd3d3LmZvcmQuY29tL3RydWNrcy9mMTUwLzIwMjUvsQkptCJqfxQhgcgJF8gJjwHICcIByAmXAroLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMFdmlhdGzQCxLgCwGiDDJiFQoTY29tLnNpZW1lbnMuZm9yZDgwQWoUChJjb20uZm9yZC5mb3JkYWxleGF4AIgBANIMAhAB2gwlCgoQkOfXxM_6ttZHEgIBAxoNGM-t7N9WIP6X8r_HBUABSgIQH5oNARKqDQJVU8gNAdINuwVodHRwczovL2FkLmRvdWJsZWNsaWNrLm5ldC9kZG0vdHJhY2tjbGsvTjMwMTYuNTI2NzkyNUdNTkVYVVNNRURJQS1TT0xVVEkvQjM0NTgyMjQxLjQzNDIzMDExMztkY190cmtfYWlkPTYyODk5MTY4MTtkY190cmtfY2lkPTI0NjE2MDkxNjtkY19kYm1fdG9rZW49QU9qZUxORUFBQUE2Q2pRS0RBZ0FGUUFBQUFBZEFBQUFBQklNQ0FBVkFBQUFBQjBBQUFBQUloUUl6NjNzMzFhb0F1ZmVfN0lac0FMN3pyVG9BMEE3RU5YRVZJdDlTTVl3Ym9ybXEwY0ZscVM4ZngwPTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtnZHByPSR7R0RQUn07Z2Rwcl9jb25zZW50PSR7R0RQUl9DT05TRU5UXzc1NX07bHRkPTtkY190ZHY9MTtkY190cmFuc3BhcmVudD0xOztkY19ydWk9MTtkY19lcHM9QUhhczhjQ09MV2JTOTJtT0p4anpmaDh0WVY2TXNfd0xFUlhOdG5iYjgxT2NUcVI1WjlNVE8wWDhsRHZzZGNkM3VGeS1RbmZqOTd0c3dHZVk2b0hQR3c7ZGNfcHViaWQ9Nj9odHRwczovL3d3dy5mb3JkLmNvbS90cnVja3MvZjE1MC8yMDI1Lz9sZWFkc291cmNlPWZkYWYtYmFubmVyYWQmYmFubmVyaWQ9MzQ1ODIyNDF8OTgwODMxMnw0MzQyMzAxMTN8MjQ2MTYwOTE2fDYyODk5MTY4MSZmY2lkPWRpc18zNDU4MjI0MV85ODA4MzEyLVlURCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjMyODY0NTM5NjewE-OcuyS4E____________wGIFAWwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakX0HS17cFp76e6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIvL2PiurZlgMVvw-zAB2kHzCyEAEYASAAEgKmufD_BwE&num=1&cid=CAASqgHkaLD0W5po5Kki44bCjJin_tUoBzK0GoAOji_NH_fidaIutwxLuEY7CTdR9NEDYCWorGfHDn9BAJc7TpZK20aG81QX6mccfE853mATArzSrpp7SJqbKIcCrjit4_Si1VYfVGnAeGYWZqRHXPDzdkOD8JRLOr9rI_BGHX5wH4rQzL5yCF3gGvUkn7oAccEFNP-RYQNt26gKQcjT11PCVQMKDW8NJSfBDbPYsA&ad_cpn=%5BCPN%5D&sig=AOD64_2ggPVv1-43qVBTQpa8uN1IOPpjhg&ctype=110&video_id=08Ru1K_5tIc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Ford",
+        "thumbnail": "https://yt3.ggpht.com/proxy/CcO1kwb0wHsy5J4tRTNPTDGlSPeGeiykAuN1FBSeIZhuqDVMnBQPCYTBr5JrhvbVGAxaUtEkUXQdwunKK3D8iB3CryGYstiisX1Gzqkw3XWFpaYhxGHdbw6G0lswwRRKs51nRq9yimW_byVr4gF-SX4lABxJeR33xOD1xzlEdWB8nhe1nHtiG25z8LBKKjRjO5flgOKWeIkHQuLD2hYxX60czXzWYwecHzqkdfhOmaK7cyzPnaWXa9zIV8ypMaRpKsLjnxU=w68-h68-nd"
+      },
+      "description": "Tough this smart can only be called F-150.",
+      "thumbnail": "https://i.ytimg.com/vi/08Ru1K_5tIc/hqdefault.jpg",
+      "videoId": "08Ru1K_5tIc",
+      "url": "https://www.youtube.com/watch?v=08Ru1K_5tIc"
+    },
+    {
+      "position_on_page": 4,
+      "title": "Stevesie Data",
+      "link": "https://www.youtube.com/watch?v=X4rbee3wl5k",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CTHCRf0udavyBJb-fzLUPpL_AkQvWkfOxiQGG1MaQlBawkB8QAiAAYMn-t4qkpJwRggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLR8tgDqAMEyAMKqgTHAk_QAI44wYLNf9DdVPTlBvjUXq-ju57sYKGDnzsgGx58k0klEYeSUiOaxrQhK445gGodYzl14t1a6_bT1T2ABlafpgDgH6mlqqumkod7R-cDDtTU9apacxHp-gNWLxOY35zqhVACR7qIk7BxdM1naLffa2CON_9mNPuUZOAdYX0ScmyE2-zvXS6JI-YcCoG2aGXOKMX6o3QdpxJh1LvtIVjc3ERuBrsRFo4AEI_RyyevgXEBqxbIDiPKUDk_hrJix14NIBDmep4Tfytb5qxcA95A1VLXgBB3b27R3yFeCbatlH8gUX8MKlWdYIUnPzRsECLwnM7uGHBErAkuCY5U4oILaEdPYRg6il1KaqZoYM9nK9iNGVwh1Im2j3lzd2CUr5QAKRtH7JULmSt2DAwUVTKmWOT23qZnC2PIMCqitkE8VxAN4p_L2ogF2OeR-VmSBQcIE3jepNInoAahAYAH9q2NJ5AHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLWDRyYmVlM3dsNWuoCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjoko-K6tmWA2ABmgkZaHR0cHM6Ly9zdGV2ZXNpZS5jb20vYXBwc7EJhedx15T4UqbICRfICY8ByAnCAcgJlwKYCwG6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDBXZpYXRs0AsS0gwCEAHaDCYKCxCQ1b-Ch4HnhNsBEgIBAxoNGNjnkflZIPr4x4fVBUABSgIQH5oNARKqDQJVU8gNAdINQWh0dHBzOi8vc3RldmVzaWUuY29tL2FwcHM_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MTQ0ODAyNzc2uBP___________8BiBQBsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpFzK0hzB4StwnuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIvL2PiurZlgMVvw-zAB2kHzCyEAEYAiAAEgL1uvD_BwE&num=2&cid=CAASqgHkaLD0W5po5Kki44bCjJin_tUoBzK0GoAOji_NH_fidaIutwxLuEY7CTdR9NEDYCWorGfHDn9BAJc7TpZK20aG81QX6mccfE853mATArzSrpp7SJqbKIcCrjit4_Si1VYfVGnAeGYWZqRHXPDzdkOD8JRLOr9rI_BGHX5wH4rQzL5yCF3gGvUkn7oAccEFNP-RYQNt26gKQcjT11PCVQMKDW8NJSfBDbPYsA&ad_cpn=%5BCPN%5D&sig=AOD64_3J0VJVUyU6mPrnUBxY7_qnK_dYXg&ctype=110&video_id=X4rbee3wl5k&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Stevesie Data",
+        "thumbnail": "https://yt3.ggpht.com/proxy/-0cq4XjmDDxB61LEnuNEQ-efJC03boT0Q1paPJrW92Zs1Q3FaC4VPAlmk3AZFBvfp3Poo1DdyzKgNigHPL4tMgk2cESPXmo8W4pWFFGkEH1NTYp4b2Hf71yMESUf4Wkyy2CdRIhVrolqaBaKo6F-Yol1JGN1rgJVu5-6GOYgeBzCt-PglvyGbUTD1ju6qvqigF5HDGOpNZhPGq8FlgwjToy8n5XxL_-ZVfLd03YzX2rWJoMrAiiiw9S6faAUMRrmPIOlFis=w68-h68-nd"
+      },
+      "description": "Scrape Data Not Screens",
+      "thumbnail": "https://i.ytimg.com/vi/X4rbee3wl5k/hqdefault.jpg",
+      "videoId": "X4rbee3wl5k",
+      "url": "https://www.youtube.com/watch?v=X4rbee3wl5k"
+    },
+    {
+      "position_on_page": 7,
+      "title": "A website makes your meditation retreat dreams real.",
+      "link": "https://www.youtube.com/watch?v=kkJmtQheLVQ",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CzF9rf0udavyBJb-fzLUPpL_AkQv7qMqviQHT_Lqs8hWwkB8QAyAAYMn-t4qkpJwRggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfClvdICqAMEyAMKqgTlAk_QAI44wYLNf9DdVPTlBvjUXq-ju57sYKGDnzsgGx58k0klEYeSUiOaxrQhK445gGodYzl14t1a6_bT1T2ABlafpgDgH6mlqqumkod7R-cDDtTU9apacxHp-gNWLxOY35zqhVACR7qIk7BxdM1naLffa2CON_9mNPuUZOAdYX0ScmyE2-zvXS6JI-YcCoG2aGXOKMX6o3QdpxJh1LvtIVjc3ERuBrsRFo4AEI_RyyevgXEBqxbIDiPKUDk_hrJix14NIBDmep4Tfytb5qxcA95A1VLXgBB3b27R3yFeCbatlH8gUX8MKlWdYIUnPzRsECLwnM7uGHBErAkuCY5U4oIATUdPYRU6ingaY811csyyzQOi1ER_W3yXF3CR8c3KwRCb7jAPQnrxmhp8HdYS_pKM5-01fjX7D_qLcCUapkH8qP8mHXqc4jEwuyNe9z4UT7CnTQjMCBLBhgAUn7KosUAdTwnGGYgFupKqolGSBQgIE3ik-eGtAaAGoQGAB_jZwq0BkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtra0ptdFFoZUxWUagIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWOiSj4rq2ZYDYAGaCTBodHRwczovL3d3dy5zcXVhcmVzcGFjZS5jb20vZ28vY3JlYXRlLWEtd2Vic2l0ZS-xCTg_3M0IeY7uyAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWF0bNALEuALAaIMUWIgCh5jb20uc3F1YXJlc3BhY2Uuc3F1YXJlc3BhY2VhcHBqKAomY29tLnNxdWFyZXNwYWNlLmFuZHJvaWQuc3F1YXJlc3BhY2VhcHB4AIgBANIMAhAB2gwmCgsQwPetlc2_4PvnARICAQMaDRi6kqqiUSDS34H38wRAAUoCEB-aDQESqg0CVVPIDQHSDd4FaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL043MTg2NzkuMzE1OUdPT0dMRS9CMzQ0NDU0ODkuNDQ3MzgzNDA0O2RjX3Rya19haWQ9NjQxMDQ2MDk2O2RjX3Rya19jaWQ9MjU2NjcyNzg1O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTZDak1LREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhNSXVwS3FvbEdvQW9QZ3RRS3dBdF9DOE9VRFFEc1F1NEMwQWhVMUozT2tPYngzVDVqZTVBbkFhM2s9O2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjQWdQQmNGT0JwdFR6a2tqbXJQdnhfZDdiai1YZTFLTlk2SnJHSFROQ0RVRG9WOThfdHEwYkJha21lTk9rOVdydzJSdW5iWDBSQzFDWk02TUE7ZGNfcHViaWQ9Nj9odHRwczovL3d3dy5zcXVhcmVzcGFjZS5jb20vZ28vY3JlYXRlLWEtd2Vic2l0ZS8_Y2hhbm5lbD12aWRlb19wcm9ncmFtbWF0aWMmc3ViY2hhbm5lbD1ONzE4Njc5LjMxNTlHT09HTEUmY2FtcGFpZ249MzQ0NDU0ODkmc3ViY2FtcGFpZ249NDQ3MzgzNDA0XzY0MTA0NjA5NiZzb3VyY2U9MjU2NjcyNzg1JnV0bV9tZWRpdW09dmlkZW9fcHJvZ3JhbW1hdGljJnV0bV9zb3VyY2U9TjcxODY3OS4zMTU5R09PR0xFJnV0bV9jb250ZW50PSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjE4MTUyNjU1OTSwE8K5wyS4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXzYBTjhs5jVi6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIvL2PiurZlgMVvw-zAB2kHzCyEAEYAyAAEgIAevD_BwE&num=3&cid=CAASqgHkaLD0W5po5Kki44bCjJin_tUoBzK0GoAOji_NH_fidaIutwxLuEY7CTdR9NEDYCWorGfHDn9BAJc7TpZK20aG81QX6mccfE853mATArzSrpp7SJqbKIcCrjit4_Si1VYfVGnAeGYWZqRHXPDzdkOD8JRLOr9rI_BGHX5wH4rQzL5yCF3gGvUkn7oAccEFNP-RYQNt26gKQcjT11PCVQMKDW8NJSfBDbPYsA&ad_cpn=%5BCPN%5D&sig=AOD64_3oe9jR--6shWLcBOj_kTEI2geETg&ctype=110&video_id=kkJmtQheLVQ&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Squarespace",
+        "thumbnail": "https://yt3.ggpht.com/proxy/OV0yjYL3Kk9I_i7Omx09d9RPjt0_v4WbF7A4zOK17mKSTTLGS6IO5mPBrpBATxaPMOmf0MGg_Ub91n5qb0n0PLL_J9gidUb63dm9kE-Nwkg_7ZqLObNCs5G-E0YLi1MvkceqjxZndTLsAbHnJpP7OC_QAhOQZtbUFk8jZD838Uhn1Ibf0TfqBSYqRLc2WV7uen0op44FyOJoJOb0pAE2hP68C2i7Kf-ZIeH6Z7WWqDm3UWjzKA17dHtTZKxulgfXUtKJF44=w68-h68-nd"
+      },
+      "description": "Get a domain and start a website at squarespace.com today.",
+      "thumbnail": "https://i.ytimg.com/vi/kkJmtQheLVQ/hqdefault.jpg",
+      "videoId": "kkJmtQheLVQ",
+      "url": "https://www.youtube.com/watch?v=kkJmtQheLVQ"
+    },
+    {
+      "position_on_page": 13,
+      "title": "Get 3 months of full access to Shopify for $1/mo",
+      "link": "https://www.youtube.com/watch?v=5JXRUFEOvPs",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CyU9hf0udavyBJb-fzLUPpL_AkQvwhOCoiAHX95PwgRawkB8QBCAAYMn-t4qkpJwRggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLy-5sqqQJqSn6p-K22PqgDBMgDCqoEwAJP0ACOOMGCzX_Q3VT05Qb41F6vo7ue7GChg587IBsefJNJJRGHklIjmsa0ISuOOYBqHWM5deLdWuv209U9gAZWn6YA4B-ppaqrppKHe0fnAw7U1PWqWnMR6foDVi8TmN-c6oVQAke6iJOwcXTNZ2i332tgjjf_ZjT7lGTgHWF9EnJshNvs710uiSPmHAqBtmhlzijF-qN0HacSYdS77SFY3NxEbga7ERaOABCP0csnr4FxAasWyA4jylA5P4ayYsdeDSAQ5nqeE38rW-asXAPeQNVS14AQd29u0d8hXgm2rZR_IFF_DCpVnWCFJz80bBAi8JzO7hhwRKwJLgmOVOKCGvyGjWbV8D9UPgBZl4Z6XmCmrwxcfvPJLCfre9Rh-6MOIAYwzZ6BMHoyyp_1ttkMllY-DSiWSRP6HYpmGy_zEYgFyIfVvFmSBQgIE3iz5--sBaAGoQGAB_KqzPsEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAs1SlhSVUZFT3ZQc6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWOiSj4rq2ZYDYAGaCU1odHRwczovL3d3dy5zdHlsZWZhY3Rvcnlwcm9kdWN0aW9ucy5jb20vaG93LXRvLXVubG9jay1hLTMtbW9udGgtc2hvcGlmeS10cmlhbLEJR1k_C2yTfDzICRfICY8ByAnCAZgLAboLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAISugMFdmlhdGzQCxPSDAIQAdoMJgoLEODEqPSpq8_0twESAgEDGg0YyIfVvFkgj7Sy4d0FQAFKAhAfmg0BE6oNAlVTyA0B0g11aHR0cHM6Ly93d3cuc3R5bGVmYWN0b3J5cHJvZHVjdGlvbnMuY29tL2hvdy10by11bmxvY2stYS0zLW1vbnRoLXNob3BpZnktdHJpYWw_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MDE3OTc4MzEyuBP___________8BsBQDwBWBgIBA0BUB2BUBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqReNjtQReSwWPboXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIvL2PiurZlgMVvw-zAB2kHzCyEAEYBCAAEgKp2PD_BwE&num=4&cid=CAASqgHkaLD0W5po5Kki44bCjJin_tUoBzK0GoAOji_NH_fidaIutwxLuEY7CTdR9NEDYCWorGfHDn9BAJc7TpZK20aG81QX6mccfE853mATArzSrpp7SJqbKIcCrjit4_Si1VYfVGnAeGYWZqRHXPDzdkOD8JRLOr9rI_BGHX5wH4rQzL5yCF3gGvUkn7oAccEFNP-RYQNt26gKQcjT11PCVQMKDW8NJSfBDbPYsA&ad_cpn=%5BCPN%5D&sig=AOD64_2uWH-lP6ijv93l9YX3SKTxyW2gDQ&ctype=110&video_id=5JXRUFEOvPs&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Style Factory",
+        "thumbnail": "https://yt3.ggpht.com/proxy/lXILA8k5vCLoCqam4gFoS6UzbgO-H0JeHffp3_WwddZvVWNIeFZk7rXSvqdZ4TodxkslRpIOY8naQiAu2agA9g_MHehKzzDhp8v2jKPVWA1ZPOt-mb1Zf6EPOO3I9XGf_PFKlonXkTPSht4hLbIroCeRBdEp4IBh8KJaYvxzWpFHXX5jvAAWYT0GCpdKaeVSdsWDnlrwRBAlmnBiiNqDiJHMa3jfliJ5wXgG1367owc0fJx0ik1Z0zJQDwKyN9TLG0ux=w68-h68-nd"
+      },
+      "description": "Find out how you can unlock an extended Shopify trial.",
+      "thumbnail": "https://i.ytimg.com/vi/5JXRUFEOvPs/hqdefault.jpg",
+      "videoId": "5JXRUFEOvPs",
+      "url": "https://www.youtube.com/watch?v=5JXRUFEOvPs"
+    },
+    {
+      "position_on_page": 19,
+      "title": "We Help Cleaners Book More Jobs—If You’re Serious, Apply For A Free Strategy Call",
+      "link": "https://www.youtube.com/watch?v=G-y7MRQbNzA",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CcD87f0udavyBJb-fzLUPpL_AkQvpgvOLiQG0yI210hWwkB8QBSAAYMn-t4qkpJwRggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAc2Li8UBqAMEyAMKqgTWAk_QAI44wYLNf9DdVPTlBvjUXq-ju57sYKGDnzsgGx58k0klEYeSUiOaxrQhK445gGodYzl14t1a6_bT1T2ABlafpgDgH6mlqqumkod7R-cDDtTU9apacxHp-gNWLxOY35zqhVACR7qIk7BxdM1naLffa2CON_9mNPuUZOAdYX0ScmyE2-zvXS6JI-YcCoG2aGXOKMX6o3QdpxJh1LvtIVjc3ERuBrsRFo4AEI_RyyevgXEBqxbIDiPKUDk_hrJix14NIBDmep4Tfytb5qxcA95A1VLXgBB3b27R3yFeCbatlH8gUX8MKlWdYIUnPzRsECLwnM7uGHBErAkuCY5U4oIh5oaNZtXwBVsyMVqXhhQYGbGoGVzvQGu3j3lzd2Cf1rwAKQpHmINxvgx2BAB1NTGOOghPU5RDTtgTkq-IcqSn1DqOL1IU84LneMR3TdyXy5pQlr80BogFvbOd_VWSBQgIE3jdoZa7AqAGoQGAB5v09LoCkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtHLXk3TVJRYk56QagIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWOiSj4rq2ZYDYAGaCSFodHRwczovL2Jvb2tjbGVhbmluZ2pvYnMuY29tL2Jvb2uxCbJQpZMsEa5MyAkXyAmPAcgJwgHICZcCmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWF0bNALEtIMAhAB2gwlCgoQsKeappiW_IdjEgIBAxoNGL2znf1VIOHOvZ3pBUABSgIQH5oNARKqDQJVU8gNAdINpAJodHRwczovL2Jvb2tjbGVhbmluZ2pvYnMuY29tL2Jvb2s_dXRtX3NvdXJjZT1hZHdvcmRzJnV0bV9tZWRpdW09Y3BjJnV0bV9jYW1wYWlnbj1Cb29rX0FfQ2FsbF9EZW1hbmRHZW4mdXRtX2NvbnRlbnQ9RGVtYW5kR2VuX1ZpZGVvQWRzJnV0bV90ZXJtPVlvdVR1YmVfVXNlcnMmdXRtX2tleXdvcmQ9JnV0bV9tYXRjaHR5cGU9JmNhbXBhaWduX2lkPTIzMDc5NjM5NDg1JmFkX2dyb3VwX2lkPTIwMDA0NjI0MTYzMyZhZF9pZD04MTc2NzE5MzIwOTcmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzMDc5NjM5NDg1uBP___________8BiBQBsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF9OAxrg078mBuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIvL2PiurZlgMVvw-zAB2kHzCyEAEYBSAAEgKhXfD_BwE&num=5&cid=CAASqgHkaLD0W5po5Kki44bCjJin_tUoBzK0GoAOji_NH_fidaIutwxLuEY7CTdR9NEDYCWorGfHDn9BAJc7TpZK20aG81QX6mccfE853mATArzSrpp7SJqbKIcCrjit4_Si1VYfVGnAeGYWZqRHXPDzdkOD8JRLOr9rI_BGHX5wH4rQzL5yCF3gGvUkn7oAccEFNP-RYQNt26gKQcjT11PCVQMKDW8NJSfBDbPYsA&ad_cpn=%5BCPN%5D&sig=AOD64_0X62izkriGkgse6ihLMlpC4k9G1Q&ctype=110&video_id=G-y7MRQbNzA&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "BookCleaningJobs.com",
+        "thumbnail": "https://yt3.ggpht.com/proxy/gX_CHoKWqbUKkB-u9IhV3fd2z4wzUJCdRE0dg2mH4z9_aOf5oX6zrzpekprreNJA9-f63-NHYHqQgcTjI8rYBYmZ-bs_KfBsFtQTw2ogrESl9kCz_j9Yd-pKNZUZE8Ni5ZYQIvuGcxup0tspfamPc3vVNfEpVNNQbAowQxUIUlzkSbWft4yA5nwv1Zp4mgU5KBn4pkXLFSdGGygjs_kHOaVuz8MsLkjvRHmXAl7ZmRj-o0URwGdFmGL-XalcfZAXNewB=w68-h68-nd"
+      },
+      "description": "Stuck At $10K-20K Per Month? Apply To Work With Our Cleaner-Focused Marketing Team",
+      "thumbnail": "https://i.ytimg.com/vi/G-y7MRQbNzA/hqdefault.jpg",
+      "videoId": "G-y7MRQbNzA",
+      "url": "https://www.youtube.com/watch?v=G-y7MRQbNzA"
+    }
+  ],
+  "video_results": [
+    {
+      "position_on_page": 2,
+      "title": "Where to find the Best Healthcare Data",
+      "link": "https://www.youtube.com/watch?v=1ql4kNv0_qY",
+      "video_id": "1ql4kNv0_qY",
+      "channel": {
+        "name": "Alex The Analyst",
+        "link": "https://www.youtube.com/@AlexTheAnalyst",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_l9wLnClpLKJeVmP5XwHy4NF_Gu13GfyRT1WTZDaSYS-g=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "12,580 views",
+      "length": "7:51",
+      "description": "In this video I'm going to show you where you can find Healthcare data for just about anything you could imagine! Websites: ...",
+      "thumbnail": "https://i.ytimg.com/vi/1ql4kNv0_qY/hqdefault.jpg",
+      "videoId": "1ql4kNv0_qY",
+      "url": "https://www.youtube.com/watch?v=1ql4kNv0_qY",
+      "channelTitle": "Alex The Analyst",
+      "channelVerified": true,
+      "duration": "7:51"
+    },
+    {
+      "position_on_page": 3,
+      "title": "ML #8 - Open Healthcare Datasets",
+      "link": "https://www.youtube.com/watch?v=KoA1lVRwHrc",
+      "video_id": "KoA1lVRwHrc",
+      "channel": {
+        "name": "Healthcare AI",
+        "link": "https://www.youtube.com/@HealthcareAI",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nmMppdfBkFN5x09EH-bTZR547M38LLBoyMDtkyApS4JA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "Streamed 9 years ago",
+      "views": "19,361 views",
+      "length": "26:27",
+      "description": "Many people want healthcare data to play with, but don't know where to find it. In this chat we'll provide you the data resources ...",
+      "thumbnail": "https://i.ytimg.com/vi/KoA1lVRwHrc/hqdefault.jpg",
+      "videoId": "KoA1lVRwHrc",
+      "url": "https://www.youtube.com/watch?v=KoA1lVRwHrc",
+      "channelTitle": "Healthcare AI",
+      "channelVerified": false,
+      "duration": "26:27"
+    },
+    {
+      "position_on_page": 5,
+      "title": "Local AI for Healthcare Data Analysis: Qwen3.8-27B on Public Claims and Pricing Data",
+      "link": "https://www.youtube.com/watch?v=JSIuMbvz1aM",
+      "video_id": "JSIuMbvz1aM",
+      "channel": {
+        "name": "Paul Zuradzki",
+        "link": "https://www.youtube.com/@paulzuradzki",
+        "thumbnail": "https://yt3.ggpht.com/X3xCk3DSEsxQFtVtAR69kmCFTisBknkrTPcevIS6Owp3PwOY0hDP9InAYiVevfsXSTI_TOZc=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "13 days ago",
+      "views": "178 views",
+      "length": "1:22:53",
+      "description": "In this video, I run local AI using Qwen3.8 27B model and kick the tires on two real healthcare data analysis tasks. First, we ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/JSIuMbvz1aM/hqdefault.jpg",
+      "videoId": "JSIuMbvz1aM",
+      "url": "https://www.youtube.com/watch?v=JSIuMbvz1aM",
+      "channelTitle": "Paul Zuradzki",
+      "channelVerified": false,
+      "duration": "1:22:53"
+    },
+    {
+      "position_on_page": 8,
+      "title": "Best Places to Find Datasets for Your Projects",
+      "link": "https://www.youtube.com/watch?v=PExdWWcxmro",
+      "video_id": "PExdWWcxmro",
+      "channel": {
+        "name": "Alex The Analyst",
+        "link": "https://www.youtube.com/@AlexTheAnalyst",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_l9wLnClpLKJeVmP5XwHy4NF_Gu13GfyRT1WTZDaSYS-g=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "286,531 views",
+      "length": "7:44",
+      "description": "Looking for Datasets for a project? Here are some great options that I've used for a lot of my personal projects. Links: 1.",
+      "thumbnail": "https://i.ytimg.com/vi/PExdWWcxmro/hqdefault.jpg",
+      "videoId": "PExdWWcxmro",
+      "url": "https://www.youtube.com/watch?v=PExdWWcxmro",
+      "channelTitle": "Alex The Analyst",
+      "channelVerified": true,
+      "duration": "7:44"
+    },
+    {
+      "position_on_page": 9,
+      "title": "FREE Machine Learning Datasets",
+      "link": "https://www.youtube.com/watch?v=V_Qhh8RW3C8",
+      "video_id": "V_Qhh8RW3C8",
+      "channel": {
+        "name": "Joseph Rivera",
+        "link": "https://www.youtube.com/@JosephRivera517",
+        "thumbnail": "https://yt3.ggpht.com/Kw8lgPdevAYLAXpb0dviAXDcDdpHy6OtB5SP8ickMkWPbVEp1bG7v8Fv2lD7nXgSLAle_dWKyz8=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "249 views",
+      "length": "8:17",
+      "description": "Free machine learning datasets are very helpful when you are building your skills. Here, I will share with you free machine ...",
+      "thumbnail": "https://i.ytimg.com/vi/V_Qhh8RW3C8/hqdefault.jpg",
+      "videoId": "V_Qhh8RW3C8",
+      "url": "https://www.youtube.com/watch?v=V_Qhh8RW3C8",
+      "channelTitle": "Joseph Rivera",
+      "channelVerified": false,
+      "duration": "8:17"
+    },
+    {
+      "position_on_page": 10,
+      "title": "10 Free Dataset Resources for Your Next Project!",
+      "link": "https://www.youtube.com/watch?v=JcDnoEtsoCU",
+      "video_id": "JcDnoEtsoCU",
+      "channel": {
+        "name": "CareerFoundry",
+        "link": "https://www.youtube.com/@careerfoundry",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/P28pB2taeSTfrOpjY8vA-LBJtBWmdkS8UNlERHJUzDuG5z3gzkYXFBuMcBKCXfyd1yR6_45kkII=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "138,650 views",
+      "length": "5:47",
+      "description": "Curious about a career in Data Analytics? Book a call with a program advisor: https://bit.ly/47LEBk3 Looking to start building your ...",
+      "extensions": [
+        "4K",
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/JcDnoEtsoCU/hqdefault.jpg",
+      "videoId": "JcDnoEtsoCU",
+      "url": "https://www.youtube.com/watch?v=JcDnoEtsoCU",
+      "channelTitle": "CareerFoundry",
+      "channelVerified": true,
+      "duration": "5:47"
+    },
+    {
+      "position_on_page": 12,
+      "title": "10 Awesome Dataset Sources For Machine Learning",
+      "link": "https://www.youtube.com/watch?v=YxPaTAEtcFg",
+      "video_id": "YxPaTAEtcFg",
+      "channel": {
+        "name": "NeuralNine",
+        "link": "https://www.youtube.com/@NeuralNine",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/l_2SPJx1Qd4IC01Fdlm-9cszWtmZv62ns80dOb-L-PyA5lcjdsSyjaz7LJRwBo4s9zDhtdiImw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "6,840 views",
+      "length": "14:02",
+      "description": "In this video today, we take a look at 10 awesome dataset sources for machine learning and data science projects. 1.Kaggle: ...",
+      "thumbnail": "https://i.ytimg.com/vi/YxPaTAEtcFg/hqdefault.jpg",
+      "videoId": "YxPaTAEtcFg",
+      "url": "https://www.youtube.com/watch?v=YxPaTAEtcFg",
+      "channelTitle": "NeuralNine",
+      "channelVerified": true,
+      "duration": "14:02"
+    },
+    {
+      "position_on_page": 14,
+      "title": "Machine Learning for Healthcare Data",
+      "link": "https://www.youtube.com/watch?v=T8zmFcSK6T0",
+      "video_id": "T8zmFcSK6T0",
+      "channel": {
+        "name": "Simons Institute for the Theory of Computing",
+        "link": "https://www.youtube.com/@SimonsInstitute",
+        "thumbnail": "https://yt3.ggpht.com/L0xe4nfY6MDy45wGcQg-PiQQd8mDsit4NKkEcTcj5_aftzZQ4Koo_BrC4N045gPHI8L3k3jJUQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "Streamed 9 years ago",
+      "views": "3,140 views",
+      "length": "1:09:46",
+      "description": "Katherine Heller, Duke University Computational Challenges in Machine Learning ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/T8zmFcSK6T0/hqdefault.jpg",
+      "videoId": "T8zmFcSK6T0",
+      "url": "https://www.youtube.com/watch?v=T8zmFcSK6T0",
+      "channelTitle": "Simons Institute for the Theory of Computing",
+      "channelVerified": false,
+      "duration": "1:09:46"
+    },
+    {
+      "position_on_page": 15,
+      "title": "5 FREE Machine Learning and Data Science Datasets for Your Next Experiment",
+      "link": "https://www.youtube.com/watch?v=aJQAeMswAvg",
+      "video_id": "aJQAeMswAvg",
+      "channel": {
+        "name": "Nicholas Renotte",
+        "link": "https://www.youtube.com/@NicholasRenotte",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/p_Psdo-C_zlkUCxmmk0lHqfE5JDPD4K0f9RYpCYZYhMU8tFTFdKBWk4TGaUM5sdOPnRQfUO5AfY=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 years ago",
+      "views": "2,416 views",
+      "length": "4:22",
+      "description": "Finding data for a data science project can be hard... WHAT?! There's so much FREE and readily available data for data science ...",
+      "thumbnail": "https://i.ytimg.com/vi/aJQAeMswAvg/hqdefault.jpg",
+      "videoId": "aJQAeMswAvg",
+      "url": "https://www.youtube.com/watch?v=aJQAeMswAvg",
+      "channelTitle": "Nicholas Renotte",
+      "channelVerified": true,
+      "duration": "4:22"
+    },
+    {
+      "position_on_page": 16,
+      "title": "Building AI models for healthcare (ML Tech Talks)",
+      "link": "https://www.youtube.com/watch?v=UZEstizNxkg",
+      "video_id": "UZEstizNxkg",
+      "channel": {
+        "name": "TensorFlow",
+        "link": "https://www.youtube.com/@TensorFlow",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lAp1zO3sFLjm6hBn_gH0nd3FzZ6c2GN5U85vwlbH1e9ME=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 years ago",
+      "views": "88,894 views",
+      "length": "48:03",
+      "description": "In this session of Machine Learning Tech Talks, Product Manager Lily Peng will discuss the three common myths in building AI ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/UZEstizNxkg/hqdefault.jpg",
+      "videoId": "UZEstizNxkg",
+      "url": "https://www.youtube.com/watch?v=UZEstizNxkg",
+      "channelTitle": "TensorFlow",
+      "channelVerified": true,
+      "duration": "48:03"
+    },
+    {
+      "position_on_page": 17,
+      "title": "11 Websites providing Free Datasets for Machine Learning | Best Free Datasets",
+      "link": "https://www.youtube.com/watch?v=a5OyQ9i7u6U",
+      "video_id": "a5OyQ9i7u6U",
+      "channel": {
+        "name": "The AI University",
+        "link": "https://www.youtube.com/@TheAIUniversity",
+        "thumbnail": "https://yt3.ggpht.com/Jix7bCMDtcj108CANdL46aLyqut8DmLc5YVnPQMueOnoTkfa_C1SvvZ3ek0K-CFmx9flUqB_=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "739 views",
+      "length": "10:36",
+      "description": "This video titled \"11 Websites providing Free Datasets for Machine Learning | Best Free Datasets\" tells about 11 websites ...",
+      "thumbnail": "https://i.ytimg.com/vi/a5OyQ9i7u6U/hqdefault.jpg",
+      "videoId": "a5OyQ9i7u6U",
+      "url": "https://www.youtube.com/watch?v=a5OyQ9i7u6U",
+      "channelTitle": "The AI University",
+      "channelVerified": false,
+      "duration": "10:36"
+    },
+    {
+      "position_on_page": 18,
+      "title": "Machine Learning For Medical Image Analysis - How It Works",
+      "link": "https://www.youtube.com/watch?v=VKnoyiNxflk",
+      "video_id": "VKnoyiNxflk",
+      "channel": {
+        "name": "JAMA Network",
+        "link": "https://www.youtube.com/@JAMANetwork",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_m0r-Cf5nVS-2oxQ1pMla5jtHezqEQ7R-74I7kn7zZEtGU=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 years ago",
+      "views": "126,289 views",
+      "length": "11:12",
+      "description": "Machine learning can greatly improve a clinician's ability to deliver medical care. This JAMA video talks to Google scientists and ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/VKnoyiNxflk/hqdefault.jpg",
+      "videoId": "VKnoyiNxflk",
+      "url": "https://www.youtube.com/watch?v=VKnoyiNxflk",
+      "channelTitle": "JAMA Network",
+      "channelVerified": true,
+      "duration": "11:12"
+    },
+    {
+      "position_on_page": 20,
+      "title": "Best FREE Datasets | Open-Source data for machine learning projects",
+      "link": "https://www.youtube.com/watch?v=1aUt8zAG09E",
+      "video_id": "1aUt8zAG09E",
+      "channel": {
+        "name": "Programming and Math Tutorials",
+        "link": "https://www.youtube.com/@joejamesusa",
+        "thumbnail": "https://yt3.ggpht.com/P6J13GIoTmxgh-Eg2bxQ-tTCi8nSKPqIHW1LbzGJlz94NULCIJoxVUznRUctjIV13Zs1prw6PA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 years ago",
+      "views": "43,354 views",
+      "length": "11:08",
+      "description": "Best free, open-source datasets for data science and machine learning projects. Top government data including census, ...",
+      "thumbnail": "https://i.ytimg.com/vi/1aUt8zAG09E/hqdefault.jpg",
+      "videoId": "1aUt8zAG09E",
+      "url": "https://www.youtube.com/watch?v=1aUt8zAG09E",
+      "channelTitle": "Programming and Math Tutorials",
+      "channelVerified": false,
+      "duration": "11:08"
+    },
+    {
+      "position_on_page": 21,
+      "title": "Top 5 Free Dataset Sources",
+      "link": "https://www.youtube.com/watch?v=-g3mXlNUeYU",
+      "video_id": "-g3mXlNUeYU",
+      "channel": {
+        "name": "The Career Force",
+        "link": "https://www.youtube.com/@TheCareerForce",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/BtLeuoqyUSU9RUnEaSQXEaWYDPPlUnvQWNZD-l9F3jKm5PgPKj4oGlVdbwOmCw0RQp02l2cc=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "41,017 views",
+      "length": "5:23",
+      "description": "TOP 5 FREE DATASET RESOURCES // These free datasets cover 25You've built skills in analytics and now you're looking to ...",
+      "thumbnail": "https://i.ytimg.com/vi/-g3mXlNUeYU/hqdefault.jpg",
+      "videoId": "-g3mXlNUeYU",
+      "url": "https://www.youtube.com/watch?v=-g3mXlNUeYU",
+      "channelTitle": "The Career Force",
+      "channelVerified": true,
+      "duration": "5:23"
+    },
+    {
+      "position_on_page": 22,
+      "title": "30 Websites to find FREE Datasets for Data Analytics Projects",
+      "link": "https://www.youtube.com/watch?v=G4ViDBWq_A8",
+      "video_id": "G4ViDBWq_A8",
+      "channel": {
+        "name": "Ryan & Matt Data Science",
+        "link": "https://www.youtube.com/@RyanAndMattDataScience",
+        "thumbnail": "https://yt3.ggpht.com/pcxizEDLPN4ONUXC0vffYgauSmnnuUPwS2ZqqxzL2790GMChNzFW0w6G3mCQe4aicMQYO-WtIYI=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "2,937 views",
+      "length": "10:44",
+      "description": "Don't miss out! Get FREE access to my Skool community — packed with resources, tools, and support to help you with Data, ...",
+      "thumbnail": "https://i.ytimg.com/vi/G4ViDBWq_A8/hqdefault.jpg",
+      "videoId": "G4ViDBWq_A8",
+      "url": "https://www.youtube.com/watch?v=G4ViDBWq_A8",
+      "channelTitle": "Ryan & Matt Data Science",
+      "channelVerified": false,
+      "duration": "10:44"
+    },
+    {
+      "position_on_page": 23,
+      "title": "Top 5 Free Dataset Websites for Machine Learning Projects (Beginner Friendly)",
+      "link": "https://www.youtube.com/watch?v=RCfC7fEBIFA",
+      "video_id": "RCfC7fEBIFA",
+      "channel": {
+        "name": "Sweety Sinduria",
+        "link": "https://www.youtube.com/@Thatssweetyy",
+        "thumbnail": "https://yt3.ggpht.com/7KDLDFg6y15CgzR8J4VrBC9GO6gORJ6qI7kKyALTfg3RTmBJ1DBVYH8D1STxZa1PacE__cjeog=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "449 views",
+      "length": "4:48",
+      "description": "Looking for free, high-quality datasets for your machine learning or data science projects? In this video, I walk you through 5 ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/RCfC7fEBIFA/hqdefault.jpg",
+      "videoId": "RCfC7fEBIFA",
+      "url": "https://www.youtube.com/watch?v=RCfC7fEBIFA",
+      "channelTitle": "Sweety Sinduria",
+      "channelVerified": false,
+      "duration": "4:48"
+    },
+    {
+      "position_on_page": 24,
+      "title": "Machine Learning for Healthcare",
+      "link": "https://www.youtube.com/watch?v=lOFGEkpdpWQ",
+      "video_id": "lOFGEkpdpWQ",
+      "channel": {
+        "name": "DataCamp",
+        "link": "https://www.youtube.com/@DataCamp",
+        "thumbnail": "https://yt3.ggpht.com/WaHo9G-0cWmo6n7mbmxDXefWt1vJn8MOpW2h5ddiHlJwgSLjhP3iwEyXK3oslaMQUG6KF9fuAA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "Streamed 4 months ago",
+      "views": "5,234 views",
+      "length": "1:05:38",
+      "description": "Session Resources (including DataLab notebook) https://bit.ly/4bXye2r Maria Eugenia Inzaugarat, a Senior Data Scientist at ...",
+      "thumbnail": "https://i.ytimg.com/vi/lOFGEkpdpWQ/hqdefault.jpg",
+      "videoId": "lOFGEkpdpWQ",
+      "url": "https://www.youtube.com/watch?v=lOFGEkpdpWQ",
+      "channelTitle": "DataCamp",
+      "channelVerified": false,
+      "duration": "1:05:38"
+    },
+    {
+      "position_on_page": 25,
+      "title": "Healthcare Datasets for Medical AI | Dataset Spotlight by Defined.ai EP.05",
+      "link": "https://www.youtube.com/watch?v=6jmKgY1Xlas",
+      "video_id": "6jmKgY1Xlas",
+      "channel": {
+        "name": "DefinedAI",
+        "link": "https://www.youtube.com/@DefinedAI",
+        "thumbnail": "https://yt3.ggpht.com/qhBYm4Oq94CGYljFEGY-br_jq3CdNznS7WDqbVgGDaRk-Eqi0mxv7CzQWi4AyPkv18gCFbxliVw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 months ago",
+      "views": "26 views",
+      "length": "1:38",
+      "description": "Three healthcare AI datasets from the Defined.ai Marketplace: patient-physician conversations, medical claims data, and ...",
+      "thumbnail": "https://i.ytimg.com/vi/6jmKgY1Xlas/hqdefault.jpg",
+      "videoId": "6jmKgY1Xlas",
+      "url": "https://www.youtube.com/watch?v=6jmKgY1Xlas",
+      "channelTitle": "DefinedAI",
+      "channelVerified": false,
+      "duration": "1:38"
+    },
+    {
+      "position_on_page": 26,
+      "title": "Where to find free data sets (or is it datasets)",
+      "link": "https://www.youtube.com/watch?v=K6Ae0_pt054",
+      "video_id": "K6Ae0_pt054",
+      "channel": {
+        "name": "Python Programmer",
+        "link": "https://www.youtube.com/@gilesmcmullen",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nIRNdG4jBmhOnEvlrRrEsVe0uoIoSfLBOSGu70FzBUFyg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 years ago",
+      "views": "8,974 views",
+      "length": "5:01",
+      "description": "Big thank you to Linode for sponsoring this video. For a $100 credit visit linode.com/pythonprogrammer US government agencies ...",
+      "thumbnail": "https://i.ytimg.com/vi/K6Ae0_pt054/hqdefault.jpg",
+      "videoId": "K6Ae0_pt054",
+      "url": "https://www.youtube.com/watch?v=K6Ae0_pt054",
+      "channelTitle": "Python Programmer",
+      "channelVerified": true,
+      "duration": "5:01"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 6,
+      "shorts": [
+        {
+          "title": "Top 10 Free Websites to find the Best Data Sets for Your Machine Learning Project  | Try Them Now",
+          "link": "https://www.youtube.com/shorts/X4bM3QkgG1A",
+          "thumbnail": "https://i.ytimg.com/vi/X4bM3QkgG1A/frame0.jpg",
+          "views_original": "708 views",
+          "views": 708,
+          "video_id": "X4bM3QkgG1A"
+        },
+        {
+          "title": "🚀Top 5 Free Datasets for Machine Learning & Data Science 🔍",
+          "link": "https://www.youtube.com/shorts/DErptHWxfq8",
+          "thumbnail": "https://i.ytimg.com/vi/DErptHWxfq8/frame0.jpg",
+          "views_original": "208 views",
+          "views": 208,
+          "video_id": "DErptHWxfq8"
+        },
+        {
+          "title": "Top 5 Resources to Get Datasets for AIML Projects #datasets #machinelearning",
+          "link": "https://www.youtube.com/shorts/dc6eay70WvY",
+          "thumbnail": "https://i.ytimg.com/vi/dc6eay70WvY/frame0.jpg",
+          "views_original": "540 views",
+          "views": 540,
+          "video_id": "dc6eay70WvY"
+        },
+        {
+          "title": "FREE datasets for practice.#shorts #datascience #machinelearning #analytics #coding #learn",
+          "link": "https://www.youtube.com/shorts/7eL-N2iITqE",
+          "thumbnail": "https://i.ytimg.com/vi/7eL-N2iITqE/frame0.jpg",
+          "views_original": "4.4K views",
+          "views": 4400,
+          "video_id": "7eL-N2iITqE"
+        },
+        {
+          "title": "Reliable Medical Data Services for Advanced AI in Medical Imaging",
+          "link": "https://www.youtube.com/shorts/PuFoKEag414",
+          "thumbnail": "https://i.ytimg.com/vi/PuFoKEag414/frame0.jpg",
+          "views_original": "11K views",
+          "views": 11000,
+          "video_id": "PuFoKEag414"
+        }
+      ]
+    },
+    {
+      "position_on_page": 11,
+      "shorts": [
+        {
+          "title": "TOP 7 MACHINE LEARNING APPLICATIONS IN HEALTHCARE",
+          "link": "https://www.youtube.com/shorts/NZV8f8r2sT4",
+          "thumbnail": "https://i.ytimg.com/vi/NZV8f8r2sT4/frame0.jpg",
+          "views_original": "992 views",
+          "views": 992,
+          "video_id": "NZV8f8r2sT4"
+        },
+        {
+          "title": "Top 5 FREE Datasets Every Data Science Beginner Must Use 🚀",
+          "link": "https://www.youtube.com/shorts/qgsOLl2DNOA",
+          "thumbnail": "https://i.ytimg.com/vi/qgsOLl2DNOA/frame0.jpg",
+          "views_original": "1.2K views",
+          "views": 1200,
+          "video_id": "qgsOLl2DNOA"
+        },
+        {
+          "title": "Top 7 AI Courses for Healthcare You Need to Know!",
+          "link": "https://www.youtube.com/shorts/eiB9tmYqRfQ",
+          "thumbnail": "https://i.ytimg.com/vi/eiB9tmYqRfQ/frame0.jpg",
+          "views_original": "51K views",
+          "views": 51000,
+          "video_id": "eiB9tmYqRfQ"
+        },
+        {
+          "title": "Best places to find the datasets for data science projects #datascience #shorts #ytshorts",
+          "link": "https://www.youtube.com/shorts/y79WBVvjc7I",
+          "thumbnail": "https://i.ytimg.com/vi/y79WBVvjc7I/frame0.jpg",
+          "views_original": "562 views",
+          "views": 562,
+          "video_id": "y79WBVvjc7I"
+        },
+        {
+          "title": "The best data sources to learn to build with AI, machine learning projects or experiments",
+          "link": "https://www.youtube.com/shorts/UiHRxAIBHFc",
+          "thumbnail": "https://i.ytimg.com/vi/UiHRxAIBHFc/frame0.jpg",
+          "views_original": "250 views",
+          "views": 250,
+          "video_id": "UiHRxAIBHFc"
+        },
+        {
+          "title": "5 ML Project Ideas In Healthcare Sector For Your Resume",
+          "link": "https://www.youtube.com/shorts/b2PpB1c0vH8",
+          "thumbnail": "https://i.ytimg.com/vi/b2PpB1c0vH8/frame0.jpg",
+          "views_original": "45K views",
+          "views": 45000,
+          "video_id": "b2PpB1c0vH8"
+        },
+        {
+          "title": "Using AI to improve access to healthcare and biological data, better detect diseases",
+          "link": "https://www.youtube.com/shorts/G47wg3mYdBc",
+          "thumbnail": "https://i.ytimg.com/vi/G47wg3mYdBc/frame0.jpg",
+          "views_original": "509 views",
+          "views": 509,
+          "video_id": "G47wg3mYdBc"
+        },
+        {
+          "title": "The Future of Medical Innovation: How AI Will Transform Healthcare",
+          "link": "https://www.youtube.com/shorts/EnPAgjcYuFo",
+          "thumbnail": "https://i.ytimg.com/vi/EnPAgjcYuFo/frame0.jpg",
+          "views_original": "140 views",
+          "views": 140,
+          "video_id": "EnPAgjcYuFo"
+        },
+        {
+          "title": "🩺 Disease Detection Projects | AI & ML in Healthcare 🔬",
+          "link": "https://www.youtube.com/shorts/N9TL69TNp_U",
+          "thumbnail": "https://i.ytimg.com/vi/N9TL69TNp_U/frame0.jpg",
+          "views_original": "58K views",
+          "views": 58000,
+          "video_id": "N9TL69TNp_U"
+        },
+        {
+          "title": "Top 05 Websites to get FREE Datasets #datasets #datascience #datascienceproject #shorts #ai #python",
+          "link": "https://www.youtube.com/shorts/iku9qXtXPFA",
+          "thumbnail": "https://i.ytimg.com/vi/iku9qXtXPFA/frame0.jpg",
+          "views_original": "21K views",
+          "views": 21000,
+          "video_id": "iku9qXtXPFA"
+        },
+        {
+          "title": "Adaption Labs Invent a Dataset Ends Manual AI Labeling",
+          "link": "https://www.youtube.com/shorts/ETA2GfxJtuU",
+          "thumbnail": "https://i.ytimg.com/vi/ETA2GfxJtuU/frame0.jpg",
+          "views_original": "20 views",
+          "views": 20,
+          "video_id": "ETA2GfxJtuU"
+        },
+        {
+          "title": "Top 6 Ai Healthcare Apps: Medical Diagnosis",
+          "link": "https://www.youtube.com/shorts/HsD5u6dF5TE",
+          "thumbnail": "https://i.ytimg.com/vi/HsD5u6dF5TE/frame0.jpg",
+          "views_original": "20K views",
+          "views": 20000,
+          "video_id": "HsD5u6dF5TE"
+        },
+        {
+          "title": "Best 5 AI Applications In Healthcare 🔥😱🔥 #healthcare #trending",
+          "link": "https://www.youtube.com/shorts/nQzFGrSki6c",
+          "thumbnail": "https://i.ytimg.com/vi/nQzFGrSki6c/frame0.jpg",
+          "views_original": "8.9K views",
+          "views": 8900,
+          "video_id": "nQzFGrSki6c"
+        },
+        {
+          "title": "How to get Dataset for your next Machine Learning Project #shorts #datascience #project",
+          "link": "https://www.youtube.com/shorts/p8aE196WzHk",
+          "thumbnail": "https://i.ytimg.com/vi/p8aE196WzHk/frame0.jpg",
+          "views_original": "28K views",
+          "views": 28000,
+          "video_id": "p8aE196WzHk"
+        },
+        {
+          "title": "5 entry level healthcare data analyst job titles to look for. #dataanalytics #data #healthcare",
+          "link": "https://www.youtube.com/shorts/xkqqPUZE0j0",
+          "thumbnail": "https://i.ytimg.com/vi/xkqqPUZE0j0/frame0.jpg",
+          "views_original": "150K views",
+          "views": 150000,
+          "video_id": "xkqqPUZE0j0"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=Top+27+Free+Healthcare+Datasets+for+Machine+Learning",
+    "next": "https://www.youtube.com/results?search_query=Top%2027%20Free%20Healthcare%20Datasets%20for%20Machine%20Learning&sp=SBSCAQsxcWw0a052MF9xWYIBC0tvQTFsVlJ3SHJjggELSlNJdU1idnoxYU2CAQtQRXhkV1djeG1yb4IBC1ZfUWhoOFJXM0M4ggELSmNEbm9FdHNvQ1WCAQtZeFBhVEFFdGNGZ4IBC1Q4em1GY1NLNlQwggELYUpRQWVNc3dBdmeCAQtVWkVzdGl6TnhrZ4IBC2E1T3lROWk3dTZVggELVktub3lpTnhmbGuCAQsxYVV0OHpBRzA5RYIBCy1nM21YbE5VZVlVggELRzRWaURCV3FfQTiCAQtSQ2ZDN2ZFQklGQYIBC2xPRkdFa3BkcFdRggELNmptS2dZMVhsYXOCAQtLNkFlMF9wdDA1NLIBBgoECBoQAuoBBAgCEBQ%253D",
+    "next_page_token": "SBSCAQsxcWw0a052MF9xWYIBC0tvQTFsVlJ3SHJjggELSlNJdU1idnoxYU2CAQtQRXhkV1djeG1yb4IBC1ZfUWhoOFJXM0M4ggELSmNEbm9FdHNvQ1WCAQtZeFBhVEFFdGNGZ4IBC1Q4em1GY1NLNlQwggELYUpRQWVNc3dBdmeCAQtVWkVzdGl6TnhrZ4IBC2E1T3lROWk3dTZVggELVktub3lpTnhmbGuCAQsxYVV0OHpBRzA5RYIBCy1nM21YbE5VZVlVggELRzRWaURCV3FfQTiCAQtSQ2ZDN2ZFQklGQYIBC2xPRkdFa3BkcFdRggELNmptS2dZMVhsYXOCAQtLNkFlMF9wdDA1NLIBBgoECBoQAuoBBAgCEBQ%3D"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=Top+27+Free+Healthcare+Datasets+for+Machine+Learning",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&sp=SBSCAQsxcWw0a052MF9xWYIBC0tvQTFsVlJ3SHJjggELSlNJdU1idnoxYU2CAQtQRXhkV1djeG1yb4IBC1ZfUWhoOFJXM0M4ggELSmNEbm9FdHNvQ1WCAQtZeFBhVEFFdGNGZ4IBC1Q4em1GY1NLNlQwggELYUpRQWVNc3dBdmeCAQtVWkVzdGl6TnhrZ4IBC2E1T3lROWk3dTZVggELVktub3lpTnhmbGuCAQsxYVV0OHpBRzA5RYIBCy1nM21YbE5VZVlVggELRzRWaURCV3FfQTiCAQtSQ2ZDN2ZFQklGQYIBC2xPRkdFa3BkcFdRggELNmptS2dZMVhsYXOCAQtLNkFlMF9wdDA1NLIBBgoECBoQAuoBBAgCEBQ%253D",
+    "next_page_token": "SBSCAQsxcWw0a052MF9xWYIBC0tvQTFsVlJ3SHJjggELSlNJdU1idnoxYU2CAQtQRXhkV1djeG1yb4IBC1ZfUWhoOFJXM0M4ggELSmNEbm9FdHNvQ1WCAQtZeFBhVEFFdGNGZ4IBC1Q4em1GY1NLNlQwggELYUpRQWVNc3dBdmeCAQtVWkVzdGl6TnhrZ4IBC2E1T3lROWk3dTZVggELVktub3lpTnhmbGuCAQsxYVV0OHpBRzA5RYIBCy1nM21YbE5VZVlVggELRzRWaURCV3FfQTiCAQtSQ2ZDN2ZFQklGQYIBC2xPRkdFa3BkcFdRggELNmptS2dZMVhsYXOCAQtLNkFlMF9wdDA1NLIBBgoECBoQAuoBBAgCEBQ%3D"
+  }
+}

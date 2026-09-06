@@ -147,16 +147,32 @@ def sanitize_youtube_json_file(file_path: Path) -> Dict[str, Any]:
 
     # 1. Check video_results
     video_results = data.get("video_results", [])
+    YT_REGEX = re.compile(r'(?:v=|\/embed\/|\/watch\?v=|\/v\/|youtu\.be\/|\/shorts\/|vi\/)([a-zA-Z0-9_-]{11})')
     for v in video_results:
         vid_id = v.get("videoId") or v.get("video_id") or ""
-        raw_url = v.get("url") or v.get("link") or (f"https://www.youtube.com/watch?v={vid_id}" if vid_id else "")
-        v_link = clean_direct_url(raw_url)
-        if not v_link:
+        raw_url = v.get("url") or v.get("link") or ""
+        if not vid_id and raw_url:
+            m = YT_REGEX.search(raw_url)
+            if m:
+                vid_id = m.group(1)
+        if not vid_id:
+            thumb_candidate = v.get("thumbnail")
+            if isinstance(thumb_candidate, str):
+                m = YT_REGEX.search(thumb_candidate)
+                if m:
+                    vid_id = m.group(1)
+        if not vid_id and v.get("id"):
+            val_id = str(v.get("id")).strip()
+            if len(val_id) == 11:
+                vid_id = val_id
+
+        v_link = clean_direct_url(raw_url) or (f"https://www.youtube.com/watch?v={vid_id}" if vid_id else "")
+        if not v_link and not vid_id:
             continue
 
         ch = v.get("channel", {})
-        thumb = v.get("thumbnail") or f"https://i.ytimg.com/vi/{vid_id}/hqdefault.jpg"
-        if "serpapi.com" in thumb:
+        thumb = f"https://i.ytimg.com/vi/{vid_id}/hqdefault.jpg" if vid_id else (v.get("thumbnail") or "")
+        if "serpapi.com" in str(thumb):
             thumb = f"https://i.ytimg.com/vi/{vid_id}/hqdefault.jpg" if vid_id else ""
 
         clean_videos.append({

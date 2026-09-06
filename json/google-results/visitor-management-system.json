@@ -1,0 +1,724 @@
+{
+  "search_metadata": {
+    "id": "6a9d48f49d26cfbab17b7718",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/jfixXOYMgCIlUaAPa6o05yn-1HbVTAnqkoB9WOdaEo8/6a9d48f49d26cfbab17b7718.json",
+    "markdown_endpoint": "https://serpapi.com/searches/jfixXOYMgCIlUaAPa6o05yn-1HbVTAnqkoB9WOdaEo8/6a9d48f49d26cfbab17b7718.md",
+    "created_at": "2026-09-06 11:05:24 UTC",
+    "processed_at": "2026-09-06 11:05:24 UTC",
+    "google_url": "https://www.google.co.in/search?q=Visitor+Management+System&oq=Visitor+Management+System&uule=w+CAIQICIFSW5kaWE&hl=hi&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/jfixXOYMgCIlUaAPa6o05yn-1HbVTAnqkoB9WOdaEo8/6a9d48f49d26cfbab17b7718.html",
+    "total_time_taken": 5.4
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Visitor Management System",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Visitor Management System",
+    "total_results": 139,
+    "time_taken_displayed": 0.21,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "inline_videos": [
+    {
+      "position": 1,
+      "title": "How Does a Visitor Management System (VMS) Work?",
+      "link": "https://www.youtube.com/watch?v=PpZlwASW3nI",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTavLMIhQsoXQgvKwqqneW9FDf83DdJjv8VQ5BxbVd33LD3ZguireAVOw&s",
+      "channel": "Smart Workplaces",
+      "duration": "8:07",
+      "platform": "YouTube",
+      "date": "24 फ़र॰ 2025",
+      "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTlsj-KVJ_PKGSBT_s5uLAd6GTGKSuYIt0Ehg",
+      "key_moments": [
+        {
+          "time": "00:00",
+          "title": "Introduction to Visitor Management Systems",
+          "link": "https://www.youtube.com/watch?v=PpZlwASW3nI&t=0"
+        },
+        {
+          "time": "00:40",
+          "title": "How a visitor check-in works with a VMS",
+          "link": "https://www.youtube.com/watch?v=PpZlwASW3nI&t=40"
+        },
+        {
+          "time": "01:19",
+          "title": "Customized visitor flows",
+          "link": "https://www.youtube.com/watch?v=PpZlwASW3nI&t=79"
+        },
+        {
+          "time": "02:09",
+          "title": "Host notifications & visitor logs",
+          "link": "https://www.youtube.com/watch?v=PpZlwASW3nI&t=129"
+        },
+        {
+          "time": "03:00",
+          "title": "VMS integrations & automations to consider",
+          "link": "https://www.youtube.com/watch?v=PpZlwASW3nI&t=180"
+        },
+        {
+          "time": "03:39",
+          "title": "How to set up a visitor process as an admin",
+          "link": "https://www.youtube.com/watch?v=PpZlwASW3nI&t=219"
+        },
+        {
+          "time": "04:21",
+          "title": "How to pre-register visitors",
+          "link": "https://www.youtube.com/watch?v=PpZlwASW3nI&t=261"
+        },
+        {
+          "time": "05:27",
+          "title": "Analytics & reporting: Downloadable visitor logs",
+          "link": "https://www.youtube.com/watch?v=PpZlwASW3nI&t=327"
+        },
+        {
+          "time": "06:42",
+          "title": "Extra features: Office deliveries & emergency management",
+          "link": "https://www.youtube.com/watch?v=PpZlwASW3nI&t=402"
+        },
+        {
+          "time": "07:51",
+          "title": "Final thoughts",
+          "link": "https://www.youtube.com/watch?v=PpZlwASW3nI&t=471"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "title": "These Are the Best Visitor Management Systems + How They ...",
+      "link": "https://www.youtube.com/watch?v=MfIBshfqyPk",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSinfoba_kiNxhOwY0RBHlzrYxtlYtuuognbiwoy5k0cTsmZEH_q6trNw&s",
+      "channel": "Smart Workplaces",
+      "duration": "12:34",
+      "platform": "YouTube",
+      "date": "16 नव॰ 2025",
+      "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQN6yYusIAQgGK2sGQY_Xz8B3puOoSZ7lgwIQ",
+      "key_moments": [
+        {
+          "time": "00:22",
+          "title": "Visitor experience: sign in flow",
+          "link": "https://www.youtube.com/watch?v=MfIBshfqyPk&t=22"
+        },
+        {
+          "time": "02:09",
+          "title": "Visitor experience: emergency evacuations",
+          "link": "https://www.youtube.com/watch?v=MfIBshfqyPk&t=129"
+        },
+        {
+          "time": "03:33",
+          "title": "Admin experience: customization options",
+          "link": "https://www.youtube.com/watch?v=MfIBshfqyPk&t=213"
+        },
+        {
+          "time": "06:13",
+          "title": "Archie: highest rated",
+          "link": "https://www.youtube.com/watch?v=MfIBshfqyPk&t=373"
+        },
+        {
+          "time": "06:54",
+          "title": "Envoy",
+          "link": "https://www.youtube.com/watch?v=MfIBshfqyPk&t=414"
+        },
+        {
+          "time": "08:01",
+          "title": "The Receptionist",
+          "link": "https://www.youtube.com/watch?v=MfIBshfqyPk&t=481"
+        },
+        {
+          "time": "09:18",
+          "title": "FacilityOS",
+          "link": "https://www.youtube.com/watch?v=MfIBshfqyPk&t=558"
+        },
+        {
+          "time": "10:44",
+          "title": "Kastle",
+          "link": "https://www.youtube.com/watch?v=MfIBshfqyPk&t=644"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "title": "5 Best Visitor Management Software (UPDATED for 2026)",
+      "link": "https://www.youtube.com/watch?v=Hzs2ygSyApI&vl=hi",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq5GDp56aZbmOWGr1DmS-AfKRCXRG8QpWcByPHhMV6YpjrYs_CavVgtg&s",
+      "channel": "Business Solution",
+      "duration": "13:24",
+      "platform": "YouTube",
+      "date": "15 फ़र॰ 2026",
+      "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcT2hW2jcIgp4r_1ZZB7Jpu6R3urZxe8tel3tg",
+      "key_moments": [
+        {
+          "time": "00:00",
+          "title": "Best visitor management software",
+          "link": "https://www.youtube.com/watch?v=Hzs2ygSyApI&vl=hi&t=0"
+        },
+        {
+          "time": "00:18",
+          "title": "Best for simple, polished visitor + employee sign-in with strong safety features (SMBs + multi-site)",
+          "link": "https://www.youtube.com/watch?v=Hzs2ygSyApI&vl=hi&t=18"
+        },
+        {
+          "time": "01:52",
+          "title": "Best for coworking & flex spaces that want visitor management as part of a broader workspace platform",
+          "link": "https://www.youtube.com/watch?v=Hzs2ygSyApI&vl=hi&t=112"
+        },
+        {
+          "time": "02:59",
+          "title": "Best for modern offices that want the most polished visitor experience with deep integrations",
+          "link": "https://www.youtube.com/watch?v=Hzs2ygSyApI&vl=hi&t=179"
+        },
+        {
+          "time": "04:29",
+          "title": "Best for compliance-heavy workplaces that need stronger identity and data controls",
+          "link": "https://www.youtube.com/watch?v=Hzs2ygSyApI&vl=hi&t=269"
+        },
+        {
+          "time": "05:23",
+          "title": "Best for teams that want a customizable visitor system they can tailor and extend",
+          "link": "https://www.youtube.com/watch?v=Hzs2ygSyApI&vl=hi&t=323"
+        }
+      ]
+    }
+  ],
+  "related_questions": [
+    {
+      "question": "What is a visitor management system?",
+      "type": "ai_overview",
+      "page_token": "RA40GXicHdBfbpswHABg7TJ9TEKspkqkaKqDSUCNGzC2wS8TMRCCf_xpcQvhbXfZqXaaSfuO8P3-A_fW_P0xVdb2w265HMdxceu6GxQL3S3u7TIbHq1e6gzgmmmz27xsnJ-l3pMvHx8-fBzyvhdutGIGcAyvqIBqYCi46Nifr0fHY8Z_nLmqadtvribi4Uod0gS8eE5RWlcuq3GYNsNDi20m3cq7kgkVR7ACiQ2rgTHuBVpUDpXK5uT5nYNni2YaMwFKNUEcxWLgM1nTOc_iOB_fElwWIsK5BMk5_RIe5QXxxwQFccr7QPEpyWdaKoEvuYku0sBcEFHq9mwjBM-M5CdtFCaVtkKCSZN0fSZOydcVej_SkBpwI7nFFHf3kEezrqERLu0lOTsUAi-Zq0zWQShO_sROvhVe8K1A3Xn4VOrvPXr6_7n_VTZ21392t3-sh4X7",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=RA40GXicHdBfbpswHABg7TJ9TEKspkqkaKqDSUCNGzC2wS8TMRCCf_xpcQvhbXfZqXaaSfuO8P3-A_fW_P0xVdb2w265HMdxceu6GxQL3S3u7TIbHq1e6gzgmmmz27xsnJ-l3pMvHx8-fBzyvhdutGIGcAyvqIBqYCi46Nifr0fHY8Z_nLmqadtvribi4Uod0gS8eE5RWlcuq3GYNsNDi20m3cq7kgkVR7ACiQ2rgTHuBVpUDpXK5uT5nYNni2YaMwFKNUEcxWLgM1nTOc_iOB_fElwWIsK5BMk5_RIe5QXxxwQFccr7QPEpyWdaKoEvuYku0sBcEFHq9mwjBM-M5CdtFCaVtkKCSZN0fSZOydcVej_SkBpwI7nFFHf3kEezrqERLu0lOTsUAi-Zq0zWQShO_sROvhVe8K1A3Xn4VOrvPXr6_7n_VTZ21392t3-sh4X7",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlltVkVObTlvVlhBdFRXbHJUMEZZWWpORmFtNHlkM0YwWDJneFFVMWpVbVIyTVZGWFdWVlRia3RvZVUxTVRrTlRVWFJ3ZGxGeGEwNDBhWE5yUzBObGVXdGtUa0ZsYzBaeWIzUmtiVkZvTTBSME1UZHNaRnBVVldOR1p4SVhMVlZwWkdGMk5qQk5YMU5vZHpoalVEWkpRMFZ2UVRRYUlrRkVjM0k1WmxSalFVRm9hWGR3V0hCdlQzQnJXVk5HU1U5SFIyeGZTVmx0V0djIiwiZmN2IjoiMyIsImVpIjoiLVVpZGF2NjBNX1NodzhjUDZJQ0VvQTQiLCJxYyI6IkNobDJhWE5wZEc5eUlHMWhibUZuWlcxbGJuUWdjM2x6ZEdWdEVBQjl1a2tzUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgYSB2aXNpdG9yIG1hbmFnZW1lbnQgc3lzdGVtPyIsImxrIjoiR2lOM2FHRjBJR2x6SUdFZ2RtbHphWFJ2Y2lCdFlXNWhaMlZ0Wlc1MElITjVjM1JsYlEiLCJicyI6ImMtUHk1VklKejBnc1VjZ3NWa2hVS01zc3ppekpMMUxJVGN4TFRFX05UYzByVVNpdUxDNUp6YlUzVXBWU0xpZXNqc3VmU3gxbVhFbEdLamFGQlVYNXlhbkZ4ZlpHS2xKS01CTnhLLVBLNURKR05yQ2d0S2dndnpoVklUOE52M09OcEF6S3NXdkQ3ZlpnTGoyd1ZZbEZxV0JOSmZrRkNxYTQxUU85b0NnbFQwQ1JBQ01BIiwiaWQiOiJmY18tVWlkYXY2ME1fU2h3OGNQNklDRW9BNF81In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlltVkVObTlvVlhBdFRXbHJUMEZZWWpORmFtNHlkM0YwWDJneFFVMWpVbVIyTVZGWFdWVlRia3RvZVUxTVRrTlRVWFJ3ZGxGeGEwNDBhWE5yUzBObGVXdGtUa0ZsYzBaeWIzUmtiVkZvTTBSME1UZHNaRnBVVldOR1p4SVhMVlZwWkdGMk5qQk5YMU5vZHpoalVEWkpRMFZ2UVRRYUlrRkVjM0k1WmxSalFVRm9hWGR3V0hCdlQzQnJXVk5HU1U5SFIyeGZTVmx0V0djIiwiZmN2IjoiMyIsImVpIjoiLVVpZGF2NjBNX1NodzhjUDZJQ0VvQTQiLCJxYyI6IkNobDJhWE5wZEc5eUlHMWhibUZuWlcxbGJuUWdjM2x6ZEdWdEVBQjl1a2tzUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgYSB2aXNpdG9yIG1hbmFnZW1lbnQgc3lzdGVtPyIsImxrIjoiR2lOM2FHRjBJR2x6SUdFZ2RtbHphWFJ2Y2lCdFlXNWhaMlZ0Wlc1MElITjVjM1JsYlEiLCJicyI6ImMtUHk1VklKejBnc1VjZ3NWa2hVS01zc3ppekpMMUxJVGN4TFRFX05UYzByVVNpdUxDNUp6YlUzVXBWU0xpZXNqc3VmU3gxbVhFbEdLamFGQlVYNXlhbkZ4ZlpHS2xKS01CTnhLLVBLNURKR05yQ2d0S2dndnpoVklUOE52M09OcEF6S3NXdkQ3ZlpnTGoyd1ZZbEZxV0JOSmZrRkNxYTQxUU85b0NnbFQwQ1JBQ01BIiwiaWQiOiJmY18tVWlkYXY2ME1fU2h3OGNQNklDRW9BNF81In0%3D"
+    },
+    {
+      "question": "What is the visitor management process?",
+      "type": "ai_overview",
+      "page_token": "7agWwXicHdDBToMwGADg-DIeN6BT45LFhA3m0HZS9rfQi-nK2KAFqqKd3HwXn8qn0Xj-bt_Xt6k7_XNxPg2DfZtPp865ybHvj-YwUf2k7qby7bNTUyWN2Uul59c31_5dpRbR-yZcvmzCFKxlK-plYB_L8ehkXhbYGIeN7TK48tL2dln45YxDMmYtPjMUp9JzSIF9kOukOtS-3cfay1p_nbEQHrnIiE4ixq8qMKKRHk3kSqyFKcU2F1WpWU2CuJcI-2zF7L4VS9qFmN6HTztNkwyRSGiCVcvGXQAz0g4jhrJn_PRQjGw4NMJsdzEvkEISPAeNcBArBE0ssOdvKIh3rpMuOqmBcaOLvAhw5FcQnNB2TVKizYry25CEfZ0CHVVj2j9byvt4R3PWS7YZacc4yYvZnqnPbQyB9GxeustKfSzQ5f_n4rlqh7l97Y-_eEiEGQ",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=7agWwXicHdDBToMwGADg-DIeN6BT45LFhA3m0HZS9rfQi-nK2KAFqqKd3HwXn8qn0Xj-bt_Xt6k7_XNxPg2DfZtPp865ybHvj-YwUf2k7qby7bNTUyWN2Uul59c31_5dpRbR-yZcvmzCFKxlK-plYB_L8ehkXhbYGIeN7TK48tL2dln45YxDMmYtPjMUp9JzSIF9kOukOtS-3cfay1p_nbEQHrnIiE4ixq8qMKKRHk3kSqyFKcU2F1WpWU2CuJcI-2zF7L4VS9qFmN6HTztNkwyRSGiCVcvGXQAz0g4jhrJn_PRQjGw4NMJsdzEvkEISPAeNcBArBE0ssOdvKIh3rpMuOqmBcaOLvAhw5FcQnNB2TVKizYry25CEfZ0CHVVj2j9byvt4R3PWS7YZacc4yYvZnqnPbQyB9GxeustKfSzQ5f_n4rlqh7l97Y-_eEiEGQ",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlltVkVObTlvVlhBdFRXbHJUMEZZWWpORmFtNHlkM0YwWDJneFFVMWpVbVIyTVZGWFdWVlRia3RvZVUxTVRrTlRVWFJ3ZGxGeGEwNDBhWE5yUzBObGVXdGtUa0ZsYzBaeWIzUmtiVkZvTTBSME1UZHNaRnBVVldOR1p4SVhMVlZwWkdGMk5qQk5YMU5vZHpoalVEWkpRMFZ2UVRRYUlrRkVjM0k1WmxSalFVRm9hWGR3V0hCdlQzQnJXVk5HU1U5SFIyeGZTVmx0V0djIiwiZmN2IjoiMyIsImVpIjoiLVVpZGF2NjBNX1NodzhjUDZJQ0VvQTQiLCJxYyI6IkNobDJhWE5wZEc5eUlHMWhibUZuWlcxbGJuUWdjM2x6ZEdWdEVBQjl1a2tzUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHZpc2l0b3IgbWFuYWdlbWVudCBwcm9jZXNzPyIsImxrIjoiR2lKM2FHRjBJR2x6SUhacGMybDBiM0lnYldGdVlXZGxiV1Z1ZENCd2NtOWpaWE56IiwiYnMiOiJjLVB5NVZJSnowZ3NVY2dzVmtoVUtNc3N6aXpKTDFMSVRjeExURV9OVGMwclVTaXVMQzVKemJVM1VwVlNMaWVzanN1ZlN4MW1YRWxHS2phRkJVWDV5YW5GeGZaR0tsSktNQk54Sy1QSzVESkdOckNndEtnZ3Z6aFZJVDhOdjNPTnBBektzV3ZEN2ZaZ0xqMndWWWxGcVdCTkpma0ZDcWE0MVFPOW9DZ2xUMENSQUNNQSIsImlkIjoiZmNfLVVpZGF2NjBNX1NodzhjUDZJQ0VvQTRfNSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlltVkVObTlvVlhBdFRXbHJUMEZZWWpORmFtNHlkM0YwWDJneFFVMWpVbVIyTVZGWFdWVlRia3RvZVUxTVRrTlRVWFJ3ZGxGeGEwNDBhWE5yUzBObGVXdGtUa0ZsYzBaeWIzUmtiVkZvTTBSME1UZHNaRnBVVldOR1p4SVhMVlZwWkdGMk5qQk5YMU5vZHpoalVEWkpRMFZ2UVRRYUlrRkVjM0k1WmxSalFVRm9hWGR3V0hCdlQzQnJXVk5HU1U5SFIyeGZTVmx0V0djIiwiZmN2IjoiMyIsImVpIjoiLVVpZGF2NjBNX1NodzhjUDZJQ0VvQTQiLCJxYyI6IkNobDJhWE5wZEc5eUlHMWhibUZuWlcxbGJuUWdjM2x6ZEdWdEVBQjl1a2tzUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHZpc2l0b3IgbWFuYWdlbWVudCBwcm9jZXNzPyIsImxrIjoiR2lKM2FHRjBJR2x6SUhacGMybDBiM0lnYldGdVlXZGxiV1Z1ZENCd2NtOWpaWE56IiwiYnMiOiJjLVB5NVZJSnowZ3NVY2dzVmtoVUtNc3N6aXpKTDFMSVRjeExURV9OVGMwclVTaXVMQzVKemJVM1VwVlNMaWVzanN1ZlN4MW1YRWxHS2phRkJVWDV5YW5GeGZaR0tsSktNQk54Sy1QSzVESkdOckNndEtnZ3Z6aFZJVDhOdjNPTnBBektzV3ZEN2ZaZ0xqMndWWWxGcVdCTkpma0ZDcWE0MVFPOW9DZ2xUMENSQUNNQSIsImlkIjoiZmNfLVVpZGF2NjBNX1NodzhjUDZJQ0VvQTRfNSJ9"
+    },
+    {
+      "question": "What is the purpose of a visitor management system?",
+      "type": "ai_overview",
+      "page_token": "o78UHnicHdBNjpswGIBh9TKzTDBM0hIpGpXhJ0mFRzbxB_GmAhvigAEPoKSw6x16hJ5qTtNq9u_i0fv7r751zceXP2qazLhbrx-Px-ra91ddrkS_unXrfJw7sRa51kUumt326xa9VGIf3IX3OgiPMGPAp1aCJJfRhGToWTEzQxqZgS_aypm6JNr7USBc_28wBmxwDRhCYhdIB29-OIMPt2IJCU_dXxDiTERqzlsEsjVw7kATB-oyhHeJjg-ZNc-5Rd85k1FmQ8UtVechr4nmXgHUJMG3TWLLGZ_1IZ7RKz14RIQuZQtsUm2cJGULb92KhmrMNT6Ss3eR2Xer8Pk2tqASlm5LdjqeO_NMkbnn6ad_hAOveTs6uFYQKDFBqptLdrHjAFXMVs5bhAlutE9T18NefyOMLqLWLUR4iNONVwbWIjJ6khFqGVJj2coxiU4qDVxFyFMl7nvn6fP1_mfVTjsz9Nd_eRWNdw",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=o78UHnicHdBNjpswGIBh9TKzTDBM0hIpGpXhJ0mFRzbxB_GmAhvigAEPoKSw6x16hJ5qTtNq9u_i0fv7r751zceXP2qazLhbrx-Px-ra91ddrkS_unXrfJw7sRa51kUumt326xa9VGIf3IX3OgiPMGPAp1aCJJfRhGToWTEzQxqZgS_aypm6JNr7USBc_28wBmxwDRhCYhdIB29-OIMPt2IJCU_dXxDiTERqzlsEsjVw7kATB-oyhHeJjg-ZNc-5Rd85k1FmQ8UtVechr4nmXgHUJMG3TWLLGZ_1IZ7RKz14RIQuZQtsUm2cJGULb92KhmrMNT6Ss3eR2Xer8Pk2tqASlm5LdjqeO_NMkbnn6ad_hAOveTs6uFYQKDFBqptLdrHjAFXMVs5bhAlutE9T18NefyOMLqLWLUR4iNONVwbWIjJ6khFqGVJj2coxiU4qDVxFyFMl7nvn6fP1_mfVTjsz9Nd_eRWNdw",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlltVkVObTlvVlhBdFRXbHJUMEZZWWpORmFtNHlkM0YwWDJneFFVMWpVbVIyTVZGWFdWVlRia3RvZVUxTVRrTlRVWFJ3ZGxGeGEwNDBhWE5yUzBObGVXdGtUa0ZsYzBaeWIzUmtiVkZvTTBSME1UZHNaRnBVVldOR1p4SVhMVlZwWkdGMk5qQk5YMU5vZHpoalVEWkpRMFZ2UVRRYUlrRkVjM0k1WmxSalFVRm9hWGR3V0hCdlQzQnJXVk5HU1U5SFIyeGZTVmx0V0djIiwiZmN2IjoiMyIsImVpIjoiLVVpZGF2NjBNX1NodzhjUDZJQ0VvQTQiLCJxYyI6IkNobDJhWE5wZEc5eUlHMWhibUZuWlcxbGJuUWdjM2x6ZEdWdEVBQjl1a2tzUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHB1cnBvc2Ugb2YgYSB2aXNpdG9yIG1hbmFnZW1lbnQgc3lzdGVtPyIsImxrIjoiR2pCM2FHRjBJR2x6SUhSb1pTQndkWEp3YjNObElHOW1JSFpwYzJsMGIzSWdiV0Z1WVdkbGJXVnVkQ0J6ZVhOMFpXMCIsImJzIjoiYy1QeTVWSUp6MGdzVWNnc1ZraFVLTXNzeml6SkwxTElUY3hMVEVfTlRjMHJVU2l1TEM1SnpiVTNVcFZTTGllc2pzdWZTeDFtWEVsR0tqYUZCVVg1eWFuRnhmWkdLbEpLTUJOeEstUEs1REpHTnJDZ3RLZ2d2emhWSVQ4TnYzT05wQXpLc1d2RDdmWmdMajJ3VllsRnFXQk5KZmtGQ3FhNDFRTzlvQ2dsVDBDUkFDTUEiLCJpZCI6ImZjXy1VaWRhdjYwTV9TaHc4Y1A2SUNFb0E0XzUifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlltVkVObTlvVlhBdFRXbHJUMEZZWWpORmFtNHlkM0YwWDJneFFVMWpVbVIyTVZGWFdWVlRia3RvZVUxTVRrTlRVWFJ3ZGxGeGEwNDBhWE5yUzBObGVXdGtUa0ZsYzBaeWIzUmtiVkZvTTBSME1UZHNaRnBVVldOR1p4SVhMVlZwWkdGMk5qQk5YMU5vZHpoalVEWkpRMFZ2UVRRYUlrRkVjM0k1WmxSalFVRm9hWGR3V0hCdlQzQnJXVk5HU1U5SFIyeGZTVmx0V0djIiwiZmN2IjoiMyIsImVpIjoiLVVpZGF2NjBNX1NodzhjUDZJQ0VvQTQiLCJxYyI6IkNobDJhWE5wZEc5eUlHMWhibUZuWlcxbGJuUWdjM2x6ZEdWdEVBQjl1a2tzUHciLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHB1cnBvc2Ugb2YgYSB2aXNpdG9yIG1hbmFnZW1lbnQgc3lzdGVtPyIsImxrIjoiR2pCM2FHRjBJR2x6SUhSb1pTQndkWEp3YjNObElHOW1JSFpwYzJsMGIzSWdiV0Z1WVdkbGJXVnVkQ0J6ZVhOMFpXMCIsImJzIjoiYy1QeTVWSUp6MGdzVWNnc1ZraFVLTXNzeml6SkwxTElUY3hMVEVfTlRjMHJVU2l1TEM1SnpiVTNVcFZTTGllc2pzdWZTeDFtWEVsR0tqYUZCVVg1eWFuRnhmWkdLbEpLTUJOeEstUEs1REpHTnJDZ3RLZ2d2emhWSVQ4TnYzT05wQXpLc1d2RDdmWmdMajJ3VllsRnFXQk5KZmtGQ3FhNDFRTzlvQ2dsVDBDUkFDTUEiLCJpZCI6ImZjXy1VaWRhdjYwTV9TaHc4Y1A2SUNFb0E0XzUifQ%3D%3D"
+    },
+    {
+      "question": "What are the top 5 visitor management systems?",
+      "type": "ai_overview",
+      "page_token": "PAjCMnicHdBRbtowHIBx7TJ9hDihnYKEJgXSpBUxjRPbiV8mYycY_MfxIIPC2-6wI-xUPU2r3eD7fX_-wd7Zj29_zTj683w6vV6vk90w7KCbqGGyd1N5vjk1VRJgK5WdP31_Qj96tUgvKlmeVFJS79mKBNW9DWiE30Skgxagl7WA8ghum-qIZ-Ze1PhUBa8vguFmXWNeNeZU5fi35HAhNB11IA7EmhIf7E05yASCsQlE1jXJrACNNjwYNY2XsvEc29is6eOqdvpO-EvYuXZWodd9GT2PkopURUlOOca0xpItESFQhJo_3nSON1smvhikxqn3CiVnxeKwozQo0vgrBaQOxpQwbPgSVdQZ3x5hXYfEFpkXdQZOIiJSo0bGwbZNGxYp6mlook2GS2xhRXic4GTYl5Tc1QGO1MIbi8gvmRVX4dQ7afytys1MsSTfNObQueeMlg-9uiyih_-vFz_74zj3p2H3CYKijbg",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=PAjCMnicHdBRbtowHIBx7TJ9hDihnYKEJgXSpBUxjRPbiV8mYycY_MfxIIPC2-6wI-xUPU2r3eD7fX_-wd7Zj29_zTj683w6vV6vk90w7KCbqGGyd1N5vjk1VRJgK5WdP31_Qj96tUgvKlmeVFJS79mKBNW9DWiE30Skgxagl7WA8ghum-qIZ-Ze1PhUBa8vguFmXWNeNeZU5fi35HAhNB11IA7EmhIf7E05yASCsQlE1jXJrACNNjwYNY2XsvEc29is6eOqdvpO-EvYuXZWodd9GT2PkopURUlOOca0xpItESFQhJo_3nSON1smvhikxqn3CiVnxeKwozQo0vgrBaQOxpQwbPgSVdQZ3x5hXYfEFpkXdQZOIiJSo0bGwbZNGxYp6mlook2GS2xhRXic4GTYl5Tc1QGO1MIbi8gvmRVX4dQ7afytys1MsSTfNObQueeMlg-9uiyih_-vFz_74zj3p2H3CYKijbg",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlltVkVObTlvVlhBdFRXbHJUMEZZWWpORmFtNHlkM0YwWDJneFFVMWpVbVIyTVZGWFdWVlRia3RvZVUxTVRrTlRVWFJ3ZGxGeGEwNDBhWE5yUzBObGVXdGtUa0ZsYzBaeWIzUmtiVkZvTTBSME1UZHNaRnBVVldOR1p4SVhMVlZwWkdGMk5qQk5YMU5vZHpoalVEWkpRMFZ2UVRRYUlrRkVjM0k1WmxSalFVRm9hWGR3V0hCdlQzQnJXVk5HU1U5SFIyeGZTVmx0V0djIiwiZmN2IjoiMyIsImVpIjoiLVVpZGF2NjBNX1NodzhjUDZJQ0VvQTQiLCJxYyI6IkNobDJhWE5wZEc5eUlHMWhibUZuWlcxbGJuUWdjM2x6ZEdWdEVBQjl1a2tzUHciLCJxdWVzdGlvbiI6IldoYXQgYXJlIHRoZSB0b3AgNSB2aXNpdG9yIG1hbmFnZW1lbnQgc3lzdGVtcz8iLCJsayI6IkdoOTBiM0FnTlNCMmFYTnBkRzl5SUcxaGJtRm5aVzFsYm5RZ2MzbHpkR1Z0IiwiYnMiOiJjLVB5NVZJSnowZ3NVY2dzVmtoVUtNc3N6aXpKTDFMSVRjeExURV9OVGMwclVTaXVMQzVKemJVM1VwVlNMaWVzanN1ZlN4MW1YRWxHS2phRkJVWDV5YW5GeGZaR0tsSktNQk54Sy1QSzVESkdOckNndEtnZ3Z6aFZJVDhOdjNPTnBBektzV3ZEN2ZaZ0xqMndWWWxGcVdCTkpma0ZDcWE0MVFPOW9DZ2xUMENSQUNNQSIsImlkIjoiZmNfLVVpZGF2NjBNX1NodzhjUDZJQ0VvQTRfNSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlltVkVObTlvVlhBdFRXbHJUMEZZWWpORmFtNHlkM0YwWDJneFFVMWpVbVIyTVZGWFdWVlRia3RvZVUxTVRrTlRVWFJ3ZGxGeGEwNDBhWE5yUzBObGVXdGtUa0ZsYzBaeWIzUmtiVkZvTTBSME1UZHNaRnBVVldOR1p4SVhMVlZwWkdGMk5qQk5YMU5vZHpoalVEWkpRMFZ2UVRRYUlrRkVjM0k1WmxSalFVRm9hWGR3V0hCdlQzQnJXVk5HU1U5SFIyeGZTVmx0V0djIiwiZmN2IjoiMyIsImVpIjoiLVVpZGF2NjBNX1NodzhjUDZJQ0VvQTQiLCJxYyI6IkNobDJhWE5wZEc5eUlHMWhibUZuWlcxbGJuUWdjM2x6ZEdWdEVBQjl1a2tzUHciLCJxdWVzdGlvbiI6IldoYXQgYXJlIHRoZSB0b3AgNSB2aXNpdG9yIG1hbmFnZW1lbnQgc3lzdGVtcz8iLCJsayI6IkdoOTBiM0FnTlNCMmFYTnBkRzl5SUcxaGJtRm5aVzFsYm5RZ2MzbHpkR1Z0IiwiYnMiOiJjLVB5NVZJSnowZ3NVY2dzVmtoVUtNc3N6aXpKTDFMSVRjeExURV9OVGMwclVTaXVMQzVKemJVM1VwVlNMaWVzanN1ZlN4MW1YRWxHS2phRkJVWDV5YW5GeGZaR0tsSktNQk54Sy1QSzVESkdOckNndEtnZ3Z6aFZJVDhOdjNPTnBBektzV3ZEN2ZaZ0xqMndWWWxGcVdCTkpma0ZDcWE0MVFPOW9DZ2xUMENSQUNNQSIsImlkIjoiZmNfLVVpZGF2NjBNX1NodzhjUDZJQ0VvQTRfNSJ9"
+    }
+  ],
+  "ai_overview": {
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "A visitor management system (VMS) is a digital tool used to track, manage, and register guests, contractors, and clients who enter a facility.",
+        "snippet_highlighted_words": [
+          "a digital tool used to track, manage, and register guests, contractors, and clients who enter a facility"
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "How It Works"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Pre-Registration: Hosts invite visitors ahead of time via email or SMS, sending QR codes or passcodes for easy entry."
+          },
+          {
+            "snippet": "Self-Check-In: Guests arrive and use a lobby tablet or touchscreen kiosk to scan their code, take a photo, or fill out required details."
+          },
+          {
+            "snippet": "Host Notification: The system instantly alerts the specific employee or host that their guest has arrived."
+          },
+          {
+            "snippet": "Badge Printing: The software automatically prints a visitor pass or temporary ID badge."
+          },
+          {
+            "snippet": "Sign-Out and Logs: Visitors check out when leaving, while digital logs store historical data for safety audits."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Key Benefits"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Better Security: Screens visitors, tracks who is inside the building in real-time, and restricts unauthorized entry."
+          },
+          {
+            "snippet": "Time Savings: Replaces slow paper logbooks with automated check-ins, reducing front-desk workload."
+          },
+          {
+            "snippet": "Compliance: Collects digital signatures on non-disclosure agreements (NDAs) and maintains strict records for privacy laws."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you are looking to set one up, let me know:"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Is it for an office, school, or industrial plant?"
+          },
+          {
+            "snippet": "Do you need hardware like badge printers or kiosks?"
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "link": "https://dgma.gov.in/it-e-governance/it-e-governance-visitor-access-management-system",
+        "source": "dgma.gov.in",
+        "index": 0
+      },
+      {
+        "link": "https://www.precisebiometrics.com/our-solutions/systems/precise-visit/what-is-a-visitor-management-system/",
+        "source": "precisebiometrics.com",
+        "index": 1
+      },
+      {
+        "link": "https://www.friendlyway.com/what-is-visitor-management/",
+        "source": "friendlyway.com",
+        "index": 2
+      },
+      {
+        "link": "https://envoy.com/visitor-management-system",
+        "source": "envoy.com",
+        "index": 3
+      },
+      {
+        "link": "https://vizman.app/solutions/visitor-management-system",
+        "source": "vizman.app",
+        "index": 4
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=PpZlwASW3nI",
+        "source": "youtube.com",
+        "index": 5
+      },
+      {
+        "link": "https://signinapp.com/blog/what-is-a-visitor-management-system",
+        "source": "signinapp.com",
+        "index": 6
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=ab4mms9_-DI",
+        "source": "youtube.com",
+        "index": 7
+      },
+      {
+        "title": "Visitor Access Management System - DGMA",
+        "link": "https://dgma.gov.in/it-e-governance/it-e-governance-visitor-access-management-system",
+        "snippet": "Visitor Access Management System. A Visitor Management System (VMS) is a tool that helps organizations manage and track visitors effectively. It involves proces...",
+        "source": "DGMA",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTEoQR9J1EHeKTW36UEekcFTj6yF3uDXvNwi4xewK6WWxgOqWf9HO6S-j1ZlqytjBCjuctcD_r8QE-2qyJRgyVY6BVqScN5uX-bs_7-",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://dgma.gov.in&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 8
+      },
+      {
+        "title": "What is a visitor management system? - Precise Biometrics",
+        "link": "https://www.precisebiometrics.com/our-solutions/systems/precise-visit/what-is-a-visitor-management-system/",
+        "snippet": "An introduction to how modern organizations manage visitors and improve workplace security. On this page: What is a visitor management system What to consider I...",
+        "source": "Precise Biometrics",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6X7XVdZ5EimjKAxthyLghu3kyeN5gnXmT4quUwfqDApExRumekVK5Z5Er-m2IgjbNZorbMJoJABbnpOyUhD0gLk8ItfKFayFh_6mV",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.precisebiometrics.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 9
+      },
+      {
+        "title": "What Is Visitor Management? A Thorough Guide - friendlyway",
+        "link": "https://www.friendlyway.com/what-is-visitor-management/",
+        "snippet": "At a Glance * Visitor management is the process of controlling how guests, contractors, and other non-employees enter, move through, and leave a building.",
+        "source": "friendlyway",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSR0JEI8n8E-LbRO4X4IyQohq9v2AlxZ9Y0TrSS--3LVZwmtcsl1qJajDiG6-jCu_-kH_NqmxRaGju8T-5F3WhenQeff6l8Cgj3e4-t",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.friendlyway.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 10
+      },
+      {
+        "title": "Visitor management system for modern workplaces - Envoy",
+        "link": "https://envoy.com/visitor-management-system",
+        "snippet": "How does a visitor management system work? * Step 1: Invite your visitor. Automatically notify guests ahead of their visit. Share directions, health v",
+        "source": "Envoy",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRjPVB8z39M8uYphvNwhm1yIHpFN9f1hixCoFz5vOJcaN11SED7f_loilQphm5INuyuxOjAtUu_MaQY2PR8-Ti9y4U3_Cy_HZWKn_12",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://envoy.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 11
+      },
+      {
+        "title": "Visitor Management System | Smart Visitor Check-In Software - VizMan",
+        "link": "https://vizman.app/solutions/visitor-management-system",
+        "snippet": "Step 1 - Hosts create an invite or pre-register guests from desktop or mobile. The invite contains meeting details, date/time and an OTP/QR for a fast arrival e...",
+        "source": "VizMan",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSfPNdx1Dl6hdTWci8xMQ9yFk9DS30-CudrxZ3w23zLFE0pUjT3s6VPd7P7vicL0NlWSI9U9H5K_f3D7UZFZ6MhuPS7BIEN-oq6BeyI",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://vizman.app&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 12
+      },
+      {
+        "title": "How Does a Visitor Management System (VMS) Work?",
+        "link": "https://www.youtube.com/watch?v=PpZlwASW3nI&t=11",
+        "snippet": "How Does a Visitor Management System (VMS) Work? and some of the features and functionalities that you can expect from such systems on the admin side of things.",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlEgVTLnhmJWAl9SI6oi9Mic7RSN20rMAaULFYHHGwdVQJW8kVLXtKGVnA8I_O1cGCYKb5ZWSCKNVBjWnS9crVUk3h9M9X4r7v5pckZg",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 13
+      },
+      {
+        "title": "What is a Visitor Management System? A Comprehensive Guide",
+        "link": "https://signinapp.com/blog/what-is-a-visitor-management-system",
+        "snippet": "What is visitor management? Visitor management is the process of registering, identifying, and tracking every person who enters your building. It ensures a smoo...",
+        "source": "Sign In App",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQqMqGifYBos8DJZljUE5CvE47XqBi2oUaxDEdwPodUlNTHg2iofhxfD1aXBu9apmUOP8P-BVn3N7vzohHq7G2UZjblqTJX_y3IQgIK",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://signinapp.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 14
+      },
+      {
+        "title": "What Does a Visitor Management System (VMS) Do?",
+        "link": "https://www.youtube.com/watch?v=ab4mms9_-DI&t=4",
+        "snippet": "What Does a Visitor Management System (VMS) Do? if you are moving people in and out of your building. you've got a visitor. management system fundamentally a vi",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSv53tnGgnrm2VBf0-33WNgE1YQi_cNL0nlDQD04Ii3ApCDi-TUMQy2N0nN_uzPQo0xjCLXYQz4fQJEN0vhZKokUtKzuSaw3CrS_iyQ9Q",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 15
+      }
+    ]
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "VMS - Visitor Management System",
+      "link": "https://r-vms.ril.com/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESTgHrOzAVfM-OZCijKN80zFcJ0zys0GwXAdSVGw5vrstXj2FwB0k6JqhFy-VW5dUeYbosCTUFfTl32ZqFCHCiOR0rL-IyptX6tswrhivfvQ&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQFnoECBwQAQ&uoh=1",
+      "displayed_link": "https://r-vms.ril.com",
+      "snippet": "Visitor Management System. User Name. Password.",
+      "snippet_highlighted_words": [
+        "Visitor Management System"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Visitor Management System. User Name. Password.",
+          "source_info_link": "https://r-vms.ril.com/"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://r-vms.ril.com/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fr-vms.ril.com%2F",
+      "source": "Reliance Industries Limited"
+    },
+    {
+      "position": 2,
+      "title": "Visitor management system for modern workplaces",
+      "link": "https://envoy.com/visitor-management-system",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESYwHrOzAVcpIghcIw3pJw_Gqgr6yIOStTFgjYPWz-sADLb7P_323irmzyyaekD40rqAH9oueT5WjHaGhQAbPLbTGMMKoLZ18tGfxAJVh_YxV43bHP8-dRgkEXyK-dXjOt49upBw&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQFnoECCAQAQ&uoh=1",
+      "displayed_link": "https://envoy.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd-UAAAAlElEQVR4AWNwL_ChK8Yq-MvZQhWIjSnEqvgtRFh2FIj_UwkfxWshyGVQhW-BuJpC_BZqljE-C72hipIojSuQGVCzvLFaOGohLF5wYG9aWfgfi2X_SbdwNA4RcqtwYFWKLSSxBEqimYW4gnCYWIiZLZLoYiEs7qhv4WgcIoK3mt6Fd_VoWUpXC-neiKJ3M3HgG8J0xQDZKGISrMa6owAAAABJRU5ErkJggg.png",
+      "snippet": "A visitor management system tracks everyone who enters your workplace. It records who they are, their visitor type, arrival times, and visit frequency. It also ...",
+      "snippet_highlighted_words": [
+        "tracks everyone who enters your workplace"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "A visitor management system tracks everyone who enters your workplace. It records who they are, their visitor type, arrival times, and visit frequency. It also ...",
+          "source_info_link": "https://envoy.com/visitor-management-system",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd-UAAAAlElEQVR4AWNwL_ChK8Yq-MvZQhWIjSnEqvgtRFh2FIj_UwkfxWshyGVQhW-BuJpC_BZqljE-C72hipIojSuQGVCzvLFaOGohLF5wYG9aWfgfi2X_SbdwNA4RcqtwYFWKLSSxBEqimYW4gnCYWIiZLZLoYiEs7qhv4WgcIoK3mt6Fd_VoWUpXC-neiKJ3M3HgG8J0xQDZKGISrMa6owAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://envoy.com/visitor-management-system&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fenvoy.com%2Fvisitor-management-system",
+      "source": "Envoy"
+    },
+    {
+      "position": 3,
+      "title": "Visitor Access Management System",
+      "link": "https://dgma.gov.in/it-e-governance/it-e-governance-visitor-access-management-system",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjAEB6zswFUhh4tnsx0OqxD8AgaXoHQU8QVzMcnOdSiqEAhXDapwczlHzDUelsFUykwmaKyyYgQ59Z-_PxzOUXRQ-8f4_8BEN37SU1O3uGJ4_h44jGVlU-pbQdLu6Ukp8FVb_Wpb66HK1n4fSgcCKbUZo3rf73l7bA7z7yrRMU4qtVRZ7ecRCnuC6YVHp9A&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQFnoECB8QAQ&uoh=1",
+      "displayed_link": "https://dgma.gov.in › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRtQBAABXRUJQVlA4IMgBAADQBwCdASogACAAAsBMJbACdMoMenaVGd2wF3Aby1ZgcgOwGUDwA0gTKe8Y9AA2QvNL1hJzwaaaMzwn7KNHX1sovO9tbFx-AAD--q3q3sJTuZhnPgKp18GMhrVOM7_VG4oI7jt5M_pAQ3gl_6XdBnDTI4hzGp8caNBgmYJeuJtCInj5ge-kOETYamHFrmW4rxt-ymcwH32b9DHvUVX5MEq0_a4PCFGZ0VETZCmziUFNA1p2Z37Ccv5nM_BxAXdIjB4_VWHVzjHaasZdQftI-0irRgdJCP6sos_55CMbO1fdId9Kny3pey0v3aCm3OQ5eQ6vX34meHjCzgoA32vGl8ADXS0A3ffQSr9il23DNI4rtoG7wddTLkQdVG71eHgA0YCl3OJVSCgjrtZMplpwnYHgWQ78KopO831awYLtYlhdPywWQl1sM_poBhB5zwOYbmDTUnCMLWTTYHzomVVIOs-CwE8HFfw0bZaSW0MQ0r_67HTNai6GgwrVYG1yoCsWP85ohvaLAgyCKtUEeGwapjA9kzySt4GKany0eT4qlWt34vN0XBuOVF7BvP8yESQD9R_xHwOkwVlYd7h79nJFb7nwVAIAK-kAAAA.webp",
+      "snippet": "A Visitor Management System (VMS) is a tool that helps organizations manage and track visitors effectively. It involves processes like visitor sign-in, ...",
+      "snippet_highlighted_words": [
+        "a tool that helps organizations manage and track visitors effectively"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "A Visitor Management System (VMS) is a tool that helps organizations manage and track visitors effectively. It involves processes like visitor sign-in, ...",
+          "source_info_link": "https://dgma.gov.in/it-e-governance/it-e-governance-visitor-access-management-system",
+          "icon": "https://serpapi.com/images/i/UklGRtQBAABXRUJQVlA4IMgBAADQBwCdASogACAAAsBMJbACdMoMenaVGd2wF3Aby1ZgcgOwGUDwA0gTKe8Y9AA2QvNL1hJzwaaaMzwn7KNHX1sovO9tbFx-AAD--q3q3sJTuZhnPgKp18GMhrVOM7_VG4oI7jt5M_pAQ3gl_6XdBnDTI4hzGp8caNBgmYJeuJtCInj5ge-kOETYamHFrmW4rxt-ymcwH32b9DHvUVX5MEq0_a4PCFGZ0VETZCmziUFNA1p2Z37Ccv5nM_BxAXdIjB4_VWHVzjHaasZdQftI-0irRgdJCP6sos_55CMbO1fdId9Kny3pey0v3aCm3OQ5eQ6vX34meHjCzgoA32vGl8ADXS0A3ffQSr9il23DNI4rtoG7wddTLkQdVG71eHgA0YCl3OJVSCgjrtZMplpwnYHgWQ78KopO831awYLtYlhdPywWQl1sM_poBhB5zwOYbmDTUnCMLWTTYHzomVVIOs-CwE8HFfw0bZaSW0MQ0r_67HTNai6GgwrVYG1yoCsWP85ohvaLAgyCKtUEeGwapjA9kzySt4GKany0eT4qlWt34vN0XBuOVF7BvP8yESQD9R_xHwOkwVlYd7h79nJFb7nwVAIAK-kAAAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://dgma.gov.in/it-e-governance/it-e-governance-visitor-access-management-system&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fdgma.gov.in%2Fit-e-governance%2Fit-e-governance-visitor-access-management-system",
+      "source": "DGMA"
+    },
+    {
+      "position": 4,
+      "title": "Visitor Management System | Smart Visitor Check-In Software",
+      "link": "https://vizman.app/solutions/visitor-management-system",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbgHrOzAVcz-Pe5QLKxxWtaYzSsOX27vwS7dgtbL8hVT-mnNErEnNsYBu5wdCDj3rZ_xK0J_0RVtMKgbEbFcvutqBCuWKWKPMqiJ_TcTZVT5Va6wI1e5iCGCd7UZ0WXc91wftH4bdkZfPwQyr9Zqy&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQFnoECCEQAQ&uoh=1",
+      "displayed_link": "https://vizman.app › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRsAAAABXRUJQVlA4ILQAAABQBQCdASocABwAPtFAtFooIqgoFAEAGglsALsvgNYDBgP1mywAefgUOTPi8Ya4fPHGqWAA6FhtHVIH8aflQshLmm_xXyZtqwIUAv_4jU69ynxOxrR7ejiEMw4D8-37UVS5UappyFYb_qTiv_no45qY1ry51pPFgagOcysF318z7MOo4hLCcjM1TQ9ZcB2Y7NvB5_8tYWajw1E-KdPQU_t_zlsTE9iUdJHJjdG73z05TLYAAAA.webp",
+      "snippet": "Best visitor management system for offices. Automates check-ins, ensures security, and integrates seamlessly. Try free!",
+      "snippet_highlighted_words": [
+        "Automates check-ins, ensures security, and integrates seamlessly"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 4.8,
+            "reviews": 150
+          },
+          "extensions": [
+            "4.8(150)"
+          ]
+        }
+      },
+      "about_this_result": {
+        "source": {
+          "description": "Best visitor management system for offices. Automates check-ins, ensures security, and integrates seamlessly. Try free!",
+          "source_info_link": "https://vizman.app/solutions/visitor-management-system",
+          "icon": "https://serpapi.com/images/i/UklGRsAAAABXRUJQVlA4ILQAAABQBQCdASocABwAPtFAtFooIqgoFAEAGglsALsvgNYDBgP1mywAefgUOTPi8Ya4fPHGqWAA6FhtHVIH8aflQshLmm_xXyZtqwIUAv_4jU69ynxOxrR7ejiEMw4D8-37UVS5UappyFYb_qTiv_no45qY1ry51pPFgagOcysF318z7MOo4hLCcjM1TQ9ZcB2Y7NvB5_8tYWajw1E-KdPQU_t_zlsTE9iUdJHJjdG73z05TLYAAAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://vizman.app/solutions/visitor-management-system&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fvizman.app%2Fsolutions%2Fvisitor-management-system",
+      "source": "VizMan"
+    },
+    {
+      "position": 5,
+      "title": "What is a visitor management system?",
+      "link": "https://www.precisebiometrics.com/our-solutions/systems/precise-visit/what-is-a-visitor-management-system/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESogEB6zswFaT0qawTdGYMH_-L4-G9mWk7j0cR3_i-XfpwLxp37sXr-BO83geKFdAA2yUeRqvLfvvHE-8QGDXRDr2miCeCSk7XcTKGl8fgxhFaethvyEvdxcpUeu9Uyar0rsCeeGLHPCG5SuQ2bCqM6zNXVErE5VZltloIAifIuD_Hk15zRIUY9V384ReftRKyL1cbBYmSLzJXxYai6iokJ4EZ5vw&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQFnoECB0QAQ&uoh=1",
+      "displayed_link": "https://www.precisebiometrics.com › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRtIAAABXRUJQVlA4IMYAAABQBQCdASocABwAPrUurVanIacnG_DgFolsAJ0vbabXjeCrIPgDhuEhhtqjJdv1yrLzgAAA_vi4ZB4liUisvEydFhewANVEjmCK4SC4fq4kA-6yzZMz_rz_FjKs7r9M99vvSg_ufMEajfLqCN9n-0Ilcrsb6XwzsnUkNqj0QHemgGGTmCoxiDnglvqKPd4fi12a0rN8RvSRDaSiyd2EUem6UatfR8_hqAxk1N_5B4pHPIIz4fgosPZm8Iij7QVQwhxX4Y4tWAA.webp",
+      "snippet": "A visitor management system is a software used to register, track, and manage visitors in workplaces, offices, and secure facilities. It replaces manual visitor ...",
+      "snippet_highlighted_words": [
+        "a software used to register, track, and manage visitors"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "A visitor management system is a software used to register, track, and manage visitors in workplaces, offices, and secure facilities. It replaces manual visitor ...",
+          "source_info_link": "https://www.precisebiometrics.com/our-solutions/systems/precise-visit/what-is-a-visitor-management-system/",
+          "icon": "https://serpapi.com/images/i/UklGRtIAAABXRUJQVlA4IMYAAABQBQCdASocABwAPrUurVanIacnG_DgFolsAJ0vbabXjeCrIPgDhuEhhtqjJdv1yrLzgAAA_vi4ZB4liUisvEydFhewANVEjmCK4SC4fq4kA-6yzZMz_rz_FjKs7r9M99vvSg_ufMEajfLqCN9n-0Ilcrsb6XwzsnUkNqj0QHemgGGTmCoxiDnglvqKPd4fi12a0rN8RvSRDaSiyd2EUem6UatfR8_hqAxk1N_5B4pHPIIz4fgosPZm8Iij7QVQwhxX4Y4tWAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.precisebiometrics.com/our-solutions/systems/precise-visit/what-is-a-visitor-management-system/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.precisebiometrics.com%2Four-solutions%2Fsystems%2Fprecise-visit%2Fwhat-is-a-visitor-management-system%2F",
+      "source": "Precise Biometrics"
+    },
+    {
+      "position": 6,
+      "title": "Visitor management",
+      "link": "https://en.wikipedia.org/wiki/Visitor_management",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESaAHrOzAVxDAtbAxlAy9BmyNf77hFpna3qARP_ZoJt-nfM9CB1LoP1VWWkzWVF3C1qk_gEvAdpHyhapSBPqBQTHy-M1bfWXj3xr6TVjib6o7SSjuhAo3D3-4i5GL9eXmVq_ZIVmOEIDeA&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQFnoECEYQAQ&uoh=1",
+      "displayed_link": "https://en.wikipedia.org › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRqIAAABXRUJQVlA4IJYAAACQBACdASocABwAPtEutFooIagoGAEAGglpAAPhag38OpTAa4LU1EDlND7sAAAA_vYBJn72wN5WCZhxbfpmwOpA1vfrecvWOCVICC3-_rM6qzQWc8D3etVbTfBEeNbqJu-10k1h5hVXEe_3vpL5NJSAtUHvrJ6e_LkA__pZx-xvTn7v-qaIRjl47m2LoP17C7tcoPGgAAA.webp",
+      "snippet": "Visitor management refers to a set of practices or hardware additions that administrators can use to monitor the usage of a building or site.",
+      "snippet_highlighted_words": [
+        "a set of practices or hardware additions"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Visitor management refers to a set of practices or hardware additions that administrators can use to monitor the usage of a building or site.",
+          "source_info_link": "https://en.wikipedia.org/wiki/Visitor_management",
+          "icon": "https://serpapi.com/images/i/UklGRqIAAABXRUJQVlA4IJYAAACQBACdASocABwAPtEutFooIagoGAEAGglpAAPhag38OpTAa4LU1EDlND7sAAAA_vYBJn72wN5WCZhxbfpmwOpA1vfrecvWOCVICC3-_rM6qzQWc8D3etVbTfBEeNbqJu-10k1h5hVXEe_3vpL5NJSAtUHvrJ6e_LkA__pZx-xvTn7v-qaIRjl47m2LoP17C7tcoPGgAAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://en.wikipedia.org/wiki/Visitor_management&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVisitor_management",
+      "source": "Wikipedia"
+    },
+    {
+      "position": 7,
+      "title": "What is a Visitor Management System? A Comprehensive ...",
+      "link": "https://signinapp.com/blog/what-is-a-visitor-management-system",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdgHrOzAVjGcwvrT_AV5aNaUf1IwNxG00GY-xksnbsVxzjaREFkqvHyVN_Hxjg8VieAJegwyD5VOxRYy3nMpMKirAGZHBTJ1lgiEC6SOsffAnhuZDWNVwyJ0LTy3BYhl9vAwD12s4WzxsJsM_DMR1J2zLEgg0pJM&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQFnoECB4QAQ&uoh=1",
+      "displayed_link": "https://signinapp.com › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRt4AAABXRUJQVlA4INIAAADQBQCdASogACAAPtEutFooIagoGAEAGglsAMNRgD3VSIySbrTCRVqwaWiBBcJujbsdBDzbtLLwAP7-wh4biZI-_yYF3uBbyuVo5_lyeYyvRB5WAM_gbn6-x___jF7p3Gc8v-KY6QIw9f0_fVhAzeR6uggvxHb8v7c13DvlB1pcXPekEWhPkLytb-eXfzXO3nhbY8bhZS0HAfN-gPF1KVUFVayaNZBJAAn7J4VHa5JjndrwHz_hQ5PEbX0IVSiI_ApFrU1lOP13l0xcv4yPfZ4AAAA.webp",
+      "date": "25 अग॰ 2026",
+      "snippet": "A visitor management system manages visitor check-in, access and records to improve safety and compliance. Learn how it works for ...",
+      "snippet_highlighted_words": [
+        "manages visitor check-in, access and records"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "A visitor management system manages visitor check-in, access and records to improve safety and compliance. Learn how it works for ...",
+          "source_info_link": "https://signinapp.com/blog/what-is-a-visitor-management-system",
+          "icon": "https://serpapi.com/images/i/UklGRt4AAABXRUJQVlA4INIAAADQBQCdASogACAAPtEutFooIagoGAEAGglsAMNRgD3VSIySbrTCRVqwaWiBBcJujbsdBDzbtLLwAP7-wh4biZI-_yYF3uBbyuVo5_lyeYyvRB5WAM_gbn6-x___jF7p3Gc8v-KY6QIw9f0_fVhAzeR6uggvxHb8v7c13DvlB1pcXPekEWhPkLytb-eXfzXO3nhbY8bhZS0HAfN-gPF1KVUFVayaNZBJAAn7J4VHa5JjndrwHz_hQ5PEbX0IVSiI_ApFrU1lOP13l0xcv4yPfZ4AAAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://signinapp.com/blog/what-is-a-visitor-management-system&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fsigninapp.com%2Fblog%2Fwhat-is-a-visitor-management-system",
+      "source": "Sign In App"
+    },
+    {
+      "position": 8,
+      "title": "What Is Visitor Management? A Thorough Guide",
+      "link": "https://www.friendlyway.com/what-is-visitor-management/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbwHrOzAVa3JU0fx0xA1gzYnCXbCsND-0TRVAZiOw1CMgsFekdBV6cFgEkPI9tPVRkJOR9zU9wAo6Yx8Ienl4R8icZ1rFhvgqmbxRW1IZUrk5fZ2SKyRYSkkQ6-ju8QAoN2iH4PpdORESUF5m82R3Lw&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQFnoECCIQAQ&uoh=1",
+      "displayed_link": "https://www.friendlyway.com › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRugAAABXRUJQVlA4INwAAADwBQCdASocABwAPtE-tFooIigoFAEAGglsALEbXYwC7M95YIjU8ebTqiCUpbGrF98aTFONUdXbgAD-_Sq29b7Y6cySVBvvpPe9Lo08HAkYqA-GyjmkC3S4Wvh8vsJiwmQAYlmp558c3rv3F_q-7lQpChWrfhpsmRG4YZmszptmPzkpCYKhm4Onmve74yvGxYb14N9I69JZsm2fzgFZ7N2NUQafn90NEMJ6NzFYzjXcJ4sTuLOGcgiyqao7weoxSBuEK4L5u0WQDOZDG6gflFG_orjcn9c6gVRDCSAA.webp",
+      "date": "23 अप्रैल 2026",
+      "snippet": "Visitor management is the process of controlling how guests, contractors, and other non-employees enter, move through, and leave a building. A ...",
+      "snippet_highlighted_words": [
+        "Visitor management"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Visitor management is the process of controlling how guests, contractors, and other non-employees enter, move through, and leave a building. A ...",
+          "source_info_link": "https://www.friendlyway.com/what-is-visitor-management/",
+          "icon": "https://serpapi.com/images/i/UklGRugAAABXRUJQVlA4INwAAADwBQCdASocABwAPtE-tFooIigoFAEAGglsALEbXYwC7M95YIjU8ebTqiCUpbGrF98aTFONUdXbgAD-_Sq29b7Y6cySVBvvpPe9Lo08HAkYqA-GyjmkC3S4Wvh8vsJiwmQAYlmp558c3rv3F_q-7lQpChWrfhpsmRG4YZmszptmPzkpCYKhm4Onmve74yvGxYb14N9I69JZsm2fzgFZ7N2NUQafn90NEMJ6NzFYzjXcJ4sTuLOGcgiyqao7weoxSBuEK4L5u0WQDOZDG6gflFG_orjcn9c6gVRDCSAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.friendlyway.com/what-is-visitor-management/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.friendlyway.com%2Fwhat-is-visitor-management%2F",
+      "source": "friendlyway"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Visitor management system jsw",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=Visitor+management+system+jsw&sa=X&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ1QJ6BAhCEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+management+system+jsw"
+    },
+    {
+      "block_position": 1,
+      "query": "Visitor management system pdf",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=Visitor+management+system+pdf&sa=X&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ1QJ6BAhFEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+management+system+pdf"
+    },
+    {
+      "block_position": 1,
+      "query": "Visitor management system price",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=Visitor+management+system+price&sa=X&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ1QJ6BAhIEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+management+system+price"
+    },
+    {
+      "block_position": 1,
+      "query": "Visitor management system website",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=Visitor+management+system+website&sa=X&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ1QJ6BAhDEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+management+system+website"
+    },
+    {
+      "block_position": 1,
+      "query": "Visitor management system microsoft",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=Visitor+management+system+microsoft&sa=X&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ1QJ6BAhAEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+management+system+microsoft"
+    },
+    {
+      "block_position": 1,
+      "query": "Visitor management system india",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=Visitor+management+system+india&sa=X&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ1QJ6BAhBEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+management+system+india"
+    },
+    {
+      "block_position": 1,
+      "query": "Visitor management system project",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=Visitor+management+system+project&sa=X&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ1QJ6BAg_EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+management+system+project"
+    },
+    {
+      "block_position": 1,
+      "query": "Visitor Management System Adani",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=Visitor+Management+System+Adani&sa=X&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ1QJ6BAhEEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+Management+System+Adani"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=Visitor+Management+System&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=-Uidav60M_Shw8cP6ICEoA4&start=10&sa=N&sstk=AS6-VmKPgnnKfyXCChLB0cEf1J0Zc0iNG74QZLMB1azIwTzHhTz8H_PyNOzHSmvVjz8YUnt7ENULqd2ZkhHeP_o4DM9pQ_--U3o_yQ&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ8NMDegQIOhAW",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=Visitor+Management+System&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=-Uidav60M_Shw8cP6ICEoA4&start=10&sa=N&sstk=AS6-VmKPgnnKfyXCChLB0cEf1J0Zc0iNG74QZLMB1azIwTzHhTz8H_PyNOzHSmvVjz8YUnt7ENULqd2ZkhHeP_o4DM9pQ_--U3o_yQ&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ8tMDegQIOhAE",
+      "3": "https://www.google.co.in/search?q=Visitor+Management+System&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=-Uidav60M_Shw8cP6ICEoA4&start=20&sa=N&sstk=AS6-VmKPgnnKfyXCChLB0cEf1J0Zc0iNG74QZLMB1azIwTzHhTz8H_PyNOzHSmvVjz8YUnt7ENULqd2ZkhHeP_o4DM9pQ_--U3o_yQ&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ8tMDegQIOhAG",
+      "4": "https://www.google.co.in/search?q=Visitor+Management+System&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=-Uidav60M_Shw8cP6ICEoA4&start=30&sa=N&sstk=AS6-VmKPgnnKfyXCChLB0cEf1J0Zc0iNG74QZLMB1azIwTzHhTz8H_PyNOzHSmvVjz8YUnt7ENULqd2ZkhHeP_o4DM9pQ_--U3o_yQ&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ8tMDegQIOhAI",
+      "5": "https://www.google.co.in/search?q=Visitor+Management+System&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=-Uidav60M_Shw8cP6ICEoA4&start=40&sa=N&sstk=AS6-VmKPgnnKfyXCChLB0cEf1J0Zc0iNG74QZLMB1azIwTzHhTz8H_PyNOzHSmvVjz8YUnt7ENULqd2ZkhHeP_o4DM9pQ_--U3o_yQ&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ8tMDegQIOhAK",
+      "6": "https://www.google.co.in/search?q=Visitor+Management+System&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=-Uidav60M_Shw8cP6ICEoA4&start=50&sa=N&sstk=AS6-VmKPgnnKfyXCChLB0cEf1J0Zc0iNG74QZLMB1azIwTzHhTz8H_PyNOzHSmvVjz8YUnt7ENULqd2ZkhHeP_o4DM9pQ_--U3o_yQ&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ8tMDegQIOhAM",
+      "7": "https://www.google.co.in/search?q=Visitor+Management+System&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=-Uidav60M_Shw8cP6ICEoA4&start=60&sa=N&sstk=AS6-VmKPgnnKfyXCChLB0cEf1J0Zc0iNG74QZLMB1azIwTzHhTz8H_PyNOzHSmvVjz8YUnt7ENULqd2ZkhHeP_o4DM9pQ_--U3o_yQ&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ8tMDegQIOhAO",
+      "8": "https://www.google.co.in/search?q=Visitor+Management+System&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=-Uidav60M_Shw8cP6ICEoA4&start=70&sa=N&sstk=AS6-VmKPgnnKfyXCChLB0cEf1J0Zc0iNG74QZLMB1azIwTzHhTz8H_PyNOzHSmvVjz8YUnt7ENULqd2ZkhHeP_o4DM9pQ_--U3o_yQ&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ8tMDegQIOhAQ",
+      "9": "https://www.google.co.in/search?q=Visitor+Management+System&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=-Uidav60M_Shw8cP6ICEoA4&start=80&sa=N&sstk=AS6-VmKPgnnKfyXCChLB0cEf1J0Zc0iNG74QZLMB1azIwTzHhTz8H_PyNOzHSmvVjz8YUnt7ENULqd2ZkhHeP_o4DM9pQ_--U3o_yQ&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ8tMDegQIOhAS",
+      "10": "https://www.google.co.in/search?q=Visitor+Management+System&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=-Uidav60M_Shw8cP6ICEoA4&start=90&sa=N&sstk=AS6-VmKPgnnKfyXCChLB0cEf1J0Zc0iNG74QZLMB1azIwTzHhTz8H_PyNOzHSmvVjz8YUnt7ENULqd2ZkhHeP_o4DM9pQ_--U3o_yQ&ved=2ahUKEwi-lZnW59mWAxX00PACHWgAAeQQ8tMDegQIOhAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+Management+System&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+Management+System&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+Management+System&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+Management+System&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+Management+System&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+Management+System&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+Management+System&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+Management+System&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+Management+System&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+Management+System&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Visitor+Management+System&start=90"
+    }
+  }
+}

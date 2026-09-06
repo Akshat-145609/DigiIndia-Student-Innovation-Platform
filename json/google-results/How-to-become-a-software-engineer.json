@@ -1,0 +1,714 @@
+{
+  "search_metadata": {
+    "id": "6a9d4dd88270310e838019ee",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/bQjo9ouyY0RSY-sXsj4B2dAgdBgFL-hu_Wkt4KjKmyo/6a9d4dd88270310e838019ee.json",
+    "markdown_endpoint": "https://serpapi.com/searches/bQjo9ouyY0RSY-sXsj4B2dAgdBgFL-hu_Wkt4KjKmyo/6a9d4dd88270310e838019ee.md",
+    "created_at": "2026-09-06 11:26:16 UTC",
+    "processed_at": "2026-09-06 11:26:16 UTC",
+    "google_url": "https://www.google.co.in/search?q=How+to+become+a+software+engineer&oq=How+to+become+a+software+engineer&uule=w+CAIQICIFSW5kaWE&hl=hi&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/bQjo9ouyY0RSY-sXsj4B2dAgdBgFL-hu_Wkt4KjKmyo/6a9d4dd88270310e838019ee.html",
+    "total_time_taken": 1.63
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "How to become a software engineer",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "How to become a software engineer",
+    "total_results": 123,
+    "time_taken_displayed": 0.16,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "inline_videos": [
+    {
+      "position": 1,
+      "title": "How to become a Software Engineer in 2026",
+      "link": "https://www.youtube.com/watch?v=cO42oAeC4jk",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBbcnuU7Dsv8pvqLInrmVv3ba66zJK0zAAmu2M3OMZSx-GIBVH_AlVEw&s",
+      "channel": "The Cherno",
+      "duration": "16:01",
+      "platform": "YouTube",
+      "date": "27 फ़र॰ 2026"
+    },
+    {
+      "position": 2,
+      "title": "If I Wanted to Become a Software Engineer in 2026, This is ...",
+      "link": "https://www.youtube.com/watch?v=avdDEZCcluo",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1oRPhOGOXEnbAfZbzarcZsx4Gcz_eb1vyv8B1Is0a2Tg1KNqQ6LUlVQ&s",
+      "channel": "Sajjaad Khader",
+      "duration": "17:17",
+      "platform": "YouTube",
+      "date": "6 दिस॰ 2024",
+      "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQnTGVBsMKqBui4bHL13eOuCn8Oz6CV2gv3YQ",
+      "key_moments": [
+        {
+          "time": "00:00",
+          "title": "How Much Do We Make?",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=0"
+        },
+        {
+          "time": "00:17",
+          "title": "Level 1: Learning How to Code",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=17"
+        },
+        {
+          "time": "00:36",
+          "title": "Foundational Learning",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=36"
+        },
+        {
+          "time": "01:45",
+          "title": "Languages, Resources, & Simple Projects",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=105"
+        },
+        {
+          "time": "03:05",
+          "title": "Level 2: Building Projects",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=185"
+        },
+        {
+          "time": "03:09",
+          "title": "Choosing Projects & Complexity",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=189"
+        },
+        {
+          "time": "04:53",
+          "title": "Focus on Impact",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=293"
+        },
+        {
+          "time": "05:37",
+          "title": "Level 3: Resume Building",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=337"
+        },
+        {
+          "time": "06:00",
+          "title": "Header",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=360"
+        },
+        {
+          "time": "06:27",
+          "title": "Education",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=387"
+        },
+        {
+          "time": "07:08",
+          "title": "Experience",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=428"
+        },
+        {
+          "time": "07:52",
+          "title": "Projects",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=472"
+        },
+        {
+          "time": "08:41",
+          "title": "Activities & Leadership",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=521"
+        },
+        {
+          "time": "09:03",
+          "title": "Skills",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=543"
+        },
+        {
+          "time": "09:47",
+          "title": "Level 4: Applications & Referrals",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=587"
+        },
+        {
+          "time": "09:51",
+          "title": "Job Application Strategies",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=591"
+        },
+        {
+          "time": "11:23",
+          "title": "Referral Strategies",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=683"
+        },
+        {
+          "time": "13:03",
+          "title": "Level 5: Technical Interview Prep",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=783"
+        },
+        {
+          "time": "13:10",
+          "title": "Learning Data Structures & Algorithms",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=790"
+        },
+        {
+          "time": "14:46",
+          "title": "Interview Problem-Solving",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=886"
+        },
+        {
+          "time": "15:56",
+          "title": "Solving Leetcode Questions When You're Stuck",
+          "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=956"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "title": "How I Would Learn to Be a Software Developer (If I Could Start ...",
+      "link": "https://www.youtube.com/watch?v=GsuGjkGW1jA",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtN4AQwKrrapI3Tde8dKuT912gB9YHcWHIGOPy3xx_r-3fd481UPkB_Q&s",
+      "channel": "Internet Made Coder",
+      "duration": "13:31",
+      "platform": "YouTube",
+      "date": "10 जुल॰ 2024",
+      "key_moments": [
+        {
+          "time": "00:00",
+          "title": "How I became a software developer in 4 months",
+          "link": "https://www.youtube.com/watch?v=GsuGjkGW1jA&t=0"
+        },
+        {
+          "time": "01:08",
+          "title": "PART 1: Understanding software development",
+          "link": "https://www.youtube.com/watch?v=GsuGjkGW1jA&t=68"
+        },
+        {
+          "time": "03:53",
+          "title": "PART 2: The technical skills",
+          "link": "https://www.youtube.com/watch?v=GsuGjkGW1jA&t=233"
+        },
+        {
+          "time": "10:08",
+          "title": "PART 3: Non-technical skills",
+          "link": "https://www.youtube.com/watch?v=GsuGjkGW1jA&t=608"
+        },
+        {
+          "time": "11:35",
+          "title": "PART 4: Playing the game of the job market",
+          "link": "https://www.youtube.com/watch?v=GsuGjkGW1jA&t=695"
+        }
+      ]
+    }
+  ],
+  "related_questions": [
+    {
+      "question": "What is required to become a software engineer?",
+      "type": "ai_overview",
+      "page_token": "nDZiSXicHZBdbuIwGAC1l-kjmLiwCxKqmoJB2RI2jj878UuVxIGkdhILUvLztlfoGXqqnmbRXmBGM3-_TFnr7x-fRdva62o67bpucm6as8knWTMp62lyHepsmiXGpEmmV4ufi9nTKVtvb7H7csncAKzlG4pC0XpUP6LYaXAgfs0PYGXk2MJ3ejjCvGG7nmXvtDgY-ZjvvQ9W2VBG_FXoouQb70-KzJYSRUKgl8A5jH7k7QVcMROGpkj3khMSY7cNkPJzIl-AqwG0mSeOglR0A4dlJ2u7y3VfiYre3f6gjHW4plhVyElEMwIJcC7mLsXeLd2pMUIezbf9yLBdhIaUvFYyISSUAB0XbRmPZ5TD8pq_G3Fk6hKN6jXhnrst4oEzT8di-ZHovgD8PGPVMrg3lxL57q70XLr3h6OQ7M4BOsx-J6QAjrRDN6aTG-hVTUtBfAHMrx9O2W2NH_6fXr-dqnZlL835H9dojhA",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=nDZiSXicHZBdbuIwGAC1l-kjmLiwCxKqmoJB2RI2jj878UuVxIGkdhILUvLztlfoGXqqnmbRXmBGM3-_TFnr7x-fRdva62o67bpucm6as8knWTMp62lyHepsmiXGpEmmV4ufi9nTKVtvb7H7csncAKzlG4pC0XpUP6LYaXAgfs0PYGXk2MJ3ejjCvGG7nmXvtDgY-ZjvvQ9W2VBG_FXoouQb70-KzJYSRUKgl8A5jH7k7QVcMROGpkj3khMSY7cNkPJzIl-AqwG0mSeOglR0A4dlJ2u7y3VfiYre3f6gjHW4plhVyElEMwIJcC7mLsXeLd2pMUIezbf9yLBdhIaUvFYyISSUAB0XbRmPZ5TD8pq_G3Fk6hKN6jXhnrst4oEzT8di-ZHovgD8PGPVMrg3lxL57q70XLr3h6OQ7M4BOsx-J6QAjrRDN6aTG-hVTUtBfAHMrx9O2W2NH_6fXr-dqnZlL835H9dojhA",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSTWMxZ3dlVmx2TjJsVWRETllVblJHUm1oUFIxVnpWM0pHWjNkTlQzTTROVU55WkRSU1JYQk1kamd6Y2xkSWVGQjFMV2x2ZUZwU2FFVkZZakJhYzFoek9XdEhTbTl6TkRNdE9UQmhTRjgzWDJrMk5WUjFRbVJqUzAxQlFSSVdNbFV5WkdGdmJtcE1ZVk53TlU1dlVERktZbWREUVJvaVFVUnpjamxtVWw5Q2FucElaVVpyV2xBd2RXaG9aMVJyYzAxRlFtNTFlRlI1VVEiLCJmY3YiOiIzIiwiZWkiOiIyVTJkYW9uakxhU3A1Tm9QMUpiZ0NBIiwicWMiOiJDaUZvYjNjZ2RHOGdZbVZqYjIxbElHRWdjMjltZEhkaGNtVWdaVzVuYVc1bFpYSVFBSDFkeUNjXyIsInF1ZXN0aW9uIjoiV2hhdCBpcyByZXF1aXJlZCB0byBiZWNvbWUgYSBzb2Z0d2FyZSBlbmdpbmVlcj8iLCJsayI6IkdpeDNhR0YwSUdseklISmxjWFZwY21Wa0lIUnZJR0psWTI5dFpTQnpiMlowZDJGeVpTQmxibWRwYm1WbGNnIiwiYnMiOiJjNDNRTVE3Q01Bd0ZVTEZtWXM1a3dRSXRBalVYNk1DVUV5QkdVMHppZ1FTY29JcmIwOHlFaXZuX18yUlpvVHFjUEdiZ0JFTFBGd3RkSVVlNDBCRHZCQWdwM3ZLSVFrREJjU0NTM3V6MWJ2dzktUnFvczJxUEdDYXJNOW5EQTFPYTVSdTlHZXIxR3QwVTJnS2hCT2hna0RqRm1PcHlxN2RGNW5fYXlxcTFyU2JnMlpXNzNoeGNiMWE2X0dHMnRGeDhBQSIsImlkIjoiZmNfMlUyZGFvbmpMYVNwNU5vUDFKYmdDQV81In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSTWMxZ3dlVmx2TjJsVWRETllVblJHUm1oUFIxVnpWM0pHWjNkTlQzTTROVU55WkRSU1JYQk1kamd6Y2xkSWVGQjFMV2x2ZUZwU2FFVkZZakJhYzFoek9XdEhTbTl6TkRNdE9UQmhTRjgzWDJrMk5WUjFRbVJqUzAxQlFSSVdNbFV5WkdGdmJtcE1ZVk53TlU1dlVERktZbWREUVJvaVFVUnpjamxtVWw5Q2FucElaVVpyV2xBd2RXaG9aMVJyYzAxRlFtNTFlRlI1VVEiLCJmY3YiOiIzIiwiZWkiOiIyVTJkYW9uakxhU3A1Tm9QMUpiZ0NBIiwicWMiOiJDaUZvYjNjZ2RHOGdZbVZqYjIxbElHRWdjMjltZEhkaGNtVWdaVzVuYVc1bFpYSVFBSDFkeUNjXyIsInF1ZXN0aW9uIjoiV2hhdCBpcyByZXF1aXJlZCB0byBiZWNvbWUgYSBzb2Z0d2FyZSBlbmdpbmVlcj8iLCJsayI6IkdpeDNhR0YwSUdseklISmxjWFZwY21Wa0lIUnZJR0psWTI5dFpTQnpiMlowZDJGeVpTQmxibWRwYm1WbGNnIiwiYnMiOiJjNDNRTVE3Q01Bd0ZVTEZtWXM1a3dRSXRBalVYNk1DVUV5QkdVMHppZ1FTY29JcmIwOHlFaXZuX18yUlpvVHFjUEdiZ0JFTFBGd3RkSVVlNDBCRHZCQWdwM3ZLSVFrREJjU0NTM3V6MWJ2dzktUnFvczJxUEdDYXJNOW5EQTFPYTVSdTlHZXIxR3QwVTJnS2hCT2hna0RqRm1PcHlxN2RGNW5fYXlxcTFyU2JnMlpXNzNoeGNiMWE2X0dHMnRGeDhBQSIsImlkIjoiZmNfMlUyZGFvbmpMYVNwNU5vUDFKYmdDQV81In0%3D"
+    },
+    {
+      "question": "Can a 12th pass become a software engineer?",
+      "type": "ai_overview",
+      "page_token": "A_Xn4XicHZDBboIwAECzn9lRC8gWTcwyJi0zk62lBellgaJWW6RTtMBt_7Kv2tfM7PryLu99_-j9Uf3eXWXbmvNsPLbWjnZNs9ObkWhG--O4OPdHMRaF1mUh1Ozh8cF52op5eAmDl6_XADNj0gUBCXidcAWLtAZ9pqthlWIn9UzCKX-vKHEoaDuBeIK1WRZrE-UZ7KgXLzjqaAXkmapuQRDs-UHaspYnrJ_9FfDRzVtjGlNG-WVF8VBG8SWBRhWZ_8Fcs3hjDsIsd26sTSJSp0PwtQmtzSBUJQM2QdbFa-EmSkYZmvr0UCG-1pZo2NNQD_kAT6XqDimVTLhwkoQ5IIMkocz7lC5Vnk0vheok854dWk_xipk9B3GA9suARHH_nnFWhNITbjzJGT9WEbYMhkAc5HDrbSpH-xtIvPutuM69-_-b889t3c7Mqdn9AY0eg30",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=A_Xn4XicHZDBboIwAECzn9lRC8gWTcwyJi0zk62lBellgaJWW6RTtMBt_7Kv2tfM7PryLu99_-j9Uf3eXWXbmvNsPLbWjnZNs9ObkWhG--O4OPdHMRaF1mUh1Ozh8cF52op5eAmDl6_XADNj0gUBCXidcAWLtAZ9pqthlWIn9UzCKX-vKHEoaDuBeIK1WRZrE-UZ7KgXLzjqaAXkmapuQRDs-UHaspYnrJ_9FfDRzVtjGlNG-WVF8VBG8SWBRhWZ_8Fcs3hjDsIsd26sTSJSp0PwtQmtzSBUJQM2QdbFa-EmSkYZmvr0UCG-1pZo2NNQD_kAT6XqDimVTLhwkoQ5IIMkocz7lC5Vnk0vheok854dWk_xipk9B3GA9suARHH_nnFWhNITbjzJGT9WEbYMhkAc5HDrbSpH-xtIvPutuM69-_-b889t3c7Mqdn9AY0eg30",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSTWMxZ3dlVmx2TjJsVWRETllVblJHUm1oUFIxVnpWM0pHWjNkTlQzTTROVU55WkRSU1JYQk1kamd6Y2xkSWVGQjFMV2x2ZUZwU2FFVkZZakJhYzFoek9XdEhTbTl6TkRNdE9UQmhTRjgzWDJrMk5WUjFRbVJqUzAxQlFSSVdNbFV5WkdGdmJtcE1ZVk53TlU1dlVERktZbWREUVJvaVFVUnpjamxtVWw5Q2FucElaVVpyV2xBd2RXaG9aMVJyYzAxRlFtNTFlRlI1VVEiLCJmY3YiOiIzIiwiZWkiOiIyVTJkYW9uakxhU3A1Tm9QMUpiZ0NBIiwicWMiOiJDaUZvYjNjZ2RHOGdZbVZqYjIxbElHRWdjMjltZEhkaGNtVWdaVzVuYVc1bFpYSVFBSDFkeUNjXyIsInF1ZXN0aW9uIjoiQ2FuIGEgMTJ0aCBwYXNzIGJlY29tZSBhIHNvZnR3YXJlIGVuZ2luZWVyPyIsImxrIjoiR2loallXNGdZU0F4TW5Sb0lIQmhjM01nWW1WamIyMWxJSE52Wm5SM1lYSmxJR1Z1WjJsdVpXVnkiLCJicyI6ImM0M1FNUTdDTUF3RlVMRm1ZczVrd1FJdEFqVVg2TUNVRXlCR1UwemlnUVNjb0lyYjA4eUVpdm5fXzJSWm9UcWNQR2JnQkVMUEZ3dGRJVWU0MEJEdkJBZ3AzdktJUWtEQmNTQ1MzdXoxYnZ3OS1ScW9zMnFQR0Nhck05bkRBMU9hNVJ1OUdlcjFHdDBVMmdLaEJPaGdrRGpGbU9weXE3ZEY1bl9heXFxMXJTYmcyWlc3M2h4Y2IxYTZfR0cydEZ4OEFBIiwiaWQiOiJmY18yVTJkYW9uakxhU3A1Tm9QMUpiZ0NBXzUifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSTWMxZ3dlVmx2TjJsVWRETllVblJHUm1oUFIxVnpWM0pHWjNkTlQzTTROVU55WkRSU1JYQk1kamd6Y2xkSWVGQjFMV2x2ZUZwU2FFVkZZakJhYzFoek9XdEhTbTl6TkRNdE9UQmhTRjgzWDJrMk5WUjFRbVJqUzAxQlFSSVdNbFV5WkdGdmJtcE1ZVk53TlU1dlVERktZbWREUVJvaVFVUnpjamxtVWw5Q2FucElaVVpyV2xBd2RXaG9aMVJyYzAxRlFtNTFlRlI1VVEiLCJmY3YiOiIzIiwiZWkiOiIyVTJkYW9uakxhU3A1Tm9QMUpiZ0NBIiwicWMiOiJDaUZvYjNjZ2RHOGdZbVZqYjIxbElHRWdjMjltZEhkaGNtVWdaVzVuYVc1bFpYSVFBSDFkeUNjXyIsInF1ZXN0aW9uIjoiQ2FuIGEgMTJ0aCBwYXNzIGJlY29tZSBhIHNvZnR3YXJlIGVuZ2luZWVyPyIsImxrIjoiR2loallXNGdZU0F4TW5Sb0lIQmhjM01nWW1WamIyMWxJSE52Wm5SM1lYSmxJR1Z1WjJsdVpXVnkiLCJicyI6ImM0M1FNUTdDTUF3RlVMRm1ZczVrd1FJdEFqVVg2TUNVRXlCR1UwemlnUVNjb0lyYjA4eUVpdm5fXzJSWm9UcWNQR2JnQkVMUEZ3dGRJVWU0MEJEdkJBZ3AzdktJUWtEQmNTQ1MzdXoxYnZ3OS1ScW9zMnFQR0Nhck05bkRBMU9hNVJ1OUdlcjFHdDBVMmdLaEJPaGdrRGpGbU9weXE3ZEY1bl9heXFxMXJTYmcyWlc3M2h4Y2IxYTZfR0cydEZ4OEFBIiwiaWQiOiJmY18yVTJkYW9uakxhU3A1Tm9QMUpiZ0NBXzUifQ%3D%3D"
+    },
+    {
+      "question": "Can I earn 1 crore as a software engineer?",
+      "type": "ai_overview",
+      "page_token": "pMqCmnicHdBbbuIwFABQzWb4hJgURkFCVVPyKJo4k1s_kvxUxgEcbExmMCTkb_Yyq-pqKvUs4fz7b1qrP3_clXPddTWb9X0_PV4uR7Ofysu0tTNxfVg5k8KYnZB6tfy5RM8HuY5uUfj65y0saNexDXgkZiFPAeVJ_StPTVyVTLDYPNVntSA0KHGEfjMf1D4OlzvSsEJv633U5fLEKjBBj1vPZd4AImkWOTU1T1zJOIMsGhbMZqhA0FYjHt-turFN5Yu5HgoecOJhUVjlKsvuTbw9vZ8a0ljoOVGUjI1hiXuVFvsihhLPAeex0lQvxp2u32Q09DCHmyTYCf_oGB167EMqUxNGqnowstUVD25CD4r6L4icgyKjXVt7OEzabQgpfuS8hgp1JSbhiSKcsKhus1QizK9zaD1PjPgAtIPJQd7X_uR7c_1xOLtV9_dy_ALbPoL7",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=pMqCmnicHdBbbuIwFABQzWb4hJgURkFCVVPyKJo4k1s_kvxUxgEcbExmMCTkb_Yyq-pqKvUs4fz7b1qrP3_clXPddTWb9X0_PV4uR7Ofysu0tTNxfVg5k8KYnZB6tfy5RM8HuY5uUfj65y0saNexDXgkZiFPAeVJ_StPTVyVTLDYPNVntSA0KHGEfjMf1D4OlzvSsEJv633U5fLEKjBBj1vPZd4AImkWOTU1T1zJOIMsGhbMZqhA0FYjHt-turFN5Yu5HgoecOJhUVjlKsvuTbw9vZ8a0ljoOVGUjI1hiXuVFvsihhLPAeex0lQvxp2u32Q09DCHmyTYCf_oGB167EMqUxNGqnowstUVD25CD4r6L4icgyKjXVt7OEzabQgpfuS8hgp1JSbhiSKcsKhus1QizK9zaD1PjPgAtIPJQd7X_uR7c_1xOLtV9_dy_ALbPoL7",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSTWMxZ3dlVmx2TjJsVWRETllVblJHUm1oUFIxVnpWM0pHWjNkTlQzTTROVU55WkRSU1JYQk1kamd6Y2xkSWVGQjFMV2x2ZUZwU2FFVkZZakJhYzFoek9XdEhTbTl6TkRNdE9UQmhTRjgzWDJrMk5WUjFRbVJqUzAxQlFSSVdNbFV5WkdGdmJtcE1ZVk53TlU1dlVERktZbWREUVJvaVFVUnpjamxtVWw5Q2FucElaVVpyV2xBd2RXaG9aMVJyYzAxRlFtNTFlRlI1VVEiLCJmY3YiOiIzIiwiZWkiOiIyVTJkYW9uakxhU3A1Tm9QMUpiZ0NBIiwicWMiOiJDaUZvYjNjZ2RHOGdZbVZqYjIxbElHRWdjMjltZEhkaGNtVWdaVzVuYVc1bFpYSVFBSDFkeUNjXyIsInF1ZXN0aW9uIjoiQ2FuIEkgZWFybiAxIGNyb3JlIGFzIGEgc29mdHdhcmUgZW5naW5lZXI/IiwibGsiOiJHaWxqWVc0Z2FTQmxZWEp1SURFZ1kzSnZjbVVnWVhNZ1lTQnpiMlowZDJGeVpTQmxibWRwYm1WbGNnIiwiYnMiOiJjNDNRTVE3Q01Bd0ZVTEZtWXM1a3dRSXRBalVYNk1DVUV5QkdVMHppZ1FTY29JcmIwOHlFaXZuX18yUlpvVHFjUEdiZ0JFTFBGd3RkSVVlNDBCRHZCQWdwM3ZLSVFrREJjU0NTM3V6MWJ2dzktUnFvczJxUEdDYXJNOW5EQTFPYTVSdTlHZXIxR3QwVTJnS2hCT2hna0RqRm1PcHlxN2RGNW5fYXlxcTFyU2JnMlpXNzNoeGNiMWE2X0dHMnRGeDhBQSIsImlkIjoiZmNfMlUyZGFvbmpMYVNwNU5vUDFKYmdDQV81In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSTWMxZ3dlVmx2TjJsVWRETllVblJHUm1oUFIxVnpWM0pHWjNkTlQzTTROVU55WkRSU1JYQk1kamd6Y2xkSWVGQjFMV2x2ZUZwU2FFVkZZakJhYzFoek9XdEhTbTl6TkRNdE9UQmhTRjgzWDJrMk5WUjFRbVJqUzAxQlFSSVdNbFV5WkdGdmJtcE1ZVk53TlU1dlVERktZbWREUVJvaVFVUnpjamxtVWw5Q2FucElaVVpyV2xBd2RXaG9aMVJyYzAxRlFtNTFlRlI1VVEiLCJmY3YiOiIzIiwiZWkiOiIyVTJkYW9uakxhU3A1Tm9QMUpiZ0NBIiwicWMiOiJDaUZvYjNjZ2RHOGdZbVZqYjIxbElHRWdjMjltZEhkaGNtVWdaVzVuYVc1bFpYSVFBSDFkeUNjXyIsInF1ZXN0aW9uIjoiQ2FuIEkgZWFybiAxIGNyb3JlIGFzIGEgc29mdHdhcmUgZW5naW5lZXI%2FIiwibGsiOiJHaWxqWVc0Z2FTQmxZWEp1SURFZ1kzSnZjbVVnWVhNZ1lTQnpiMlowZDJGeVpTQmxibWRwYm1WbGNnIiwiYnMiOiJjNDNRTVE3Q01Bd0ZVTEZtWXM1a3dRSXRBalVYNk1DVUV5QkdVMHppZ1FTY29JcmIwOHlFaXZuX18yUlpvVHFjUEdiZ0JFTFBGd3RkSVVlNDBCRHZCQWdwM3ZLSVFrREJjU0NTM3V6MWJ2dzktUnFvczJxUEdDYXJNOW5EQTFPYTVSdTlHZXIxR3QwVTJnS2hCT2hna0RqRm1PcHlxN2RGNW5fYXlxcTFyU2JnMlpXNzNoeGNiMWE2X0dHMnRGeDhBQSIsImlkIjoiZmNfMlUyZGFvbmpMYVNwNU5vUDFKYmdDQV81In0%3D"
+    },
+    {
+      "question": "Is a software engineer high paying?",
+      "type": "ai_overview",
+      "page_token": "AIJzKnicHdBJbsIwAEBR9TIsIQ5DFSRU4WYARBxwYjv2pkpsMtQhMWVm17v0VD1NUbdfepv__dPUrf59uVSnkzlOB4Pr9dovu65sdn3Z9et2kB3vrRzIrGnyTOrp5HUC3go5884efD8s4ZYYQ11sxZbSsatSTvGF20Zjl8bZpxK7GhTKpxvKfEYDvEHe9bal9B4DuExssxCkqmPttGHQjJXWD6bLR26Vlhh6Iw7gZZ0aElsgyl10jlKkhX0Toe27z453rnIlc0Q4rJY0QOEuQFm4X1WUijpK5Ujt-Rj7mOSeSeNAPC3AeYIXmTUaJUEHxKJxc8tvMBEo8uFY0fkppCXgNsJexe80WWnOnHOmbxUZzkGyd7YhMbWwEAzqFcQLdI-YSDjbAq7HDamBVmA1iYE6SGbWlDkFaSs7SiDsFfIyG_b-b84-iv1par668g_bAYBa",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=AIJzKnicHdBJbsIwAEBR9TIsIQ5DFSRU4WYARBxwYjv2pkpsMtQhMWVm17v0VD1NUbdfepv__dPUrf59uVSnkzlOB4Pr9dovu65sdn3Z9et2kB3vrRzIrGnyTOrp5HUC3go5884efD8s4ZYYQ11sxZbSsatSTvGF20Zjl8bZpxK7GhTKpxvKfEYDvEHe9bal9B4DuExssxCkqmPttGHQjJXWD6bLR26Vlhh6Iw7gZZ0aElsgyl10jlKkhX0Toe27z453rnIlc0Q4rJY0QOEuQFm4X1WUijpK5Ujt-Rj7mOSeSeNAPC3AeYIXmTUaJUEHxKJxc8tvMBEo8uFY0fkppCXgNsJexe80WWnOnHOmbxUZzkGyd7YhMbWwEAzqFcQLdI-YSDjbAq7HDamBVmA1iYE6SGbWlDkFaSs7SiDsFfIyG_b-b84-iv1par668g_bAYBa",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSTWMxZ3dlVmx2TjJsVWRETllVblJHUm1oUFIxVnpWM0pHWjNkTlQzTTROVU55WkRSU1JYQk1kamd6Y2xkSWVGQjFMV2x2ZUZwU2FFVkZZakJhYzFoek9XdEhTbTl6TkRNdE9UQmhTRjgzWDJrMk5WUjFRbVJqUzAxQlFSSVdNbFV5WkdGdmJtcE1ZVk53TlU1dlVERktZbWREUVJvaVFVUnpjamxtVWw5Q2FucElaVVpyV2xBd2RXaG9aMVJyYzAxRlFtNTFlRlI1VVEiLCJmY3YiOiIzIiwiZWkiOiIyVTJkYW9uakxhU3A1Tm9QMUpiZ0NBIiwicWMiOiJDaUZvYjNjZ2RHOGdZbVZqYjIxbElHRWdjMjltZEhkaGNtVWdaVzVuYVc1bFpYSVFBSDFkeUNjXyIsInF1ZXN0aW9uIjoiSXMgYSBzb2Z0d2FyZSBlbmdpbmVlciBoaWdoIHBheWluZz8iLCJsayI6IkdpQnBjeUJ6YjJaMGQyRnlaU0JsYm1kcGJtVmxjaUJvYVdkb0lIQmhlV2x1WnciLCJicyI6ImM0M1FNUTdDTUF3RlVMRm1ZczVrd1FJdEFqVVg2TUNVRXlCR1UwemlnUVNjb0lyYjA4eUVpdm5fXzJSWm9UcWNQR2JnQkVMUEZ3dGRJVWU0MEJEdkJBZ3AzdktJUWtEQmNTQ1MzdXoxYnZ3OS1ScW9zMnFQR0Nhck05bkRBMU9hNVJ1OUdlcjFHdDBVMmdLaEJPaGdrRGpGbU9weXE3ZEY1bl9heXFxMXJTYmcyWlc3M2h4Y2IxYTZfR0cydEZ4OEFBIiwiaWQiOiJmY18yVTJkYW9uakxhU3A1Tm9QMUpiZ0NBXzUifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFBQkNtSkJTbWxVTkhSTWMxZ3dlVmx2TjJsVWRETllVblJHUm1oUFIxVnpWM0pHWjNkTlQzTTROVU55WkRSU1JYQk1kamd6Y2xkSWVGQjFMV2x2ZUZwU2FFVkZZakJhYzFoek9XdEhTbTl6TkRNdE9UQmhTRjgzWDJrMk5WUjFRbVJqUzAxQlFSSVdNbFV5WkdGdmJtcE1ZVk53TlU1dlVERktZbWREUVJvaVFVUnpjamxtVWw5Q2FucElaVVpyV2xBd2RXaG9aMVJyYzAxRlFtNTFlRlI1VVEiLCJmY3YiOiIzIiwiZWkiOiIyVTJkYW9uakxhU3A1Tm9QMUpiZ0NBIiwicWMiOiJDaUZvYjNjZ2RHOGdZbVZqYjIxbElHRWdjMjltZEhkaGNtVWdaVzVuYVc1bFpYSVFBSDFkeUNjXyIsInF1ZXN0aW9uIjoiSXMgYSBzb2Z0d2FyZSBlbmdpbmVlciBoaWdoIHBheWluZz8iLCJsayI6IkdpQnBjeUJ6YjJaMGQyRnlaU0JsYm1kcGJtVmxjaUJvYVdkb0lIQmhlV2x1WnciLCJicyI6ImM0M1FNUTdDTUF3RlVMRm1ZczVrd1FJdEFqVVg2TUNVRXlCR1UwemlnUVNjb0lyYjA4eUVpdm5fXzJSWm9UcWNQR2JnQkVMUEZ3dGRJVWU0MEJEdkJBZ3AzdktJUWtEQmNTQ1MzdXoxYnZ3OS1ScW9zMnFQR0Nhck05bkRBMU9hNVJ1OUdlcjFHdDBVMmdLaEJPaGdrRGpGbU9weXE3ZEY1bl9heXFxMXJTYmcyWlc3M2h4Y2IxYTZfR0cydEZ4OEFBIiwiaWQiOiJmY18yVTJkYW9uakxhU3A1Tm9QMUpiZ0NBXzUifQ%3D%3D"
+    }
+  ],
+  "ai_overview": {
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "To become a software engineer, you need to learn computer science fundamentals, master a programming language, build a portfolio of real projects, and develop strong problem-solving skills.",
+        "snippet_highlighted_words": [
+          "learn computer science fundamentals, master a programming language, build a portfolio of real projects, and develop strong problem-solving skills"
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "1. Learn the Basics and How to Code"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Start with fundamentals: Learn how computers process information by taking a beginner-friendly foundational course like Harvard's CS50."
+          },
+          {
+            "snippet": "Pick a programming language: Choose one easy-to-learn language like Python or JavaScript and stick with it until you feel confident."
+          },
+          {
+            "snippet": "Avoid tutorial hell: Do not just watch videos; immediately apply what you learn by building small tools like a calculator or a to-do list app."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "2. Master Core Technical Skills"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Data structures and algorithms: Learn how to store data and solve problems efficiently."
+          },
+          {
+            "snippet": "Version control: Learn to use Git and GitHub early to save your code and share your projects."
+          },
+          {
+            "snippet": "Databases and web basics: Understand how to save data using SQL and how web applications communicate using APIs."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "3. Build a Portfolio and Gain Experience"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Create real projects: Build noticeable projects like an expense tracker, a simple chat app, or a personal website."
+          },
+          {
+            "snippet": "Contribute to open source: Share your code on GitHub and collaborate with other programmers."
+          },
+          {
+            "snippet": "Craft a strong resume: Highlight your actual projects, list intermediate skills clearly, and quantify your results."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you want to get started, tell me:"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Do you have any prior coding experience?"
+          },
+          {
+            "snippet": "Are you interested in a specific area like web development, mobile apps, or artificial intelligence?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "I can help you pick your first programming language and resources."
+      }
+    ],
+    "references": [
+      {
+        "link": "https://www.youtube.com/watch?v=avdDEZCcluo",
+        "source": "youtube.com",
+        "index": 0
+      },
+      {
+        "link": "https://www.snhu.edu/about-us/newsroom/stem/how-to-become-a-software-engineer",
+        "source": "snhu.edu",
+        "index": 1
+      },
+      {
+        "link": "https://www.turingcollege.com/blog/how-to-become-a-software-engineer",
+        "source": "turingcollege.com",
+        "index": 2
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=xtMISNS6ir8",
+        "source": "youtube.com",
+        "index": 3
+      },
+      {
+        "link": "https://www.naukri.com/blog/how-to-become-a-software-engineer/",
+        "source": "naukri.com",
+        "index": 4
+      },
+      {
+        "title": "If I Wanted to Become a Software Engineer in 2026, This is What I'd Do ...",
+        "link": "https://www.youtube.com/watch?v=avdDEZCcluo&t=11",
+        "snippet": "If I Wanted to Become a Software Engineer in 2026, This is What I’d Do [FULL BLUEPRINT] how much money do you make per software engineer 500k i have around 3 to",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSbdt6JI10PYwD10tW0ECGxQLoVUkBBapv0aj7Qmq5Bmt6jGjVdy7mEh02_aR8Roqr_NV7Ov2jLPXPk-DnqUKEreOPTtPRpgDWW8_BriQ",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 5
+      },
+      {
+        "title": "How to Become a Software Engineer | SNHU",
+        "link": "https://www.snhu.edu/about-us/newsroom/stem/how-to-become-a-software-engineer",
+        "snippet": "To become a software engineer, you'll likely need: * Knowledge of scripting and object-oriented languages * A good command of computer science skills * Soft ski...",
+        "source": "Southern New Hampshire University",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTwrQqcIZQdOI3lTCZYv816MIg_MTDafzYcEeczVadYu9vGJmMfD_RawbUeNH6xWYIC9moacGz0HaStxLHCHBj4L8fCTpo3KHIgtmGl",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.snhu.edu&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 6
+      },
+      {
+        "title": "How to Become a Software Engineer: A Step-by-Step Guide",
+        "link": "https://www.turingcollege.com/blog/how-to-become-a-software-engineer",
+        "snippet": "What Skills and Mindset You Need. Becoming an engineer means building two things at once: your technical skill set and your way of thinking. Both matter equally...",
+        "source": "Turing College",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSexI4uSKu5z_UpRQI6M7K0PgkEmkzqHn17UrnrGAt3xY9IGGQIH05yXaAzVhq8jcf6DIuTNTCUuvRLayolwPiOQeKSykbFy3liAx7",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.turingcollege.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 7
+      },
+      {
+        "title": "If You Want To Become A Software Engineer In 2026, Do This",
+        "link": "https://www.youtube.com/watch?v=xtMISNS6ir8&t=249",
+        "snippet": "If You Want To Become A Software Engineer In 2026, Do This | Perplexity Computer hey I know this to an intermediate. level I know this to an advanced level So y",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQyWk7n0uV3WdRB7J5qHMBALiXviHhl7WQM0iwl7MNNmpfaXnTeGDRN35kvKX7jiFzcDHVgnWEyMngy7jL6DJPnuwkRoQUsTJ98eAM36Q",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 8
+      },
+      {
+        "title": "How to Become a Software Engineer in 5 Steps (2026 Guide)",
+        "link": "https://www.naukri.com/blog/how-to-become-a-software-engineer/",
+        "snippet": "If you are wondering how to become a software engineer after 12th – just follow these steps: * Choose the right course. You can pursue a degree or an al",
+        "source": "Naukri.com",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSi9EEjdVCfdG1oc631kKcQeySVUEKvBErKuzJ2w7sLWNvPG-9rmaIy6y3XF6HHVg5HHKOT3dzenWO6MToJb3dJEBsnHJpt2sMW9hGN",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.naukri.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 9
+      }
+    ]
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Best route to become a software engineer",
+      "link": "https://www.reddit.com/r/SoftwareEngineering/comments/i0tqbn/best_route_to_become_a_software_engineer/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESngEB6zswFYccGSdKz-sBsGon5XaIt6KtdacS_tDHgd-YrEcSOUJSDygOfLZFSsuGBwVcBIWHqPKRbyAsuF0ef6fIsmwKqD24uR7GulzwUak4XNyd1A2kej0psNZut3oVkhjbIKhJXVXSPIbgo-auM_DjQBF-C5tVspbMmArS9-X5PLV-5l3A4Sg39oZ30KVmD2wXWmcs5EaWVUOsKMnWNw&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQFnoECBwQAQ&uoh=1",
+      "displayed_link": "40+ टिप्पणियां · 6 वर्ष पहले",
+      "favicon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp",
+      "snippet": "College is great. If you can go that route then I would recommend it. Either electrical or computer engineering then apply to software engineer ...",
+      "snippet_highlighted_words": [
+        "College is great"
+      ],
+      "sitelinks": {
+        "list": [
+          {
+            "title": "How do I actually learn to become a software engineer",
+            "link": "https://www.reddit.com/r/learnprogramming/comments/1f849k1/how_do_i_actually_learn_to_become_a_software/",
+            "answer_count": 45,
+            "date": "3 सित॰ 2024"
+          },
+          {
+            "title": "What is the best way to become a software developer ...",
+            "link": "https://www.reddit.com/r/learnprogramming/comments/octdlm/what_is_the_best_way_to_become_a_software/",
+            "answer_count": 71,
+            "date": "3 जुल॰ 2021"
+          }
+        ]
+      },
+      "about_this_result": {
+        "source": {
+          "description": "College is great. If you can go that route then I would recommend it. Either electrical or computer engineering then apply to software engineer ...",
+          "source_info_link": "https://www.reddit.com/r/SoftwareEngineering/comments/i0tqbn/best_route_to_become_a_software_engineer/",
+          "icon": "https://serpapi.com/images/i/UklGRsgBAABXRUJQVlA4ILwBAABwCQCdASocABwAPrkurlcnIacnG_DgFwlsAJ0yhHmfjXFVOG9mcZ4QDxYP1m7Cm8NegB0qRXs-2xc_4RyNjKICSZ0GQliSROqR1wWiqSCHqbbO0wAA_vfwH4_riQbrKqktUHZQIXSB7cgfDG2XxRU1t3H2qzarEsy1mUvxybokwYpSVKzHnZ-izG5PYwBHsc1GtRcEZoZGf_6u28fsi_cWb4W-9i2bp_kRTmnuqM-BBD2L8-VOJcPOsfd1DB1l8_s_3IvanbQ3-krp22uWGcFAQ0Qx0IVfaFDbMfkeuTg04P8lvHyLNiFX4K-OPAt_D6D2n53jjz9MP6rCcImkST0rmUe510C8p7V5A03Xqh32Q8S4mUzVbW_5VoXr0-sfR4z_zJaQkvouwq_D_r7Egp_FPrFkVJXi7GPrP-f_IsNcCBvRKHMAM5dgcrzXOCJypnNnfv_oVmPx-9Y2rFO8yR1NQl_md3OtZBDsOZKkRFnfCN7_-XVBD4_74J8CFdRTTBZ4SXohYcnVS4zEUUs-SViDs_npDYUK3i7eDykmgeM2Y6cC5MAMXkzfFaXcRuCDi0lv5PSzrZbCDAqNAAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.reddit.com/r/SoftwareEngineering/comments/i0tqbn/best_route_to_become_a_software_engineer/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.reddit.com%2Fr%2FSoftwareEngineering%2Fcomments%2Fi0tqbn%2Fbest_route_to_become_a_software_engineer%2F",
+      "source": "Reddit · r/SoftwareEngineering"
+    },
+    {
+      "position": 2,
+      "title": "How to Become a Software Engineer",
+      "link": "https://www.snhu.edu/about-us/newsroom/stem/how-to-become-a-software-engineer",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShQEB6zswFfDER1L3K8SLDxY3MutlWIl44gGj2FsJCCK3p8BK5sb7Cnu1Q7sQCbBsdRcJb42DA-XN8r2eDcigU-9Fu5ua_MmCjtrgWAK10LDaSaNYY3-O8FMGHCXJUCiwWPRj05gWO8NwErDKIvtaOJMsaqbJo1bB8nMG3I6Fjt2nmBXu8sKf&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQFnoECCcQAQ&uoh=1",
+      "displayed_link": "https://www.snhu.edu › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRsQAAABXRUJQVlA4ILgAAACwBACdASocABwAPtEutFooIagoGAEAGglAF2BlgnIBf60DBoW_Mclm5r1TJmAAAP7wul2dlMb3PIh8MRmTVMd7c6NkmeKc10YZ4PmGUJf-YhiIST91ZafcI60l0uQQhCsa8sl__5M-6f8L9wZt6__edNvijv__vBJdb13vh_hYeMEw3ZHL-hVD0iwkbJP3GsZWqOmV0zVJ3SalRCsxXAXdpnnAhuufiBP0k9caY2k3h0XxlXMvJoAA.webp",
+      "date": "13 मई 2025",
+      "snippet": "If you want to become a software engineer, earning a bachelor's degree and having strong programming and technology skills are just two ...",
+      "snippet_highlighted_words": [
+        "become a software engineer"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "If you want to become a software engineer, earning a bachelor's degree and having strong programming and technology skills are just two ...",
+          "source_info_link": "https://www.snhu.edu/about-us/newsroom/stem/how-to-become-a-software-engineer",
+          "icon": "https://serpapi.com/images/i/UklGRsQAAABXRUJQVlA4ILgAAACwBACdASocABwAPtEutFooIagoGAEAGglAF2BlgnIBf60DBoW_Mclm5r1TJmAAAP7wul2dlMb3PIh8MRmTVMd7c6NkmeKc10YZ4PmGUJf-YhiIST91ZafcI60l0uQQhCsa8sl__5M-6f8L9wZt6__edNvijv__vBJdb13vh_hYeMEw3ZHL-hVD0iwkbJP3GsZWqOmV0zVJ3SalRCsxXAXdpnnAhuufiBP0k9caY2k3h0XxlXMvJoAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.snhu.edu/about-us/newsroom/stem/how-to-become-a-software-engineer&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.snhu.edu%2Fabout-us%2Fnewsroom%2Fstem%2Fhow-to-become-a-software-engineer",
+      "source": "Southern New Hampshire University"
+    },
+    {
+      "position": 3,
+      "title": "How to become a Software Engineer",
+      "link": "https://medium.com/@punnyarthabanerjee/how-to-become-a-software-engineer-4d8f2b922b04",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjQEB6zswFTQ60z5A0_NupCQ2BClVno6x1jSoGQnZcUPNYFYmAtRzHC2yqmyh4UVJRyhnmj5PEgI9tfuMJv46jytuIllbR0H3n2cPduwDJm2bcPlyHyBw-kf6nKHWX1htKp8Tn8Zc-z0F49knSLRzD76VAphkEakyErXnIJmcU9rgcbv1u4rNveHSBFbhEno&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQFnoECCkQAQ&uoh=1",
+      "displayed_link": "1 वर्ष पहले",
+      "favicon": "https://serpapi.com/images/i/UklGRlQBAABXRUJQVlA4IEgBAADQBgCdASocABwAPtEwtFooIigoGAEAGglpAAzq71pc92cX6E9FXqq_sAM0L2JYbbZQyexZs_v-NrvA0U_FIAAA_sIYLXkbXykzt_3YNJ7eCObOzJSJIUK3TNIwx5T5djQFT7ZStkTTvgIhnq40fdJok7BALVaGNolDOeHbSXOIKODioKmP7R3S5LOLlECQO5Y5KdzMij8MDj19HbZ-M-v-xLfqGNYfsL6Imc2b0KTp4gRv9dErc-5NU_V6lufsojo3H16SD-AmH6KIbdenxCT9LrUpLf_I2l63ekMuwGZHXouDM1uGqlEXu4vTxXljUWXhCMi88CHq8DH8v6lFTcrf8RSY8-qSvTqGoip-_2z89tenN2sVinMXPY8brcY_COxeQbm61xg18_j-wboLoZV-zjlNxk7878y-ZJmG1mfD_qy6Ozw3BIAA.webp",
+      "snippet": "Become an Artist. To be a great software engineer, you have to become an artist. Code isn't just logic stitched together; it's a canvas where ...",
+      "snippet_highlighted_words": [
+        "Become an Artist"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Become an Artist. To be a great software engineer, you have to become an artist. Code isn't just logic stitched together; it's a canvas where ...",
+          "source_info_link": "https://medium.com/@punnyarthabanerjee/how-to-become-a-software-engineer-4d8f2b922b04",
+          "icon": "https://serpapi.com/images/i/UklGRlQBAABXRUJQVlA4IEgBAADQBgCdASocABwAPtEwtFooIigoGAEAGglpAAzq71pc92cX6E9FXqq_sAM0L2JYbbZQyexZs_v-NrvA0U_FIAAA_sIYLXkbXykzt_3YNJ7eCObOzJSJIUK3TNIwx5T5djQFT7ZStkTTvgIhnq40fdJok7BALVaGNolDOeHbSXOIKODioKmP7R3S5LOLlECQO5Y5KdzMij8MDj19HbZ-M-v-xLfqGNYfsL6Imc2b0KTp4gRv9dErc-5NU_V6lufsojo3H16SD-AmH6KIbdenxCT9LrUpLf_I2l63ekMuwGZHXouDM1uGqlEXu4vTxXljUWXhCMi88CHq8DH8v6lFTcrf8RSY8-qSvTqGoip-_2z89tenN2sVinMXPY8brcY_COxeQbm61xg18_j-wboLoZV-zjlNxk7878y-ZJmG1mfD_qy6Ozw3BIAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://medium.com/@punnyarthabanerjee/how-to-become-a-software-engineer-4d8f2b922b04&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fmedium.com%2F%40punnyarthabanerjee%2Fhow-to-become-a-software-engineer-4d8f2b922b04",
+      "source": "Medium · Punnyartha Banerjee"
+    },
+    {
+      "position": 4,
+      "title": "Becoming a software developer | Education and ...",
+      "link": "https://www.edx.org/become/how-to-become-a-software-developer",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdQHrOzAVr_b3hymfCl5h6yUE14Tk7Ro3hU9R_dBDvwAFLONPsZfdzp7JoK2KN_WWeFuIH7OAahj2gJpJFmWxSjXlos13arEKacmO_7-99-oZR1YRn2pU-1dhFoDG_GOdO7S_N5vBYMsvWb4_ZCPOWw5eWWfp8w&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQFnoECCgQAQ&uoh=1",
+      "displayed_link": "https://www.edx.org › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRjwBAABXRUJQVlA4IDABAAAQBgCdASocABwAPtE-tFooIigoFAEAGgljAL3WsAzZPn45rPoIMIP8-6uuEym0hEWsyIXmdf4twQAA_vYFjX8w6YFYisBrDYxMBM-p-OZ-rUYTNcyWmvLxMsIKQGbV3YZT388ik_sxYHP-PWGnqK1z6HLsi0APWjEGLZGzXVLZHv2JfMQhP3f0RcvpHn7_BrOwof-lfXuujjE9-5q9RE_bG6hZor538IzC7l7uOeSG7lpKNgEnFITZco55syvk1-jZ8-phe6iWVgLheKFP-2MAKCC5VLk1ftD-7n-yk-5lGJhJrmzVH-M-9xC3cBpe2Fk_0ni60zxgGyzqHBwdKb_oIeMHzaRgLbxgXrP39twpSxVyKv6ZqeoZQOJ-1ur_oEnGMj69SLQs4YsKPIL8fQAA.webp",
+      "date": "10 सित॰ 2025",
+      "snippet": "To become a software developer, you need a background in computer science or IT, coding skills, and experience building and testing software.",
+      "snippet_highlighted_words": [
+        "become a software developer"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "To become a software developer, you need a background in computer science or IT, coding skills, and experience building and testing software.",
+          "source_info_link": "https://www.edx.org/become/how-to-become-a-software-developer",
+          "icon": "https://serpapi.com/images/i/UklGRjwBAABXRUJQVlA4IDABAAAQBgCdASocABwAPtE-tFooIigoFAEAGgljAL3WsAzZPn45rPoIMIP8-6uuEym0hEWsyIXmdf4twQAA_vYFjX8w6YFYisBrDYxMBM-p-OZ-rUYTNcyWmvLxMsIKQGbV3YZT388ik_sxYHP-PWGnqK1z6HLsi0APWjEGLZGzXVLZHv2JfMQhP3f0RcvpHn7_BrOwof-lfXuujjE9-5q9RE_bG6hZor538IzC7l7uOeSG7lpKNgEnFITZco55syvk1-jZ8-phe6iWVgLheKFP-2MAKCC5VLk1ftD-7n-yk-5lGJhJrmzVH-M-9xC3cBpe2Fk_0ni60zxgGyzqHBwdKb_oIeMHzaRgLbxgXrP39twpSxVyKv6ZqeoZQOJ-1ur_oEnGMj69SLQs4YsKPIL8fQAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.edx.org/become/how-to-become-a-software-developer&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.edx.org%2Fbecome%2Fhow-to-become-a-software-developer",
+      "source": "edX"
+    },
+    {
+      "position": 5,
+      "title": "How to Become a Software Engineer: A Step-by-Step Guide",
+      "link": "https://www.turingcollege.com/blog/how-to-become-a-software-engineer",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfAHrOzAVAjbUs0HQpzCkwleR_4gmiJUHEI7KPsND8f7hEkjnLeilh3Y03bp-F1PH-o8tjhT1Qo18SD6HP1oMSqhe5TGW-t766mzLo-iWxwGImLPoc_bWfQrCB1nHr0XlYJ0HrZ-VBhZ2Z7bZoZoBXQ3_Idothd6z5Bmi8do&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQFnoECCYQAQ&uoh=1",
+      "displayed_link": "https://www.turingcollege.com › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRioBAABXRUJQVlA4IB4BAADQBgCdASocABwAPtEutFooIagoGAEAGglpAARA7xR6gf6l75X-sw7OKKsaUBBw_GaVK9WTR-GJpoDFxSeEYAAA_t4SzPRM3UVlzM9QjQkyNz7O9FpNMnbosgTxGS3HPm0qpln45bEqYWXXo2QwY7rfeoskKZDRxEZCm9lbL2vZPesZ05_egFe-Y_rHQ6gCa3PwaoSHJLzV_gS8d69fgWv-Z2bbvcB1Q0a1VOgDcwn7KhaM-WkfF9s-Cv9W1-nHG8bQfPp94-1Qbj_Mli-bA3rlp7RvYGvFefxjMHYPA9fC6KPlqAYh-IceWEwqpPAJmlU7OPueHnnh1Saggc_Ey5ERR4RD0R0gVjFQgEP-E9MsnsB6m7WhRDkM6kV0AAAA.webp",
+      "date": "5 नव॰ 2025",
+      "snippet": "Step 1: Choose Your Learning Path · Self-study. Learn through free resources, YouTube, and online tutorials. · Bootcamps. Take an intense ...",
+      "snippet_highlighted_words": [
+        "Self-study"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Step 1: Choose Your Learning Path · Self-study. Learn through free resources, YouTube, and online tutorials. · Bootcamps. Take an intense ...",
+          "source_info_link": "https://www.turingcollege.com/blog/how-to-become-a-software-engineer",
+          "icon": "https://serpapi.com/images/i/UklGRioBAABXRUJQVlA4IB4BAADQBgCdASocABwAPtEutFooIagoGAEAGglpAARA7xR6gf6l75X-sw7OKKsaUBBw_GaVK9WTR-GJpoDFxSeEYAAA_t4SzPRM3UVlzM9QjQkyNz7O9FpNMnbosgTxGS3HPm0qpln45bEqYWXXo2QwY7rfeoskKZDRxEZCm9lbL2vZPesZ05_egFe-Y_rHQ6gCa3PwaoSHJLzV_gS8d69fgWv-Z2bbvcB1Q0a1VOgDcwn7KhaM-WkfF9s-Cv9W1-nHG8bQfPp94-1Qbj_Mli-bA3rlp7RvYGvFefxjMHYPA9fC6KPlqAYh-IceWEwqpPAJmlU7OPueHnnh1Saggc_Ey5ERR4RD0R0gVjFQgEP-E9MsnsB6m7WhRDkM6kV0AAAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.turingcollege.com/blog/how-to-become-a-software-engineer&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.turingcollege.com%2Fblog%2Fhow-to-become-a-software-engineer",
+      "source": "Turing College"
+    },
+    {
+      "position": 6,
+      "title": "Software developer - National Careers Service - GOV.UK",
+      "link": "https://nationalcareers.service.gov.uk/job-profiles/software-developer",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfgHrOzAV49pgjMK7sI597AobDVb7liKEZLhKuwOJWeSkUqNnhXvOGRSyOk58eNu1A2eJr-80cJTLyrCPIiWQA6DCwSUU54i1G77ZyWm4YH3Z2JQLjxZ1vM4ZZvnc-EWTigJg0w_INuqwCWy0UcvAt54fMxRhdLqCRNsvE_fbHA&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQFnoECCQQAQ&uoh=1",
+      "displayed_link": "https://nationalcareers.service.gov.uk › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRgYBAABXRUJQVlA4IPoAAACwBgCdASocABwAPtEutFooIagoGAEAGglpAAbBnxKumk-hXms1AP1D_1vAqjq1WibGnezEW8dFPhDcZ67uAAD-9WavfTSx4Y7KrFP_8RNPdWqjF5ab6s94U1DIPmVFPb9bvD_gIW_p8re8npFy2pwOhnM-Iu-x_qzXxB7sEoH-AfBEee4b7_r_fcd7J8PzF9KpHGJ0ruW7jmezD5_Q_XS2gH8DB_ND8KD5jF_P9wxx_1nDXxZeYQJ7fHS4LpZXvv_ncnlVn1o9bCnlB-OvP6gf_xnY-q9OI1YERfOl9dcK8B9kux6QKKA2wYLSlGv4rQZxeCV4TNHfgAAA.webp",
+      "snippet": "Entry requirements · no specific qualifications or experience to apply for a foundation apprenticeship · 5 GCSEs at grades 9 to 4 (A* to C), or equivalent, ...",
+      "snippet_highlighted_words": [
+        "no specific qualifications or experience to apply for a foundation apprenticeship"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Entry requirements · no specific qualifications or experience to apply for a foundation apprenticeship · 5 GCSEs at grades 9 to 4 (A* to C), or equivalent, ...",
+          "source_info_link": "https://nationalcareers.service.gov.uk/job-profiles/software-developer",
+          "icon": "https://serpapi.com/images/i/UklGRgYBAABXRUJQVlA4IPoAAACwBgCdASocABwAPtEutFooIagoGAEAGglpAAbBnxKumk-hXms1AP1D_1vAqjq1WibGnezEW8dFPhDcZ67uAAD-9WavfTSx4Y7KrFP_8RNPdWqjF5ab6s94U1DIPmVFPb9bvD_gIW_p8re8npFy2pwOhnM-Iu-x_qzXxB7sEoH-AfBEee4b7_r_fcd7J8PzF9KpHGJ0ruW7jmezD5_Q_XS2gH8DB_ND8KD5jF_P9wxx_1nDXxZeYQJ7fHS4LpZXvv_ncnlVn1o9bCnlB-OvP6gf_xnY-q9OI1YERfOl9dcK8B9kux6QKKA2wYLSlGv4rQZxeCV4TNHfgAAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://nationalcareers.service.gov.uk/job-profiles/software-developer&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fnationalcareers.service.gov.uk%2Fjob-profiles%2Fsoftware-developer",
+      "source": "National Careers Service"
+    },
+    {
+      "position": 7,
+      "title": "How to Become a Software Developer | 9 Tips",
+      "link": "https://www.coursera.org/in/articles/software-developer",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbwHrOzAVBBxO_MweniQp_cwM8cwNw9BKcMkVfuVYbYL_Okv7_aYJ3cKMs7yzjU9lrTJRya4ThRpM3KuIAQvBFGIG8e3c2FKOQvOyeAcVQMAcGx7s3A5Vjp0PU7a8Di32MpVQUrQJN2tHWdCo4lOv-Q&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQFnoECCIQAQ&uoh=1",
+      "displayed_link": "https://www.coursera.org › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAASFBMVEVHcEwAVdEAVdIAVdIAVtIAVtIAVtEAVdIAVtIAVNIAVdEAVdIATtE8dNmSr-jA0vKpwO1cid7R3_b____p8ft5neMYYtUAVtL6HGzKAAAAGHRSTlMAPYbE5_-GYOn_H9f______________4aQDE9oAAABDklEQVR4AX2ThQKDQAxDD-kgcIr-_5-OpnMh8z0uVdxDVd20Im1zqdynul4ElKDv3tAwCgV9QWQcXhxxIzzIL9WDiUF4Cvx1owNo6X2IKaVc4OluzqOxMM2mZSUdmaexlcCU6aw59-rhyxORCtBrNgo3M8xrpHkSMKddLXzm9eIPxXkqnvXUroFWuBxs8moGX-BZNRrX6kfQg8WzO6yEsHV6nuksG4TCIeukE3mFRHxXetjK01ZFW6p9T4hsDR7kjavpy1LSZqUska7Y701Y7k2wLxtsMD1-tM-D7WPjgffGs0PdY2R4GVmxkZ0MWwZC5mTeFJFUnwvGF4Xq52pS4_C51A99LDW9L3Y77E_HK7GiGZc4uDZkAAAAAElFTkSuQmCC.png",
+      "date": "15 नव॰ 2024",
+      "snippet": "How to become a software developer · 1. Learn a programming language. · 2. Figure out your end goals. · 3. Pursue a degree or take courses. · 4.",
+      "snippet_highlighted_words": [
+        "Learn a programming language"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "How to become a software developer · 1. Learn a programming language. · 2. Figure out your end goals. · 3. Pursue a degree or take courses. · 4.",
+          "source_info_link": "https://www.coursera.org/in/articles/software-developer",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAASFBMVEVHcEwAVdEAVdIAVdIAVtIAVtIAVtEAVdIAVtIAVNIAVdEAVdIATtE8dNmSr-jA0vKpwO1cid7R3_b____p8ft5neMYYtUAVtL6HGzKAAAAGHRSTlMAPYbE5_-GYOn_H9f______________4aQDE9oAAABDklEQVR4AX2ThQKDQAxDD-kgcIr-_5-OpnMh8z0uVdxDVd20Im1zqdynul4ElKDv3tAwCgV9QWQcXhxxIzzIL9WDiUF4Cvx1owNo6X2IKaVc4OluzqOxMM2mZSUdmaexlcCU6aw59-rhyxORCtBrNgo3M8xrpHkSMKddLXzm9eIPxXkqnvXUroFWuBxs8moGX-BZNRrX6kfQg8WzO6yEsHV6nuksG4TCIeukE3mFRHxXetjK01ZFW6p9T4hsDR7kjavpy1LSZqUska7Y701Y7k2wLxtsMD1-tM-D7WPjgffGs0PdY2R4GVmxkZ0MWwZC5mTeFJFUnwvGF4Xq52pS4_C51A99LDW9L3Y77E_HK7GiGZc4uDZkAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.coursera.org/in/articles/software-developer&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.coursera.org%2Fin%2Farticles%2Fsoftware-developer",
+      "source": "Coursera"
+    },
+    {
+      "position": 8,
+      "title": "How To Become A Software Engineer: A Complete Guide",
+      "link": "https://in.indeed.com/career-advice/finding-a-job/how-to-become-software-engineer",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiQEB6zswFeWbcJFMR6Kh8mtLDY_7aGJeD6sqIk_iaZ7vIf2cPpNGTvtF373ondPLAfM19FoqTheGxyu2NpaD9GPIiT7MHeRkjdRXt3SRtoexz9T3lFEHPoX-x3hR1xduiQ_4g6ssSo5FEHjHIt3_nOUgjtsQ1PGkQ3XflWEH6FC5-JhQgsAvkCMpqg&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQFnoECCMQAQ&uoh=1",
+      "displayed_link": "https://in.indeed.com › ...",
+      "favicon": "https://serpapi.com/images/i/UklGRogBAABXRUJQVlA4IHwBAABQBwCdASogACAAPtEutFooIagoGAEAGglsAMD8wPBAvjfpgXhnm71AOjN5AA4v8sNLl36pOjmq6mE5cwn1V8LKYuwAAP73ghRE9AWOB2PKrAzZQSS9d7khgzV1auw_odjabVlRCSAs74KT7btsF-N4Vms52jHJaP-oVhE1aA_GjhnDsbPeGM-ull1rCVwPuLnBKCUnw-obL_iU15Sl6A6hfk0IHJVkVW-MFVw0-MjR9GTHS3NOimnjygSxnpSOf7rVJjt3LAqJ4Wa1vHzkukaWp7CaymWcdv3h2IZe6BHJfZ-6F7CnZbSx_FmXbfsjGUKg3fBb-5n9LaAvr94LPr5c7_7BZHXZPdbX3c2CKphUi5R46LtwjCexZZrLYSSqRMzn-WfyZqqq_sOpRyRa_fDAQfE6RgD-xeGG5tujHheFulpKsZwFJpz_wfNeXu3WnIjH_NotHIkTEmmRdB_v-FDHgrdHnUPW1XPAaVIzdSY27h0L_4Pt52_LVAAAAA.webp",
+      "date": "25 मार्च 2025",
+      "snippet": "To become a software engineer, a candidate has to pass higher secondary school with physics, chemistry and mathematics as their focus subjects.",
+      "snippet_highlighted_words": [
+        "become a software engineer"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "To become a software engineer, a candidate has to pass higher secondary school with physics, chemistry and mathematics as their focus subjects.",
+          "source_info_link": "https://in.indeed.com/career-advice/finding-a-job/how-to-become-software-engineer",
+          "icon": "https://serpapi.com/images/i/UklGRogBAABXRUJQVlA4IHwBAABQBwCdASogACAAPtEutFooIagoGAEAGglsAMD8wPBAvjfpgXhnm71AOjN5AA4v8sNLl36pOjmq6mE5cwn1V8LKYuwAAP73ghRE9AWOB2PKrAzZQSS9d7khgzV1auw_odjabVlRCSAs74KT7btsF-N4Vms52jHJaP-oVhE1aA_GjhnDsbPeGM-ull1rCVwPuLnBKCUnw-obL_iU15Sl6A6hfk0IHJVkVW-MFVw0-MjR9GTHS3NOimnjygSxnpSOf7rVJjt3LAqJ4Wa1vHzkukaWp7CaymWcdv3h2IZe6BHJfZ-6F7CnZbSx_FmXbfsjGUKg3fBb-5n9LaAvr94LPr5c7_7BZHXZPdbX3c2CKphUi5R46LtwjCexZZrLYSSqRMzn-WfyZqqq_sOpRyRa_fDAQfE6RgD-xeGG5tujHheFulpKsZwFJpz_wfNeXu3WnIjH_NotHIkTEmmRdB_v-FDHgrdHnUPW1XPAaVIzdSY27h0L_4Pt52_LVAAAAA.webp"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://in.indeed.com/career-advice/finding-a-job/how-to-become-software-engineer&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fin.indeed.com%2Fcareer-advice%2Ffinding-a-job%2Fhow-to-become-software-engineer",
+      "source": "Indeed"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "How to become a software engineer after 10th",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&q=How+to+become+a+software+engineer+after+10th&sa=X&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ1QJ6BAhKEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer+after+10th"
+    },
+    {
+      "block_position": 1,
+      "query": "How to become a software engineer after 12th",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&q=How+to+become+a+software+engineer+after+12th&sa=X&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ1QJ6BAhLEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer+after+12th"
+    },
+    {
+      "block_position": 1,
+      "query": "How to become a Software engineer and salary",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&q=How+to+become+a+Software+engineer+and+salary&sa=X&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ1QJ6BAhREAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+Software+engineer+and+salary"
+    },
+    {
+      "block_position": 1,
+      "query": "How to become a software engineer roadmap",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&q=How+to+become+a+software+engineer+roadmap&sa=X&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ1QJ6BAhNEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer+roadmap"
+    },
+    {
+      "block_position": 1,
+      "query": "How to become a software engineer Which course is best",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&q=How+to+become+a+software+engineer+Which+course+is+best&sa=X&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ1QJ6BAhPEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer+Which+course+is+best"
+    },
+    {
+      "block_position": 1,
+      "query": "How to become a software engineer 2026",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&q=How+to+become+a+software+engineer+2026&sa=X&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ1QJ6BAhMEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer+2026"
+    },
+    {
+      "block_position": 1,
+      "query": "How to become a software engineer in India",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&q=How+to+become+a+software+engineer+in+India&sa=X&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ1QJ6BAhOEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer+in+India"
+    },
+    {
+      "block_position": 1,
+      "query": "How to become a software engineer degree",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&q=How+to+become+a+software+engineer+degree&sa=X&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ1QJ6BAhQEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer+degree"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=How+to+become+a+software+engineer&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&ei=2U2daonjLaSp5NoP1JbgCA&start=10&sa=N&sstk=AS6-VmKoIGdoHdCwIFH6oqbJhnum2j7Zyq0Ft8TmDEHNjs_4WtGFy5lkNvEsx45Lmd-30KclpTEzbkZ2WPcHHbsSwkCa2rB_RqrFhQ&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ8NMDegQIPhAW",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=How+to+become+a+software+engineer&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&ei=2U2daonjLaSp5NoP1JbgCA&start=10&sa=N&sstk=AS6-VmKoIGdoHdCwIFH6oqbJhnum2j7Zyq0Ft8TmDEHNjs_4WtGFy5lkNvEsx45Lmd-30KclpTEzbkZ2WPcHHbsSwkCa2rB_RqrFhQ&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ8tMDegQIPhAE",
+      "3": "https://www.google.co.in/search?q=How+to+become+a+software+engineer&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&ei=2U2daonjLaSp5NoP1JbgCA&start=20&sa=N&sstk=AS6-VmKoIGdoHdCwIFH6oqbJhnum2j7Zyq0Ft8TmDEHNjs_4WtGFy5lkNvEsx45Lmd-30KclpTEzbkZ2WPcHHbsSwkCa2rB_RqrFhQ&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ8tMDegQIPhAG",
+      "4": "https://www.google.co.in/search?q=How+to+become+a+software+engineer&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&ei=2U2daonjLaSp5NoP1JbgCA&start=30&sa=N&sstk=AS6-VmKoIGdoHdCwIFH6oqbJhnum2j7Zyq0Ft8TmDEHNjs_4WtGFy5lkNvEsx45Lmd-30KclpTEzbkZ2WPcHHbsSwkCa2rB_RqrFhQ&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ8tMDegQIPhAI",
+      "5": "https://www.google.co.in/search?q=How+to+become+a+software+engineer&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&ei=2U2daonjLaSp5NoP1JbgCA&start=40&sa=N&sstk=AS6-VmKoIGdoHdCwIFH6oqbJhnum2j7Zyq0Ft8TmDEHNjs_4WtGFy5lkNvEsx45Lmd-30KclpTEzbkZ2WPcHHbsSwkCa2rB_RqrFhQ&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ8tMDegQIPhAK",
+      "6": "https://www.google.co.in/search?q=How+to+become+a+software+engineer&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&ei=2U2daonjLaSp5NoP1JbgCA&start=50&sa=N&sstk=AS6-VmKoIGdoHdCwIFH6oqbJhnum2j7Zyq0Ft8TmDEHNjs_4WtGFy5lkNvEsx45Lmd-30KclpTEzbkZ2WPcHHbsSwkCa2rB_RqrFhQ&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ8tMDegQIPhAM",
+      "7": "https://www.google.co.in/search?q=How+to+become+a+software+engineer&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&ei=2U2daonjLaSp5NoP1JbgCA&start=60&sa=N&sstk=AS6-VmKoIGdoHdCwIFH6oqbJhnum2j7Zyq0Ft8TmDEHNjs_4WtGFy5lkNvEsx45Lmd-30KclpTEzbkZ2WPcHHbsSwkCa2rB_RqrFhQ&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ8tMDegQIPhAO",
+      "8": "https://www.google.co.in/search?q=How+to+become+a+software+engineer&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&ei=2U2daonjLaSp5NoP1JbgCA&start=70&sa=N&sstk=AS6-VmKoIGdoHdCwIFH6oqbJhnum2j7Zyq0Ft8TmDEHNjs_4WtGFy5lkNvEsx45Lmd-30KclpTEzbkZ2WPcHHbsSwkCa2rB_RqrFhQ&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ8tMDegQIPhAQ",
+      "9": "https://www.google.co.in/search?q=How+to+become+a+software+engineer&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&ei=2U2daonjLaSp5NoP1JbgCA&start=80&sa=N&sstk=AS6-VmKoIGdoHdCwIFH6oqbJhnum2j7Zyq0Ft8TmDEHNjs_4WtGFy5lkNvEsx45Lmd-30KclpTEzbkZ2WPcHHbsSwkCa2rB_RqrFhQ&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ8tMDegQIPhAS",
+      "10": "https://www.google.co.in/search?q=How+to+become+a+software+engineer&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&sxsrf=APpeQnslPbuTcT11GuxxDYTOniB_ya-5qQ:1788693977755&ei=2U2daonjLaSp5NoP1JbgCA&start=90&sa=N&sstk=AS6-VmKoIGdoHdCwIFH6oqbJhnum2j7Zyq0Ft8TmDEHNjs_4WtGFy5lkNvEsx45Lmd-30KclpTEzbkZ2WPcHHbsSwkCa2rB_RqrFhQ&ved=2ahUKEwjJs5-p7NmWAxWkFFkFHVQLGAEQ8tMDegQIPhAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=How+to+become+a+software+engineer&start=90"
+    }
+  }
+}

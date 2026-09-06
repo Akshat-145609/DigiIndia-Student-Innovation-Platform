@@ -1,0 +1,510 @@
+{
+  "search_metadata": {
+    "id": "6a9d4d45f3a0a75435abfb88",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/cXujWRV8fbJcX9m6BHuU8jSWEwNyuCQaKNfjlQFIfts/6a9d4d45f3a0a75435abfb88.json",
+    "markdown_endpoint": "https://serpapi.com/searches/cXujWRV8fbJcX9m6BHuU8jSWEwNyuCQaKNfjlQFIfts/6a9d4d45f3a0a75435abfb88.md",
+    "created_at": "2026-09-06 11:23:49 UTC",
+    "processed_at": "2026-09-06 11:23:49 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=Automatic+tagging+of+clothing+in+E-Commerce",
+    "raw_html_file": "https://serpapi.com/searches/cXujWRV8fbJcX9m6BHuU8jSWEwNyuCQaKNfjlQFIfts/6a9d4d45f3a0a75435abfb88.html",
+    "total_time_taken": 1.66
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "Automatic tagging of clothing in E-Commerce"
+  },
+  "search_information": {
+    "total_results": 1139173,
+    "video_results_state": "Results for exact spelling"
+  },
+  "ads_results": [
+    {
+      "position_on_page": 1,
+      "title": "2025 F-150 is part of Ford F-Series, the best-selling truck lineup.",
+      "link": "https://www.youtube.com/watch?v=08Ru1K_5tIc",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CHcncRU2daoCcJdn5v8IP97-uoAfyxYm7iQGMu-Sx4xRkEAEgAGDJ3uiGyKOQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGz6uTDPqgDBMgDCqoE3QJP0EjI5JwVBhnqUFtOwTQZsFpv_yX6toufJhSj_hwA22D3NiAcp-RbQ_na1dkzK_bX9518xiN0G9y9zzSVIom_AjpMK4LEYplMhHb74enziIn9WPQ7iT_WszYa1cCaWTGpp1Jl0PAj81RLLuAy8EP6a21Ts60-luRug46q8lcVYjXFAlyTy9oUuUfThlGyAXCS_sBJ6b1Jst9fGUcJUCcWLRaAXqPMIaHHnjQVHdHRSr4fO15_0jn2UHdaOFpgF3bwOTXlRexnkUsY-_ExNptI52Cyf0kvrL_39WifZ0WnDPcf5tDkH2cv2ENWB7KveuME7yP6ejNY-GHXSjIt1s_Imu7u_lIajipKBokeMFwvB1sv-z55KusJGpfaAZJjcxSR18x4oFR7JTcvxQ91fm0tGYA7ffi8-bTtAyHgdGAnEK82GWaGeaOjChaAyxHw8k4oYOHqv2EupuGpHOudiAXPrezfVpIFCAgTeOfe_7IZoAahAYAHs6K1oxmQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgHwsixApIICzA4UnUxS181dEljqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYwMfM4uvZlgNgAZoJJmh0dHBzOi8vd3d3LmZvcmQuY29tL3RydWNrcy9mMTUwLzIwMjUvsQkptCJqfxQhgcgJF8gJjwHICcIByAmXAroLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMFdmljYmbQCxLgCwGiDDJiFQoTY29tLnNpZW1lbnMuZm9yZDgwQWoUChJjb20uZm9yZC5mb3JkYWxleGF4AIgBANIMAhABmg0BEqoNAlVTyA0B0g27BWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMzAxNi41MjY3OTI1R01ORVhVU01FRElBLVNPTFVUSS9CMzQ1ODIyNDEuNDM0MjMwMTEzO2RjX3Rya19haWQ9NjI4OTkxNjgxO2RjX3Rya19jaWQ9MjQ2MTYwOTE2O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTZDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSXo2M3MzMWFvQXVmZV83SVpzQUw3enJUb0EwQTdFTlhFVkl0OVNNWXdib3JtcTBjRmxxUzhmeDA9O2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2dkcHI9JHtHRFBSfTtnZHByX2NvbnNlbnQ9JHtHRFBSX0NPTlNFTlRfNzU1fTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7O2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNEWnVmMUlwc3hkTnRNRFR2U0xVX3lZZkVGanZscGUycXFGSF9VNW9DTkpkM0ttb3JzdzJaQVZhSkFCVm9jenNwejVxV3NMNXp4dFBxZ0F5QTtkY19wdWJpZD02P2h0dHBzOi8vd3d3LmZvcmQuY29tL3RydWNrcy9mMTUwLzIwMjUvP2xlYWRzb3VyY2U9ZmRhZi1iYW5uZXJhZCZiYW5uZXJpZD0zNDU4MjI0MXw5ODA4MzEyfDQzNDIzMDExM3wyNDYxNjA5MTZ8NjI4OTkxNjgxJmZjaWQ9ZGlzXzM0NTgyMjQxXzk4MDgzMTItWVREJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzI4NjQ1Mzk2N7AT45y7JLgT____________AYgUBbAUA8AVgYCAQNAVAdgVAZgWAagWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRfQdLXtwWnvp7oXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMIwNLN4uvZlgMV2fxPAh33nwt0EAEYASAAEgKiYfD_BwE&num=1&cid=CAASqgHkaJbkk0DCzPpwMTm3p_IlQ7oz5siw2KW0Muu0RxpjXbTtSw3xIKl5sArvsOjPcGhGMzzdeuTU3XALg_pP1xK0KwuqdnJeh4M10ZQ9gwhBQI8WUTNYr5drAFF5wghSNdv_3aHoMiky8tQt7RqHaLCxEXDzvfCjb6Q6tbjHzVC0OSB4UvCPu1yNLW9jT0whxAMn7cxxbDcQ0VCqvuokV2KxoUQ2cyfEPsrEUg&ad_cpn=%5BCPN%5D&sig=AOD64_2-VuIOkuXWVSJffdq3gDz2YSzTRg&ctype=110&video_id=08Ru1K_5tIc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Ford",
+        "thumbnail": "https://yt3.ggpht.com/proxy/CcO1kwb0wHsy5J4tRTNPTDGlSPeGeiykAuN1FBSeIZhuqDVMnBQPCYTBr5JrhvbVGAxaUtEkUXQdwunKK3D8iB3CryGYstiisX1Gzqkw3XWFpaYhxGHdbw6G0lswwRRKs51nRq9yimW_byVr4gF-SX4lABxJeR33xOD1xzlEdWB8nhe1nHtiG25z8LBKKjRjO5flgOKWeIkHQuLD2hYxX60czXzWYwecHzqkdfhOmaK7cyzPnaWXa9zIV8ypMaRpKsLjnxU=w68-h68-nd"
+      },
+      "description": "Tough this smart can only be called F-150.",
+      "thumbnail": "https://i.ytimg.com/vi/08Ru1K_5tIc/hqdefault.jpg",
+      "videoId": "08Ru1K_5tIc",
+      "url": "https://www.youtube.com/watch?v=08Ru1K_5tIc"
+    },
+    {
+      "position_on_page": 4,
+      "title": "Get 3 months of full access to Shopify for $1/mo",
+      "link": "https://www.youtube.com/watch?v=5JXRUFEOvPs",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CdvgQRU2daoCcJdn5v8IP97-uoAfwhOCoiAHX95PwgRawkB8QAiAAYMne6IbIo5AZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLy-5sqqQJqSn6p-K22PqgDBMgDCqoEtwJP0EjI5JwVBhnqUFtOwTQZsFpv_yX6toufJhSj_hwA22D3NiAcp-RbQ_na1dkzK_bX9518xiN0G9y9zzSVIom_AjpMK4LEYplMhHb74enziIn9WPQ7iT_WszYa1cCaWTGpp1Jl0PAj81RLLuAy8EP6a21Ts60-luRug46q8lcVYjXFAlyTy9oUuUfThlGyAXCS_sBJ6b1Jst9fGUcJUCcWLRaAXqPMIaHHnjQVHdHRSr4fO15_0jn2UHdaOFpgF3bwOTXlRexnkUsY-_ExNptI52Cyf0kvrL_39WifZ0WnDPcf5tDkH2cv2ENWB7KveuME7yP6ejNYnpkSiDXpHHqu9ZQrBaasYofvC1EGMfS2vmu0ERuWPJcIuX_ajEa5svS5YU5bJbd-r7_HHE-jv7kJFwQDN7c_1IgFyIfVvFmSBQgIE3iz5--sBaAGoQGAB_KqzPsEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKSCAs1SlhSVUZFT3ZQc6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWMDHzOLr2ZYDYAGaCU1odHRwczovL3d3dy5zdHlsZWZhY3Rvcnlwcm9kdWN0aW9ucy5jb20vaG93LXRvLXVubG9jay1hLTMtbW9udGgtc2hvcGlmeS10cmlhbLEJR1k_C2yTfDzICRfICY8ByAnCAZgLAboLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAISugMFdmljYmbQCxPSDAIQAZoNAROqDQJVU8gNAdINdWh0dHBzOi8vd3d3LnN0eWxlZmFjdG9yeXByb2R1Y3Rpb25zLmNvbS9ob3ctdG8tdW5sb2NrLWEtMy1tb250aC1zaG9waWZ5LXRyaWFsP2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDAxNzk3ODMxMrgT____________AbAUA8AVgYCAQNAVAdgVAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXjY7UEXksFj26FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMIwNLN4uvZlgMV2fxPAh33nwt0EAEYAiAAEgLGbvD_BwE&num=2&cid=CAASqgHkaJbkk0DCzPpwMTm3p_IlQ7oz5siw2KW0Muu0RxpjXbTtSw3xIKl5sArvsOjPcGhGMzzdeuTU3XALg_pP1xK0KwuqdnJeh4M10ZQ9gwhBQI8WUTNYr5drAFF5wghSNdv_3aHoMiky8tQt7RqHaLCxEXDzvfCjb6Q6tbjHzVC0OSB4UvCPu1yNLW9jT0whxAMn7cxxbDcQ0VCqvuokV2KxoUQ2cyfEPsrEUg&ad_cpn=%5BCPN%5D&sig=AOD64_0rGi1bptEi50FA3fM3WZolkvtsFw&ctype=110&video_id=5JXRUFEOvPs&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Style Factory",
+        "thumbnail": "https://yt3.ggpht.com/proxy/lXILA8k5vCLoCqam4gFoS6UzbgO-H0JeHffp3_WwddZvVWNIeFZk7rXSvqdZ4TodxkslRpIOY8naQiAu2agA9g_MHehKzzDhp8v2jKPVWA1ZPOt-mb1Zf6EPOO3I9XGf_PFKlonXkTPSht4hLbIroCeRBdEp4IBh8KJaYvxzWpFHXX5jvAAWYT0GCpdKaeVSdsWDnlrwRBAlmnBiiNqDiJHMa3jfliJ5wXgG1367owc0fJx0ik1Z0zJQDwKyN9TLG0ux=w68-h68-nd"
+      },
+      "description": "Find out how you can unlock an extended Shopify trial.",
+      "thumbnail": "https://i.ytimg.com/vi/5JXRUFEOvPs/hqdefault.jpg",
+      "videoId": "5JXRUFEOvPs",
+      "url": "https://www.youtube.com/watch?v=5JXRUFEOvPs"
+    },
+    {
+      "position_on_page": 7,
+      "title": "Washable kitchen runners designed to keep up with everyday living.",
+      "link": "https://www.youtube.com/watch?v=qBHHLuC6wt8",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=C5vE8RU2daoCcJdn5v8IP97-uoAeX1o-yiQHqlpv4jRbP992YugEQAyAAYMne6IbIo5AZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAayRrbpDqAMEyAMKqgTdAk_QSMjknBUGGepQW07BNBmwWm__Jfq2i58mFKP-HADbYPc2IByn5FtD-drV2TMr9tf3nXzGI3Qb3L3PNJUiib8COkwrgsRimUyEdvvh6fOIif1Y9DuJP9azNhrVwJpZMamnUmXQ8CPzVEsu4DLwQ_prbVOzrT6W5G6DjqryVxViNcUCXJPL2hS5R9OGUbIBcJL-wEnpvUmy318ZRwlQJxYtFoBeo8whoceeNBUd0dFKvh87Xn_SOfZQd1o4WmAXdvA5NeVF7GeRSxj78TE2m0jnYLJ_SS-sv_f1aJ9nRacM9x_m0OQfZy_YQ1YHsq964wTvI_p6M1i6wRKIPukcT8eizS8XpRLHY0u2HQ8jd5eLB24a2JgLnUK-RB8GupSE8kHdTvEkRPy-pxb_uT0VNJwmHDQyvQbLUa9MCl9uzCcQrzYZZu0P09wJFoDLEfCASBlr4eq_YS6m-cdyqoaIBa2OyIBZkgUICBN4_4n5vR6gBqEBgAesyf2ZHpAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECkggLcUJISEx1QzZ3dDioCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjAx8zi69mWA2ABmgktaHR0cHM6Ly9ydWdnYWJsZS5jb20vY29sbGVjdGlvbnMva2l0Y2hlbi1ydWdzsQkRk6B_ujKdh8gJF8gJjwHICcIByAmXAroLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMFdmljYmbQCxLgCwGiDB9iGAoWY29tLnRhcGNhcnQuWGVaOGpNUWpYSHgAiAEA0gwCEAGaDQESqg0CVVPIDQHSDdcGaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL04yNzE3MzA2LjI3OTM4MkRCTVBPV0VSRElHSVRBTC1SL0IzNTU4Mzg4My40NDgxNzc5NTk7ZGNfdHJrX2FpZD02NDEzMzU0MDk7ZGNfdHJrX2NpZD0yNTYxNjAzMzM7ZGNfZGJtX3Rva2VuPUFPamVMTkVBQUFBOENqUUtEQWdBRlFBQUFBQWRBQUFBQUJJTUNBQVZBQUFBQUIwQUFBQUFJaFFJclk3SWdGbW9Bdi1KLWIwZXNBS1FoOURxQTBBN0VJaVN6cmdlSktpTmdwOWlPeDhmbkx5dmtEbXNXQT09O2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjQlpqaDNQTmxGUi1lUUQ2WU1MZGJSNnRqOVoyOUc5VGJuREtxMVU4MEpkWnBpZVBUdjRUZGNlMm5BOVJVLUVmaGdzeU1UcU11QWd6ZnF2dXc7ZGNfcHViaWQ9Nj9odHRwczovL3J1Z2dhYmxlLmNvbS9jb2xsZWN0aW9ucy9raXRjaGVuLXJ1Z3M_dXRtX21lZGl1bT1jcGMmdXRtX3NvdXJjZT15b3V0dWJlJnV0bV9jYW1wYWlnbj11c19jb252ZXJzaW9uX3JldGFyZ2V0aW5nX2RlbWFuZGdlbl9uYV90Uk9BU19jYm86eWVzX25hJnV0bV9jb250ZW50PTA1MjUyNl9DU192aWRlb192aWRlb19ldmdfY206R29Qcm9QT1ZfbmFfcHJvZDpydWdfZGVzOm1peGVkX2xlbjoxNXNfczpyZ2NfY2M6bmFfY246R29Qcm9QT1ZfdTpud19VU19raXRjaGVuLXJ1bm5lcl9raXRjaGVucnVnY29sbGVjdGlvbmxwX3JzOmtpdGNoZW5fZ2lybF9wcm9ibGVtc29sdXRpb24mdXRtX3Rlcm09Z29wcm9wb3YmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzODkxOTM3MDY5sBO25rkkuBP___________8BiBQBsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF1zMrKK0kJtbuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMIwNLN4uvZlgMV2fxPAh33nwt0EAEYAyAAEgI27PD_BwE&num=3&cid=CAASqgHkaJbkk0DCzPpwMTm3p_IlQ7oz5siw2KW0Muu0RxpjXbTtSw3xIKl5sArvsOjPcGhGMzzdeuTU3XALg_pP1xK0KwuqdnJeh4M10ZQ9gwhBQI8WUTNYr5drAFF5wghSNdv_3aHoMiky8tQt7RqHaLCxEXDzvfCjb6Q6tbjHzVC0OSB4UvCPu1yNLW9jT0whxAMn7cxxbDcQ0VCqvuokV2KxoUQ2cyfEPsrEUg&ad_cpn=%5BCPN%5D&sig=AOD64_26comnNtvjRrE77FkaaidpoLgJ-g&ctype=110&video_id=qBHHLuC6wt8&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Ruggable",
+        "thumbnail": "https://yt3.ggpht.com/proxy/oLUVomO0o9VgG9K_ONRi2rZQ4lwfZqMbYopfGQzEXF2cogr9oUbgQBJpLGuKBvqpVDDcC1rplqMJlZk3zEEVVkALADny8TtyoX5pHlQtz_WMsNpwDcIuO4f-bqEtoFR4sALCFAwx4UfjnLwbbb9dNJABk8Q8Hyr86tM8kvlIxs_FFGfuxCmVNDKjpYeaQzfzct6SEISlI4D5Z363kjT57FXsk7enE5KCEnHGXBLVljCwGhM0U0qz-VNUAO0cqaTxhOIp7xo=w68-h68-nd"
+      },
+      "description": "Shop washable kitchen runners designed for real life and everyday messes.",
+      "thumbnail": "https://i.ytimg.com/vi/qBHHLuC6wt8/hqdefault.jpg",
+      "videoId": "qBHHLuC6wt8",
+      "url": "https://www.youtube.com/watch?v=qBHHLuC6wt8"
+    }
+  ],
+  "video_results": [
+    {
+      "position_on_page": 2,
+      "title": "Selectika Auto Tagging  and Visual AI for fashion eCommerce.",
+      "link": "https://www.youtube.com/watch?v=r5mKwPe5OHw",
+      "video_id": "r5mKwPe5OHw",
+      "channel": {
+        "name": "SELECTIKA",
+        "link": "https://www.youtube.com/@selectika3858",
+        "thumbnail": "https://yt3.ggpht.com/BQUZvxJdXPq_RKUPy4a2WOtDNzm00n1eyhPtHmHG3fHlk8yFpzynULvfNpk9p-eP1Qt1jhjw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "428 views",
+      "length": "1:45",
+      "description": "The Next Generation for Product Recommendation for fashion eCommerce. Selectika's Auto Tagging enables brands and ...",
+      "thumbnail": "https://i.ytimg.com/vi/r5mKwPe5OHw/hqdefault.jpg",
+      "videoId": "r5mKwPe5OHw",
+      "url": "https://www.youtube.com/watch?v=r5mKwPe5OHw",
+      "channelTitle": "SELECTIKA",
+      "channelVerified": false,
+      "duration": "1:45"
+    },
+    {
+      "position_on_page": 3,
+      "title": "How to Build a Shopify Collection with Automated Fashion Tags",
+      "link": "https://www.youtube.com/watch?v=DlO2vbJnqmc",
+      "video_id": "DlO2vbJnqmc",
+      "channel": {
+        "name": "YesPlz AI - The Next Gen Fashion AI for Ecommerce",
+        "link": "https://www.youtube.com/@yesplzai",
+        "thumbnail": "https://yt3.ggpht.com/Yg05oXHis9DlGqSiK_MX3wDdDX7I4e_t6PRoCOBjQkY-zBKopq3d7aYByLA4khz78rPVi85iqg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 months ago",
+      "views": "22 views",
+      "length": "5:40",
+      "description": "If you're hand-picking products for every collection, you're doing way more work than you need to. In this video, you can explore ...",
+      "thumbnail": "https://i.ytimg.com/vi/DlO2vbJnqmc/hqdefault.jpg",
+      "videoId": "DlO2vbJnqmc",
+      "url": "https://www.youtube.com/watch?v=DlO2vbJnqmc",
+      "channelTitle": "YesPlz AI - The Next Gen Fashion AI for Ecommerce",
+      "channelVerified": false,
+      "duration": "5:40"
+    },
+    {
+      "position_on_page": 6,
+      "title": "Claude & ChatGPT will get your clothing brand $1M sales + hit every goal you have & here’s how…",
+      "link": "https://www.youtube.com/watch?v=4K4mcfmZlFQ",
+      "video_id": "4K4mcfmZlFQ",
+      "channel": {
+        "name": "Rob Prsa",
+        "link": "https://www.youtube.com/@robprsa",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/8CY5g3p-6jzRMaCRIoiiItYdoWyQ-LW3ScaDzFlRw6cIqlAsfqpbRk2A3u_mEyPBHPz5bhtl_Q=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 months ago",
+      "views": "42,608 views",
+      "length": "11:07",
+      "description": "... how to market a clothing brand, how to use ChatGPT for business, how to use Claude AI, how to use AI tools for ecommerce, ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/4K4mcfmZlFQ/hqdefault.jpg",
+      "videoId": "4K4mcfmZlFQ",
+      "url": "https://www.youtube.com/watch?v=4K4mcfmZlFQ",
+      "channelTitle": "Rob Prsa",
+      "channelVerified": true,
+      "duration": "11:07"
+    },
+    {
+      "position_on_page": 8,
+      "title": "Auto Fill Fashion Tag",
+      "link": "https://www.youtube.com/watch?v=YPhR1olZTgU",
+      "video_id": "YPhR1olZTgU",
+      "channel": {
+        "name": "AI Style",
+        "link": "https://www.youtube.com/@aistyle5178",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nDJChkLcY67-q0yP-AcIhR2z1wW80h3a9czr3giew=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 years ago",
+      "views": "97 views",
+      "length": "0:13",
+      "description": "contact: style.company.vn@gmail.com.",
+      "thumbnail": "https://i.ytimg.com/vi/YPhR1olZTgU/hqdefault.jpg",
+      "videoId": "YPhR1olZTgU",
+      "url": "https://www.youtube.com/watch?v=YPhR1olZTgU",
+      "channelTitle": "AI Style",
+      "channelVerified": false,
+      "duration": "0:13"
+    },
+    {
+      "position_on_page": 9,
+      "title": "Apparel Auto-Tagger | Product Discovery & Cataloguing Solution For Fashion Businesses | Shopify App",
+      "link": "https://www.youtube.com/watch?v=1LorsVnJ0EI",
+      "video_id": "1LorsVnJ0EI",
+      "channel": {
+        "name": "Lykdat",
+        "link": "https://www.youtube.com/@Lykdat",
+        "thumbnail": "https://yt3.ggpht.com/iZxCmecI5EVHlVPvWYC1XXTMfa7N7v6SkQzT4GsezmY85Nw2GFN4E4E4OQsaGcQbNkYs20zg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "51 views",
+      "length": "1:24",
+      "description": "Lykdat's Apparel Auto-Tagger makes your fashion products more discoverable through improved keyword and description ...",
+      "thumbnail": "https://i.ytimg.com/vi/1LorsVnJ0EI/hqdefault.jpg",
+      "videoId": "1LorsVnJ0EI",
+      "url": "https://www.youtube.com/watch?v=1LorsVnJ0EI",
+      "channelTitle": "Lykdat",
+      "channelVerified": false,
+      "duration": "1:24"
+    },
+    {
+      "position_on_page": 11,
+      "title": "Catecut-- automated content solution for Fashion e-commerce PDPs-- product explainer",
+      "link": "https://www.youtube.com/watch?v=ioZztUsaL_w",
+      "video_id": "ioZztUsaL_w",
+      "channel": {
+        "name": "Catecut",
+        "link": "https://www.youtube.com/@catecut",
+        "thumbnail": "https://yt3.ggpht.com/kxNTneI2GdBkuXdpKLFI6Dt9EWfzoTK4-XgwTNssarU-JdXnsqtp_sY9Ypuovpi9aesjTuIlJw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "8 months ago",
+      "views": "1 views",
+      "length": "0:58",
+      "description": "Catecut is an AI Vision solution for fashion e-commerce that automates product content creation and distribution to e-commerce ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ioZztUsaL_w/hqdefault.jpg",
+      "videoId": "ioZztUsaL_w",
+      "url": "https://www.youtube.com/watch?v=ioZztUsaL_w",
+      "channelTitle": "Catecut",
+      "channelVerified": false,
+      "duration": "0:58"
+    },
+    {
+      "position_on_page": 12,
+      "title": "How This Label Can Transform Your Clothing Brand (0-$100+)",
+      "link": "https://www.youtube.com/watch?v=iAA7f1GSHpY",
+      "video_id": "iAA7f1GSHpY",
+      "channel": {
+        "name": "John Santos",
+        "link": "https://www.youtube.com/@johnxsantos",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/XlrP7IbVe5RVS8nqJafldWyG-8fhnfzmWkCEQqS4v36MsveOyWWMnd-tSPKHHdVp9yqtkyQN2Q=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "495,903 views",
+      "length": "16:25",
+      "description": "As clothing entrepreneurs your goal is to elevate your brand's recognition while increasing your profits. In this video we show you ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/iAA7f1GSHpY/hqdefault.jpg",
+      "videoId": "iAA7f1GSHpY",
+      "url": "https://www.youtube.com/watch?v=iAA7f1GSHpY",
+      "channelTitle": "John Santos",
+      "channelVerified": true,
+      "duration": "16:25"
+    },
+    {
+      "position_on_page": 13,
+      "title": "Free Ai fashion models using flat clothing images for e-commerce",
+      "link": "https://www.youtube.com/watch?v=V0AxsylIaVA",
+      "video_id": "V0AxsylIaVA",
+      "channel": {
+        "name": "Buy it Sell it",
+        "link": "https://www.youtube.com/@buyitsellit",
+        "thumbnail": "https://yt3.ggpht.com/NY6KkNmt0Biv-42PndlvQMTTEW7nw8VpUF5YkK7T2rNinhyxZvpTWc0qycm4TU45LvMCD0g73g=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "121,374 views",
+      "length": "9:19",
+      "description": "If you have every wondered how to get Ai models to market clothes in your e-commerce store this video is for you. In the past I ...",
+      "thumbnail": "https://i.ytimg.com/vi/V0AxsylIaVA/hqdefault.jpg",
+      "videoId": "V0AxsylIaVA",
+      "url": "https://www.youtube.com/watch?v=V0AxsylIaVA",
+      "channelTitle": "Buy it Sell it",
+      "channelVerified": false,
+      "duration": "9:19"
+    },
+    {
+      "position_on_page": 14,
+      "title": "#45: Catecut: Visual AI for Fashion E-Commerce & Structured Product Data | Heiðrún Ósk Sigfúsdóttir",
+      "link": "https://www.youtube.com/watch?v=eIwdYo83-Es",
+      "video_id": "eIwdYo83-Es",
+      "channel": {
+        "name": "The Parameter",
+        "link": "https://www.youtube.com/@TheParameterAI",
+        "thumbnail": "https://yt3.ggpht.com/ZocWkZYv7iJ1MxUxwC7uNTj8z2aydQ56qZZsQGBrGIWWzNAeX23GZg2AeMh0BRWm7mPHeX7Lhg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 days ago",
+      "views": "13 views",
+      "length": "42:11",
+      "description": "Fashion e-commerce teams routinely lose hundreds of hours manually transcribing product details, tagging attributes, and writing ...",
+      "thumbnail": "https://i.ytimg.com/vi/eIwdYo83-Es/hqdefault.jpg",
+      "videoId": "eIwdYo83-Es",
+      "url": "https://www.youtube.com/watch?v=eIwdYo83-Es",
+      "channelTitle": "The Parameter",
+      "channelVerified": false,
+      "duration": "42:11"
+    },
+    {
+      "position_on_page": 15,
+      "title": "How to Auto-Tag Customers Who Used a Specific Discount Code?",
+      "link": "https://www.youtube.com/watch?v=GnZPANhCQCE",
+      "video_id": "GnZPANhCQCE",
+      "channel": {
+        "name": "Shopify Flow",
+        "link": "https://www.youtube.com/@ShopifyFlow",
+        "thumbnail": "https://yt3.ggpht.com/x39MQ_UIPp2R51_u5xvw_-jj6b24PnK3ZzIXkIw1CLiy2GQ5paMkWN0rRLxuaNGzmMOVxSYTqw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 weeks ago",
+      "views": "6 views",
+      "length": "1:01",
+      "description": "Want to follow up with shoppers who used a promo code? In this Shopify Flow walkthrough, we show how to use Shopify Sidekick ...",
+      "thumbnail": "https://i.ytimg.com/vi/GnZPANhCQCE/hqdefault.jpg",
+      "videoId": "GnZPANhCQCE",
+      "url": "https://www.youtube.com/watch?v=GnZPANhCQCE",
+      "channelTitle": "Shopify Flow",
+      "channelVerified": false,
+      "duration": "1:01"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 5,
+      "shorts": [
+        {
+          "title": "Clothing price tag knotting machine tagging machine semi automatic tag knot locking machine",
+          "link": "https://www.youtube.com/shorts/Kp6UNB-RWyw",
+          "thumbnail": "https://i.ytimg.com/vi/Kp6UNB-RWyw/frame0.jpg",
+          "views_original": "682 views",
+          "views": 682,
+          "video_id": "Kp6UNB-RWyw"
+        },
+        {
+          "title": "Automatic  tagging machines for garments and fashion  accessories.",
+          "link": "https://www.youtube.com/shorts/qb_hBsUXxjo",
+          "thumbnail": "https://i.ytimg.com/vi/qb_hBsUXxjo/frame0.jpg",
+          "views_original": "1.2K views",
+          "views": 1200,
+          "video_id": "qb_hBsUXxjo"
+        },
+        {
+          "title": "Price tag clothing tag card automatic paging feeding top ink jet printing coding machine",
+          "link": "https://www.youtube.com/shorts/fS2YTXLuKiI",
+          "thumbnail": "https://i.ytimg.com/vi/fS2YTXLuKiI/frame0.jpg",
+          "views_original": "1K views",
+          "views": 1000,
+          "video_id": "fS2YTXLuKiI"
+        },
+        {
+          "title": "Sunpack WK02-20 Clothing tags,Garment tags, Automatic Banding Machine with robot 13794861030",
+          "link": "https://www.youtube.com/shorts/r5cIo2-nq70",
+          "thumbnail": "https://i.ytimg.com/vi/r5cIo2-nq70/frame0.jpg",
+          "views_original": "197 views",
+          "views": 197,
+          "video_id": "r5cIo2-nq70"
+        },
+        {
+          "title": "One Move, One Tag! 🔥 Tagging Machine for Fast & Easy Clothing Labeling #hijab #love #hijabi #live",
+          "link": "https://www.youtube.com/shorts/kB95dq8WaYI",
+          "thumbnail": "https://i.ytimg.com/vi/kB95dq8WaYI/frame0.jpg",
+          "views_original": "1.3K views",
+          "views": 1300,
+          "video_id": "kB95dq8WaYI"
+        }
+      ]
+    },
+    {
+      "position_on_page": 10,
+      "shorts": [
+        {
+          "title": "Revolutionizing Fashion Retail: Xinye's RFID Clothing Hang Tags Explained",
+          "link": "https://www.youtube.com/shorts/-8oBTnFjPqY",
+          "thumbnail": "https://i.ytimg.com/vi/-8oBTnFjPqY/frame0.jpg",
+          "views_original": "2K views",
+          "views": 2000,
+          "video_id": "-8oBTnFjPqY"
+        },
+        {
+          "title": "Price tag clothing tag card automatic paging feeding top ink jet printing coding machine",
+          "link": "https://www.youtube.com/shorts/5vFr6VAfhuk",
+          "thumbnail": "https://i.ytimg.com/vi/5vFr6VAfhuk/frame0.jpg",
+          "views_original": "712 views",
+          "views": 712,
+          "video_id": "5vFr6VAfhuk"
+        },
+        {
+          "title": "Clothing brand tag card paging feeding printing machine automatic printing system",
+          "link": "https://www.youtube.com/shorts/up_R4cteC3E",
+          "thumbnail": "https://i.ytimg.com/vi/up_R4cteC3E/frame0.jpg",
+          "views_original": "673 views",
+          "views": 673,
+          "video_id": "up_R4cteC3E"
+        },
+        {
+          "title": "Automatic clothing logo tag silk printing machine testing video",
+          "link": "https://www.youtube.com/shorts/MNHtTbHSRLg",
+          "thumbnail": "https://i.ytimg.com/vi/MNHtTbHSRLg/frame0.jpg",
+          "views_original": "1 view",
+          "views": 1,
+          "video_id": "MNHtTbHSRLg"
+        },
+        {
+          "title": "Clothing price tag card paging feeding machine automatic card paging system",
+          "link": "https://www.youtube.com/shorts/35GytRKljUs",
+          "thumbnail": "https://i.ytimg.com/vi/35GytRKljUs/frame0.jpg",
+          "views_original": "No views",
+          "views": 0,
+          "video_id": "35GytRKljUs"
+        },
+        {
+          "title": "Automate Your T-Shirt Brand  #ecommercefulfillment #printsage",
+          "link": "https://www.youtube.com/shorts/EeDQhjRs-UA",
+          "thumbnail": "https://i.ytimg.com/vi/EeDQhjRs-UA/frame0.jpg",
+          "views_original": "9 views",
+          "views": 9,
+          "video_id": "EeDQhjRs-UA"
+        },
+        {
+          "title": "Automatic e-commerce clothing packaging machine.#machine #ecommerce #labeling #clothing  #packaging",
+          "link": "https://www.youtube.com/shorts/r40fiOe58Yw",
+          "thumbnail": "https://i.ytimg.com/vi/r40fiOe58Yw/frame0.jpg",
+          "views_original": "1.3K views",
+          "views": 1300,
+          "video_id": "r40fiOe58Yw"
+        },
+        {
+          "title": "Clothing price tag knotting machine tagging machien semi automatic tag knot locking machine",
+          "link": "https://www.youtube.com/shorts/BVZKvQ4Dygg",
+          "thumbnail": "https://i.ytimg.com/vi/BVZKvQ4Dygg/frame0.jpg",
+          "views_original": "141 views",
+          "views": 141,
+          "video_id": "BVZKvQ4Dygg"
+        },
+        {
+          "title": "How to Use AI for Dropshipping: Virtual Try-On & Image Scraping! [Free Template]",
+          "link": "https://www.youtube.com/shorts/69E54qZjdo4",
+          "thumbnail": "https://i.ytimg.com/vi/69E54qZjdo4/frame0.jpg",
+          "views_original": "16K views",
+          "views": 16000,
+          "video_id": "69E54qZjdo4"
+        },
+        {
+          "title": "#auto #packing #machine also #can #make the #neckline of #folded #clothing up and #stick #labels",
+          "link": "https://www.youtube.com/shorts/oazXI27LWdU",
+          "thumbnail": "https://i.ytimg.com/vi/oazXI27LWdU/frame0.jpg",
+          "views_original": "1.2K views",
+          "views": 1200,
+          "video_id": "oazXI27LWdU"
+        },
+        {
+          "title": "Garment bagging machine with integrated labeling function,#clothes #packing #label #ecommerce #dtf",
+          "link": "https://www.youtube.com/shorts/H3ff-Xk3oRY",
+          "thumbnail": "https://i.ytimg.com/vi/H3ff-Xk3oRY/frame0.jpg",
+          "views_original": "840 views",
+          "views": 840,
+          "video_id": "H3ff-Xk3oRY"
+        },
+        {
+          "title": "Grow your custom garment decoration business with the Model M30 DTF transfer printer system.#shorts",
+          "link": "https://www.youtube.com/shorts/zem-l5iZzvk",
+          "thumbnail": "https://i.ytimg.com/vi/zem-l5iZzvk/frame0.jpg",
+          "views_original": "1.5K views",
+          "views": 1500,
+          "video_id": "zem-l5iZzvk"
+        },
+        {
+          "title": "A full garment product listing in under 3 minutes",
+          "link": "https://www.youtube.com/shorts/sQ31_qreGSw",
+          "thumbnail": "https://i.ytimg.com/vi/sQ31_qreGSw/frame0.jpg",
+          "views_original": "32 views",
+          "views": 32,
+          "video_id": "sQ31_qreGSw"
+        },
+        {
+          "title": "I am grooving with my interactive baseball shirt! Shop now! otflyclothing.com #kfashion #kfashiontai",
+          "link": "https://www.youtube.com/shorts/_ns9Z5moYKg",
+          "thumbnail": "https://i.ytimg.com/vi/_ns9Z5moYKg/frame0.jpg",
+          "views_original": "21 views",
+          "views": 21,
+          "video_id": "_ns9Z5moYKg"
+        },
+        {
+          "title": "New! Auto-Tagging in Shopping Expandion",
+          "link": "https://www.youtube.com/shorts/-RMQSt5Z1Ts",
+          "thumbnail": "https://i.ytimg.com/vi/-RMQSt5Z1Ts/frame0.jpg",
+          "views_original": "2.2K views",
+          "views": 2200,
+          "video_id": "-RMQSt5Z1Ts"
+        },
+        {
+          "title": "Garment hang tag printing WhatsApp：1836398625 #label",
+          "link": "https://www.youtube.com/shorts/URXcDTOPbR8",
+          "thumbnail": "https://i.ytimg.com/vi/URXcDTOPbR8/frame0.jpg",
+          "views_original": "1.1K views",
+          "views": 1100,
+          "video_id": "URXcDTOPbR8"
+        },
+        {
+          "title": "From Design to Garment | TAT Clothing Co. – Your Trusted Clothing Manufacturer",
+          "link": "https://www.youtube.com/shorts/yttVN7D3vjA",
+          "thumbnail": "https://i.ytimg.com/vi/yttVN7D3vjA/frame0.jpg",
+          "views_original": "7 views",
+          "views": 7,
+          "video_id": "yttVN7D3vjA"
+        },
+        {
+          "title": "Clothing Brand",
+          "link": "https://www.youtube.com/shorts/IXU2aiwo8aU",
+          "thumbnail": "https://i.ytimg.com/vi/IXU2aiwo8aU/frame0.jpg",
+          "views_original": "37 views",
+          "views": 37,
+          "video_id": "IXU2aiwo8aU"
+        },
+        {
+          "title": "How to use business cards as hang tags for a clothing brand #shorts",
+          "link": "https://www.youtube.com/shorts/suaDJ3OSkEc",
+          "thumbnail": "https://i.ytimg.com/vi/suaDJ3OSkEc/frame0.jpg",
+          "views_original": "1K views",
+          "views": 1000,
+          "video_id": "suaDJ3OSkEc"
+        },
+        {
+          "title": "Real Customer Site! Fast E-Commerce Apparel Packing with Desktop Auto Bagger 📦👕",
+          "link": "https://www.youtube.com/shorts/n8oa-u8rFF8",
+          "thumbnail": "https://i.ytimg.com/vi/n8oa-u8rFF8/frame0.jpg",
+          "views_original": "24 views",
+          "views": 24,
+          "video_id": "n8oa-u8rFF8"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=Automatic+tagging+of+clothing+in+E-Commerce",
+    "next": "https://www.youtube.com/results?search_query=Automatic%20tagging%20of%20clothing%20in%20E-Commerce&sp=SBSCAQtyNW1Ld1BlNU9Id4IBC0RsTzJ2YkpucW1jggELNEs0bWNmbVpsRlGCAQtZUGhSMW9sWlRnVYIBCzFMb3JzVm5KMEVJggELaW9aenRVc2FMX3eCAQtpQUE3ZjFHU0hwWYIBC1YwQXhzeWxJYVZBggELZUl3ZFlvODMtRXOCAQtHblpQQU5oQ1FDRbIBBgoECA8QAuoBBAgCEBk%253D",
+    "next_page_token": "SBSCAQtyNW1Ld1BlNU9Id4IBC0RsTzJ2YkpucW1jggELNEs0bWNmbVpsRlGCAQtZUGhSMW9sWlRnVYIBCzFMb3JzVm5KMEVJggELaW9aenRVc2FMX3eCAQtpQUE3ZjFHU0hwWYIBC1YwQXhzeWxJYVZBggELZUl3ZFlvODMtRXOCAQtHblpQQU5oQ1FDRbIBBgoECA8QAuoBBAgCEBk%3D"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=Automatic+tagging+of+clothing+in+E-Commerce",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=Automatic+tagging+of+clothing+in+E-Commerce&sp=SBSCAQtyNW1Ld1BlNU9Id4IBC0RsTzJ2YkpucW1jggELNEs0bWNmbVpsRlGCAQtZUGhSMW9sWlRnVYIBCzFMb3JzVm5KMEVJggELaW9aenRVc2FMX3eCAQtpQUE3ZjFHU0hwWYIBC1YwQXhzeWxJYVZBggELZUl3ZFlvODMtRXOCAQtHblpQQU5oQ1FDRbIBBgoECA8QAuoBBAgCEBk%253D",
+    "next_page_token": "SBSCAQtyNW1Ld1BlNU9Id4IBC0RsTzJ2YkpucW1jggELNEs0bWNmbVpsRlGCAQtZUGhSMW9sWlRnVYIBCzFMb3JzVm5KMEVJggELaW9aenRVc2FMX3eCAQtpQUE3ZjFHU0hwWYIBC1YwQXhzeWxJYVZBggELZUl3ZFlvODMtRXOCAQtHblpQQU5oQ1FDRbIBBgoECA8QAuoBBAgCEBk%3D"
+  }
+}

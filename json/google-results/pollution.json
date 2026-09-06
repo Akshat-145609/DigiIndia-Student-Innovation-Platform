@@ -1,0 +1,512 @@
+{
+  "search_metadata": {
+    "id": "6a9c0d712f47f8e5e4676ef3",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/T1bwu4nF1_ZRwS5NiF9ZDhijYGvc9Jd4CJ2FA3scEww/6a9c0d712f47f8e5e4676ef3.json",
+    "markdown_endpoint": "https://serpapi.com/searches/T1bwu4nF1_ZRwS5NiF9ZDhijYGvc9Jd4CJ2FA3scEww/6a9c0d712f47f8e5e4676ef3.md",
+    "created_at": "2026-09-05 12:39:13 UTC",
+    "processed_at": "2026-09-05 12:39:13 UTC",
+    "google_url": "https://www.google.co.in/search?q=Pollution&oq=Pollution&uule=w+CAIQICIFSW5kaWE&hl=hi&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/T1bwu4nF1_ZRwS5NiF9ZDhijYGvc9Jd4CJ2FA3scEww/6a9c0d712f47f8e5e4676ef3.html",
+    "total_time_taken": 1.37
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Pollution",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Pollution",
+    "total_results": 205000,
+    "time_taken_displayed": 0.29,
+    "organic_results_state": "Results for exact spelling",
+    "results_for": "भारत"
+  },
+  "inline_images": [
+    {
+      "source": "https://dosomething.org/article/11-facts-about-pollution",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIjVk_fvaM2R8ZDEFGaZYZjuSGRhSfVstoS7A1dqbvO4VOBrULe_nxjiM&s",
+      "original": "https://cdn.sanity.io/images/cphrnle8/production/adbed67f4f4f280b41e21ebafafa7f800dd3d0d9-1440x811.jpg?w=1440&q=100",
+      "title": "11 Facts About Pollution",
+      "source_name": "DoSomething.org"
+    },
+    {
+      "source": "https://www.britannica.com/science/pollution-environment",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmz5m0nWelLdMf7mJ-lO-4IF-4DckQa6EYBR6Kkc--TMj1rHD81D2h59o&s",
+      "original": "https://cdn.britannica.com/18/204718-050-F6177E8B/pollution-kinds-air-land-water-environment-society.jpg",
+      "title": "Pollution | Definition, History, Types, & Facts | Britannica",
+      "source_name": "Britannica"
+    },
+    {
+      "source": "https://www.nationalgeographic.com/environment/article/critical-issues-marine-pollution",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUc1WOnA6Ops5TsK8jCiTt9F9lRRtQ0PthrHAodJr-jTqQ_tixkHjdQ6o&s",
+      "original": "https://i.natgeofe.com/n/87d6217b-d811-4c1b-8296-8e59195388b2/16647.jpg",
+      "title": "Marine pollution facts and information | National Geographic",
+      "source_name": "National Geographic"
+    },
+    {
+      "source": "https://www.psychologicalscience.org/news/releases/polluted-air-may-pollute-our-morality.html",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb03TxJ3h4stkdWdZ7OiYx9ndL4T-kIBTk7x2pm3Kwdt6XzR_NfLMM77s&s",
+      "original": "https://www.psychologicalscience.org/redesign/wp-content/uploads/2018/02/PAFF_020718_airpollution-1024x622.jpg",
+      "title": "Polluted Air May Pollute Our Morality – Association for ...",
+      "source_name": "Association for Psychological Science"
+    },
+    {
+      "source": "https://gosharpener.com/blogs/422223/pollution-and-its-effects",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGjWVF4WtdFcw_xA3pSynZKcDrvYqA9uAOkhY0jRIsUGP_cWdPwTmmWzk&s",
+      "original": "https://gosharpener.com/content/uploads/photos/2024/06/sngine_6d07d07a8613f8043e1b893ba6b4a1d3.jpg",
+      "title": "pollution and its effects",
+      "source_name": "GoSharpener"
+    },
+    {
+      "source": "https://www.texasdisposal.com/blog/ocean-pollution-causes-effects-and-prevention/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRaDpuz3oH1GLhigR_PszUx6P7yZDZcm2dsXUIDhAbvf7KIX-dD57LNxE&s",
+      "original": "https://www.texasdisposal.com/wp-content/uploads/2024/02/ocean-pollution-23-1-1-1.jpg",
+      "title": "Ocean Pollution: Causes, Effects, Prevention | TDS",
+      "source_name": "Texas Disposal Systems"
+    },
+    {
+      "source": "https://kids.earth.org/climate-change/a-kids-guide-to-air-pollution/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEYb9iFaZL_tPh3YdSpGRiUwH9RIv-KD_QTrHAGSmnNgaUZR63NoELGOo&s",
+      "original": "https://kids.earth.org/wp-content/uploads/2022/08/Untitled-1024-%C3%97-683px-2022-08-25T133207.813-900x600.jpg",
+      "title": "A Kids' Guide to Air Pollution - Earth.Org Kids",
+      "source_name": "Earth.Org Kids"
+    },
+    {
+      "source": "https://www.britannica.com/science/plastic-pollution",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfnuinb5XAB794Q7G2RA3NRDfxWTExhESGKfkQuqCYYU9-B0Q5mhckQa0&s",
+      "original": "https://cdn.britannica.com/81/155881-050-38801D86/waste-beach-land-pollution-soil-water-health.jpg",
+      "title": "Plastic pollution | Definition, Sources, Effects, Solutions ...",
+      "source_name": "Britannica"
+    },
+    {
+      "source": "https://energy.economictimes.indiatimes.com/news/coal/air-pollution-claims-7-million-lives-each-year-un-expert/68267672",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaazImsWag2sqnE0IGcKAggekD-uehcmP6KTUPjlrCvQMZ5ibjPt19ZS8&s",
+      "original": "https://etimg.etb2bimg.com/photo/68267708.cms",
+      "title": "Air pollution claims 7 million lives each year: UN expert ...",
+      "source_name": "energy.economictimes.indiatimes.com"
+    }
+  ],
+  "inline_videos": [
+    {
+      "position": 1,
+      "title": "Department of Science and Technology, Government of India",
+      "link": "https://www.facebook.com/IndiaDST/videos/onedayoneresearcheven-remote-himalayan-regions-are-showing-signs-of-growing-air-/1397634312190700/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNj6oAIxWAf7I0tCTO2aYQ-27ERbS7wxAA3ZD9sZZVeft4VKB1S-fwsg&s",
+      "channel": "Department of Science and Technology, Government of India",
+      "duration": "0:22",
+      "platform": "Facebook",
+      "date": "1 जुल॰ 2026"
+    },
+    {
+      "position": 2,
+      "title": "Pollution Nature से नहीं होता है, Pollution Human Activity से होता है।",
+      "link": "https://www.facebook.com/bhupenderyadavbjp/videos/pollution-nature-%E0%A4%B8%E0%A5%87-%E0%A4%A8%E0%A4%B9%E0%A5%80%E0%A4%82-%E0%A4%B9%E0%A5%8B%E0%A4%A4%E0%A4%BE-%E0%A4%B9%E0%A5%88-pollution-human-activity-%E0%A4%B8%E0%A5%87-%E0%A4%B9%E0%A5%8B%E0%A4%A4%E0%A4%BE-%E0%A4%B9%E0%A5%88/886429234095104/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHdG0mKaAF634xdn_V8aXzPuF_H2bx0oK7vRCuTh7v-rvivuIV546Qjg&s",
+      "channel": "Bhupender Yadav BJP",
+      "duration": "3:38",
+      "platform": "Facebook",
+      "date": "15 जन॰ 2026",
+      "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQFv8djEAXrqkTFn6O1UuEEhLd-jhB9qxVCng"
+    },
+    {
+      "position": 3,
+      "title": "India's first bilingual magazine devoted exclusively to air pollution",
+      "link": "https://www.facebook.com/ChintanIndia.org/videos/indias-first-bilingual-magazine-devoted-exclusively-to-air-pollution-on-airfor-o/1515603900572248/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8dFXBuAJG9SkFu9qRFeqhTw3Rn6e7sZwift1btx4p5nbqlfxm3Lrb_w&s",
+      "channel": "Chintan Environmental Research and Action Group",
+      "duration": "1:15",
+      "platform": "Facebook",
+      "date": "22 फ़र॰ 2026"
+    },
+    {
+      "position": 4,
+      "title": "Is air pollution still a problem? #podcastclips",
+      "link": "https://www.youtube.com/shorts/4W_BvEGsCaM",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC-PAQKitpWIRbNZW1hQsYim-vsjzzNzcamJPt_fmgyqt5-6EzIi-CyA&s",
+      "channel": "European Environment Agency",
+      "duration": "0:52",
+      "platform": "YouTube",
+      "date": "6 फ़र॰ 2026",
+      "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTGBhL-SRCSubW1jpYLJXCNwWtOAWQe4S_Mqw"
+    }
+  ],
+  "short_videos": [
+    {
+      "position": 1,
+      "title": "Facebook पर Brahmrishi Bawra Shanti Vidya Peeth HS School, Udhampur की Pollution is the contamination of the environment by harmful .... Facebook पर चलाएं. 1:42",
+      "source": "Facebook",
+      "profile_name": "Brahmrishi Bawra Shanti Vidya Peeth HS School, Udhampur",
+      "extensions": [
+        "Brahmrishi Bawra Shanti Vidya Peeth HS School, Udhampur"
+      ],
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAXVBMVEVHcEwHZv8HaP8IZ_8IZ_8IZv8IaP8IZ_8HZv8Haf8IZ_8IaP8IZ_8AXv8AV_8AYv-SqP_P1__m6__e5f9wlP____-tvP9jiv82c_8IZ_8Iaf-fsf________8AW_-wrobhAAAAH3RSTlMAM4bC6v1h7v8Z3UL_______7_________wRiFwenBhp_Z0gAAAOhJREFUeAFtk0UWwzAMBWWHFHOZe_9bBn9Nr7Mdg5AiQjZt17WNFFTTDxwZ-kKNigvUmJw2XGF0dByx1jlnPTPDjiYqDofj8XQ4L9bsL6vozpedq13_3eJk4G-XXPIac8zBHUs5EIl48Q4Tws3ziiAZ5f7j3Vq7O5b0iOGE1Z0cRxpqS3mwSbbU4VHndukW8GwHiQ_BzUO2KceIw7MIqJBHyIZk_WwKSv6KcD_frlsqt_P5joBELJ-3iNZD8YDC_82zz1pWS5U1u5bmmY1JLdMQmVoaOIxmIdVYDXWUxVAD8Xp_FvnN1mEG0f0e5ixC4ikAAAAASUVORK5CYII.png",
+      "duration": "1:42",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq8ceU7ziIyafke2aXFgPq2vAIdeVUiB-07afX2GazhAWzVcdP1ruN2h8&s",
+      "link": "https://www.facebook.com/bbsvpudh/posts/pollution-is-the-contamination-of-the-environment-by-harmful-substances-that-aff/1424671126338500/"
+    },
+    {
+      "position": 2,
+      "title": "Facebook पर Biology Tonic की Different types of Pollutions. @topfans Biology Tonic. Facebook पर चलाएं. 0:16",
+      "source": "Facebook",
+      "profile_name": "Biology Tonic",
+      "extensions": [
+        "Biology Tonic"
+      ],
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAXVBMVEVHcEwHZv8HaP8IZ_8IZ_8IZv8IaP8IZ_8HZv8Haf8IZ_8IaP8IZ_8AXv8AV_8AYv-SqP_P1__m6__e5f9wlP____-tvP9jiv82c_8IZ_8Iaf-fsf________8AW_-wrobhAAAAH3RSTlMAM4bC6v1h7v8Z3UL_______7_________wRiFwenBhp_Z0gAAAOhJREFUeAFtk0UWwzAMBWWHFHOZe_9bBn9Nr7Mdg5AiQjZt17WNFFTTDxwZ-kKNigvUmJw2XGF0dByx1jlnPTPDjiYqDofj8XQ4L9bsL6vozpedq13_3eJk4G-XXPIac8zBHUs5EIl48Q4Tws3ziiAZ5f7j3Vq7O5b0iOGE1Z0cRxpqS3mwSbbU4VHndukW8GwHiQ_BzUO2KceIw7MIqJBHyIZk_WwKSv6KcD_frlsqt_P5joBELJ-3iNZD8YDC_82zz1pWS5U1u5bmmY1JLdMQmVoaOIxmIdVYDXWUxVAD8Xp_FvnN1mEG0f0e5ixC4ikAAAAASUVORK5CYII.png",
+      "duration": "0:16",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Qq5n_IXhMs8wd2Wwi9sU4hUAV9Duxfw-cJzd6ON5kB0Z5UjmWud8j7U&s=10",
+      "link": "https://www.facebook.com/100082230230268/videos/different-types-of-pollutions-topfans-biology-tonic/1636651480938498/"
+    },
+    {
+      "position": 3,
+      "title": "YouTube पर Rahul Gandhi की Air pollution has become a national catastrophe that demands .... YouTube पर चलाएं. 1:43",
+      "source": "YouTube",
+      "profile_name": "Rahul Gandhi",
+      "extensions": [
+        "Rahul Gandhi"
+      ],
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAhUlEQVR4AWNwL_ChCFPHgP8MxqxA7ArEKVBcCcUNIAznI-RdQXrABgAZpv8ZjP6Tg0F6QQbsosCAXSADHmGVVPIC0jKEDHgAMuAbmgRE445D___feYzXIJBeBigH04BVW_9DAcgwqEGYaik2gGIvUByIlEbjDooTEiwps5GRlNmolpkowgBVP9wMSzSKGAAAAABJRU5ErkJggg.png",
+      "duration": "1:43",
+      "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcR8VoKrxbgZWAqcatA_1LRQFi1lFeHOG0f4UQ",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEs0R4YocrAbgznNlNPNqhaTYxqYPqQVz2OM-2062xkFuiirvn4uDHkbQ&s=10",
+      "link": "https://www.youtube.com/shorts/tW1leGcJzrA"
+    },
+    {
+      "position": 4,
+      "title": "Facebook पर Brahmrishi Bawra Shanti Vidya Peeth HS School, Udhampur की Pollution is the contamination of the environment by harmful .... Facebook पर चलाएं. 1:42",
+      "source": "Facebook",
+      "profile_name": "Brahmrishi Bawra Shanti Vidya Peeth HS School, Udhampur",
+      "extensions": [
+        "Brahmrishi Bawra Shanti Vidya Peeth HS School, Udhampur"
+      ],
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAXVBMVEVHcEwHZv8HaP8IZ_8IZ_8IZv8IaP8IZ_8HZv8Haf8IZ_8IaP8IZ_8AXv8AV_8AYv-SqP_P1__m6__e5f9wlP____-tvP9jiv82c_8IZ_8Iaf-fsf________8AW_-wrobhAAAAH3RSTlMAM4bC6v1h7v8Z3UL_______7_________wRiFwenBhp_Z0gAAAOhJREFUeAFtk0UWwzAMBWWHFHOZe_9bBn9Nr7Mdg5AiQjZt17WNFFTTDxwZ-kKNigvUmJw2XGF0dByx1jlnPTPDjiYqDofj8XQ4L9bsL6vozpedq13_3eJk4G-XXPIac8zBHUs5EIl48Q4Tws3ziiAZ5f7j3Vq7O5b0iOGE1Z0cRxpqS3mwSbbU4VHndukW8GwHiQ_BzUO2KceIw7MIqJBHyIZk_WwKSv6KcD_frlsqt_P5joBELJ-3iNZD8YDC_82zz1pWS5U1u5bmmY1JLdMQmVoaOIxmIdVYDXWUxVAD8Xp_FvnN1mEG0f0e5ixC4ikAAAAASUVORK5CYII.png",
+      "duration": "1:42",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrheZMTm_lzYNg5Hlj99RyFqi0Mvx3KocWaXy6_3ieI_SN3sS45rqjgTQ&s=10",
+      "link": "https://www.facebook.com/bbsvpudh/videos/pollution-is-the-contamination-of-the-environment-by-harmful-substances-that-aff/949298820838317/"
+    },
+    {
+      "position": 5,
+      "title": "YouTube पर Channel of Chemistry Department at UOP की Environmental Pollution. YouTube पर चलाएं. 2:46",
+      "source": "YouTube",
+      "profile_name": "Channel of Chemistry Department at UOP",
+      "extensions": [
+        "Channel of Chemistry Department at UOP"
+      ],
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAhUlEQVR4AWNwL_ChCFPHgP8MxqxA7ArEKVBcCcUNIAznI-RdQXrABgAZpv8ZjP6Tg0F6QQbsosCAXSADHmGVVPIC0jKEDHgAMuAbmgRE445D___feYzXIJBeBigH04BVW_9DAcgwqEGYaik2gGIvUByIlEbjDooTEiwps5GRlNmolpkowgBVP9wMSzSKGAAAAABJRU5ErkJggg.png",
+      "duration": "2:46",
+      "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRHu_KPNL3xYrtvF0LpNIH_OhI31kl8qV2A7A",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKCHhVxCMPZj9yFBa0XNK9M21CCbUgLku55XCo3EuA7HIPnqLrWmr4bDQ&s=10",
+      "link": "https://www.youtube.com/watch?v=I2UjWqSNL6o"
+    },
+    {
+      "position": 6,
+      "title": "Facebook पर Vagishwari World School की Pollution is when harmful substances mix with our air, water, or .... Facebook पर चलाएं. 2:04",
+      "source": "Facebook",
+      "profile_name": "Vagishwari World School",
+      "extensions": [
+        "Vagishwari World School"
+      ],
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAXVBMVEVHcEwHZv8HaP8IZ_8IZ_8IZv8IaP8IZ_8HZv8Haf8IZ_8IaP8IZ_8AXv8AV_8AYv-SqP_P1__m6__e5f9wlP____-tvP9jiv82c_8IZ_8Iaf-fsf________8AW_-wrobhAAAAH3RSTlMAM4bC6v1h7v8Z3UL_______7_________wRiFwenBhp_Z0gAAAOhJREFUeAFtk0UWwzAMBWWHFHOZe_9bBn9Nr7Mdg5AiQjZt17WNFFTTDxwZ-kKNigvUmJw2XGF0dByx1jlnPTPDjiYqDofj8XQ4L9bsL6vozpedq13_3eJk4G-XXPIac8zBHUs5EIl48Q4Tws3ziiAZ5f7j3Vq7O5b0iOGE1Z0cRxpqS3mwSbbU4VHndukW8GwHiQ_BzUO2KceIw7MIqJBHyIZk_WwKSv6KcD_frlsqt_P5joBELJ-3iNZD8YDC_82zz1pWS5U1u5bmmY1JLdMQmVoaOIxmIdVYDXWUxVAD8Xp_FvnN1mEG0f0e5ixC4ikAAAAASUVORK5CYII.png",
+      "duration": "2:04",
+      "clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcTq-RNTMpg4tbHijkymNs0oFSkI6QgOVGyVaA",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWc3P74t__BLyyqa5y41QuosVUZh4n87Fjygl8GUpm5NZZqhlgB5smJLM&s=10",
+      "link": "https://www.facebook.com/vagishwariworldschool/videos/pollution-is-when-harmful-substances-mix-with-our-air-water-or-land-making-the-e/565948752482908/"
+    },
+    {
+      "position": 7,
+      "title": "Facebook पर Saint MSG Glorious International School की 🌍 Pollution & Its Types 🌱 Air, water, soil, and noise pollution are .... Facebook पर चलाएं. 1:17",
+      "source": "Facebook",
+      "profile_name": "Saint MSG Glorious International School",
+      "extensions": [
+        "Saint MSG Glorious International School"
+      ],
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAXVBMVEVHcEwHZv8HaP8IZ_8IZ_8IZv8IaP8IZ_8HZv8Haf8IZ_8IaP8IZ_8AXv8AV_8AYv-SqP_P1__m6__e5f9wlP____-tvP9jiv82c_8IZ_8Iaf-fsf________8AW_-wrobhAAAAH3RSTlMAM4bC6v1h7v8Z3UL_______7_________wRiFwenBhp_Z0gAAAOhJREFUeAFtk0UWwzAMBWWHFHOZe_9bBn9Nr7Mdg5AiQjZt17WNFFTTDxwZ-kKNigvUmJw2XGF0dByx1jlnPTPDjiYqDofj8XQ4L9bsL6vozpedq13_3eJk4G-XXPIac8zBHUs5EIl48Q4Tws3ziiAZ5f7j3Vq7O5b0iOGE1Z0cRxpqS3mwSbbU4VHndukW8GwHiQ_BzUO2KceIw7MIqJBHyIZk_WwKSv6KcD_frlsqt_P5joBELJ-3iNZD8YDC_82zz1pWS5U1u5bmmY1JLdMQmVoaOIxmIdVYDXWUxVAD8Xp_FvnN1mEG0f0e5ixC4ikAAAAASUVORK5CYII.png",
+      "duration": "1:17",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFx1VJXwM96l_QLMH6f_D_Hb0JcKBcNPidZTixOgWacZiz_wYilZpWTDU&s=10",
+      "link": "https://www.facebook.com/SaintMSGIS/videos/-pollution-its-types-air-water-soil-and-noise-pollution-are-affecting-our-planet/1069640969332420/"
+    },
+    {
+      "position": 8,
+      "title": "Facebook पर Ravindra Bharathi Educational Group की 🌍 Let's Talk About Pollution! 🌿🚨 Pollution is harming our planet .... Facebook पर चलाएं. 1:06",
+      "source": "Facebook",
+      "profile_name": "Ravindra Bharathi Educational Group",
+      "extensions": [
+        "Ravindra Bharathi Educational Group"
+      ],
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAXVBMVEVHcEwHZv8HaP8IZ_8IZ_8IZv8IaP8IZ_8HZv8Haf8IZ_8IaP8IZ_8AXv8AV_8AYv-SqP_P1__m6__e5f9wlP____-tvP9jiv82c_8IZ_8Iaf-fsf________8AW_-wrobhAAAAH3RSTlMAM4bC6v1h7v8Z3UL_______7_________wRiFwenBhp_Z0gAAAOhJREFUeAFtk0UWwzAMBWWHFHOZe_9bBn9Nr7Mdg5AiQjZt17WNFFTTDxwZ-kKNigvUmJw2XGF0dByx1jlnPTPDjiYqDofj8XQ4L9bsL6vozpedq13_3eJk4G-XXPIac8zBHUs5EIl48Q4Tws3ziiAZ5f7j3Vq7O5b0iOGE1Z0cRxpqS3mwSbbU4VHndukW8GwHiQ_BzUO2KceIw7MIqJBHyIZk_WwKSv6KcD_frlsqt_P5joBELJ-3iNZD8YDC_82zz1pWS5U1u5bmmY1JLdMQmVoaOIxmIdVYDXWUxVAD8Xp_FvnN1mEG0f0e5ixC4ikAAAAASUVORK5CYII.png",
+      "duration": "1:06",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoxbcMxXSUgWMcRDQNHZ2mnRPbpTMKE25u8p5MKMtdpvxoKybeMAtP9XI&s=10",
+      "link": "https://www.facebook.com/RavindraBharathieducationalgroup/videos/-lets-talk-about-pollution-pollution-is-harming-our-planet-and-it-comes-in-many-/1687356728481152/"
+    },
+    {
+      "position": 9,
+      "title": "Facebook पर Viral Desai की When we hear the word pollution, we often think of smoke-filled .... Facebook पर चलाएं. 1:28",
+      "source": "Facebook",
+      "profile_name": "Viral Desai",
+      "extensions": [
+        "Viral Desai"
+      ],
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAXVBMVEVHcEwHZv8HaP8IZ_8IZ_8IZv8IaP8IZ_8HZv8Haf8IZ_8IaP8IZ_8AXv8AV_8AYv-SqP_P1__m6__e5f9wlP____-tvP9jiv82c_8IZ_8Iaf-fsf________8AW_-wrobhAAAAH3RSTlMAM4bC6v1h7v8Z3UL_______7_________wRiFwenBhp_Z0gAAAOhJREFUeAFtk0UWwzAMBWWHFHOZe_9bBn9Nr7Mdg5AiQjZt17WNFFTTDxwZ-kKNigvUmJw2XGF0dByx1jlnPTPDjiYqDofj8XQ4L9bsL6vozpedq13_3eJk4G-XXPIac8zBHUs5EIl48Q4Tws3ziiAZ5f7j3Vq7O5b0iOGE1Z0cRxpqS3mwSbbU4VHndukW8GwHiQ_BzUO2KceIw7MIqJBHyIZk_WwKSv6KcD_frlsqt_P5joBELJ-3iNZD8YDC_82zz1pWS5U1u5bmmY1JLdMQmVoaOIxmIdVYDXWUxVAD8Xp_FvnN1mEG0f0e5ixC4ikAAAAASUVORK5CYII.png",
+      "duration": "1:28",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD_T-yCwlE_mbLi_4Ve0qWYjsD2gdg_UhoXs6ralDcbZ5tpGiR4QZIWhk&s=10",
+      "link": "https://www.facebook.com/greenmanviraldesai/videos/when-we-hear-the-word-pollution-we-often-think-of-smoke-filled-skies-plastic-cho/1519820802935836/"
+    },
+    {
+      "position": 10,
+      "title": "YouTube पर The Definition Channel की meaning of Pollution. YouTube पर चलाएं. 1:05",
+      "source": "YouTube",
+      "profile_name": "The Definition Channel",
+      "extensions": [
+        "The Definition Channel"
+      ],
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAhUlEQVR4AWNwL_ChCFPHgP8MxqxA7ArEKVBcCcUNIAznI-RdQXrABgAZpv8ZjP6Tg0F6QQbsosCAXSADHmGVVPIC0jKEDHgAMuAbmgRE445D___feYzXIJBeBigH04BVW_9DAcgwqEGYaik2gGIvUByIlEbjDooTEiwps5GRlNmolpkowgBVP9wMSzSKGAAAAABJRU5ErkJggg.png",
+      "duration": "1:05",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkGAZ2KfttAUB8wAxM4jsuXCnmuWTO7N2aJBH85t4LpLG3UUUFdQDMtyY&s=10",
+      "link": "https://www.youtube.com/watch?v=2AoHjeKdD8k"
+    }
+  ],
+  "related_questions": [
+    {
+      "question": "What is the definition of pollution?",
+      "type": "ai_overview",
+      "page_token": "68WwG3icHdBbjtowFABQdTPzCTG0VCChqik4ASUBG9_rxD9VsCEhdh7DpMOM_7qXWdWsplLPEs7fD3fr7OeXt3och5fVdPp4PCZV31fuMtH95NZNy5f3Tk916dy51Ha1-L4gP656vf2zC38970IGw4AbHpwgOyZYfctnnGrAu4rUeBGWSIch37hM24yrYJlrj4gOIZXuVLYqLizJD7B3WYD3LBoS2RJuCH1VjqaKLgl46i8C0TQ_R8y553HoL85EJ-GeZfRWJGJHlN3LslML7OjReDfPfe1FW3cGlMSmmqUE23PME2GzE0ScGsBDGmfyHJlNAWxWBCrChjKkYcqwGiVk4bY2jfL7psgxFoBBIeABW2SH7bIWnQkl728MuNeNayGnRxWHCuzygNa1BRBkufnK5ioR0TAamc4Ye7rq1_X86f_n-ve1HVfDva_-AYQNhCE",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=68WwG3icHdBbjtowFABQdTPzCTG0VCChqik4ASUBG9_rxD9VsCEhdh7DpMOM_7qXWdWsplLPEs7fD3fr7OeXt3och5fVdPp4PCZV31fuMtH95NZNy5f3Tk916dy51Ha1-L4gP656vf2zC38970IGw4AbHpwgOyZYfctnnGrAu4rUeBGWSIch37hM24yrYJlrj4gOIZXuVLYqLizJD7B3WYD3LBoS2RJuCH1VjqaKLgl46i8C0TQ_R8y553HoL85EJ-GeZfRWJGJHlN3LslML7OjReDfPfe1FW3cGlMSmmqUE23PME2GzE0ScGsBDGmfyHJlNAWxWBCrChjKkYcqwGiVk4bY2jfL7psgxFoBBIeABW2SH7bIWnQkl728MuNeNayGnRxWHCuzygNa1BRBkufnK5ioR0TAamc4Ye7rq1_X86f_n-ve1HVfDva_-AYQNhCE",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZGWTBZMVZDWVdoeWNFdzNabFJRT0VseVpuVkljVUo2VmxKZmRsbHhXWEZVTUc5NFYwdzFSVTVITVhKMWVISnhjSGxUYkZCNVRtcEROSEZIYjFWclluRTVUVFJwTlRaNlVWTTRWbWcyUjBGUlYxOWplamx1YTI1WlVSSVhZMmN5WTJGMVIwMUZkR0UxTUZCRlVEaFBZVTUzUVZrYUlrRkVjM0k1WmxOWFpuQnVNREJDUTFVeGQydHBhbkZ6TUU5T1MyMTZjMnhHY1djIiwiZmN2IjoiMyIsImVpIjoiY2cyY2F1R01FdGE1MFBFUDhPYU53QVkiLCJxYyI6IkNnbHdiMnhzZFhScGIyNFFBSDEtUHpVXyIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgZGVmaW5pdGlvbiBvZiBwb2xsdXRpb24/IiwibGsiOiJHaEJ3YjJ4c2RYUnBiMjRnWkdWbWFXNWwiLCJicyI6ImMtT3k0bElKejBnc1VjZ3NWaWpKU0ZWSVNVM0x6TXNzeWN6UFU4aFBVeWpJejhrcEJYSHNqWVNrQk9BOGlLcFVMbmN1UmJEZXhLSlVoYlQ4MGlLRmtzcUMxR0kwalVwU0N1VUVGSEdaY2tsNDVKY3JsT1FyRktXbWxDYW5JdXVYbEJMUHdDN0haY1lsQm5ON1ltWVJzaVlaS1NrVUVZWE12SktpZktCMkVFZUFFUUEiLCJpZCI6ImZjX2NnMmNhdUdNRXRhNTBQRVA4T2FOd0FZXzUifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZGWTBZMVZDWVdoeWNFdzNabFJRT0VseVpuVkljVUo2VmxKZmRsbHhXWEZVTUc5NFYwdzFSVTVITVhKMWVISnhjSGxUYkZCNVRtcEROSEZIYjFWclluRTVUVFJwTlRaNlVWTTRWbWcyUjBGUlYxOWplamx1YTI1WlVSSVhZMmN5WTJGMVIwMUZkR0UxTUZCRlVEaFBZVTUzUVZrYUlrRkVjM0k1WmxOWFpuQnVNREJDUTFVeGQydHBhbkZ6TUU5T1MyMTZjMnhHY1djIiwiZmN2IjoiMyIsImVpIjoiY2cyY2F1R01FdGE1MFBFUDhPYU53QVkiLCJxYyI6IkNnbHdiMnhzZFhScGIyNFFBSDEtUHpVXyIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgZGVmaW5pdGlvbiBvZiBwb2xsdXRpb24%2FIiwibGsiOiJHaEJ3YjJ4c2RYUnBiMjRnWkdWbWFXNWwiLCJicyI6ImMtT3k0bElKejBnc1VjZ3NWaWpKU0ZWSVNVM0x6TXNzeWN6UFU4aFBVeWpJejhrcEJYSHNqWVNrQk9BOGlLcFVMbmN1UmJEZXhLSlVoYlQ4MGlLRmtzcUMxR0kwalVwU0N1VUVGSEdaY2tsNDVKY3JsT1FyRktXbWxDYW5JdXVYbEJMUHdDN0haY1lsQm5ON1ltWVJzaVlaS1NrVUVZWE12SktpZktCMkVFZUFFUUEiLCJpZCI6ImZjX2NnMmNhdUdNRXRhNTBQRVA4T2FOd0FZXzUifQ%3D%3D"
+    },
+    {
+      "question": "What are four types of pollution?",
+      "type": "ai_overview",
+      "page_token": "cSkFDXicHdBZboJAGADg9DI-CgNig4lpgg5bBGRgfpaXBhkXhmHRYlHeepeeqqdp0xN8yff1Laq2_nl5XIah_1hJ0jiO83PXncVxXnbzqpWKj2dbSmUhxKEo69XydYneTuUa3x1jc3WMkPY9bIkcyXDL42yMLY0fueApOqPScnkkDymp6zFXBPaSfCJWH6SqCaQ1XIrwglpMoY3YAegb0piU2CwIsLn3KNr5KQRMEXvKmRbhYRnbzvMgo7vHGQV5MRHOUoKRm1UoSGpT9aGXWcL4cUu8MPWTwGZ2QLUCEvd0oJ1G4LLzkRFFtVswpa-hoQ-GhEIEGWK1n-IKDUdTWL4JLb4wnk8uz1Kw4z8ti-lIMYQB1i9xy4yEdFVIyVRy0QDWMmKFI7Nh75m6nAtyzxOYMgHXiOoiB9MJw9mp_Fyrs__P9fupGVb9rTv_AuhKgqo",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=cSkFDXicHdBZboJAGADg9DI-CgNig4lpgg5bBGRgfpaXBhkXhmHRYlHeepeeqqdp0xN8yff1Laq2_nl5XIah_1hJ0jiO83PXncVxXnbzqpWKj2dbSmUhxKEo69XydYneTuUa3x1jc3WMkPY9bIkcyXDL42yMLY0fueApOqPScnkkDymp6zFXBPaSfCJWH6SqCaQ1XIrwglpMoY3YAegb0piU2CwIsLn3KNr5KQRMEXvKmRbhYRnbzvMgo7vHGQV5MRHOUoKRm1UoSGpT9aGXWcL4cUu8MPWTwGZ2QLUCEvd0oJ1G4LLzkRFFtVswpa-hoQ-GhEIEGWK1n-IKDUdTWL4JLb4wnk8uz1Kw4z8ti-lIMYQB1i9xy4yEdFVIyVRy0QDWMmKFI7Nh75m6nAtyzxOYMgHXiOoiB9MJw9mp_Fyrs__P9fupGVb9rTv_AuhKgqo",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZGWTBZMVZDWVdoeWNFdzNabFJRT0VseVpuVkljVUo2VmxKZmRsbHhXWEZVTUc5NFYwdzFSVTVITVhKMWVISnhjSGxUYkZCNVRtcEROSEZIYjFWclluRTVUVFJwTlRaNlVWTTRWbWcyUjBGUlYxOWplamx1YTI1WlVSSVhZMmN5WTJGMVIwMUZkR0UxTUZCRlVEaFBZVTUzUVZrYUlrRkVjM0k1WmxOWFpuQnVNREJDUTFVeGQydHBhbkZ6TUU5T1MyMTZjMnhHY1djIiwiZmN2IjoiMyIsImVpIjoiY2cyY2F1R01FdGE1MFBFUDhPYU53QVkiLCJxYyI6IkNnbHdiMnhzZFhScGIyNFFBSDEtUHpVXyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgZm91ciB0eXBlcyBvZiBwb2xsdXRpb24/IiwibGsiOiJHaUIzYUdGMElHRnlaU0JtYjNWeUlIUjVjR1Z6SUc5bUlIQnZiR3gxZEdsdmJnIiwiYnMiOiJjLU95NGxJSnowZ3NVY2dzVmlqSlNGVklTVTNMek1zc3ljelBVOGhQVXlqSXo4a3BCWEhzallTa0JPQThpS3BVTG5jdVJiRGV4S0pVaGJUODBpS0Zrc3FDMUdJMGpVcFNDdVVFRkhHWmNrbDQ1SmNybE9RckZLV21sQ2FuSXV1WGxCTFB3QzdIWmNZbEJuTjdZbVlSc2lZWktTa1VFWVhNdkpLaWZLQjJFRWVBRVFBIiwiaWQiOiJmY19jZzJjYXVHTUV0YTUwUEVQOE9hTndBWV81In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZGWTBZMVZDWVdoeWNFdzNabFJRT0VseVpuVkljVUo2VmxKZmRsbHhXWEZVTUc5NFYwdzFSVTVITVhKMWVISnhjSGxUYkZCNVRtcEROSEZIYjFWclluRTVUVFJwTlRaNlVWTTRWbWcyUjBGUlYxOWplamx1YTI1WlVSSVhZMmN5WTJGMVIwMUZkR0UxTUZCRlVEaFBZVTUzUVZrYUlrRkVjM0k1WmxOWFpuQnVNREJDUTFVeGQydHBhbkZ6TUU5T1MyMTZjMnhHY1djIiwiZmN2IjoiMyIsImVpIjoiY2cyY2F1R01FdGE1MFBFUDhPYU53QVkiLCJxYyI6IkNnbHdiMnhzZFhScGIyNFFBSDEtUHpVXyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgZm91ciB0eXBlcyBvZiBwb2xsdXRpb24%2FIiwibGsiOiJHaUIzYUdGMElHRnlaU0JtYjNWeUlIUjVjR1Z6SUc5bUlIQnZiR3gxZEdsdmJnIiwiYnMiOiJjLU95NGxJSnowZ3NVY2dzVmlqSlNGVklTVTNMek1zc3ljelBVOGhQVXlqSXo4a3BCWEhzallTa0JPQThpS3BVTG5jdVJiRGV4S0pVaGJUODBpS0Zrc3FDMUdJMGpVcFNDdVVFRkhHWmNrbDQ1SmNybE9RckZLV21sQ2FuSXV1WGxCTFB3QzdIWmNZbEJuTjdZbVlSc2lZWktTa1VFWVhNdkpLaWZLQjJFRWVBRVFBIiwiaWQiOiJmY19jZzJjYXVHTUV0YTUwUEVQOE9hTndBWV81In0%3D"
+    },
+    {
+      "question": "How to reduce pollution?",
+      "type": "ai_overview",
+      "page_token": "VxYWMnicHdBdToMwAADgeJk9jr8x45LFjElBJl0obRl9MfyujBYaYWP45l08lafReIDv5fv6Fk3X_jwwPo5q2GjaNE3Lc9-fRbUs-mXTadkwd4VWZELkWdFu1o9r47kutu4wOft-ciKiFH1BOvbuOgFAsUthhoZCuSws4hMzpArH0j5kAlyJpBlruf2G4StLlA3xbmaNbpEOqVQEGBvljXRBE1OQwYSHocsH5AVtLlQfi6c5atkhN5zPKuGU0MigfnAoE_tauYGMaFnjtpSxJwDyjIYBEDNdXKGHJCQ8hIQ6qSlEctn9OXCJT24MTNiFEvKSlBCdEIfYiRDdrbAJjqUOmNcEDvLhfExYnGJ4LH20z0QwVoKsIv1ep1RMxLtLBuAaEtta1MVtay3-x7bvtRw36qM__wJiYHj3",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=VxYWMnicHdBdToMwAADgeJk9jr8x45LFjElBJl0obRl9MfyujBYaYWP45l08lafReIDv5fv6Fk3X_jwwPo5q2GjaNE3Lc9-fRbUs-mXTadkwd4VWZELkWdFu1o9r47kutu4wOft-ciKiFH1BOvbuOgFAsUthhoZCuSws4hMzpArH0j5kAlyJpBlruf2G4StLlA3xbmaNbpEOqVQEGBvljXRBE1OQwYSHocsH5AVtLlQfi6c5atkhN5zPKuGU0MigfnAoE_tauYGMaFnjtpSxJwDyjIYBEDNdXKGHJCQ8hIQ6qSlEctn9OXCJT24MTNiFEvKSlBCdEIfYiRDdrbAJjqUOmNcEDvLhfExYnGJ4LH20z0QwVoKsIv1ep1RMxLtLBuAaEtta1MVtay3-x7bvtRw36qM__wJiYHj3",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZGWTBZMVZDWVdoeWNFdzNabFJRT0VseVpuVkljVUo2VmxKZmRsbHhXWEZVTUc5NFYwdzFSVTVITVhKMWVISnhjSGxUYkZCNVRtcEROSEZIYjFWclluRTVUVFJwTlRaNlVWTTRWbWcyUjBGUlYxOWplamx1YTI1WlVSSVhZMmN5WTJGMVIwMUZkR0UxTUZCRlVEaFBZVTUzUVZrYUlrRkVjM0k1WmxOWFpuQnVNREJDUTFVeGQydHBhbkZ6TUU5T1MyMTZjMnhHY1djIiwiZmN2IjoiMyIsImVpIjoiY2cyY2F1R01FdGE1MFBFUDhPYU53QVkiLCJxYyI6IkNnbHdiMnhzZFhScGIyNFFBSDEtUHpVXyIsInF1ZXN0aW9uIjoiSG93IHRvIHJlZHVjZSBwb2xsdXRpb24/IiwibGsiOiJHaGRvYjNjZ2RHOGdjbVZrZFdObElIQnZiR3gxZEdsdmJnIiwiYnMiOiJjLU95NGxJSnowZ3NVY2dzVmlqSlNGVklTVTNMek1zc3ljelBVOGhQVXlqSXo4a3BCWEhzallTa0JPQThpS3BVTG5jdVJiRGV4S0pVaGJUODBpS0Zrc3FDMUdJMGpVcFNDdVVFRkhHWmNrbDQ1SmNybE9RckZLV21sQ2FuSXV1WGxCTFB3QzdIWmNZbEJuTjdZbVlSc2lZWktTa1VFWVhNdkpLaWZLQjJFRWVBRVFBIiwiaWQiOiJmY19jZzJjYXVHTUV0YTUwUEVQOE9hTndBWV81In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZGWTBZMVZDWVdoeWNFdzNabFJRT0VseVpuVkljVUo2VmxKZmRsbHhXWEZVTUc5NFYwdzFSVTVITVhKMWVISnhjSGxUYkZCNVRtcEROSEZIYjFWclluRTVUVFJwTlRaNlVWTTRWbWcyUjBGUlYxOWplamx1YTI1WlVSSVhZMmN5WTJGMVIwMUZkR0UxTUZCRlVEaFBZVTUzUVZrYUlrRkVjM0k1WmxOWFpuQnVNREJDUTFVeGQydHBhbkZ6TUU5T1MyMTZjMnhHY1djIiwiZmN2IjoiMyIsImVpIjoiY2cyY2F1R01FdGE1MFBFUDhPYU53QVkiLCJxYyI6IkNnbHdiMnhzZFhScGIyNFFBSDEtUHpVXyIsInF1ZXN0aW9uIjoiSG93IHRvIHJlZHVjZSBwb2xsdXRpb24%2FIiwibGsiOiJHaGRvYjNjZ2RHOGdjbVZrZFdObElIQnZiR3gxZEdsdmJnIiwiYnMiOiJjLU95NGxJSnowZ3NVY2dzVmlqSlNGVklTVTNMek1zc3ljelBVOGhQVXlqSXo4a3BCWEhzallTa0JPQThpS3BVTG5jdVJiRGV4S0pVaGJUODBpS0Zrc3FDMUdJMGpVcFNDdVVFRkhHWmNrbDQ1SmNybE9RckZLV21sQ2FuSXV1WGxCTFB3QzdIWmNZbEJuTjdZbVlSc2lZWktTa1VFWVhNdkpLaWZLQjJFRWVBRVFBIiwiaWQiOiJmY19jZzJjYXVHTUV0YTUwUEVQOE9hTndBWV81In0%3D"
+    },
+    {
+      "question": "What is air pollution?",
+      "type": "ai_overview",
+      "page_token": "p8J4IXicHdBRTsIwGADgeBkeYS2ICQkxVDZIdcV13d-tL6a2G4N1bApS4M27eCpPY-J3hO_7x-0Oze-dqk-n_jgbjbz3w23XbV05NN1wdxjp4_VgRkY7965NM5s-TNFjZebh0ZOnzpMk63tY8iDdW2IDVpTSebGECrBdCqeO7KZWqWOXzZpP1Q3OApGNltGXhNjLFBGRO2yQRXJNv2RIJ2VTP0NEdSIv43gVoQLTlXYLLFCCTE7b5EY_LBSB2aFXFdC2uKmulCoGiVyG_VUL0vAmDGQ4CTiOGpkhSHIapsLgJJiMOahz2jKd7pM0wuwQt6y2mWU85zUTJOGwmAgcbWwQqdWOEr5m141UmclBFBgKk8FFZ_cMRH1iGbzYfdTzFny8pmRQmfN8PPgfm79V7WnWf3bbPz6md2I",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=p8J4IXicHdBRTsIwGADgeBkeYS2ICQkxVDZIdcV13d-tL6a2G4N1bApS4M27eCpPY-J3hO_7x-0Oze-dqk-n_jgbjbz3w23XbV05NN1wdxjp4_VgRkY7965NM5s-TNFjZebh0ZOnzpMk63tY8iDdW2IDVpTSebGECrBdCqeO7KZWqWOXzZpP1Q3OApGNltGXhNjLFBGRO2yQRXJNv2RIJ2VTP0NEdSIv43gVoQLTlXYLLFCCTE7b5EY_LBSB2aFXFdC2uKmulCoGiVyG_VUL0vAmDGQ4CTiOGpkhSHIapsLgJJiMOahz2jKd7pM0wuwQt6y2mWU85zUTJOGwmAgcbWwQqdWOEr5m141UmclBFBgKk8FFZ_cMRH1iGbzYfdTzFny8pmRQmfN8PPgfm79V7WnWf3bbPz6md2I",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZGWTBZMVZDWVdoeWNFdzNabFJRT0VseVpuVkljVUo2VmxKZmRsbHhXWEZVTUc5NFYwdzFSVTVITVhKMWVISnhjSGxUYkZCNVRtcEROSEZIYjFWclluRTVUVFJwTlRaNlVWTTRWbWcyUjBGUlYxOWplamx1YTI1WlVSSVhZMmN5WTJGMVIwMUZkR0UxTUZCRlVEaFBZVTUzUVZrYUlrRkVjM0k1WmxOWFpuQnVNREJDUTFVeGQydHBhbkZ6TUU5T1MyMTZjMnhHY1djIiwiZmN2IjoiMyIsImVpIjoiY2cyY2F1R01FdGE1MFBFUDhPYU53QVkiLCJxYyI6IkNnbHdiMnhzZFhScGIyNFFBSDEtUHpVXyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBhaXIgcG9sbHV0aW9uPyIsImxrIjoiYzVPU1Nzd3NVaWpJejhrcExjbk16MVBJekNzcHlrOHBUUVp4QUEiLCJicyI6ImMtT3k0bElKejBnc1VjZ3NWaWpKU0ZWSVNVM0x6TXNzeWN6UFU4aFBVeWpJejhrcEJYSHNqWVNrQk9BOGlLcFVMbmN1UmJEZXhLSlVoYlQ4MGlLRmtzcUMxR0kwalVwU0N1VUVGSEdaY2tsNDVKY3JsT1FyRktXbWxDYW5JdXVYbEJMUHdDN0haY1lsQm5ON1ltWVJzaVlaS1NrVUVZWE12SktpZktCMkVFZUFFUUEiLCJpZCI6ImZjX2NnMmNhdUdNRXRhNTBQRVA4T2FOd0FZXzUifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlZGWTBZMVZDWVdoeWNFdzNabFJRT0VseVpuVkljVUo2VmxKZmRsbHhXWEZVTUc5NFYwdzFSVTVITVhKMWVISnhjSGxUYkZCNVRtcEROSEZIYjFWclluRTVUVFJwTlRaNlVWTTRWbWcyUjBGUlYxOWplamx1YTI1WlVSSVhZMmN5WTJGMVIwMUZkR0UxTUZCRlVEaFBZVTUzUVZrYUlrRkVjM0k1WmxOWFpuQnVNREJDUTFVeGQydHBhbkZ6TUU5T1MyMTZjMnhHY1djIiwiZmN2IjoiMyIsImVpIjoiY2cyY2F1R01FdGE1MFBFUDhPYU53QVkiLCJxYyI6IkNnbHdiMnhzZFhScGIyNFFBSDEtUHpVXyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBhaXIgcG9sbHV0aW9uPyIsImxrIjoiYzVPU1Nzd3NVaWpJejhrcExjbk16MVBJekNzcHlrOHBUUVp4QUEiLCJicyI6ImMtT3k0bElKejBnc1VjZ3NWaWpKU0ZWSVNVM0x6TXNzeWN6UFU4aFBVeWpJejhrcEJYSHNqWVNrQk9BOGlLcFVMbmN1UmJEZXhLSlVoYlQ4MGlLRmtzcUMxR0kwalVwU0N1VUVGSEdaY2tsNDVKY3JsT1FyRktXbWxDYW5JdXVYbEJMUHdDN0haY1lsQm5ON1ltWVJzaVlaS1NrVUVZWE12SktpZktCMkVFZUFFUUEiLCJpZCI6ImZjX2NnMmNhdUdNRXRhNTBQRVA4T2FOd0FZXzUifQ%3D%3D"
+    }
+  ],
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "The Pollution Starts Within!",
+      "link": "https://www.youtube.com/shorts/2bQw_nzVJ1I",
+      "displayed_link": "90.3 हज़ार+ व्यू · 9 माह पहले",
+      "thumbnail": "https://serpapi.com/searches/6a9c0d712f47f8e5e4676ef3/images/9cenzvpU2kQajJG9IKXMR9nNZKPDECmh_gXKw8OIIJs.jpeg",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAhUlEQVR4AWNwL_ChCFPHgP8MxqxA7ArEKVBcCcUNIAznI-RdQXrABgAZpv8ZjP6Tg0F6QQbsosCAXSADHmGVVPIC0jKEDHgAMuAbmgRE445D___feYzXIJBeBigH04BVW_9DAcgwqEGYaik2gGIvUByIlEbjDooTEiwps5GRlNmolpkowgBVP9wMSzSKGAAAAABJRU5ErkJggg.png",
+      "snippet": "Connect with Heartfulness Book a Free Meditation Session: http://hfn.link/bookfreesession Download the Heartfulness App: ...",
+      "duration": "1:13",
+      "about_this_result": {
+        "source": {
+          "description": "Connect with Heartfulness Book a Free Meditation Session: http://hfn.link/bookfreesession Download the Heartfulness App: ...",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAhUlEQVR4AWNwL_ChCFPHgP8MxqxA7ArEKVBcCcUNIAznI-RdQXrABgAZpv8ZjP6Tg0F6QQbsosCAXSADHmGVVPIC0jKEDHgAMuAbmgRE445D___feYzXIJBeBigH04BVW_9DAcgwqEGYaik2gGIvUByIlEbjDooTEiwps5GRlNmolpkowgBVP9wMSzSKGAAAAABJRU5ErkJggg.png"
+        }
+      },
+      "source": "YouTube · heartfulness"
+    },
+    {
+      "position": 2,
+      "title": "What does air pollution do? - Twinkl",
+      "link": "https://www.twinkl.ro/teaching-wiki/air-pollution",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESaQHrOzAVyk3Vc_s18qNkVILfrL_Tp8QJ_8bT2Z0oFmUuUy0gewWDTgX_scQnWW9sV1XfN3WmmBUlko3PgMg9vqX6fizX_Iy7bXbxBUIylStyh_tAC9GTMorwPfs9lRAwyX8ndTC5zdhIRA&ved=2ahUKEwjhjbXhuteWAxXWHDQIHXBzA2gQFnoECCQQAQ&uoh=1",
+      "displayed_link": "https://www.twinkl.ro › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAaVBMVEUfqfkdqPkApfkApPlLtPpgu_o7sPoAovmb0vz6_f_____s9_9xwfvW7P6h1fwqrPkAoPm84P32_P-13v3t9_96xfuIy_v91Pr_9_79afD9u_jG5f0Am_jO6P2u2vxYuPoAnPiOzfzc7_5dEzIfAAAA90lEQVR4AbyRRZbEMAwFZSlp2T_YHKb7H3KU10zbKbPLbCL3E_ovyT-lSBRvlL9K9QFAkuqHFOEMF3Jla10kKxVaejyIo-02llVKmgC7PZ44wDgykZxw41zBCGs0EiFXAMgusm4AtDHQwQhC7IG-G06wMOxynw8-GwRGa9I2y9xO911-pJ22pY-oLbB2OuLcyhEppZyUKMGnlPrY-iZH5CIg65J8bCNMMx2KMRnnacFWTJIMl6MbIVwOix2wubyQeryR7foNX6QTHsOzy0uVp7fVAReWNiSzvv2KLJdNC1Vl9yZt4wSHvbuId-lY5bLT33Ank4GXBAD2NBF5N-OiLQAAAABJRU5ErkJggg.png",
+      "snippet": "Air pollution is caused by chemicals and particles in the air that derive from various sources, including cars, factories, dust, pollen, and more. The particles ...",
+      "snippet_highlighted_words": [
+        "Air pollution is caused by chemicals and particles in the air"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Air pollution is caused by chemicals and particles in the air that derive from various sources, including cars, factories, dust, pollen, and more. The particles ...",
+          "source_info_link": "https://www.twinkl.ro/teaching-wiki/air-pollution",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAaVBMVEUfqfkdqPkApfkApPlLtPpgu_o7sPoAovmb0vz6_f_____s9_9xwfvW7P6h1fwqrPkAoPm84P32_P-13v3t9_96xfuIy_v91Pr_9_79afD9u_jG5f0Am_jO6P2u2vxYuPoAnPiOzfzc7_5dEzIfAAAA90lEQVR4AbyRRZbEMAwFZSlp2T_YHKb7H3KU10zbKbPLbCL3E_ovyT-lSBRvlL9K9QFAkuqHFOEMF3Jla10kKxVaejyIo-02llVKmgC7PZ44wDgykZxw41zBCGs0EiFXAMgusm4AtDHQwQhC7IG-G06wMOxynw8-GwRGa9I2y9xO911-pJ22pY-oLbB2OuLcyhEppZyUKMGnlPrY-iZH5CIg65J8bCNMMx2KMRnnacFWTJIMl6MbIVwOix2wubyQeryR7foNX6QTHsOzy0uVp7fVAReWNiSzvv2KLJdNC1Vl9yZt4wSHvbuId-lY5bLT33Ank4GXBAD2NBF5N-OiLQAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "twinkl.ro"
+    },
+    {
+      "position": 3,
+      "title": "Delhi has a Complex Air Pollution Problem - CPR",
+      "link": "https://cprindia.org/delhi-has-a-complex-air-pollution-problem/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdwHrOzAVBC2iPHw9xG-NB2SJFVPnZuyXnrFNma80dzEzNTrRLLaU-YnV9LcUCwyaotvlfDjodPH-hGHgXB2EpFSvyTaAy7PgqGpNY5L2XwC_sepnObvKl-XE28DxQ1ishqMrCT0NH8wJ0cAaahHBA0OpzZcMJgqm&ved=2ahUKEwjhjbXhuteWAxXWHDQIHXBzA2gQFnoECCcQAQ&uoh=1",
+      "displayed_link": "https://cprindia.org › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAolBMVEUZHTYYHjYZHjQHEDEABykUGDEZHTcAADkKEi4NFTUABCoAACV2eH6en6pCR1wAADTVtkSCa0MDEjV6e4xkZnEAACIAAByKi5T___-sr7UIECnvxkSNdz8ADzXBxMm2t7wAAB4RFTHU1tteYXEAACnc3uCipqsAACxER1Q8P0_MzM8uMUQ0OErs8fAdJTmJcjdgZW2ChY5sbXiUezwsKzFuY0Irbb0yAAABH0lEQVR4AaXShaKDMAwF0ABt8HlZ5ujc5f8_bZ7yXC_OgTr8N4ZpCQloWwCOi8-XfPX8IKzIaq3ewGZLvUIZtanTlWj3-gNQw1FcIiYipez2onpDjCjMDa7P9AtqecAI_oiShFF1aByDRnMS0pQxmRHFYJYYz2nB6Heo4wNoTJY0j7lGVVDmaMxztVqtdZXOigzJuGkPcWskJvfUJHJQ_-kWq4GjBwfzFS2kxol11QQ4ak6BKBskVbFytYodzaMSQebFCllRrGhqmRohuZash0jsqVBSI4K8quM-NQ4pdVD_CfeSrce_JkY7Cr0XiNIvVmvJQzhtJRpvkd1haBk8-i68QkDfe7Na7BLB4P841dqB8X3c48mFT4Nsfw3eAgAXPxAbn6XZPFwAAAAASUVORK5CYII.png",
+      "date": "21 दिस॰ 2018",
+      "snippet": "Delhi's air problem is so hard to solve in part because it is not a single problem; it is a 4 X 25% (+/-10%) problem, with at least four ...",
+      "snippet_highlighted_words": [
+        "Delhi's air problem is so hard to solve in"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Delhi's air problem is so hard to solve in part because it is not a single problem; it is a 4 X 25% (+/-10%) problem, with at least four ...",
+          "source_info_link": "https://cprindia.org/delhi-has-a-complex-air-pollution-problem/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAolBMVEUZHTYYHjYZHjQHEDEABykUGDEZHTcAADkKEi4NFTUABCoAACV2eH6en6pCR1wAADTVtkSCa0MDEjV6e4xkZnEAACIAAByKi5T___-sr7UIECnvxkSNdz8ADzXBxMm2t7wAAB4RFTHU1tteYXEAACnc3uCipqsAACxER1Q8P0_MzM8uMUQ0OErs8fAdJTmJcjdgZW2ChY5sbXiUezwsKzFuY0Irbb0yAAABH0lEQVR4AaXShaKDMAwF0ABt8HlZ5ujc5f8_bZ7yXC_OgTr8N4ZpCQloWwCOi8-XfPX8IKzIaq3ewGZLvUIZtanTlWj3-gNQw1FcIiYipez2onpDjCjMDa7P9AtqecAI_oiShFF1aByDRnMS0pQxmRHFYJYYz2nB6Heo4wNoTJY0j7lGVVDmaMxztVqtdZXOigzJuGkPcWskJvfUJHJQ_-kWq4GjBwfzFS2kxol11QQ4ak6BKBskVbFytYodzaMSQebFCllRrGhqmRohuZash0jsqVBSI4K8quM-NQ4pdVD_CfeSrce_JkY7Cr0XiNIvVmvJQzhtJRpvkd1haBk8-i68QkDfe7Na7BLB4P841dqB8X3c48mFT4Nsfw3eAgAXPxAbn6XZPFwAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Centre for Policy Research"
+    },
+    {
+      "position": 4,
+      "title": "Air Pollution India Images and Stock Photos",
+      "link": "https://www.gettyimages.com/photos/air-pollution-india",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbgHrOzAVly2_aK1mfrejQvUge5QxYctp3fW3aOLkH_FQBs0_2mkd_F7V8dKD1mPpNC-KhIkyp7g1EJY3mnSVHUeVmsRSnA3p96zaynrGT47gfHf-wCqUiw3SJ1E_V_WKC6Qthi0kzki8OwIwzhqw&ved=2ahUKEwjhjbXhuteWAxXWHDQIHXBzA2gQFnoECCUQAQ&uoh=1",
+      "displayed_link": "https://www.gettyimages.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABRUlEQVR4AWIwxgMAXdEhrMMgEAZgr2vrCYLlEgz6VF1FvZmpmcDOT-Eq61D4yarJmrppHF7UInjHW7YAZ0r4cj1-KBAEZ1yAlILzBkEM2izmhkzNxvAKQZk9pJTC9nA-xa7utGf61BlTg0JH2vebz7yvD15il3ctKrT03RTIAuGSG1DQqXb66VDjkBvyAp-0GmuUtHWMHMT4bpCqp5nxOckpNwasketI6g8fCW17fWC-OdM-QoNsjR86V4Smk200yt71FTv2tSYKZz3jokVxJTxfdl3M_TYS1zn99zhnONwoSpRi2mL61VtCib2jJGF_HZ9ACyuQL3QFDpVC1O_c2hfYUYOfOFD1c6B1i6dBRbMGR8MtK5C5_yjOru4gCwoKBDxScdgbr6MMy-ZPghheyyTaVxE4zVrr-TrARTZIDCLXBeSv_gBlxk1bLdTn3QAAAABJRU5ErkJggg.png",
+      "snippet": "Browse 24,916 air pollution india photos and images available, or search for air pollution china to find more great photos and pictures. show more.",
+      "snippet_highlighted_words": [
+        "air pollution india photos and images"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Browse 24,916 air pollution india photos and images available, or search for air pollution china to find more great photos and pictures. show more.",
+          "source_info_link": "https://www.gettyimages.com/photos/air-pollution-india",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAABRUlEQVR4AWIwxgMAXdEhrMMgEAZgr2vrCYLlEgz6VF1FvZmpmcDOT-Eq61D4yarJmrppHF7UInjHW7YAZ0r4cj1-KBAEZ1yAlILzBkEM2izmhkzNxvAKQZk9pJTC9nA-xa7utGf61BlTg0JH2vebz7yvD15il3ctKrT03RTIAuGSG1DQqXb66VDjkBvyAp-0GmuUtHWMHMT4bpCqp5nxOckpNwasketI6g8fCW17fWC-OdM-QoNsjR86V4Smk200yt71FTv2tSYKZz3jokVxJTxfdl3M_TYS1zn99zhnONwoSpRi2mL61VtCib2jJGF_HZ9ACyuQL3QFDpVC1O_c2hfYUYOfOFD1c6B1i6dBRbMGR8MtK5C5_yjOru4gCwoKBDxScdgbr6MMy-ZPghheyyTaVxE4zVrr-TrARTZIDCLXBeSv_gBlxk1bLdTn3QAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Getty Images"
+    },
+    {
+      "position": 5,
+      "title": "Accountability studies of air pollution and health effects",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0160412016310534",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESewHrOzAVxNxig-hJejxIuyb1UxRIPK4MwuK4CeqG4UsH8cylujCzO-Y0d6q1l9zD4berl6N41ymB86ojRtVxNnssH-7rW4jCOMWBuMg_c4iXkHn5IKcZHBb7xbfl5XiO7EKBxoCHo4-Vysw9z5A-RyOSRyxX--NbD8O4-Q&ved=2ahUKEwjhjbXhuteWAxXWHDQIHXBzA2gQFnoECCgQAQ&uoh=1",
+      "displayed_link": "https://www.sciencedirect.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABKElEQVR4AdzXAUQEQRTG8Y8KkThBUnAAAJEAkCIHEECAmH2zKYKIQAAEiCgFkCABBORAAFQoAMIFJMDX8xywaKpbH-Hvwc76GQMPazs9af8fQMMcM1aKAUzoRjXmfXaiGtN_AJwwg-WADLbQjwDH3iUNtz77Ph99vrULKKjgh41YYVYJiGgYqAH3WkDGqRqwScODAFBWawAaZriNRR0g48Cj8gau1YDXFgHl6QHCR_iifgNXasC-FlBhigldGaAJwnqcTehoABln3ofkBriFCRoG3pMGUGM1zhnuRgbgLiaLzxrOh4CLXwF4iPEGoMZy7AwbGGt87zgmLDBjiYY9n59DwNF3gNB6N8zoe8_eu8eRVCHJFpPI0CtezeIKvwbrmqUx8A_b3jEAhZpfRTDQgH4AAAAASUVORK5CYII.png",
+      "author": "DQ Rich ने लिखी",
+      "snippet": "These accountability studies provide some evidence of health impacts of ambient air pollution, and perhaps the health benefits of air quality actions taken to ...",
+      "snippet_highlighted_words": [
+        "pollution"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "These accountability studies provide some evidence of health impacts of ambient air pollution, and perhaps the health benefits of air quality actions taken to ...",
+          "source_info_link": "https://www.sciencedirect.com/science/article/pii/S0160412016310534",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABKElEQVR4AdzXAUQEQRTG8Y8KkThBUnAAAJEAkCIHEECAmH2zKYKIQAAEiCgFkCABBORAAFQoAMIFJMDX8xywaKpbH-Hvwc76GQMPazs9af8fQMMcM1aKAUzoRjXmfXaiGtN_AJwwg-WADLbQjwDH3iUNtz77Ph99vrULKKjgh41YYVYJiGgYqAH3WkDGqRqwScODAFBWawAaZriNRR0g48Cj8gau1YDXFgHl6QHCR_iifgNXasC-FlBhigldGaAJwnqcTehoABln3ofkBriFCRoG3pMGUGM1zhnuRgbgLiaLzxrOh4CLXwF4iPEGoMZy7AwbGGt87zgmLDBjiYY9n59DwNF3gNB6N8zoe8_eu8eRVCHJFpPI0CtezeIKvwbrmqUx8A_b3jEAhZpfRTDQgH4AAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "ScienceDirect.com"
+    },
+    {
+      "position": 6,
+      "title": "Eminent air-pollution analyst, Terry Buckland shares his ...",
+      "link": "https://www.facebook.com/GAILIndia/videos/eminent-air-pollution-analyst-terry-buckland-shares-his-views-on-the-quality-of-/831526700522476/?locale\\u003dms_MY",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAES0QEB6zswFeKlCHlYcuIHqG9fCg8aEb4BLCBr698abgt8NZ2VV4dBMnQxlxSWfJ1-HuKLO4GaeaynaxS4yNht7p7rDFucChlOyEfZKqClpcCHyC492PUsRtBDJdSH3DPwgW1wJbA-yUvXEdNLTbF6Iw1bfxTPcGKrGlxnKKifC5UmlECo6QmYJw4q7EYBMb49LxSaWmqWFfu3AgI_U8WniL1EjqzkzF2DlRljlwp5_TM3bBLqiiTUw0WyuvGggmM2hrY-ZDSaclNNSnvAj7VYKOxQkg&ved=2ahUKEwjhjbXhuteWAxXWHDQIHXBzA2gQFnoECCMQAQ&uoh=1",
+      "displayed_link": "https://www.facebook.com › ... › Video",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAXVBMVEVHcEwHZv8HaP8IZ_8IZ_8IZv8IaP8IZ_8HZv8Haf8IZ_8IaP8IZ_8AXv8AV_8AYv-SqP_P1__m6__e5f9wlP____-tvP9jiv82c_8IZ_8Iaf-fsf________8AW_-wrobhAAAAH3RSTlMAM4bC6v1h7v8Z3UL_______7_________wRiFwenBhp_Z0gAAAOhJREFUeAFtk0UWwzAMBWWHFHOZe_9bBn9Nr7Mdg5AiQjZt17WNFFTTDxwZ-kKNigvUmJw2XGF0dByx1jlnPTPDjiYqDofj8XQ4L9bsL6vozpedq13_3eJk4G-XXPIac8zBHUs5EIl48Q4Tws3ziiAZ5f7j3Vq7O5b0iOGE1Z0cRxpqS3mwSbbU4VHndukW8GwHiQ_BzUO2KceIw7MIqJBHyIZk_WwKSv6KcD_frlsqt_P5joBELJ-3iNZD8YDC_82zz1pWS5U1u5bmmY1JLdMQmVoaOIxmIdVYDXWUxVAD8Xp_FvnN1mEG0f0e5ixC4ikAAAAASUVORK5CYII.png",
+      "snippet": "Delhi's air quality nears 'severe' level, pollution crosses 400-m... 10 Jul 2026 · 65K tontonan. दिल्ली सरकार Air Quality Monitoring को और ...",
+      "snippet_highlighted_words": [
+        "pollution"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Delhi's air quality nears 'severe' level, pollution crosses 400-m... 10 Jul 2026 · 65K tontonan. दिल्ली सरकार Air Quality Monitoring को और ...",
+          "source_info_link": "https://www.facebook.com/GAILIndia/videos/eminent-air-pollution-analyst-terry-buckland-shares-his-views-on-the-quality-of-/831526700522476/?locale=ms_MY",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAXVBMVEVHcEwHZv8HaP8IZ_8IZ_8IZv8IaP8IZ_8HZv8Haf8IZ_8IaP8IZ_8AXv8AV_8AYv-SqP_P1__m6__e5f9wlP____-tvP9jiv82c_8IZ_8Iaf-fsf________8AW_-wrobhAAAAH3RSTlMAM4bC6v1h7v8Z3UL_______7_________wRiFwenBhp_Z0gAAAOhJREFUeAFtk0UWwzAMBWWHFHOZe_9bBn9Nr7Mdg5AiQjZt17WNFFTTDxwZ-kKNigvUmJw2XGF0dByx1jlnPTPDjiYqDofj8XQ4L9bsL6vozpedq13_3eJk4G-XXPIac8zBHUs5EIl48Q4Tws3ziiAZ5f7j3Vq7O5b0iOGE1Z0cRxpqS3mwSbbU4VHndukW8GwHiQ_BzUO2KceIw7MIqJBHyIZk_WwKSv6KcD_frlsqt_P5joBELJ-3iNZD8YDC_82zz1pWS5U1u5bmmY1JLdMQmVoaOIxmIdVYDXWUxVAD8Xp_FvnN1mEG0f0e5ixC4ikAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "source": "Facebook"
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Crop-residue burning, a major contributor to black carbon pollution: Study",
+      "link": "https://india.mongabay.com/2026/09/crop-residue-burning-a-major-contributor-to-black-carbon-pollution-study/",
+      "source": "Mongabay India",
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAACKElEQVQ4jY2TzUuUURTGf-e-M5OO02iWUrZQSEgnHcwKijZigWm5KOyLIJC0kFoE9R9ESLRwKfSxDaJNGFmQzaplZFiOFaaSRplDak3avPNxWrym4-sQndXl3ud5eJ5zzhVcVVBbVavGdAKNChUAAhNAxKjeig-NvM3Gy_KpoSIvf95_E9UuFMstvIROo9K7WGZf5cloYkWgoSLPP-d_pKoHcxLdOiLPFuJ2K6OjCQsgv7CsB_TU_5CXapvX5wmmpmeemkC4ugbRrn-ht5SUcvf6DZcNvRjYGQoZNdLhzmyMWYVtazpEXVX1agHFSqt2GlVtzMpGqLISzWQAKC_bSjAQoLR4E32RAa60n0Nkpe8CjebvqAB276hh7NMkCmws2kBbUzPHm1poP9ZGnm8d9_sfo6rZPsqNCMs3hcEgdirpOFTl3dhHTrQcxk4m6b7dy9T0V3cMDM6SAPB6JMqRBifR9_k5pmMx9obruNx9jR_xeI72yrhH4TkQBojNzvJhYpwLJ09TkO_HGENrVyf763fRFxlYQ1eISKC-pjqdSb_JtX0iwqUzZxmMDvPi1Uv3Y8pjWbWW_eVbzLu5pAjY5xbweX3Mzs8x9nmS34mEW77n1-DwPWcmoZDP7-OhqjbnCLo2udC_YMtRolHbsT0zk04WlzzwWlKAyB6c5uaipkB6FpNynmjUhuzfuFTrw-HtKZPqENUDQLkD0QkViXgynjs_h4beZ-P_ABM5weG9z4kFAAAAAElFTkSuQmCC.png",
+      "date": "2 दिन पहले",
+      "thumbnail": "https://serpapi.com/searches/6a9c0d712f47f8e5e4676ef3/images/lelvdnEE6Q6X42EfAolLJEpSRXh9wg-JTEaJZHwHUjo.jpeg"
+    },
+    {
+      "title": "Haryana pollution watchdog HSPCB failed to act on Rs 949 crore worth of sewage violations—CAG",
+      "link": "https://theprint.in/india/haryana-pollution-watchdog-hspcb-failed-to-act-on-rs-949-crore-worth-of-sewage-violations-cag/3032760/",
+      "source": "ThePrint",
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAUVBMVEVHcEzPRh7PQhbdkoDNRB3NRB7MPQ3MRB3FQRzLQRjOPQvOOgDVhnP48O3szMXTZkjdsqrTemTSclrcnI3KVDPZppvu5-PlurHLKAC8NgDSTyVb5MUqAAAACnRSTlMA____29bbpB-Te6Y5pAAAAI1JREFUGJVlj1kOwyAMRI1NEhazQ5r2_gctKAnq8n5GnrHkMUBHaSmE1AouNnGxnfMiJsudI-LcUUNzTvb0FOieVg6FQhqOBhlCOLhSadWgRQmm7NEnThyYXr4ZMLT76HxxZWhGWMk9D5ezI_-ILq2gOVYTU47ciKhpUGiF6DctmoH6KD7L_1b_f-77_TdfFwZ3yTFvBAAAAABJRU5ErkJggg.png",
+      "date": "2 दिन पहले",
+      "thumbnail": "https://serpapi.com/searches/6a9c0d712f47f8e5e4676ef3/images/H5pG0CT4ckPzwazIaNDzjCxYmOQKYD-8EymMKBCt2VA.jpeg"
+    },
+    {
+      "title": "Organisation raises pollution concerns over proposed Coimbatore WTE plant",
+      "link": "https://www.thehindu.com/news/cities/Coimbatore/organisation-raises-pollution-concerns-over-proposed-coimbatore-wte-plant/article71431917.ece",
+      "source": "The Hindu",
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAASFBMVEX___-wsbJbWlyCgIGamZpubW5PTk_Ix8epqaq7vL2-v8CUk5Pf4OGmpqfu7-_k5eby8vNJR0nP0NFdXF00MTJDQUNxcHFRUFKJczSfAAAAUUlEQVQYlbXOyRJAMBBF0ZvE0ITuSAz__6dYKKVsectTd_Hgl7XSSR-H0amJ6AGS3ETER6jDWSiuwfDVBZwAPuRcHvAqbtAwZ2xZk21FPzm-AxqcAj_99rS_AAAAAElFTkSuQmCC.png",
+      "date": "21 मिनट पहले",
+      "thumbnail": "https://serpapi.com/searches/6a9c0d712f47f8e5e4676ef3/images/rUG-dbceJeYtGpYx_MD9wXM-pWL9ybNY-5b-S12uAFo.png"
+    },
+    {
+      "title": "पांडु नदी में सीवेज बहाते टैंकर को ग्रामीणों ने पकड़ा: प्रदूषण से गुस्साए लोगों ने प्रशासन से सख्त कार्रवाई...",
+      "link": "https://www.bhaskar.com/local/uttar-pradesh/kanpur/vidhnu/news/kanpur-pandu-nadi-sewage-tanker-pollution-protest-live-update-138939556.html",
+      "source": "Dainik Bhaskar",
+      "source_logo": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAACGElEQVQ4jYVTv0ubURQ9977ke18bCApFQhI7lDaDg4tY6Obi0ikgzSgYA53q0g7-CQ7t4lZ_ROhmQLBL53YKNLhmkNKhGhE7tATSfu81794O1lRD1DtdLvfAuefcQxhR2piK8ONnFmxND0BGXMD4WJcqbT-8y8MDvzM5S5W29ymuObjpFNy0T3GNKm3vdyZnh_fpoknq9x_YXNT53UlWwNw0COsi9J4JCtJygFmByJM7hXjdnfpCXP329QoDm4s6yUlSN4YOScKeAhNM-hLQVwqaIAl7xtBhcpLUbS7qXGHgdyZn-32dM4YOIfoOUKuAHaLqAHJgWtSgJU7Rx2jpqMXamIqipaMWmJsSZGMUGADOZ2olyIYwN6Olo5Y2piLSt_l7PsU1QCsKTEBRGOXMJSodKL4T0W7Uly3usTUqcgClfVJkbwQDIEVWlfZV5ABszUBE0f-O3FZMUADoAeCMuEDMM0RaVkL3NrASdUFaJuaZjLjAGB_r2uXjNSHzQgXpc7WvoQ84FU0HmBW7fLyG8bHuwEbp6xzdYCMAT6AETIshaAmET3drx58Hd-uHhzY5SerM1JAgG8T4cyGqEroqSAvxc4Y-i_NxlZ5-ccClT3SnvhDn42oIWlI2CwScAfRalN4QcKZsFozqozgfV92pv97qi8C47eJqspmfTzbz8267uAoAv7aKj0foMkLpf3HusTUZALghzn8By6n9eaHOgNsAAAAASUVORK5CYII.png",
+      "date": "3 घंटे पहले",
+      "thumbnail": "https://serpapi.com/searches/6a9c0d712f47f8e5e4676ef3/images/priJcfE6UZogoB8iux9vU7tGgGu9VnB0bbGmNGwUqpQ.jpeg"
+    }
+  ],
+  "top_stories_link": "https://www.google.co.in/search?sca_esv=a03de85e817154d0&gl=in&hl=hi&sxsrf=APpeQntpY5qYZQ8Y8iya5dBcwjpTe1Q8AQ:1788611954303&q=Pollution&tbm=nws&source=univ&tbo=u&sa=X&ved=2ahUKEwjhjbXhuteWAxXWHDQIHXBzA2gQt8YBKAJ6BAg9EAU",
+  "top_stories_serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Pollution&tbm=nws",
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=Pollution&sca_esv=a03de85e817154d0&gl=in&hl=hi&sxsrf=APpeQntpY5qYZQ8Y8iya5dBcwjpTe1Q8AQ:1788611954303&ei=cg2cauGMEta50PEP8OaNwAY&start=10&sa=N&sstk=AS6-VmJDP6vBlM9vBE6jZ87y6Isx0lYVIAKWiHleqGw2nthRJnqwXEJ5VePjEzee3Bgh_e_-GukpIMOcb8Q2UuuutynpWjxKZrbA_A&ved=2ahUKEwjhjbXhuteWAxXWHDQIHXBzA2gQ8NMDegQIRBAI",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=Pollution&sca_esv=a03de85e817154d0&gl=in&hl=hi&sxsrf=APpeQntpY5qYZQ8Y8iya5dBcwjpTe1Q8AQ:1788611954303&ei=cg2cauGMEta50PEP8OaNwAY&start=10&sa=N&sstk=AS6-VmJDP6vBlM9vBE6jZ87y6Isx0lYVIAKWiHleqGw2nthRJnqwXEJ5VePjEzee3Bgh_e_-GukpIMOcb8Q2UuuutynpWjxKZrbA_A&ved=2ahUKEwjhjbXhuteWAxXWHDQIHXBzA2gQ8tMDegQIRBAE",
+      "3": "https://www.google.co.in/search?q=Pollution&sca_esv=a03de85e817154d0&gl=in&hl=hi&sxsrf=APpeQntpY5qYZQ8Y8iya5dBcwjpTe1Q8AQ:1788611954303&ei=cg2cauGMEta50PEP8OaNwAY&start=20&sa=N&sstk=AS6-VmJDP6vBlM9vBE6jZ87y6Isx0lYVIAKWiHleqGw2nthRJnqwXEJ5VePjEzee3Bgh_e_-GukpIMOcb8Q2UuuutynpWjxKZrbA_A&ved=2ahUKEwjhjbXhuteWAxXWHDQIHXBzA2gQ8tMDegQIRBAG"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Pollution&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Pollution&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Pollution&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Pollution&start=20"
+    }
+  }
+}

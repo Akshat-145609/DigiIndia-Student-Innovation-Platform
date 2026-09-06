@@ -1,0 +1,345 @@
+{
+  "search_metadata": {
+    "id": "6a9d4be4e396ebb81a73a647",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/mtPRdUvwh418lSfBV21pgudPHDcIWWYvyt9YPJoip3Y/6a9d4be4e396ebb81a73a647.json",
+    "markdown_endpoint": "https://serpapi.com/searches/mtPRdUvwh418lSfBV21pgudPHDcIWWYvyt9YPJoip3Y/6a9d4be4e396ebb81a73a647.md",
+    "created_at": "2026-09-06 11:17:56 UTC",
+    "processed_at": "2026-09-06 11:17:56 UTC",
+    "google_url": "https://www.google.co.in/search?q=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&oq=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&uule=w+CAIQICIFSW5kaWE&hl=hi&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/mtPRdUvwh418lSfBV21pgudPHDcIWWYvyt9YPJoip3Y/6a9d4be4e396ebb81a73a647.html",
+    "total_time_taken": 21.64
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "AI Powered Healthcare Assistant Using Machine Learning",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "AI Powered Healthcare Assistant Using Machine Learning",
+    "total_results": 146000,
+    "time_taken_displayed": 0.8,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "related_questions": [
+    {
+      "question": "How are AI and machine learning used in healthcare?",
+      "type": "ai_overview",
+      "page_token": "Llh-PnicHdBJbtswFIBh9DJZ2hpiFzVgFFBFWh5EQE_is8xNIZGxBlJDY9ZytOsdeoSeKqdJ0O0PfJv_zz_T9Pr9y9_a2vG2WS6naVpUw1CZl4UcFk2_LG5vvVzKwpiykHqz_rp2v1_lltxl8ONVBgkfRwzBST03L_KaqZ2Ai0MbNLDiGXcEV4fSo_cyMmvpPHSsH1xFgsUhC2BndIzAMhc6RJHF3GLawrH06zUzleUEf6dG3IBMFjxo0zYgQEeS5kjLaO-rtpqUz1ZKgyczesS8bs5n0JK4PbYXL96tujhS9mUnkuJMJ2GggU6divmQJBmGn61mqVugY0OcYZ9FeEzd6lmQx6dx6yI6hEkv_FLvfezUc6ptXJoRSS0t5qgvebCSRDngq0lRmjD8dkWfBhyGJuEwy9Z0SJmQs7CXDIJTZixEDE-ZcGMDv5J5P5_JIVbT01Xet_7T_9fbn9fObsbXofoAA-WNkg",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=Llh-PnicHdBJbtswFIBh9DJZ2hpiFzVgFFBFWh5EQE_is8xNIZGxBlJDY9ZytOsdeoSeKqdJ0O0PfJv_zz_T9Pr9y9_a2vG2WS6naVpUw1CZl4UcFk2_LG5vvVzKwpiykHqz_rp2v1_lltxl8ONVBgkfRwzBST03L_KaqZ2Ai0MbNLDiGXcEV4fSo_cyMmvpPHSsH1xFgsUhC2BndIzAMhc6RJHF3GLawrH06zUzleUEf6dG3IBMFjxo0zYgQEeS5kjLaO-rtpqUz1ZKgyczesS8bs5n0JK4PbYXL96tujhS9mUnkuJMJ2GggU6divmQJBmGn61mqVugY0OcYZ9FeEzd6lmQx6dx6yI6hEkv_FLvfezUc6ptXJoRSS0t5qgvebCSRDngq0lRmjD8dkWfBhyGJuEwy9Z0SJmQs7CXDIJTZixEDE-ZcGMDv5J5P5_JIVbT01Xet_7T_9fbn9fObsbXofoAA-WNkg",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1pXTjVSakZQWkZCdmJFaDZkMmxMTmt0VGNrdHRSM1F4YlV0bU1ESmxUMGxLV1d0SmRWUnZTMGRYV0dSbFJDMWZYMWRZWWxGSmVWZE1lVXhTUW5CWGNtSm1aelZ0TTFKYVYyUnRXblZMUmpkaVNrWjRibDlaTWpkdlFSSVhMVlYxWkdGd2VYQkhkRWQzY0hSUlVEVmZYMWR4UVZFYUlrRkVjM0k1WmxKTWFXdG1VVVZ2TmtONVgwSlBRMk5FT0U5blgyWjBXWEJYVlVFIiwiZmN2IjoiMyIsImVpIjoiLVV1ZGFweXBHdEd3cHRRUDVfX1dxQVEiLCJxYyI6IkNqWmhhU0J3YjNkbGNtVmtJR2hsWVd4MGFHTmhjbVVnWVhOemFYTjBZVzUwSUhWemFXNW5JRzFoWTJocGJtVWdiR1ZoY201cGJtY1FBSDBfTlJ3XyIsInF1ZXN0aW9uIjoiSG93IGFyZSBBSSBhbmQgbWFjaGluZSBsZWFybmluZyB1c2VkIGluIGhlYWx0aGNhcmU/IiwibGsiOiJHakZvYjNjZ2FYTWdZV2tnWVc1a0lHMWhZMmhwYm1VZ2JHVmhjbTVwYm1jZ2RYTmxaQ0JwYmlCb1pXRnNkR2hqWVhKbCIsImJzIjoiYzQyUFFRdkNNQXlGOFpxVDU0b1lHVHVMMnctWTN1YkZvX2ZZRmh2cE1sZ25fbjNiaVF6bUJJOUp2dmZ5SHR5aHJOc25VbWZ4ZUVJU2d3MXB4MkxSVy1xRTVZYVBZQTJ5b0xQa2U2Y2pXaFdsMnJzbzQ0REVfNnJnREhuOUZzVlhuM3RqRFd2eVNDRnc2RW42VUJXNXlrYjNueUFjWUpQOFREdEVIOWJUbkd1MVNrNHA1TXdkTHJCTERwcmt1OERWempiUDFIWWNJNUhRcVhhNWVBRSIsImlkIjoiZmNfLVV1ZGFweXBHdEd3cHRRUDVfX1dxQVFfNSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1pXTjVSakZQWkZCdmJFaDZkMmxMTmt0VGNrdHRSM1F4YlV0bU1ESmxUMGxLV1d0SmRWUnZTMGRYV0dSbFJDMWZYMWRZWWxGSmVWZE1lVXhTUW5CWGNtSm1aelZ0TTFKYVYyUnRXblZMUmpkaVNrWjRibDlaTWpkdlFSSVhMVlYxWkdGd2VYQkhkRWQzY0hSUlVEVmZYMWR4UVZFYUlrRkVjM0k1WmxKTWFXdG1VVVZ2TmtONVgwSlBRMk5FT0U5blgyWjBXWEJYVlVFIiwiZmN2IjoiMyIsImVpIjoiLVV1ZGFweXBHdEd3cHRRUDVfX1dxQVEiLCJxYyI6IkNqWmhhU0J3YjNkbGNtVmtJR2hsWVd4MGFHTmhjbVVnWVhOemFYTjBZVzUwSUhWemFXNW5JRzFoWTJocGJtVWdiR1ZoY201cGJtY1FBSDBfTlJ3XyIsInF1ZXN0aW9uIjoiSG93IGFyZSBBSSBhbmQgbWFjaGluZSBsZWFybmluZyB1c2VkIGluIGhlYWx0aGNhcmU%2FIiwibGsiOiJHakZvYjNjZ2FYTWdZV2tnWVc1a0lHMWhZMmhwYm1VZ2JHVmhjbTVwYm1jZ2RYTmxaQ0JwYmlCb1pXRnNkR2hqWVhKbCIsImJzIjoiYzQyUFFRdkNNQXlGOFpxVDU0b1lHVHVMMnctWTN1YkZvX2ZZRmh2cE1sZ25fbjNiaVF6bUJJOUp2dmZ5SHR5aHJOc25VbWZ4ZUVJU2d3MXB4MkxSVy1xRTVZYVBZQTJ5b0xQa2U2Y2pXaFdsMnJzbzQ0REVfNnJnREhuOUZzVlhuM3RqRFd2eVNDRnc2RW42VUJXNXlrYjNueUFjWUpQOFREdEVIOWJUbkd1MVNrNHA1TXdkTHJCTERwcmt1OERWempiUDFIWWNJNUhRcVhhNWVBRSIsImlkIjoiZmNfLVV1ZGFweXBHdEd3cHRRUDVfX1dxQVFfNSJ9"
+    },
+    {
+      "question": "How is AI used in medical assistants?",
+      "type": "ai_overview",
+      "page_token": "rUvITXicHdBbbqMwFABQzWb6mWAInTZSNFISXEDFkh18cf1TwfUQAubRFIaUv-5lVjWraTU7ODqff-2la_79uFXjOLxv1-t5nlfnvj_b3yvsV5dunb9_dLjG3Noix2Z7__Oe_CpxF0zR_vAW7bkcBjgK51SbBNNokwW3GmiwwY4NOfSjJjQ1TyYW7hAVDVyBPnh4rA4ox4mFgstm5IrYjNWVhkVE8IREEDuxlmyEqqa89XWR-QBHdNVCZ7OgzzI7mebhpiksSSDnwhWJbquJKcgxZClKuIpMZCwLNtq5hQXRMZPD4RRyIlvp5iEriyx2wdFlWsfP4kRIklKrA_RyV5z4Qr2gwhEUNC9q72NgHOGZ2VDKGTyW4NG9FP2FS7FgbVvZxVSnoEynFXPmJT2CSuyj-62bE4_7RsEi-V2Jf3be3f_P3WvZjtvh2p-_ABrrgzI",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=rUvITXicHdBbbqMwFABQzWb6mWAInTZSNFISXEDFkh18cf1TwfUQAubRFIaUv-5lVjWraTU7ODqff-2la_79uFXjOLxv1-t5nlfnvj_b3yvsV5dunb9_dLjG3Noix2Z7__Oe_CpxF0zR_vAW7bkcBjgK51SbBNNokwW3GmiwwY4NOfSjJjQ1TyYW7hAVDVyBPnh4rA4ox4mFgstm5IrYjNWVhkVE8IREEDuxlmyEqqa89XWR-QBHdNVCZ7OgzzI7mebhpiksSSDnwhWJbquJKcgxZClKuIpMZCwLNtq5hQXRMZPD4RRyIlvp5iEriyx2wdFlWsfP4kRIklKrA_RyV5z4Qr2gwhEUNC9q72NgHOGZ2VDKGTyW4NG9FP2FS7FgbVvZxVSnoEynFXPmJT2CSuyj-62bE4_7RsEi-V2Jf3be3f_P3WvZjtvh2p-_ABrrgzI",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1pXTjVSakZQWkZCdmJFaDZkMmxMTmt0VGNrdHRSM1F4YlV0bU1ESmxUMGxLV1d0SmRWUnZTMGRYV0dSbFJDMWZYMWRZWWxGSmVWZE1lVXhTUW5CWGNtSm1aelZ0TTFKYVYyUnRXblZMUmpkaVNrWjRibDlaTWpkdlFSSVhMVlYxWkdGd2VYQkhkRWQzY0hSUlVEVmZYMWR4UVZFYUlrRkVjM0k1WmxKTWFXdG1VVVZ2TmtONVgwSlBRMk5FT0U5blgyWjBXWEJYVlVFIiwiZmN2IjoiMyIsImVpIjoiLVV1ZGFweXBHdEd3cHRRUDVfX1dxQVEiLCJxYyI6IkNqWmhhU0J3YjNkbGNtVmtJR2hsWVd4MGFHTmhjbVVnWVhOemFYTjBZVzUwSUhWemFXNW5JRzFoWTJocGJtVWdiR1ZoY201cGJtY1FBSDBfTlJ3XyIsInF1ZXN0aW9uIjoiSG93IGlzIEFJIHVzZWQgaW4gbWVkaWNhbCBhc3Npc3RhbnRzPyIsImxrIjoiR2lOb2IzY2dhWE1nWVdrZ2RYTmxaQ0JwYmlCdFpXUnBZMkZzSUdGemMybHpkR0Z1ZEEiLCJicyI6ImM0MlBRUXZDTUF5RjhacVQ1NG9ZR1R1TDJ3LVkzdWJGb19mWUZodnBNbGduX24zYmlRem1CSTlKdnZmeUh0eWhyTnNuVW1meGVFSVNndzFweDJMUlctcUU1WWFQWUEyeW9MUGtlNmNqV2hXbDJyc280NERFXzZyZ0RIbjlGc1ZYbjN0akRXdnlTQ0Z3NkVuNlVCVzV5a2IzbnlBY1lKUDhURHRFSDliVG5HdTFTazRwNU13ZExyQkxEcHJrdThEVnpqYlAxSFljSTVIUXFYYTVlQUUiLCJpZCI6ImZjXy1VdWRhcHlwR3RHd3B0UVA1X19XcUFRXzUifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1pXTjVSakZQWkZCdmJFaDZkMmxMTmt0VGNrdHRSM1F4YlV0bU1ESmxUMGxLV1d0SmRWUnZTMGRYV0dSbFJDMWZYMWRZWWxGSmVWZE1lVXhTUW5CWGNtSm1aelZ0TTFKYVYyUnRXblZMUmpkaVNrWjRibDlaTWpkdlFSSVhMVlYxWkdGd2VYQkhkRWQzY0hSUlVEVmZYMWR4UVZFYUlrRkVjM0k1WmxKTWFXdG1VVVZ2TmtONVgwSlBRMk5FT0U5blgyWjBXWEJYVlVFIiwiZmN2IjoiMyIsImVpIjoiLVV1ZGFweXBHdEd3cHRRUDVfX1dxQVEiLCJxYyI6IkNqWmhhU0J3YjNkbGNtVmtJR2hsWVd4MGFHTmhjbVVnWVhOemFYTjBZVzUwSUhWemFXNW5JRzFoWTJocGJtVWdiR1ZoY201cGJtY1FBSDBfTlJ3XyIsInF1ZXN0aW9uIjoiSG93IGlzIEFJIHVzZWQgaW4gbWVkaWNhbCBhc3Npc3RhbnRzPyIsImxrIjoiR2lOb2IzY2dhWE1nWVdrZ2RYTmxaQ0JwYmlCdFpXUnBZMkZzSUdGemMybHpkR0Z1ZEEiLCJicyI6ImM0MlBRUXZDTUF5RjhacVQ1NG9ZR1R1TDJ3LVkzdWJGb19mWUZodnBNbGduX24zYmlRem1CSTlKdnZmeUh0eWhyTnNuVW1meGVFSVNndzFweDJMUlctcUU1WWFQWUEyeW9MUGtlNmNqV2hXbDJyc280NERFXzZyZ0RIbjlGc1ZYbjN0akRXdnlTQ0Z3NkVuNlVCVzV5a2IzbnlBY1lKUDhURHRFSDliVG5HdTFTazRwNU13ZExyQkxEcHJrdThEVnpqYlAxSFljSTVIUXFYYTVlQUUiLCJpZCI6ImZjXy1VdWRhcHlwR3RHd3B0UVA1X19XcUFRXzUifQ%3D%3D"
+    },
+    {
+      "question": "How do AI assist in healthcare?",
+      "type": "ai_overview",
+      "page_token": "Vq_j03icHdBbjpswFABQdTPzmdjQpE2kqKoZINCJKwy-GH4qY08eYMCZ0OHx1710VV1Nq67gSOfXb3Prmj8fpusw2Md-vR7HcXXp-4t5Xal-devW8jF3aq2kMZVUzX77aYu_nNXB_xkR7x6RhFsLzwxlPp9Lf6LVsXxngcLFokEibQoTRGlj_KKmV44uLjjlvQq1V7iWME5T-WxKmaslCyfxCpBKN5oTrAaaT3PSlYnmOJA54y_gY93abymaSOVPMfOQcwrjEdDUKRTHWgCuXBufmoejjl9nntt7VscOxwXK2vhNBjvxkuItrY2lgnligZnC549lOPSa6-h7yDYUXzfCscBh1_lXNYCAphBko3yNmKtHHQQJhd0Z3IBw1t8SzhZVm5ZnJEhabTSQW-KwMVuMowTxylqbU27pP_tYjk9n9X5wn_5_Hn6c22Fv3_rLX_U1g0k",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=Vq_j03icHdBbjpswFABQdTPzmdjQpE2kqKoZINCJKwy-GH4qY08eYMCZ0OHx1710VV1Nq67gSOfXb3Prmj8fpusw2Md-vR7HcXXp-4t5Xal-devW8jF3aq2kMZVUzX77aYu_nNXB_xkR7x6RhFsLzwxlPp9Lf6LVsXxngcLFokEibQoTRGlj_KKmV44uLjjlvQq1V7iWME5T-WxKmaslCyfxCpBKN5oTrAaaT3PSlYnmOJA54y_gY93abymaSOVPMfOQcwrjEdDUKRTHWgCuXBufmoejjl9nntt7VscOxwXK2vhNBjvxkuItrY2lgnligZnC549lOPSa6-h7yDYUXzfCscBh1_lXNYCAphBko3yNmKtHHQQJhd0Z3IBw1t8SzhZVm5ZnJEhabTSQW-KwMVuMowTxylqbU27pP_tYjk9n9X5wn_5_Hn6c22Fv3_rLX_U1g0k",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1pXTjVSakZQWkZCdmJFaDZkMmxMTmt0VGNrdHRSM1F4YlV0bU1ESmxUMGxLV1d0SmRWUnZTMGRYV0dSbFJDMWZYMWRZWWxGSmVWZE1lVXhTUW5CWGNtSm1aelZ0TTFKYVYyUnRXblZMUmpkaVNrWjRibDlaTWpkdlFSSVhMVlYxWkdGd2VYQkhkRWQzY0hSUlVEVmZYMWR4UVZFYUlrRkVjM0k1WmxKTWFXdG1VVVZ2TmtONVgwSlBRMk5FT0U5blgyWjBXWEJYVlVFIiwiZmN2IjoiMyIsImVpIjoiLVV1ZGFweXBHdEd3cHRRUDVfX1dxQVEiLCJxYyI6IkNqWmhhU0J3YjNkbGNtVmtJR2hsWVd4MGFHTmhjbVVnWVhOemFYTjBZVzUwSUhWemFXNW5JRzFoWTJocGJtVWdiR1ZoY201cGJtY1FBSDBfTlJ3XyIsInF1ZXN0aW9uIjoiSG93IGRvIEFJIGFzc2lzdCBpbiBoZWFsdGhjYXJlPyIsImxrIjoiR2h0b2IzY2dZV2tnWVhOemFYTjBJR2x1SUdobFlXeDBhR05oY21VIiwiYnMiOiJjNDJQUVF2Q01BeUY4WnFUNTRvWUdUdUwydy1ZM3ViRm9fZllGaHZwTWxnbl9uM2JpUXptQkk5SnZ2ZnlIdHlock5zblVtZnhlRUlTZ3cxcHgyTFJXLXFFNVlhUFlBMnlvTFBrZTZjaldoV2wycnNvNDRERV82cmdESG45RnNWWG4zdGpEV3Z5U0NGdzZFbjZVQlc1eWtiM255QWNZSlA4VER0RUg5YlRuR3UxU2s0cDVNd2RMckJMRHBya3U4RFZ6amJQMUhZY0k1SFFxWGE1ZUFFIiwiaWQiOiJmY18tVXVkYXB5cEd0R3dwdFFQNV9fV3FBUV81In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1pXTjVSakZQWkZCdmJFaDZkMmxMTmt0VGNrdHRSM1F4YlV0bU1ESmxUMGxLV1d0SmRWUnZTMGRYV0dSbFJDMWZYMWRZWWxGSmVWZE1lVXhTUW5CWGNtSm1aelZ0TTFKYVYyUnRXblZMUmpkaVNrWjRibDlaTWpkdlFSSVhMVlYxWkdGd2VYQkhkRWQzY0hSUlVEVmZYMWR4UVZFYUlrRkVjM0k1WmxKTWFXdG1VVVZ2TmtONVgwSlBRMk5FT0U5blgyWjBXWEJYVlVFIiwiZmN2IjoiMyIsImVpIjoiLVV1ZGFweXBHdEd3cHRRUDVfX1dxQVEiLCJxYyI6IkNqWmhhU0J3YjNkbGNtVmtJR2hsWVd4MGFHTmhjbVVnWVhOemFYTjBZVzUwSUhWemFXNW5JRzFoWTJocGJtVWdiR1ZoY201cGJtY1FBSDBfTlJ3XyIsInF1ZXN0aW9uIjoiSG93IGRvIEFJIGFzc2lzdCBpbiBoZWFsdGhjYXJlPyIsImxrIjoiR2h0b2IzY2dZV2tnWVhOemFYTjBJR2x1SUdobFlXeDBhR05oY21VIiwiYnMiOiJjNDJQUVF2Q01BeUY4WnFUNTRvWUdUdUwydy1ZM3ViRm9fZllGaHZwTWxnbl9uM2JpUXptQkk5SnZ2ZnlIdHlock5zblVtZnhlRUlTZ3cxcHgyTFJXLXFFNVlhUFlBMnlvTFBrZTZjaldoV2wycnNvNDRERV82cmdESG45RnNWWG4zdGpEV3Z5U0NGdzZFbjZVQlc1eWtiM255QWNZSlA4VER0RUg5YlRuR3UxU2s0cDVNd2RMckJMRHBya3U4RFZ6amJQMUhZY0k1SFFxWGE1ZUFFIiwiaWQiOiJmY18tVXVkYXB5cEd0R3dwdFFQNV9fV3FBUV81In0%3D"
+    },
+    {
+      "question": "How can machine learning be used in healthcare?",
+      "type": "ai_overview",
+      "page_token": "mAlOCnicHdBNbqMwGABQ9TJdJnYQHTVSVIkUN0HCUxt_5mczAjuB1AY8CQ2Nd73DHGFONaeZqhd4i_f5154G8-_uTzdN7rJeLud5XrTj2NrDQo2L07CsL7dBLVVtbVMrs3748YCfjmoTX1W0PauIgXPymSOxo4kWHKtdksq82sMLuZUrWjZBVzRif6tAB7LQY43HD-ZTBH2HMsNXB_g45y8ONZJ5ai5z4RUGacN057YiICttGabIzc3QIZ1T3ngS0BhuGXGQAXy5EOaiRZBTURn81gyR0Vb-1oTHXBLg8TQymQhpbdXEZpVDSDOvM2EkLT1FtdADN_z9J7F5NXQUEH4GmK4paiclwYstZod-H8IWl2At5Yj7uFOTLKQpiyhUsUY80LMmhFH5eJQBiYCPJwbcqzfbA04YHRyV8aOpe0DS2xRslAjoXquBJM0umoHdH9V1E9x_X29-Hftp7c5j-x-76I3r",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=mAlOCnicHdBNbqMwGABQ9TJdJnYQHTVSVIkUN0HCUxt_5mczAjuB1AY8CQ2Nd73DHGFONaeZqhd4i_f5154G8-_uTzdN7rJeLud5XrTj2NrDQo2L07CsL7dBLVVtbVMrs3748YCfjmoTX1W0PauIgXPymSOxo4kWHKtdksq82sMLuZUrWjZBVzRif6tAB7LQY43HD-ZTBH2HMsNXB_g45y8ONZJ5ai5z4RUGacN057YiICttGabIzc3QIZ1T3ngS0BhuGXGQAXy5EOaiRZBTURn81gyR0Vb-1oTHXBLg8TQymQhpbdXEZpVDSDOvM2EkLT1FtdADN_z9J7F5NXQUEH4GmK4paiclwYstZod-H8IWl2At5Yj7uFOTLKQpiyhUsUY80LMmhFH5eJQBiYCPJwbcqzfbA04YHRyV8aOpe0DS2xRslAjoXquBJM0umoHdH9V1E9x_X29-Hftp7c5j-x-76I3r",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1pXTjVSakZQWkZCdmJFaDZkMmxMTmt0VGNrdHRSM1F4YlV0bU1ESmxUMGxLV1d0SmRWUnZTMGRYV0dSbFJDMWZYMWRZWWxGSmVWZE1lVXhTUW5CWGNtSm1aelZ0TTFKYVYyUnRXblZMUmpkaVNrWjRibDlaTWpkdlFSSVhMVlYxWkdGd2VYQkhkRWQzY0hSUlVEVmZYMWR4UVZFYUlrRkVjM0k1WmxKTWFXdG1VVVZ2TmtONVgwSlBRMk5FT0U5blgyWjBXWEJYVlVFIiwiZmN2IjoiMyIsImVpIjoiLVV1ZGFweXBHdEd3cHRRUDVfX1dxQVEiLCJxYyI6IkNqWmhhU0J3YjNkbGNtVmtJR2hsWVd4MGFHTmhjbVVnWVhOemFYTjBZVzUwSUhWemFXNW5JRzFoWTJocGJtVWdiR1ZoY201cGJtY1FBSDBfTlJ3XyIsInF1ZXN0aW9uIjoiSG93IGNhbiBtYWNoaW5lIGxlYXJuaW5nIGJlIHVzZWQgaW4gaGVhbHRoY2FyZT8iLCJsayI6IkdpRm9aV0ZzZEdoallYSmxJSFZ6YVc1bklHMWhZMmhwYm1VZ2JHVmhjbTVwYm1jIiwiYnMiOiJjNDJQUVF2Q01BeUY4WnFUNTRvWUdUdUwydy1ZM3ViRm9fZllGaHZwTWxnbl9uM2JpUXptQkk5SnZ2ZnlIdHlock5zblVtZnhlRUlTZ3cxcHgyTFJXLXFFNVlhUFlBMnlvTFBrZTZjaldoV2wycnNvNDRERV82cmdESG45RnNWWG4zdGpEV3Z5U0NGdzZFbjZVQlc1eWtiM255QWNZSlA4VER0RUg5YlRuR3UxU2s0cDVNd2RMckJMRHBya3U4RFZ6amJQMUhZY0k1SFFxWGE1ZUFFIiwiaWQiOiJmY18tVXVkYXB5cEd0R3dwdFFQNV9fV3FBUV81In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSS1pXTjVSakZQWkZCdmJFaDZkMmxMTmt0VGNrdHRSM1F4YlV0bU1ESmxUMGxLV1d0SmRWUnZTMGRYV0dSbFJDMWZYMWRZWWxGSmVWZE1lVXhTUW5CWGNtSm1aelZ0TTFKYVYyUnRXblZMUmpkaVNrWjRibDlaTWpkdlFSSVhMVlYxWkdGd2VYQkhkRWQzY0hSUlVEVmZYMWR4UVZFYUlrRkVjM0k1WmxKTWFXdG1VVVZ2TmtONVgwSlBRMk5FT0U5blgyWjBXWEJYVlVFIiwiZmN2IjoiMyIsImVpIjoiLVV1ZGFweXBHdEd3cHRRUDVfX1dxQVEiLCJxYyI6IkNqWmhhU0J3YjNkbGNtVmtJR2hsWVd4MGFHTmhjbVVnWVhOemFYTjBZVzUwSUhWemFXNW5JRzFoWTJocGJtVWdiR1ZoY201cGJtY1FBSDBfTlJ3XyIsInF1ZXN0aW9uIjoiSG93IGNhbiBtYWNoaW5lIGxlYXJuaW5nIGJlIHVzZWQgaW4gaGVhbHRoY2FyZT8iLCJsayI6IkdpRm9aV0ZzZEdoallYSmxJSFZ6YVc1bklHMWhZMmhwYm1VZ2JHVmhjbTVwYm1jIiwiYnMiOiJjNDJQUVF2Q01BeUY4WnFUNTRvWUdUdUwydy1ZM3ViRm9fZllGaHZwTWxnbl9uM2JpUXptQkk5SnZ2ZnlIdHlock5zblVtZnhlRUlTZ3cxcHgyTFJXLXFFNVlhUFlBMnlvTFBrZTZjaldoV2wycnNvNDRERV82cmdESG45RnNWWG4zdGpEV3Z5U0NGdzZFbjZVQlc1eWtiM255QWNZSlA4VER0RUg5YlRuR3UxU2s0cDVNd2RMckJMRHBya3U4RFZ6amJQMUhZY0k1SFFxWGE1ZUFFIiwiaWQiOiJmY18tVXVkYXB5cEd0R3dwdFFQNV9fV3FBUV81In0%3D"
+    }
+  ],
+  "ai_overview": {
+    "page_token": "eZyIiXiczVXbkqo4FP2A-Y7hxW4BRVu7ijoVEO_axnv3CwWBDlEQJdi0_Xb-ZX5ifmW-ZgLewNE-3fMwNamCJDuXvbKzV9bPP1yyWv71259OGK7pI89HUZTHvo9dO4_8PFnxBt2tEP_quzRAzg_symTFUX8bIJtYMnIC37O57da15SinghZsqa36aFZaGjONc1zZIdzuTS5yiMoCZxP5frK1jPVu3Qgb0TqEg5KuzzYAcokXWTcNai8YjPcF5XWe_Za_F2usk6d5h-S77wv_XY2W9pOULwhiNf_EGx6bAP67gjXQYn-wjCtW4NVZKgDaFzbTtHgrpZUyQeW0w7FEcQez0Ca9zs3dGskaHENMWjXpRe_1WaO_H6_dQsuA4Cz8iP1aiet4KwWQLxzmtPjYmBzqW06zs_9pVVOgeqnBm5F9zvRYWNVBBCA8-VDSw-1Mfxj_Gnu0ZfAe9SNyO9AJCAiaPTyCGIDWpxOxMnY6xxA0InYXmLcwS1qBNwNWiTxBDkoaAY1zWR1XBV-rTj_Qwg-VKHgprNCmuA79obbtNu0B5pHJ5rm-YdmW7ujCj6QvFsSSUC0-VO4SEiF6YhFNs-hj3IJObRwUP0C-m1fEI4XU0zmULH6V9ZWrIXcOU5UrY-RshadLxklIT-Gq7wOZil_qwjuDOGbqOXuUhzgLnDSy86qrFMqASyikHDYj51vLJL7aOOdjNjGfLg8ItIu1zKJEJwiZJ0m9dKSCEWYHOx4tE934dVEZd3BsnmCp5SfmGr7kkZZFqCTrQOtIgtMoPPhIUSg-vxOzG4_YxDZkC9X4Po6QjvettC-dDsHVwh4dML1O5V-Vz2l2wAGOXLlI_TRl6hhOJBsRtBxXzcB5WU_gemp6pUrTia5TxPfMbygN-l-R6KhDbuJRS719FyTSvkAipkP4Mx3atw861D7o0G0SqSq4qkOD_YSUDl2SSMMZEn2qQ98mEfyMRPv6KoliHbpGouUtEu1Xp0g0yupQhkRnHTqR6Ps6ZPxLHUo4Ze-rrChtF_imODV6_c5HcffWNHtwMW_UyWBhwSbaVccV8EtxevXCR8-w3DudWI9KoR3urDudGfxH2-I2MmjlBn5kB7aVa9qGGzrICOwcoJTQ0FiFuQklK5zrGcghKzvXtY1gxQyc5wa-LBhl0ahKttjYbUpCB3TH5eep4j2U52Rumc_R4l4ZOYY3HG7vt_dD6m7N_stHWyIN5qQkisZ0syHzYDqvU1_fFICoV-h8HGgLafkk1tGbJ5bNl9KbUiLKROtVqsslFrWJ6wfmrOsFc6n8tHhturVCbTDrKIFAR1ZbSoBRuQI0E3ZD6k6ZJUAyu2UJgz4EMwwQUJ8BZEkGVZ99LFPUMoCawlFk6DZ9kx8KkvlaKJqSVbGFslHkPBzu1nJV4OgqkMW_Aet5WPQ",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=eZyIiXiczVXbkqo4FP2A-Y7hxW4BRVu7ijoVEO_axnv3CwWBDlEQJdi0_Xb-ZX5ifmW-ZgLewNE-3fMwNamCJDuXvbKzV9bPP1yyWv71259OGK7pI89HUZTHvo9dO4_8PFnxBt2tEP_quzRAzg_symTFUX8bIJtYMnIC37O57da15SinghZsqa36aFZaGjONc1zZIdzuTS5yiMoCZxP5frK1jPVu3Qgb0TqEg5KuzzYAcokXWTcNai8YjPcF5XWe_Za_F2usk6d5h-S77wv_XY2W9pOULwhiNf_EGx6bAP67gjXQYn-wjCtW4NVZKgDaFzbTtHgrpZUyQeW0w7FEcQez0Ca9zs3dGskaHENMWjXpRe_1WaO_H6_dQsuA4Cz8iP1aiet4KwWQLxzmtPjYmBzqW06zs_9pVVOgeqnBm5F9zvRYWNVBBCA8-VDSw-1Mfxj_Gnu0ZfAe9SNyO9AJCAiaPTyCGIDWpxOxMnY6xxA0InYXmLcwS1qBNwNWiTxBDkoaAY1zWR1XBV-rTj_Qwg-VKHgprNCmuA79obbtNu0B5pHJ5rm-YdmW7ujCj6QvFsSSUC0-VO4SEiF6YhFNs-hj3IJObRwUP0C-m1fEI4XU0zmULH6V9ZWrIXcOU5UrY-RshadLxklIT-Gq7wOZil_qwjuDOGbqOXuUhzgLnDSy86qrFMqASyikHDYj51vLJL7aOOdjNjGfLg8ItIu1zKJEJwiZJ0m9dKSCEWYHOx4tE934dVEZd3BsnmCp5SfmGr7kkZZFqCTrQOtIgtMoPPhIUSg-vxOzG4_YxDZkC9X4Po6QjvettC-dDsHVwh4dML1O5V-Vz2l2wAGOXLlI_TRl6hhOJBsRtBxXzcB5WU_gemp6pUrTia5TxPfMbygN-l-R6KhDbuJRS719FyTSvkAipkP4Mx3atw861D7o0G0SqSq4qkOD_YSUDl2SSMMZEn2qQ98mEfyMRPv6KoliHbpGouUtEu1Xp0g0yupQhkRnHTqR6Ps6ZPxLHUo4Ze-rrChtF_imODV6_c5HcffWNHtwMW_UyWBhwSbaVccV8EtxevXCR8-w3DudWI9KoR3urDudGfxH2-I2MmjlBn5kB7aVa9qGGzrICOwcoJTQ0FiFuQklK5zrGcghKzvXtY1gxQyc5wa-LBhl0ahKttjYbUpCB3TH5eep4j2U52Rumc_R4l4ZOYY3HG7vt_dD6m7N_stHWyIN5qQkisZ0syHzYDqvU1_fFICoV-h8HGgLafkk1tGbJ5bNl9KbUiLKROtVqsslFrWJ6wfmrOsFc6n8tHhturVCbTDrKIFAR1ZbSoBRuQI0E3ZD6k6ZJUAyu2UJgz4EMwwQUJ8BZEkGVZ99LFPUMoCawlFk6DZ9kx8KkvlaKJqSVbGFslHkPBzu1nJV4OgqkMW_Aet5WPQ"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "An AI-Powered Healthcare Customer Assistance System ...",
+      "link": "https://iircj.org/wp-content/uploads/92.-An-AI-Powered-Healthcare-Customer-Assistance-System-Using-Transformer-Models.pdf",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESsQEB6zswFYOj0IFtuAKj3DMUM8EYAF0m88MNfO7zkJ0xYlFDF1yoylbjzUSfciSR83KklqubO2dmv5VNklYLfv1W60PsRJTylDg6TfHuTqfuE_bVMWF9D7dJcKilirkgm4CkSHJ50tvqbGxB9WY_NljefLs5V0BdgAXINTlqgUS1yVsDqnIzekXHBKcgFqNg3tIG4LG6Ri1Jipf7Ur7LIin-FDfCHDldHOyqEOVz2zj3qSw&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQFnoECBoQAQ&uoh=1",
+      "displayed_link": "https://iircj.org › wp-content › uploads › 92.-An-...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAolBMVEX_______7-______3___r5_Pz__f7___zM6fOLzPGS0-1IteJQtuma1PGXz-_v-fzN6_AAofEVq-m24vJswvLy_PZQuusAo-ssseXk9fiDz-9ev-wApu5xxO4ApvAApupHtvPH6PcApuii1u44tu654POt3e3J6_BduvG55eyl1fR3wvSGy_P5_vpKs-ze7_mJyPDc8vTm8vuw4O9wyOkApt92wEhEAAABuUlEQVR4AW3OBZbjMAwAUMlyahfT2inYMTRYTDt4_6vtS3Z45j8UCz4hI84ZMfgTTzj9SCECjASiHE-mcjZfpKKfZQyIAQkEYMCXK6Wz9Wa-3XEBwAQhIwCTAojE5s7PlAyTuM8LAIapEQxQl5JoFsaFzipeV81SrVoSMmpCYFRUeAg-H4djLV2-PZVe4agqOGK_npPe2H1T2vP6cq2bcFLdkIceo-p239X73Josr0t_jwbeEV86fZzZRkepZKGyrLnBf8YkOH_Iy-pRNUrux_ODd21pePqUpqCUFW09j8dSN5Yf53qbxTYkwta1AkAkuoVNlW_0_vF4terkXAVieHbQqdJY7w-muF3Pz2HBCT519fUlm4X6ceX8rdlWfAQDAkoTPvczFzJbtMG5RTTYpYjAABL_aohXZVvp_TLTOpveiRl37RgCplUqiHizrd1mvVJRdXyE1FUJIBAMRlxeJwlIO085wnsWBA4vQSe6LumIOPYVEvCJ7DYOylgQ_OS3zrkYndu28BNP5L33uJQCfugfUnVvxuA3ksHFXvJHTZjMv3jvJwS_COC8jUqtBYdfGDLspJTA2GfyH_QTKML1Q9U7AAAAAElFTkSuQmCC.png",
+      "snippet": "Researchers have also emphasized the role of AI in enhancing medical decision support systems, patient monitoring, disease prediction, and healthcare data.",
+      "snippet_highlighted_words": [
+        "AI in",
+        "medical",
+        "and healthcare"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Researchers have also emphasized the role of AI in enhancing medical decision support systems, patient monitoring, disease prediction, and healthcare data.",
+          "source_info_link": "https://iircj.org/wp-content/uploads/92.-An-AI-Powered-Healthcare-Customer-Assistance-System-Using-Transformer-Models.pdf",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAolBMVEX_______7-______3___r5_Pz__f7___zM6fOLzPGS0-1IteJQtuma1PGXz-_v-fzN6_AAofEVq-m24vJswvLy_PZQuusAo-ssseXk9fiDz-9ev-wApu5xxO4ApvAApupHtvPH6PcApuii1u44tu654POt3e3J6_BduvG55eyl1fR3wvSGy_P5_vpKs-ze7_mJyPDc8vTm8vuw4O9wyOkApt92wEhEAAABuUlEQVR4AW3OBZbjMAwAUMlyahfT2inYMTRYTDt4_6vtS3Z45j8UCz4hI84ZMfgTTzj9SCECjASiHE-mcjZfpKKfZQyIAQkEYMCXK6Wz9Wa-3XEBwAQhIwCTAojE5s7PlAyTuM8LAIapEQxQl5JoFsaFzipeV81SrVoSMmpCYFRUeAg-H4djLV2-PZVe4agqOGK_npPe2H1T2vP6cq2bcFLdkIceo-p239X73Josr0t_jwbeEV86fZzZRkepZKGyrLnBf8YkOH_Iy-pRNUrux_ODd21pePqUpqCUFW09j8dSN5Yf53qbxTYkwta1AkAkuoVNlW_0_vF4terkXAVieHbQqdJY7w-muF3Pz2HBCT519fUlm4X6ceX8rdlWfAQDAkoTPvczFzJbtMG5RTTYpYjAABL_aohXZVvp_TLTOpveiRl37RgCplUqiHizrd1mvVJRdXyE1FUJIBAMRlxeJwlIO085wnsWBA4vQSe6LumIOPYVEvCJ7DYOylgQ_OS3zrkYndu28BNP5L33uJQCfugfUnVvxuA3ksHFXvJHTZjMv3jvJwS_COC8jUqtBYdfGDLspJTA2GfyH_QTKML1Q9U7AAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://iircj.org/wp-content/uploads/92.-An-AI-Powered-Healthcare-Customer-Assistance-System-Using-Transformer-Models.pdf&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fiircj.org%2Fwp-content%2Fuploads%2F92.-An-AI-Powered-Healthcare-Customer-Assistance-System-Using-Transformer-Models.pdf",
+      "source": "Innovation and Integrative Research Center Journal"
+    },
+    {
+      "position": 2,
+      "title": "An Integrated AI-Based Healthcare Assistant for Disease ...",
+      "link": "https://rjwave.org/jaafr/viewpaperforall.php?paper\\u003dJAAFR2603990",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdwHrOzAVFCzCd69jeyldkMJQL1FWT1oMYV_e9Oh97RLMiX3QVc9PO7BNtzvsIQJx_nRjFPGKD50GzypKvhVkVrE8KeX3CaJZHKG9v8WSRWUNtwYPW5z-vMGcqvCqYpjadt8SJcJnmZtA8r2qZOWTrDG2yGL9SN5x&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQFnoECCAQAQ&uoh=1",
+      "displayed_link": "https://rjwave.org › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAPCAMAAADAkV-TAAAAclBMVEVHcEw_P4o-Poo_P4o_P4o_P4o_P4o-Poo_P4o_P4o_P4o_P4o_P4o1NYY_P4r___8sLIM4OIcmJoA7O4gzM4Xx8fWmpsPW1uN8fKoHB3fFxdj6-vy9vdKUlLiHh7CwsMqdnb7n5-5OTpFubqJfX5oaGnzC5N3LAAAADnRSTlMAvBOa60bN3iv0rgtg5BwO4MQAAAENSURBVBiVLVHruoMgDEPnBT1bW-4iiJdt7_-KAzz5ly9JWwJjGf3cwdQ8WUX_GMbhwW_C_ka4MfFClCZJAppbUyJDVZm3oK94GpckTEUc30vGR9bsSAdWnAqGvELHyhwVVaRo92hj3C1Bz2b4GuO9w6tMlmH3dvdu9WYRMxtBmnBYNCWpPojyQO_iglF3bCqiw_Vbpy6I6TL-WGLZk5NlrME3AVFJrjItFwVcqWMPsSFuF6L9no5kwOBV8NmURMO4SNYmWuwm7aF1dtoVjxVPma9lg9BagKC3W7dXJ_f7nQZUV1ro7vL0tumWQzYFPC0paGuBza2KV6Z8EiSl1DC2_9Xz-hH9TZ7NBN1cyQ_cahm7jpbchwAAAABJRU5ErkJggg.png",
+      "snippet": "Healix.AI: An Integrated AI-Based Healthcare Assistant for Disease Prediction, OCR-Based Report Analysis, Wellness Tracking, and Preventive Care · Anamika Yadav ...",
+      "snippet_highlighted_words": [
+        "Healix.AI: An Integrated AI-Based Healthcare Assistant"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Healix.AI: An Integrated AI-Based Healthcare Assistant for Disease Prediction, OCR-Based Report Analysis, Wellness Tracking, and Preventive Care · Anamika Yadav ...",
+          "source_info_link": "https://rjwave.org/jaafr/viewpaperforall.php?paper=JAAFR2603990",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAPCAMAAADAkV-TAAAAclBMVEVHcEw_P4o-Poo_P4o_P4o_P4o_P4o-Poo_P4o_P4o_P4o_P4o_P4o1NYY_P4r___8sLIM4OIcmJoA7O4gzM4Xx8fWmpsPW1uN8fKoHB3fFxdj6-vy9vdKUlLiHh7CwsMqdnb7n5-5OTpFubqJfX5oaGnzC5N3LAAAADnRSTlMAvBOa60bN3iv0rgtg5BwO4MQAAAENSURBVBiVLVHruoMgDEPnBT1bW-4iiJdt7_-KAzz5ly9JWwJjGf3cwdQ8WUX_GMbhwW_C_ka4MfFClCZJAppbUyJDVZm3oK94GpckTEUc30vGR9bsSAdWnAqGvELHyhwVVaRo92hj3C1Bz2b4GuO9w6tMlmH3dvdu9WYRMxtBmnBYNCWpPojyQO_iglF3bCqiw_Vbpy6I6TL-WGLZk5NlrME3AVFJrjItFwVcqWMPsSFuF6L9no5kwOBV8NmURMO4SNYmWuwm7aF1dtoVjxVPma9lg9BagKC3W7dXJ_f7nQZUV1ro7vL0tumWQzYFPC0paGuBza2KV6Z8EiSl1DC2_9Xz-hH9TZ7NBN1cyQ_cahm7jpbchwAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://rjwave.org/jaafr/viewpaperforall.php?paper=JAAFR2603990&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Frjwave.org%2Fjaafr%2Fviewpaperforall.php%3Fpaper%3DJAAFR2603990",
+      "source": "RJWave.org"
+    },
+    {
+      "position": 3,
+      "title": "AI-Powered Healthcare Chatbot: MediChat | PDF",
+      "link": "https://www.scribd.com/document/913153215/Te-Mini-Project-Report-Medichat-Sem-Vi",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiAEB6zswFcah5ncCqnSloaVTAj_fDWc28Vc-PFn06IYHrLCq4bUeNOaeDQkOkFidFnXUFg4k0RJzsphma2t2rcopnhe-FHbedOZnaNIK6-aEoRgw8FXUYxChA3bPOHnkylY6Z--kkomT74flFMwyXb4gtF4MP18ftGMCsAX_IB6LGJdKzRBfABVT&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQFnoECCEQAQ&uoh=1",
+      "displayed_link": "https://www.scribd.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAflBMVEUJhkcIhkcIhkYAh0dRo3aJwKKOwaWMwaRKonMAhUXt9_L4_Prz-_h-vp0AhEP____T6t_M5tlqtI7p9e83k18di1AojlVcroSz2sbb7-Wm1L0okVqezLR4tpWp0LtnrYaZya9AnGpyr4uJuZxZpXoellzB4NC8384AjU-x2cTZS5WPAAABBUlEQVR4AYWSBQLDIAxFG6ildEnddb77X3DMhcmvIA-JWf8EQgu-jEFq3eHLGMB2XNfz8cbQ91zXseGEhXQCpcIFXfcCLUKlAkeKM3QVR3GCunt-KYkjVu4dplluCaSzQFh5lj7DggTmZVXXjZ2joOIVIradYq3AyxHfIMk-5Lgbak5HpHeYd1z7RGPIU27sLBquZ6J8uVobEMFjrqtkI4mEAXHeanNUsC0lmDspT3apNjjspQklktz7XcDbzLC27ac1aD5pow2YxRxpa9udbt4hWp7ieOi2iqfcgNg2ik-qZjN82v7yUNe7pAXQO7-kjN5T9pJsfEn2jzL5UWA_SvN3Uf_WEWKkGjSp2MmkAAAAAElFTkSuQmCC.png",
+      "snippet": "The use of AI in MediChat impacts health condition prediction and analysis by employing machine learning algorithms and preprocessing techniques to accurately ...",
+      "snippet_highlighted_words": [
+        "use",
+        "AI in",
+        "health",
+        "and",
+        "machine learning",
+        "and"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "The use of AI in MediChat impacts health condition prediction and analysis by employing machine learning algorithms and preprocessing techniques to accurately ...",
+          "source_info_link": "https://www.scribd.com/document/913153215/Te-Mini-Project-Report-Medichat-Sem-Vi",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAflBMVEUJhkcIhkcIhkYAh0dRo3aJwKKOwaWMwaRKonMAhUXt9_L4_Prz-_h-vp0AhEP____T6t_M5tlqtI7p9e83k18di1AojlVcroSz2sbb7-Wm1L0okVqezLR4tpWp0LtnrYaZya9AnGpyr4uJuZxZpXoellzB4NC8384AjU-x2cTZS5WPAAABBUlEQVR4AYWSBQLDIAxFG6ildEnddb77X3DMhcmvIA-JWf8EQgu-jEFq3eHLGMB2XNfz8cbQ91zXseGEhXQCpcIFXfcCLUKlAkeKM3QVR3GCunt-KYkjVu4dplluCaSzQFh5lj7DggTmZVXXjZ2joOIVIradYq3AyxHfIMk-5Lgbak5HpHeYd1z7RGPIU27sLBquZ6J8uVobEMFjrqtkI4mEAXHeanNUsC0lmDspT3apNjjspQklktz7XcDbzLC27ac1aD5pow2YxRxpa9udbt4hWp7ieOi2iqfcgNg2ik-qZjN82v7yUNe7pAXQO7-kjN5T9pJsfEn2jzL5UWA_SvN3Uf_WEWKkGjSp2MmkAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.scribd.com/document/913153215/Te-Mini-Project-Report-Medichat-Sem-Vi&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.scribd.com%2Fdocument%2F913153215%2FTe-Mini-Project-Report-Medichat-Sem-Vi",
+      "source": "Scribd"
+    },
+    {
+      "position": 4,
+      "title": "ai #healthcareinnovation #healthtech #machinelearning ...",
+      "link": "https://www.linkedin.com/posts/devanandu-sreenath-a828a9228_ai-healthcareinnovation-healthtech-activity-7363916247270359040-2SQP",
+      "displayed_link": "20+ प्रतिक्रियाएं · 1 वर्ष पहले",
+      "thumbnail": "https://serpapi.com/searches/6a9d4be4e396ebb81a73a647/images/9L1HeEsZim_TaYC-Wh32iK9OBdvy_oHUmgcZjTNMHdo.jpeg",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAm0lEQVR4AWP4__8_RRhMyLfs3sNQvOk_KRikB24ATNB2yhEQJtoQuAEwzVAAYtPVAMJe4Cjf8l-0bsd_RkIGQAGc_ej9t_-TDt_7_-vPXzD_6Yfv_-2nHSXWAAT49P33_z9__4HZl559JM2Aqm3XwXyXGcfA_H___pFmgFj9DjCfp3IrTIgkA5ADbbAbQA6mKDPp9x7YBTOAIgwAVba5DGceMlQAAAAASUVORK5CYII.png",
+      "snippet": "Excited to share my latest project: an AI-powered healthcare assistant built with Flask, NLP, and machine learning. This system goes beyond ...",
+      "duration": "1:40",
+      "about_this_result": {
+        "source": {
+          "description": "Excited to share my latest project: an AI-powered healthcare assistant built with Flask, NLP, and machine learning. This system goes beyond ...",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAm0lEQVR4AWP4__8_RRhMyLfs3sNQvOk_KRikB24ATNB2yhEQJtoQuAEwzVAAYtPVAMJe4Cjf8l-0bsd_RkIGQAGc_ej9t_-TDt_7_-vPXzD_6Yfv_-2nHSXWAAT49P33_z9__4HZl559JM2Aqm3XwXyXGcfA_H___pFmgFj9DjCfp3IrTIgkA5ADbbAbQA6mKDPp9x7YBTOAIgwAVba5DGceMlQAAAAASUVORK5CYII.png"
+        }
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.google.co.in/goto?url=CAESuQEB6zswFcMGiwmspIHqA6R3VsziLbGeSWMu9DGzB6lJJfiMg1qMdlGiLETOJjxP5UJqOu3a0p_r_SeUzA-2SUi_4JIznETNqVKSLeLDRuZQjC790PZG3ovOrvJkOYUi1QwSZYYtrWXXTHel5uubwrv_iDKGDGrhdcDPVHSrfSbHtLjYkm59juc0oTivb0di_oL4QibWKnzlXyZlb3Gc1QLLL6seEeLkott9ycIovh9NCMSFdozOk-9zpg&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.google.co.in%2Fgoto%3Furl%3DCAESuQEB6zswFcMGiwmspIHqA6R3VsziLbGeSWMu9DGzB6lJJfiMg1qMdlGiLETOJjxP5UJqOu3a0p_r_SeUzA-2SUi_4JIznETNqVKSLeLDRuZQjC790PZG3ovOrvJkOYUi1QwSZYYtrWXXTHel5uubwrv_iDKGDGrhdcDPVHSrfSbHtLjYkm59juc0oTivb0di_oL4QibWKnzlXyZlb3Gc1QLLL6seEeLkott9ycIovh9NCMSFdozOk-9zpg",
+      "source": "LinkedIn · Devanandu Sreenath"
+    },
+    {
+      "position": 5,
+      "title": "SEHAT SAATHI: AI-Powered Healthcare Assistant",
+      "link": "https://jrpsjournal.in/index.php/j/article/download/68/172/142",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdgHrOzAVmLiMGvbxn1BBcPFOutgJ5QNHhXGD3tPPzHQPomDwjNOFBLSs6DibssS4T2qrCrWUvRZzndH1q7E3pdFrp_tvimddudJCongfGHy2d9cVIaBqFBVP4ECR-eBo9lM-HbNdWLEBq6dcyllHj6s1VHK1_dQ&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQFnoECCUQAQ&uoh=1",
+      "displayed_link": "https://jrpsjournal.in › article › download",
+      "favicon": "https://serpapi.com/searches/6a9d4be4e396ebb81a73a647/images/9L1HeEsZim_TaYC-Wh32iK0Guyglpxwas8T_hj5rBWQ.png",
+      "snippet": "Utilizing Natural. Language Processing (NLP) and Machine Learning (ML), this system provides preliminary diagnoses, essential health information, and ...",
+      "snippet_highlighted_words": [
+        "and Machine Learning",
+        "health",
+        "and"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Utilizing Natural. Language Processing (NLP) and Machine Learning (ML), this system provides preliminary diagnoses, essential health information, and ...",
+          "source_info_link": "https://jrpsjournal.in/index.php/j/article/download/68/172/142",
+          "icon": "https://serpapi.com/searches/6a9d4be4e396ebb81a73a647/images/9L1HeEsZim_TaYC-Wh32iDnRc7ptqQy2zgqY4EXeVtBH8ZXQTh7x3G-DoIc_5djn.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://jrpsjournal.in/index.php/j/article/download/68/172/142&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fjrpsjournal.in%2Findex.php%2Fj%2Farticle%2Fdownload%2F68%2F172%2F142",
+      "source": "jrpsjournal.in"
+    },
+    {
+      "position": 6,
+      "title": "AI Medical Chatbot for Personalized Patient Assistance",
+      "link": "https://nix-united.com/success_stories/auto-scalable-ai-powered-chatbot-for-personalized-healthcare-patient-assistance/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrwEB6zswFWutD9F7vYMSsQm4ROflDCbQNnJ9SH6Fbl_EKDEXQDWLiQWKhsp-ukg8BP_ietRAMnh6ArtBDk_d-LBzLPDZYJWZzva7hYBh8CDlIlhGaJrH2PsWuaGnPujH8M1FjyLCxiGZyzTWSCP0cdaDu1WOQoLH0oA4vbZwPMp3nVV_-jUXbXwXS__AhhzN4JZqdVJ5vuGizFtDcdUR9iGpJEYcvQrqcC9tB-y_FF9j&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQFnoECCYQAQ&uoh=1",
+      "displayed_link": "https://nix-united.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAb1BMVEVHcEyKBCPkATboATakAiThAjjmADTlATX-CEzlATfeAjXkATbdAjW3Ay3pADfiAjXiAjeCAyHkAzbiAjXsACrFKln3AjKzPnIApeoBqe8Cp-oCqewFpOUFpOkFpeUAu-oFdKgEpecHm9OsBC1kBBrjK9QUAAAAJXRSTlMAGe70E3D_YQO_U-WvL_-bQSDENv_bI_D__2d9nZm1AS9FIQcE6PYggAAAAJ9JREFUeAHdz4UBwyAQAMCPC9ooEk_2n7FIXRYIDoc9nDQFYRT_xSRNs7-YF0X-Y_nfbSXCJKQps28iFABJbuvcNFmK0hBRavRCqUHK_Pse7SmWph5Nk1YAOE1rj6atUxp7BJ42bdukJTiMTNs9EeJeyL6D36ikEFL_xkGIUQsxzT9wkUIBrEKsDtMPNKvzvDkMXLQ754dvtg3AqulPlK4Higr5OXgEgQAAAABJRU5ErkJggg.png",
+      "snippet": "To make the chatbot smart, our team reinforced it with AI, but to make it a full-fledged personal healthcare assistant, we made some additional improvements.",
+      "snippet_highlighted_words": [
+        "with AI",
+        "healthcare assistant"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "To make the chatbot smart, our team reinforced it with AI, but to make it a full-fledged personal healthcare assistant, we made some additional improvements.",
+          "source_info_link": "https://nix-united.com/success_stories/auto-scalable-ai-powered-chatbot-for-personalized-healthcare-patient-assistance/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAb1BMVEVHcEyKBCPkATboATakAiThAjjmADTlATX-CEzlATfeAjXkATbdAjW3Ay3pADfiAjXiAjeCAyHkAzbiAjXsACrFKln3AjKzPnIApeoBqe8Cp-oCqewFpOUFpOkFpeUAu-oFdKgEpecHm9OsBC1kBBrjK9QUAAAAJXRSTlMAGe70E3D_YQO_U-WvL_-bQSDENv_bI_D__2d9nZm1AS9FIQcE6PYggAAAAJ9JREFUeAHdz4UBwyAQAMCPC9ooEk_2n7FIXRYIDoc9nDQFYRT_xSRNs7-YF0X-Y_nfbSXCJKQps28iFABJbuvcNFmK0hBRavRCqUHK_Pse7SmWph5Nk1YAOE1rj6atUxp7BJ42bdukJTiMTNs9EeJeyL6D36ikEFL_xkGIUQsxzT9wkUIBrEKsDtMPNKvzvDkMXLQ754dvtg3AqulPlK4Higr5OXgEgQAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://nix-united.com/success_stories/auto-scalable-ai-powered-chatbot-for-personalized-healthcare-patient-assistance/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fnix-united.com%2Fsuccess_stories%2Fauto-scalable-ai-powered-chatbot-for-personalized-healthcare-patient-assistance%2F",
+      "source": "NIX United"
+    },
+    {
+      "position": 7,
+      "title": "How to Develop an AI Virtual Health Assistant",
+      "link": "https://www.quytech.com/blog/how-to-develop-ai-virtual-health-assistant/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgAEB6zswFY8YucFy0hj9evwgv06LLnprGCIdhlnMyvrroZFNtDT4uzs-AQKldaVDcAAVuKkGV34xLkAlhASM-H4_9NiKMBLJPJsducDgBFeIz5zb1FU29kyI-qB7PwhRq6Vhdvb0-vu1AXvuz3Rm2UWsRfKXcuTXQPhm_GDvLhKWng&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQFnoECCIQAQ&uoh=1",
+      "displayed_link": "https://www.quytech.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAALVBMVEVHcEzSNUDNIi3QLDjQLjnSMz7RMDvOJjHRMj3QLDfPJzLNICzRMTzOIS3SNUAbmmNUAAAADnRSTlMA-ihoiuzAR9pcNg6nHMzzjfsAAACvSURBVCiRzVFLFsQgCBM_IEV7_-MOqFXbmTfrZqMQgRiceycqhwkmuVExww48Fnfg-QDwrCsW5xI7MFl01QaLVqcaNYbS54oVZr-m9ER_7LPe466PrDR0OdaVdtJbJspFwj_ybNKpWXA0EuJjJuX2J7KZiZe41NT65kZG0K8N-WxdkKqITK_gki-xvy-KPEisyz-Ypo4DlynCX9bvi3HVT4SkW1PR7ieIFeG-8nfgAyzECzIG5SZRAAAAAElFTkSuQmCC.png",
+      "date": "1 सित॰ 2025",
+      "snippet": "An AI-powered assistant for healthcare can look into patients' healthcare records to track symptoms and deliver personalized insights. You may ...",
+      "snippet_highlighted_words": [
+        "can look into patients' healthcare records"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "An AI-powered assistant for healthcare can look into patients' healthcare records to track symptoms and deliver personalized insights. You may ...",
+          "source_info_link": "https://www.quytech.com/blog/how-to-develop-ai-virtual-health-assistant/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAALVBMVEVHcEzSNUDNIi3QLDjQLjnSMz7RMDvOJjHRMj3QLDfPJzLNICzRMTzOIS3SNUAbmmNUAAAADnRSTlMA-ihoiuzAR9pcNg6nHMzzjfsAAACvSURBVCiRzVFLFsQgCBM_IEV7_-MOqFXbmTfrZqMQgRiceycqhwkmuVExww48Fnfg-QDwrCsW5xI7MFl01QaLVqcaNYbS54oVZr-m9ER_7LPe466PrDR0OdaVdtJbJspFwj_ybNKpWXA0EuJjJuX2J7KZiZe41NT65kZG0K8N-WxdkKqITK_gki-xvy-KPEisyz-Ypo4DlynCX9bvi3HVT4SkW1PR7ieIFeG-8nfgAyzECzIG5SZRAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.quytech.com/blog/how-to-develop-ai-virtual-health-assistant/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.quytech.com%2Fblog%2Fhow-to-develop-ai-virtual-health-assistant%2F",
+      "source": "Quytech"
+    },
+    {
+      "position": 8,
+      "title": "Medical Chatbot AI-Powered Healthcare Assistant with RAG",
+      "link": "https://www.linkedin.com/posts/abhinav-mishra-11143612a_ai-machinelearning-nlp-activity-7447150990711160833-XokE",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESqAEB6zswFWgDCKhpmF2s8MFM-ljYYDxGD8tM0mprVmewhZUOBFJiCXuvS629ImqAiPveSC60iqsRqI4PDeL1q2I9-vTD3g0PO7GUZU9fc_WTCxoiOmmTtXiFYWb4F_IF8WK7-5IcU4fP3DkSH63a5LmekPgIrjlkyMMGBpxu1ew_Z2CVbeLryeS-k06t_UQ7THyv1PeHHblfzrwhRGfUhT31aXeuii0jNcI&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQFnoECCQQAQ&uoh=1",
+      "displayed_link": "7 प्रतिक्रियाएं · 5 माह पहले",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAm0lEQVR4AWP4__8_RRhMyLfs3sNQvOk_KRikB24ATNB2yhEQJtoQuAEwzVAAYtPVAMJe4Cjf8l-0bsd_RkIGQAGc_ej9t_-TDt_7_-vPXzD_6Yfv_-2nHSXWAAT49P33_z9__4HZl559JM2Aqm3XwXyXGcfA_H___pFmgFj9DjCfp3IrTIgkA5ADbbAbQA6mKDPp9x7YBTOAIgwAVba5DGceMlQAAAAASUVORK5CYII.png",
+      "snippet": "Excited to share my latest project: Medical Chatbot – AI-Powered Healthcare Assistant I've built a Retrieval-Augmented Generation (RAG) ...",
+      "snippet_highlighted_words": [
+        "Medical Chatbot – AI-Powered Healthcare Assistant"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Excited to share my latest project: Medical Chatbot – AI-Powered Healthcare Assistant I've built a Retrieval-Augmented Generation (RAG) ...",
+          "source_info_link": "https://www.linkedin.com/posts/abhinav-mishra-11143612a_ai-machinelearning-nlp-activity-7447150990711160833-XokE",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAm0lEQVR4AWP4__8_RRhMyLfs3sNQvOk_KRikB24ATNB2yhEQJtoQuAEwzVAAYtPVAMJe4Cjf8l-0bsd_RkIGQAGc_ej9t_-TDt_7_-vPXzD_6Yfv_-2nHSXWAAT49P33_z9__4HZl559JM2Aqm3XwXyXGcfA_H___pFmgFj9DjCfp3IrTIgkA5ADbbAbQA6mKDPp9x7YBTOAIgwAVba5DGceMlQAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.linkedin.com/posts/abhinav-mishra-11143612a_ai-machinelearning-nlp-activity-7447150990711160833-XokE&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.linkedin.com%2Fposts%2Fabhinav-mishra-11143612a_ai-machinelearning-nlp-activity-7447150990711160833-XokE",
+      "source": "LinkedIn · Abhinav Mishra"
+    },
+    {
+      "position": 9,
+      "title": "AI-Powered Healthcare Assistant with Streamlit and CrewAI",
+      "link": "https://bittublog.hashnode.dev/ai-powered-healthcare-assistant-with-streamlit-and-crewai",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkAEB6zswFZHY5zNDti8MntpkZ08qRAl7URNbFo3JBmbb-g6-A1z1UnLRYAmj_0Ws1MniowENbQ4r41vf9Cjh_Rao2r49L-CFLpoIZ9tinOWWvmDJ_3kgy8gWj28W3xdii6AhCbq_dS2oX_NaAYyaIXn80xLaBYcOzXXrKdblVTbM_sJ01TgxjzWYNZltdEQZs1s&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQFnoECCMQAQ&uoh=1",
+      "displayed_link": "https://bittublog.hashnode.dev › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAe1BMVEUvMzgvMzgvMzgvMzgvMzgvMzgvMzgvMzgvMzguMjcsMDUtMTZBRUl3en2cnaCbnZ92eHxARElgY2fQ0dL9_f3____8_PzP0NFjZmri4uPh4uPS09SjpaekpqjV1db-_v4_Q0eqq60-QkdCRUrW19igoaSnqaugoqTR0tPeI7NbAAAACXRSTlMACmDC8_8Vm_Y4JT0sAAAA30lEQVR4AYWTAxYEQQxEM0Z6bK11_wuuMlbqsVO_FQCAJCuqtiJVkSX4SjdMbUOmoQNIhrYjQwLZ3ANMGZTx2rIRbWscUWD8PhSO6_kBjl8KYz-M4iRJs3BMjADMi-SvMscVgHxSMSJgxZ8QsOaPCVjziRgDGJIfV3VzOBIR4gBYIiK_OSGKMxGRsHrAdmKKXVDT8Hoj2rF7AF26-I7_8x60cnEAPAo9J4A3ALaf_kOv8RWpP1xhBdnykVlgjb9Zzr9Zhsgnik81Xyy-3HzD8C3HNi3b9uzgsKPHDi83_h-VMyn-Ve_XrgAAAABJRU5ErkJggg.png",
+      "date": "14 फ़र॰ 2025",
+      "snippet": "In this blog post, we'll explore how to build an AI-powered healthcare assistant using Streamlit, CrewAI, and LangChain. This tool will help ...",
+      "snippet_highlighted_words": [
+        "how to build an AI-powered healthcare assistant"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "In this blog post, we'll explore how to build an AI-powered healthcare assistant using Streamlit, CrewAI, and LangChain. This tool will help ...",
+          "source_info_link": "https://bittublog.hashnode.dev/ai-powered-healthcare-assistant-with-streamlit-and-crewai",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAe1BMVEUvMzgvMzgvMzgvMzgvMzgvMzgvMzgvMzgvMzguMjcsMDUtMTZBRUl3en2cnaCbnZ92eHxARElgY2fQ0dL9_f3____8_PzP0NFjZmri4uPh4uPS09SjpaekpqjV1db-_v4_Q0eqq60-QkdCRUrW19igoaSnqaugoqTR0tPeI7NbAAAACXRSTlMACmDC8_8Vm_Y4JT0sAAAA30lEQVR4AYWTAxYEQQxEM0Z6bK11_wuuMlbqsVO_FQCAJCuqtiJVkSX4SjdMbUOmoQNIhrYjQwLZ3ANMGZTx2rIRbWscUWD8PhSO6_kBjl8KYz-M4iRJs3BMjADMi-SvMscVgHxSMSJgxZ8QsOaPCVjziRgDGJIfV3VzOBIR4gBYIiK_OSGKMxGRsHrAdmKKXVDT8Hoj2rF7AF26-I7_8x60cnEAPAo9J4A3ALaf_kOv8RWpP1xhBdnykVlgjb9Zzr9Zhsgnik81Xyy-3HzD8C3HNi3b9uzgsKPHDi83_h-VMyn-Ve_XrgAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://bittublog.hashnode.dev/ai-powered-healthcare-assistant-with-streamlit-and-crewai&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fbittublog.hashnode.dev%2Fai-powered-healthcare-assistant-with-streamlit-and-crewai",
+      "source": "hashnode.dev"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=-UudapypGtGwptQP5__WqAQ&start=10&sa=N&sstk=AS6-VmIwfFmfrztLhdtYL9Uz1mIkAAO8M4QUDVMIEPX6qvpc9yHi7EBcu3_RUAMQ9HBqgjogriR_6fYx22O_gusWu9mg0msvflgttg&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQ8NMDegQIOBAM",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=-UudapypGtGwptQP5__WqAQ&start=10&sa=N&sstk=AS6-VmIwfFmfrztLhdtYL9Uz1mIkAAO8M4QUDVMIEPX6qvpc9yHi7EBcu3_RUAMQ9HBqgjogriR_6fYx22O_gusWu9mg0msvflgttg&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQ8tMDegQIOBAE",
+      "3": "https://www.google.co.in/search?q=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=-UudapypGtGwptQP5__WqAQ&start=20&sa=N&sstk=AS6-VmIwfFmfrztLhdtYL9Uz1mIkAAO8M4QUDVMIEPX6qvpc9yHi7EBcu3_RUAMQ9HBqgjogriR_6fYx22O_gusWu9mg0msvflgttg&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQ8tMDegQIOBAG",
+      "4": "https://www.google.co.in/search?q=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=-UudapypGtGwptQP5__WqAQ&start=30&sa=N&sstk=AS6-VmIwfFmfrztLhdtYL9Uz1mIkAAO8M4QUDVMIEPX6qvpc9yHi7EBcu3_RUAMQ9HBqgjogriR_6fYx22O_gusWu9mg0msvflgttg&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQ8tMDegQIOBAI",
+      "5": "https://www.google.co.in/search?q=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=-UudapypGtGwptQP5__WqAQ&start=40&sa=N&sstk=AS6-VmIwfFmfrztLhdtYL9Uz1mIkAAO8M4QUDVMIEPX6qvpc9yHi7EBcu3_RUAMQ9HBqgjogriR_6fYx22O_gusWu9mg0msvflgttg&ved=2ahUKEwjciZvE6tmWAxVRmIkEHee_FUUQ8tMDegQIOBAK"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&start=40"
+    }
+  }
+}

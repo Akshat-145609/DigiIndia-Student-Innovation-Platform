@@ -1,0 +1,374 @@
+{
+  "search_metadata": {
+    "id": "6a9d4b78f9aa73c1e0d70ba1",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/o-Q8PqiMHzD5sHbEVMk-snaDIav63St6KXvX9gHEakY/6a9d4b78f9aa73c1e0d70ba1.json",
+    "markdown_endpoint": "https://serpapi.com/searches/o-Q8PqiMHzD5sHbEVMk-snaDIav63St6KXvX9gHEakY/6a9d4b78f9aa73c1e0d70ba1.md",
+    "created_at": "2026-09-06 11:16:08 UTC",
+    "processed_at": "2026-09-06 11:16:08 UTC",
+    "google_url": "https://www.google.co.in/search?q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&oq=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&uule=w+CAIQICIFSW5kaWE&hl=hi&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/o-Q8PqiMHzD5sHbEVMk-snaDIav63St6KXvX9gHEakY/6a9d4b78f9aa73c1e0d70ba1.html",
+    "total_time_taken": 30.34
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Top 27 Free Healthcare Datasets for Machine Learning",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Top 27 Free Healthcare Datasets for Machine Learning",
+    "total_results": 109,
+    "time_taken_displayed": 0.24,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "ai_overview": {
+    "page_token": "IHlcDHiczVZbcqM4FF3ArKP5cWJsQ-yQKqpLwvgV2zHxI-n8UCBkgXk5gI3xX-9lFjFrmdWMwC9w2-lkPqZGH-h1pXt0dY8OP_90LM_--4-_zChahg8sG8dxmfg-cXAZ-WXLY7Uw8RA7950wQOb31crBYlySQFfpSt3W-OXO1l5khjii5TGmI5oWE_qrAGHLEJEZ-C5mkrXIMSgUKwy2RGe6MrQoqcP1kxTr9sjt12JbsZnMi6jqWogXFMZmEbIqSz_2N65JO-WwbFrl_mbhb6TYxk98uVapCuUnVnOpAfjvCpFBl36BnVa0KBetJADkT2wmy-lWsJsbUuBxh0OJ0w6hAc96j1d3a2drSAoxazX5N3UwpI3hbr55DS0FQorwY_rpZq7TrSCwPnGY4-JDY7qvrzktWv86KuVADXKTVyP7o9CjYZVGMVCUow-Yn-4V-s_pp71DWwebeBhb1wOdgVBAZ0DGCgGg-6EhgRPz8RCCdkzvgrAGoUlbYfWAVlXWQibKGkGY5rI0ESq-LMy2aOFHMA7eah5655aR_yyv-h08IizSqZ3jawY2VFOtfM_61Vr1riJwjfubjEQoPLIozLNoO-kqZnMScFtQ7pdh9UAh6XgOWMQv0T68GHJzbwovzFmnUeV4ySQL6TFcrV0gc_HLXfjjKI2ZdMoe2EizwMwjO626SKECuIxCcL-Zdbq1QuJL7VM-FhPz6fyAQD5bS0dgfIRQeJKkc0cSGBN6sMPRCtFNXxeJcoekw1PCd_1suEnOeSQXEcJsHegeSHCcVfY-chRKz2-m7CZjathT6EIpvY8DpMN9w96502dwsdBHB8wuU_l35WOa7XGAA1fOUj9PmRZRpjxGFrIngh6Yb8upspzp7t19x4wvU8R39S8oDfpfkeigQ07mUc69fWckkj9BIqpD5CMd2rX3OtTb69B1EkkSuKhDo51BTofOSSSTAok-1KEvk0j5iES7-iKJUh26RCL7Gol2q3MkGhd1qECikw4dSfR1HdL-pQ5lnMK7qihKqwW5Kk7twfBxyyXrjj5QFq_tljVaGEoHJcLkHvxWnOZu9OBqhnOjWsYDrPWixLhR6YD_gA3mXZz4y1KtUWoFGJc6WHMiE2kBLjW1iDI2CktzPygNNGRaHi71sRZ4lkcY1wl8saLd-XP3qaEm61e-uuHWNUOYDDx3ZnRePWg-rwKpf7ts2f3q9vVdcPvu0NZ7b-B9XB134O0qmdeHL-pK9fRZDJ8FdZ30VBXOAzA1RtxmZRpLTdkuuxs03xjQrMwatrZYBJ26MXLUtc3Xh7fbxBPq928ydvzeFHM88eUMGf3zlZaR9TiaNmSecQMk0kvmCRgq4IUABKQfQKE5NtV8WtNEadeBIkMmRJqKw7XYqPH6vMbpvHGPK3WNY1wSJUtRqDChF4jVfwAfZlrM",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=IHlcDHiczVZbcqM4FF3ArKP5cWJsQ-yQKqpLwvgV2zHxI-n8UCBkgXk5gI3xX-9lFjFrmdWMwC9w2-lkPqZGH-h1pXt0dY8OP_90LM_--4-_zChahg8sG8dxmfg-cXAZ-WXLY7Uw8RA7950wQOb31crBYlySQFfpSt3W-OXO1l5khjii5TGmI5oWE_qrAGHLEJEZ-C5mkrXIMSgUKwy2RGe6MrQoqcP1kxTr9sjt12JbsZnMi6jqWogXFMZmEbIqSz_2N65JO-WwbFrl_mbhb6TYxk98uVapCuUnVnOpAfjvCpFBl36BnVa0KBetJADkT2wmy-lWsJsbUuBxh0OJ0w6hAc96j1d3a2drSAoxazX5N3UwpI3hbr55DS0FQorwY_rpZq7TrSCwPnGY4-JDY7qvrzktWv86KuVADXKTVyP7o9CjYZVGMVCUow-Yn-4V-s_pp71DWwebeBhb1wOdgVBAZ0DGCgGg-6EhgRPz8RCCdkzvgrAGoUlbYfWAVlXWQibKGkGY5rI0ESq-LMy2aOFHMA7eah5655aR_yyv-h08IizSqZ3jawY2VFOtfM_61Vr1riJwjfubjEQoPLIozLNoO-kqZnMScFtQ7pdh9UAh6XgOWMQv0T68GHJzbwovzFmnUeV4ySQL6TFcrV0gc_HLXfjjKI2ZdMoe2EizwMwjO626SKECuIxCcL-Zdbq1QuJL7VM-FhPz6fyAQD5bS0dgfIRQeJKkc0cSGBN6sMPRCtFNXxeJcoekw1PCd_1suEnOeSQXEcJsHegeSHCcVfY-chRKz2-m7CZjathT6EIpvY8DpMN9w96502dwsdBHB8wuU_l35WOa7XGAA1fOUj9PmRZRpjxGFrIngh6Yb8upspzp7t19x4wvU8R39S8oDfpfkeigQ07mUc69fWckkj9BIqpD5CMd2rX3OtTb69B1EkkSuKhDo51BTofOSSSTAok-1KEvk0j5iES7-iKJUh26RCL7Gol2q3MkGhd1qECikw4dSfR1HdL-pQ5lnMK7qihKqwW5Kk7twfBxyyXrjj5QFq_tljVaGEoHJcLkHvxWnOZu9OBqhnOjWsYDrPWixLhR6YD_gA3mXZz4y1KtUWoFGJc6WHMiE2kBLjW1iDI2CktzPygNNGRaHi71sRZ4lkcY1wl8saLd-XP3qaEm61e-uuHWNUOYDDx3ZnRePWg-rwKpf7ts2f3q9vVdcPvu0NZ7b-B9XB134O0qmdeHL-pK9fRZDJ8FdZ30VBXOAzA1RtxmZRpLTdkuuxs03xjQrMwatrZYBJ26MXLUtc3Xh7fbxBPq928ydvzeFHM88eUMGf3zlZaR9TiaNmSecQMk0kvmCRgq4IUABKQfQKE5NtV8WtNEadeBIkMmRJqKw7XYqPH6vMbpvHGPK3WNY1wSJUtRqDChF4jVfwAfZlrM"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Top 27 Free Healthcare Datasets for Machine Learning",
+      "link": "https://www.iguazio.com/blog/top-22-free-healthcare-datasets-for-machine-learning/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESigEB6zswFfJ3JS1V7EWuoxXdGT-PXeYtdg2_-atAQGXOTt7zAteVXGD17hUhkCdpt3Sb0ZDjyPanDH_eORngE2CHrN4-g-tp-FsWzBn-wUR3aqldkMXCswLUmfX-dCviH2mjIYRGGj_TbT8_pLaL_9UTNhYhU7QiBUTWqXACtTbtZb0TizzkICOIBkg&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQFnoECBoQAQ&uoh=1",
+      "displayed_link": "https://www.iguazio.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAARVBMVEVHcEwByJQNxpsP4bIP5LUP4rMO3K4Q3K0P67oP5bUP3rAP37AP6bkP4bIP37AP6LcO37EP57cP57cM16oO1qoQ6rkP5rZ0FGu7AAAAF3RSTlMAAQZ2mo8xI_D-___E_1m4RNerDBn-6DSv3GkAAADDSURBVHgBrZHBEoMgDESTKmqMIAj4_5_aYKYHmBw6na7H5ybLBr4TIvyk1zS7BWytG-1MzvYdfhdRsOAiTORPMFJFfiAnC66kztmCcOnOljeX1_ALJhlcJU-5PN9TTzEnbllzagvqNGaiFnXS2FvpYdmCwFMhxwHWtulijd01KQMpIUAgfW8eOmL_WKVjpjgMZSleQmI40tWfBw_-lIDy2fW5h6BZvH2Vok52FgTnG9tWsIQz1XpHsIUlRD2VIU35N70BsSAJRoXB8yYAAAAASUVORK5CYII.png",
+      "date": "20 सित॰ 2025",
+      "snippet": "General Healthcare, Medical and Life Sciences Datasets · 1. WHO · 2. DHS Program · 3. HealthData.gov · 4. Life Science Database Archive · 5.",
+      "snippet_highlighted_words": [
+        "1. WHO"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "General Healthcare, Medical and Life Sciences Datasets · 1. WHO · 2. DHS Program · 3. HealthData.gov · 4. Life Science Database Archive · 5.",
+          "source_info_link": "https://www.iguazio.com/blog/top-22-free-healthcare-datasets-for-machine-learning/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAARVBMVEVHcEwByJQNxpsP4bIP5LUP4rMO3K4Q3K0P67oP5bUP3rAP37AP6bkP4bIP37AP6LcO37EP57cP57cM16oO1qoQ6rkP5rZ0FGu7AAAAF3RSTlMAAQZ2mo8xI_D-___E_1m4RNerDBn-6DSv3GkAAADDSURBVHgBrZHBEoMgDESTKmqMIAj4_5_aYKYHmBw6na7H5ybLBr4TIvyk1zS7BWytG-1MzvYdfhdRsOAiTORPMFJFfiAnC66kztmCcOnOljeX1_ALJhlcJU-5PN9TTzEnbllzagvqNGaiFnXS2FvpYdmCwFMhxwHWtulijd01KQMpIUAgfW8eOmL_WKVjpjgMZSleQmI40tWfBw_-lIDy2fW5h6BZvH2Vok52FgTnG9tWsIQz1XpHsIUlRD2VIU35N70BsSAJRoXB8yYAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.iguazio.com/blog/top-22-free-healthcare-datasets-for-machine-learning/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.iguazio.com%2Fblog%2Ftop-22-free-healthcare-datasets-for-machine-learning%2F",
+      "source": "Iguazio"
+    },
+    {
+      "position": 2,
+      "title": "22 Free Healthcare Datasets for Machine Learning, AI (2026)",
+      "link": "https://www.shaip.com/blog/healthcare-datasets-for-machine-learning-projects/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShQEB6zswFdOTmtUlVntycn8LF5Nqv6xdHyZA5njwTFCIQfEtiyNl2Gp18Y2H7ywx5BoXo9chkJejODHcjWmlPX3vMm6G3bvgv5zhTu2nqLiz61BwrVaUi_fixE9hlSppyyF1yXCM3VKt23QWSoUxZVMBy5_oCcAt4lGYrJ2IEnulbS5XtHZQ&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQFnoECCMQAQ&uoh=1",
+      "displayed_link": "https://www.shaip.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd-UAAABC0lEQVR4AWJwL_ABlFsGGBACURi-wWJZe4LtBINdgADoADE3CEBHSMCCBV2l6CiDDvL2tXr80hjVq5bwVUo-8-afebMrvwvZV8UQ4_Dj_XbtGFKiQiEB6SCzKiIAhU6E7-fj0r_r78rCToQiTUXWA9JEA5zDXcGA2JnE8i9WaUQmzyBclcYcZJIDHw6FtJAahBQCheVCYQTCLCAsDgzNAVubYRomG21tOVPPAYMEpW4Y49vazCCLV4QphoGQsKUwCQkN025Y0pYx50ppEVq0UOaIoQWUKKQQIKxVG7AHh0FSa8A-cA5gydg5_EUDTjSYOqZ4G7AiEcg8DVgXK7nwNeCP9nFw4uhRHRKaL8EqxzpiQ4iIAAAAAElFTkSuQmCC.png",
+      "date": "14 फ़र॰ 2026",
+      "snippet": "In this blog, we've compiled free and open medical datasets and healthcare datasets for machine learning across categories like general ...",
+      "snippet_highlighted_words": [
+        "free and open medical datasets and healthcare datasets for machine learning"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "In this blog, we've compiled free and open medical datasets and healthcare datasets for machine learning across categories like general ...",
+          "source_info_link": "https://www.shaip.com/blog/healthcare-datasets-for-machine-learning-projects/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd-UAAABC0lEQVR4AWJwL_ABlFsGGBACURi-wWJZe4LtBINdgADoADE3CEBHSMCCBV2l6CiDDvL2tXr80hjVq5bwVUo-8-afebMrvwvZV8UQ4_Dj_XbtGFKiQiEB6SCzKiIAhU6E7-fj0r_r78rCToQiTUXWA9JEA5zDXcGA2JnE8i9WaUQmzyBclcYcZJIDHw6FtJAahBQCheVCYQTCLCAsDgzNAVubYRomG21tOVPPAYMEpW4Y49vazCCLV4QphoGQsKUwCQkN025Y0pYx50ppEVq0UOaIoQWUKKQQIKxVG7AHh0FSa8A-cA5gydg5_EUDTjSYOqZ4G7AiEcg8DVgXK7nwNeCP9nFw4uhRHRKaL8EqxzpiQ4iIAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.shaip.com/blog/healthcare-datasets-for-machine-learning-projects/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.shaip.com%2Fblog%2Fhealthcare-datasets-for-machine-learning-projects%2F",
+      "source": "Shaip"
+    },
+    {
+      "position": 3,
+      "title": "Find Open Datasets and Machine Learning Projects",
+      "link": "https://www.kaggle.com/datasets?search\\u003dhealthcare",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESaQHrOzAVwKQ3Ug6UnyKasu_jL7rD2pv5G4JCcqy-MgMY-rL8kDNtxVqc6B8Oz_mHil8puAd102XlSYe-UmdAXOIcONF26W73rWsOQKICk4XCYsMAMv001xqw0OGT4o6Ggb1pd3u_RKcqBw&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQFnoECCEQAQ&uoh=1",
+      "displayed_link": "https://www.kaggle.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAJ1BMVEX1-fxHcEwLi70Hi7wAirwLi70Airwbjr8AirwAirwBirwBirwAiryCTA5yAAAADHRSTlMBADVzzyW3EvCVVX4N49-8AAAAk0lEQVQokc3SSQ7DMAgAQMDgJeX_7y1OQ5racC8nSyNhNoBPoAUkgUTUMsWuWlLUv0XcO3ZEEOtYMEaqzH2EiMT2YIoQJbIL3SI8rcq2non1srBPTeyL0VId-wuStGwb78d-LmdBMqIu7wnVqVtNzwmNtSif7WHf6lqUI5RZVElW1oYp_ya-jxqbvWjN68eBjzt5A2FaB6dotuwiAAAAAElFTkSuQmCC.png",
+      "snippet": "Healthcare Dataset · Healthcare Insurance · AV : Healthcare Analytics · AV : Healthcare Analytics II · Healthcare Diabetes Dataset · Employee Attrition for ...",
+      "snippet_highlighted_words": [
+        "Healthcare Dataset"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Healthcare Dataset · Healthcare Insurance · AV : Healthcare Analytics · AV : Healthcare Analytics II · Healthcare Diabetes Dataset · Employee Attrition for ...",
+          "source_info_link": "https://www.kaggle.com/datasets?search=healthcare",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAJ1BMVEX1-fxHcEwLi70Hi7wAirwLi70Airwbjr8AirwAirwBirwBirwAiryCTA5yAAAADHRSTlMBADVzzyW3EvCVVX4N49-8AAAAk0lEQVQokc3SSQ7DMAgAQMDgJeX_7y1OQ5racC8nSyNhNoBPoAUkgUTUMsWuWlLUv0XcO3ZEEOtYMEaqzH2EiMT2YIoQJbIL3SI8rcq2non1srBPTeyL0VId-wuStGwb78d-LmdBMqIu7wnVqVtNzwmNtSif7WHf6lqUI5RZVElW1oYp_ya-jxqbvWjN68eBjzt5A2FaB6dotuwiAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.kaggle.com/datasets?search=healthcare&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.kaggle.com%2Fdatasets%3Fsearch%3Dhealthcare",
+      "source": "Kaggle"
+    },
+    {
+      "position": 4,
+      "title": "10 Best Free Healthcare Datasets for Machine Learning",
+      "link": "https://deepchecks.com/10-best-free-healthcare-datasets-for-machine-learning/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShQEB6zswFcWVfCd5HUDKSffztj9EdoFMvnFT0VsZIDzh-6DF3uSmAYkpdSQGQEYHban8vAN-1M2LOTKfydxQ9oaKZWfz0oLb-JP8B6CRt0BckwiwzMzNyuaTP-kzyKmt59FhA0u2prriTowdDzzcOCRrSMBYAki5zQx8PsBrWIXd_SH-88QW&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQFnoECCcQAQ&uoh=1",
+      "displayed_link": "https://deepchecks.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAY1BMVEVHcEwA5v8A5v8A5v8A5v8A5v8A5v8A5v8A5v8A5v8A5v8Aev8Aev8Aev8A5v8Aev8Aev8Aev8Aev8A5v8Aev8A5v-dYPudYPudYPudYPudYPsAev-dYPudYPsAev8Aev8A5v-g3AG0AAAAIXRSTlMADk-Lqbrf_8vx6BqRtQj_4QnJc22WHqXObv9Q5zzwEhyaPSOeAAABD0lEQVR4AYXQVYLEIBQF0YorIe4y-9_kWIdHe9fvPREAm-N6fhD4nuvwLDeMpPjJnERXpZBxU2AmAbnCVti3W6DLClMaPQO65CyOngNd818T2cIgCC3QLYBj56YAKJooOYGugM7MAZJvQA5c7_0wTgAYoME99wQY5nnmFizyBfeyr3cglzPCNv_VA9MmoCaRPxj-wbr10zwI2M0_erDO0ipAfwaJgMGCAZT5RCxgs2ADbX6yE8BgX8ByghzXAgbZ2U-wgAX_Vz0OG6D0GdAZoJBkzwHHgF23_Ndq6QBoBGhdKlVqyTwRC7ir5ix9DnZMRfoMlBW2oHsAipu-7sC-8FCtpbLlWceSq7pW-XJg-wG9nCTYuDPFewAAAABJRU5ErkJggg.png",
+      "date": "31 अग॰ 2022",
+      "snippet": "10 Best Free Healthcare Datasets for Machine Learning ; 1. MedPix ; 2. The Cancer Imaging Archive (TCIA) ; 3. COVID-19 X-ray Dataset ; 4. COVID-19 ...",
+      "snippet_highlighted_words": [
+        "1. MedPix"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "10 Best Free Healthcare Datasets for Machine Learning ; 1. MedPix ; 2. The Cancer Imaging Archive (TCIA) ; 3. COVID-19 X-ray Dataset ; 4. COVID-19 ...",
+          "source_info_link": "https://deepchecks.com/10-best-free-healthcare-datasets-for-machine-learning/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAY1BMVEVHcEwA5v8A5v8A5v8A5v8A5v8A5v8A5v8A5v8A5v8A5v8Aev8Aev8Aev8A5v8Aev8Aev8Aev8Aev8A5v8Aev8A5v-dYPudYPudYPudYPudYPsAev-dYPudYPsAev8Aev8A5v-g3AG0AAAAIXRSTlMADk-Lqbrf_8vx6BqRtQj_4QnJc22WHqXObv9Q5zzwEhyaPSOeAAABD0lEQVR4AYXQVYLEIBQF0YorIe4y-9_kWIdHe9fvPREAm-N6fhD4nuvwLDeMpPjJnERXpZBxU2AmAbnCVti3W6DLClMaPQO65CyOngNd818T2cIgCC3QLYBj56YAKJooOYGugM7MAZJvQA5c7_0wTgAYoME99wQY5nnmFizyBfeyr3cglzPCNv_VA9MmoCaRPxj-wbr10zwI2M0_erDO0ipAfwaJgMGCAZT5RCxgs2ADbX6yE8BgX8ByghzXAgbZ2U-wgAX_Vz0OG6D0GdAZoJBkzwHHgF23_Ndq6QBoBGhdKlVqyTwRC7ir5ix9DnZMRfoMlBW2oHsAipu-7sC-8FCtpbLlWceSq7pW-XJg-wG9nCTYuDPFewAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://deepchecks.com/10-best-free-healthcare-datasets-for-machine-learning/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fdeepchecks.com%2F10-best-free-healthcare-datasets-for-machine-learning%2F",
+      "source": "Deepchecks AI"
+    },
+    {
+      "position": 5,
+      "title": "21 Best Free Healthcare Datasets for ML in 2026 - Unidata.pro",
+      "link": "https://unidata.pro/blog/best-free-healthcare-ml-datasets/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScgHrOzAVwSYK6dCzJAETo8kWGxcqd5VL5AeVB6BpQcYE3_om4Et7oupXgCFoWRYgaRz2cIwYaopFMe6uazArPmcG48pKHmF_4gda2I2F6kSyXY2_XpGxipq2mKYN_T8DYcLJABPewQV3kbEfJhF2XfvV9Q&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQFnoECCIQAQ&uoh=1",
+      "displayed_link": "https://unidata.pro › ... › Datasets › Dataset Collections",
+      "favicon": "https://serpapi.com/searches/6a9d4b78f9aa73c1e0d70ba1/images/uj3xPQAKguT2omPFso1yU6kWooTycDVysHtvCJWLEtM.png",
+      "date": "8 जून 2026",
+      "snippet": "20 Best Free Healthcare Datasets (Ranked & Explained) · Electronic Health Records (EHR) · Medical Imaging · Audio & Signal Data · Population Surveys ...",
+      "snippet_highlighted_words": [
+        "Electronic Health Records (EHR"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "20 Best Free Healthcare Datasets (Ranked & Explained) · Electronic Health Records (EHR) · Medical Imaging · Audio & Signal Data · Population Surveys ...",
+          "source_info_link": "https://unidata.pro/blog/best-free-healthcare-ml-datasets/",
+          "icon": "https://serpapi.com/searches/6a9d4b78f9aa73c1e0d70ba1/images/uj3xPQAKguT2omPFso1yUyCPJyvDr4rhGeTqyldedJSM1ZjQiwdDTq5YRJ1vSqUN.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://unidata.pro/blog/best-free-healthcare-ml-datasets/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Funidata.pro%2Fblog%2Fbest-free-healthcare-ml-datasets%2F",
+      "source": "unidata.pro"
+    },
+    {
+      "position": 6,
+      "title": "geniusrise/awesome-healthcare-datasets",
+      "link": "https://github.com/geniusrise/awesome-healthcare-datasets",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScQHrOzAV_ke5PsgytiIiQ9735zyRRtaTKPa6jmf4iTPlc06iR0_ESNtwHOJ7MMXm6ODbgpK-C_kM2Z5MInek3iDJE9wLyLkx2AG7gkSmNbpDCyXc0NquYYQ5l5RsCmEYoXUyQ1SKRiKvXYjzzJ7Mb3fm&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQFnoECCAQAQ&uoh=1",
+      "displayed_link": "https://github.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAb1BMVEX____4-Pi3ubtvcnZNUVU-Q0cpLjLr6-x3en0sMTYkKS59gIORk5aUl5n8_Pzw8PFTV1tbX2Pc3d5DSEzn5-g3PECLjpFKTlKFh4qxs7XCxMUuMze_wcLh4uPV1tZzd3o_Q0jOz9CmqKpjZ2qfoaTxAyfNAAABPUlEQVR4AW3TBYKDMBQE0AltAgzuzur9z7ibH5oKfWjc4UEFl6s2Rl8vgcJZGMX04iTEM5UaPomzHA-KkidVAa_WfKNpffMd32oKCHUlWfb27Q19ZSMVrNHGTMDckMtQLqSegdXGpvi3Sf93W9UudRby2WzsEgL4oMvwoqY1AsrQNfFipbXkCGh1BV6oT1pfRwvfOJlo9ZA5NAonStbmB1pawBuDTAgkX4MzV_eC2H3e0C7lk1aBEzd-7SpigJOZVoXx-J5UxzADil-8-KZYoRaK5y2WZxSdgm0j-dakzkIc2kzT6W3IcFnDTzdt4sKbWMqkpNl229IMsfMmg6UaMsJXmv4qCMXDoI4mO5oADwyFDnGoO3KI0jSHQ6E3eJum5TP4Y-EVyUOGXHZjgWd7ZEwOJzZRjbPQt7mF8P4AzsYZpmkFLF4AAAAASUVORK5CYII.png",
+      "snippet": "Contents · Clinical Data · Imaging Data · Omics Data · Biomedical Knowledge Graphs and Ontologies · Public Health Data · Biomedical Literature · Wearable and Sensor ...",
+      "snippet_highlighted_words": [
+        "Clinical Data"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Contents · Clinical Data · Imaging Data · Omics Data · Biomedical Knowledge Graphs and Ontologies · Public Health Data · Biomedical Literature · Wearable and Sensor ...",
+          "source_info_link": "https://github.com/geniusrise/awesome-healthcare-datasets",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAb1BMVEX____4-Pi3ubtvcnZNUVU-Q0cpLjLr6-x3en0sMTYkKS59gIORk5aUl5n8_Pzw8PFTV1tbX2Pc3d5DSEzn5-g3PECLjpFKTlKFh4qxs7XCxMUuMze_wcLh4uPV1tZzd3o_Q0jOz9CmqKpjZ2qfoaTxAyfNAAABPUlEQVR4AW3TBYKDMBQE0AltAgzuzur9z7ibH5oKfWjc4UEFl6s2Rl8vgcJZGMX04iTEM5UaPomzHA-KkidVAa_WfKNpffMd32oKCHUlWfb27Q19ZSMVrNHGTMDckMtQLqSegdXGpvi3Sf93W9UudRby2WzsEgL4oMvwoqY1AsrQNfFipbXkCGh1BV6oT1pfRwvfOJlo9ZA5NAonStbmB1pawBuDTAgkX4MzV_eC2H3e0C7lk1aBEzd-7SpigJOZVoXx-J5UxzADil-8-KZYoRaK5y2WZxSdgm0j-dakzkIc2kzT6W3IcFnDTzdt4sKbWMqkpNl229IMsfMmg6UaMsJXmv4qCMXDoI4mO5oADwyFDnGoO3KI0jSHQ6E3eJum5TP4Y-EVyUOGXHZjgWd7ZEwOJzZRjbPQt7mF8P4AzsYZpmkFLF4AAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://github.com/geniusrise/awesome-healthcare-datasets&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fgithub.com%2Fgeniusrise%2Fawesome-healthcare-datasets",
+      "source": "GitHub"
+    },
+    {
+      "position": 7,
+      "title": "Top 50+ Open-Source Healthcare Datasets for AI in 2026",
+      "link": "https://shubhangilokhande.medium.com/top-50-open-source-healthcare-datasets-for-ai-in-2026-bd802c58b130",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnwEB6zswFd-UsNbhKlSrExZNUp8G0U1hxAzolbn9a3bIk3qcStnw-GfxQTdi874-ZEK_U_ChKSyxM1wvhWZE7FWo5vN7p7L71u5S9S16PYPOvF-IEkDCzGiWEQOSVJJGZdYv6YraVinfTtT1wkXQe6teA1iI6faHgkPOmkvthi1sUet5_TVlO_0XRmLQQVOUtr-RWXDsbaJE_Qupy0xamXk&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQFnoECCgQAQ&uoh=1",
+      "displayed_link": "7 माह पहले",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAARVBMVEVHcEwAAAAAAAAAAAAAAAAAAABoaGihoaF7e3vY2Nj___-IiIi4uLjn5-eRkZHAwMBSUlLMzMyrq6soKCgGBgZDQ0P19fVk5p_sAAAABnRSTlMATMj7_53kV_qKAAAA1klEQVR4AXzQBQKDMAADwAIB6oL9_6lLbb4FS3u4EGIYJ3xkGgfBzPiRmdfhZwYx_sZRTL9xEviTisvKoEWyL08IpbU2DVkVntFyxtXqWe0rBk7FUp19xxCJCYzcGi4qddwTdWdTR0WrJTqekbgBp0JBqR0eCEdlWQpytD2jIUo4VOTnbNsDQXTeV4z5s48n3KgXOr7eFjtxa3jwvBdE4sc0xMXPfsGF444mP6OhWsBcS-nlxydqxWVb93xofd3YpHLEbzmQI27Dl0zwJjC8SRNvosabHQBLtxLm1NJXrAAAAABJRU5ErkJggg.png",
+      "snippet": "Top 50+ Open-Source Healthcare Datasets for AI in 2026 · 1. NIH Chest X-ray (ChestXray-NIHCC) · 2. CheXpert (Stanford) · 3. DeepLesion (NIH) · 4.",
+      "snippet_highlighted_words": [
+        "1. NIH Chest X-ray (ChestXray-NIHCC"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Top 50+ Open-Source Healthcare Datasets for AI in 2026 · 1. NIH Chest X-ray (ChestXray-NIHCC) · 2. CheXpert (Stanford) · 3. DeepLesion (NIH) · 4.",
+          "source_info_link": "https://shubhangilokhande.medium.com/top-50-open-source-healthcare-datasets-for-ai-in-2026-bd802c58b130",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAARVBMVEVHcEwAAAAAAAAAAAAAAAAAAABoaGihoaF7e3vY2Nj___-IiIi4uLjn5-eRkZHAwMBSUlLMzMyrq6soKCgGBgZDQ0P19fVk5p_sAAAABnRSTlMATMj7_53kV_qKAAAA1klEQVR4AXzQBQKDMAADwAIB6oL9_6lLbb4FS3u4EGIYJ3xkGgfBzPiRmdfhZwYx_sZRTL9xEviTisvKoEWyL08IpbU2DVkVntFyxtXqWe0rBk7FUp19xxCJCYzcGi4qddwTdWdTR0WrJTqekbgBp0JBqR0eCEdlWQpytD2jIUo4VOTnbNsDQXTeV4z5s48n3KgXOr7eFjtxa3jwvBdE4sc0xMXPfsGF444mP6OhWsBcS-nlxydqxWVb93xofd3YpHLEbzmQI27Dl0zwJjC8SRNvosabHQBLtxLm1NJXrAAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://shubhangilokhande.medium.com/top-50-open-source-healthcare-datasets-for-ai-in-2026-bd802c58b130&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fshubhangilokhande.medium.com%2Ftop-50-open-source-healthcare-datasets-for-ai-in-2026-bd802c58b130",
+      "source": "Medium · Shubhangi Lokhande"
+    },
+    {
+      "position": 8,
+      "title": "Open Datasets - Health Data Analytics - Guides at University ...",
+      "link": "https://guides.library.unt.edu/health-data-analytics/open-datasets",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESegHrOzAVDYWsHz9tRUB2F7_nd_sYb8mZyZz9SEX3bulMlsigZ0HS53tNlaNEqPcPT-MeWd2rRI3tjiJtp2AeOduGH40k7nrjDN0BjAf_UtgXdF_wxZiy7F6wMrrmoYB_XC9DxsEy1szr0tyc-vy3ESCtTHhly-0oLADp&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQFnoECCQQAQ&uoh=1",
+      "displayed_link": "https://guides.library.unt.edu › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAgVBMVEUAai0AZygAaisAZydUjmgldkJJh145gFIwe0pimHVBhVoAZSOBqo8AYx15qIubwKtclXCHspkecz0UbzcAZSJrnn2py7iZvqiz0cAAbC8AYRn___8AXAHo8u2GrZMAWQDC1cmSs5y-0sQASgCbuKQeeEMAUwCkv60AXg23zb_Z5d23DizYAAABBElEQVR4Ac3LUZqCIBSGYQBQEkALteRYYDkDuv8FDt1UzAr6zt15nx99ZxgR_DxMKaaYlMYwr3jNWcWYODSiUKm0aduuVep4NB3raIn0RIS1VljBRaYS--EwntVFHVt27kuknWScncQkeF1XlOQ-pxPFEiHisMz_KfdWN0IzX-ECN28gQG6QLyQEarfcHwDmAY0Ia_VD3mgzruE3bzuwc4gp2wsnqP0T0wZgU4gOfZSuuwE1AfMBrN6D_kTMw77MKqg-bRMLm0OFep_knKSWvnc-oSIdzTrcDymyaNTa0QLTzuJtm9247Ms2Rv1_eR7McBpYrJqVUVRqr6WURFJNsc72nf0BtMEVaUy9fYEAAAAASUVORK5CYII.png",
+      "date": "28 अग॰ 2026",
+      "snippet": "The UCI Machine Learning Repository is a collection of databases, domain theories, and data generators that are used by the machine learning ...",
+      "snippet_highlighted_words": [
+        "Machine Learning",
+        "machine learning"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "The UCI Machine Learning Repository is a collection of databases, domain theories, and data generators that are used by the machine learning ...",
+          "source_info_link": "https://guides.library.unt.edu/health-data-analytics/open-datasets",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAgVBMVEUAai0AZygAaisAZydUjmgldkJJh145gFIwe0pimHVBhVoAZSOBqo8AYx15qIubwKtclXCHspkecz0UbzcAZSJrnn2py7iZvqiz0cAAbC8AYRn___8AXAHo8u2GrZMAWQDC1cmSs5y-0sQASgCbuKQeeEMAUwCkv60AXg23zb_Z5d23DizYAAABBElEQVR4Ac3LUZqCIBSGYQBQEkALteRYYDkDuv8FDt1UzAr6zt15nx99ZxgR_DxMKaaYlMYwr3jNWcWYODSiUKm0aduuVep4NB3raIn0RIS1VljBRaYS--EwntVFHVt27kuknWScncQkeF1XlOQ-pxPFEiHisMz_KfdWN0IzX-ECN28gQG6QLyQEarfcHwDmAY0Ia_VD3mgzruE3bzuwc4gp2wsnqP0T0wZgU4gOfZSuuwE1AfMBrN6D_kTMw77MKqg-bRMLm0OFep_knKSWvnc-oSIdzTrcDymyaNTa0QLTzuJtm9247Ms2Rv1_eR7McBpYrJqVUVRqr6WURFJNsc72nf0BtMEVaUy9fYEAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://guides.library.unt.edu/health-data-analytics/open-datasets&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fguides.library.unt.edu%2Fhealth-data-analytics%2Fopen-datasets",
+      "source": "University of North Texas (UNT)"
+    },
+    {
+      "position": 9,
+      "title": "21 Free Life Science, Health and Medical Datasets for ML",
+      "link": "https://imerit.ai/resources/blog/21-free-life-sciences-healthcare-and-medical-datasets-for-machine-learning-all-pbm/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESrAEB6zswFU3U__NvXKwg-REuVWnBPgVkqOlYYHnTYUgSR2XqU59heImW1aACxdge2FFdojIPLWBxP49o4T7ZDpy2V9tdf3rzaTutN7_iNY2668P1RMaFsi_uI1hEIAvgZdpgwDW7cMc912WfvXXP-pq4_Lux1amKeOT4WLyZHQ4yjZbj1LEkCkTmugs6fbsIin3QBrSu93CQIOy9w3hW27OIYxqaDfTmaEnfuh1j&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQFnoECCUQAQ&uoh=1",
+      "displayed_link": "https://imerit.ai › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAJFBMVEVHcEzjPTvjPTvjPTvjPTvjPTvjPTvjPTvjPTvjPTvjPTvjPTvkuOM5AAAAC3RSTlMAMEZfvxHdjXn3ppfspiEAAACcSURBVCiRfZNLEsAgCEP9oba5_32r0k4VQZY8o5mAzk3lnV2UD7DiAG8EGxZcNgxAsimAYuj6vUDUGEWWqqZicCwF7TCH91XFssfIrna6WU4Mh1Saos_IPegKW6-yL0XaGnmCy3h873Spv7DdG_h8ynhrHjtB1BJTEnBZGCEVIfkFVhER5Z8pIy8H9kWnj5ulxp40T0lXNUd1-w0PtH4IhUU8DbsAAAAASUVORK5CYII.png",
+      "snippet": "Here is a compiled list of life science, medical, and healthcare datasets for your machine learning needs.",
+      "snippet_highlighted_words": [
+        "life science, medical, and healthcare datasets"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Here is a compiled list of life science, medical, and healthcare datasets for your machine learning needs.",
+          "source_info_link": "https://imerit.ai/resources/blog/21-free-life-sciences-healthcare-and-medical-datasets-for-machine-learning-all-pbm/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAJFBMVEVHcEzjPTvjPTvjPTvjPTvjPTvjPTvjPTvjPTvjPTvjPTvjPTvkuOM5AAAAC3RSTlMAMEZfvxHdjXn3ppfspiEAAACcSURBVCiRfZNLEsAgCEP9oba5_32r0k4VQZY8o5mAzk3lnV2UD7DiAG8EGxZcNgxAsimAYuj6vUDUGEWWqqZicCwF7TCH91XFssfIrna6WU4Mh1Saos_IPegKW6-yL0XaGnmCy3h873Spv7DdG_h8ynhrHjtB1BJTEnBZGCEVIfkFVhER5Z8pIy8H9kWnj5ulxp40T0lXNUd1-w0PtH4IhUU8DbsAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://imerit.ai/resources/blog/21-free-life-sciences-healthcare-and-medical-datasets-for-machine-learning-all-pbm/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fimerit.ai%2Fresources%2Fblog%2F21-free-life-sciences-healthcare-and-medical-datasets-for-machine-learning-all-pbm%2F",
+      "source": "iMerit"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Healthcare datasets free download",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Healthcare+datasets+free+download&sa=X&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ1QJ6BAgeEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Healthcare+datasets+free+download"
+    },
+    {
+      "block_position": 1,
+      "query": "Healthcare dataset CSV download",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Healthcare+dataset+CSV+download&sa=X&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ1QJ6BAg0EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Healthcare+dataset+CSV+download"
+    },
+    {
+      "block_position": 1,
+      "query": "Medical datasets for machine learning",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Medical+datasets+for+machine+learning&sa=X&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ1QJ6BAgtEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Medical+datasets+for+machine+learning"
+    },
+    {
+      "block_position": 1,
+      "query": "Medical dataset CSV",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Medical+dataset+CSV&sa=X&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ1QJ6BAgrEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Medical+dataset+CSV"
+    },
+    {
+      "block_position": 1,
+      "query": "Free Excel healthcare datasets for download",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Free+Excel+healthcare+datasets+for+download&sa=X&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ1QJ6BAgqEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Free+Excel+healthcare+datasets+for+download"
+    },
+    {
+      "block_position": 1,
+      "query": "Healthcare dataset kaggle",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Healthcare+dataset+kaggle&sa=X&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ1QJ6BAgpEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Healthcare+dataset+kaggle"
+    },
+    {
+      "block_position": 1,
+      "query": "Healthcare datasets github",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Healthcare+datasets+github&sa=X&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ1QJ6BAgmEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Healthcare+datasets+github"
+    },
+    {
+      "block_position": 1,
+      "query": "Patient dataset CSV",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Patient+dataset+CSV&sa=X&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ1QJ6BAgfEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Patient+dataset+CSV"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=lUudaty6BvOCwbkPmL2wkQk&start=10&sa=N&sstk=AS6-VmKHUG9cPH2JLqmfi7vewiJnRQO-XUmDwJawgEAlUjyvs-MHaDPzS86XLWjIrU8_-vkcHwY3gyKUDv1ZEHuXN_Hy02Dau9EQ2g&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ8NMDegQIPhAW",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=lUudaty6BvOCwbkPmL2wkQk&start=10&sa=N&sstk=AS6-VmKHUG9cPH2JLqmfi7vewiJnRQO-XUmDwJawgEAlUjyvs-MHaDPzS86XLWjIrU8_-vkcHwY3gyKUDv1ZEHuXN_Hy02Dau9EQ2g&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ8tMDegQIPhAE",
+      "3": "https://www.google.co.in/search?q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=lUudaty6BvOCwbkPmL2wkQk&start=20&sa=N&sstk=AS6-VmKHUG9cPH2JLqmfi7vewiJnRQO-XUmDwJawgEAlUjyvs-MHaDPzS86XLWjIrU8_-vkcHwY3gyKUDv1ZEHuXN_Hy02Dau9EQ2g&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ8tMDegQIPhAG",
+      "4": "https://www.google.co.in/search?q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=lUudaty6BvOCwbkPmL2wkQk&start=30&sa=N&sstk=AS6-VmKHUG9cPH2JLqmfi7vewiJnRQO-XUmDwJawgEAlUjyvs-MHaDPzS86XLWjIrU8_-vkcHwY3gyKUDv1ZEHuXN_Hy02Dau9EQ2g&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ8tMDegQIPhAI",
+      "5": "https://www.google.co.in/search?q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=lUudaty6BvOCwbkPmL2wkQk&start=40&sa=N&sstk=AS6-VmKHUG9cPH2JLqmfi7vewiJnRQO-XUmDwJawgEAlUjyvs-MHaDPzS86XLWjIrU8_-vkcHwY3gyKUDv1ZEHuXN_Hy02Dau9EQ2g&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ8tMDegQIPhAK",
+      "6": "https://www.google.co.in/search?q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=lUudaty6BvOCwbkPmL2wkQk&start=50&sa=N&sstk=AS6-VmKHUG9cPH2JLqmfi7vewiJnRQO-XUmDwJawgEAlUjyvs-MHaDPzS86XLWjIrU8_-vkcHwY3gyKUDv1ZEHuXN_Hy02Dau9EQ2g&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ8tMDegQIPhAM",
+      "7": "https://www.google.co.in/search?q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=lUudaty6BvOCwbkPmL2wkQk&start=60&sa=N&sstk=AS6-VmKHUG9cPH2JLqmfi7vewiJnRQO-XUmDwJawgEAlUjyvs-MHaDPzS86XLWjIrU8_-vkcHwY3gyKUDv1ZEHuXN_Hy02Dau9EQ2g&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ8tMDegQIPhAO",
+      "8": "https://www.google.co.in/search?q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=lUudaty6BvOCwbkPmL2wkQk&start=70&sa=N&sstk=AS6-VmKHUG9cPH2JLqmfi7vewiJnRQO-XUmDwJawgEAlUjyvs-MHaDPzS86XLWjIrU8_-vkcHwY3gyKUDv1ZEHuXN_Hy02Dau9EQ2g&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ8tMDegQIPhAQ",
+      "9": "https://www.google.co.in/search?q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=lUudaty6BvOCwbkPmL2wkQk&start=80&sa=N&sstk=AS6-VmKHUG9cPH2JLqmfi7vewiJnRQO-XUmDwJawgEAlUjyvs-MHaDPzS86XLWjIrU8_-vkcHwY3gyKUDv1ZEHuXN_Hy02Dau9EQ2g&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ8tMDegQIPhAS",
+      "10": "https://www.google.co.in/search?q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=lUudaty6BvOCwbkPmL2wkQk&start=90&sa=N&sstk=AS6-VmKHUG9cPH2JLqmfi7vewiJnRQO-XUmDwJawgEAlUjyvs-MHaDPzS86XLWjIrU8_-vkcHwY3gyKUDv1ZEHuXN_Hy02Dau9EQ2g&ved=2ahUKEwic2a-U6tmWAxVzQTABHZgeLJIQ8tMDegQIPhAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Top+27+Free+Healthcare+Datasets+for+Machine+Learning&start=90"
+    }
+  }
+}

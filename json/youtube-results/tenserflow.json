@@ -1,0 +1,773 @@
+{
+  "search_metadata": {
+    "id": "6a9d4c9b2efef87a9a2c717a",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/tQLAA8MCQUht5cH2_Til-P4nfjAleqLe96-ka6DiNso/6a9d4c9b2efef87a9a2c717a.json",
+    "markdown_endpoint": "https://serpapi.com/searches/tQLAA8MCQUht5cH2_Til-P4nfjAleqLe96-ka6DiNso/6a9d4c9b2efef87a9a2c717a.md",
+    "created_at": "2026-09-06 11:20:59 UTC",
+    "processed_at": "2026-09-06 11:20:59 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=Tenserflow",
+    "raw_html_file": "https://serpapi.com/searches/tQLAA8MCQUht5cH2_Til-P4nfjAleqLe96-ka6DiNso/6a9d4c9b2efef87a9a2c717a.html",
+    "total_time_taken": 1.98
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "Tenserflow"
+  },
+  "search_information": {
+    "total_results": 685480,
+    "video_results_state": "Some results for exact spelling but showing fixed spelling",
+    "query_displayed": "Tenserflow",
+    "spelling_fix": "Tensorflow",
+    "showing_results_for": "Tensorflow"
+  },
+  "ads_results": [
+    {
+      "position_on_page": 1,
+      "title": "Stevesie Data",
+      "link": "https://www.youtube.com/watch?v=X4rbee3wl5k",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CB7LDm0ydaqXtMuuqrPEPj6DDCdaR87GJAYbUxpCUFrCQHxABIABgyY7FiZCk6A-CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB8tHy2AOoAwTIAwqqBJ0CT9DxF7yoZIs7ZTu_nt-xOK8JoshOFN653oN8HTUTq_kEUIuorUbbAPCZT2eNL4J2ly2D60GZKtboLxkyw8iKnAUnaBjDKZ60hpPbJ1sIuhFIAFJuu0fLx_rZ7X37I2F7OcwZ_33rQOY9XcXdhDSRXdAla3uco-PfrPFgd7cpk5cpyQwjZVZeknq7giIQTlAFYNsUTCiqwViEeMcFDyw8etrTZrdfpU5ZKgM0OzGUOU2BTD7jxkaQGGbhnuP8mOUr06sqJ57lUXx6bRa90zCSZAgRXMm0Hd-70xUZmyNx-UnSWz8NlU07jLiBQnGcd5TRUMhdoYG1Hlf7RyGPJYBANvI7zPkDOXP0zDLsECmkNhRRWjFAG6o2dDPBYpCYiAXY55H5WZIFBwgTeN6k0iegBqEBgAf2rY0nkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtYNHJiZWUzd2w1a6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWNiV05Hr2ZYDYAGaCRlodHRwczovL3N0ZXZlc2llLmNvbS9hcHBzsQmF53HXlPhSpsgJF8gJjwHICcIByAmXApgLAboLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMFdmljYmbQCxLSDAIQAdoMJgoLEODsmqvT1ofAwAESAgEDGg0Y2OeR-Vkg-vjHh9UFQAFKAhAfmg0BEqoNAlVTyA0B0g1BaHR0cHM6Ly9zdGV2ZXNpZS5jb20vYXBwcz9nYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQxNDQ4MDI3Nza4E____________wGIFAGwFAPAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXMrSHMHhK3Ce6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI5abTkevZlgMVaxUrCB0P0DABEAEYASAAEgKAjPD_BwE&num=1&cid=CAASqgHkaDtSV1I-BdG1NNFs_2oSlI-Fk6qbZDwWW5PNMoo0e22T2ZBOYUAA6DpiE9YfMC5g32NIaEoXGnKdg0QvxVd7_Dsucp-NS9frGkz9u3--jVV6fAhhDXmo8_rWbG_gePKPNqT_Nh_ifKGi6oekVRybcE7rI0DYWGZvsMMrV5eg5hUC0i6c9nNbchEID3slyKZVbHejhSinmGucwSAD8uwc8r_0goebREPwkw&ad_cpn=%5BCPN%5D&sig=AOD64_2j89W47Dm8KXf50oJs91ETK53TMw&ctype=110&video_id=X4rbee3wl5k&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Stevesie Data",
+        "thumbnail": "https://yt3.ggpht.com/proxy/-0cq4XjmDDxB61LEnuNEQ-efJC03boT0Q1paPJrW92Zs1Q3FaC4VPAlmk3AZFBvfp3Poo1DdyzKgNigHPL4tMgk2cESPXmo8W4pWFFGkEH1NTYp4b2Hf71yMESUf4Wkyy2CdRIhVrolqaBaKo6F-Yol1JGN1rgJVu5-6GOYgeBzCt-PglvyGbUTD1ju6qvqigF5HDGOpNZhPGq8FlgwjToy8n5XxL_-ZVfLd03YzX2rWJoMrAiiiw9S6faAUMRrmPIOlFis=w68-h68-nd"
+      },
+      "description": "Scrape Data Not Screens",
+      "thumbnail": "https://i.ytimg.com/vi/X4rbee3wl5k/hqdefault.jpg",
+      "videoId": "X4rbee3wl5k",
+      "url": "https://www.youtube.com/watch?v=X4rbee3wl5k"
+    },
+    {
+      "position_on_page": 4,
+      "title": "Get 3 months of full access to Shopify for $1/mo",
+      "link": "https://www.youtube.com/watch?v=5JXRUFEOvPs",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CFg5jm0ydaqXtMuuqrPEPj6DDCfCE4KiIAdf3k_CBFrCQHxACIABgyY7FiZCk6A-CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB8vL7myqpAmpKfqn4rbY-qAMEyAMKqgSWAk_Q8Re8qGSLO2U7v57fsTivCaLIThTeud6DfB01E6v5BFCLqK1G2wDwmU9njS-Cdpctg-tBmSrW6C8ZMsPIipwFJ2gYwymetIaT2ydbCLoRSABSbrtHy8f62e19-yNheznMGf9960DmPV3F3YQ0kV3QJWt7nKPj36zxYHe3KZOXKckMI2VWXpJ6u4IiEE5QBWDbFEwoqsFYhHjHBQ8sPHra02a3X6VOWSoDNDsxlDlNgUw-48ZGkBhm4Z7j_JjlK9OrKiee5VF8em0WvdMwkmQIEVzJtB3CQxXXHlbpxPA9uKTA6yB0cPKalEJUADUOecLA_qDuuYR31Gyr_TG7oy9OqDVbjwdD-hbJGiAHvK_B6xaI2amHiAXIh9W8WZIFCAgTeLPn76wFoAahAYAH8qrM-wSQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIICzVKWFJVRkVPdlBzqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRY2JXTkevZlgNgAZoJTWh0dHBzOi8vd3d3LnN0eWxlZmFjdG9yeXByb2R1Y3Rpb25zLmNvbS9ob3ctdG8tdW5sb2NrLWEtMy1tb250aC1zaG9waWZ5LXRyaWFssQlHWT8LbJN8PMgJF8gJjwHICcIBmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAhK6AwV2aWNiZtALE9IMAhAB2gwlCgoQoOD90qW1pf1CEgIBAxoNGMiH1bxZII-0suHdBUABSgIQH5oNAROqDQJVU8gNAdINdWh0dHBzOi8vd3d3LnN0eWxlZmFjdG9yeXByb2R1Y3Rpb25zLmNvbS9ob3ctdG8tdW5sb2NrLWEtMy1tb250aC1zaG9waWZ5LXRyaWFsP2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDAxNzk3ODMxMrgT____________AbAUA8AVgYCAQNAVAdgVAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXjY7UEXksFj26FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI5abTkevZlgMVaxUrCB0P0DABEAEYAiAAEgJNTPD_BwE&num=2&cid=CAASqgHkaDtSV1I-BdG1NNFs_2oSlI-Fk6qbZDwWW5PNMoo0e22T2ZBOYUAA6DpiE9YfMC5g32NIaEoXGnKdg0QvxVd7_Dsucp-NS9frGkz9u3--jVV6fAhhDXmo8_rWbG_gePKPNqT_Nh_ifKGi6oekVRybcE7rI0DYWGZvsMMrV5eg5hUC0i6c9nNbchEID3slyKZVbHejhSinmGucwSAD8uwc8r_0goebREPwkw&ad_cpn=%5BCPN%5D&sig=AOD64_29Hbm-Ugx0fFtKo_eSS0A23Z60rQ&ctype=110&video_id=5JXRUFEOvPs&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Style Factory",
+        "thumbnail": "https://yt3.ggpht.com/proxy/lXILA8k5vCLoCqam4gFoS6UzbgO-H0JeHffp3_WwddZvVWNIeFZk7rXSvqdZ4TodxkslRpIOY8naQiAu2agA9g_MHehKzzDhp8v2jKPVWA1ZPOt-mb1Zf6EPOO3I9XGf_PFKlonXkTPSht4hLbIroCeRBdEp4IBh8KJaYvxzWpFHXX5jvAAWYT0GCpdKaeVSdsWDnlrwRBAlmnBiiNqDiJHMa3jfliJ5wXgG1367owc0fJx0ik1Z0zJQDwKyN9TLG0ux=w68-h68-nd"
+      },
+      "description": "Find out how you can unlock an extended Shopify trial.",
+      "thumbnail": "https://i.ytimg.com/vi/5JXRUFEOvPs/hqdefault.jpg",
+      "videoId": "5JXRUFEOvPs",
+      "url": "https://www.youtube.com/watch?v=5JXRUFEOvPs"
+    },
+    {
+      "position_on_page": 7,
+      "title": "2025 F-150 is part of Ford F-Series, the best-selling truck lineup.",
+      "link": "https://www.youtube.com/watch?v=08Ru1K_5tIc",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=C0vfom0ydaqXtMuuqrPEPj6DDCfLFibuJAYy75LHjFGQQAyAAYMmOxYmQpOgPggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAbPq5MM-qAMEyAMKqgS7Ak_Q8Re8qGSLO2U7v57fsTivCaLIThTeud6DfB01E6v5BFCLqK1G2wDwmU9njS-Cdpctg-tBmSrW6C8ZMsPIipwFJ2gYwymetIaT2ydbCLoRSABSbrtHy8f62e19-yNheznMGf9960DmPV3F3YQ0kV3QJWt7nKPj36zxYHe3KZOXKckMI2VWXpJ6u4IiEE5QBWDbFEwoqsFYhHjHBQ8sPHra02a3X6VOWSoDNDsxlDlNgUw-48ZGkBhm4Z7j_JjlK9OrKiee5VF8em0WvdMwkmQIEVzJtB2TTxXXF1bptvMuwaXS6JjRllafXEl-ECDrCLjMOnbZiC4A-aEXzN6dkw16o5K4hplZS8WmCvPxmK9TCxf3UxtP7fAUPofHoBMNLm8-CG9YZVWZTVKZ2pBVazbTb0VyXucQr-xa64gFz63s31aSBQgIE3jn3v-yGaAGoQGAB7OitaMZkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKoB8LIsQKSCAswOFJ1MUtfNXRJY6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWNiV05Hr2ZYDYAGaCSZodHRwczovL3d3dy5mb3JkLmNvbS90cnVja3MvZjE1MC8yMDI1L7EJKbQian8UIYHICRfICY8ByAnCAcgJlwK6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBA4ACAYgCBboDBXZpY2Jm0AsS4AsBogwyYhUKE2NvbS5zaWVtZW5zLmZvcmQ4MEFqFAoSY29tLmZvcmQuZm9yZGFsZXhheACIAQDSDAIQAdoMJgoLEIDVibvqrLegiwESAgEDGg0Yz63s31Yg_pfyv8cFQAFKAhAfmg0BEqoNAlVTyA0B0g27BWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMzAxNi41MjY3OTI1R01ORVhVU01FRElBLVNPTFVUSS9CMzQ1ODIyNDEuNDM0MjMwMTEzO2RjX3Rya19haWQ9NjI4OTkxNjgxO2RjX3Rya19jaWQ9MjQ2MTYwOTE2O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTZDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSXo2M3MzMWFvQXVmZV83SVpzQUw3enJUb0EwQTdFTlhFVkl0OVNNWXdib3JtcTBjRmxxUzhmeDA9O2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2dkcHI9JHtHRFBSfTtnZHByX2NvbnNlbnQ9JHtHRFBSX0NPTlNFTlRfNzU1fTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7O2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNCN0R2aFZLa0FhUXRKNmV5QnZJVGptNXpqNm00RU1pSi05RGVXbnJaMm5EYVZKbDRFbEZxVUplOXg5b29zd04tYnFkNm9ldWdkNUFlaF84ZztkY19wdWJpZD02P2h0dHBzOi8vd3d3LmZvcmQuY29tL3RydWNrcy9mMTUwLzIwMjUvP2xlYWRzb3VyY2U9ZmRhZi1iYW5uZXJhZCZiYW5uZXJpZD0zNDU4MjI0MXw5ODA4MzEyfDQzNDIzMDExM3wyNDYxNjA5MTZ8NjI4OTkxNjgxJmZjaWQ9ZGlzXzM0NTgyMjQxXzk4MDgzMTItWVREJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzI4NjQ1Mzk2N7AT45y7JLgT____________AYgUBbAUA8AVgYCAQNAVAdgVAZgWAagWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRfQdLXtwWnvp7oXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMI5abTkevZlgMVaxUrCB0P0DABEAEYAyAAEgLBT_D_BwE&num=3&cid=CAASqgHkaDtSV1I-BdG1NNFs_2oSlI-Fk6qbZDwWW5PNMoo0e22T2ZBOYUAA6DpiE9YfMC5g32NIaEoXGnKdg0QvxVd7_Dsucp-NS9frGkz9u3--jVV6fAhhDXmo8_rWbG_gePKPNqT_Nh_ifKGi6oekVRybcE7rI0DYWGZvsMMrV5eg5hUC0i6c9nNbchEID3slyKZVbHejhSinmGucwSAD8uwc8r_0goebREPwkw&ad_cpn=%5BCPN%5D&sig=AOD64_292h-BeTuSSCX9Jc6yphEsQRLFqA&ctype=110&video_id=08Ru1K_5tIc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Ford",
+        "thumbnail": "https://yt3.ggpht.com/proxy/CcO1kwb0wHsy5J4tRTNPTDGlSPeGeiykAuN1FBSeIZhuqDVMnBQPCYTBr5JrhvbVGAxaUtEkUXQdwunKK3D8iB3CryGYstiisX1Gzqkw3XWFpaYhxGHdbw6G0lswwRRKs51nRq9yimW_byVr4gF-SX4lABxJeR33xOD1xzlEdWB8nhe1nHtiG25z8LBKKjRjO5flgOKWeIkHQuLD2hYxX60czXzWYwecHzqkdfhOmaK7cyzPnaWXa9zIV8ypMaRpKsLjnxU=w68-h68-nd"
+      },
+      "description": "Tough this smart can only be called F-150.",
+      "thumbnail": "https://i.ytimg.com/vi/08Ru1K_5tIc/hqdefault.jpg",
+      "videoId": "08Ru1K_5tIc",
+      "url": "https://www.youtube.com/watch?v=08Ru1K_5tIc"
+    },
+    {
+      "position_on_page": 13,
+      "title": "Ready To Scale Past $10K/Month? Apply To Work With Cleaner Marketing Experts Today",
+      "link": "https://www.youtube.com/watch?v=G-y7MRQbNzA",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=ChK7zm0ydaqXtMuuqrPEPj6DDCemC84uJAbTIjbXSFbCQHxAEIABgyY7FiZCk6A-CARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABzYuLxQGoAwTIAwqqBKwCT9DxF7yoZIs7ZTu_nt-xOK8JoshOFN653oN8HTUTq_kEUIuorUbbAPCZT2eNL4J2ly2D60GZKtboLxkyw8iKnAUnaBjDKZ60hpPbJ1sIuhFIAFJuu0fLx_rZ7X37I2F7OcwZ_33rQOY9XcXdhDSRXdAla3uco-PfrPFgd7cpk5cpyQwjZVZeknq7giIQTlAFYNsUTCiqwViEeMcFDyw8etrTZrdfpU5ZKgM0OzGUOU2BTD7jxkaQGGbhnuP8mOUr06sqJ57lUXx6bRa90zCSZAgRXMm0HbkwFdceVun-_zGJp8DrTjIJ5Z2BQgu7m5XRUMhdoYrMNlf7ViH7M_pnEfIzwJhjOluWIIthIg3hjc_z3xuE_jG1XrAMr0-xoNrtiBe2l5mffG6W5WHUiAW9s539VZIFCAgTeN2hlrsCoAahAYAHm_T0ugKQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0cteTdNUlFiTnpBqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRY2JXTkevZlgNgAZoJIWh0dHBzOi8vYm9va2NsZWFuaW5nam9icy5jb20vYm9va7EJslClkywRrkzICRfICY8ByAnCAcgJlwKYCwG6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDBXZpY2Jm0AsS0gwCEAHaDCUKChDA6Iju6vjF7TsSAgEDGg0YvbOd_VUg4c69nekFQAFKAhAfmg0BEqoNAlVTyA0B0g2kAmh0dHBzOi8vYm9va2NsZWFuaW5nam9icy5jb20vYm9vaz91dG1fc291cmNlPWFkd29yZHMmdXRtX21lZGl1bT1jcGMmdXRtX2NhbXBhaWduPUJvb2tfQV9DYWxsX0RlbWFuZEdlbiZ1dG1fY29udGVudD1EZW1hbmRHZW5fVmlkZW9BZHMmdXRtX3Rlcm09WW91VHViZV9Vc2VycyZ1dG1fa2V5d29yZD0mdXRtX21hdGNodHlwZT0mY2FtcGFpZ25faWQ9MjMwNzk2Mzk0ODUmYWRfZ3JvdXBfaWQ9MjAwMDQ2MjQxNjMzJmFkX2lkPTgxNzY3MTkzMjA5NyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjMwNzk2Mzk0ODW4E____________wGIFAGwFAPAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakX04DGuDTvyYG6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI5abTkevZlgMVaxUrCB0P0DABEAEYBCAAEgJQE_D_BwE&num=4&cid=CAASqgHkaDtSV1I-BdG1NNFs_2oSlI-Fk6qbZDwWW5PNMoo0e22T2ZBOYUAA6DpiE9YfMC5g32NIaEoXGnKdg0QvxVd7_Dsucp-NS9frGkz9u3--jVV6fAhhDXmo8_rWbG_gePKPNqT_Nh_ifKGi6oekVRybcE7rI0DYWGZvsMMrV5eg5hUC0i6c9nNbchEID3slyKZVbHejhSinmGucwSAD8uwc8r_0goebREPwkw&ad_cpn=%5BCPN%5D&sig=AOD64_0ilYZiZLPjuWRDTp1yXiCqa8faeA&ctype=110&video_id=G-y7MRQbNzA&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "BookCleaningJobs.com",
+        "thumbnail": "https://yt3.ggpht.com/proxy/gX_CHoKWqbUKkB-u9IhV3fd2z4wzUJCdRE0dg2mH4z9_aOf5oX6zrzpekprreNJA9-f63-NHYHqQgcTjI8rYBYmZ-bs_KfBsFtQTw2ogrESl9kCz_j9Yd-pKNZUZE8Ni5ZYQIvuGcxup0tspfamPc3vVNfEpVNNQbAowQxUIUlzkSbWft4yA5nwv1Zp4mgU5KBn4pkXLFSdGGygjs_kHOaVuz8MsLkjvRHmXAl7ZmRj-o0URwGdFmGL-XalcfZAXNewB=w68-h68-nd"
+      },
+      "description": "Serious About Scaling? Schedule A Free Strategy Call With Our Cleaning Biz Experts",
+      "thumbnail": "https://i.ytimg.com/vi/G-y7MRQbNzA/hqdefault.jpg",
+      "videoId": "G-y7MRQbNzA",
+      "url": "https://www.youtube.com/watch?v=G-y7MRQbNzA"
+    },
+    {
+      "position_on_page": 19,
+      "title": "The 2026 Lincoln Nautilus®",
+      "link": "https://www.youtube.com/watch?v=pULBol1LHTE",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=C8Xmlm0ydaqXtMuuqrPEPj6DDCeGDjruJAeuJr4mAFmQQBSAAYMmOxYmQpOgPggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAbGW28M-qAMEyAMKqgS6Ak_Q8Re8qGSLO2U7v57fsTivCaLIThTeud6DfB01E6v5BFCLqK1G2wDwmU9njS-Cdpctg-tBmSrW6C8ZMsPIipwFJ2gYwymetIaT2ydbCLoRSABSbrtHy8f62e19-yNheznMGf9960DmPV3F3YQ0kV3QJWt7nKPj36zxYHe3KZOXKckMI2VWXpJ6u4IiEE5QBWDbFEwoqsFYhHjHBQ8sPHra02a3X6VOWSoDNDsxlDlNgUw-48ZGkBhm4Z7j_JjlK9OrKiee5VF8em0WvdMwkmQIEVzJtB2vPhXXF1bp_84uwaXS6JjRllafXEl-ECDrCLjMHSukiS4A-ZZoh96dkw16o8ImHQlgcF3YD8QBvB8OGVkxYshOp-qgJCtKizENJXyWVX0Wo0a7TV6NEZEfcYLDTUV8SGduqtuqiAXdnPaJV5IFCAgTeMCDgrMZoAahAYAHsc6roxmQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC3BVTEJvbDFMSFRFqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRY2JXTkevZlgNgAZoJH2h0dHA6Ly93d3cuTGluY29sbi5jb20vTmF1dGlsdXOxCVN9cfotJrt4yAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWNiZtALEuALAaIMOWIYChZjb20ubGluY29sbi5saW5jb2xud2F5ahgKFmNvbS5saW5jb2xuLmxpbmNvbG53YXl4AIgBANIMAhAB2gwlCgoQoNiwidaykZZHEgIBAxoNGN2c9olXILOj07vaBUABSgIQH5oNARKqDQJVU8gNAdINlwRodHRwczovL2FkLmRvdWJsZWNsaWNrLm5ldC9kZG0vdHJhY2tjbGsvTjMwMTYuNTI2NzkyNUdNTkVYVVNNRURJQS1TT0xVVEkvQjM0NzIxODY3LjQzNjA5NTE1MztkY190cmtfYWlkPTYyOTA0NTU1NjtkY190cmtfY2lkPTIwNzk5MDI3NTtkY19kYm1fdG9rZW49QU9qZUxORUFBQUE2Q2pRS0RBZ0FGUUFBQUFBZEFBQUFBQklNQ0FBVkFBQUFBQjBBQUFBQUloUUkzWnoyaVZlb0FzQ0Rnck1ac0FMVzRzX29BMEE3RU5YRVZCdXVvZ3JGR0R6c2UybjF4NTROR0s4PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xOztkY190cmFuc3BhcmVudD0xO2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNCOC15UHNCam55Q0JYY3l5MFZyUlo1M0c3dm93OHR6Vl9WNXNfeDdqc1NBMXRzMXIzbTFfRXgzZzBOWXp3Z1hCTFN0YmZlay05TGozS2xQQTtkY19wdWJpZD02P2h0dHA6Ly93d3cuTGluY29sbi5jb20vTmF1dGlsdXM_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzMzc0Njk2MDI5sBOxocskuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpFxFFGWfPoT9nuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMI5abTkevZlgMVaxUrCB0P0DABEAEYBSAAEgLDPPD_BwE&num=5&cid=CAASqgHkaDtSV1I-BdG1NNFs_2oSlI-Fk6qbZDwWW5PNMoo0e22T2ZBOYUAA6DpiE9YfMC5g32NIaEoXGnKdg0QvxVd7_Dsucp-NS9frGkz9u3--jVV6fAhhDXmo8_rWbG_gePKPNqT_Nh_ifKGi6oekVRybcE7rI0DYWGZvsMMrV5eg5hUC0i6c9nNbchEID3slyKZVbHejhSinmGucwSAD8uwc8r_0goebREPwkw&ad_cpn=%5BCPN%5D&sig=AOD64_1P-kQZVq6V8b6_I3RIc9uEBRswyg&ctype=110&video_id=pULBol1LHTE&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Lincoln",
+        "thumbnail": "https://yt3.ggpht.com/proxy/ljcU3OJJ3zZIyvVW6bxT0_UR-8w1mGG0noPwZsEk46PGPKldf57WHf8BZZ5rjFbJawIfYR4WwyS-XBQOPhZxEbR-4UjqaO8HP9km4cJlmLhOpgln2sS1zsgV2adksWMmB7wFm45V_ACG765uO0iVdroqK1Z09_DE2Od_Reu04Ygl75Uomc1NDKchconFjypBj9z2Hex3ALFPFRly8VIgjWOjEpCGlB4KeQtStBJjC4c9qva8SDFqNGs_ymFtEAs97SF1=w68-h68-nd"
+      },
+      "description": "Discover Lincoln for yourself.",
+      "thumbnail": "https://i.ytimg.com/vi/pULBol1LHTE/hqdefault.jpg",
+      "videoId": "pULBol1LHTE",
+      "url": "https://www.youtube.com/watch?v=pULBol1LHTE"
+    }
+  ],
+  "video_results": [
+    {
+      "position_on_page": 2,
+      "title": "TensorFlow in 100 Seconds",
+      "link": "https://www.youtube.com/watch?v=i8NETqtGHms",
+      "video_id": "i8NETqtGHms",
+      "channel": {
+        "name": "Fireship",
+        "link": "https://www.youtube.com/@Fireship",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/3fPNbkf_xPyCleq77ZhcxyeorY97NtMHVNUbaAON_RBDH9ydL4hJkjxC8x_4mpuopkB8oI7Ct6Y=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "1,267,369 views",
+      "length": "2:39",
+      "description": "TensorFlow is a tool for machine learning capable of building deep neural networks with high-level Python code. It provides ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/i8NETqtGHms/hqdefault.jpg",
+      "videoId": "i8NETqtGHms",
+      "url": "https://www.youtube.com/watch?v=i8NETqtGHms",
+      "channelTitle": "Fireship",
+      "channelVerified": true,
+      "duration": "2:39"
+    },
+    {
+      "position_on_page": 3,
+      "title": "What is TensorFlow?",
+      "link": "https://www.youtube.com/watch?v=GnGhI1vKi20",
+      "video_id": "GnGhI1vKi20",
+      "channel": {
+        "name": "IBM Technology",
+        "link": "https://www.youtube.com/@IBMTechnology",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/7qCmNHAsFvD6RSINuJ1WoGZYoKmm7TDnhORKFqLb8QoeOFh2qFXal8brkzoxNrwqmJTuvOLs=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "109,092 views",
+      "length": "4:20",
+      "description": "Learn TensorFlow and earn a badge→ https://ibm.biz/Bdv73n Tensors and TensorFlow play a key role in the development and ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/GnGhI1vKi20/hqdefault.jpg",
+      "videoId": "GnGhI1vKi20",
+      "url": "https://www.youtube.com/watch?v=GnGhI1vKi20",
+      "channelTitle": "IBM Technology",
+      "channelVerified": true,
+      "duration": "4:20"
+    },
+    {
+      "position_on_page": 5,
+      "title": "Tensorflow Tutorial for Python in 10 Minutes",
+      "link": "https://www.youtube.com/watch?v=6_2hzRopPbQ",
+      "video_id": "6_2hzRopPbQ",
+      "channel": {
+        "name": "Nicholas Renotte",
+        "link": "https://www.youtube.com/@NicholasRenotte",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/p_Psdo-C_zlkUCxmmk0lHqfE5JDPD4K0f9RYpCYZYhMU8tFTFdKBWk4TGaUM5sdOPnRQfUO5AfY=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 years ago",
+      "views": "595,467 views",
+      "length": "11:33",
+      "description": "Want to build a deep learning model? Struggling to get your head around Tensorflow? Just want a clear walkthrough of which ...",
+      "thumbnail": "https://i.ytimg.com/vi/6_2hzRopPbQ/hqdefault.jpg",
+      "videoId": "6_2hzRopPbQ",
+      "url": "https://www.youtube.com/watch?v=6_2hzRopPbQ",
+      "channelTitle": "Nicholas Renotte",
+      "channelVerified": true,
+      "duration": "11:33"
+    },
+    {
+      "position_on_page": 6,
+      "title": "TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial",
+      "link": "https://www.youtube.com/watch?v=tPYj3fFJGjk",
+      "video_id": "tPYj3fFJGjk",
+      "channel": {
+        "name": "freeCodeCamp.org",
+        "link": "https://www.youtube.com/@freecodecamp",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lGRc-05M2OoE1ejQdxeFhyP7OkJg9h4Y-7CK_5je3QqFI=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "3,487,640 views",
+      "length": "6:52:08",
+      "description": "Learn how to use TensorFlow 2.0 in this full tutorial course for beginners. This course is designed for Python programmers looking ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/tPYj3fFJGjk/hqdefault.jpg",
+      "videoId": "tPYj3fFJGjk",
+      "url": "https://www.youtube.com/watch?v=tPYj3fFJGjk",
+      "channelTitle": "freeCodeCamp.org",
+      "channelVerified": true,
+      "duration": "6:52:08"
+    },
+    {
+      "position_on_page": 9,
+      "title": "What Is TensorFlow? A Beginner-Friendly Introduction to Tensors and Deep Learning",
+      "link": "https://www.youtube.com/watch?v=hm07b8ETaso",
+      "video_id": "hm07b8ETaso",
+      "channel": {
+        "name": "PyCharm, a JetBrains IDE",
+        "link": "https://www.youtube.com/@PyCharmIDE",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/kGwZK5V6EgZouYr4_Wa2jlXnuRhRFv3HLoo4EUNZ8o0u7cVQptZ8hzgaSEcy8iNyDgYT_xRNYwA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 months ago",
+      "views": "3,234 views",
+      "length": "7:06",
+      "description": "Curious about TensorFlow, but not sure where to start? In this beginner-friendly introduction, we break down what TensorFlow is, ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/hm07b8ETaso/hqdefault.jpg",
+      "videoId": "hm07b8ETaso",
+      "url": "https://www.youtube.com/watch?v=hm07b8ETaso",
+      "channelTitle": "PyCharm, a JetBrains IDE",
+      "channelVerified": true,
+      "duration": "7:06"
+    },
+    {
+      "position_on_page": 10,
+      "title": "Tensorflow Crash Course - Deep Learning in Python For Beginners",
+      "link": "https://www.youtube.com/watch?v=72s6hJwyfDg",
+      "video_id": "72s6hJwyfDg",
+      "channel": {
+        "name": "NeuralNine",
+        "link": "https://www.youtube.com/@NeuralNine",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/l_2SPJx1Qd4IC01Fdlm-9cszWtmZv62ns80dOb-L-PyA5lcjdsSyjaz7LJRwBo4s9zDhtdiImw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "8 months ago",
+      "views": "22,417 views",
+      "length": "42:49",
+      "description": "Today we do a Tensorflow crash course. We learn how to build and train neural networks in Python by actually going through a ...",
+      "thumbnail": "https://i.ytimg.com/vi/72s6hJwyfDg/hqdefault.jpg",
+      "videoId": "72s6hJwyfDg",
+      "url": "https://www.youtube.com/watch?v=72s6hJwyfDg",
+      "channelTitle": "NeuralNine",
+      "channelVerified": true,
+      "duration": "42:49"
+    },
+    {
+      "position_on_page": 14,
+      "title": "PyTorch vs TensorFlow | Ishan Misra and Lex Fridman",
+      "link": "https://www.youtube.com/watch?v=cLLsc4Hlo-8",
+      "video_id": "cLLsc4Hlo-8",
+      "channel": {
+        "name": "Lex Clips",
+        "link": "https://www.youtube.com/@LexClips",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_mqpG4xlDaXgYX1s4p2YLKke5KfakvFRmhPNXqT1VdpHaM=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 years ago",
+      "views": "156,399 views",
+      "length": "3:47",
+      "description": "Lex Fridman Podcast full episode: https://www.youtube.com/watch?v=FUS6ceIvUnI Please support this podcast by checking out ...",
+      "thumbnail": "https://i.ytimg.com/vi/cLLsc4Hlo-8/hqdefault.jpg",
+      "videoId": "cLLsc4Hlo-8",
+      "url": "https://www.youtube.com/watch?v=cLLsc4Hlo-8",
+      "channelTitle": "Lex Clips",
+      "channelVerified": true,
+      "duration": "3:47"
+    },
+    {
+      "position_on_page": 17,
+      "title": "Code your first Neural Network with TensorFlow",
+      "link": "https://www.youtube.com/watch?v=VPlFpvLOgtQ",
+      "video_id": "VPlFpvLOgtQ",
+      "channel": {
+        "name": "Kie Codes",
+        "link": "https://www.youtube.com/@KieCodes",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_mLIcbsCXKsA7t29sqJRzRtIlPzbPbC8yCvhjj_pnGlMQY=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "14,121 views",
+      "length": "8:40",
+      "description": "I will show you how you can use TensorFlow to create your first neural network. In this tutorial, we will code a very basic image ...",
+      "thumbnail": "https://i.ytimg.com/vi/VPlFpvLOgtQ/hqdefault.jpg",
+      "videoId": "VPlFpvLOgtQ",
+      "url": "https://www.youtube.com/watch?v=VPlFpvLOgtQ",
+      "channelTitle": "Kie Codes",
+      "channelVerified": false,
+      "duration": "8:40"
+    },
+    {
+      "position_on_page": 18,
+      "title": "What is TensorFlow | TensorFlow Explained in 3-Minutes | Introduction to TensorFlow | Intellipaat",
+      "link": "https://www.youtube.com/watch?v=9NsfX9W80rw",
+      "video_id": "9NsfX9W80rw",
+      "channel": {
+        "name": "Intellipaat",
+        "link": "https://www.youtube.com/@Intellipaat",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/0UrFW02_vRoTxrCcv4H6vSDXFwUPcafCf3oXIA6yMFUsVtIvE8EZdS2UMzbdscI7ifON_U7DHQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "165,912 views",
+      "length": "2:36",
+      "description": "Welcome to this doodle video on \"What is TensorFlow?\" In this video, we'll be exploring the basics of TensorFlow, one of the most ...",
+      "thumbnail": "https://i.ytimg.com/vi/9NsfX9W80rw/hqdefault.jpg",
+      "videoId": "9NsfX9W80rw",
+      "url": "https://www.youtube.com/watch?v=9NsfX9W80rw",
+      "channelTitle": "Intellipaat",
+      "channelVerified": true,
+      "duration": "2:36"
+    },
+    {
+      "position_on_page": 21,
+      "title": "Why TensorFlow?",
+      "link": "https://www.youtube.com/watch?v=yjprpOoH5c8",
+      "video_id": "yjprpOoH5c8",
+      "channel": {
+        "name": "TensorFlow",
+        "link": "https://www.youtube.com/@TensorFlow",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lAp1zO3sFLjm6hBn_gH0nd3FzZ6c2GN5U85vwlbH1e9ME=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "350,873 views",
+      "length": "2:22",
+      "description": "TensorFlow is an open-source end-to-end platform for Machine Learning. It provides a comprehensive ecosystem of tools for ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/yjprpOoH5c8/hqdefault.jpg",
+      "videoId": "yjprpOoH5c8",
+      "url": "https://www.youtube.com/watch?v=yjprpOoH5c8",
+      "channelTitle": "TensorFlow",
+      "channelVerified": true,
+      "duration": "2:22"
+    },
+    {
+      "position_on_page": 22,
+      "title": "TensorFlow 2.0 Crash Course",
+      "link": "https://www.youtube.com/watch?v=6g4O5UOH304",
+      "video_id": "6g4O5UOH304",
+      "channel": {
+        "name": "freeCodeCamp.org",
+        "link": "https://www.youtube.com/@freecodecamp",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lGRc-05M2OoE1ejQdxeFhyP7OkJg9h4Y-7CK_5je3QqFI=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "552,793 views",
+      "length": "2:13:17",
+      "description": "Learn how to use TensorFlow 2.0 in this crash course for beginners. This course will demonstrate how to create neural networks ...",
+      "thumbnail": "https://i.ytimg.com/vi/6g4O5UOH304/hqdefault.jpg",
+      "videoId": "6g4O5UOH304",
+      "url": "https://www.youtube.com/watch?v=6g4O5UOH304",
+      "channelTitle": "freeCodeCamp.org",
+      "channelVerified": true,
+      "duration": "2:13:17"
+    },
+    {
+      "position_on_page": 23,
+      "title": "Python TensorFlow for Machine Learning – Neural Network Text Classification Tutorial",
+      "link": "https://www.youtube.com/watch?v=VtRLrQ3Ev-U",
+      "video_id": "VtRLrQ3Ev-U",
+      "channel": {
+        "name": "freeCodeCamp.org and Kylie Ying",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lGRc-05M2OoE1ejQdxeFhyP7OkJg9h4Y-7CK_5je3QqFI=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "361,173 views",
+      "length": "1:54:11",
+      "description": "This course will give you an introduction to machine learning concepts and neural network implementation using Python and ...",
+      "thumbnail": "https://i.ytimg.com/vi/VtRLrQ3Ev-U/hqdefault.jpg",
+      "videoId": "VtRLrQ3Ev-U",
+      "url": "https://www.youtube.com/watch?v=VtRLrQ3Ev-U",
+      "channelTitle": "freeCodeCamp.org and Kylie Ying",
+      "channelVerified": false,
+      "duration": "1:54:11"
+    },
+    {
+      "position_on_page": 25,
+      "title": "TensorFlow | What Is TensorFlow | How TensorFlowWorks | TensorFlow Explained | Intellipaat",
+      "link": "https://www.youtube.com/watch?v=Qsldxxo-7nI",
+      "video_id": "Qsldxxo-7nI",
+      "channel": {
+        "name": "Intellipaat",
+        "link": "https://www.youtube.com/@Intellipaat",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/0UrFW02_vRoTxrCcv4H6vSDXFwUPcafCf3oXIA6yMFUsVtIvE8EZdS2UMzbdscI7ifON_U7DHQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "Streamed 4 years ago",
+      "views": "15,206 views",
+      "length": "11:56",
+      "description": "Intellipaat BI Architect Masters Training: https://intellipaat.com/business-intelligence-masters-program-training/ Watch Power BI ...",
+      "thumbnail": "https://i.ytimg.com/vi/Qsldxxo-7nI/hqdefault.jpg",
+      "videoId": "Qsldxxo-7nI",
+      "url": "https://www.youtube.com/watch?v=Qsldxxo-7nI",
+      "channelTitle": "Intellipaat",
+      "channelVerified": true,
+      "duration": "11:56"
+    },
+    {
+      "position_on_page": 26,
+      "title": "Tensorflow | Tensorflow Tutorial For Beginners | Intellipaat",
+      "link": "https://www.youtube.com/watch?v=t_DdvgY71NE",
+      "video_id": "t_DdvgY71NE",
+      "channel": {
+        "name": "Intellipaat",
+        "link": "https://www.youtube.com/@Intellipaat",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/0UrFW02_vRoTxrCcv4H6vSDXFwUPcafCf3oXIA6yMFUsVtIvE8EZdS2UMzbdscI7ifON_U7DHQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 years ago",
+      "views": "12,725 views",
+      "length": "1:16:31",
+      "description": "Intellipaat AI course: https://intellipaat.com/artificial-intelligence-deep-learning-course-with-tensorflow/ Do Participate in the ...",
+      "thumbnail": "https://i.ytimg.com/vi/t_DdvgY71NE/hqdefault.jpg",
+      "videoId": "t_DdvgY71NE",
+      "url": "https://www.youtube.com/watch?v=t_DdvgY71NE",
+      "channelTitle": "Intellipaat",
+      "channelVerified": true,
+      "duration": "1:16:31"
+    },
+    {
+      "position_on_page": 27,
+      "title": "TensorFlow Tutorial: From Tensors to Training",
+      "link": "https://www.youtube.com/watch?v=N2ysiHFywow",
+      "video_id": "N2ysiHFywow",
+      "channel": {
+        "name": "Socratica",
+        "link": "https://www.youtube.com/@Socratica",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nlQXdvRf6MAxtAI_K012Y74lTmud915EMTOQ8xvMLFmTI=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 months ago",
+      "views": "6,785 views",
+      "length": "13:11",
+      "description": "Learn the foundations of TensorFlow in Python, starting with tensors and working up to building and training neural networks with ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/N2ysiHFywow/hqdefault.jpg",
+      "videoId": "N2ysiHFywow",
+      "url": "https://www.youtube.com/watch?v=N2ysiHFywow",
+      "channelTitle": "Socratica",
+      "channelVerified": false,
+      "duration": "13:11"
+    }
+  ],
+  "channel_results": [
+    {
+      "position_on_page": 8,
+      "title": "TensorFlow",
+      "link": "https://www.youtube.com/@TensorFlow",
+      "verified": true,
+      "handle": "@TensorFlow",
+      "subscribers": 616000,
+      "description": "Welcome to the official TensorFlow YouTube channel. Stay up to date with the latest TensorFlow news, tutorials, best practices, ...",
+      "thumbnail": "https://yt3.googleusercontent.com/ytc/AIdro_lAp1zO3sFLjm6hBn_gH0nd3FzZ6c2GN5U85vwlbH1e9ME=s88-c-k-c0x00ffffff-no-rj-mo"
+    }
+  ],
+  "playlist_results": [
+    {
+      "position_on_page": 11,
+      "title": "Deep Learning With Tensorflow 2.0, Keras and Python",
+      "link": "https://www.youtube.com/playlist?list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO",
+      "channel": {
+        "name": "codebasics",
+        "link": "https://www.youtube.com/@codebasics",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "Introduction | Deep Learning Tutorial 1 (Tensorflow Tutorial, Keras & Python)",
+          "length": "3:39",
+          "link": "https://www.youtube.com/watch?v=Mubj_fqiAv8&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO"
+        },
+        {
+          "title": "Why deep learning is becoming so popular? | Deep Learning Tutorial 2 (Tensorflow2.0, Keras & Python)",
+          "length": "5:25",
+          "link": "https://www.youtube.com/watch?v=yfsTZbwgMSE&list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO"
+        }
+      ],
+      "video_count": 58,
+      "thumbnail": "https://i.ytimg.com/vi/Mubj_fqiAv8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC-PTuN7rYgIxgzQm5JfYC3aiW7xQ"
+    },
+    {
+      "position_on_page": 12,
+      "title": "TensorFlow 2.0 Beginner Tutorials",
+      "link": "https://www.youtube.com/playlist?list=PLhhyoLH6IjfxVOdVC1P1L5z5azs0XjMsb",
+      "channel": {
+        "name": "Aladdin Persson",
+        "link": "https://www.youtube.com/@AladdinPersson"
+      },
+      "videos": [
+        {
+          "title": "TensorFlow Tutorial 1 - Installation and Setup Deep Learning Environment (Anaconda and PyCharm)",
+          "length": "9:05",
+          "link": "https://www.youtube.com/watch?v=5Ym-dOS9ssA&list=PLhhyoLH6IjfxVOdVC1P1L5z5azs0XjMsb"
+        },
+        {
+          "title": "TensorFlow Tutorial 2 - Tensor Basics",
+          "length": "21:01",
+          "link": "https://www.youtube.com/watch?v=HPjBY1H-U4U&list=PLhhyoLH6IjfxVOdVC1P1L5z5azs0XjMsb"
+        }
+      ],
+      "video_count": 20,
+      "thumbnail": "https://i.ytimg.com/vi/5Ym-dOS9ssA/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLByrDrv0BfexY35T6UsXKdM7Orlig"
+    },
+    {
+      "position_on_page": 15,
+      "title": "Deep Learning basics with Python, TensorFlow and Keras",
+      "link": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDfhTox0AjmQ6tvTgMBZBEXN",
+      "channel": {
+        "name": "sentdex",
+        "link": "https://www.youtube.com/@sentdex",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "Deep Learning with Python, TensorFlow, and Keras tutorial",
+          "length": "20:34",
+          "link": "https://www.youtube.com/watch?v=wQ8BIBpya2k&list=PLQVvvaa0QuDfhTox0AjmQ6tvTgMBZBEXN"
+        },
+        {
+          "title": "Loading in your own data - Deep Learning basics with Python, TensorFlow and Keras p.2",
+          "length": "18:51",
+          "link": "https://www.youtube.com/watch?v=j-3vuBynnOE&list=PLQVvvaa0QuDfhTox0AjmQ6tvTgMBZBEXN"
+        }
+      ],
+      "video_count": 11,
+      "thumbnail": "https://i.ytimg.com/vi/wQ8BIBpya2k/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC7SZDXrW5rDD2nV5PXi7XV674PVQ"
+    },
+    {
+      "position_on_page": 16,
+      "title": "TensorFlow 2 Beginner Course",
+      "link": "https://www.youtube.com/playlist?list=PLqnslRFeH2Uqfv1Vz3DqeQfy0w20ldbaV",
+      "channel": {
+        "name": "Patrick Loeber",
+        "link": "https://www.youtube.com/@patloeber",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "TensorFlow Tutorial 01 - Installation - Beginner Course",
+          "length": "9:02",
+          "link": "https://www.youtube.com/watch?v=hvgnX1gbsLA&list=PLqnslRFeH2Uqfv1Vz3DqeQfy0w20ldbaV"
+        },
+        {
+          "title": "TensorFlow Tutorial 02 - Tensor Basics - Beginner Course",
+          "length": "22:44",
+          "link": "https://www.youtube.com/watch?v=PcstG8qiObc&list=PLqnslRFeH2Uqfv1Vz3DqeQfy0w20ldbaV"
+        }
+      ],
+      "video_count": 11,
+      "thumbnail": "https://i.ytimg.com/vi/hvgnX1gbsLA/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDZxq8AC9LfBIejp9EXoKkGwO2d-A"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 20,
+      "shorts": [
+        {
+          "title": "TensorFlow Explained in 1 Minute | What is TensorFlow? #ai #deeplearning #tensorflow #google",
+          "link": "https://www.youtube.com/shorts/LgN9Nrf55b8",
+          "thumbnail": "https://i.ytimg.com/vi/LgN9Nrf55b8/frame0.jpg",
+          "views_original": "74K views",
+          "views": 74000,
+          "video_id": "LgN9Nrf55b8"
+        },
+        {
+          "title": "#PyTorch vs #TensorFlow: What’s the Difference?",
+          "link": "https://www.youtube.com/shorts/zEy9rFnKDAw",
+          "thumbnail": "https://i.ytimg.com/vi/zEy9rFnKDAw/frame0.jpg",
+          "views_original": "71K views",
+          "views": 71000,
+          "video_id": "zEy9rFnKDAw"
+        },
+        {
+          "title": "How to create your FIRST NEURAL NETWORK with TensorFlow!",
+          "link": "https://www.youtube.com/shorts/aUlYe0Rka1o",
+          "thumbnail": "https://i.ytimg.com/vi/aUlYe0Rka1o/frame0.jpg",
+          "views_original": "175K views",
+          "views": 175000,
+          "video_id": "aUlYe0Rka1o"
+        },
+        {
+          "title": "How to Install TensorFlow on Ubuntu 24.04",
+          "link": "https://www.youtube.com/shorts/PB7qSnCWst8",
+          "thumbnail": "https://i.ytimg.com/vi/PB7qSnCWst8/frame0.jpg",
+          "views_original": "1K views",
+          "views": 1000,
+          "video_id": "PB7qSnCWst8"
+        },
+        {
+          "title": "PyTorch vs. TensorFlow",
+          "link": "https://www.youtube.com/shorts/fSgNjOvXTCs",
+          "thumbnail": "https://i.ytimg.com/vi/fSgNjOvXTCs/frame0.jpg",
+          "views_original": "1.1M views",
+          "views": 1100000,
+          "video_id": "fSgNjOvXTCs"
+        }
+      ]
+    },
+    {
+      "position_on_page": 24,
+      "shorts": [
+        {
+          "title": "How to install Tensorflow in Visual Studio Code #installation #vscode #tensorflow #library  #import",
+          "link": "https://www.youtube.com/shorts/E9HyS9FIkwM",
+          "thumbnail": "https://i.ytimg.com/vi/E9HyS9FIkwM/frame0.jpg",
+          "views_original": "14K views",
+          "views": 14000,
+          "video_id": "E9HyS9FIkwM"
+        },
+        {
+          "title": "How to Install GPU Tensorflow without Errors #python #machinelearning #ai #tensorflow #gpu #cuda",
+          "link": "https://www.youtube.com/shorts/hGM_sX6cbIg",
+          "thumbnail": "https://i.ytimg.com/vi/hGM_sX6cbIg/frame0.jpg",
+          "views_original": "19K views",
+          "views": 19000,
+          "video_id": "hGM_sX6cbIg"
+        },
+        {
+          "title": "What is a tensor in tensorflow ? #machinelearning #tensorflow",
+          "link": "https://www.youtube.com/shorts/8wyiyBzh73k",
+          "thumbnail": "https://i.ytimg.com/vi/8wyiyBzh73k/frame0.jpg",
+          "views_original": "2.9K views",
+          "views": 2900,
+          "video_id": "8wyiyBzh73k"
+        },
+        {
+          "title": "TensorFlow: tf.zeros() Explained #TensorFlow  #DataScience #shortstutorial  #learnpython #python",
+          "link": "https://www.youtube.com/shorts/_znLn3JjV3s",
+          "thumbnail": "https://i.ytimg.com/vi/_znLn3JjV3s/frame0.jpg",
+          "views_original": "190 views",
+          "views": 190,
+          "video_id": "_znLn3JjV3s"
+        },
+        {
+          "title": "A quick Image Classifier code sample with TensorFlow and Keras in Python💻",
+          "link": "https://www.youtube.com/shorts/0NBFsaPy_rQ",
+          "thumbnail": "https://i.ytimg.com/vi/0NBFsaPy_rQ/frame0.jpg",
+          "views_original": "6.4K views",
+          "views": 6400,
+          "video_id": "0NBFsaPy_rQ"
+        },
+        {
+          "title": "How TensorFlow Makes Computers Smarter Fast!",
+          "link": "https://www.youtube.com/shorts/_DJZl9kk3dU",
+          "thumbnail": "https://i.ytimg.com/vi/_DJZl9kk3dU/frame0.jpg",
+          "views_original": "4.4K views",
+          "views": 4400,
+          "video_id": "_DJZl9kk3dU"
+        },
+        {
+          "title": "PyTorch vs TensorFlow — Which Should YOU Learn in 2025? ⚡🤖",
+          "link": "https://www.youtube.com/shorts/Jab6K3zsv-w",
+          "thumbnail": "https://i.ytimg.com/vi/Jab6K3zsv-w/frame0.jpg",
+          "views_original": "38K views",
+          "views": 38000,
+          "video_id": "Jab6K3zsv-w"
+        },
+        {
+          "title": "PyTorch or Tensorflow? Which Should YOU Learn!",
+          "link": "https://www.youtube.com/shorts/po5qTPKBrRc",
+          "thumbnail": "https://i.ytimg.com/vi/po5qTPKBrRc/frame0.jpg",
+          "views_original": "438K views",
+          "views": 438000,
+          "video_id": "po5qTPKBrRc"
+        },
+        {
+          "title": "TensorFlow Basics for Deep Learning 🚀 #tensorflow #DeepLearning #Python #AI #MachineLearning",
+          "link": "https://www.youtube.com/shorts/5ki-94sbEk0",
+          "thumbnail": "https://i.ytimg.com/vi/5ki-94sbEk0/frame0.jpg",
+          "views_original": "677 views",
+          "views": 677,
+          "video_id": "5ki-94sbEk0"
+        },
+        {
+          "title": "tensorflow/tensorflow: An Open Source Machine Learning Framework for Everyone",
+          "link": "https://www.youtube.com/shorts/F2byw8pAZKo",
+          "thumbnail": "https://i.ytimg.com/vi/F2byw8pAZKo/frame0.jpg",
+          "views_original": "8 views",
+          "views": 8,
+          "video_id": "F2byw8pAZKo"
+        },
+        {
+          "title": "Install \"Tensorflow\"  on Windows using pip",
+          "link": "https://www.youtube.com/shorts/QKBpoA0Tdx0",
+          "thumbnail": "https://i.ytimg.com/vi/QKBpoA0Tdx0/frame0.jpg",
+          "views_original": "12K views",
+          "views": 12000,
+          "video_id": "QKBpoA0Tdx0"
+        },
+        {
+          "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow #machinelearning #deeplearning",
+          "link": "https://www.youtube.com/shorts/TxP5sIHrLIs",
+          "thumbnail": "https://i.ytimg.com/vi/TxP5sIHrLIs/frame0.jpg",
+          "views_original": "7.4K views",
+          "views": 7400,
+          "video_id": "TxP5sIHrLIs"
+        },
+        {
+          "title": "What is TensorFlow | The Ultimate Python Library for AI and Machine Learning | Tutorials in Depth",
+          "link": "https://www.youtube.com/shorts/_sJFrTIjEBg",
+          "thumbnail": "https://i.ytimg.com/vi/_sJFrTIjEBg/frame0.jpg",
+          "views_original": "478 views",
+          "views": 478,
+          "video_id": "_sJFrTIjEBg"
+        },
+        {
+          "title": "My new TensorFlow for Deep Learning course is now on Udemy! #shorts",
+          "link": "https://www.youtube.com/shorts/ixk2R1MwXX8",
+          "thumbnail": "https://i.ytimg.com/vi/ixk2R1MwXX8/frame0.jpg",
+          "views_original": "34K views",
+          "views": 34000,
+          "video_id": "ixk2R1MwXX8"
+        },
+        {
+          "title": "TensorFlow: Powering Scalable Machine Learning from Research to Production! @Intradize",
+          "link": "https://www.youtube.com/shorts/l0RdFXvD9cY",
+          "thumbnail": "https://i.ytimg.com/vi/l0RdFXvD9cY/frame0.jpg",
+          "views_original": "1.4K views",
+          "views": 1400,
+          "video_id": "l0RdFXvD9cY"
+        },
+        {
+          "title": "Tensorflow Quickstart #python #ai #tensorflow #artificialintelligence #docker",
+          "link": "https://www.youtube.com/shorts/1m-s-mHoS70",
+          "thumbnail": "https://i.ytimg.com/vi/1m-s-mHoS70/frame0.jpg",
+          "views_original": "19K views",
+          "views": 19000,
+          "video_id": "1m-s-mHoS70"
+        },
+        {
+          "title": "PyTorch vs TensorFlow",
+          "link": "https://www.youtube.com/shorts/EH8tVpj2SSA",
+          "thumbnail": "https://i.ytimg.com/vi/EH8tVpj2SSA/frame0.jpg",
+          "views_original": "62K views",
+          "views": 62000,
+          "video_id": "EH8tVpj2SSA"
+        },
+        {
+          "title": "What is @TensorFlow? | Deep Learning | 2022",
+          "link": "https://www.youtube.com/shorts/Uyymdlg0CSg",
+          "thumbnail": "https://i.ytimg.com/vi/Uyymdlg0CSg/frame0.jpg",
+          "views_original": "32K views",
+          "views": 32000,
+          "video_id": "Uyymdlg0CSg"
+        },
+        {
+          "title": "🔥 5 TensorFlow Tools Most AI Developers Overlook! #shorts",
+          "link": "https://www.youtube.com/shorts/Qn8plGaoL_0",
+          "thumbnail": "https://i.ytimg.com/vi/Qn8plGaoL_0/frame0.jpg",
+          "views_original": "88 views",
+          "views": 88,
+          "video_id": "Qn8plGaoL_0"
+        },
+        {
+          "title": "TensorFlow: the heartbeat of machine learning 🔥 #tensorflow",
+          "link": "https://www.youtube.com/shorts/nDhi9TmDLmU",
+          "thumbnail": "https://i.ytimg.com/vi/nDhi9TmDLmU/frame0.jpg",
+          "views_original": "866 views",
+          "views": 866,
+          "video_id": "nDhi9TmDLmU"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=Tenserflow",
+    "next": "https://www.youtube.com/results?search_query=Tenserflow&sp=SBSCAQtpOE5FVHF0R0htc4IBC0duR2hJMXZLaTIwggELNl8yaHpSb3BQYlGCAQt0UFlqM2ZGSkdqa4IBGFVDMHJxdWNCZFR1RlRqSmllZlc1dC1JUYIBC2htMDdiOEVUYXNvggELNzJzNmhKd3lmRGeCASJQTGVvMUszaGpTM3V1N0N4QWFjeFZuZEk0YkVfbzNCRHRPggEiUExoaHlvTEg2SWpmeFZPZFZDMVAxTDV6NWF6czBYak1zYoIBC2NMTHNjNEhsby04ggEiUExRVnZ2YWEwUXVEZmhUb3gwQWptUTZ0dlRnTUJaQkVYToIBIlBMcW5zbFJGZUgyVXFmdjFWejNEcWVRZnkwdzIwbGRiYVaCAQtWUGxGcHZMT2d0UYIBCzlOc2ZYOVc4MHJ3ggELeWpwcnBPb0g1YziCAQs2ZzRPNVVPSDMwNIIBC1Z0UkxyUTNFdi1VggELUXNsZHh4by03bkmCAQt0X0RkdmdZNzFORYIBC04yeXNpSEZ5d293sgEGCgQIGxAC6gEECAIQGQ%253D%253D",
+    "next_page_token": "SBSCAQtpOE5FVHF0R0htc4IBC0duR2hJMXZLaTIwggELNl8yaHpSb3BQYlGCAQt0UFlqM2ZGSkdqa4IBGFVDMHJxdWNCZFR1RlRqSmllZlc1dC1JUYIBC2htMDdiOEVUYXNvggELNzJzNmhKd3lmRGeCASJQTGVvMUszaGpTM3V1N0N4QWFjeFZuZEk0YkVfbzNCRHRPggEiUExoaHlvTEg2SWpmeFZPZFZDMVAxTDV6NWF6czBYak1zYoIBC2NMTHNjNEhsby04ggEiUExRVnZ2YWEwUXVEZmhUb3gwQWptUTZ0dlRnTUJaQkVYToIBIlBMcW5zbFJGZUgyVXFmdjFWejNEcWVRZnkwdzIwbGRiYVaCAQtWUGxGcHZMT2d0UYIBCzlOc2ZYOVc4MHJ3ggELeWpwcnBPb0g1YziCAQs2ZzRPNVVPSDMwNIIBC1Z0UkxyUTNFdi1VggELUXNsZHh4by03bkmCAQt0X0RkdmdZNzFORYIBC04yeXNpSEZ5d293sgEGCgQIGxAC6gEECAIQGQ%3D%3D"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=Tenserflow",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=Tenserflow&sp=SBSCAQtpOE5FVHF0R0htc4IBC0duR2hJMXZLaTIwggELNl8yaHpSb3BQYlGCAQt0UFlqM2ZGSkdqa4IBGFVDMHJxdWNCZFR1RlRqSmllZlc1dC1JUYIBC2htMDdiOEVUYXNvggELNzJzNmhKd3lmRGeCASJQTGVvMUszaGpTM3V1N0N4QWFjeFZuZEk0YkVfbzNCRHRPggEiUExoaHlvTEg2SWpmeFZPZFZDMVAxTDV6NWF6czBYak1zYoIBC2NMTHNjNEhsby04ggEiUExRVnZ2YWEwUXVEZmhUb3gwQWptUTZ0dlRnTUJaQkVYToIBIlBMcW5zbFJGZUgyVXFmdjFWejNEcWVRZnkwdzIwbGRiYVaCAQtWUGxGcHZMT2d0UYIBCzlOc2ZYOVc4MHJ3ggELeWpwcnBPb0g1YziCAQs2ZzRPNVVPSDMwNIIBC1Z0UkxyUTNFdi1VggELUXNsZHh4by03bkmCAQt0X0RkdmdZNzFORYIBC04yeXNpSEZ5d293sgEGCgQIGxAC6gEECAIQGQ%253D%253D",
+    "next_page_token": "SBSCAQtpOE5FVHF0R0htc4IBC0duR2hJMXZLaTIwggELNl8yaHpSb3BQYlGCAQt0UFlqM2ZGSkdqa4IBGFVDMHJxdWNCZFR1RlRqSmllZlc1dC1JUYIBC2htMDdiOEVUYXNvggELNzJzNmhKd3lmRGeCASJQTGVvMUszaGpTM3V1N0N4QWFjeFZuZEk0YkVfbzNCRHRPggEiUExoaHlvTEg2SWpmeFZPZFZDMVAxTDV6NWF6czBYak1zYoIBC2NMTHNjNEhsby04ggEiUExRVnZ2YWEwUXVEZmhUb3gwQWptUTZ0dlRnTUJaQkVYToIBIlBMcW5zbFJGZUgyVXFmdjFWejNEcWVRZnkwdzIwbGRiYVaCAQtWUGxGcHZMT2d0UYIBCzlOc2ZYOVc4MHJ3ggELeWpwcnBPb0g1YziCAQs2ZzRPNVVPSDMwNIIBC1Z0UkxyUTNFdi1VggELUXNsZHh4by03bkmCAQt0X0RkdmdZNzFORYIBC04yeXNpSEZ5d293sgEGCgQIGxAC6gEECAIQGQ%3D%3D"
+  }
+}

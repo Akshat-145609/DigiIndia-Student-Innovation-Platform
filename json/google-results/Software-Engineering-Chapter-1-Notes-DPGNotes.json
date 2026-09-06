@@ -1,0 +1,419 @@
+{
+  "search_metadata": {
+    "id": "6a9d4a69c20348b4d812bcbb",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/7SOhuJ91-jvgw4bm0RM5izDZxipMDvHrzJY7bzUZmis/6a9d4a69c20348b4d812bcbb.json",
+    "markdown_endpoint": "https://serpapi.com/searches/7SOhuJ91-jvgw4bm0RM5izDZxipMDvHrzJY7bzUZmis/6a9d4a69c20348b4d812bcbb.md",
+    "created_at": "2026-09-06 11:11:37 UTC",
+    "processed_at": "2026-09-06 11:11:37 UTC",
+    "google_url": "https://www.google.co.in/search?q=Software+Engineering+Chapter+1+Notes+%7C+DPGNotes&oq=Software+Engineering+Chapter+1+Notes+%7C+DPGNotes&uule=w+CAIQICIFSW5kaWE&hl=hi&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/7SOhuJ91-jvgw4bm0RM5izDZxipMDvHrzJY7bzUZmis/6a9d4a69c20348b4d812bcbb.html",
+    "total_time_taken": 5.48
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Software Engineering Chapter 1 Notes | DPGNotes",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Software Engineering Chapter 1 Notes | DPGNotes",
+    "total_results": 133,
+    "time_taken_displayed": 0.2,
+    "organic_results_state": "Some results for exact spelling but showing fixed spelling",
+    "spelling_fix": "Software Engineering Chapter 1 Notes | PDF Notes",
+    "showing_results_for": "Software Engineering Chapter 1 Notes | PDF Notes"
+  },
+  "ai_overview": {
+    "page_token": "wKBS7XiczVbdkqo4EH6AfY7DjbPiD446VdSpEBDR0TGjztnjDcXfJCiCBhTxbt9lax9qn2YD_oGrc-bsxdamSpJOutOdTn_5_P0Pz_UXf_3yJ4miVfjE83Ecl3EQYM8pW0HZ9XkjTHyLfw-8kFrkK_ZE1-eIJxKX22w8R4xLEGhIg1pn_K2xML4pXLIV65wVihXOcUVzuraN6NedTHWwagmjdnssb5DGZbuKummEzpy53c1DXufZZ_GlLjOhHJaJW37ezYMdjBfOi1CuVart8gtvLJkC-O8aVoDGvmCRdqyhm1oQAOUTmylKupWk5aaQdN7h1OJUwCypmdS_u5ua2eA0xGwkCzN9MGSD4WFdvhctCwQXw4_ZR8tcp1tJwP3EYc7Gp8H02N9zWtT-5yzMBTXILd7N7PeCxNIKRzFA6OxDyi_3CvJr-lEP0T6CXTyM3fuJzoJAoDvAY4QB0D5UxNKE9E8pUGN2F5i3MSvaCm9S1lV51yJWNqBhWstw0q4ESvttb82DSIrprOZb6_oqCl6VzXPXGWHeMpmeFxi2Y-tEr3zN5Gqt2qi0683WQwYiKzyjKMyjaD_REJEntL4H5eeyVD1BCJ7PIRXjh0yWbqacHFWlG2vuZRadLxlnKT2nq3NIZC5_uQvvj9KcwUv1SM20Ckg-sovVTQgVgssgJB03cy-3Vih8qF7qsViYL9cHBMqVLZuR4nMIhScJXjuCYIzZwU5HK2Q3fV0gww5Op6dY0IJsWsbXOFKKEUqZHdBOIDivoqOPHITS85MU3XjMFHuIGcL0Pk4hne5b6l07fQU3G3t0wNttKP-ofQyzYxzghJWr0s9DpoPRVHAs11pM2iYls9UUrd7MZaPVJfFtiARL8yeYxvpfgejEQ17mUcm9fVcgUj4BIsZD-CMeOoyPPNQ78tB9EEEIbvLQ6KCQ46FrECm4AKIPeeinQYQ-AtGhvwmilIdugWhxD0QH6xyIxkUeKoDowkNnEP08Dxn_kocyTDmHrkhKmzm-S07qYNjf15Nt1xyg-W9qxx3NbdS1kvakBX5ITu_L6Glp2N6D7tpPUq0XJfaDziaCJ8fm1uI4eI9igzolxceu7zjU9XEJEmMVObRULQ2DyAlLX5qwNJI7B4lbejQQK4YgBc8tQV3WRyp1zanatqbW-9Yn7eli2bB7tXVthkc1bzxM5GqrMg5jlDyGNMG6P6Vz2tfeKl6s7hubnrkjcp10iS4hvxavm7K3QIjsHTVyu2rnkfZp0mtM1q2ZORr3k1f6FgqwicOVPN0G26CHLW9NEJ25QhZZKCaDid3smS-rwYBbUktk_4-FBRgioGLJAvA7QKzCEAzYj5UJfARIkbjQMnQn3IrNmmC-1-qmYLecyqNR55Y4SlaiUOVCn4rVvwHyjVK6",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=wKBS7XiczVbdkqo4EH6AfY7DjbPiD446VdSpEBDR0TGjztnjDcXfJCiCBhTxbt9lax9qn2YD_oGrc-bsxdamSpJOutOdTn_5_P0Pz_UXf_3yJ4miVfjE83Ecl3EQYM8pW0HZ9XkjTHyLfw-8kFrkK_ZE1-eIJxKX22w8R4xLEGhIg1pn_K2xML4pXLIV65wVihXOcUVzuraN6NedTHWwagmjdnssb5DGZbuKummEzpy53c1DXufZZ_GlLjOhHJaJW37ezYMdjBfOi1CuVart8gtvLJkC-O8aVoDGvmCRdqyhm1oQAOUTmylKupWk5aaQdN7h1OJUwCypmdS_u5ua2eA0xGwkCzN9MGSD4WFdvhctCwQXw4_ZR8tcp1tJwP3EYc7Gp8H02N9zWtT-5yzMBTXILd7N7PeCxNIKRzFA6OxDyi_3CvJr-lEP0T6CXTyM3fuJzoJAoDvAY4QB0D5UxNKE9E8pUGN2F5i3MSvaCm9S1lV51yJWNqBhWstw0q4ESvttb82DSIrprOZb6_oqCl6VzXPXGWHeMpmeFxi2Y-tEr3zN5Gqt2qi0683WQwYiKzyjKMyjaD_REJEntL4H5eeyVD1BCJ7PIRXjh0yWbqacHFWlG2vuZRadLxlnKT2nq3NIZC5_uQvvj9KcwUv1SM20Ckg-sovVTQgVgssgJB03cy-3Vih8qF7qsViYL9cHBMqVLZuR4nMIhScJXjuCYIzZwU5HK2Q3fV0gww5Op6dY0IJsWsbXOFKKEUqZHdBOIDivoqOPHITS85MU3XjMFHuIGcL0Pk4hne5b6l07fQU3G3t0wNttKP-ofQyzYxzghJWr0s9DpoPRVHAs11pM2iYls9UUrd7MZaPVJfFtiARL8yeYxvpfgejEQ17mUcm9fVcgUj4BIsZD-CMeOoyPPNQ78tB9EEEIbvLQ6KCQ46FrECm4AKIPeeinQYQ-AtGhvwmilIdugWhxD0QH6xyIxkUeKoDowkNnEP08Dxn_kocyTDmHrkhKmzm-S07qYNjf15Nt1xyg-W9qxx3NbdS1kvakBX5ITu_L6Glp2N6D7tpPUq0XJfaDziaCJ8fm1uI4eI9igzolxceu7zjU9XEJEmMVObRULQ2DyAlLX5qwNJI7B4lbejQQK4YgBc8tQV3WRyp1zanatqbW-9Yn7eli2bB7tXVthkc1bzxM5GqrMg5jlDyGNMG6P6Vz2tfeKl6s7hubnrkjcp10iS4hvxavm7K3QIjsHTVyu2rnkfZp0mtM1q2ZORr3k1f6FgqwicOVPN0G26CHLW9NEJ25QhZZKCaDid3smS-rwYBbUktk_4-FBRgioGLJAvA7QKzCEAzYj5UJfARIkbjQMnQn3IrNmmC-1-qmYLecyqNR55Y4SlaiUOVCn4rVvwHyjVK6"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Unit – 1 [Introduction to Software Engineering] ...",
+      "link": "https://www.pvpsiddhartha.ac.in/dep_it/lecture%20notes/SEP/unit1.pdf",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfAHrOzAV81RvvZNT6151BWsMuW2pOIZA4631ijdm5aPgKkhVGrjRCYtr13DNXtwxqH5ytGL14vvjukcLWEXqVZ3YTnq8ID38NZ-9vrTiL1xSTJoOo7bvjhJGQ2twEaLY-xAw3UGMQ2ZZkmQ9kIdeu_AjpiuGLi7iahAvlYQ&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQFnoECBoQAQ&uoh=1",
+      "displayed_link": "https://www.pvpsiddhartha.ac.in › dep_it › SEP",
+      "snippet": "The term is made of two words, software and engineering. Software is more than just a program code. A program is an executable.",
+      "snippet_highlighted_words": [
+        "software"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "पेज": 18
+          },
+          "extensions": [
+            "18 पेज"
+          ]
+        }
+      },
+      "about_this_result": {
+        "source": {
+          "description": "The term is made of two words, software and engineering. Software is more than just a program code. A program is an executable.",
+          "source_info_link": "https://www.pvpsiddhartha.ac.in/dep_it/lecture%20notes/SEP/unit1.pdf"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.pvpsiddhartha.ac.in/dep_it/lecture%20notes/SEP/unit1.pdf&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.pvpsiddhartha.ac.in%2Fdep_it%2Flecture%2520notes%2FSEP%2Funit1.pdf",
+      "source": "PVPSIT"
+    },
+    {
+      "position": 2,
+      "title": "Software Engineering [R18A0511] LECTURE NOTES",
+      "link": "https://mrcet.com/downloads/digital_notes/CSE/III%20Year/Software%20Engineering.pdf",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESiwEB6zswFe-2D5oEx8j4iiTbM2UlVjN6mMPgi7qGQkf8Pt8dSEBnf8rDltjFV8ORAujFDpA1hhgpFazQWn8bbNaSgOFjy2T6BFZYJQZSoDKblzgfA5eo5NUgmRhobKVEiBZ2TrNIPGYDIgcqegslCeVoqw1ggmYgVNpsfd4gTLCXwTGLjnPEt4Q6s7uH&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQFnoECCQQAQ&uoh=1",
+      "displayed_link": "https://mrcet.com › digital_notes › CSE › Softwar...",
+      "favicon": "https://serpapi.com/searches/6a9d4a69c20348b4d812bcbb/images/48SOZyCWTnd8dKBa25TRJVuQ_wDntczJpd9kzICAGBs.jpeg",
+      "snippet": "The students will be able: 1. To comprehend the various software process models. 2. To understand the types of software requirements and SRS document.",
+      "snippet_highlighted_words": [
+        "To comprehend the various software process models"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "पेज": 65
+          },
+          "extensions": [
+            "65 पेज"
+          ]
+        }
+      },
+      "about_this_result": {
+        "source": {
+          "description": "The students will be able: 1. To comprehend the various software process models. 2. To understand the types of software requirements and SRS document.",
+          "source_info_link": "https://mrcet.com/downloads/digital_notes/CSE/III%20Year/Software%20Engineering.pdf",
+          "icon": "https://serpapi.com/searches/6a9d4a69c20348b4d812bcbb/images/48SOZyCWTnd8dKBa25TRJc3u7ToPt9givwbZPLL6frF6QDjIFlfWuy6grEhb-cYY.jpeg"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://mrcet.com/downloads/digital_notes/CSE/III%20Year/Software%20Engineering.pdf&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fmrcet.com%2Fdownloads%2Fdigital_notes%2FCSE%2FIII%2520Year%2FSoftware%2520Engineering.pdf",
+      "source": "mrcet"
+    },
+    {
+      "position": 3,
+      "title": "Software Engineering Fundamentals Unit 1 | PDF",
+      "link": "https://www.scribd.com/document/604340906/Software-Engineering-UNIT-1",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESfQHrOzAV-rWwLzzOx6g1CbRiov_V0m9ZMvdFMFqsJJEcgsxsXKp-tGi0mKI6SUbSawCIu1zMH5UnEOdI2yjY9g9yEsWsOd23tPlzNkqEGOMoegcyIp8ucXJNNRFWNuerYvLkTr8w-JzOI8XvZds1VJfEsnqvbkLVUVmIyJX5&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQFnoECCgQAQ&uoh=1",
+      "displayed_link": "https://www.scribd.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAflBMVEUJhkcIhkcIhkYAh0dRo3aJwKKOwaWMwaRKonMAhUXt9_L4_Prz-_h-vp0AhEP____T6t_M5tlqtI7p9e83k18di1AojlVcroSz2sbb7-Wm1L0okVqezLR4tpWp0LtnrYaZya9AnGpyr4uJuZxZpXoellzB4NC8384AjU-x2cTZS5WPAAABBUlEQVR4AYWSBQLDIAxFG6ildEnddb77X3DMhcmvIA-JWf8EQgu-jEFq3eHLGMB2XNfz8cbQ91zXseGEhXQCpcIFXfcCLUKlAkeKM3QVR3GCunt-KYkjVu4dplluCaSzQFh5lj7DggTmZVXXjZ2joOIVIradYq3AyxHfIMk-5Lgbak5HpHeYd1z7RGPIU27sLBquZ6J8uVobEMFjrqtkI4mEAXHeanNUsC0lmDspT3apNjjspQklktz7XcDbzLC27ac1aD5pow2YxRxpa9udbt4hWp7ieOi2iqfcgNg2ik-qZjN82v7yUNe7pAXQO7-kjN5T9pJsfEn2jzL5UWA_SvN3Uf_WEWKkGjSp2MmkAAAAAElFTkSuQmCC.png",
+      "snippet": "Software Engineering Fundamentals Unit 1. The document discusses software engineering, the need for software engineering, and software processes and life cycles ...",
+      "snippet_highlighted_words": [
+        "Software Engineering",
+        "1",
+        "software engineering",
+        "software engineering"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Software Engineering Fundamentals Unit 1. The document discusses software engineering, the need for software engineering, and software processes and life cycles ...",
+          "source_info_link": "https://www.scribd.com/document/604340906/Software-Engineering-UNIT-1",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAflBMVEUJhkcIhkcIhkYAh0dRo3aJwKKOwaWMwaRKonMAhUXt9_L4_Prz-_h-vp0AhEP____T6t_M5tlqtI7p9e83k18di1AojlVcroSz2sbb7-Wm1L0okVqezLR4tpWp0LtnrYaZya9AnGpyr4uJuZxZpXoellzB4NC8384AjU-x2cTZS5WPAAABBUlEQVR4AYWSBQLDIAxFG6ildEnddb77X3DMhcmvIA-JWf8EQgu-jEFq3eHLGMB2XNfz8cbQ91zXseGEhXQCpcIFXfcCLUKlAkeKM3QVR3GCunt-KYkjVu4dplluCaSzQFh5lj7DggTmZVXXjZ2joOIVIradYq3AyxHfIMk-5Lgbak5HpHeYd1z7RGPIU27sLBquZ6J8uVobEMFjrqtkI4mEAXHeanNUsC0lmDspT3apNjjspQklktz7XcDbzLC27ac1aD5pow2YxRxpa9udbt4hWp7ieOi2iqfcgNg2ik-qZjN82v7yUNe7pAXQO7-kjN5T9pJsfEn2jzL5UWA_SvN3Uf_WEWKkGjSp2MmkAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.scribd.com/document/604340906/Software-Engineering-UNIT-1&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.scribd.com%2Fdocument%2F604340906%2FSoftware-Engineering-UNIT-1",
+      "source": "Scribd"
+    },
+    {
+      "position": 4,
+      "title": "Software Engineering unit 1 Notes AKTU ppt | PDF",
+      "link": "https://www.slideshare.net/slideshow/software-engineering-unit-1-notes-aktu-ppt-8e64/274181379",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESlgEB6zswFQM9cgdgonqyv6X1hBlML7-phKDQ998q8mUO05o_lbDVhdFcHOdIl_c0xX3WqtRj0Ixq0XmKJM9zvr-xBb8WwLYA6cSZgxmbiPQvlOyV3Dpj6ZEWMFpTamsI3dpERsGBRarDqoiiLGBwdDlIPGwEmOLLPlHhMS8ntof8hpDh_iHpftNz6OoaPrZKNPIKs0h24Ec&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQFnoECCYQAQ&uoh=1",
+      "displayed_link": "https://www.slideshare.net › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAARVBMVEVHcEz_qlX_qlX_qlX_qlX_qlX_qlX_qlX_qlX_qlX_q1X_rVXwoFWye1X_sFV1VVYJG1YcJFbWkFUpKVYxLlZHOlardlXkbWvEAAAACnRSTlMAM4fD7P9gF-A-1qVdbgAAANFJREFUeAF8klUChSAUBaljS6r7XyoNL5nfgdukQRkXgOCMkk8mgYaY3tS84I1l7m7FF-vANTvjJzlyzbftnZg3uqm64-xEG2uuPUilTUXbDRChdzTproqJEpSwHHPbpDIu0iUjPOez1t4qcTfJiYgOIZ1WUoY65WOqFCR_1OG5kgjsXaJL90MK9J-JJ6Y4clheZbCJK9R27EgFsS5d4pahL0QYoVVWbokCTePbD20aTYoy-N2ejVBLZqor6-uqCst42eMzyXbgxqc5Pmo_HNkBALQOFyMeJu0yAAAAAElFTkSuQmCC.png",
+      "snippet": "It discusses the principles, processes, and characteristics of software engineering, as well as comparisons with conventional engineering processes.",
+      "snippet_highlighted_words": [
+        "principles, processes, and characteristics of software engineering"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "It discusses the principles, processes, and characteristics of software engineering, as well as comparisons with conventional engineering processes.",
+          "source_info_link": "https://www.slideshare.net/slideshow/software-engineering-unit-1-notes-aktu-ppt-8e64/274181379",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAARVBMVEVHcEz_qlX_qlX_qlX_qlX_qlX_qlX_qlX_qlX_qlX_q1X_rVXwoFWye1X_sFV1VVYJG1YcJFbWkFUpKVYxLlZHOlardlXkbWvEAAAACnRSTlMAM4fD7P9gF-A-1qVdbgAAANFJREFUeAF8klUChSAUBaljS6r7XyoNL5nfgdukQRkXgOCMkk8mgYaY3tS84I1l7m7FF-vANTvjJzlyzbftnZg3uqm64-xEG2uuPUilTUXbDRChdzTproqJEpSwHHPbpDIu0iUjPOez1t4qcTfJiYgOIZ1WUoY65WOqFCR_1OG5kgjsXaJL90MK9J-JJ6Y4clheZbCJK9R27EgFsS5d4pahL0QYoVVWbokCTePbD20aTYoy-N2ejVBLZqor6-uqCst42eMzyXbgxqc5Pmo_HNkBALQOFyMeJu0yAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.slideshare.net/slideshow/software-engineering-unit-1-notes-aktu-ppt-8e64/274181379&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.slideshare.net%2Fslideshow%2Fsoftware-engineering-unit-1-notes-aktu-ppt-8e64%2F274181379",
+      "source": "Slideshare"
+    },
+    {
+      "position": 5,
+      "title": "Unit I Software Engineering Notes | PDF",
+      "link": "https://www.scribd.com/document/698422206/Software-Engineering-Unit-I-Lecture-Notes-without-title",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESmQEB6zswFc4Mpl7D87nG6qJ1yv6Gx-ns8BqqVaASPZkdprExtoEKcyKOIbgtz_EjH3I9iB2PjP6ZoIJ6VGVW1Xb7t4WoKy7Aygr04UMH7P5LVcz7C3oaZsA9JfCEmj7Ya0bLNRXOFe0GfQHPusEsF6q5eBDz6lqYlQU7qxZq9oZq93xOIVcaIe15RDnE6rbvxov29O2gr91JT5M&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQFnoECCoQAQ&uoh=1",
+      "displayed_link": "https://www.scribd.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAflBMVEUJhkcIhkcIhkYAh0dRo3aJwKKOwaWMwaRKonMAhUXt9_L4_Prz-_h-vp0AhEP____T6t_M5tlqtI7p9e83k18di1AojlVcroSz2sbb7-Wm1L0okVqezLR4tpWp0LtnrYaZya9AnGpyr4uJuZxZpXoellzB4NC8384AjU-x2cTZS5WPAAABBUlEQVR4AYWSBQLDIAxFG6ildEnddb77X3DMhcmvIA-JWf8EQgu-jEFq3eHLGMB2XNfz8cbQ91zXseGEhXQCpcIFXfcCLUKlAkeKM3QVR3GCunt-KYkjVu4dplluCaSzQFh5lj7DggTmZVXXjZ2joOIVIradYq3AyxHfIMk-5Lgbak5HpHeYd1z7RGPIU27sLBquZ6J8uVobEMFjrqtkI4mEAXHeanNUsC0lmDspT3apNjjspQklktz7XcDbzLC27ac1aD5pow2YxRxpa9udbt4hWp7ieOi2iqfcgNg2ik-qZjN82v7yUNe7pAXQO7-kjN5T9pJsfEn2jzL5UWA_SvN3Uf_WEWKkGjSp2MmkAAAAAElFTkSuQmCC.png",
+      "snippet": "UNIT I Lecture Notes. What is Software? Software is: (1) instructions (computer programs) that when executed provide desired features, function, and ...",
+      "snippet_highlighted_words": [
+        "UNIT I Lecture Notes"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 5,
+            "reviews": 2
+          },
+          "extensions": [
+            "5.0(2)"
+          ]
+        }
+      },
+      "about_this_result": {
+        "source": {
+          "description": "UNIT I Lecture Notes. What is Software? Software is: (1) instructions (computer programs) that when executed provide desired features, function, and ...",
+          "source_info_link": "https://www.scribd.com/document/698422206/Software-Engineering-Unit-I-Lecture-Notes-without-title",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAflBMVEUJhkcIhkcIhkYAh0dRo3aJwKKOwaWMwaRKonMAhUXt9_L4_Prz-_h-vp0AhEP____T6t_M5tlqtI7p9e83k18di1AojlVcroSz2sbb7-Wm1L0okVqezLR4tpWp0LtnrYaZya9AnGpyr4uJuZxZpXoellzB4NC8384AjU-x2cTZS5WPAAABBUlEQVR4AYWSBQLDIAxFG6ildEnddb77X3DMhcmvIA-JWf8EQgu-jEFq3eHLGMB2XNfz8cbQ91zXseGEhXQCpcIFXfcCLUKlAkeKM3QVR3GCunt-KYkjVu4dplluCaSzQFh5lj7DggTmZVXXjZ2joOIVIradYq3AyxHfIMk-5Lgbak5HpHeYd1z7RGPIU27sLBquZ6J8uVobEMFjrqtkI4mEAXHeanNUsC0lmDspT3apNjjspQklktz7XcDbzLC27ac1aD5pow2YxRxpa9udbt4hWp7ieOi2iqfcgNg2ik-qZjN82v7yUNe7pAXQO7-kjN5T9pJsfEn2jzL5UWA_SvN3Uf_WEWKkGjSp2MmkAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.scribd.com/document/698422206/Software-Engineering-Unit-I-Lecture-Notes-without-title&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.scribd.com%2Fdocument%2F698422206%2FSoftware-Engineering-Unit-I-Lecture-Notes-without-title",
+      "source": "Scribd"
+    },
+    {
+      "position": 6,
+      "title": "Software Engineering",
+      "link": "https://aagasc.edu.in/computerscience/notes/se1.pdf",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESawHrOzAV4OUWIGkHP4Fng6EFQxzi3hQkng_YDuAikqdhvdAz9FcINy4EGdc9ApZoEjAexrczUHLwVgVZdcvURf6qTV-HiNRGuM0Wu3bK36a6RI65tJfZbEXWz2LgiKgF4P6IfG8xyKwNPp5a&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQFnoECCMQAQ&uoh=1",
+      "displayed_link": "https://aagasc.edu.in › computerscience › notes",
+      "snippet": "Software Engineering is the establishment and use of sound engineering principles in order to obtain economically software that is reliable and works ...",
+      "snippet_highlighted_words": [
+        "Software Engineering"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "पेज": 11
+          },
+          "extensions": [
+            "11 पेज"
+          ]
+        }
+      },
+      "about_this_result": {
+        "source": {
+          "description": "Software Engineering is the establishment and use of sound engineering principles in order to obtain economically software that is reliable and works ...",
+          "source_info_link": "https://aagasc.edu.in/computerscience/notes/se1.pdf"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://aagasc.edu.in/computerscience/notes/se1.pdf&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Faagasc.edu.in%2Fcomputerscience%2Fnotes%2Fse1.pdf",
+      "source": "Arignar Anna Government Arts and Science College"
+    },
+    {
+      "position": 7,
+      "title": "Software Engineering Notes – Download PDF Now",
+      "link": "https://studyhubzone.com/software-engineering-notes/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbAHrOzAVJ9gy4sGW9l-urGtZjXRlZmBKpUNlOpNgvYB3h56fj6cYmyuKCuy_EW71UxsHecup7LbcVYvmMGT_sNxiGB70xTeO5AxKP0VLrizHjQNRo2UwbHDPqggqORaLHNZwWdMfktVvAlXg7Q&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQFnoECCcQAQ&uoh=1",
+      "displayed_link": "https://studyhubzone.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAS1BMVEX6tQL6tQH9vAL-vwH-wwH-xgH9yQX-12P-89T--_H-_v7-4Yv-6rL-zgH-0wH-zT9NVZtlYo7gsi4AHrEBLbDDmkz8uAH7swH4rwH0Jz-KAAAAAnRSTlMPzo3XPkAAAAEiSURBVHgBVNHhmkUgFIXh7FJCIMr9X-nstaYznfn-oNfWA2MGEfubQ5bpmgwwSySNY3PkBiONxr86K0on75uDRYwSTFfDFOd5npamGtBhMEBYXHCrqpi239KEraoYNRx03boCuWN7XghL5GkYO65YmFLaUko8j64jr9PG0op2Ir5MAIYPpsTXJaouwARk0I7YJnpVf5zncRGds_I1Ccz3fT__MQAX6K2dmwfahg7I0VMxXwk7AgW6AmPw6cmYlcRBReg4s2ndDmB-ZHQiRREaYNoumZrv05ZiCtWGhv6CKn-Quk9EN5ZD54jVlNJYwhrnHb_3OXPOh9RqamGiFWlZuZ6n1tdUrTkrqKL3Ne9bGde-BJmBh9ojsZ-BkrwEBoDJAQBVGx8XOWj6jAAAAABJRU5ErkJggg.png",
+      "date": "7 दिन पहले",
+      "snippet": "Topics Covered: Software characteristics and types, software crisis, software engineering goals and principles, software myths, software quality ...",
+      "snippet_highlighted_words": [
+        "Software characteristics and types"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Topics Covered: Software characteristics and types, software crisis, software engineering goals and principles, software myths, software quality ...",
+          "source_info_link": "https://studyhubzone.com/software-engineering-notes/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAS1BMVEX6tQL6tQH9vAL-vwH-wwH-xgH9yQX-12P-89T--_H-_v7-4Yv-6rL-zgH-0wH-zT9NVZtlYo7gsi4AHrEBLbDDmkz8uAH7swH4rwH0Jz-KAAAAAnRSTlMPzo3XPkAAAAEiSURBVHgBVNHhmkUgFIXh7FJCIMr9X-nstaYznfn-oNfWA2MGEfubQ5bpmgwwSySNY3PkBiONxr86K0on75uDRYwSTFfDFOd5npamGtBhMEBYXHCrqpi239KEraoYNRx03boCuWN7XghL5GkYO65YmFLaUko8j64jr9PG0op2Ir5MAIYPpsTXJaouwARk0I7YJnpVf5zncRGds_I1Ccz3fT__MQAX6K2dmwfahg7I0VMxXwk7AgW6AmPw6cmYlcRBReg4s2ndDmB-ZHQiRREaYNoumZrv05ZiCtWGhv6CKn-Quk9EN5ZD54jVlNJYwhrnHb_3OXPOh9RqamGiFWlZuZ6n1tdUrTkrqKL3Ne9bGde-BJmBh9ojsZ-BkrwEBoDJAQBVGx8XOWj6jAAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://studyhubzone.com/software-engineering-notes/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fstudyhubzone.com%2Fsoftware-engineering-notes%2F",
+      "source": "Study Hub Zone"
+    },
+    {
+      "position": 8,
+      "title": "software engineering notes for cse/it fifth semester | PDF",
+      "link": "https://www.slideshare.net/slideshow/ppslecturernote-110926032109phpapp01/14589249",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESigEB6zswFbH8QTH6qpu2nXv51A8HU5mJckCV0h1yiTf4xIRZe5AaISOSgTBZm7GkNNoXd0XgnEFEnmoAxvayC_K6vcBWnC4JWF0PizMbbX43dbuyX_ciGNy4m_DCRoeMJgVRFO9NXODHKuercArYnf2tuJ7Y07Ptu7WOUqSxACerFb0euqXY8Gl7Sl0&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQFnoECCUQAQ&uoh=1",
+      "displayed_link": "https://www.slideshare.net › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAARVBMVEVHcEz_qlX_qlX_qlX_qlX_qlX_qlX_qlX_qlX_qlX_q1X_rVXwoFWye1X_sFV1VVYJG1YcJFbWkFUpKVYxLlZHOlardlXkbWvEAAAACnRSTlMAM4fD7P9gF-A-1qVdbgAAANFJREFUeAF8klUChSAUBaljS6r7XyoNL5nfgdukQRkXgOCMkk8mgYaY3tS84I1l7m7FF-vANTvjJzlyzbftnZg3uqm64-xEG2uuPUilTUXbDRChdzTproqJEpSwHHPbpDIu0iUjPOez1t4qcTfJiYgOIZ1WUoY65WOqFCR_1OG5kgjsXaJL90MK9J-JJ6Y4clheZbCJK9R27EgFsS5d4pahL0QYoVVWbokCTePbD20aTYoy-N2ejVBLZqor6-uqCst42eMzyXbgxqc5Pmo_HNkBALQOFyMeJu0yAAAAAElFTkSuQmCC.png",
+      "snippet": "The document provides an overview of software engineering principles and practices. It discusses: 1) The scope and necessity of software engineering to ...",
+      "snippet_highlighted_words": [
+        "software engineering principles and practices"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "The document provides an overview of software engineering principles and practices. It discusses: 1) The scope and necessity of software engineering to ...",
+          "source_info_link": "https://www.slideshare.net/slideshow/ppslecturernote-110926032109phpapp01/14589249",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAARVBMVEVHcEz_qlX_qlX_qlX_qlX_qlX_qlX_qlX_qlX_qlX_q1X_rVXwoFWye1X_sFV1VVYJG1YcJFbWkFUpKVYxLlZHOlardlXkbWvEAAAACnRSTlMAM4fD7P9gF-A-1qVdbgAAANFJREFUeAF8klUChSAUBaljS6r7XyoNL5nfgdukQRkXgOCMkk8mgYaY3tS84I1l7m7FF-vANTvjJzlyzbftnZg3uqm64-xEG2uuPUilTUXbDRChdzTproqJEpSwHHPbpDIu0iUjPOez1t4qcTfJiYgOIZ1WUoY65WOqFCR_1OG5kgjsXaJL90MK9J-JJ6Y4clheZbCJK9R27EgFsS5d4pahL0QYoVVWbokCTePbD20aTYoy-N2ejVBLZqor6-uqCst42eMzyXbgxqc5Pmo_HNkBALQOFyMeJu0yAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.slideshare.net/slideshow/ppslecturernote-110926032109phpapp01/14589249&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.slideshare.net%2Fslideshow%2Fppslecturernote-110926032109phpapp01%2F14589249",
+      "source": "Slideshare"
+    },
+    {
+      "position": 9,
+      "title": "Software Engineering - UCT",
+      "link": "https://www.cs.uct.ac.za/mit_notes/software/pdfs/SE_top.pdf",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEScwHrOzAVLRQnYup0aRlk5b3kswpGqpv93nIezFI8vvMbEQEKQew8-WzsE3RGiBO-CNxfFqfooEO56DP7VJ6-oeRhoGw0sP_cy6YyGW2EC4OrOeC1VoYIAE7dNXyyz45JH1Jr5hlhGiC2XFYN19ko8od5gf8&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQFnoECCIQAQ&uoh=1",
+      "displayed_link": "https://www.cs.uct.ac.za › software › pdfs › SE_top",
+      "snippet": "1. Chapter 1. Introduction. Objectives. At the end of this chapter you will have acquired an introductory understanding of what software and software ...",
+      "snippet_highlighted_words": [
+        "Chapter 1. Introduction"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "पेज": 178
+          },
+          "extensions": [
+            "178 पेज"
+          ]
+        }
+      },
+      "about_this_result": {
+        "source": {
+          "description": "1. Chapter 1. Introduction. Objectives. At the end of this chapter you will have acquired an introductory understanding of what software and software ...",
+          "source_info_link": "https://www.cs.uct.ac.za/mit_notes/software/pdfs/SE_top.pdf"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.cs.uct.ac.za/mit_notes/software/pdfs/SE_top.pdf&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.cs.uct.ac.za%2Fmit_notes%2Fsoftware%2Fpdfs%2FSE_top.pdf",
+      "source": "University of Cape Town"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Software Engineering Unit 1 Notes PDF",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Software+Engineering+Unit+1+Notes+PDF&sa=X&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ1QJ6BAgeEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Unit+1+Notes+PDF"
+    },
+    {
+      "block_position": 1,
+      "query": "Software Engineering handwritten notes PDF",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Software+Engineering+handwritten+notes+PDF&sa=X&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ1QJ6BAgtEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+handwritten+notes+PDF"
+    },
+    {
+      "block_position": 1,
+      "query": "Software Engineering handwritten notes PDF free",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Software+Engineering+handwritten+notes+PDF+free&sa=X&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ1QJ6BAgsEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+handwritten+notes+PDF+free"
+    },
+    {
+      "block_position": 1,
+      "query": "Software engineering lecture notes ppt pdf",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Software+engineering+lecture+notes+ppt+pdf&sa=X&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ1QJ6BAgrEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+engineering+lecture+notes+ppt+pdf"
+    },
+    {
+      "block_position": 1,
+      "query": "Software Engineering notes PDF",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Software+Engineering+notes+PDF&sa=X&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ1QJ6BAgpEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+notes+PDF"
+    },
+    {
+      "block_position": 1,
+      "query": "Advanced software engineering notes PDF",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Advanced+software+engineering+notes+PDF&sa=X&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ1QJ6BAghEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Advanced+software+engineering+notes+PDF"
+    },
+    {
+      "block_position": 1,
+      "query": "Software Engineering Unit 2 Notes",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Software+Engineering+Unit+2+Notes&sa=X&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ1QJ6BAggEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Unit+2+Notes"
+    },
+    {
+      "block_position": 1,
+      "query": "Software Engineering Unit 1 Notes AKTU",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&q=Software+Engineering+Unit+1+Notes+AKTU&sa=X&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ1QJ6BAgfEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Unit+1+Notes+AKTU"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=bUqdat-xDr_Ap84P99SDuQI&start=10&sa=N&sstk=AS6-VmKac960SUAL4xQ1UbXJiH7qicqsTfcivLlEsn3-L6884_RmTdrRqmjMNlllOTRUdM3y3dfRj4sw1EbQjK09aYyLEUzzJ7xNsQ&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ8NMDegQINhAW",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=bUqdat-xDr_Ap84P99SDuQI&start=10&sa=N&sstk=AS6-VmKac960SUAL4xQ1UbXJiH7qicqsTfcivLlEsn3-L6884_RmTdrRqmjMNlllOTRUdM3y3dfRj4sw1EbQjK09aYyLEUzzJ7xNsQ&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ8tMDegQINhAE",
+      "3": "https://www.google.co.in/search?q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=bUqdat-xDr_Ap84P99SDuQI&start=20&sa=N&sstk=AS6-VmKac960SUAL4xQ1UbXJiH7qicqsTfcivLlEsn3-L6884_RmTdrRqmjMNlllOTRUdM3y3dfRj4sw1EbQjK09aYyLEUzzJ7xNsQ&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ8tMDegQINhAG",
+      "4": "https://www.google.co.in/search?q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=bUqdat-xDr_Ap84P99SDuQI&start=30&sa=N&sstk=AS6-VmKac960SUAL4xQ1UbXJiH7qicqsTfcivLlEsn3-L6884_RmTdrRqmjMNlllOTRUdM3y3dfRj4sw1EbQjK09aYyLEUzzJ7xNsQ&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ8tMDegQINhAI",
+      "5": "https://www.google.co.in/search?q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=bUqdat-xDr_Ap84P99SDuQI&start=40&sa=N&sstk=AS6-VmKac960SUAL4xQ1UbXJiH7qicqsTfcivLlEsn3-L6884_RmTdrRqmjMNlllOTRUdM3y3dfRj4sw1EbQjK09aYyLEUzzJ7xNsQ&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ8tMDegQINhAK",
+      "6": "https://www.google.co.in/search?q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=bUqdat-xDr_Ap84P99SDuQI&start=50&sa=N&sstk=AS6-VmKac960SUAL4xQ1UbXJiH7qicqsTfcivLlEsn3-L6884_RmTdrRqmjMNlllOTRUdM3y3dfRj4sw1EbQjK09aYyLEUzzJ7xNsQ&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ8tMDegQINhAM",
+      "7": "https://www.google.co.in/search?q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=bUqdat-xDr_Ap84P99SDuQI&start=60&sa=N&sstk=AS6-VmKac960SUAL4xQ1UbXJiH7qicqsTfcivLlEsn3-L6884_RmTdrRqmjMNlllOTRUdM3y3dfRj4sw1EbQjK09aYyLEUzzJ7xNsQ&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ8tMDegQINhAO",
+      "8": "https://www.google.co.in/search?q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=bUqdat-xDr_Ap84P99SDuQI&start=70&sa=N&sstk=AS6-VmKac960SUAL4xQ1UbXJiH7qicqsTfcivLlEsn3-L6884_RmTdrRqmjMNlllOTRUdM3y3dfRj4sw1EbQjK09aYyLEUzzJ7xNsQ&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ8tMDegQINhAQ",
+      "9": "https://www.google.co.in/search?q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=bUqdat-xDr_Ap84P99SDuQI&start=80&sa=N&sstk=AS6-VmKac960SUAL4xQ1UbXJiH7qicqsTfcivLlEsn3-L6884_RmTdrRqmjMNlllOTRUdM3y3dfRj4sw1EbQjK09aYyLEUzzJ7xNsQ&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ8tMDegQINhAS",
+      "10": "https://www.google.co.in/search?q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=bUqdat-xDr_Ap84P99SDuQI&start=90&sa=N&sstk=AS6-VmKac960SUAL4xQ1UbXJiH7qicqsTfcivLlEsn3-L6884_RmTdrRqmjMNlllOTRUdM3y3dfRj4sw1EbQjK09aYyLEUzzJ7xNsQ&ved=2ahUKEwifnKWH6dmWAxU_4MkDHXfqICcQ8tMDegQINhAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Software+Engineering+Chapter+1+Notes+%7C+PDF+Notes&start=90"
+    }
+  }
+}

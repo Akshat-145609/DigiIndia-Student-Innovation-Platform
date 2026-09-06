@@ -1,0 +1,760 @@
+{
+  "search_metadata": {
+    "id": "6a9d4c0cacb3e4818203d128",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/k3jtAnmOJJblvRY6jF1MkTKkqAEgZsGlxmaMS44TJQI/6a9d4c0cacb3e4818203d128.json",
+    "markdown_endpoint": "https://serpapi.com/searches/k3jtAnmOJJblvRY6jF1MkTKkqAEgZsGlxmaMS44TJQI/6a9d4c0cacb3e4818203d128.md",
+    "created_at": "2026-09-06 11:18:36 UTC",
+    "processed_at": "2026-09-06 11:18:36 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=AI+Powered+Healthcare+Assistant+Using+Machine+Learning",
+    "raw_html_file": "https://serpapi.com/searches/k3jtAnmOJJblvRY6jF1MkTKkqAEgZsGlxmaMS44TJQI/6a9d4c0cacb3e4818203d128.html",
+    "total_time_taken": 1.61
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "AI Powered Healthcare Assistant Using Machine Learning"
+  },
+  "search_information": {
+    "total_results": 380169,
+    "video_results_state": "Results for exact spelling"
+  },
+  "ads_results": [
+    {
+      "position_on_page": 1,
+      "title": "A website makes your goth stylist dreams real.",
+      "link": "https://www.youtube.com/watch?v=tnN9SL55xw4",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=C-oGPDEydasqGKYfikNAP4uWNmQn7qMqviQHQl63ykhawkB8QASAAYMnGqYvApNgPggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfClvdICqAMEyAMKqgTnAk_QRX_sLn2QcyUjPkx4DgoAlqxVgm5zJWbbqa-KX9AuH4liwcM2nqp8S6-nWcK-iOQW5h3B6RddVc86HUht4ih5D-BX_RjTMiJMSacyqnSmwZAxL45bgfRbg5DT7Gt7iOpOVuCcQDWCszoX_UXcIxVozMSApq7B76K7DX3DOomhPA7xjfoUKkEBKM9F3RlYRYo4_mlHr-IQC6MbTpnL16qNTp8evDiNpWVbLAB8ke8Qi3_cLDksaF9JQV4PRTObLmTseWGuQqPInUwXwj4YZybuFQ2YkNsGO5eRP7u2-2xUCRzkDN4C7tUrKybkWIi9MZndxBfhrGpvyGxu-L8v1XWJdnFoAnw4cvZULGhnNHgVzPgdIrLf-exKLRMp9yybTsklh8QRaknFf-mt1Y1bQ0-3JxBbLfVF6BYjYV8F2Zi-ZsyCRSBSEZf3bL2oVr9H_jEwlkEkGHiS2ONWss88sDfcIzZ-8VlwiAW6kqqiUZIFCAgTeKT54a0BoAahAYAH-NnCrQGQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxApIIC3RuTjlTTDU1eHc0qAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYmLOwzerZlgNgAZoJMGh0dHBzOi8vd3d3LnNxdWFyZXNwYWNlLmNvbS9nby9jcmVhdGUtYS13ZWJzaXRlL7EJx6BtHwndlDbICRfICY8ByAnCAcgJlwK6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBA4ACAYgCBboDBXZpY2Jm0AsS4AsBogxRYiAKHmNvbS5zcXVhcmVzcGFjZS5zcXVhcmVzcGFjZWFwcGooCiZjb20uc3F1YXJlc3BhY2UuYW5kcm9pZC5zcXVhcmVzcGFjZWFwcHgAiAEA0gwCEAGaDQESqg0CVVPIDQHSDd4FaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL043MTg2NzkuMzE1OUdPT0dMRS9CMzQ0NDU0ODkuNDQ3MzgzNDE5O2RjX3Rya19haWQ9NjQxMDQ2MTExO2RjX3Rya19jaWQ9MjU2NjcxODA0O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTZDak1LREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhNSXVwS3FvbEdvQW9QZ3RRS3dBdF9DOE9VRFFEc1F1NEMwQXNteVd4UXhDOUZ0NVJEZHpBUVZPMVE9O2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjQl9keTk1enlxelBDME5qQm84WWlwSHc5enVsWWNVSGxyTC13ajVJdDlWWEJTTnFEeFE4XzdYWjBqVHlZYzZockNhOTlaWnZEN2daY0VvYlE7ZGNfcHViaWQ9Nj9odHRwczovL3d3dy5zcXVhcmVzcGFjZS5jb20vZ28vY3JlYXRlLWEtd2Vic2l0ZS8_Y2hhbm5lbD12aWRlb19wcm9ncmFtbWF0aWMmc3ViY2hhbm5lbD1ONzE4Njc5LjMxNTlHT09HTEUmY2FtcGFpZ249MzQ0NDU0ODkmc3ViY2FtcGFpZ249NDQ3MzgzNDE5XzY0MTA0NjExMSZzb3VyY2U9MjU2NjcxODA0JnV0bV9tZWRpdW09dmlkZW9fcHJvZ3JhbW1hdGljJnV0bV9zb3VyY2U9TjcxODY3OS4zMTU5R09PR0xFJnV0bV9jb250ZW50PSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjE4MTUyNjU1OTSwE8K5wyS4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXzYBTjhs5jVi6FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMIyryxzerZlgMVBzEEBB3iciOTEAEYASAAEgLmZPD_BwE&num=1&cid=CAASqgHkaNLIi52Hm-zyyvF1ysc74WXOvZLU7ZR9CF-O7JadT1Pp0DPf5iKU_ntfYnNasLOKzuwyaHaZ-A0NoEFbo9rCcBKR_7jrvWFXlLBkKeCIJLz2cNV5589rdpOWMGLwX3VsdXribz4Mfzg3CLgbWrwoqiqyF1wN_1d8BvyUFcEc5zLqyROJcbS1qRpfdjl9gUsf5yCuk1jkdR4D0abzY1yo6NIctcm-C_ryMw&ad_cpn=%5BCPN%5D&sig=AOD64_06st1JWRHJDhWjU7SgQ4jy5VkHjg&ctype=110&video_id=tnN9SL55xw4&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Squarespace",
+        "thumbnail": "https://yt3.ggpht.com/proxy/OV0yjYL3Kk9I_i7Omx09d9RPjt0_v4WbF7A4zOK17mKSTTLGS6IO5mPBrpBATxaPMOmf0MGg_Ub91n5qb0n0PLL_J9gidUb63dm9kE-Nwkg_7ZqLObNCs5G-E0YLi1MvkceqjxZndTLsAbHnJpP7OC_QAhOQZtbUFk8jZD838Uhn1Ibf0TfqBSYqRLc2WV7uen0op44FyOJoJOb0pAE2hP68C2i7Kf-ZIeH6Z7WWqDm3UWjzKA17dHtTZKxulgfXUtKJF44=w68-h68-nd"
+      },
+      "description": "Get a domain and start a website at squarespace.com today.",
+      "thumbnail": "https://i.ytimg.com/vi/tnN9SL55xw4/hqdefault.jpg",
+      "videoId": "tnN9SL55xw4",
+      "url": "https://www.youtube.com/watch?v=tnN9SL55xw4"
+    },
+    {
+      "position_on_page": 4,
+      "title": "Stevesie Data",
+      "link": "https://www.youtube.com/watch?v=HBNeORaayYo",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CTZ3FDEydasqGKYfikNAP4uWNmQnWkfOxiQHh0YGuoRawkB8QAiAAYMnGqYvApNgPggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLR8tgDqAMEyAMKqgTIAk_QRX_sLn2QcyUjPkx4DgoAlqxVgm5zJWbbqa-KX9AuH4liwcM2nqp8S6-nWcK-iOQW5h3B6RddVc86HUht4ih5D-BX_RjTMiJMSacyqnSmwZAxL45bgfRbg5DT7Gt7iOpOVuCcQDWCszoX_UXcIxVozMSApq7B76K7DX3DOomhPA7xjfoUKkEBKM9F3RlYRYo4_mlHr-IQC6MbTpnL16qNTp8evDiNpWVbLAB8ke8Qi3_cLDksaF9JQV4PRTObLmTseWGuQqPInUwXwj4YZybuFQ2YkNsGO5eRP7u2-2xUCRzkDN4C7tUrKybkWIi9MZndxBfhrGpvyGxu-L8v1XWJdk_nxr4_sjz8GE9HpZrhF1eNDHfXzvMprtVh9EyUYaHHsM__aibB-A1M1R4I4Bb4nZZpDxTld56mumVraDCMZgJrE2et6iKIBdjnkflZkgUHCBN43qTSJ6AGoQGAB_atjSeQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxApIIC0hCTmVPUmFheVlvqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYmLOwzerZlgNgAZoJGWh0dHBzOi8vc3RldmVzaWUuY29tL2FwcHOxCYXncdeU-FKmyAkXyAmPAcgJwgHICZcCmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWNiZtALEtIMAhABmg0BEqoNAlVTyA0B0g1BaHR0cHM6Ly9zdGV2ZXNpZS5jb20vYXBwcz9nYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQxNDQ4MDI3Nza4E____________wGIFAGwFAPAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXMrSHMHhK3Ce6FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMIyryxzerZlgMVBzEEBB3iciOTEAEYAiAAEgIYx_D_BwE&num=2&cid=CAASqgHkaNLIi52Hm-zyyvF1ysc74WXOvZLU7ZR9CF-O7JadT1Pp0DPf5iKU_ntfYnNasLOKzuwyaHaZ-A0NoEFbo9rCcBKR_7jrvWFXlLBkKeCIJLz2cNV5589rdpOWMGLwX3VsdXribz4Mfzg3CLgbWrwoqiqyF1wN_1d8BvyUFcEc5zLqyROJcbS1qRpfdjl9gUsf5yCuk1jkdR4D0abzY1yo6NIctcm-C_ryMw&ad_cpn=%5BCPN%5D&sig=AOD64_0fEK2GojgvzT1oKNRUHoYUEP2tsw&ctype=110&video_id=HBNeORaayYo&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Stevesie Data",
+        "thumbnail": "https://yt3.ggpht.com/proxy/-0cq4XjmDDxB61LEnuNEQ-efJC03boT0Q1paPJrW92Zs1Q3FaC4VPAlmk3AZFBvfp3Poo1DdyzKgNigHPL4tMgk2cESPXmo8W4pWFFGkEH1NTYp4b2Hf71yMESUf4Wkyy2CdRIhVrolqaBaKo6F-Yol1JGN1rgJVu5-6GOYgeBzCt-PglvyGbUTD1ju6qvqigF5HDGOpNZhPGq8FlgwjToy8n5XxL_-ZVfLd03YzX2rWJoMrAiiiw9S6faAUMRrmPIOlFis=w68-h68-nd"
+      },
+      "description": "Scrape Data Not Screens",
+      "thumbnail": "https://i.ytimg.com/vi/HBNeORaayYo/hqdefault.jpg",
+      "videoId": "HBNeORaayYo",
+      "url": "https://www.youtube.com/watch?v=HBNeORaayYo"
+    },
+    {
+      "position_on_page": 7,
+      "title": "Learn more about Shopify's extended trial — 3 months' access for just $1/mo",
+      "link": "https://www.youtube.com/watch?v=HGS1zW38BQ8",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ce-MdDEydasqGKYfikNAP4uWNmQnwhOCoiAHX95PwgRawkB8QAyAAYMnGqYvApNgPggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLy-5sqqQJqSn6p-K22PqgDBMgDCqoEwwJP0EV_7C59kHMlIz5MeA4KAJasVYJucyVm26mvil_QLh-JYsHDNp6qfEuvp1nCvojkFuYdwekXXVXPOh1IbeIoeQ_gV_0Y0zIiTEmnMqp0psGQMS-OW4H0W4OQ0-xre4jqTlbgnEA1grM6F_1F3CMVaMzEgKauwe-iuw19wzqJoTwO8Y36FCpBASjPRd0ZWEWKOP5pR6_iEAujG06Zy9eqjU6fHrw4jaVlWywAfJHvEIt_3Cw5LGhfSUFeD0Uzmy5k7HlhrkKjyJ1MF8I-GGcm7hUNmJDbBjuXkT-7tvtsVAkc5AzeAu7VKysm5FiIvTGZ3cQX4axqb8hsbvi_L9V1iXYN1Ma-P7I84QBMBKCa4XoUsIe_B-Ht4pj48_dWl8k4DKl2ZkeHhuYHi-Wvb0i4yrUeeKfHPI22HWHH6ULSB92-XogFyIfVvFmSBQgIE3iz5--sBaAGoQGAB_KqzPsEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKSCAtIR1MxelczOEJROKgIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWJizsM3q2ZYDYAGaCU1odHRwczovL3d3dy5zdHlsZWZhY3Rvcnlwcm9kdWN0aW9ucy5jb20vaG93LXRvLXVubG9jay1hLTMtbW9udGgtc2hvcGlmeS10cmlhbLEJR1k_C2yTfDzICRfICY8ByAnCAZgLAboLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAISugMFdmljYmbQCxPSDAIQAZoNAROqDQJVU8gNAdINdWh0dHBzOi8vd3d3LnN0eWxlZmFjdG9yeXByb2R1Y3Rpb25zLmNvbS9ob3ctdG8tdW5sb2NrLWEtMy1tb250aC1zaG9waWZ5LXRyaWFsP2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDAxNzk3ODMxMrgT____________AbAUA8AVgYCAQNAVAdgVAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXjY7UEXksFj26FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMIyryxzerZlgMVBzEEBB3iciOTEAEYAyAAEgIBJvD_BwE&num=3&cid=CAASqgHkaNLIi52Hm-zyyvF1ysc74WXOvZLU7ZR9CF-O7JadT1Pp0DPf5iKU_ntfYnNasLOKzuwyaHaZ-A0NoEFbo9rCcBKR_7jrvWFXlLBkKeCIJLz2cNV5589rdpOWMGLwX3VsdXribz4Mfzg3CLgbWrwoqiqyF1wN_1d8BvyUFcEc5zLqyROJcbS1qRpfdjl9gUsf5yCuk1jkdR4D0abzY1yo6NIctcm-C_ryMw&ad_cpn=%5BCPN%5D&sig=AOD64_2gkFk1WtnEMutQbSuARqEnNROSNA&ctype=110&video_id=HGS1zW38BQ8&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Style Factory",
+        "thumbnail": "https://yt3.ggpht.com/proxy/lXILA8k5vCLoCqam4gFoS6UzbgO-H0JeHffp3_WwddZvVWNIeFZk7rXSvqdZ4TodxkslRpIOY8naQiAu2agA9g_MHehKzzDhp8v2jKPVWA1ZPOt-mb1Zf6EPOO3I9XGf_PFKlonXkTPSht4hLbIroCeRBdEp4IBh8KJaYvxzWpFHXX5jvAAWYT0GCpdKaeVSdsWDnlrwRBAlmnBiiNqDiJHMa3jfliJ5wXgG1367owc0fJx0ik1Z0zJQDwKyN9TLG0ux=w68-h68-nd"
+      },
+      "description": "Find out how you can unlock an extended Shopify trial.",
+      "thumbnail": "https://i.ytimg.com/vi/HGS1zW38BQ8/hqdefault.jpg",
+      "videoId": "HGS1zW38BQ8",
+      "url": "https://www.youtube.com/watch?v=HGS1zW38BQ8"
+    },
+    {
+      "position_on_page": 13,
+      "title": "2025 F-150 is part of Ford F-Series, the best-selling truck lineup.",
+      "link": "https://www.youtube.com/watch?v=08Ru1K_5tIc",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CWb6UDEydasqGKYfikNAP4uWNmQnyxYm7iQGMu-Sx4xRkEAQgAGDJxqmLwKTYD4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGz6uTDPqgDBMgDCqoE5wJP0EV_7C59kHMlIz5MeA4KAJasVYJucyVm26mvil_QLh-JYsHDNp6qfEuvp1nCvojkFuYdwekXXVXPOh1IbeIoeQ_gV_0Y0zIiTEmnMqp0psGQMS-OW4H0W4OQ0-xre4jqTlbgnEA1grM6F_1F3CMVaMzEgKauwe-iuw19wzqJoTwO8Y36FCpBASjPRd0ZWEWKOP5pR6_iEAujG06Zy9eqjU6fHrw4jaVlWywAfJHvEIt_3Cw5LGhfSUFeD0Uzmy5k7HlhrkKjyJ1MF8I-GGcm7hUNmJDbBjuXkT-7tvtsVAkc5AzeAu7VKysm5FiIvTGZ3cQX4axqb8hsbvi_L9V1iXZC18a-NrI8kwNffaGI4sKxViO6z-rH8o1NaBbKejTPdjMI1JMZ3wMOfd8P0sd5wycQWy2iA5hSG2FbH5vmvWbppi4sUhGX92y9qFa_Q-RzTpVBJBh4kv3HPb7PPLA33CNhOIEdSIgFz63s31aSBQgIE3jn3v-yGaAGoQGAB7OitaMZkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB8LIsQKSCAswOFJ1MUtfNXRJY6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWJizsM3q2ZYDYAGaCSZodHRwczovL3d3dy5mb3JkLmNvbS90cnVja3MvZjE1MC8yMDI1L7EJKbQian8UIYHICRfICY8ByAnCAcgJlwK6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBA4ACAYgCBboDBXZpY2Jm0AsS4AsBogwyYhUKE2NvbS5zaWVtZW5zLmZvcmQ4MEFqFAoSY29tLmZvcmQuZm9yZGFsZXhheACIAQDSDAIQAZoNARKqDQJVU8gNAdINuwVodHRwczovL2FkLmRvdWJsZWNsaWNrLm5ldC9kZG0vdHJhY2tjbGsvTjMwMTYuNTI2NzkyNUdNTkVYVVNNRURJQS1TT0xVVEkvQjM0NTgyMjQxLjQzNDIzMDExMztkY190cmtfYWlkPTYyODk5MTY4MTtkY190cmtfY2lkPTI0NjE2MDkxNjtkY19kYm1fdG9rZW49QU9qZUxORUFBQUE2Q2pRS0RBZ0FGUUFBQUFBZEFBQUFBQklNQ0FBVkFBQUFBQjBBQUFBQUloUUl6NjNzMzFhb0F1ZmVfN0lac0FMN3pyVG9BMEE3RU5YRVZJdDlTTVl3Ym9ybXEwY0ZscVM4ZngwPTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtnZHByPSR7R0RQUn07Z2Rwcl9jb25zZW50PSR7R0RQUl9DT05TRU5UXzc1NX07bHRkPTtkY190ZHY9MTtkY190cmFuc3BhcmVudD0xOztkY19ydWk9MTtkY19lcHM9QUhhczhjQ20yOGpENXhNQkJfN1JuYS12SFB0V1lGTF80d0hUMEcxbTBPU3RzSmg4WUFvN0tCMXVxOE1QbTUzY05sb2tkOVJOTDh3d2lBdm9NOEpBcHc7ZGNfcHViaWQ9Nj9odHRwczovL3d3dy5mb3JkLmNvbS90cnVja3MvZjE1MC8yMDI1Lz9sZWFkc291cmNlPWZkYWYtYmFubmVyYWQmYmFubmVyaWQ9MzQ1ODIyNDF8OTgwODMxMnw0MzQyMzAxMTN8MjQ2MTYwOTE2fDYyODk5MTY4MSZmY2lkPWRpc18zNDU4MjI0MV85ODA4MzEyLVlURCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjMyODY0NTM5NjewE-OcuyS4E____________wGIFAWwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakX0HS17cFp76e6FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMIyryxzerZlgMVBzEEBB3iciOTEAEYBCAAEgLgRfD_BwE&num=4&cid=CAASqgHkaNLIi52Hm-zyyvF1ysc74WXOvZLU7ZR9CF-O7JadT1Pp0DPf5iKU_ntfYnNasLOKzuwyaHaZ-A0NoEFbo9rCcBKR_7jrvWFXlLBkKeCIJLz2cNV5589rdpOWMGLwX3VsdXribz4Mfzg3CLgbWrwoqiqyF1wN_1d8BvyUFcEc5zLqyROJcbS1qRpfdjl9gUsf5yCuk1jkdR4D0abzY1yo6NIctcm-C_ryMw&ad_cpn=%5BCPN%5D&sig=AOD64_3X3kreLnoBpuJtUzMIdnLBs9PWZA&ctype=110&video_id=08Ru1K_5tIc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Ford",
+        "thumbnail": "https://yt3.ggpht.com/proxy/CcO1kwb0wHsy5J4tRTNPTDGlSPeGeiykAuN1FBSeIZhuqDVMnBQPCYTBr5JrhvbVGAxaUtEkUXQdwunKK3D8iB3CryGYstiisX1Gzqkw3XWFpaYhxGHdbw6G0lswwRRKs51nRq9yimW_byVr4gF-SX4lABxJeR33xOD1xzlEdWB8nhe1nHtiG25z8LBKKjRjO5flgOKWeIkHQuLD2hYxX60czXzWYwecHzqkdfhOmaK7cyzPnaWXa9zIV8ypMaRpKsLjnxU=w68-h68-nd"
+      },
+      "description": "Tough this smart can only be called F-150.",
+      "thumbnail": "https://i.ytimg.com/vi/08Ru1K_5tIc/hqdefault.jpg",
+      "videoId": "08Ru1K_5tIc",
+      "url": "https://www.youtube.com/watch?v=08Ru1K_5tIc"
+    },
+    {
+      "position_on_page": 19,
+      "title": "Acquisition.com - Scaling Roadmap - Get a free personalized plan",
+      "link": "https://www.youtube.com/watch?v=u5KNHyshmRs",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=C38kmDEydasqGKYfikNAP4uWNmQmU5LmfiQHh--WFohZkEAUgAGDJxqmLwKTYD4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAH4l777KagDBMgDCqoEyQJP0EV_7C59kHMlIz5MeA4KAJasVYJucyVm26mvil_QLh-JYsHDNp6qfEuvp1nCvojkFuYdwekXXVXPOh1IbeIoeQ_gV_0Y0zIiTEmnMqp0psGQMS-OW4H0W4OQ0-xre4jqTlbgnEA1grM6F_1F3CMVaMzEgKauwe-iuw19wzqJoTwO8Y36FCpBASjPRd0ZWEWKOP5pR6_iEAujG06Zy9eqjU6fHrw4jaVlWywAfJHvEIt_3Cw5LGhfSUFeD0Uzmy5k7HlhrkKjyJ1MF8I-GGcm7hUNmJDbBjuXkT-7tvtsVAkc5AzeAu7VKysm5FiIvTGZ3cQX4axqb8hsbvi_L9V1iXY2y8a-NrI80HNjH6ea4Tg7_KG_EuF81JMysf7OHeORSi5f1kGHhrNKj-yHccU0N4Q65CQ25XuKJ8NASacjrmYMfaog5q3hx4gFubzM-1mSBQgIE3jxyKOKBaAGoQGAB_jPjtsEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKSCAt1NUtOSHlzaG1Sc6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWJizsM3q2ZYDYAGaCSNodHRwczovL3d3dy5hY3F1aXNpdGlvbi5jb20vcm9hZG1hcLEJ9RuSlafjuC7ICRfICY8ByAnCAcgJlwKYCwG6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDBXZpY2Jm0AsS0gwCEAGaDQESqg0CVVPIDQHSDe8DaHR0cHM6Ly93d3cuYWNxdWlzaXRpb24uY29tL3JvYWRtYXA_Z2NfaWQ9MjQxNDk5NTgyMDEmaF9nYV9pZD0yMDEwMjg5NTQwNDQmaF9hZF9pZD04MjE1NDgyNzk4NjImaF9rZXl3b3JkX2lkPSZoX2tleXdvcmQ9JmhfcGxhY2VtZW50PSZ1dG1fdGVybT0mdXRtX2NhbXBhaWduPUVTKyU3QytTY2FsaW5nK1dvcmtzaG9wKyU3QytZb3V0dWJlKzAwMyslN0MrVVMrJTdDK1BpeGVsKy0rQ2FsbCtCb29rZWQrJTdDK01heCslN0MrQUMrT21uaSsxKyU3QyswNC8wNi8yNiZ1dG1fc291cmNlPWFkd29yZHMmdXRtX21lZGl1bT1wcGMmdXRtX2lkPTI0MTQ5OTU4MjAxJmhzYV9hY2M9ODc3NzkzNzQ3OCZoc2FfY2FtPTI0MTQ5OTU4MjAxJmhzYV9ncnA9MjAxMDI4OTU0MDQ0JmhzYV9hZD04MjE1NDgyNzk4NjImaHNhX3NyYz0maHNhX3RndD0maHNhX2t3PSZoc2FfbXQ9JmhzYV9uZXQ9YWR3b3JkcyZoc2FfdmVyPTMmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MTQ5OTU4MjAxuBP___________8BiBQCsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF6zahrJOyhhPuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMIyryxzerZlgMVBzEEBB3iciOTEAEYBSAAEgKIpfD_BwE&num=5&cid=CAASqgHkaNLIi52Hm-zyyvF1ysc74WXOvZLU7ZR9CF-O7JadT1Pp0DPf5iKU_ntfYnNasLOKzuwyaHaZ-A0NoEFbo9rCcBKR_7jrvWFXlLBkKeCIJLz2cNV5589rdpOWMGLwX3VsdXribz4Mfzg3CLgbWrwoqiqyF1wN_1d8BvyUFcEc5zLqyROJcbS1qRpfdjl9gUsf5yCuk1jkdR4D0abzY1yo6NIctcm-C_ryMw&ad_cpn=%5BCPN%5D&sig=AOD64_0FKOXycBCdf4Sa0mwBEB6C8vuoZA&ctype=110&video_id=u5KNHyshmRs&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Acquisition.com",
+        "thumbnail": "https://yt3.ggpht.com/proxy/EY0YXYH6NQLr0NlUHIjO8Anm-S6VnVEwThbmVFH8Gij59DUYfCnxNOcPLOAxaFnWH8dpudJ3n9Ciz0zW5USjGXUt_ihFuj9mz4fv4lRMfcEMYkgX5vmoT6WfUPeoUtBptgjzs8uKC2ANtdUbkHcFl8e8gJBwvcA9l2-JwsSGFlRdnEeMNRBrWZ18hrCNC3UgbtNqF05ymTQrf1ehY3iNnuERWc_JIIrzK35r0PzkhSDec5byNpHyJ9KsGn-4jlYdqEl_=w68-h68-nd"
+      },
+      "description": "Learn How To Scale Your Business Past $1m+ With The Scaling Roadmap",
+      "thumbnail": "https://i.ytimg.com/vi/u5KNHyshmRs/hqdefault.jpg",
+      "videoId": "u5KNHyshmRs",
+      "url": "https://www.youtube.com/watch?v=u5KNHyshmRs"
+    }
+  ],
+  "video_results": [
+    {
+      "position_on_page": 2,
+      "title": "Artificial intelligence in healthcare: opportunities and challenges | Navid Toosi Saidy | TEDxQUT",
+      "link": "https://www.youtube.com/watch?v=uvqDTbusdUU",
+      "video_id": "uvqDTbusdUU",
+      "channel": {
+        "name": "TEDx Talks",
+        "link": "https://www.youtube.com/@TEDx",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/1gDPO-4YPWFErfn3yQBnv0yxpkmiud1m5CrorApkOqUYdNd9FrZQ9xB9C9VmDt4EsgArnlwqAQc=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "328,519 views",
+      "length": "8:37",
+      "description": "Artificial intelligence has the ability to revolutionise and personalise targeted healthcare for individual patients. The regulatory ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/uvqDTbusdUU/hqdefault.jpg",
+      "videoId": "uvqDTbusdUU",
+      "url": "https://www.youtube.com/watch?v=uvqDTbusdUU",
+      "channelTitle": "TEDx Talks",
+      "channelVerified": true,
+      "duration": "8:37"
+    },
+    {
+      "position_on_page": 3,
+      "title": "MediBot : Healthcare Assistant | Major Project | Demonstration Video",
+      "link": "https://www.youtube.com/watch?v=rMSsVRjGvMQ",
+      "video_id": "rMSsVRjGvMQ",
+      "channel": {
+        "name": "Lavish 01",
+        "link": "https://www.youtube.com/@lavish0126",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kSs_kCGjlEqN_E9BisANXcdyQqVIBNImElRSzCXIY=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 months ago",
+      "views": "5 views",
+      "length": "4:00",
+      "description": "Introducing MediBot — Your AI-Powered Virtual Healthcare Assistant MediBot is an intelligent healthcare chatbot designed ...",
+      "thumbnail": "https://i.ytimg.com/vi/rMSsVRjGvMQ/hqdefault.jpg",
+      "videoId": "rMSsVRjGvMQ",
+      "url": "https://www.youtube.com/watch?v=rMSsVRjGvMQ",
+      "channelTitle": "Lavish 01",
+      "channelVerified": false,
+      "duration": "4:00"
+    },
+    {
+      "position_on_page": 5,
+      "title": "Building AI models for healthcare (ML Tech Talks)",
+      "link": "https://www.youtube.com/watch?v=UZEstizNxkg",
+      "video_id": "UZEstizNxkg",
+      "channel": {
+        "name": "TensorFlow",
+        "link": "https://www.youtube.com/@TensorFlow",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lAp1zO3sFLjm6hBn_gH0nd3FzZ6c2GN5U85vwlbH1e9ME=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 years ago",
+      "views": "88,894 views",
+      "length": "48:03",
+      "description": "In this session of Machine Learning Tech Talks, Product Manager Lily Peng will discuss the three common myths in building AI ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/UZEstizNxkg/hqdefault.jpg",
+      "videoId": "UZEstizNxkg",
+      "url": "https://www.youtube.com/watch?v=UZEstizNxkg",
+      "channelTitle": "TensorFlow",
+      "channelVerified": true,
+      "duration": "48:03"
+    },
+    {
+      "position_on_page": 8,
+      "title": "What is Tandem – The AI Medical Assistant built for clinicians",
+      "link": "https://www.youtube.com/watch?v=igAZAXa48bM",
+      "video_id": "igAZAXa48bM",
+      "channel": {
+        "name": "Tandem Health",
+        "link": "https://www.youtube.com/@tandemhealthtech",
+        "thumbnail": "https://yt3.ggpht.com/SdEfOHrVkEEiwJ7ClpjI6YnZxa2C6EZ_15hH-eh4aKj3zgp6DNK9BwUJ8VKxc8rprnq-NuqiGQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "10 months ago",
+      "views": "127,704 views",
+      "length": "1:11",
+      "description": "Clinicians spend too much time documenting instead of caring for patients. Tandem's AI medical assistant changes that. Tandem ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/igAZAXa48bM/hqdefault.jpg",
+      "videoId": "igAZAXa48bM",
+      "url": "https://www.youtube.com/watch?v=igAZAXa48bM",
+      "channelTitle": "Tandem Health",
+      "channelVerified": false,
+      "duration": "1:11"
+    },
+    {
+      "position_on_page": 9,
+      "title": "Our project, AI POWERED HEALTHCARE ASSISTANT ",
+      "link": "https://www.youtube.com/watch?v=ZQuap2pf8Ps",
+      "video_id": "ZQuap2pf8Ps",
+      "channel": {
+        "name": "DHARSHAN V SNSCT",
+        "link": "https://www.youtube.com/@DHARSHANVSNSCT-r9j",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nkwyjNjXiTbomljA7uogixZrzODDBJARZoRWe5u8Oz1e7OolmJA7H9ZsVkbBDlarhMIg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 months ago",
+      "views": "34 views",
+      "length": "3:20",
+      "thumbnail": "https://i.ytimg.com/vi/ZQuap2pf8Ps/hqdefault.jpg",
+      "videoId": "ZQuap2pf8Ps",
+      "url": "https://www.youtube.com/watch?v=ZQuap2pf8Ps",
+      "channelTitle": "DHARSHAN V SNSCT",
+      "channelVerified": false,
+      "duration": "3:20"
+    },
+    {
+      "position_on_page": 10,
+      "title": "Artificial Intelligence In Healthcare Course | Introduction To AI In Healthcare | Simplilearn",
+      "link": "https://www.youtube.com/watch?v=eZFtf69sido",
+      "video_id": "eZFtf69sido",
+      "channel": {
+        "name": "Simplilearn",
+        "link": "https://www.youtube.com/@SimplilearnOfficial",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ddQ7tbkFH0piMgZrY4c9UY8djYVf-2EcAMjhMReZ65ITHPk8m_-cWladTN3PVtMTclmvkmlr=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "36,859 views",
+      "length": "43:45",
+      "description": "\"  Michigan Engineering Professional Certificate in AI and Machine Learning ...",
+      "thumbnail": "https://i.ytimg.com/vi/eZFtf69sido/hqdefault.jpg",
+      "videoId": "eZFtf69sido",
+      "url": "https://www.youtube.com/watch?v=eZFtf69sido",
+      "channelTitle": "Simplilearn",
+      "channelVerified": true,
+      "duration": "43:45"
+    },
+    {
+      "position_on_page": 12,
+      "title": "How Can AI Powered Virtual Medical Assistants Improve Your Practice",
+      "link": "https://www.youtube.com/watch?v=A86cY7ZJsk8",
+      "video_id": "A86cY7ZJsk8",
+      "channel": {
+        "name": "Staffingly, Inc",
+        "link": "https://www.youtube.com/@staffingly",
+        "thumbnail": "https://yt3.ggpht.com/jHQxV1DYPdQgMYDr_2rhdUWWVEnVuhAT1p-SG9367iKf2tD61f6nNHLGPKeexVx-Erl-7y5DgHw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "167 views",
+      "length": "5:20",
+      "description": "How Can AI Powered Virtual Medical Assistants Improve Your Practice Read for Article: ...",
+      "thumbnail": "https://i.ytimg.com/vi/A86cY7ZJsk8/hqdefault.jpg",
+      "videoId": "A86cY7ZJsk8",
+      "url": "https://www.youtube.com/watch?v=A86cY7ZJsk8",
+      "channelTitle": "Staffingly, Inc",
+      "channelVerified": false,
+      "duration": "5:20"
+    },
+    {
+      "position_on_page": 14,
+      "title": "I Built a Medical AI Assistant Using Gemma 4 That Runs on Edge Devices",
+      "link": "https://www.youtube.com/watch?v=5BTaLjjz3AI",
+      "video_id": "5BTaLjjz3AI",
+      "channel": {
+        "name": "Data Engineering With Jatin",
+        "link": "https://www.youtube.com/@DataEngineeringWithJatin",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kQnWSAD6Gm3-wtlJwdGQ5jT55-cFBUBsNuleFX8xZm76T3ar1J01mTypF-cd73dN1eDg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 months ago",
+      "views": "67 views",
+      "length": "18:18",
+      "description": "In this video I walk through a medical assistant app I built using Google's Gemma 4 multimodal model. No fine-tuning involved, ...",
+      "thumbnail": "https://i.ytimg.com/vi/5BTaLjjz3AI/hqdefault.jpg",
+      "videoId": "5BTaLjjz3AI",
+      "url": "https://www.youtube.com/watch?v=5BTaLjjz3AI",
+      "channelTitle": "Data Engineering With Jatin",
+      "channelVerified": false,
+      "duration": "18:18"
+    },
+    {
+      "position_on_page": 15,
+      "title": "AI-Powered Healthcare Monitoring Agent using RAG and Multi-Tool Agentic  Workflow",
+      "link": "https://www.youtube.com/watch?v=3GJy49wlnkY",
+      "video_id": "3GJy49wlnkY",
+      "channel": {
+        "name": "Avishkar More",
+        "link": "https://www.youtube.com/@avishkarmore9820",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nuCsZhE4BnUSUkPCehSMM4oRmbpU1xEEgoLGZ-A74iw4U=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 months ago",
+      "views": "187 views",
+      "length": "6:52",
+      "description": "Medical AI Assistant – Full Stack AI Healthcare System This project presents a Retrieval-Augmented Generation (RAG) based ...",
+      "thumbnail": "https://i.ytimg.com/vi/3GJy49wlnkY/hqdefault.jpg",
+      "videoId": "3GJy49wlnkY",
+      "url": "https://www.youtube.com/watch?v=3GJy49wlnkY",
+      "channelTitle": "Avishkar More",
+      "channelVerified": false,
+      "duration": "6:52"
+    },
+    {
+      "position_on_page": 16,
+      "title": "AI and Machine Learning in Healthcare for the Clueless",
+      "link": "https://www.youtube.com/watch?v=gwoVWzcOEf4",
+      "video_id": "gwoVWzcOEf4",
+      "channel": {
+        "name": "Medscape",
+        "link": "https://www.youtube.com/@medscape",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/FmZVVK3QL2yi8E1W8GgZxEupmQZdAk7tWeWqZ_I52i-2f_vhydRicLoG5ZPOCSRFkHXKr5YC=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "755 views",
+      "length": "22:44",
+      "description": "Robert Harrington and Jenine John, a cardiologist and machine-learning research fellow, discuss what you need to know about AI ...",
+      "thumbnail": "https://i.ytimg.com/vi/gwoVWzcOEf4/hqdefault.jpg",
+      "videoId": "gwoVWzcOEf4",
+      "url": "https://www.youtube.com/watch?v=gwoVWzcOEf4",
+      "channelTitle": "Medscape",
+      "channelVerified": true,
+      "duration": "22:44"
+    },
+    {
+      "position_on_page": 17,
+      "title": "AI-Driven Medical Assistant Robot",
+      "link": "https://www.youtube.com/watch?v=apRLjvUoZxo",
+      "video_id": "apRLjvUoZxo",
+      "channel": {
+        "name": "kelwe mok",
+        "link": "https://www.youtube.com/@kelwemok",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lY-WlVQVBSwguFVjuw3CNdGawGncCilmsM3nDdhLsiSSmgjMtxyovSm_gQEg5cZWbjTw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "91 views",
+      "length": "4:17",
+      "description": "The healthcare system is facing significant challenges, including a shortage of medical professionals, increased workloads, and ...",
+      "thumbnail": "https://i.ytimg.com/vi/apRLjvUoZxo/hqdefault.jpg",
+      "videoId": "apRLjvUoZxo",
+      "url": "https://www.youtube.com/watch?v=apRLjvUoZxo",
+      "channelTitle": "kelwe mok",
+      "channelVerified": false,
+      "duration": "4:17"
+    },
+    {
+      "position_on_page": 18,
+      "title": "How AI is Revolutionizing Medicine",
+      "link": "https://www.youtube.com/watch?v=FqsvgFTQv8w",
+      "video_id": "FqsvgFTQv8w",
+      "channel": {
+        "name": "Bloomberg Originals",
+        "link": "https://www.youtube.com/@business",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/8sL0eqOeU4a1wZBVxn5NOFsug17I2XM0dmCdT7eouq12qE-I-JLCzrzub9Z4SdF0IEt5AzEY=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "340,143 views",
+      "length": "7:51",
+      "description": "Dr. Rohan Khera, a data scientist and cardiologist, is using artificial intelligence technology created in his lab at Yale to find ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/FqsvgFTQv8w/hqdefault.jpg",
+      "videoId": "FqsvgFTQv8w",
+      "url": "https://www.youtube.com/watch?v=FqsvgFTQv8w",
+      "channelTitle": "Bloomberg Originals",
+      "channelVerified": true,
+      "duration": "7:51"
+    },
+    {
+      "position_on_page": 20,
+      "title": "MediBot : Healthcare Assistant | Animated Video | Explaining how it works",
+      "link": "https://www.youtube.com/watch?v=RbSHdTsK9XA",
+      "video_id": "RbSHdTsK9XA",
+      "channel": {
+        "name": "Lavish 01",
+        "link": "https://www.youtube.com/@lavish0126",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kSs_kCGjlEqN_E9BisANXcdyQqVIBNImElRSzCXIY=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 months ago",
+      "views": "11 views",
+      "length": "2:01",
+      "description": "Introducing MediBot — Your AI-Powered Virtual Healthcare Assistant MediBot is an intelligent healthcare chatbot designed ...",
+      "thumbnail": "https://i.ytimg.com/vi/RbSHdTsK9XA/hqdefault.jpg",
+      "videoId": "RbSHdTsK9XA",
+      "url": "https://www.youtube.com/watch?v=RbSHdTsK9XA",
+      "channelTitle": "Lavish 01",
+      "channelVerified": false,
+      "duration": "2:01"
+    },
+    {
+      "position_on_page": 21,
+      "title": "AI-Powered Medical Assistant: Transforming Caregivers' Work Life | ai-PULSE 2024 Replay",
+      "link": "https://www.youtube.com/watch?v=GNFij7fvUps",
+      "video_id": "GNFij7fvUps",
+      "channel": {
+        "name": "Scaleway",
+        "link": "https://www.youtube.com/@Scaleway-cloud",
+        "thumbnail": "https://yt3.ggpht.com/IWTqEHO2oKdpfYnxOIrDghFLURg6LrTpunHJ4u-zIR0X81pq3uQs7I7vs30qn1IWwn-AtwYIfg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "342 views",
+      "length": "15:16",
+      "description": "Nacim Rahal, Senior Director of Data & AI at Doctolib, will present the company's AI-powered medical assistant, which helps ...",
+      "thumbnail": "https://i.ytimg.com/vi/GNFij7fvUps/hqdefault.jpg",
+      "videoId": "GNFij7fvUps",
+      "url": "https://www.youtube.com/watch?v=GNFij7fvUps",
+      "channelTitle": "Scaleway",
+      "channelVerified": false,
+      "duration": "15:16"
+    },
+    {
+      "position_on_page": 22,
+      "title": "AI- Powered Medical Assistant using Ollama",
+      "link": "https://www.youtube.com/watch?v=lrYXlopHnh0",
+      "video_id": "lrYXlopHnh0",
+      "channel": {
+        "name": "SHINE SARA MATHEW URK22CS1103",
+        "link": "https://www.youtube.com/@SHINESARAMATHEWURK22CS110",
+        "thumbnail": "https://yt3.ggpht.com/AFL8gxXYfDJx-9l0VzsFDSAjiQ-Jgf-IGy66PLJze4OWX5Gak1zETTQydZ0vkls4FFZ-a1gpqQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "9 months ago",
+      "views": "11 views",
+      "length": "1:32",
+      "description": "GPT-4 EXP 6.",
+      "thumbnail": "https://i.ytimg.com/vi/lrYXlopHnh0/hqdefault.jpg",
+      "videoId": "lrYXlopHnh0",
+      "url": "https://www.youtube.com/watch?v=lrYXlopHnh0",
+      "channelTitle": "SHINE SARA MATHEW URK22CS1103",
+      "channelVerified": false,
+      "duration": "1:32"
+    },
+    {
+      "position_on_page": 23,
+      "title": "CERENA - The All-in-One Healthcare Assistant | AI-Powered Healthcare Platform",
+      "link": "https://www.youtube.com/watch?v=z08GchCasOk",
+      "video_id": "z08GchCasOk",
+      "channel": {
+        "name": "Project Greivous",
+        "link": "https://www.youtube.com/@shakibhasan69",
+        "thumbnail": "https://yt3.ggpht.com/zt63zB7Mq3ons6tpfNUVgoKdD-reUmWlhfJ1-pLdog5UmgzkluL-DcJqC9FRDgctQA786aBH=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "38 views",
+      "length": "46:20",
+      "description": "Welcome to CERENA, a revolutionary healthcare platform that brings all your medical needs under one roof! By integrating the ...",
+      "thumbnail": "https://i.ytimg.com/vi/z08GchCasOk/hqdefault.jpg",
+      "videoId": "z08GchCasOk",
+      "url": "https://www.youtube.com/watch?v=z08GchCasOk",
+      "channelTitle": "Project Greivous",
+      "channelVerified": false,
+      "duration": "46:20"
+    },
+    {
+      "position_on_page": 24,
+      "title": "4 Ways Artificial Intelligence is Transforming Healthcare",
+      "link": "https://www.youtube.com/watch?v=TfkHrvct1hg",
+      "video_id": "TfkHrvct1hg",
+      "channel": {
+        "name": "Med School Insiders",
+        "link": "https://www.youtube.com/@MedSchoolInsiders",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/u-HzltuKtE_y3KqRS_ea2ThRDENTgFzDuRFQHPBVoZcmnriMBWc5u-1xHLh1QA9peeMs8HIS=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "393,408 views",
+      "length": "9:41",
+      "description": "Artificial intelligence is taking the world by storm, and its impact will be felt in all corners of society, including medicine. Is AI in ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/TfkHrvct1hg/hqdefault.jpg",
+      "videoId": "TfkHrvct1hg",
+      "url": "https://www.youtube.com/watch?v=TfkHrvct1hg",
+      "channelTitle": "Med School Insiders",
+      "channelVerified": true,
+      "duration": "9:41"
+    },
+    {
+      "position_on_page": 25,
+      "title": "AI-Powered Healthcare Assistant",
+      "link": "https://www.youtube.com/watch?v=yEQtbDxwjTw",
+      "video_id": "yEQtbDxwjTw",
+      "channel": {
+        "name": "Aditya",
+        "link": "https://www.youtube.com/@Aditya-sn5eo",
+        "thumbnail": "https://yt3.ggpht.com/EVY9lyXdidNWBs97RJ6-JGxhrCR-QXVutHVRLzB7UkEejXb216DdfHH-c5ITpk4E2P7B0mQueQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "37 views",
+      "length": "2:40",
+      "thumbnail": "https://i.ytimg.com/vi/yEQtbDxwjTw/hqdefault.jpg",
+      "videoId": "yEQtbDxwjTw",
+      "url": "https://www.youtube.com/watch?v=yEQtbDxwjTw",
+      "channelTitle": "Aditya",
+      "channelVerified": false,
+      "duration": "2:40"
+    },
+    {
+      "position_on_page": 26,
+      "title": "Meet Aigentux MediAI – Your AI-powered healthcare assistant",
+      "link": "https://www.youtube.com/watch?v=gddQOjaeZqk",
+      "video_id": "gddQOjaeZqk",
+      "channel": {
+        "name": "Techdew",
+        "link": "https://www.youtube.com/@Techdew",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_ncSQRYiCIkwL5vbF1vMWU9MWEiEzrGwT3zu9librjywQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "43 views",
+      "length": "0:45",
+      "description": "Book doctor appointments in seconds - Syncs with the doctor's calendar and auto-blocks their time for you - No calls. No waiting.",
+      "thumbnail": "https://i.ytimg.com/vi/gddQOjaeZqk/hqdefault.jpg",
+      "videoId": "gddQOjaeZqk",
+      "url": "https://www.youtube.com/watch?v=gddQOjaeZqk",
+      "channelTitle": "Techdew",
+      "channelVerified": false,
+      "duration": "0:45"
+    },
+    {
+      "position_on_page": 27,
+      "title": "AI explained: How machine learning could save our healthcare system",
+      "link": "https://www.youtube.com/watch?v=EuSt9l7EdiU",
+      "video_id": "EuSt9l7EdiU",
+      "channel": {
+        "name": "Channel 4 News",
+        "link": "https://www.youtube.com/@Channel4News",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_mNdhtpAi0ZQmCqfkDSq6MQVdbfZe-c70nZ1qqdyQNzK3c=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "9 years ago",
+      "views": "10,246 views",
+      "length": "11:33",
+      "description": "Artificial Intelligence – once the stuff of science fiction, it's now becoming a reality across our society. Healthcare is one area ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/EuSt9l7EdiU/hqdefault.jpg",
+      "videoId": "EuSt9l7EdiU",
+      "url": "https://www.youtube.com/watch?v=EuSt9l7EdiU",
+      "channelTitle": "Channel 4 News",
+      "channelVerified": true,
+      "duration": "11:33"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 6,
+      "shorts": [
+        {
+          "title": "AI  The Virtual Medical Assistant",
+          "link": "https://www.youtube.com/shorts/sYr9Gk63vS0",
+          "thumbnail": "https://i.ytimg.com/vi/sYr9Gk63vS0/frame0.jpg",
+          "views_original": "41 views",
+          "views": 41,
+          "video_id": "sYr9Gk63vS0"
+        },
+        {
+          "title": "Your Own Medical Assistant",
+          "link": "https://www.youtube.com/shorts/iqGyOpsKnJU",
+          "thumbnail": "https://i.ytimg.com/vi/iqGyOpsKnJU/frame0.jpg",
+          "views_original": "187 views",
+          "views": 187,
+          "video_id": "iqGyOpsKnJU"
+        },
+        {
+          "title": "The Impact of AI-Powered Medical Assistants",
+          "link": "https://www.youtube.com/shorts/WNfzWPOajaY",
+          "thumbnail": "https://i.ytimg.com/vi/WNfzWPOajaY/frame0.jpg",
+          "views_original": "303 views",
+          "views": 303,
+          "video_id": "WNfzWPOajaY"
+        },
+        {
+          "title": "AI Medical Assistants Demystified: How They Work and What’s Next!",
+          "link": "https://www.youtube.com/shorts/_Hgwdm4tBFw",
+          "thumbnail": "https://i.ytimg.com/vi/_Hgwdm4tBFw/frame0.jpg",
+          "views_original": "64 views",
+          "views": 64,
+          "video_id": "_Hgwdm4tBFw"
+        },
+        {
+          "title": "Medical Chatbot with LangChain & Gemini LLM | AI Meets Healthcare  #ai #chatbot #langChain #LLM #yt",
+          "link": "https://www.youtube.com/shorts/TsvybgMuBSM",
+          "thumbnail": "https://i.ytimg.com/vi/TsvybgMuBSM/frame0.jpg",
+          "views_original": "348 views",
+          "views": 348,
+          "video_id": "TsvybgMuBSM"
+        }
+      ]
+    },
+    {
+      "position_on_page": 11,
+      "shorts": [
+        {
+          "title": "This AI Medical Assistant Just Hit a $5.3 Billion Valuation in 4 Months",
+          "link": "https://www.youtube.com/shorts/efDEvIkQ8CI",
+          "thumbnail": "https://i.ytimg.com/vi/efDEvIkQ8CI/frame0.jpg",
+          "views_original": "101 views",
+          "views": 101,
+          "video_id": "efDEvIkQ8CI"
+        },
+        {
+          "title": "AI Powered Virtual Assistants Enhancing Clinic Workflow",
+          "link": "https://www.youtube.com/shorts/7VpurMuOZpQ",
+          "thumbnail": "https://i.ytimg.com/vi/7VpurMuOZpQ/frame0.jpg",
+          "views_original": "45 views",
+          "views": 45,
+          "video_id": "7VpurMuOZpQ"
+        },
+        {
+          "title": "AI Powered Virtual Medical Assistants  A Game Changer for Modern Healthcare!",
+          "link": "https://www.youtube.com/shorts/lhNBqVpQ2wA",
+          "thumbnail": "https://i.ytimg.com/vi/lhNBqVpQ2wA/frame0.jpg",
+          "views_original": "27 views",
+          "views": 27,
+          "video_id": "lhNBqVpQ2wA"
+        },
+        {
+          "title": "tech news of the day- AI powered virtual health assistant #healthinnovation #artificialintelligence",
+          "link": "https://www.youtube.com/shorts/kDoTmRnthlg",
+          "thumbnail": "https://i.ytimg.com/vi/kDoTmRnthlg/frame0.jpg",
+          "views_original": "60 views",
+          "views": 60,
+          "video_id": "kDoTmRnthlg"
+        },
+        {
+          "title": "AI in Healthcare: Revolutionizing Patient Care and Diagnosis 🤖📱",
+          "link": "https://www.youtube.com/shorts/WCz8vCn61fc",
+          "thumbnail": "https://i.ytimg.com/vi/WCz8vCn61fc/frame0.jpg",
+          "views_original": "16 views",
+          "views": 16,
+          "video_id": "WCz8vCn61fc"
+        },
+        {
+          "title": "Ai Healthcare",
+          "link": "https://www.youtube.com/shorts/fBSoUbvwAbA",
+          "thumbnail": "https://i.ytimg.com/vi/fBSoUbvwAbA/frame0.jpg",
+          "views_original": "10 views",
+          "views": 10,
+          "video_id": "fBSoUbvwAbA"
+        },
+        {
+          "title": "Top 7 AI Courses for Healthcare You Need to Know!",
+          "link": "https://www.youtube.com/shorts/eiB9tmYqRfQ",
+          "thumbnail": "https://i.ytimg.com/vi/eiB9tmYqRfQ/frame0.jpg",
+          "views_original": "51K views",
+          "views": 51000,
+          "video_id": "eiB9tmYqRfQ"
+        },
+        {
+          "title": "Ai-Assistants-Transform-Healthcare-Workflow",
+          "link": "https://www.youtube.com/shorts/ZoeNyXuNDEY",
+          "thumbnail": "https://i.ytimg.com/vi/ZoeNyXuNDEY/frame0.jpg",
+          "views_original": "202 views",
+          "views": 202,
+          "video_id": "ZoeNyXuNDEY"
+        },
+        {
+          "title": "ChatGPT for Doctors | AI-Powered Medical Assistant",
+          "link": "https://www.youtube.com/shorts/gf5MCaKyPqE",
+          "thumbnail": "https://i.ytimg.com/vi/gf5MCaKyPqE/frame0.jpg",
+          "views_original": "32K views",
+          "views": 32000,
+          "video_id": "gf5MCaKyPqE"
+        },
+        {
+          "title": "Meet Your Silent Medical Assistant: AI",
+          "link": "https://www.youtube.com/shorts/Nq_VKAu5Vfs",
+          "thumbnail": "https://i.ytimg.com/vi/Nq_VKAu5Vfs/frame0.jpg",
+          "views_original": "302 views",
+          "views": 302,
+          "video_id": "Nq_VKAu5Vfs"
+        },
+        {
+          "title": "NASA Trains AI Doctor for Mars   88% Accuracy! 🚀",
+          "link": "https://www.youtube.com/shorts/6ymZx8-XtTw",
+          "thumbnail": "https://i.ytimg.com/vi/6ymZx8-XtTw/frame0.jpg",
+          "views_original": "119 views",
+          "views": 119,
+          "video_id": "6ymZx8-XtTw"
+        },
+        {
+          "title": "The EXPERTS Guide to Artificial Intelligence in Healthcare #trending #viralvideo #shorts",
+          "link": "https://www.youtube.com/shorts/ZAIRI51eWNQ",
+          "thumbnail": "https://i.ytimg.com/vi/ZAIRI51eWNQ/frame0.jpg",
+          "views_original": "26 views",
+          "views": 26,
+          "video_id": "ZAIRI51eWNQ"
+        },
+        {
+          "title": "AI in Health: Your Personal Health Assistant #AIinHealth, #AIHealthAssistant, #HealthTech,",
+          "link": "https://www.youtube.com/shorts/VzlfMg9cSdg",
+          "thumbnail": "https://i.ytimg.com/vi/VzlfMg9cSdg/frame0.jpg",
+          "views_original": "87 views",
+          "views": 87,
+          "video_id": "VzlfMg9cSdg"
+        },
+        {
+          "title": "AI in healthcare #chatbot #business #aiassistant #healthcare #aiinhealthcare #doctors #knowledge",
+          "link": "https://www.youtube.com/shorts/YW7WhOquDDs",
+          "thumbnail": "https://i.ytimg.com/vi/YW7WhOquDDs/frame0.jpg",
+          "views_original": "5.5K views",
+          "views": 5500,
+          "video_id": "YW7WhOquDDs"
+        },
+        {
+          "title": "MediHelp 2.0 – The Ultimate AI Medical Assistant App for Pharmacists & Healthcare Providers",
+          "link": "https://www.youtube.com/shorts/ZneS-DBqKBo",
+          "thumbnail": "https://i.ytimg.com/vi/ZneS-DBqKBo/frame0.jpg",
+          "views_original": "354 views",
+          "views": 354,
+          "video_id": "ZneS-DBqKBo"
+        },
+        {
+          "title": "🩺 Disease Detection Projects | AI & ML in Healthcare 🔬",
+          "link": "https://www.youtube.com/shorts/N9TL69TNp_U",
+          "thumbnail": "https://i.ytimg.com/vi/N9TL69TNp_U/frame0.jpg",
+          "views_original": "58K views",
+          "views": 58000,
+          "video_id": "N9TL69TNp_U"
+        },
+        {
+          "title": "Ai-Medical-Assistants-Healthcare",
+          "link": "https://www.youtube.com/shorts/RFeJANbYyZ0",
+          "thumbnail": "https://i.ytimg.com/vi/RFeJANbYyZ0/frame0.jpg",
+          "views_original": "70 views",
+          "views": 70,
+          "video_id": "RFeJANbYyZ0"
+        },
+        {
+          "title": "TORTUS and X-on Health AI Assistant Expands Across",
+          "link": "https://www.youtube.com/shorts/tQObhNvJYFU",
+          "thumbnail": "https://i.ytimg.com/vi/tQObhNvJYFU/frame0.jpg",
+          "views_original": "107 views",
+          "views": 107,
+          "video_id": "tQObhNvJYFU"
+        },
+        {
+          "title": "The benefits of AI in healthcare",
+          "link": "https://www.youtube.com/shorts/6ZFwdwfxORg",
+          "thumbnail": "https://i.ytimg.com/vi/6ZFwdwfxORg/frame0.jpg",
+          "views_original": "40K views",
+          "views": 40000,
+          "video_id": "6ZFwdwfxORg"
+        },
+        {
+          "title": "Transforming Health Care | The Future of AI in Medicine | MADE EASY",
+          "link": "https://www.youtube.com/shorts/lr4sP740cKI",
+          "thumbnail": "https://i.ytimg.com/vi/lr4sP740cKI/frame0.jpg",
+          "views_original": "56K views",
+          "views": 56000,
+          "video_id": "lr4sP740cKI"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=AI+Powered+Healthcare+Assistant+Using+Machine+Learning",
+    "next": "https://www.youtube.com/results?search_query=AI%20Powered%20Healthcare%20Assistant%20Using%20Machine%20Learning&sp=SBSCAQt1dnFEVGJ1c2RVVYIBC3JNU3NWUmpHdk1RggELVVpFc3Rpek54a2eCAQtpZ0FaQVhhNDhiTYIBC1pRdWFwMnBmOFBzggELZVpGdGY2OXNpZG-CAQtBODZjWTdaSnNrOIIBCzVCVGFMamp6M0FJggELM0dKeTQ5d2xua1mCAQtnd29WV3pjT0VmNIIBC2FwUkxqdlVvWnhvggELRnFzdmdGVFF2OHeCAQtSYlNIZFRzSzlYQYIBC0dORmlqN2Z2VXBzggELbHJZWGxvcEhuaDCCAQt6MDhHY2hDYXNPa4IBC1Rma0hydmN0MWhnggELeUVRdGJEeHdqVHeCAQtnZGRRT2phZVpxa4IBC0V1U3Q5bDdFZGlVsgEGCgQIGxAC6gEECAIQGQ%253D%253D",
+    "next_page_token": "SBSCAQt1dnFEVGJ1c2RVVYIBC3JNU3NWUmpHdk1RggELVVpFc3Rpek54a2eCAQtpZ0FaQVhhNDhiTYIBC1pRdWFwMnBmOFBzggELZVpGdGY2OXNpZG-CAQtBODZjWTdaSnNrOIIBCzVCVGFMamp6M0FJggELM0dKeTQ5d2xua1mCAQtnd29WV3pjT0VmNIIBC2FwUkxqdlVvWnhvggELRnFzdmdGVFF2OHeCAQtSYlNIZFRzSzlYQYIBC0dORmlqN2Z2VXBzggELbHJZWGxvcEhuaDCCAQt6MDhHY2hDYXNPa4IBC1Rma0hydmN0MWhnggELeUVRdGJEeHdqVHeCAQtnZGRRT2phZVpxa4IBC0V1U3Q5bDdFZGlVsgEGCgQIGxAC6gEECAIQGQ%3D%3D"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=AI+Powered+Healthcare+Assistant+Using+Machine+Learning",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=AI+Powered+Healthcare+Assistant+Using+Machine+Learning&sp=SBSCAQt1dnFEVGJ1c2RVVYIBC3JNU3NWUmpHdk1RggELVVpFc3Rpek54a2eCAQtpZ0FaQVhhNDhiTYIBC1pRdWFwMnBmOFBzggELZVpGdGY2OXNpZG-CAQtBODZjWTdaSnNrOIIBCzVCVGFMamp6M0FJggELM0dKeTQ5d2xua1mCAQtnd29WV3pjT0VmNIIBC2FwUkxqdlVvWnhvggELRnFzdmdGVFF2OHeCAQtSYlNIZFRzSzlYQYIBC0dORmlqN2Z2VXBzggELbHJZWGxvcEhuaDCCAQt6MDhHY2hDYXNPa4IBC1Rma0hydmN0MWhnggELeUVRdGJEeHdqVHeCAQtnZGRRT2phZVpxa4IBC0V1U3Q5bDdFZGlVsgEGCgQIGxAC6gEECAIQGQ%253D%253D",
+    "next_page_token": "SBSCAQt1dnFEVGJ1c2RVVYIBC3JNU3NWUmpHdk1RggELVVpFc3Rpek54a2eCAQtpZ0FaQVhhNDhiTYIBC1pRdWFwMnBmOFBzggELZVpGdGY2OXNpZG-CAQtBODZjWTdaSnNrOIIBCzVCVGFMamp6M0FJggELM0dKeTQ5d2xua1mCAQtnd29WV3pjT0VmNIIBC2FwUkxqdlVvWnhvggELRnFzdmdGVFF2OHeCAQtSYlNIZFRzSzlYQYIBC0dORmlqN2Z2VXBzggELbHJZWGxvcEhuaDCCAQt6MDhHY2hDYXNPa4IBC1Rma0hydmN0MWhnggELeUVRdGJEeHdqVHeCAQtnZGRRT2phZVpxa4IBC0V1U3Q5bDdFZGlVsgEGCgQIGxAC6gEECAIQGQ%3D%3D"
+  }
+}

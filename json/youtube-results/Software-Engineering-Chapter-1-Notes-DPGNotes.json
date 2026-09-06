@@ -1,0 +1,780 @@
+{
+  "search_metadata": {
+    "id": "6a9d4a5feeabd3c2f100d8d0",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/0PxablUZ5RMol7UbvN4dG_m1lVTqqQ4aa5dVSU29HK0/6a9d4a5feeabd3c2f100d8d0.json",
+    "markdown_endpoint": "https://serpapi.com/searches/0PxablUZ5RMol7UbvN4dG_m1lVTqqQ4aa5dVSU29HK0/6a9d4a5feeabd3c2f100d8d0.md",
+    "created_at": "2026-09-06 11:11:27 UTC",
+    "processed_at": "2026-09-06 11:11:27 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=Software+Engineering+Chapter+1+Notes+%7C+DPGNotes",
+    "raw_html_file": "https://serpapi.com/searches/0PxablUZ5RMol7UbvN4dG_m1lVTqqQ4aa5dVSU29HK0/6a9d4a5feeabd3c2f100d8d0.html",
+    "total_time_taken": 2.07
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "Software Engineering Chapter 1 Notes | DPGNotes"
+  },
+  "search_information": {
+    "total_results": 2417046,
+    "video_results_state": "Results for exact spelling"
+  },
+  "ads_results": [
+    {
+      "position_on_page": 1,
+      "title": "Stevesie Data",
+      "link": "https://www.youtube.com/watch?v=X4rbee3wl5k",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CCUXQYEqdaqP2B4_vn88Pn-rasAPWkfOxiQGG1MaQlBawkB8QASAAYMmG_4fwo-wSggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLR8tgDqAMEyAMKqgTCAk_QKnfl9yCPqt1lTF73aH28O7Fl5gHk5qetfwRPjqZIEoko8Jvd125maX7qs5nX8zM5Rt_M5MMdHJKoQoirOz6pubDMDHBIT2CqO0-_LZ7wZCgWfpRIPgnAw154me1BjoDRZyY5mYICzkgiUrhurprVhlN3EqMusNfHe3vD6qxMIOPanmO6oNBjp18ecZRhKk6jrtj_yF6sfryNypDwkprdf7H2hUFD3DS2WzVXUQO7JZiL2EfmWv_mF_kGRL2krnlSLs1iU8tzMwIY10ggw46Z5vxU51IdeWGi-U-u6YT5ZraTxrpK-CzoSIGXCiITXZpuo4TDzyBB-bG3A9PtT3nv_yna-RLdRna86Py4NZTaEes_ejIPjZL6UmQyNsl_hlDqHhB1DFsHwQgRnJeW5iq9iAis4OsZuygTH0X_ilPGsweIBdjnkflZkgUHCBN43qTSJ6AGoQGAB_atjSeQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC1g0cmJlZTN3bDVrqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYgJiFgenZlgNgAZoJGWh0dHBzOi8vc3RldmVzaWUuY29tL2FwcHOxCYXncdeU-FKmyAkXyAmPAcgJwgHICZcCmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWRsc9ALEtIMAhAB2gwlCgoQoPKSrZzC2eBHEgIBAxoNGNjnkflZIPr4x4fVBUABSgIQH5oNARKqDQJVU8gNAdINQWh0dHBzOi8vc3RldmVzaWUuY29tL2FwcHM_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MTQ0ODAyNzc2uBP___________8BiBQBsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpFzK0hzB4StwnuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIo6aFgenZlgMVj_fnAx0ftRY2EAEYASAAEgJb3PD_BwE&num=1&cid=CAASqgHkaPXmGzu-ywBaSGzk8rY3xrNynwhYhgwq5OCaqNbxLkOLJ-xKfMregTpPknN7RXfTlOnF0dRhueiyNtgWTmrnahMwDYz6DNG6Yh730gdGqmrsb6afd76C7l7V8-gaiRVa5g-pySwoVffBfDzJyZ53bxbgrvwqHFeB5IuJMdcnirDHqwsw153AHvZpxNnv7Id-7yh1bNZiDVJPMq-Bbi99FGgRb3xMzaN4fA&ad_cpn=%5BCPN%5D&sig=AOD64_0tPceiQRkLJBOA0kc1TofyIfyJ9Q&ctype=110&video_id=X4rbee3wl5k&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Stevesie Data",
+        "thumbnail": "https://yt3.ggpht.com/proxy/-0cq4XjmDDxB61LEnuNEQ-efJC03boT0Q1paPJrW92Zs1Q3FaC4VPAlmk3AZFBvfp3Poo1DdyzKgNigHPL4tMgk2cESPXmo8W4pWFFGkEH1NTYp4b2Hf71yMESUf4Wkyy2CdRIhVrolqaBaKo6F-Yol1JGN1rgJVu5-6GOYgeBzCt-PglvyGbUTD1ju6qvqigF5HDGOpNZhPGq8FlgwjToy8n5XxL_-ZVfLd03YzX2rWJoMrAiiiw9S6faAUMRrmPIOlFis=w68-h68-nd"
+      },
+      "description": "Scrape Data Not Screens",
+      "thumbnail": "https://i.ytimg.com/vi/X4rbee3wl5k/hqdefault.jpg",
+      "videoId": "X4rbee3wl5k",
+      "url": "https://www.youtube.com/watch?v=X4rbee3wl5k"
+    },
+    {
+      "position_on_page": 4,
+      "title": "Enjoy access to Shopify for three months for just $1/mo",
+      "link": "https://www.youtube.com/watch?v=HGS1zW38BQ8",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=ChW5pYEqdaqP2B4_vn88Pn-rasAPwhOCoiAHX95PwgRawkB8QAiAAYMmG_4fwo-wSggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLy-5sqqQJqSn6p-K22PqgDBMgDCqoEvAJP0Cp35fcgj6rdZUxe92h9vDuxZeYB5OanrX8ET46mSBKJKPCb3dduZml-6rOZ1_MzOUbfzOTDHRySqEKIqzs-qbmwzAxwSE9gqjtPvy2e8GQoFn6USD4JwMNeeJntQY6A0WcmOZmCAs5IIlK4bq6a1YZTdxKjLrDXx3t7w-qsTCDj2p5juqDQY6dfHnGUYSpOo67Y_8herH68jcqQ8JKa3X-x9oVBQ9w0tls1V1EDuyWYi9hH5lr_5hf5BkS9pK55Ui7NYlPLczMCGNdIIMOOmeb8VOdSHXlhovlPrumE-Wa2k8a6Svgs6EiBlwoiE12abqOEw88gQfmxt2ULL41-IjWc0414IrmQCdG3xheB2k7Mf7BwBhUY0P0jmB95eYZ79Ao1dCR-1kGEI7gLFRfzS7QyNTtHjUmBqK1miAXIh9W8WZIFCAgTeLPn76wFoAahAYAH8qrM-wSQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0hHUzF6VzM4QlE4qAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYgJiFgenZlgNgAZoJTWh0dHBzOi8vd3d3LnN0eWxlZmFjdG9yeXByb2R1Y3Rpb25zLmNvbS9ob3ctdG8tdW5sb2NrLWEtMy1tb250aC1zaG9waWZ5LXRyaWFssQlHWT8LbJN8PMgJF8gJjwHICcIBmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAhK6AwV2aWRsc9ALE9IMAhAB2gwlCgoQkKfBi8Oy9-17EgIBAxoNGMiH1bxZII-0suHdBUABSgIQH5oNAROqDQJVU8gNAdINdWh0dHBzOi8vd3d3LnN0eWxlZmFjdG9yeXByb2R1Y3Rpb25zLmNvbS9ob3ctdG8tdW5sb2NrLWEtMy1tb250aC1zaG9waWZ5LXRyaWFsP2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDAxNzk3ODMxMrgT____________AbAUA8AVgYCAQNAVAdgVAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXjY7UEXksFj26FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIo6aFgenZlgMVj_fnAx0ftRY2EAEYAiAAEgJo-PD_BwE&num=2&cid=CAASqgHkaPXmGzu-ywBaSGzk8rY3xrNynwhYhgwq5OCaqNbxLkOLJ-xKfMregTpPknN7RXfTlOnF0dRhueiyNtgWTmrnahMwDYz6DNG6Yh730gdGqmrsb6afd76C7l7V8-gaiRVa5g-pySwoVffBfDzJyZ53bxbgrvwqHFeB5IuJMdcnirDHqwsw153AHvZpxNnv7Id-7yh1bNZiDVJPMq-Bbi99FGgRb3xMzaN4fA&ad_cpn=%5BCPN%5D&sig=AOD64_2UQlcqjoRtYkVgHMP8FXyKf-f2DQ&ctype=110&video_id=HGS1zW38BQ8&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Style Factory",
+        "thumbnail": "https://yt3.ggpht.com/proxy/lXILA8k5vCLoCqam4gFoS6UzbgO-H0JeHffp3_WwddZvVWNIeFZk7rXSvqdZ4TodxkslRpIOY8naQiAu2agA9g_MHehKzzDhp8v2jKPVWA1ZPOt-mb1Zf6EPOO3I9XGf_PFKlonXkTPSht4hLbIroCeRBdEp4IBh8KJaYvxzWpFHXX5jvAAWYT0GCpdKaeVSdsWDnlrwRBAlmnBiiNqDiJHMa3jfliJ5wXgG1367owc0fJx0ik1Z0zJQDwKyN9TLG0ux=w68-h68-nd"
+      },
+      "description": "Find out how you can unlock an extended Shopify trial.",
+      "thumbnail": "https://i.ytimg.com/vi/HGS1zW38BQ8/hqdefault.jpg",
+      "videoId": "HGS1zW38BQ8",
+      "url": "https://www.youtube.com/watch?v=HGS1zW38BQ8"
+    },
+    {
+      "position_on_page": 7,
+      "title": "The BMW X7.",
+      "link": "https://www.youtube.com/watch?v=zQq-6AZqEJ4",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CmYtwYEqdaqP2B4_vn88Pn-rasAO32aXwiAH9yJLuhhawkB8QAyAAYMmG_4fwo-wSggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYqvpt0qqAMEyAMKqgTfAk_QKnfl9yCPqt1lTF73aH28O7Fl5gHk5qetfwRPjqZIEoko8Jvd125maX7qs5nX8zM5Rt_M5MMdHJKoQoirOz6pubDMDHBIT2CqO0-_LZ7wZCgWfpRIPgnAw154me1BjoDRZyY5mYICzkgiUrhurprVhlN3EqMusNfHe3vD6qxMIOPanmO6oNBjp18ecZRhKk6jrtj_yF6sfryNypDwkprdf7H2hUFD3DS2WzVXUQO7JZiL2EfmWv_mF_kGRL2krnlSLs1iU8tzMwIY10ggw46Z5vxU51IdeWGi-U-u6YT5ZraTxrpK-CzoSIGXCiITXZpuo4TDzyBB-bG3YRMvjWAiNdWr5gsiq5OxdFFiEknRZMxvBevnifcqJhgeYcuTjlsRA8NOhMMJHhYhjxNCQd0HqxDD6vRVuAqhnJNtGbaPaRRBrgHtHXpPLY2JoFlXBb_nXWE2aDoYHAtFKYYcOogF7aj9rFeSBQgIE3jl2dPzBaAGoQGAB4rn9rwFkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAt6UXEtNkFacUVKNKgIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWICYhYHp2ZYDYAGaCUhodHRwczovL3d3dy5ibXd1c2EuY29tL3NwZWNpYWwtb2ZmZXJzLW5ldy5odG1sL29mZmVyLWRldGFpbC8yN1NBL2ZpbmFuY2WxCcluB6SyuahOyAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWRsc9ALEuALAaIMQmIeChxkZS5ibXcuY29ubmVjdGVkLm1vYmlsZTIwLm5hahsKGWNvbS5ibXcudGVjaG5pY2lhbmNvbm5lY3R4AIgBANIMAhAB2gwmCgsQoPnaxcWhnKX8ARICAQMaDRjtqP2sVyCZn8LZ1gVAAUoCEB-aDQESqg0CVVPIDQHSDa0FaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL04yMjY3MDgzLjUyMTA0OTVCTVdEVjM2MC9CMzUwMjc3ODQuNDM4Mjc2OTkzO2RjX3Rya19haWQ9NjMxMzUxODIyO2RjX3Rya19jaWQ9MjQ4MDA3MjgxO2RjX2RibV90b2tlbj1BT2plTE5FQUFBQThDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSTdhajlyRmVvQXVYWjBfTUZzQUxjc1pMcEEwQTdFTVRINXVJRjgzQUY1ajg5aUpTaEJNQ3Y0NjBYVXc9PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0J0SDQwNUNQTlQ4MkZBUEswcXY1YnljVk1QUzdRMzRseWk5WmZOdGdmbjdZdklSVEo4M0lmdXJYZHlGY2ZLcUJnSWpER2htZlFKQjlOZEF3O2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuYm13dXNhLmNvbS9zcGVjaWFsLW9mZmVycy1uZXcuaHRtbC9vZmZlci1kZXRhaWwvMjdTQS9maW5hbmNlP3ppcD02MDAxNCZjaWQ9eXQtJTI1ZWNpZCFfJTI1ZXNpZCFfJTI1ZWJ1eSFfJTI1ZXBpZCEmdGllcj10MiZtYWNvPTQwMDEmY2g9dmlkZW8mdmVoPXg3Jm1vZGFsPXNwZWNpYWwtb2ZmZXJzLWxlZ2FsJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzQ0ODIxMjU4ObATy47JJLgT____________AbAUA8AVgYCAQNAVAdgVAZgWAagWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRco9DnNw7KhiroXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIo6aFgenZlgMVj_fnAx0ftRY2EAEYAyAAEgKLSvD_BwE&num=3&cid=CAASqgHkaPXmGzu-ywBaSGzk8rY3xrNynwhYhgwq5OCaqNbxLkOLJ-xKfMregTpPknN7RXfTlOnF0dRhueiyNtgWTmrnahMwDYz6DNG6Yh730gdGqmrsb6afd76C7l7V8-gaiRVa5g-pySwoVffBfDzJyZ53bxbgrvwqHFeB5IuJMdcnirDHqwsw153AHvZpxNnv7Id-7yh1bNZiDVJPMq-Bbi99FGgRb3xMzaN4fA&ad_cpn=%5BCPN%5D&sig=AOD64_3TkDj2p7GqlfH9VuEiND4Cgb-ejA&ctype=110&video_id=zQq-6AZqEJ4&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "BMW",
+        "thumbnail": "https://yt3.ggpht.com/proxy/3x8VumS4IFcfx62nnUhrY5i3EpLvsMu8s-1bw7MbZcaHnd65dZ2ZdLsFmRbmvuxObGGdXcRf66WSwGY_YBWYl5-7hjk98-rIE1bjto_UJzWUWslxiiW-qyEvK96jdqaSOsjSPNe6Qgq_rj-DzyUVP6rfnqaz1Cf3ntSW63xqMRvgDz2l3gcCODbIgXEX9uRCk3JKl9-DnujL2iNBHx9RsVeV9Ni_T_ht-TYlDLKXIaTYquv6Ldyp0213F8pnpXmlXU8q=w68-h68-nd"
+      },
+      "description": "Discover a ride that's spacious, sleek, and unapologetically powerful.",
+      "thumbnail": "https://i.ytimg.com/vi/zQq-6AZqEJ4/hqdefault.jpg",
+      "videoId": "zQq-6AZqEJ4",
+      "url": "https://www.youtube.com/watch?v=zQq-6AZqEJ4"
+    },
+    {
+      "position_on_page": 13,
+      "title": "You know the name. You know the capability. And you know the quality.​",
+      "link": "https://www.youtube.com/watch?v=nAnShrbQUYM",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CnGNXYEqdaqP2B4_vn88Pn-rasAPyxYm7iQHAwsmdtRVkEAQgAGDJhv-H8KPsEoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGz6uTDPqgDBMgDCqoE3wJP0Cp35fcgj6rdZUxe92h9vDuxZeYB5OanrX8ET46mSBKJKPCb3dduZml-6rOZ1_MzOUbfzOTDHRySqEKIqzs-qbmwzAxwSE9gqjtPvy2e8GQoFn6USD4JwMNeeJntQY6A0WcmOZmCAs5IIlK4bq6a1YZTdxKjLrDXx3t7w-qsTCDj2p5juqDQY6dfHnGUYSpOo67Y_8herH68jcqQ8JKa3X-x9oVBQ9w0tls1V1EDuyWYi9hH5lr_5hf5BkS9pK55Ui7NYlPLczMCGNdIIMOOmeb8VOdSHXlhovlPrumE-Wa2k8a6Svgs6EiBlwoiE12abqOEw88gQfmxt2wXL413IjXu0J4BI6uTsXRRYhJJ0WTcagXr54n1LQpZAmHL7nFDEQPDToTDCR4WIY8TKSLJaaAQqcOIYbgK9srXYRm2j2kUQa4B7TMBVlOOiaBZVwWs43wnNWg6GBwLLkqScjGIBc-t7N9WkgUICBN4597_shmgBqEBgAezorWjGZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECqAfCyLECkggLbkFuU2hyYlFVWU2oCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiAmIWB6dmWA2ABmgkmaHR0cHM6Ly93d3cuZm9yZC5jb20vdHJ1Y2tzL2YxNTAvMjAyNS-xCdCz_DG6xxsqyAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWRsc9ALEuALAaIMMmIVChNjb20uc2llbWVucy5mb3JkODBBahQKEmNvbS5mb3JkLmZvcmRhbGV4YXgAiAEA0gwCEAHaDCUKChDQnc6UuqW25GgSAgEDGg0Yz63s31Yg5-vJmLsFQAFKAhAfmg0BEqoNAlVTyA0B0g27BWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMzAxNi41MjY3OTI1R01ORVhVU01FRElBLVNPTFVUSS9CMzQ1ODIyNDEuNDM0MjMwMTE5O2RjX3Rya19haWQ9NjI5MzA4NDA4O2RjX3Rya19jaWQ9MjQ2ODE3MzExO2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTZDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSXo2M3MzMWFvQXVmZV83SVpzQUw3enJUb0EwQTdFTlhFVkpKMUthVVBtV01hbnZaZnpzRDRxZFk9O2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2dkcHI9JHtHRFBSfTtnZHByX2NvbnNlbnQ9JHtHRFBSX0NPTlNFTlRfNzU1fTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7O2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNDLVZJNnNWYThJaWRNM2V4MVBSb3k4Z2swbXoybnFMc0dZXzNPd1pBdGxweWo3SktZWkwydmVFVDc1dGgzTVVLSDdVM3NqbW1wdjlwOTk2UTtkY19wdWJpZD02P2h0dHBzOi8vd3d3LmZvcmQuY29tL3RydWNrcy9mMTUwLzIwMjUvP2xlYWRzb3VyY2U9ZmRhZi1iYW5uZXJhZCZiYW5uZXJpZD0zNDU4MjI0MXw5ODA4MzEyfDQzNDIzMDExOXwyNDY4MTczMTF8NjI5MzA4NDA4JmZjaWQ9ZGlzXzM0NTgyMjQxXzk4MDgzMTItWVREJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzI4NjQ1Mzk2N7AT45y7JLgT____________AYgUBbAUA8AVgYCAQNAVAdgVAZgWAagWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRfQdLXtwWnvp7oXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIo6aFgenZlgMVj_fnAx0ftRY2EAEYBCAAEgI_A_D_BwE&num=4&cid=CAASqgHkaPXmGzu-ywBaSGzk8rY3xrNynwhYhgwq5OCaqNbxLkOLJ-xKfMregTpPknN7RXfTlOnF0dRhueiyNtgWTmrnahMwDYz6DNG6Yh730gdGqmrsb6afd76C7l7V8-gaiRVa5g-pySwoVffBfDzJyZ53bxbgrvwqHFeB5IuJMdcnirDHqwsw153AHvZpxNnv7Id-7yh1bNZiDVJPMq-Bbi99FGgRb3xMzaN4fA&ad_cpn=%5BCPN%5D&sig=AOD64_34Nf0nxLqkAzjPwRlYizcXjrjnzQ&ctype=110&video_id=nAnShrbQUYM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Ford",
+        "thumbnail": "https://yt3.ggpht.com/proxy/CcO1kwb0wHsy5J4tRTNPTDGlSPeGeiykAuN1FBSeIZhuqDVMnBQPCYTBr5JrhvbVGAxaUtEkUXQdwunKK3D8iB3CryGYstiisX1Gzqkw3XWFpaYhxGHdbw6G0lswwRRKs51nRq9yimW_byVr4gF-SX4lABxJeR33xOD1xzlEdWB8nhe1nHtiG25z8LBKKjRjO5flgOKWeIkHQuLD2hYxX60czXzWYwecHzqkdfhOmaK7cyzPnaWXa9zIV8ypMaRpKsLjnxU=w68-h68-nd"
+      },
+      "description": "The Ford F-150, awarded America's Number 1 Full Size Truck for New Vehicle Quality.​",
+      "thumbnail": "https://i.ytimg.com/vi/nAnShrbQUYM/hqdefault.jpg",
+      "videoId": "nAnShrbQUYM",
+      "url": "https://www.youtube.com/watch?v=nAnShrbQUYM"
+    },
+    {
+      "position_on_page": 19,
+      "title": "Automate every step of new hire onboarding with Rippling",
+      "link": "https://www.youtube.com/watch?v=Ry7CglIvNXk",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cqbs9YEqdaqP2B4_vn88Pn-rasAPTqbuyiQH63Z3LnRZkEAUgAGDJhv-H8KPsEoIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAG5vrisAagDBMgDCqoEwQJP0Cp35fcgj6rdZUxe92h9vDuxZeYB5OanrX8ET46mSBKJKPCb3dduZml-6rOZ1_MzOUbfzOTDHRySqEKIqzs-qbmwzAxwSE9gqjtPvy2e8GQoFn6USD4JwMNeeJntQY6A0WcmOZmCAs5IIlK4bq6a1YZTdxKjLrDXx3t7w-qsTCDj2p5juqDQY6dfHnGUYSpOo67Y_8herH68jcqQ8JKa3X-x9oVBQ9w0tls1V1EDuyWYi9hH5lr_5hf5BkS9pK55Ui7NYlPLczMCGNdIIMOOmeb8VOdSHXlhovlPrumE-Wa2k8a6Svgs6EiBlwoiE12abqOEw88gQfmxt1obL413IjXaye0kJrmQRYeuyQyU2rL1LnsyD42S-lEAGjbJfoYh3Qpbewx2bqQJEZwavcQqsZykh_zEp6sKExFTN9FHk1-IBdXwjMlZkgUICBN4_7H2ox6gBqEBgAfF-d2AHpAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLUnk3Q2dsSXZOWGuoCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiAmIWB6dmWA2ABmgkraHR0cHM6Ly93d3cucmlwcGxpbmcuY29tL2xwL3BzLWFpLWV2ZXJncmVlbrEJWoocJRDAP8DICRfICY8ByAnCAcgJlwKYCwG6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDBXZpZGxz0AsSogwzYhUKE2NvbS5wZW9wbGUucmlwcGxpbmdqFQoTY29tLnBlb3BsZS5yaXBwbGluZ3gAiAEA0gwCEAHaDCUKChDwhsuH3PvzkzcSAgEDGg0Y1fCMyVkgxL2qgvcFQAFKAhAfmg0BEqoNAlVTyA0B0g2JAmh0dHBzOi8vd3d3LnJpcHBsaW5nLmNvbS9scC9wcy1haS1ldmVyZ3JlZW4_dXRtX3NvdXJjZT15b3V0dWJlJnV0bV9tZWRpdW09Y3R2LW9sdiZ1dG1fcHJvZ3JhbT10b2Z1LWFpJnV0bV9wcm9kdWN0PWFpLXN1bW1lciZ1dG1fY2FtcGFpZ249VVNfR3Jvd3RoX1RPRlUtVDNfR0RHRU5fV2Vic2l0ZS1UcmFmZmljX1dlYnNpdGUtVmlzaXRzX0NvcmUtSFJfQUktU3VtbWVyX0RldXRzY2hfWW91VHViZSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQwNDQwNTg3MDm4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXS3C9t_tIV7i6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIo6aFgenZlgMVj_fnAx0ftRY2EAEYBSAAEgI1Q_D_BwE&num=5&cid=CAASqgHkaPXmGzu-ywBaSGzk8rY3xrNynwhYhgwq5OCaqNbxLkOLJ-xKfMregTpPknN7RXfTlOnF0dRhueiyNtgWTmrnahMwDYz6DNG6Yh730gdGqmrsb6afd76C7l7V8-gaiRVa5g-pySwoVffBfDzJyZ53bxbgrvwqHFeB5IuJMdcnirDHqwsw153AHvZpxNnv7Id-7yh1bNZiDVJPMq-Bbi99FGgRb3xMzaN4fA&ad_cpn=%5BCPN%5D&sig=AOD64_3c3tEyMpB94RFerGliY85Npi3HyA&ctype=110&video_id=Ry7CglIvNXk&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Rippling",
+        "thumbnail": "https://yt3.ggpht.com/proxy/1caFgWYq0BYJ_hGElp6ZskYiJdDjAK7SU_cJNQMDB97-IX2dp3dgYZXgJt8lOrkmkmInj-qAXvViC3w5reTqoz-CHMLZM_4iRRKcsghwqd0hpMbLFsca5shErA_iY2VvJmwxa39tiqmu480hpr78nQgxuDFyuWM8hVbjgljoFMMm05Y0qC6llvDtKGHDnKWiOQVEEMOKVKVPfWKZ8mR82SrJzuAMwXFES7vg5MdPmymrt5aHbl0r2MrtmX62tRYkNTBfYTI=w68-h68-nd"
+      },
+      "description": "Rippling handles everything from offer letter to benefits enrollment, giving you time back",
+      "thumbnail": "https://i.ytimg.com/vi/Ry7CglIvNXk/hqdefault.jpg",
+      "videoId": "Ry7CglIvNXk",
+      "url": "https://www.youtube.com/watch?v=Ry7CglIvNXk"
+    }
+  ],
+  "playlist_results": [
+    {
+      "position_on_page": 2,
+      "title": "Software Engineering Full Course",
+      "link": "https://www.youtube.com/playlist?list=PL_pbwdIyffslgxMVyXhnHiSn_EWTvx1G-",
+      "channel": {
+        "name": "SECourses",
+        "link": "https://www.youtube.com/@SECourses"
+      },
+      "videos": [
+        {
+          "title": "#Software #Engineering - Lecture 1 : Introduction, Software Products, Process Activities & Ethics",
+          "length": "53:19",
+          "link": "https://www.youtube.com/watch?v=8jH07r6135o&list=PL_pbwdIyffslgxMVyXhnHiSn_EWTvx1G-"
+        },
+        {
+          "title": "#Software #Engineering - Lecture 2 : Software Processes, Activities, The Rational Unified Process",
+          "length": "1:03:49",
+          "link": "https://www.youtube.com/watch?v=BBMEOagnBCU&list=PL_pbwdIyffslgxMVyXhnHiSn_EWTvx1G-"
+        }
+      ],
+      "video_count": 15,
+      "thumbnail": "https://i.ytimg.com/vi/8jH07r6135o/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB-CoH77wQN5nkFvHYvOqjdqkO-BQ"
+    },
+    {
+      "position_on_page": 3,
+      "title": "Software Engineering",
+      "link": "https://www.youtube.com/playlist?list=PLWPirh4EWFpG2b1L3CL-OAPYcM25jLjXH",
+      "channel": {
+        "name": "TutorialsPoint",
+        "link": "https://www.youtube.com/@TutorialsPoint_"
+      },
+      "videos": [
+        {
+          "title": "Software Engineering Basics",
+          "length": "1:29",
+          "link": "https://www.youtube.com/watch?v=4b1D1QFEel0&list=PLWPirh4EWFpG2b1L3CL-OAPYcM25jLjXH"
+        },
+        {
+          "title": "Overview of Software Engineering",
+          "length": "5:07",
+          "link": "https://www.youtube.com/watch?v=ITlyBV4ttts&list=PLWPirh4EWFpG2b1L3CL-OAPYcM25jLjXH"
+        }
+      ],
+      "video_count": 80,
+      "thumbnail": "https://i.ytimg.com/vi/4b1D1QFEel0/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCYgPuwDHk4Urvxq6cD2xvElGRsWQ"
+    },
+    {
+      "position_on_page": 5,
+      "title": "Software Engineering (SE / SEPM)",
+      "link": "https://www.youtube.com/playlist?list=PLQ-nEJNYlEV29CBLzIDxcogm6CEZjVad2",
+      "channel": {
+        "name": "CS & IT Tutorials by Vrushali 👩‍🎓",
+        "link": "https://www.youtube.com/@csittutorialsbyvrushali"
+      },
+      "videos": [
+        {
+          "title": "SE 1 : Learn Software Engineering from Scratch | | Software Engineering Full Course",
+          "length": "14:53",
+          "link": "https://www.youtube.com/watch?v=IHx9ImEMuzQ&list=PLQ-nEJNYlEV29CBLzIDxcogm6CEZjVad2"
+        },
+        {
+          "title": "SE 2 : Generic Process Model | Process Framework Activities with Example @csittutorialsbyvrushali",
+          "length": "12:40",
+          "link": "https://www.youtube.com/watch?v=NDZ0r-__rS4&list=PLQ-nEJNYlEV29CBLzIDxcogm6CEZjVad2"
+        }
+      ],
+      "video_count": 54,
+      "thumbnail": "https://i.ytimg.com/vi/IHx9ImEMuzQ/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAX7ug1JJiqNOJSHlmqWfnYxehNNA"
+    },
+    {
+      "position_on_page": 9,
+      "title": "SOFTWARE ENGINEERING ( SE )",
+      "link": "https://www.youtube.com/playlist?list=PLmAmHQ-_5ySyCjVtHdSjJ64QU2x5TH8Dy",
+      "channel": {
+        "name": "Trouble- Free",
+        "link": "https://www.youtube.com/@TroubleFreevideos",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "#1 Introduction To Software Engineering - Characteristics, Evolving role Of Software  |SE|",
+          "length": "7:36",
+          "link": "https://www.youtube.com/watch?v=qxv6vPlx2Cs&list=PLmAmHQ-_5ySyCjVtHdSjJ64QU2x5TH8Dy"
+        },
+        {
+          "title": "#2 Changing Nature Of Software |SE|",
+          "length": "6:09",
+          "link": "https://www.youtube.com/watch?v=mRnj0qEqyYo&list=PLmAmHQ-_5ySyCjVtHdSjJ64QU2x5TH8Dy"
+        }
+      ],
+      "video_count": 56,
+      "thumbnail": "https://i.ytimg.com/vi/qxv6vPlx2Cs/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC0Gn4ygs5KhSBTqxsnK5G1lNzb3g"
+    },
+    {
+      "position_on_page": 12,
+      "title": "Software Engineering",
+      "link": "https://www.youtube.com/playlist?list=PLqleLpAMfxGB1g0xlYj2H6lyY2Q2ku7p9",
+      "channel": {
+        "name": "Learn Coding",
+        "link": "https://www.youtube.com/@LearnCodingOfficial",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "introduction to software engineering in hindi | Learn Coding",
+          "length": "12:14",
+          "link": "https://www.youtube.com/watch?v=b7hmU72GRaE&list=PLqleLpAMfxGB1g0xlYj2H6lyY2Q2ku7p9"
+        },
+        {
+          "title": "What is SDLC? full Explanation | software development life cycle model in hindi",
+          "length": "3:00",
+          "link": "https://www.youtube.com/watch?v=tK9O2Pr9zW0&list=PLqleLpAMfxGB1g0xlYj2H6lyY2Q2ku7p9"
+        }
+      ],
+      "video_count": 23,
+      "thumbnail": "https://i.ytimg.com/vi/b7hmU72GRaE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCUYtxGXiXhK3wChUYTSTJ_Y5pnig"
+    },
+    {
+      "position_on_page": 14,
+      "title": "SOFTWARE ENGINEERING PRESSMAN ENGLISH",
+      "link": "https://www.youtube.com/playlist?list=PL9P1J9q3_9fNfUBVYhFeoieHRnJg_vXxx",
+      "channel": {
+        "name": "LearnEveryone",
+        "link": "https://www.youtube.com/@learnwithapk"
+      },
+      "videos": [
+        {
+          "title": "CHAPTER 1 Software Engineering Introduction Pressman",
+          "length": "30:25",
+          "link": "https://www.youtube.com/watch?v=GMOogBp3AAE&list=PL9P1J9q3_9fNfUBVYhFeoieHRnJg_vXxx&pp=0gcJCeIE0aJEHMZM"
+        },
+        {
+          "title": "CHAPTER 2 Process Model SE Pressman",
+          "length": "28:18",
+          "link": "https://www.youtube.com/watch?v=i7f075xlCoc&list=PL9P1J9q3_9fNfUBVYhFeoieHRnJg_vXxx"
+        }
+      ],
+      "video_count": 33,
+      "thumbnail": "https://i.ytimg.com/vi/GMOogBp3AAE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBaemCvqWJPL6BgCLdnIydK96FscQ"
+    },
+    {
+      "position_on_page": 15,
+      "title": "Software Engineering — Ian Sommerville",
+      "link": "https://www.youtube.com/playlist?list=PLEDRZEbu43tstZNWYeUEwVeLJBuNFzJUX",
+      "channel": {
+        "name": "BookSpokify",
+        "link": "https://www.youtube.com/@BookSpokify"
+      },
+      "videos": [
+        {
+          "title": "Introduction to Software Engineering | Chapter 1 — Software Engineering (Ian Sommerville)",
+          "length": "10:22",
+          "link": "https://www.youtube.com/watch?v=GVDsxArvG2A&list=PLEDRZEbu43tstZNWYeUEwVeLJBuNFzJUX"
+        },
+        {
+          "title": "Software Processes | Chapter 2 — Software Engineering (Ian Sommerville)",
+          "length": "11:25",
+          "link": "https://www.youtube.com/watch?v=DWuBvpIEKCs&list=PLEDRZEbu43tstZNWYeUEwVeLJBuNFzJUX"
+        }
+      ],
+      "video_count": 25,
+      "thumbnail": "https://i.ytimg.com/vi/GVDsxArvG2A/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCTyg9Xz2myUPtG1eUHLAmZKQcxWg"
+    },
+    {
+      "position_on_page": 16,
+      "title": "Software Engineering (SE)",
+      "link": "https://www.youtube.com/playlist?list=PLrjkTql3jnm9b5nr-ggx7Pt1G4UAHeFlJ",
+      "channel": {
+        "name": "Education 4u",
+        "link": "https://www.youtube.com/@education4uofficial",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "What is software engineering | SE | Lec-01 | Bhanu Priya",
+          "length": "5:58",
+          "link": "https://www.youtube.com/watch?v=WxkP5KR_Emk&list=PLrjkTql3jnm9b5nr-ggx7Pt1G4UAHeFlJ"
+        },
+        {
+          "title": "Software Crisis | Software Engineering | SE | Lec-02 | Bhanu Priya",
+          "length": "6:52",
+          "link": "https://www.youtube.com/watch?v=soNnQjJ6FBQ&list=PLrjkTql3jnm9b5nr-ggx7Pt1G4UAHeFlJ&pp=0gcJCeIE0aJEHMZM"
+        }
+      ],
+      "video_count": 99,
+      "thumbnail": "https://i.ytimg.com/vi/WxkP5KR_Emk/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAbBo1eXjQ2TaIbwS7ifSdyjv6Dvg"
+    },
+    {
+      "position_on_page": 17,
+      "title": "Software Engineering Tutorials",
+      "link": "https://www.youtube.com/playlist?list=PLqcuf9-ILPYA-OGMephZ0U9c8JvdefE0X",
+      "channel": {
+        "name": "CS Engineering Gyan",
+        "link": "https://www.youtube.com/@CSEngineeringGyan"
+      },
+      "videos": [
+        {
+          "title": "Introduction to Software Engineering in Hindi | NOTES | Lecture 01",
+          "length": "5:23",
+          "link": "https://www.youtube.com/watch?v=4YXjiAKhyq4&list=PLqcuf9-ILPYA-OGMephZ0U9c8JvdefE0X"
+        },
+        {
+          "title": "Key Principles of Software Engineering in Hindi | NOTES | Lecture 02",
+          "length": "6:54",
+          "link": "https://www.youtube.com/watch?v=VXZR_vVkLFU&list=PLqcuf9-ILPYA-OGMephZ0U9c8JvdefE0X"
+        }
+      ],
+      "video_count": 69,
+      "thumbnail": "https://i.ytimg.com/vi/4YXjiAKhyq4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCfHp7Ny-USE2sUEZoQGbW30rXFyg"
+    },
+    {
+      "position_on_page": 18,
+      "title": "11th Class Computer Science New Book Chapter 01 Introduction to Software Development",
+      "link": "https://www.youtube.com/playlist?list=PLBB74wDNqZff5lKOVsdYeDiY06KmNMdn1",
+      "channel": {
+        "name": "Programming Master",
+        "link": "https://www.youtube.com/@programmingmaster"
+      },
+      "videos": [
+        {
+          "title": "Introduction to Chapter #01 Software Development Lecture 1 | 11th Class Computer New Book",
+          "length": "3:17",
+          "link": "https://www.youtube.com/watch?v=snm4XKFgpOk&list=PLBB74wDNqZff5lKOVsdYeDiY06KmNMdn1&pp=0gcJCeIE0aJEHMZM"
+        },
+        {
+          "title": "Software Development | 11th Class Computer New Book Chapter #01 Lecture 2",
+          "length": "5:45",
+          "link": "https://www.youtube.com/watch?v=DY8nVY4uN14&list=PLBB74wDNqZff5lKOVsdYeDiY06KmNMdn1"
+        }
+      ],
+      "video_count": 78,
+      "thumbnail": "https://i.ytimg.com/vi/snm4XKFgpOk/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBJLGvvfb2rOEHi2DJ6adWXzIL2lA"
+    },
+    {
+      "position_on_page": 20,
+      "title": "Software Engineering",
+      "link": "https://www.youtube.com/playlist?list=PLmXKhU9FNesTrw7n8ouPsSLEcduRlENHr",
+      "channel": {
+        "name": "KnowledgeGATE by Sanchit Sir",
+        "link": "https://www.youtube.com/@KNOWLEDGEGATE_kg",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "Complete Software Engineering in one shot | Semester Exam | Hindi",
+          "length": "5:57:54",
+          "link": "https://www.youtube.com/watch?v=NlLM3sVF8wY&list=PLmXKhU9FNesTrw7n8ouPsSLEcduRlENHr"
+        },
+        {
+          "title": "GATE 2026 CSE Batch Launch | #knowledgegate #withsanchitsir",
+          "length": "18:28",
+          "link": "https://www.youtube.com/watch?v=ebDJJKb_zDo&list=PLmXKhU9FNesTrw7n8ouPsSLEcduRlENHr&pp=0gcJCeIE0aJEHMZM"
+        }
+      ],
+      "video_count": 37,
+      "thumbnail": "https://i.ytimg.com/vi/NlLM3sVF8wY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB1FqUW2m-EsR_z9dgH41CV1halPQ"
+    },
+    {
+      "position_on_page": 21,
+      "title": "Software Engineering",
+      "link": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2",
+      "channel": {
+        "name": "Gate Smashers",
+        "link": "https://www.youtube.com/@GateSmashers",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "Software Engineering Syllabus Discussion | Imp. for Competitive, College/University & Placements",
+          "length": "14:21",
+          "link": "https://www.youtube.com/watch?v=uJpQlyT_CK4&list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2"
+        },
+        {
+          "title": "What is Software Engineering and its Evolution in Hindi with examples",
+          "length": "10:34",
+          "link": "https://www.youtube.com/watch?v=kcvEiMFOcoE&list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2"
+        }
+      ],
+      "video_count": 62,
+      "thumbnail": "https://i.ytimg.com/vi/uJpQlyT_CK4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCLpcmlqJRCc4hTJmDbJs_HiSJc-Q"
+    },
+    {
+      "position_on_page": 22,
+      "title": "11th Class Computer Chapter 1 Introduction to Software Development - New Book 2025",
+      "link": "https://www.youtube.com/playlist?list=PLI-NxcTUPiPyEhS7QC73VjVmLQTVHVHcz",
+      "channel": {
+        "name": "ilmkidunya",
+        "link": "https://www.youtube.com/@ilmkidunyaofficial",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "11th Class Computer | Full Book Introduction | Class 11th Computer New Book 2025",
+          "length": "14:58",
+          "link": "https://www.youtube.com/watch?v=M2uqFEkBBSw&list=PLI-NxcTUPiPyEhS7QC73VjVmLQTVHVHcz"
+        },
+        {
+          "title": "11th Class Computer Ch 1 | Software Development, Introduction to Software Development Life Cycle",
+          "length": "28:33",
+          "link": "https://www.youtube.com/watch?v=j1ZQt_uhCt8&list=PLI-NxcTUPiPyEhS7QC73VjVmLQTVHVHcz"
+        }
+      ],
+      "video_count": 8,
+      "thumbnail": "https://i.ytimg.com/vi/M2uqFEkBBSw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBeRv6uQmHzH_h-zoIHCZnojY2IqQ"
+    },
+    {
+      "position_on_page": 23,
+      "title": "Software Engineering: A Practitioner's Approach",
+      "link": "https://www.youtube.com/playlist?list=PLda8UyRw8hzbaQxgvcyfzsthgHMKhvoAY",
+      "channel": {
+        "name": "224APPS",
+        "link": "https://www.youtube.com/@224apps"
+      },
+      "videos": [
+        {
+          "title": "SOFTWARE ENGINEERING CHAPTER 1 The Nature of Software Pressman Full",
+          "length": "53:42",
+          "link": "https://www.youtube.com/watch?v=RWtbfwhOTys&list=PLda8UyRw8hzbaQxgvcyfzsthgHMKhvoAY"
+        },
+        {
+          "title": "SOFTWARE ENGINEERING CHAPTER 2 Software Engineering Pressman Maxim FULL",
+          "length": "1:04:14",
+          "link": "https://www.youtube.com/watch?v=iAyDKR9_lyY&list=PLda8UyRw8hzbaQxgvcyfzsthgHMKhvoAY"
+        }
+      ],
+      "video_count": 6,
+      "thumbnail": "https://i.ytimg.com/vi/RWtbfwhOTys/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDl0wFwywHl_FGZs5P1ZJ19Erk-0Q"
+    },
+    {
+      "position_on_page": 26,
+      "title": "11th Class Computer Chapter 1 Introduction to Software Development - New Book 2025",
+      "link": "https://www.youtube.com/playlist?list=PLI-NxcTUPiPzoutCF5vNnAxwAYApTKF42",
+      "channel": {
+        "name": "ilmkidunya",
+        "link": "https://www.youtube.com/@ilmkidunyaofficial",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "11th Class Computer | Full Book Introduction | Class 11th Computer New Book 2025",
+          "length": "14:58",
+          "link": "https://www.youtube.com/watch?v=M2uqFEkBBSw&list=PLI-NxcTUPiPzoutCF5vNnAxwAYApTKF42"
+        },
+        {
+          "title": "11th Class Computer Ch 1 | Software Development, Introduction to Software Development Life Cycle",
+          "length": "28:33",
+          "link": "https://www.youtube.com/watch?v=j1ZQt_uhCt8&list=PLI-NxcTUPiPzoutCF5vNnAxwAYApTKF42"
+        }
+      ],
+      "video_count": 8,
+      "thumbnail": "https://i.ytimg.com/vi/M2uqFEkBBSw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBeRv6uQmHzH_h-zoIHCZnojY2IqQ"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 6,
+      "shorts": [
+        {
+          "title": "Unit-1 Software Engineering Notes📋📝",
+          "link": "https://www.youtube.com/shorts/K-AOf5334pw",
+          "thumbnail": "https://i.ytimg.com/vi/K-AOf5334pw/frame0.jpg",
+          "views_original": "1.3K views",
+          "views": 1300,
+          "video_id": "K-AOf5334pw"
+        },
+        {
+          "title": "software Engineering notes unit1st #MCA #Engineer",
+          "link": "https://www.youtube.com/shorts/Za0r5KfEvl0",
+          "thumbnail": "https://i.ytimg.com/vi/Za0r5KfEvl0/frame0.jpg",
+          "views_original": "907 views",
+          "views": 907,
+          "video_id": "Za0r5KfEvl0"
+        },
+        {
+          "title": "Notes of software development and basics of programming",
+          "link": "https://www.youtube.com/shorts/q05G5w9hZOA",
+          "thumbnail": "https://i.ytimg.com/vi/q05G5w9hZOA/frame0.jpg",
+          "views_original": "113 views",
+          "views": 113,
+          "video_id": "q05G5w9hZOA"
+        },
+        {
+          "title": "Framework and Software Development | 1st Year Computer Science Chapter 1 | New Syllabus 2025 Lecture",
+          "link": "https://www.youtube.com/shorts/yQq9iZNyzqY",
+          "thumbnail": "https://i.ytimg.com/vi/yQq9iZNyzqY/frame0.jpg",
+          "views_original": "8.8K views",
+          "views": 8800,
+          "video_id": "yQq9iZNyzqY"
+        },
+        {
+          "title": "What Are Comments in Programming? | Software Engineering From Zero To Hero - Day 31",
+          "link": "https://www.youtube.com/shorts/I-iIRL5ylAQ",
+          "thumbnail": "https://i.ytimg.com/vi/I-iIRL5ylAQ/frame0.jpg",
+          "views_original": "820 views",
+          "views": 820,
+          "video_id": "I-iIRL5ylAQ"
+        }
+      ]
+    },
+    {
+      "position_on_page": 11,
+      "shorts": [
+        {
+          "title": "1st Year 2025 Book - Chapter 1: Introduction to Software Development #1styear #computer",
+          "link": "https://www.youtube.com/shorts/izVNv5evMt4",
+          "thumbnail": "https://i.ytimg.com/vi/izVNv5evMt4/frame0.jpg",
+          "views_original": "229K views",
+          "views": 229000,
+          "video_id": "izVNv5evMt4"
+        },
+        {
+          "title": "S02 - The Intent Gap in Software Engineering and AI",
+          "link": "https://www.youtube.com/shorts/oEFP_yTIpjo",
+          "thumbnail": "https://i.ytimg.com/vi/oEFP_yTIpjo/frame0.jpg",
+          "views_original": "31 views",
+          "views": 31,
+          "video_id": "oEFP_yTIpjo"
+        },
+        {
+          "title": "Software Engineering in One Shot | Short Notes for BCA, MCA, B.Tech, PGDCA & Diploma Students",
+          "link": "https://www.youtube.com/shorts/TIR3hZoYfPs",
+          "thumbnail": "https://i.ytimg.com/vi/TIR3hZoYfPs/frame0.jpg",
+          "views_original": "444 views",
+          "views": 444,
+          "video_id": "TIR3hZoYfPs"
+        },
+        {
+          "title": "What Are If Statements in Programming? | Software Engineering From Zero To Hero - Day 32",
+          "link": "https://www.youtube.com/shorts/GwGGHibHipg",
+          "thumbnail": "https://i.ytimg.com/vi/GwGGHibHipg/frame0.jpg",
+          "views_original": "836 views",
+          "views": 836,
+          "video_id": "GwGGHibHipg"
+        },
+        {
+          "title": "🔥 Go Routine – Ben Hill | Golang Coding Rap x DevOps Hip-Hop | The Pentesters: Daemons",
+          "link": "https://www.youtube.com/shorts/f0c0k7xFlLg",
+          "thumbnail": "https://i.ytimg.com/vi/f0c0k7xFlLg/frame0.jpg",
+          "views_original": "22 views",
+          "views": 22,
+          "video_id": "f0c0k7xFlLg"
+        },
+        {
+          "title": "What is Software Engineering | Software Engineering Definition | #softwareengineering",
+          "link": "https://www.youtube.com/shorts/kwrjGZZ9AIU",
+          "thumbnail": "https://i.ytimg.com/vi/kwrjGZZ9AIU/frame0.jpg",
+          "views_original": "39K views",
+          "views": 39000,
+          "video_id": "kwrjGZZ9AIU"
+        },
+        {
+          "title": "SDLC Notes #sdlc #software  #notes #engineering #cycle #life",
+          "link": "https://www.youtube.com/shorts/_dp9bB_nJDw",
+          "thumbnail": "https://i.ytimg.com/vi/_dp9bB_nJDw/frame0.jpg",
+          "views_original": "47K views",
+          "views": 47000,
+          "video_id": "_dp9bB_nJDw"
+        },
+        {
+          "title": "🔥 Merge That Code – Ben Hill | GitHub & DevOps Rap | The Pentesters: Daemons",
+          "link": "https://www.youtube.com/shorts/SgX0FmJWXG8",
+          "thumbnail": "https://i.ytimg.com/vi/SgX0FmJWXG8/frame0.jpg",
+          "views_original": "22 views",
+          "views": 22,
+          "video_id": "SgX0FmJWXG8"
+        },
+        {
+          "title": "I’m reading every chapter of this software engineering textbook | Ep. 1",
+          "link": "https://www.youtube.com/shorts/5-pHmrjnBJc",
+          "thumbnail": "https://i.ytimg.com/vi/5-pHmrjnBJc/frame0.jpg",
+          "views_original": "1.8K views",
+          "views": 1800,
+          "video_id": "5-pHmrjnBJc"
+        },
+        {
+          "title": "What Is Output in Programming? | Software Engineering From Zero To Hero - Day 30",
+          "link": "https://www.youtube.com/shorts/H-_X7GlDyAY",
+          "thumbnail": "https://i.ytimg.com/vi/H-_X7GlDyAY/frame0.jpg",
+          "views_original": "318 views",
+          "views": 318,
+          "video_id": "H-_X7GlDyAY"
+        },
+        {
+          "title": "Software Engineering Is Dead, Change Majors #Shorts",
+          "link": "https://www.youtube.com/shorts/8p6f2N5WxrE",
+          "thumbnail": "https://i.ytimg.com/vi/8p6f2N5WxrE/frame0.jpg",
+          "views_original": "46 views",
+          "views": 46,
+          "video_id": "8p6f2N5WxrE"
+        },
+        {
+          "title": "Advice to get into SOFTWARE ENGINEERING ? #shorts #ytshorts #techjobsin2minutes",
+          "link": "https://www.youtube.com/shorts/dA-x3wP77Dc",
+          "thumbnail": "https://i.ytimg.com/vi/dA-x3wP77Dc/frame0.jpg",
+          "views_original": "1.4M views",
+          "views": 1400000,
+          "video_id": "dA-x3wP77Dc"
+        },
+        {
+          "title": "Software Engineering ≠ Just Writing Code. 💻",
+          "link": "https://www.youtube.com/shorts/f7Y4gRgkz20",
+          "thumbnail": "https://i.ytimg.com/vi/f7Y4gRgkz20/frame0.jpg",
+          "views_original": "No views",
+          "views": 0,
+          "video_id": "f7Y4gRgkz20"
+        },
+        {
+          "title": "Is Your Software Testing Strategy Outdated?",
+          "link": "https://www.youtube.com/shorts/aDjMrKXDBew",
+          "thumbnail": "https://i.ytimg.com/vi/aDjMrKXDBew/frame0.jpg",
+          "views_original": "2.2K views",
+          "views": 2200,
+          "video_id": "aDjMrKXDBew"
+        },
+        {
+          "title": "Software development life cycle (SDLC) Notes",
+          "link": "https://www.youtube.com/shorts/3T-1vI_7ims",
+          "thumbnail": "https://i.ytimg.com/vi/3T-1vI_7ims/frame0.jpg",
+          "views_original": "69K views",
+          "views": 69000,
+          "video_id": "3T-1vI_7ims"
+        },
+        {
+          "title": "Navigating Your Path: The Software Development Roadmap",
+          "link": "https://www.youtube.com/shorts/KPl9v7s9SyE",
+          "thumbnail": "https://i.ytimg.com/vi/KPl9v7s9SyE/frame0.jpg",
+          "views_original": "730K views",
+          "views": 730000,
+          "video_id": "KPl9v7s9SyE"
+        },
+        {
+          "title": "What is Chaos Engineering? 🤯 | Software Engineering Explained#shorts",
+          "link": "https://www.youtube.com/shorts/TIwX6eZ-o9E",
+          "thumbnail": "https://i.ytimg.com/vi/TIwX6eZ-o9E/frame0.jpg",
+          "views_original": "6 views",
+          "views": 6,
+          "video_id": "TIwX6eZ-o9E"
+        },
+        {
+          "title": "Software Engineer Office Life Be Like",
+          "link": "https://www.youtube.com/shorts/RGNojKTgd88",
+          "thumbnail": "https://i.ytimg.com/vi/RGNojKTgd88/frame0.jpg",
+          "views_original": "1.8K views",
+          "views": 1800,
+          "video_id": "RGNojKTgd88"
+        },
+        {
+          "title": "Explain Software Development Life Cycle (SDLC) : SDET Automation Testing Interview Question & Answer",
+          "link": "https://www.youtube.com/shorts/mZGgFy5b6Bk",
+          "thumbnail": "https://i.ytimg.com/vi/mZGgFy5b6Bk/frame0.jpg",
+          "views_original": "507K views",
+          "views": 507000,
+          "video_id": "mZGgFy5b6Bk"
+        },
+        {
+          "title": "Learn These Design Patterns to CRACK System Design Interviews",
+          "link": "https://www.youtube.com/shorts/jH1Lry5sus0",
+          "thumbnail": "https://i.ytimg.com/vi/jH1Lry5sus0/frame0.jpg",
+          "views_original": "78 views",
+          "views": 78,
+          "video_id": "jH1Lry5sus0"
+        }
+      ]
+    }
+  ],
+  "video_results": [
+    {
+      "position_on_page": 8,
+      "title": "So You Want to Be a SOFTWARE ENGINEER | Inside Software Engineering [Ep. 3]",
+      "link": "https://www.youtube.com/watch?v=AlqTPomaSLA",
+      "video_id": "AlqTPomaSLA",
+      "channel": {
+        "name": "Engineering Insiders",
+        "link": "https://www.youtube.com/@EngineeringInsiders",
+        "thumbnail": "https://yt3.ggpht.com/sSPSXOF7M5660LCZbpmA3BagEaK7EEOPilfX2DcaIewf_QFO4c1wmNp3U48Kh2MNPtBJrFhT=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "83,445 views",
+      "length": "12:45",
+      "description": "SoYouWantToBe #softwareengineer #softwareengineering So you want to be a Software Engineer... With professions like data ...",
+      "thumbnail": "https://i.ytimg.com/vi/AlqTPomaSLA/hqdefault.jpg",
+      "videoId": "AlqTPomaSLA",
+      "url": "https://www.youtube.com/watch?v=AlqTPomaSLA",
+      "channelTitle": "Engineering Insiders",
+      "channelVerified": false,
+      "duration": "12:45"
+    },
+    {
+      "position_on_page": 10,
+      "title": "Introduction To Software Development LifeCycle | What Is Software Development? | Simplilearn",
+      "link": "https://www.youtube.com/watch?v=Fi3_BjVzpqk",
+      "video_id": "Fi3_BjVzpqk",
+      "channel": {
+        "name": "Simplilearn",
+        "link": "https://www.youtube.com/@SimplilearnOfficial",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ddQ7tbkFH0piMgZrY4c9UY8djYVf-2EcAMjhMReZ65ITHPk8m_-cWladTN3PVtMTclmvkmlr=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "870,302 views",
+      "length": "5:33",
+      "description": "AI Accelerator Program - From Prompts to Agentic Workflows ...",
+      "thumbnail": "https://i.ytimg.com/vi/Fi3_BjVzpqk/hqdefault.jpg",
+      "videoId": "Fi3_BjVzpqk",
+      "url": "https://www.youtube.com/watch?v=Fi3_BjVzpqk",
+      "channelTitle": "Simplilearn",
+      "channelVerified": true,
+      "duration": "5:33"
+    },
+    {
+      "position_on_page": 24,
+      "title": "Introduction to Software Engineering | Chapter 1 — Software Engineering (Ian Sommerville)",
+      "link": "https://www.youtube.com/watch?v=GVDsxArvG2A",
+      "video_id": "GVDsxArvG2A",
+      "channel": {
+        "name": "BookSpokify",
+        "link": "https://www.youtube.com/@BookSpokify",
+        "thumbnail": "https://yt3.ggpht.com/y7Sqzjw2ZgyXwLjEu4VfNX8to4uX1nAxL_4lVbhjp4h6BmNNs5DIZjnb9wdCLKLAfOhUlsIyzQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "8 months ago",
+      "views": "3,474 views",
+      "length": "10:22",
+      "description": "Learn the basics of software engineering, why it matters, and the ethical rules professional engineers follow. We introduce four ...",
+      "thumbnail": "https://i.ytimg.com/vi/GVDsxArvG2A/hqdefault.jpg",
+      "videoId": "GVDsxArvG2A",
+      "url": "https://www.youtube.com/watch?v=GVDsxArvG2A",
+      "channelTitle": "BookSpokify",
+      "channelVerified": false,
+      "duration": "10:22"
+    },
+    {
+      "position_on_page": 25,
+      "title": "summary chapter 1 | Software Engineering",
+      "link": "https://www.youtube.com/watch?v=uvlCRm45rWY",
+      "video_id": "uvlCRm45rWY",
+      "channel": {
+        "name": "VorTech",
+        "link": "https://www.youtube.com/@AhmedTarek-l3i",
+        "thumbnail": "https://yt3.ggpht.com/bBNzo_qkWBqai7ZYYLFA9e9cp36PYW83oEu49T72bJiUt-o9z385SbrgFb5W36G-tDbTiVxS5qo=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "10 months ago",
+      "views": "15 views",
+      "length": "5:47",
+      "thumbnail": "https://i.ytimg.com/vi/uvlCRm45rWY/hqdefault.jpg",
+      "videoId": "uvlCRm45rWY",
+      "url": "https://www.youtube.com/watch?v=uvlCRm45rWY",
+      "channelTitle": "VorTech",
+      "channelVerified": false,
+      "duration": "5:47"
+    },
+    {
+      "position_on_page": 27,
+      "title": "Introduction to Software Engineering Chapter 1 #softwareengineering",
+      "link": "https://www.youtube.com/watch?v=o4vqrpiMrto",
+      "video_id": "o4vqrpiMrto",
+      "channel": {
+        "name": "Lightup Technologies",
+        "link": "https://www.youtube.com/@lightuptechnologies",
+        "thumbnail": "https://yt3.ggpht.com/0Mk8Qa6B-G_Nn32ff0AABpbJ_Z6d1qIbgMvf7_hNCZpqQRdvESPtJIdedDVFwjy-aRX8nsUlY3E=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "108 views",
+      "length": "10:33",
+      "description": "Welcome to Lightup Technologies' complete and detailed guide on Chapter 1: Introduction to Software. Whether you are a ...",
+      "extensions": [
+        "4K",
+        "Overview"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/o4vqrpiMrto/hqdefault.jpg",
+      "videoId": "o4vqrpiMrto",
+      "url": "https://www.youtube.com/watch?v=o4vqrpiMrto",
+      "channelTitle": "Lightup Technologies",
+      "channelVerified": false,
+      "duration": "10:33"
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=Software+Engineering+Chapter+1+Notes+%7C+DPGNotes",
+    "next": "https://www.youtube.com/results?search_query=Software%20Engineering%20Chapter%201%20Notes%20%7C%20DPGNotes&sp=SBSCASJQTF9wYndkSXlmZnNsZ3hNVnlYaG5IaVNuX0VXVHZ4MUctggEiUExXUGlyaDRFV0ZwRzJiMUwzQ0wtT0FQWWNNMjVqTGpYSIIBIlBMUS1uRUpOWWxFVjI5Q0JMeklEeGNvZ202Q0VaalZhZDKCAQtBbHFUUG9tYVNMQYIBIlBMbUFtSFEtXzV5U3lDalZ0SGRTako2NFFVMng1VEg4RHmCAQtGaTNfQmpWenBxa4IBIlBMcWxlTHBBTWZ4R0IxZzB4bFlqMkg2bHlZMlEya3U3cDmCASJQTDlQMUo5cTNfOWZOZlVCVlloRmVvaWVIUm5KZ192WHh4ggEiUExFRFJaRWJ1NDN0c3RaTldZZVVFd1ZlTEpCdU5GekpVWIIBIlBMcmprVHFsM2pubTliNW5yLWdneDdQdDFHNFVBSGVGbEqCASJQTHFjdWY5LUlMUFlBLU9HTWVwaFowVTljOEp2ZGVmRTBYggEiUExCQjc0d0ROcVpmZjVsS09Wc2RZZURpWTA2S21OTWRuMYIBIlBMbVhLaFU5Rk5lc1RydzduOG91UHNTTEVjZHVSbEVOSHKCASJQTHhDekNPV2Q3YWlFZWQ3U0taQm5DNnlwRkRXWUxSdkIyggEiUExJLU54Y1RVUGlQeUVoUzdRQzczVmpWbUxRVFZIVkhjeoIBIlBMZGE4VXlSdzhoemJhUXhndmN5ZnpzdGhnSE1LaHZvQVmCAQtHVkRzeEFydkcyQYIBC3V2bENSbTQ1cldZggEiUExJLU54Y1RVUGlQem91dENGNXZObkF4d0FZQXBUS0Y0MoIBC280dnFycGlNcnRvsgEGCgQIGxAC6gEECAIQGQ%253D%253D",
+    "next_page_token": "SBSCASJQTF9wYndkSXlmZnNsZ3hNVnlYaG5IaVNuX0VXVHZ4MUctggEiUExXUGlyaDRFV0ZwRzJiMUwzQ0wtT0FQWWNNMjVqTGpYSIIBIlBMUS1uRUpOWWxFVjI5Q0JMeklEeGNvZ202Q0VaalZhZDKCAQtBbHFUUG9tYVNMQYIBIlBMbUFtSFEtXzV5U3lDalZ0SGRTako2NFFVMng1VEg4RHmCAQtGaTNfQmpWenBxa4IBIlBMcWxlTHBBTWZ4R0IxZzB4bFlqMkg2bHlZMlEya3U3cDmCASJQTDlQMUo5cTNfOWZOZlVCVlloRmVvaWVIUm5KZ192WHh4ggEiUExFRFJaRWJ1NDN0c3RaTldZZVVFd1ZlTEpCdU5GekpVWIIBIlBMcmprVHFsM2pubTliNW5yLWdneDdQdDFHNFVBSGVGbEqCASJQTHFjdWY5LUlMUFlBLU9HTWVwaFowVTljOEp2ZGVmRTBYggEiUExCQjc0d0ROcVpmZjVsS09Wc2RZZURpWTA2S21OTWRuMYIBIlBMbVhLaFU5Rk5lc1RydzduOG91UHNTTEVjZHVSbEVOSHKCASJQTHhDekNPV2Q3YWlFZWQ3U0taQm5DNnlwRkRXWUxSdkIyggEiUExJLU54Y1RVUGlQeUVoUzdRQzczVmpWbUxRVFZIVkhjeoIBIlBMZGE4VXlSdzhoemJhUXhndmN5ZnpzdGhnSE1LaHZvQVmCAQtHVkRzeEFydkcyQYIBC3V2bENSbTQ1cldZggEiUExJLU54Y1RVUGlQem91dENGNXZObkF4d0FZQXBUS0Y0MoIBC280dnFycGlNcnRvsgEGCgQIGxAC6gEECAIQGQ%3D%3D"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=Software+Engineering+Chapter+1+Notes+%7C+DPGNotes",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=Software+Engineering+Chapter+1+Notes+%7C+DPGNotes&sp=SBSCASJQTF9wYndkSXlmZnNsZ3hNVnlYaG5IaVNuX0VXVHZ4MUctggEiUExXUGlyaDRFV0ZwRzJiMUwzQ0wtT0FQWWNNMjVqTGpYSIIBIlBMUS1uRUpOWWxFVjI5Q0JMeklEeGNvZ202Q0VaalZhZDKCAQtBbHFUUG9tYVNMQYIBIlBMbUFtSFEtXzV5U3lDalZ0SGRTako2NFFVMng1VEg4RHmCAQtGaTNfQmpWenBxa4IBIlBMcWxlTHBBTWZ4R0IxZzB4bFlqMkg2bHlZMlEya3U3cDmCASJQTDlQMUo5cTNfOWZOZlVCVlloRmVvaWVIUm5KZ192WHh4ggEiUExFRFJaRWJ1NDN0c3RaTldZZVVFd1ZlTEpCdU5GekpVWIIBIlBMcmprVHFsM2pubTliNW5yLWdneDdQdDFHNFVBSGVGbEqCASJQTHFjdWY5LUlMUFlBLU9HTWVwaFowVTljOEp2ZGVmRTBYggEiUExCQjc0d0ROcVpmZjVsS09Wc2RZZURpWTA2S21OTWRuMYIBIlBMbVhLaFU5Rk5lc1RydzduOG91UHNTTEVjZHVSbEVOSHKCASJQTHhDekNPV2Q3YWlFZWQ3U0taQm5DNnlwRkRXWUxSdkIyggEiUExJLU54Y1RVUGlQeUVoUzdRQzczVmpWbUxRVFZIVkhjeoIBIlBMZGE4VXlSdzhoemJhUXhndmN5ZnpzdGhnSE1LaHZvQVmCAQtHVkRzeEFydkcyQYIBC3V2bENSbTQ1cldZggEiUExJLU54Y1RVUGlQem91dENGNXZObkF4d0FZQXBUS0Y0MoIBC280dnFycGlNcnRvsgEGCgQIGxAC6gEECAIQGQ%253D%253D",
+    "next_page_token": "SBSCASJQTF9wYndkSXlmZnNsZ3hNVnlYaG5IaVNuX0VXVHZ4MUctggEiUExXUGlyaDRFV0ZwRzJiMUwzQ0wtT0FQWWNNMjVqTGpYSIIBIlBMUS1uRUpOWWxFVjI5Q0JMeklEeGNvZ202Q0VaalZhZDKCAQtBbHFUUG9tYVNMQYIBIlBMbUFtSFEtXzV5U3lDalZ0SGRTako2NFFVMng1VEg4RHmCAQtGaTNfQmpWenBxa4IBIlBMcWxlTHBBTWZ4R0IxZzB4bFlqMkg2bHlZMlEya3U3cDmCASJQTDlQMUo5cTNfOWZOZlVCVlloRmVvaWVIUm5KZ192WHh4ggEiUExFRFJaRWJ1NDN0c3RaTldZZVVFd1ZlTEpCdU5GekpVWIIBIlBMcmprVHFsM2pubTliNW5yLWdneDdQdDFHNFVBSGVGbEqCASJQTHFjdWY5LUlMUFlBLU9HTWVwaFowVTljOEp2ZGVmRTBYggEiUExCQjc0d0ROcVpmZjVsS09Wc2RZZURpWTA2S21OTWRuMYIBIlBMbVhLaFU5Rk5lc1RydzduOG91UHNTTEVjZHVSbEVOSHKCASJQTHhDekNPV2Q3YWlFZWQ3U0taQm5DNnlwRkRXWUxSdkIyggEiUExJLU54Y1RVUGlQeUVoUzdRQzczVmpWbUxRVFZIVkhjeoIBIlBMZGE4VXlSdzhoemJhUXhndmN5ZnpzdGhnSE1LaHZvQVmCAQtHVkRzeEFydkcyQYIBC3V2bENSbTQ1cldZggEiUExJLU54Y1RVUGlQem91dENGNXZObkF4d0FZQXBUS0Y0MoIBC280dnFycGlNcnRvsgEGCgQIGxAC6gEECAIQGQ%3D%3D"
+  }
+}

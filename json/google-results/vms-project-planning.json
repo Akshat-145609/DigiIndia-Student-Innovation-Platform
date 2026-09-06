@@ -1,0 +1,403 @@
+{
+  "search_metadata": {
+    "id": "6a9d49c2895d90a0f0a5e660",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/KbKZfNmJWvmAbAUpcdvGtDzSU1dG4CkVWHRnt-UKtCY/6a9d49c2895d90a0f0a5e660.json",
+    "markdown_endpoint": "https://serpapi.com/searches/KbKZfNmJWvmAbAUpcdvGtDzSU1dG4CkVWHRnt-UKtCY/6a9d49c2895d90a0f0a5e660.md",
+    "created_at": "2026-09-06 11:08:50 UTC",
+    "processed_at": "2026-09-06 11:08:50 UTC",
+    "google_url": "https://www.google.co.in/search?q=VMS+Project+Planning&oq=VMS+Project+Planning&uule=w+CAIQICIFSW5kaWE&hl=hi&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/KbKZfNmJWvmAbAUpcdvGtDzSU1dG4CkVWHRnt-UKtCY/6a9d49c2895d90a0f0a5e660.html",
+    "total_time_taken": 0.46
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "VMS Project Planning",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "VMS Project Planning",
+    "total_results": 131,
+    "time_taken_displayed": 0.28,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "related_questions": [
+    {
+      "question": "What does VMS stand for?",
+      "type": "ai_overview",
+      "page_token": "M8ECqXicHdBRboIwAADQ7DJ-CsJkmYlZglAMGxCKLdifpbRogQJVmFX-dpedaqdZsneE9_0j6779fSJimtS4MQyt9fI8DGdZLdmwrHuDjo-eGYxKWVLWbpwXZ_V2Ylt_1O5u0G6KlMIeNLMmvqHAtwiQA56hiFtOI8AfZUA8VIhLOrv70hJhWSgH-mqdFOQZWdw7NqlZYXlMe7HDUviRL6y0ERFspMm6KcxaaJZSRRTxLpNni0kw4IAMpOOXaBZB3uOmCkhGOq3LXHxxW43YVglG95EhIimK39Ne-Ykv8urA6xKDWyTjdb5HGbD5tcyhYA3RELyucM9runIn0oqEmiAM6tCF-_iR5AQy4N4jDzofeQyOjYSH2S2qnsw4CIN0lgdqcbg4sdvWXvyPbT9P3bRR1-H8B2QLfKM",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=M8ECqXicHdBRboIwAADQ7DJ-CsJkmYlZglAMGxCKLdifpbRogQJVmFX-dpedaqdZsneE9_0j6779fSJimtS4MQyt9fI8DGdZLdmwrHuDjo-eGYxKWVLWbpwXZ_V2Ylt_1O5u0G6KlMIeNLMmvqHAtwiQA56hiFtOI8AfZUA8VIhLOrv70hJhWSgH-mqdFOQZWdw7NqlZYXlMe7HDUviRL6y0ERFspMm6KcxaaJZSRRTxLpNni0kw4IAMpOOXaBZB3uOmCkhGOq3LXHxxW43YVglG95EhIimK39Ne-Ykv8urA6xKDWyTjdb5HGbD5tcyhYA3RELyucM9runIn0oqEmiAM6tCF-_iR5AQy4N4jDzofeQyOjYSH2S2qnsw4CIN0lgdqcbg4sdvWXvyPbT9P3bRR1-H8B2QLfKM",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTU16TnphVGxOUWxsU1lsb3hSV0V6VmxZNU1HMTBWVEpRVVdOR1YxaFpiRmRvTjFBNGJ6WkdhM2hGWjJ4aVQySmlUR3gwZDJzeU1VbGZaMDU1UXpsQlUxSkNWVVE1Ukc5TFdsTlRNMGxFVlRSNExWVnBNMjVDTkhwd2R4SVhkMnR0WkdGeU5uQkVYM1ZXZDJKclVHMW1TRTVyUVVrYUlrRkVjM0k1WmxSb1FXVkpUWGQwTVRZeWQyMXZiRlJxYUU1MFJscGpjelJ6Vm5jIiwiZmN2IjoiMyIsImVpIjoid2ttZGFyNnBEX3VWd2JrUG1mSE5rQUkiLCJxYyI6IkNoUjJiWE1nY0hKdmFtVmpkQ0J3YkdGdWJtbHVaeEFBZmNfM016OCIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIFZNUyBzdGFuZCBmb3I/IiwibGsiOiJHZzEyYlhNZ1puVnNiQ0JtYjNKdCIsImJzIjoiYzQzT3NRckNNQlNGWVZ3dmlJNlN4ZU5tMjYwZ2pwMGNDMExCNGhoczBsYlNKRFRSdnI0bU9PZ2dkTDMzNF9CVFJwdTY0eDZORVE2WHNvTHpYRGVRWml6eUZWcy1Cd2Y1VUNvY0Jxb3BpWmlQQXI0VE9MNjFzQTVHd283bUxtNGVWbkd0ZTkwV2VjcjIwMHhNSjBJYzdoM0s2b3hRRUZwNkhYS2tqSHM3dHAwLVpuQTJtbEQzWmVoSzZVX2ZJYnhhOFNjd1k4azBWNjhYTHciLCJpZCI6ImZjX3drbWRhcjZwRF91Vndia1BtZkhOa0FJXzUifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTU16TnphVGxOUWxsU1lsb3hSV0V6VmxZNU1HMTBWVEpRVVdOR1YxaFpiRmRvTjFBNGJ6WkdhM2hGWjJ4aVQySmlUR3gwZDJzeU1VbGZaMDU1UXpsQlUxSkNWVVE1Ukc5TFdsTlRNMGxFVlRSNExWVnBNMjVDTkhwd2R4SVhkMnR0WkdGeU5uQkVYM1ZXZDJKclVHMW1TRTVyUVVrYUlrRkVjM0k1WmxSb1FXVkpUWGQwTVRZeWQyMXZiRlJxYUU1MFJscGpjelJ6Vm5jIiwiZmN2IjoiMyIsImVpIjoid2ttZGFyNnBEX3VWd2JrUG1mSE5rQUkiLCJxYyI6IkNoUjJiWE1nY0hKdmFtVmpkQ0J3YkdGdWJtbHVaeEFBZmNfM016OCIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIFZNUyBzdGFuZCBmb3I%2FIiwibGsiOiJHZzEyYlhNZ1puVnNiQ0JtYjNKdCIsImJzIjoiYzQzT3NRckNNQlNGWVZ3dmlJNlN4ZU5tMjYwZ2pwMGNDMExCNGhoczBsYlNKRFRSdnI0bU9PZ2dkTDMzNF9CVFJwdTY0eDZORVE2WHNvTHpYRGVRWml6eUZWcy1Cd2Y1VUNvY0Jxb3BpWmlQQXI0VE9MNjFzQTVHd283bUxtNGVWbkd0ZTkwV2VjcjIwMHhNSjBJYzdoM0s2b3hRRUZwNkhYS2tqSHM3dHAwLVpuQTJtbEQzWmVoSzZVX2ZJYnhhOFNjd1k4azBWNjhYTHciLCJpZCI6ImZjX3drbWRhcjZwRF91Vndia1BtZkhOa0FJXzUifQ%3D%3D"
+    },
+    {
+      "question": "What are the 7 steps of project planning?",
+      "type": "ai_overview",
+      "page_token": "N_jc73icHdBdToMwAADgeBkftwIOzZLFBFc6dKAttB19MaUdA1p-3FC2vXkXT-VpTPyO8H3_2LozvzfnahyH03I-n6Zpduj7g93PVD-ru7k8XTo1V9LaQiqz9O9957FUK_gZBU8fUYDpMLA1AanrvKRWNxhUlll4LRCdFLDnnLF4S0mdOIGh7Z2X8N6RWYhemRDE001qCRWeuBRQuUlGBsbYlDRJhBkrU7iQuRm4pjrKEINp7VgZ6oYb5WmkXZk9d8nGHjliZWzu3DgUZt8-ABGSjeaju2UhjTl55V1wSsBCkt3wRDIr0tRZEyNiDQck0fmtuEagQNVGcTVRsPALFAaw0p50HZPvIldBUmomvLwdccFFlLVjkJK-xpRcVWNbFgZHScPNnlp_n1VYAXGJMx0IwHzlii2BeIHxbam-Vt7t_-fqvWzH5XDsD39l94JT",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=N_jc73icHdBdToMwAADgeBkftwIOzZLFBFc6dKAttB19MaUdA1p-3FC2vXkXT-VpTPyO8H3_2LozvzfnahyH03I-n6Zpduj7g93PVD-ru7k8XTo1V9LaQiqz9O9957FUK_gZBU8fUYDpMLA1AanrvKRWNxhUlll4LRCdFLDnnLF4S0mdOIGh7Z2X8N6RWYhemRDE001qCRWeuBRQuUlGBsbYlDRJhBkrU7iQuRm4pjrKEINp7VgZ6oYb5WmkXZk9d8nGHjliZWzu3DgUZt8-ABGSjeaju2UhjTl55V1wSsBCkt3wRDIr0tRZEyNiDQck0fmtuEagQNVGcTVRsPALFAaw0p50HZPvIldBUmomvLwdccFFlLVjkJK-xpRcVWNbFgZHScPNnlp_n1VYAXGJMx0IwHzlii2BeIHxbam-Vt7t_-fqvWzH5XDsD39l94JT",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTU16TnphVGxOUWxsU1lsb3hSV0V6VmxZNU1HMTBWVEpRVVdOR1YxaFpiRmRvTjFBNGJ6WkdhM2hGWjJ4aVQySmlUR3gwZDJzeU1VbGZaMDU1UXpsQlUxSkNWVVE1Ukc5TFdsTlRNMGxFVlRSNExWVnBNMjVDTkhwd2R4SVhkMnR0WkdGeU5uQkVYM1ZXZDJKclVHMW1TRTVyUVVrYUlrRkVjM0k1WmxSb1FXVkpUWGQwTVRZeWQyMXZiRlJxYUU1MFJscGpjelJ6Vm5jIiwiZmN2IjoiMyIsImVpIjoid2ttZGFyNnBEX3VWd2JrUG1mSE5rQUkiLCJxYyI6IkNoUjJiWE1nY0hKdmFtVmpkQ0J3YkdGdWJtbHVaeEFBZmNfM016OCIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIDcgc3RlcHMgb2YgcHJvamVjdCBwbGFubmluZz8iLCJsayI6IkdpaDNhR0YwSUdGeVpTQjBhR1VnTnlCemRHVndjeUJ2WmlCd2NtOXFaV04wSUhCc1lXNXVhVzVuIiwiYnMiOiJjNDNPc1FyQ01CU0ZZVnd2aUk2U3hlTm0yNjBnanAwY0MwTEI0aGhzMGxiU0pEVFJ2cjRtT09nZ2RMMzM0X0JUUnB1NjR4Nk5FUTZYc29MelhEZVFaaXp5RlZzLUJ3ZjVVQ29jQnFvcGlaaVBBcjRUT0w2MXNBNUd3bzdtTG00ZVZuR3RlOTBXZWNyMjAweE1KMEljN2gzSzZveFFFRnA2SFhLa2pIczd0cDAtWm5BMm1sRDNaZWhLNlVfZklieGE4U2N3WThrMFY2OFhMdyIsImlkIjoiZmNfd2ttZGFyNnBEX3VWd2JrUG1mSE5rQUlfNSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTU16TnphVGxOUWxsU1lsb3hSV0V6VmxZNU1HMTBWVEpRVVdOR1YxaFpiRmRvTjFBNGJ6WkdhM2hGWjJ4aVQySmlUR3gwZDJzeU1VbGZaMDU1UXpsQlUxSkNWVVE1Ukc5TFdsTlRNMGxFVlRSNExWVnBNMjVDTkhwd2R4SVhkMnR0WkdGeU5uQkVYM1ZXZDJKclVHMW1TRTVyUVVrYUlrRkVjM0k1WmxSb1FXVkpUWGQwTVRZeWQyMXZiRlJxYUU1MFJscGpjelJ6Vm5jIiwiZmN2IjoiMyIsImVpIjoid2ttZGFyNnBEX3VWd2JrUG1mSE5rQUkiLCJxYyI6IkNoUjJiWE1nY0hKdmFtVmpkQ0J3YkdGdWJtbHVaeEFBZmNfM016OCIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIDcgc3RlcHMgb2YgcHJvamVjdCBwbGFubmluZz8iLCJsayI6IkdpaDNhR0YwSUdGeVpTQjBhR1VnTnlCemRHVndjeUJ2WmlCd2NtOXFaV04wSUhCc1lXNXVhVzVuIiwiYnMiOiJjNDNPc1FyQ01CU0ZZVnd2aUk2U3hlTm0yNjBnanAwY0MwTEI0aGhzMGxiU0pEVFJ2cjRtT09nZ2RMMzM0X0JUUnB1NjR4Nk5FUTZYc29MelhEZVFaaXp5RlZzLUJ3ZjVVQ29jQnFvcGlaaVBBcjRUT0w2MXNBNUd3bzdtTG00ZVZuR3RlOTBXZWNyMjAweE1KMEljN2gzSzZveFFFRnA2SFhLa2pIczd0cDAtWm5BMm1sRDNaZWhLNlVfZklieGE4U2N3WThrMFY2OFhMdyIsImlkIjoiZmNfd2ttZGFyNnBEX3VWd2JrUG1mSE5rQUlfNSJ9"
+    },
+    {
+      "question": "What is MSP and VMS in staffing?",
+      "type": "ai_overview",
+      "page_token": "MiSfZ3icHdBLbuIwAABQzWVYQhILKpDQSClxISKm_gObKnEAJ3Y-LS5xs-td5lRzmhn1Am_xvv_YqjV_f3ntXH9fzWbDMExvXXezl6nqplU7y-9frZqp3NoiV2a1eFqEv69qnXzu4uf3XYx534sNCdjG5kj2mQq7gRn0LqU2pbSf9CUV-ah1ZlHOTLinzfy55B7QWi-wWBrB_TaL_P4CUyIMdDJJHA0cZY3-wEB7FfkDD9xwsuiV1pDmDPpTm24Jvw8FDfle6orX6Ygj0maApBlfmiKMEbbwCzMOkChbmWiHRxhnx3guIjHQMa5xA_1hU0IqES2CJSsDDHitq2xUkYRnkOgS5FFoTsddpBJyLcUZnBqHC3nescbFlHQV5mRUtW04nx9YUkp-RB3aosd__4VB8jiClBWRl5QpgPHkqh5rMPn5XL9dG7fqP7rbPzvYhG8",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=MiSfZ3icHdBLbuIwAABQzWVYQhILKpDQSClxISKm_gObKnEAJ3Y-LS5xs-td5lRzmhn1Am_xvv_YqjV_f3ntXH9fzWbDMExvXXezl6nqplU7y-9frZqp3NoiV2a1eFqEv69qnXzu4uf3XYx534sNCdjG5kj2mQq7gRn0LqU2pbSf9CUV-ah1ZlHOTLinzfy55B7QWi-wWBrB_TaL_P4CUyIMdDJJHA0cZY3-wEB7FfkDD9xwsuiV1pDmDPpTm24Jvw8FDfle6orX6Ygj0maApBlfmiKMEbbwCzMOkChbmWiHRxhnx3guIjHQMa5xA_1hU0IqES2CJSsDDHitq2xUkYRnkOgS5FFoTsddpBJyLcUZnBqHC3nescbFlHQV5mRUtW04nx9YUkp-RB3aosd__4VB8jiClBWRl5QpgPHkqh5rMPn5XL9dG7fqP7rbPzvYhG8",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTU16TnphVGxOUWxsU1lsb3hSV0V6VmxZNU1HMTBWVEpRVVdOR1YxaFpiRmRvTjFBNGJ6WkdhM2hGWjJ4aVQySmlUR3gwZDJzeU1VbGZaMDU1UXpsQlUxSkNWVVE1Ukc5TFdsTlRNMGxFVlRSNExWVnBNMjVDTkhwd2R4SVhkMnR0WkdGeU5uQkVYM1ZXZDJKclVHMW1TRTVyUVVrYUlrRkVjM0k1WmxSb1FXVkpUWGQwTVRZeWQyMXZiRlJxYUU1MFJscGpjelJ6Vm5jIiwiZmN2IjoiMyIsImVpIjoid2ttZGFyNnBEX3VWd2JrUG1mSE5rQUkiLCJxYyI6IkNoUjJiWE1nY0hKdmFtVmpkQ0J3YkdGdWJtbHVaeEFBZmNfM016OCIsInF1ZXN0aW9uIjoiV2hhdCBpcyBNU1AgYW5kIFZNUyBpbiBzdGFmZmluZz8iLCJsayI6IkdoOTNhR0YwSUdseklHMXpjQ0JoYm1RZ2RtMXpJR2x1SUhOMFlXWm1hVzVuIiwiYnMiOiJjNDNPc1FyQ01CU0ZZVnd2aUk2U3hlTm0yNjBnanAwY0MwTEI0aGhzMGxiU0pEVFJ2cjRtT09nZ2RMMzM0X0JUUnB1NjR4Nk5FUTZYc29MelhEZVFaaXp5RlZzLUJ3ZjVVQ29jQnFvcGlaaVBBcjRUT0w2MXNBNUd3bzdtTG00ZVZuR3RlOTBXZWNyMjAweE1KMEljN2gzSzZveFFFRnA2SFhLa2pIczd0cDAtWm5BMm1sRDNaZWhLNlVfZklieGE4U2N3WThrMFY2OFhMdyIsImlkIjoiZmNfd2ttZGFyNnBEX3VWd2JrUG1mSE5rQUlfNSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTU16TnphVGxOUWxsU1lsb3hSV0V6VmxZNU1HMTBWVEpRVVdOR1YxaFpiRmRvTjFBNGJ6WkdhM2hGWjJ4aVQySmlUR3gwZDJzeU1VbGZaMDU1UXpsQlUxSkNWVVE1Ukc5TFdsTlRNMGxFVlRSNExWVnBNMjVDTkhwd2R4SVhkMnR0WkdGeU5uQkVYM1ZXZDJKclVHMW1TRTVyUVVrYUlrRkVjM0k1WmxSb1FXVkpUWGQwTVRZeWQyMXZiRlJxYUU1MFJscGpjelJ6Vm5jIiwiZmN2IjoiMyIsImVpIjoid2ttZGFyNnBEX3VWd2JrUG1mSE5rQUkiLCJxYyI6IkNoUjJiWE1nY0hKdmFtVmpkQ0J3YkdGdWJtbHVaeEFBZmNfM016OCIsInF1ZXN0aW9uIjoiV2hhdCBpcyBNU1AgYW5kIFZNUyBpbiBzdGFmZmluZz8iLCJsayI6IkdoOTNhR0YwSUdseklHMXpjQ0JoYm1RZ2RtMXpJR2x1SUhOMFlXWm1hVzVuIiwiYnMiOiJjNDNPc1FyQ01CU0ZZVnd2aUk2U3hlTm0yNjBnanAwY0MwTEI0aGhzMGxiU0pEVFJ2cjRtT09nZ2RMMzM0X0JUUnB1NjR4Nk5FUTZYc29MelhEZVFaaXp5RlZzLUJ3ZjVVQ29jQnFvcGlaaVBBcjRUT0w2MXNBNUd3bzdtTG00ZVZuR3RlOTBXZWNyMjAweE1KMEljN2gzSzZveFFFRnA2SFhLa2pIczd0cDAtWm5BMm1sRDNaZWhLNlVfZklieGE4U2N3WThrMFY2OFhMdyIsImlkIjoiZmNfd2ttZGFyNnBEX3VWd2JrUG1mSE5rQUlfNSJ9"
+    },
+    {
+      "question": "What are the 5 stages of project planning?",
+      "type": "ai_overview",
+      "page_token": "p6TIyXicHdBRbsIgAADQ7DJ-qqWriyZmWZXWGsWBApafpYCKQi1q1erf7rJT7TRL9o7wvn_c_mh_XxpT1_4y6HTu93t7V1U7t2mrqr0_dorL46g6qnBOFsoOem-94H2rhvCaxaNTFmPqPRuT7pLjCKXTbMaQY2mQb1z_lVKEUWoDAWqaOw1mXJx0grBcswmlSbNi_THuonUBTbxh8SO3U8_C5HMNAigZbmSqcwQQQ6l5UGgmi4loKIjIjNlmwT1R1HexDXoczoGyeUQSVKy4yBcspgvYN4oH6RKQRpb-Su38idIolpyV8zRqiPMAH4yQHIZ6YkYr584bpwB5ftQkEAQaHRYgsPk6AwqSrWYizMsaSy6yVVnHS1LtMSVPdXAlg9NYlzqTCbpTBhvkRKEPu4dIzG0OXY0O5oJxa6tuw7D1_zn82pb1wJ-r3R95uINS",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=p6TIyXicHdBRbsIgAADQ7DJ-qqWriyZmWZXWGsWBApafpYCKQi1q1erf7rJT7TRL9o7wvn_c_mh_XxpT1_4y6HTu93t7V1U7t2mrqr0_dorL46g6qnBOFsoOem-94H2rhvCaxaNTFmPqPRuT7pLjCKXTbMaQY2mQb1z_lVKEUWoDAWqaOw1mXJx0grBcswmlSbNi_THuonUBTbxh8SO3U8_C5HMNAigZbmSqcwQQQ6l5UGgmi4loKIjIjNlmwT1R1HexDXoczoGyeUQSVKy4yBcspgvYN4oH6RKQRpb-Su38idIolpyV8zRqiPMAH4yQHIZ6YkYr584bpwB5ftQkEAQaHRYgsPk6AwqSrWYizMsaSy6yVVnHS1LtMSVPdXAlg9NYlzqTCbpTBhvkRKEPu4dIzG0OXY0O5oJxa6tuw7D1_zn82pb1wJ-r3R95uINS",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTU16TnphVGxOUWxsU1lsb3hSV0V6VmxZNU1HMTBWVEpRVVdOR1YxaFpiRmRvTjFBNGJ6WkdhM2hGWjJ4aVQySmlUR3gwZDJzeU1VbGZaMDU1UXpsQlUxSkNWVVE1Ukc5TFdsTlRNMGxFVlRSNExWVnBNMjVDTkhwd2R4SVhkMnR0WkdGeU5uQkVYM1ZXZDJKclVHMW1TRTVyUVVrYUlrRkVjM0k1WmxSb1FXVkpUWGQwTVRZeWQyMXZiRlJxYUU1MFJscGpjelJ6Vm5jIiwiZmN2IjoiMyIsImVpIjoid2ttZGFyNnBEX3VWd2JrUG1mSE5rQUkiLCJxYyI6IkNoUjJiWE1nY0hKdmFtVmpkQ0J3YkdGdWJtbHVaeEFBZmNfM016OCIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIDUgc3RhZ2VzIG9mIHByb2plY3QgcGxhbm5pbmc/IiwibGsiOiJHaWwzYUdGMElHRnlaU0IwYUdVZ05TQnpkR0ZuWlhNZ2IyWWdjSEp2YW1WamRDQndiR0Z1Ym1sdVp3IiwiYnMiOiJjNDNPc1FyQ01CU0ZZVnd2aUk2U3hlTm0yNjBnanAwY0MwTEI0aGhzMGxiU0pEVFJ2cjRtT09nZ2RMMzM0X0JUUnB1NjR4Nk5FUTZYc29MelhEZVFaaXp5RlZzLUJ3ZjVVQ29jQnFvcGlaaVBBcjRUT0w2MXNBNUd3bzdtTG00ZVZuR3RlOTBXZWNyMjAweE1KMEljN2gzSzZveFFFRnA2SFhLa2pIczd0cDAtWm5BMm1sRDNaZWhLNlVfZklieGE4U2N3WThrMFY2OFhMdyIsImlkIjoiZmNfd2ttZGFyNnBEX3VWd2JrUG1mSE5rQUlfNSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSTU16TnphVGxOUWxsU1lsb3hSV0V6VmxZNU1HMTBWVEpRVVdOR1YxaFpiRmRvTjFBNGJ6WkdhM2hGWjJ4aVQySmlUR3gwZDJzeU1VbGZaMDU1UXpsQlUxSkNWVVE1Ukc5TFdsTlRNMGxFVlRSNExWVnBNMjVDTkhwd2R4SVhkMnR0WkdGeU5uQkVYM1ZXZDJKclVHMW1TRTVyUVVrYUlrRkVjM0k1WmxSb1FXVkpUWGQwTVRZeWQyMXZiRlJxYUU1MFJscGpjelJ6Vm5jIiwiZmN2IjoiMyIsImVpIjoid2ttZGFyNnBEX3VWd2JrUG1mSE5rQUkiLCJxYyI6IkNoUjJiWE1nY0hKdmFtVmpkQ0J3YkdGdWJtbHVaeEFBZmNfM016OCIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIDUgc3RhZ2VzIG9mIHByb2plY3QgcGxhbm5pbmc%2FIiwibGsiOiJHaWwzYUdGMElHRnlaU0IwYUdVZ05TQnpkR0ZuWlhNZ2IyWWdjSEp2YW1WamRDQndiR0Z1Ym1sdVp3IiwiYnMiOiJjNDNPc1FyQ01CU0ZZVnd2aUk2U3hlTm0yNjBnanAwY0MwTEI0aGhzMGxiU0pEVFJ2cjRtT09nZ2RMMzM0X0JUUnB1NjR4Nk5FUTZYc29MelhEZVFaaXp5RlZzLUJ3ZjVVQ29jQnFvcGlaaVBBcjRUT0w2MXNBNUd3bzdtTG00ZVZuR3RlOTBXZWNyMjAweE1KMEljN2gzSzZveFFFRnA2SFhLa2pIczd0cDAtWm5BMm1sRDNaZWhLNlVfZklieGE4U2N3WThrMFY2OFhMdyIsImlkIjoiZmNfd2ttZGFyNnBEX3VWd2JrUG1mSE5rQUlfNSJ9"
+    }
+  ],
+  "ai_overview": {
+    "page_token": "xF_UwXiczZXbkqo4FIYfYJ5juOkuQfDYVdSuENFG20M8tn1DcTIgJxt003o3V_Mi-6n200xAQXCru3supiZVGnJYycrK-vL_9cOxPPvnH3-b2-0mfKLpKIpK2PexY5Q0v2R5tBLuPY1e-U4YaOY30-FNi9rtHIOPHiCQkASl9mRRtZWFSGGHtzxq_53nKC3kGcqw-Mh2dSWobVrybh6p9shdPQ9sIFHJqrysKqGxJtt-rENapsmf_SfXIo1SWDKt0sw6qPpQlHsLUGIZlisNacUlE8B_VgQMgAQABnZckYKuToMAiJ9YTRTjpQQp14WEbIW0RHEDk9Amrd7N1TqJDQZYPFq3Km9yf0A-Bsfx1i1viSO46H4EkmOSreOlBGB94jCZcfoxO9W3Ni3O_rUX5pzq5wZvRnZZaJGwwlEEEMr2EPLD3UJ7HP91jt7WwEc0iKzbgU6cQOC5jyfomA93ChamZi8NQScid4FpHZOkZWg1IFWZtjRTSz6CMM5lOG0yvqjUp1Bll0u_xQib6asnLkDj2ULIX0e0ppJ5jq_ohi6bMvMtaZfZcpVpcvXGYwKRFmYUhXmKDlMJma1pwB1A6aUklFOEYHYOoeg_JG3hasjN01Thyph17kXZJeMkpFm42sdA5uKXu_DeKI4ZPGePUI-zwMx7dra6ilDBuQQh4bSYhWG6ayHxYeecj8XEHF4eEIgXtqRHiDIXCk8SvNwIggkmB0uPVohu_LpAwg6Ou2e4IvlJdwvnOBLiJcSih0JiB6QUgmwUnfbIIWTh-PYI3XhCJnYRMYTxfaQupfctdC_hHRcczQp5dMD8Osq_K_cxO_kBUlYuUr-AjK7oM8AexiNX7nv2ZA3CsWzJm0rdi64j4rvqF5RG-z9B1E11yEl2FHNv3wVE4icgIjqE7-nQ8fukQ92TDt2GCEJwVYdGxwk5HbqESMQFiO7q0JchQvcggmnfrxDFOnQNIvsWREfrHESTog4VIDrrUAbR13VI-Zc6lDBlHKuiKO3W-KY4tUWlwbysQlbbvjuhJdRmfg01lm8atwO_FaeVu31yFd15lC39SWC7273-KJMO_8nQqXd-3p88jAJ_bWjbh5GjeJ7lYcp1Ap9nlLoxNKtqZ1Sf7Qeu0XSbkiFNjLrSfn5rHFqh2G1qFbdvllXZ_6h9BNh233rSYPTG6Gt12DQHw-XkXWIq26Hf3HX6MJhx7ar-IvqD_itmZvO5bK4xWux6qMatIrxpqwFX5ZSl3dWiercJLbPDNqrw1XCnshlBdmYnjoV8o1y2W2Oj9apqlBtoPLnDCgYDBBYYaAAuASIphKBPfiQPYA0gUaBCTZGN8DtfZyvqiuXUit4wmJrCUS7e7jd8pUyFXsCX_wEYrERd",
+    "serpapi_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=xF_UwXiczZXbkqo4FIYfYJ5juOkuQfDYVdSuENFG20M8tn1DcTIgJxt003o3V_Mi-6n200xAQXCru3supiZVGnJYycrK-vL_9cOxPPvnH3-b2-0mfKLpKIpK2PexY5Q0v2R5tBLuPY1e-U4YaOY30-FNi9rtHIOPHiCQkASl9mRRtZWFSGGHtzxq_53nKC3kGcqw-Mh2dSWobVrybh6p9shdPQ9sIFHJqrysKqGxJtt-rENapsmf_SfXIo1SWDKt0sw6qPpQlHsLUGIZlisNacUlE8B_VgQMgAQABnZckYKuToMAiJ9YTRTjpQQp14WEbIW0RHEDk9Amrd7N1TqJDQZYPFq3Km9yf0A-Bsfx1i1viSO46H4EkmOSreOlBGB94jCZcfoxO9W3Ni3O_rUX5pzq5wZvRnZZaJGwwlEEEMr2EPLD3UJ7HP91jt7WwEc0iKzbgU6cQOC5jyfomA93ChamZi8NQScid4FpHZOkZWg1IFWZtjRTSz6CMM5lOG0yvqjUp1Bll0u_xQib6asnLkDj2ULIX0e0ppJ5jq_ohi6bMvMtaZfZcpVpcvXGYwKRFmYUhXmKDlMJma1pwB1A6aUklFOEYHYOoeg_JG3hasjN01Thyph17kXZJeMkpFm42sdA5uKXu_DeKI4ZPGePUI-zwMx7dra6ilDBuQQh4bSYhWG6ayHxYeecj8XEHF4eEIgXtqRHiDIXCk8SvNwIggkmB0uPVohu_LpAwg6Ou2e4IvlJdwvnOBLiJcSih0JiB6QUgmwUnfbIIWTh-PYI3XhCJnYRMYTxfaQupfctdC_hHRcczQp5dMD8Osq_K_cxO_kBUlYuUr-AjK7oM8AexiNX7nv2ZA3CsWzJm0rdi64j4rvqF5RG-z9B1E11yEl2FHNv3wVE4icgIjqE7-nQ8fukQ92TDt2GCEJwVYdGxwk5HbqESMQFiO7q0JchQvcggmnfrxDFOnQNIvsWREfrHESTog4VIDrrUAbR13VI-Zc6lDBlHKuiKO3W-KY4tUWlwbysQlbbvjuhJdRmfg01lm8atwO_FaeVu31yFd15lC39SWC7273-KJMO_8nQqXd-3p88jAJ_bWjbh5GjeJ7lYcp1Ap9nlLoxNKtqZ1Sf7Qeu0XSbkiFNjLrSfn5rHFqh2G1qFbdvllXZ_6h9BNh233rSYPTG6Gt12DQHw-XkXWIq26Hf3HX6MJhx7ar-IvqD_itmZvO5bK4xWux6qMatIrxpqwFX5ZSl3dWiercJLbPDNqrw1XCnshlBdmYnjoV8o1y2W2Oj9apqlBtoPLnDCgYDBBYYaAAuASIphKBPfiQPYA0gUaBCTZGN8DtfZyvqiuXUit4wmJrCUS7e7jd8pUyFXsCX_wEYrERd"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "VMS Implementation - 3 Fundamentals of Project ...",
+      "link": "https://www.linkedin.com/pulse/vms-implementation-3-fundamentals-project-cris-robinson",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjgEB6zswFSCy2QrsDNbMEch4tL6-rAZrnrOvQEM9s8jzjfUwsZVTRvvherw9-t5yuI4tkeuNss9nwuPzt2HOj3qzI-MC2_XeomMtLNh1ZJjMgaowYpX7esPzeaJekZN3Ml-LQUa_OEr9LMu7h8Sj1hBDBFZ6qsRflmO8TITmvEgH3nzpt0vLwFNvlDIuwDtV&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQFnoECCgQAQ&uoh=1",
+      "displayed_link": "60+ प्रतिक्रियाएं · 10 वर्ष पहले",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAm0lEQVR4AWP4__8_RRhMyLfs3sNQvOk_KRikB24ATNB2yhEQJtoQuAEwzVAAYtPVAMJe4Cjf8l-0bsd_RkIGQAGc_ej9t_-TDt_7_-vPXzD_6Yfv_-2nHSXWAAT49P33_z9__4HZl559JM2Aqm3XwXyXGcfA_H___pFmgFj9DjCfp3IrTIgkA5ADbbAbQA6mKDPp9x7YBTOAIgwAVba5DGceMlQAAAAASUVORK5CYII.png",
+      "snippet": "Use a shared drive accessible to all team members(PM, Stakeholders, VMS, MSP) to track & hold EVERYTHING · Create a project plan that includes ...",
+      "snippet_highlighted_words": [
+        "Use a shared drive accessible to all team members"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Use a shared drive accessible to all team members(PM, Stakeholders, VMS, MSP) to track & hold EVERYTHING · Create a project plan that includes ...",
+          "source_info_link": "https://www.linkedin.com/pulse/vms-implementation-3-fundamentals-project-cris-robinson",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAm0lEQVR4AWP4__8_RRhMyLfs3sNQvOk_KRikB24ATNB2yhEQJtoQuAEwzVAAYtPVAMJe4Cjf8l-0bsd_RkIGQAGc_ej9t_-TDt_7_-vPXzD_6Yfv_-2nHSXWAAT49P33_z9__4HZl559JM2Aqm3XwXyXGcfA_H___pFmgFj9DjCfp3IrTIgkA5ADbbAbQA6mKDPp9x7YBTOAIgwAVba5DGceMlQAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.linkedin.com/pulse/vms-implementation-3-fundamentals-project-cris-robinson&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fvms-implementation-3-fundamentals-project-cris-robinson",
+      "source": "LinkedIn · Cris Robinson"
+    },
+    {
+      "position": 2,
+      "title": "How VMS Consultants Ensure Effective Industrial Project ...",
+      "link": "https://www.vmsconsultants.com/how-vms-consultants-ensure-effective-industrial-project-lifecycle-management/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESpAEB6zswFXzXznC3zEzeg181ojp_zxuJNa1tm92yNWfcGO_LuU2QQv0oufVlo3CrZHgWC-oDjKD-DKfhe_Kc6jghbmQJohHcSs2vT_QTmQ0eMXstdlMUhRKI3VEyoITxU84c31wpW2Kl2uUVyCiy8z772GNLpo8zqPRd9n5b9ieeS8MPHJdosoNQPnEU_UaSEaLZqzcFUhpC31hxCEQVH1f6ZaP_iw&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQFnoECCUQAQ&uoh=1",
+      "displayed_link": "https://www.vmsconsultants.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAaVBMVEX___99e3wHAAAaFRcXEhMAAAD6-vrZ2NnLy8siHR8dGRoUDxAjHyAOBQd2dHXCwcJta2xycXG6urr09PRhX2Dh4OCzsrJbWltUU1Ofnp5QTk_u7u6IhoeOi4xjYmKop6dFQkMwLi6Uk5NjKjaSAAAAtklEQVR4AcXJBRICMRBE0Yk07CQd3B3uf0dg3Q6wv-qXPZkoY51zHjMpmsP9g6kwg6oG26D-QyZVUUlNDZLUKHULP8S4aHCJISKTpjFK28r30a87uEEfsezgto9qZ9Jp55ikbA_6lXQ7gOG4O53Pp-MlEJseXkEGZ2936wI1baXXyZGMt3sk6R_S72lbxGGAezSo9iqDXqFGd5Rh51SjPYxwjxpxlVHvQL9YeLqLjPsgJeQ_Zcp-1UsMFl-MxnQAAAAASUVORK5CYII.png",
+      "snippet": "Through careful analysis of site conditions, local regulations, and environmental factors, VMS creates blueprints that optimize space, enhance functionality, ...",
+      "snippet_highlighted_words": [
+        "VMS creates blueprints that optimize space"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Through careful analysis of site conditions, local regulations, and environmental factors, VMS creates blueprints that optimize space, enhance functionality, ...",
+          "source_info_link": "https://www.vmsconsultants.com/how-vms-consultants-ensure-effective-industrial-project-lifecycle-management/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAaVBMVEX___99e3wHAAAaFRcXEhMAAAD6-vrZ2NnLy8siHR8dGRoUDxAjHyAOBQd2dHXCwcJta2xycXG6urr09PRhX2Dh4OCzsrJbWltUU1Ofnp5QTk_u7u6IhoeOi4xjYmKop6dFQkMwLi6Uk5NjKjaSAAAAtklEQVR4AcXJBRICMRBE0Yk07CQd3B3uf0dg3Q6wv-qXPZkoY51zHjMpmsP9g6kwg6oG26D-QyZVUUlNDZLUKHULP8S4aHCJISKTpjFK28r30a87uEEfsezgto9qZ9Jp55ikbA_6lXQ7gOG4O53Pp-MlEJseXkEGZ2936wI1baXXyZGMt3sk6R_S72lbxGGAezSo9iqDXqFGd5Rh51SjPYxwjxpxlVHvQL9YeLqLjPsgJeQ_Zcp-1UsMFl-MxnQAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.vmsconsultants.com/how-vms-consultants-ensure-effective-industrial-project-lifecycle-management/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.vmsconsultants.com%2Fhow-vms-consultants-ensure-effective-industrial-project-lifecycle-management%2F",
+      "source": "VMS Consultants"
+    },
+    {
+      "position": 3,
+      "title": "How to Plan and Scope a Vendor Management System ...",
+      "link": "https://hicronsoftware.com/blog/how-to-plan-vendor-management-system-project/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAEShQEB6zswFTITeT28WZiXNwi_1eNLgq_YynB3t3fxTNTWiRHi_KJCoGXqq-5BiZJhadi6pGttM4fISbgy2agjnUwFzpEN1rC9BL1cEz6inh5cStEr5gd2zS9cloB_6bFqI04Bdt-ZV3Za9033hUVrlHVd1Sl92c8kdhaL5REA4wquHsuk1t0Q&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQFnoECDIQAQ&uoh=1",
+      "displayed_link": "https://hicronsoftware.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAclBMVEVHcEz_agD_XgD_YgD_WwD_XAD_XAD_YwD_awD_cgD_dwD_cAD_gQD_bgD_XAD_XAD_WwD_fAD_gwD_gQD_WwD_XAD_bgD_dgD_hQD_hgD_WwD_YgD_fAD_XAD_fgD_YQD_WwD_WwD_WwD_aQD_WwD_bQC730ANAAAAJnRSTlMADSk2T6jw____9KlOBHP6___6b-PKk8v_6GIK1iAfP5TUs92Hf2Sd1WwAAADgSURBVHgBrZJFAoQwEASDhqAT3J3_f3EHd05bOBXvkL8giJIkCk9GVlSqaYwx3TDPxrIdADpLzrnrWbuTfEBoYIShEXEex3Gy1U5H5afZ_JWZeYx4Bycf-iAmSneyIiq1ICfKJOZcwpcApXh2aHFYOQ4GnU1ueJyzitQADnlAZ8wgDUD7JA3GOqIC9E9y0DTtU743S2n3OiBKqfI2FRtl9bIIBabU4FN8kMUYkzQvfHANHpB0iSWtbCXYIpOb2S1UKowESl0rAYz41XFws15wbOu2wWajKjJ5IBu3Zkb-wQ_74REXru4nmAAAAABJRU5ErkJggg.png",
+      "date": "16 जन॰ 2026",
+      "snippet": "Vendor management system project planning is the strategic process of defining requirements, aligning stakeholders, and creating a detailed ...",
+      "snippet_highlighted_words": [
+        "Vendor management system project planning"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Vendor management system project planning is the strategic process of defining requirements, aligning stakeholders, and creating a detailed ...",
+          "source_info_link": "https://hicronsoftware.com/blog/how-to-plan-vendor-management-system-project/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAclBMVEVHcEz_agD_XgD_YgD_WwD_XAD_XAD_YwD_awD_cgD_dwD_cAD_gQD_bgD_XAD_XAD_WwD_fAD_gwD_gQD_WwD_XAD_bgD_dgD_hQD_hgD_WwD_YgD_fAD_XAD_fgD_YQD_WwD_WwD_WwD_aQD_WwD_bQC730ANAAAAJnRSTlMADSk2T6jw____9KlOBHP6___6b-PKk8v_6GIK1iAfP5TUs92Hf2Sd1WwAAADgSURBVHgBrZJFAoQwEASDhqAT3J3_f3EHd05bOBXvkL8giJIkCk9GVlSqaYwx3TDPxrIdADpLzrnrWbuTfEBoYIShEXEex3Gy1U5H5afZ_JWZeYx4Bycf-iAmSneyIiq1ICfKJOZcwpcApXh2aHFYOQ4GnU1ueJyzitQADnlAZ8wgDUD7JA3GOqIC9E9y0DTtU743S2n3OiBKqfI2FRtl9bIIBabU4FN8kMUYkzQvfHANHpB0iSWtbCXYIpOb2S1UKowESl0rAYz41XFws15wbOu2wWajKjJ5IBu3Zkb-wQ_74REXru4nmAAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://hicronsoftware.com/blog/how-to-plan-vendor-management-system-project/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fhicronsoftware.com%2Fblog%2Fhow-to-plan-vendor-management-system-project%2F",
+      "source": "Hicron Software"
+    },
+    {
+      "position": 4,
+      "title": "VMS Implementation: Planning for Project Success",
+      "link": "https://monumentconsulting.com/vms-implementation/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESagHrOzAVBjK0e-7-vgZhYdScJiMVuhjLeDGDFR75yaayg8WJO9G0UX4iliMwpucUUH8bhFggbLb8oogmzHkcCEtqRzwL_v6tyrluONrmUbK2QMdblstLe6MVXM2XKdSqTyqIpfDVlOtxEUQ&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQFnoECDcQAQ&uoh=1",
+      "displayed_link": "https://monumentconsulting.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMA_wD_AP83WBt9AAAAtUlEQVR4AWP4DwOxT7-b3v2y_MOv_6jg3xO_f_fN_n07CuEiNGjf_cJw6WP325__0cBtsf9XGP5_3oKuQReo4fLHnvd_gOw_y9N-TXL8e_MgWIMEWMNWXBr-Atm_Z_r8bFD8e3kbMRr-gDTMCvjVrPb3ynYSNPwcGA2jGpRuf2G4-KHtHYaGmzz_LzH8_7QRXUPFy--Rj75t_foXSQPY1BdZ_x9H_v9-HqEBE_yeDdZweSOmFAAOO4g8W2wBGAAAAABJRU5ErkJggg.png",
+      "snippet": "Is your company planning for a VMS implementation? We explore our top three tips to help streamline the process and ensure a successful project.",
+      "snippet_highlighted_words": [
+        "company planning for a VMS implementation"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Is your company planning for a VMS implementation? We explore our top three tips to help streamline the process and ensure a successful project.",
+          "source_info_link": "https://monumentconsulting.com/vms-implementation/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMA_wD_AP83WBt9AAAAtUlEQVR4AWP4DwOxT7-b3v2y_MOv_6jg3xO_f_fN_n07CuEiNGjf_cJw6WP325__0cBtsf9XGP5_3oKuQReo4fLHnvd_gOw_y9N-TXL8e_MgWIMEWMNWXBr-Atm_Z_r8bFD8e3kbMRr-gDTMCvjVrPb3ynYSNPwcGA2jGpRuf2G4-KHtHYaGmzz_LzH8_7QRXUPFy--Rj75t_foXSQPY1BdZ_x9H_v9-HqEBE_yeDdZweSOmFAAOO4g8W2wBGAAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://monumentconsulting.com/vms-implementation/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fmonumentconsulting.com%2Fvms-implementation%2F",
+      "source": "Monument Consulting"
+    },
+    {
+      "position": 5,
+      "title": "About Us - vmplanner",
+      "link": "https://vmsplanners.com/our-profile/",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESXAHrOzAVllr8f5vKBMeIkywE368oeAW8RbYCildRPeG0c0DPNJ96Hs2VCYcEX3YouOePac7abirMekNI5DbLhu9OhyhlxM4gp2Tqnzb6BeJPr-nztbH2ETNARGC5&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQFnoECDMQAQ&uoh=1",
+      "displayed_link": "https://vmsplanners.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABsAAAAgCAYAAADjaQM7AAAA-ElEQVR4AWP43yX1_2-lzv8_GXafftnEyP-fKLD8f5_ofxAGyf1rk4PgJiUIrlUHYZAeCC4xBOM_6Zb_vz66-3_F6nX_GRg4_8vLq6FgOTnVbYQsA2HqWzbqs1HLMDED1S3Did8-uEddy_6e2EEfy_7mmYMshOBEZwz8O8CCqpbBLMRuaZwnVS2D4YG1bNQyEKaWZUM7NaJbSqNgRFhC9ziDYZpbNuozqmfqEZ8aERaBMH6LEJaBzUHGKJa5F_jQDTOAfIKM_zUqw2is-G-hyQoYjQ3_SXHCjuO8yhnAQYYZR-jxRGxcEUgglFuGK9mTbBmppT1enwEAfkhekIJDYVoAAAAASUVORK5CYII.png",
+      "snippet": "VMS has rich experience and can add value to our clients in all the facets of the project lifecycle, starting from project initiation to project closure. We ...",
+      "snippet_highlighted_words": [
+        "VMS has rich experience and can add value to our clients"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "VMS has rich experience and can add value to our clients in all the facets of the project lifecycle, starting from project initiation to project closure. We ...",
+          "source_info_link": "https://vmsplanners.com/our-profile/",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABsAAAAgCAYAAADjaQM7AAAA-ElEQVR4AWP43yX1_2-lzv8_GXafftnEyP-fKLD8f5_ofxAGyf1rk4PgJiUIrlUHYZAeCC4xBOM_6Zb_vz66-3_F6nX_GRg4_8vLq6FgOTnVbYQsA2HqWzbqs1HLMDED1S3Did8-uEddy_6e2EEfy_7mmYMshOBEZwz8O8CCqpbBLMRuaZwnVS2D4YG1bNQyEKaWZUM7NaJbSqNgRFhC9ziDYZpbNuozqmfqEZ8aERaBMH6LEJaBzUHGKJa5F_jQDTOAfIKM_zUqw2is-G-hyQoYjQ3_SXHCjuO8yhnAQYYZR-jxRGxcEUgglFuGK9mTbBmppT1enwEAfkhekIJDYVoAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://vmsplanners.com/our-profile/&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fvmsplanners.com%2Four-profile%2F",
+      "source": "vmsplanners.com"
+    },
+    {
+      "position": 6,
+      "title": "What is a vendor management system (VMS)?",
+      "link": "https://www.techtarget.com/enterprise-software/definition/vendor-management-system-VMS",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESjgEB6zswFThlyFGXOcsYZfEmUnfx_N3z8WIrkhRjhJ0BTjcQ1PHltEfOUooDfAjA94fit7ZGMoGDTetJyzKJyUQcZ8NHOjqWBLdUgx09GONCT-syVSI2jJNBSI1Zb4t5QfWwpJj8mT7Xh2kX8FzU6_aEAGccV5l4J0NZGBYp17n3h34XdMBnDQ8CUOpGixzV&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQFnoECDYQAQ&uoh=1",
+      "displayed_link": "https://www.techtarget.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAJ1BMVEUeuaweuawCtqgZuaseuaz____d9PLx-_qM19A3wbTG6udcx74KwLbN4H_AAAAADXRSTlPtQP_____________tMXJpRwAAAKZJREFUKJHVk0sSxCAIRAmiot7_vgP4o6zE_XQ24iuDti08QB-CBz6Z0AsTiqqwJ3wFSUWrxuoqiCoHk6s6xKFgsI8VFlFIOSf5cgsKrRMLhSDCHLs6NFWF1mjAXDZkB3NxGyJtRQ6S_H5A7WQbdnCt3Cb8JxyHM-PPc0ZurZV-K1wOh6af01vGBXlDPqFMVVULNpzXOSDhzhmuINBrNFeGrqG-PYcfocoNHPLAO1YAAAAASUVORK5CYII.png",
+      "date": "10 जन॰ 2024",
+      "snippet": "A VMS platform enables businesses to efficiently manage and optimize their contingent labor ecosystem. It generally includes features companies ...",
+      "snippet_highlighted_words": [
+        "efficiently manage and optimize their contingent labor ecosystem"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "A VMS platform enables businesses to efficiently manage and optimize their contingent labor ecosystem. It generally includes features companies ...",
+          "source_info_link": "https://www.techtarget.com/enterprise-software/definition/vendor-management-system-VMS",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAJ1BMVEUeuaweuawCtqgZuaseuaz____d9PLx-_qM19A3wbTG6udcx74KwLbN4H_AAAAADXRSTlPtQP_____________tMXJpRwAAAKZJREFUKJHVk0sSxCAIRAmiot7_vgP4o6zE_XQ24iuDti08QB-CBz6Z0AsTiqqwJ3wFSUWrxuoqiCoHk6s6xKFgsI8VFlFIOSf5cgsKrRMLhSDCHLs6NFWF1mjAXDZkB3NxGyJtRQ6S_H5A7WQbdnCt3Cb8JxyHM-PPc0ZurZV-K1wOh6af01vGBXlDPqFMVVULNpzXOSDhzhmuINBrNFeGrqG-PYcfocoNHPLAO1YAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.techtarget.com/enterprise-software/definition/vendor-management-system-VMS&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.techtarget.com%2Fenterprise-software%2Fdefinition%2Fvendor-management-system-VMS",
+      "source": "TechTarget"
+    },
+    {
+      "position": 7,
+      "title": "The project schedule of VMS installation process is...",
+      "link": "https://www.researchgate.net/figure/The-project-schedule-of-VMS-installation-process-is-4-3-7-8-6-36-5-27-and-the_fig9_326239582",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESuQEB6zswFUomim2r6jmPHsu8_qnptywCmoY56yID-1R66TKnQ_w9pmn0sxBBHJPbmxTccTz9CYgkZ-tvSFLg8jnHV8AH8fpAWJGOJG0lhsI79DOSfDJyYo3e6WtdlrW4EfcrqcmZ-P5QQPzIpjGpbJBXh4bJEYcFQDgacRT-BZqu5VPd6PeqtYhWuW5_YqWew-73EmWQzKgK8txhse7WYMPakr-TSaUTuc85zgkvuimEh_RijQbnXsvE7g&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQFnoECDQQAQ&uoh=1",
+      "displayed_link": "https://www.researchgate.net › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAQlBMVEX________S09OlpqbJysp2eHgAAABcX19GS0vq6upVWFgzOTmvsLDf399na2sjKyu7vLx-gID19fWSlJQJFhaEhoZ-sx6vAAAAAXRSTlOZyTXzhgAAAK9JREFUeAGV0QWChDAQRFF-pKBx2_sfdcc9WCORF0-WsRhrBofR-bCIUbmKBXQyKC2NvuISC1hgdR2e2ATnwjnsjk3bxSf2uVRVlVQY1B0QhydCIQNqaaSRw9S_YVRzSybwmjXwi71aYHRGAut7F1JYyiXRgEEDSZy7SrMnjbXLVbOADSaNi8ikfBnp5JexUXIr9w16yb4xDFLnLzxJf_aJ7nKf_QWx2n_gcqxjtmInZ7MH_Q-FmGgAAAAASUVORK5CYII.png",
+      "snippet": "A multi-objective optimization model is proposed to allocate the location of VMSs by maximizing the average traffic guidance utility of VMSs and the number ...",
+      "about_this_result": {
+        "source": {
+          "description": "A multi-objective optimization model is proposed to allocate the location of VMSs by maximizing the average traffic guidance utility of VMSs and the number ...",
+          "source_info_link": "https://www.researchgate.net/figure/The-project-schedule-of-VMS-installation-process-is-4-3-7-8-6-36-5-27-and-the_fig9_326239582",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAQlBMVEX________S09OlpqbJysp2eHgAAABcX19GS0vq6upVWFgzOTmvsLDf399na2sjKyu7vLx-gID19fWSlJQJFhaEhoZ-sx6vAAAAAXRSTlOZyTXzhgAAAK9JREFUeAGV0QWChDAQRFF-pKBx2_sfdcc9WCORF0-WsRhrBofR-bCIUbmKBXQyKC2NvuISC1hgdR2e2ATnwjnsjk3bxSf2uVRVlVQY1B0QhydCIQNqaaSRw9S_YVRzSybwmjXwi71aYHRGAut7F1JYyiXRgEEDSZy7SrMnjbXLVbOADSaNi8ikfBnp5JexUXIr9w16yb4xDFLnLzxJf_aJ7nKf_QWx2n_gcqxjtmInZ7MH_Q-FmGgAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.researchgate.net/figure/The-project-schedule-of-VMS-installation-process-is-4-3-7-8-6-36-5-27-and-the_fig9_326239582&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FThe-project-schedule-of-VMS-installation-process-is-4-3-7-8-6-36-5-27-and-the_fig9_326239582",
+      "source": "ResearchGate"
+    },
+    {
+      "position": 8,
+      "title": "VMS PROJECTS CONSULTANTS PVT LTD",
+      "link": "https://www.zaubacorp.com/company/VMS-PROJECTS-CONSULTANTS-PVT-LTD/U74140GJ1981PTC004935",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESkAEB6zswFUSliWVqzikKlNXKoDsEf6PGF7xg6tYXrIotPjeEAQwYakrrxy7fFoJsJRSAGvWUuJt0uedK3LSCZlXY3JQKlu8yB6VMpqqreDSlr140SKSSWAYa_C1nL761jGLoYHu0exOzMCVvMLgEhlRzJgu15M2alOTXQwLtg85_aFfkBqD2tqxn5eeAKpoyxts&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQFnoECDEQAQ&uoh=1",
+      "displayed_link": "https://www.zaubacorp.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAn1BMVEX____I6fq54vn3_f_49_fExMXb29tRv_IAo-2k3fyuqqg4ODuNjY7j4-OE0fY8ufHm-P90dHWmpqfU7fs0NDeCgYIApO1gwfI_P0Hi3dpYWFqYlJJ5y_Wbm5zAurdwzPgAr-_w-_7j6-4Aqu5qZ2fW1NQAnO02ufP07utMTE66u7vP3eOHl58AqfOvz-Gx3_k1NTiQl5qU2PrNyMVFOzceKoegAAABAklEQVR4AbXRVbbCMABF0QupexvqjhOkOv-pPZfQlV_O744Hr2-1JpKsQJyq6YZpicRW4Lie7QegdGnyJqRRDIRJqmrr5cQs17UCKM2qbjwssjKJtMBWIk39LHTX7jcHAN6RrLTT-aJwqEZxaisMaLUWlIZJyCEp6hqHjXy-aoTAskrweVHktamZ3e40eiTJmbey6jx6pGly290d2HJXcPfoE0OGHqnDbecA3Rhp3G3kMjMZ9PtwuxPoUVN04Jt8oP3EFnAXL9TVXV18Y25NuQw-Ryui3ReSJCn7AHy0W3Xd90zGFCb41G-EuDYebjGBuMN8ucyK2JgVfmQxMZZfMby6d-N2Gfyb0lfzAAAAAElFTkSuQmCC.png",
+      "snippet": "VMS PROJECTS CONSULTANTS is a 45 year old company ... Activities in connection with project management, planning, organisation, management information etc.",
+      "snippet_highlighted_words": [
+        "VMS",
+        "project management"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "VMS PROJECTS CONSULTANTS is a 45 year old company ... Activities in connection with project management, planning, organisation, management information etc.",
+          "source_info_link": "https://www.zaubacorp.com/company/VMS-PROJECTS-CONSULTANTS-PVT-LTD/U74140GJ1981PTC004935",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAn1BMVEX____I6fq54vn3_f_49_fExMXb29tRv_IAo-2k3fyuqqg4ODuNjY7j4-OE0fY8ufHm-P90dHWmpqfU7fs0NDeCgYIApO1gwfI_P0Hi3dpYWFqYlJJ5y_Wbm5zAurdwzPgAr-_w-_7j6-4Aqu5qZ2fW1NQAnO02ufP07utMTE66u7vP3eOHl58AqfOvz-Gx3_k1NTiQl5qU2PrNyMVFOzceKoegAAABAklEQVR4AbXRVbbCMABF0QupexvqjhOkOv-pPZfQlV_O744Hr2-1JpKsQJyq6YZpicRW4Lie7QegdGnyJqRRDIRJqmrr5cQs17UCKM2qbjwssjKJtMBWIk39LHTX7jcHAN6RrLTT-aJwqEZxaisMaLUWlIZJyCEp6hqHjXy-aoTAskrweVHktamZ3e40eiTJmbey6jx6pGly290d2HJXcPfoE0OGHqnDbecA3Rhp3G3kMjMZ9PtwuxPoUVN04Jt8oP3EFnAXL9TVXV18Y25NuQw-Ryui3ReSJCn7AHy0W3Xd90zGFCb41G-EuDYebjGBuMN8ucyK2JgVfmQxMZZfMby6d-N2Gfyb0lfzAAAAAElFTkSuQmCC.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.zaubacorp.com/company/VMS-PROJECTS-CONSULTANTS-PVT-LTD/U74140GJ1981PTC004935&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.zaubacorp.com%2Fcompany%2FVMS-PROJECTS-CONSULTANTS-PVT-LTD%2FU74140GJ1981PTC004935",
+      "source": "ZaubaCorp"
+    },
+    {
+      "position": 9,
+      "title": "4 Steps for Building a Successful Business Case for VMS ...",
+      "link": "https://www.hcmworks.com/blog/4-steps-for-building-a-successful-business-case-for-vms-implementation",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESnAEB6zswFTtY6ywDNH-pkP5uBv0VveItu2EyPjylzop0kv0jpOSzlgXbkKBX6YbmUY7tQR73M4mKLFeVhRXen3gPDA0Id1T2Tc4d0hFKKh_BXMxVQUqiP-mCJdlb-KJjs5IKt6IQb_S-aJtTReDVb6B50Xeg5Dm6bYEFb2gMDh6fz05R09N1AuSq4Fw9u7Pw85M-g-wo9EOLjo8-NI8&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQFnoECDgQAQ&uoh=1",
+      "displayed_link": "https://www.hcmworks.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAPFBMVEVkrEthq0ddqUKdyY-11quIvnZZpzzZ6dT___-u0aPW59DV59Cpz55TpTRbqD_e7dnF373z-PHq8-e92rM55utNAAAAZElEQVR4Ad3PAQfAIBCG4e6qWq3WWv__v-4uuBBhw-wBHy_41BoggXEPTRtioW_LW0t1fiMBeaPh7Z3EOMTAe_98TPkgOU1jObsyieLlWK-uLq78KkaJ2ArR0Lfm3VAJYON86AblYgxmFaIi8wAAAABJRU5ErkJggg.png",
+      "date": "31 अग॰ 2018",
+      "snippet": "1 - Assess your current workforce management processes · 2 - Socialize and create support · 3 - Define specific goals and objectives · 4 - Partner ...",
+      "snippet_highlighted_words": [
+        "1 - Assess your current workforce management processes"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "1 - Assess your current workforce management processes · 2 - Socialize and create support · 3 - Define specific goals and objectives · 4 - Partner ...",
+          "source_info_link": "https://www.hcmworks.com/blog/4-steps-for-building-a-successful-business-case-for-vms-implementation",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAPFBMVEVkrEthq0ddqUKdyY-11quIvnZZpzzZ6dT___-u0aPW59DV59Cpz55TpTRbqD_e7dnF373z-PHq8-e92rM55utNAAAAZElEQVR4Ad3PAQfAIBCG4e6qWq3WWv__v-4uuBBhw-wBHy_41BoggXEPTRtioW_LW0t1fiMBeaPh7Z3EOMTAe_98TPkgOU1jObsyieLlWK-uLq78KkaJ2ArR0Lfm3VAJYON86AblYgxmFaIi8wAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.hcmworks.com/blog/4-steps-for-building-a-successful-business-case-for-vms-implementation&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.hcmworks.com%2Fblog%2F4-steps-for-building-a-successful-business-case-for-vms-implementation",
+      "source": "HCMWorks"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "Vms projects",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=Vms+projects&sa=X&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ1QJ6BAgtEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Vms+projects"
+    },
+    {
+      "block_position": 1,
+      "query": "Vms peb",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=Vms+peb&sa=X&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ1QJ6BAhAEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Vms+peb"
+    },
+    {
+      "block_position": 1,
+      "query": "VMS careers",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=VMS+careers&sa=X&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ1QJ6BAg-EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+careers"
+    },
+    {
+      "block_position": 1,
+      "query": "VMS electrical",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=VMS+electrical&sa=X&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ1QJ6BAg8EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+electrical"
+    },
+    {
+      "block_position": 1,
+      "query": "VMS India",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=VMS+India&sa=X&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ1QJ6BAg6EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+India"
+    },
+    {
+      "block_position": 1,
+      "query": "VMS team",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=VMS+team&sa=X&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ1QJ6BAg1EAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+team"
+    },
+    {
+      "block_position": 1,
+      "query": "VMS linkedin",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=VMS+linkedin&sa=X&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ1QJ6BAgwEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+linkedin"
+    },
+    {
+      "block_position": 1,
+      "query": "Plumbing consultants in ahmedabad",
+      "link": "https://www.google.co.in/search?sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&q=Plumbing+consultants+in+ahmedabad&sa=X&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ1QJ6BAguEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Plumbing+consultants+in+ahmedabad"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=VMS+Project+Planning&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=wkmdar6pD_uVwbkPmfHNkAI&start=10&sa=N&sstk=AS6-VmI1VcUPABCAunptTKXWyh_KEeRXe4IMGXFnhitWInxapP-l1mvJaVQYtP2baVUWvQSlP0HH2BH2ENgPE3a0Y5K7z8XuO-a7Qg&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ8NMDegQIKxAW",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=VMS+Project+Planning&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=wkmdar6pD_uVwbkPmfHNkAI&start=10&sa=N&sstk=AS6-VmI1VcUPABCAunptTKXWyh_KEeRXe4IMGXFnhitWInxapP-l1mvJaVQYtP2baVUWvQSlP0HH2BH2ENgPE3a0Y5K7z8XuO-a7Qg&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ8tMDegQIKxAE",
+      "3": "https://www.google.co.in/search?q=VMS+Project+Planning&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=wkmdar6pD_uVwbkPmfHNkAI&start=20&sa=N&sstk=AS6-VmI1VcUPABCAunptTKXWyh_KEeRXe4IMGXFnhitWInxapP-l1mvJaVQYtP2baVUWvQSlP0HH2BH2ENgPE3a0Y5K7z8XuO-a7Qg&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ8tMDegQIKxAG",
+      "4": "https://www.google.co.in/search?q=VMS+Project+Planning&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=wkmdar6pD_uVwbkPmfHNkAI&start=30&sa=N&sstk=AS6-VmI1VcUPABCAunptTKXWyh_KEeRXe4IMGXFnhitWInxapP-l1mvJaVQYtP2baVUWvQSlP0HH2BH2ENgPE3a0Y5K7z8XuO-a7Qg&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ8tMDegQIKxAI",
+      "5": "https://www.google.co.in/search?q=VMS+Project+Planning&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=wkmdar6pD_uVwbkPmfHNkAI&start=40&sa=N&sstk=AS6-VmI1VcUPABCAunptTKXWyh_KEeRXe4IMGXFnhitWInxapP-l1mvJaVQYtP2baVUWvQSlP0HH2BH2ENgPE3a0Y5K7z8XuO-a7Qg&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ8tMDegQIKxAK",
+      "6": "https://www.google.co.in/search?q=VMS+Project+Planning&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=wkmdar6pD_uVwbkPmfHNkAI&start=50&sa=N&sstk=AS6-VmI1VcUPABCAunptTKXWyh_KEeRXe4IMGXFnhitWInxapP-l1mvJaVQYtP2baVUWvQSlP0HH2BH2ENgPE3a0Y5K7z8XuO-a7Qg&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ8tMDegQIKxAM",
+      "7": "https://www.google.co.in/search?q=VMS+Project+Planning&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=wkmdar6pD_uVwbkPmfHNkAI&start=60&sa=N&sstk=AS6-VmI1VcUPABCAunptTKXWyh_KEeRXe4IMGXFnhitWInxapP-l1mvJaVQYtP2baVUWvQSlP0HH2BH2ENgPE3a0Y5K7z8XuO-a7Qg&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ8tMDegQIKxAO",
+      "8": "https://www.google.co.in/search?q=VMS+Project+Planning&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=wkmdar6pD_uVwbkPmfHNkAI&start=70&sa=N&sstk=AS6-VmI1VcUPABCAunptTKXWyh_KEeRXe4IMGXFnhitWInxapP-l1mvJaVQYtP2baVUWvQSlP0HH2BH2ENgPE3a0Y5K7z8XuO-a7Qg&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ8tMDegQIKxAQ",
+      "9": "https://www.google.co.in/search?q=VMS+Project+Planning&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=wkmdar6pD_uVwbkPmfHNkAI&start=80&sa=N&sstk=AS6-VmI1VcUPABCAunptTKXWyh_KEeRXe4IMGXFnhitWInxapP-l1mvJaVQYtP2baVUWvQSlP0HH2BH2ENgPE3a0Y5K7z8XuO-a7Qg&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ8tMDegQIKxAS",
+      "10": "https://www.google.co.in/search?q=VMS+Project+Planning&sca_esv=724bf23b4d8e06a3&hl=hi&gl=in&ei=wkmdar6pD_uVwbkPmfHNkAI&start=90&sa=N&sstk=AS6-VmI1VcUPABCAunptTKXWyh_KEeRXe4IMGXFnhitWInxapP-l1mvJaVQYtP2baVUWvQSlP0HH2BH2ENgPE3a0Y5K7z8XuO-a7Qg&ved=2ahUKEwi-kuG16NmWAxX7SjABHZl4EyIQ8tMDegQIKxAU"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+Project+Planning&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+Project+Planning&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+Project+Planning&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+Project+Planning&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+Project+Planning&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+Project+Planning&start=40",
+      "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+Project+Planning&start=50",
+      "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+Project+Planning&start=60",
+      "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+Project+Planning&start=70",
+      "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+Project+Planning&start=80",
+      "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=VMS+Project+Planning&start=90"
+    }
+  }
+}

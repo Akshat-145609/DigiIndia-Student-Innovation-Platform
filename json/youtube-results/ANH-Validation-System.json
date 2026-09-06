@@ -1,0 +1,632 @@
+{
+  "search_metadata": {
+    "id": "6a9d4f80d6eb7256d71547b3",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/Pn28_wYLtokc1XPuSikXxMsSn9d2MAv6haEOrlUG6IY/6a9d4f80d6eb7256d71547b3.json",
+    "markdown_endpoint": "https://serpapi.com/searches/Pn28_wYLtokc1XPuSikXxMsSn9d2MAv6haEOrlUG6IY/6a9d4f80d6eb7256d71547b3.md",
+    "created_at": "2026-09-06 11:33:20 UTC",
+    "processed_at": "2026-09-06 11:33:20 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=ANH+Validation+System",
+    "raw_html_file": "https://serpapi.com/searches/Pn28_wYLtokc1XPuSikXxMsSn9d2MAv6haEOrlUG6IY/6a9d4f80d6eb7256d71547b3.html",
+    "total_time_taken": 1.34
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "ANH Validation System"
+  },
+  "search_information": {
+    "total_results": 360424,
+    "video_results_state": "Results for exact spelling"
+  },
+  "ads_results": [
+    {
+      "position_on_page": 1,
+      "title": "Learn more about Shopify's extended, 3 months for $1 trial",
+      "link": "https://www.youtube.com/watch?v=8swiP25MNqU",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=C46QUgU-datOWB5_Cj-8Ph-ffuAnwhOCoiAHX95PwgRawkB8QASAAYMmGuI30pNAZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLy-5sqqQJqSn6p-K22PqgDBMgDCqoEogJP0G0E1oTExxKuy2-0UawkLg24qFweUNraDCHxinkvYZuem-_K8dJyBxcQ9ieHk_IOf3nt7ADXSb9_skTd8HMN6criQftCY0EnNKI3Z28Vkuv8pJJbsEQ9uX5uv3VbbvofwgmVvyT4J1pAPFtNAzdttt3TqlYUJJIwLv7fq3R6rrap1aDvn6B8YAx13aKVXnKJ9PRafGMLO8jnRv3eoLH40ckvbKpHLOIbfz7nobAq0yDDs1mfsop-q9p-pCQwLjDC6UD3f1SbOvyxM4ARGsmrROr9m742MvWgqJDbkPjEbpjVqjSH1JqOM-sAGYExHyrj9bczz-eGl658VRwkbN5b-ujQG8X4_HRuUplWamRvrZ7qqMw0d-r7ZwkUNFVwsvbU2IgFyIfVvFmSBQgIE3iz5--sBaAGoQGAB_KqzPsEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKSCAs4c3dpUDI1TU5xVagIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWJC_j_Pt2ZYDYAGaCU1odHRwczovL3d3dy5zdHlsZWZhY3Rvcnlwcm9kdWN0aW9ucy5jb20vaG93LXRvLXVubG9jay1hLTMtbW9udGgtc2hvcGlmeS10cmlhbLEJR1k_C2yTfDzICRfICY8ByAnCAZgLAboLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAISugMFdmlhdGzQCxPSDAIQAZoNAROqDQJVU8gNAdINdWh0dHBzOi8vd3d3LnN0eWxlZmFjdG9yeXByb2R1Y3Rpb25zLmNvbS9ob3ctdG8tdW5sb2NrLWEtMy1tb250aC1zaG9waWZ5LXRyaWFsP2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDAxNzk3ODMxMrgT____________AbAUA8AVgYCAQNAVAdgVAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXjY7UEXksFj26FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMIk9uP8-3ZlgMVH-HjBx2H8xeXEAEYASAAEgKuBvD_BwE&num=1&cid=CAASqgHkaEBACrxneg9kOlfTF_gYmRcfUpNWEbBwi0PT0zD0n0afZOmgW6r58-M6Nldm9l-2wDcwk6J3IUtJ-6Z5x8_nd1hI2Kz-60hu1SxbVOYBQJRqpvYnWyqhcYQG-EgelpIlZN6JwpfXCRoJB-PgCLzeBw6V40xnQSSjlLrb9rgaJQlrEdSb2aiq4S6JuEG08-H5KXuGWg0PdbiCIEeB4qjx6cnquy5gkRd0zA&ad_cpn=%5BCPN%5D&sig=AOD64_0HCzlzqzpdKg-lizNpWpj-RieWqQ&ctype=110&video_id=8swiP25MNqU&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Style Factory",
+        "thumbnail": "https://yt3.ggpht.com/proxy/lXILA8k5vCLoCqam4gFoS6UzbgO-H0JeHffp3_WwddZvVWNIeFZk7rXSvqdZ4TodxkslRpIOY8naQiAu2agA9g_MHehKzzDhp8v2jKPVWA1ZPOt-mb1Zf6EPOO3I9XGf_PFKlonXkTPSht4hLbIroCeRBdEp4IBh8KJaYvxzWpFHXX5jvAAWYT0GCpdKaeVSdsWDnlrwRBAlmnBiiNqDiJHMa3jfliJ5wXgG1367owc0fJx0ik1Z0zJQDwKyN9TLG0ux=w68-h68-nd"
+      },
+      "description": "Start your free Shopify trial and get a 3-month trial for $1/mo.",
+      "thumbnail": "https://i.ytimg.com/vi/8swiP25MNqU/hqdefault.jpg",
+      "videoId": "8swiP25MNqU",
+      "url": "https://www.youtube.com/watch?v=8swiP25MNqU"
+    },
+    {
+      "position_on_page": 4,
+      "title": "Legally Scrape Data APIs",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CJi6rgU-datOWB5_Cj-8Ph-ffuAnWkfOxiQG3jcnA_hWwkB8QAiAAYMmGuI30pNAZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLR8tgDqAMEyAMKqgSiAk_QbQTWhMTHEq7Lb7RRrCQuDbioXB5Q2toMIfGKeS9hm56b78rx0nIHFxD2J4eT8g5_ee3sANdJv3-yRN3wcw3pyuJB-0JjQSc0ojdnbxWS6_ykkluwRD25fm6_dVtu-h_CCZW_JPgnWkA8W00DN2223dOqVhQkkjAu_t-rdHqutqnVoO-foHxgDHXdopVecon09Fp8Yws7yOdG_d6gsfjRyS9sqkcs4ht_PuehsCrTIMOzWZ-yin6r2n6kJDAuMMLpQPd_VJs6_LEzgBEayatE6v2bvjYy9aCokNuQ-MRumJPWNIfUmo4u8wNahDEfR6DIPPsfrSNamAirHyRs3lubrqZ62fjvfBUom1ZSZ2-tnuqo3zwMkPlnCRQ0VRH0gLXEiAXY55H5WZIFBwgTeN6k0iegBm6AB_atjSeQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfn2rECqAfetbEC0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYkL-P8-3ZlgNgAZoJGWh0dHBzOi8vc3RldmVzaWUuY29tL2FwcHOxCYXncdeU-FKmyAkAyAmKApgLAboLPQgDEAUYBCAIKAEwHEABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMFdmlhdGzQCxLSDAIQAZoNARKqDQJVU8gNAdINQWh0dHBzOi8vc3RldmVzaWUuY29tL2FwcHM_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MTQ0ODAyNzc2uBP___________8BsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpFzK0hzB4StwnuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMIk9uP8-3ZlgMVH-HjBx2H8xeXEAEYAiAAEgI64_D_BwE&num=2&cid=CAASqgHkaEBACrxneg9kOlfTF_gYmRcfUpNWEbBwi0PT0zD0n0afZOmgW6r58-M6Nldm9l-2wDcwk6J3IUtJ-6Z5x8_nd1hI2Kz-60hu1SxbVOYBQJRqpvYnWyqhcYQG-EgelpIlZN6JwpfXCRoJB-PgCLzeBw6V40xnQSSjlLrb9rgaJQlrEdSb2aiq4S6JuEG08-H5KXuGWg0PdbiCIEeB4qjx6cnquy5gkRd0zA&sig=AOD64_33iUTxbBEDdsGGU2puRlCYhJRxug&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Stevesie Data",
+        "thumbnail": "https://lh5.googleusercontent.com/proxy/03UaEqY6aHdxVj9yDqop3zSrCWEDleZE_FdH5kxHYwkVvFTdTcrOPcCvSh2zYX6AY8raMcf2U-8k5BsrL0NxihNyskkE5ByaIxXN1TM8EbsgW4QMPuzyxDaDp4PERFDeLw"
+      },
+      "description": "Get it done with data. Impress clients & grow sales.",
+      "thumbnail": {
+        "static": "https://lh5.googleusercontent.com/proxy/03UaEqY6aHdxVj9yDqop3zSrCWEDleZE_FdH5kxHYwkVvFTdTcrOPcCvSh2zYX6AY8raMcf2U-8k5BsrL0NxihNyskkE5ByaIxXN1TM8EbsgW4QMPuzyxDaDp4PERFDeLw"
+      }
+    },
+    {
+      "position_on_page": 7,
+      "title": "Get Noticed, Get Calls. Download Now",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CuqFDgU-datOWB5_Cj-8Ph-ffuAnuv9CEhQHmwNvSyxOwkB8QAyAAYMmGuI30pNAZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAa-h_IsDqAMEyAMKqgShAk_QbQTWhMTHEq7Lb7RRrCQuDbioXB5Q2toMIfGKeS9hm56b78rx0nIHFxD2J4eT8g5_ee3sANdJv3-yRN3wcw3pyuJB-0JjQSc0ojdnbxWS6_ykkluwRD25fm6_dVtu-h_CCZW_JPgnWkA8W00DN2223dOqVhQkkjAu_t-rdHqutqnVoO-foHxgDHXdopVecon09Fp8Yws7yOdG_d6gsfjRyS9sqkcs4ht_PuehsCrTIMOzWZ-yin6r2n6kJDAuMMLpQPd_VJs6_LEzgBEayatE6v2bvjYy9aCokNuQ-MRumKvrNIfUmo5TvSZxmjEfZZi4b_sfy6uJmQirHyRs31vtze4O8vi0QT9xlFbpTE2tkv5yoG97IelFCRoimh686nyIBfelkphTkgUHCBN4_JyidKAGboAHud6DdJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB-fasQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiQv4_z7dmWA2ABmgk6aHR0cHM6Ly90eWxlcndpbGxpYW1zLm5ldC9tYXJrZXRpbmctY2hlY2tsaXN0LWZvci1wbHVtYmVyc7EJNQEZNWzbsKLICQDICYoCmAsBugs9CAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWF0bNALEtIMAhABmg0BEqoNAlVTyA0B0g2NAmh0dHBzOi8vdHlsZXJ3aWxsaWFtcy5uZXQvbWFya2V0aW5nLWNoZWNrbGlzdC1mb3ItcGx1bWJlcnM_dXRtX3NvdXJjZT1hZHdvcmRzJnV0bV9tZWRpdW09e2FkbmFtZX0mdXRtX2NhbXBhaWduPVJUJnV0bV9jb250ZW50PUNvbnN1bHQmdXRtX2tleXdvcmQ9JnV0bV9tYXRjaHR5cGU9JmNhbXBhaWduX2lkPTIyMzMwNzc0MjYzJmFkX2dyb3VwX2lkPTE3NzM3OTg3MTQxOCZhZF9pZD03Mzg3NjgyOTk3NTkmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIyMzMwNzc0MjYzuBP___________8BiBQEsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF5XCXgo78LPRuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMIk9uP8-3ZlgMVH-HjBx2H8xeXEAEYAyAAEgKhO_D_BwE&num=3&cid=CAASqgHkaEBACrxneg9kOlfTF_gYmRcfUpNWEbBwi0PT0zD0n0afZOmgW6r58-M6Nldm9l-2wDcwk6J3IUtJ-6Z5x8_nd1hI2Kz-60hu1SxbVOYBQJRqpvYnWyqhcYQG-EgelpIlZN6JwpfXCRoJB-PgCLzeBw6V40xnQSSjlLrb9rgaJQlrEdSb2aiq4S6JuEG08-H5KXuGWg0PdbiCIEeB4qjx6cnquy5gkRd0zA&sig=AOD64_1Lmgn3TzWX5WeYs2BGbqIoHE62vw&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Mammoth Marketing",
+        "thumbnail": "https://lh6.googleusercontent.com/proxy/-kJ3spKOcV7xIatatOan0y0h5bcPDmsfz6GUWMaR8KyqaBQDxHNVLmk4Gix-dbvVmDGfVDm1Y-0WQ-T8-OaLWNmmVSC8Ge3EtpravbWPCsbPBrrkrHDkcIlUbTHVLn95UA"
+      },
+      "description": "Want More Plumbing Leads? Get the Free Checklist to Stand Out & Win More Calls.",
+      "thumbnail": {
+        "static": "https://lh6.googleusercontent.com/proxy/-kJ3spKOcV7xIatatOan0y0h5bcPDmsfz6GUWMaR8KyqaBQDxHNVLmk4Gix-dbvVmDGfVDm1Y-0WQ-T8-OaLWNmmVSC8Ge3EtpravbWPCsbPBrrkrHDkcIlUbTHVLn95UA"
+      }
+    },
+    {
+      "position_on_page": 13,
+      "title": "What would happen if we lost on purpose?",
+      "link": "https://www.youtube.com/watch?v=L-zrzDsdB9w",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7g8pgU-datOWB5_Cj-8Ph-ffuAmflYS4iQH6j-neuRbb2R4QBCAAYMmGuI30pNAZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAb-pr7JBqAMEyAMKqgSnAk_QbQTWhMTHEq7Lb7RRrCQuDbioXB5Q2toMIfGKeS9hm56b78rx0nIHFxD2J4eT8g5_ee3sANdJv3-yRN3wcw3pyuJB-0JjQSc0ojdnbxWS6_ykkluwRD25fm6_dVtu-h_CCZW_JPgnWkA8W00DN2223dOqVhQkkjAu_t-rdHqutqnVoO-foHxgDHXdopVecon09Fp8Yws7yOdG_d6gsfjRyS9sqkcs4ht_PuehsCrTIMOzWZ-yin6r2n6kJDAuMMLpQPd_VJs6_LEzgBEayatE6v2bvjYy9aCokNuQ-MRumK_1NIfcmo4ExlBJhDEfOs6xwija5_ql4e57Fbzm9I5H8WmC6A3fKDSWqe8UksqftmK5ZOeuENOwoJu5f5I5TWjt27LJfNWIBfKPu85ZkgUICBN4o8qr2R6gBqEBgAfRnNS0HpAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECkggLTC16cnpEc2RCOXeoCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiQv4_z7dmWA2ABmgkVaHR0cHM6Ly9oZWdldHN1cy5jb20vsQk5uxcNAETH0cgJF8gJjwHICcIBmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWF0bNALEtIMAhABmg0BEqoNAlVTyA0B0g3pAWh0dHBzOi8vaGVnZXRzdXMuY29tLz8mdXRtX3NvdXJjZT15b3V0dWJlLWNvbnNpZGVyYXRpb24mdXRtX21lZGl1bT12aWRlby1uYXRpb25hbCZ1dG1fY2FtcGFpZ249bGVybWFfZnkyN19kZW1hbmRnZW5fY2hhbm5lbGZhY3RvcnlfbmF0aW9uYWwtZ3JvdXA3JnV0bV9jb250ZW50PWx3cmRzLWxvc2UtdmlkZW8tbmEtbmEtMTUtYXJndW1lbnQmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MDU1MzAyMTMwuBP___________8BsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF3eXhWcYn4I4uhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMIk9uP8-3ZlgMVH-HjBx2H8xeXEAEYBCAAEgKFJPD_BwE&num=4&cid=CAASqgHkaEBACrxneg9kOlfTF_gYmRcfUpNWEbBwi0PT0zD0n0afZOmgW6r58-M6Nldm9l-2wDcwk6J3IUtJ-6Z5x8_nd1hI2Kz-60hu1SxbVOYBQJRqpvYnWyqhcYQG-EgelpIlZN6JwpfXCRoJB-PgCLzeBw6V40xnQSSjlLrb9rgaJQlrEdSb2aiq4S6JuEG08-H5KXuGWg0PdbiCIEeB4qjx6cnquy5gkRd0zA&ad_cpn=%5BCPN%5D&sig=AOD64_1Sxn3z8K0Cm6KsZUJzFOGsMPhuiA&ctype=110&video_id=L-zrzDsdB9w&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "He Gets Us",
+        "thumbnail": "https://yt3.ggpht.com/proxy/fLfboTzmRSjeypcrNg80osPlZge_86UrYywoP06dpbuRwaXMJsG8wjDytlrXVvbB9CCzxn_ooD98EgDBqst31OVqYmCYvnRc30-KI7f8IncMtKtuczgI_GAXqcnbWfHctu1MYPy-8pjadtXPuQ3k0q33_lJMDEfcnzA6xC3PbWZKMHQGWNlZE6tLBrn0OU6Twu-WRJldfRTr2jKN1wDnVrU4fpnRrOagKOmen-VnC403Gg6KDxbG9RONY60oWBqeHfvLjaM=w68-h68-nd"
+      },
+      "description": "Jesus shows us why.",
+      "thumbnail": "https://i.ytimg.com/vi/L-zrzDsdB9w/hqdefault.jpg",
+      "videoId": "L-zrzDsdB9w",
+      "url": "https://www.youtube.com/watch?v=L-zrzDsdB9w"
+    },
+    {
+      "position_on_page": 19,
+      "title": "Investing your way is easier than ever.",
+      "link": "https://www.youtube.com/watch?v=9E01baqH_dg",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CHD7xgU-datOWB5_Cj-8Ph-ffuAnF3b68iQHowI_BhRVkEAUgAGDJhriN9KTQGYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHoyqDKAqgDBMgDCqoExQJP0G0E1oTExxKuy2-0UawkLg24qFweUNraDCHxinkvYZuem-_K8dJyBxcQ9ieHk_IOf3nt7ADXSb9_skTd8HMN6criQftCY0EnNKI3Z28Vkuv8pJJbsEQ9uX5uv3VbbvofwgmVvyT4J1pAPFtNAzdttt3TqlYUJJIwLv7fq3R6rrap1aDvn6B8YAx13aKVXnKJ9PRafGMLO8jnRv3eoLH40ckvbKpHLOIbfz7nobAq0yDDs1mfsop-q9p-pCQwLjDC6UD3f1SbOvyxM4ARGsmrROr9m742MvWgqJDbkPjEbpix9zSH3ZqOUZxsJZkjHJJGExM2B-ysq7mQov24tE_RhGquqbEZwZFnpKP217swP5zdsKUcTIvWRcTn5-OBOdWecMxCHX_u8NwqYwi79yCWFxiM6DJAA15U3xFhRVlljUD_Qpt6iAWCxqPqVpIFCAgTeNKygrYBoAahAYAHgLXftQGQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxApIICzlFMDFiYXFIX2RnqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYkL-P8-3ZlgNgAZoJKWh0dHBzOi8vd3d3LmZpZGVsaXR5LmNvbS90cmFkaW5nL292ZXJ2aWV3sQlFfJTAz0MfXcgJF8gJjwHICcIByAmXAroLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMFdmlhdGzQCxLgCwGiDB1qFgoUY29tLmZpZGVsaXR5LmFuZHJvaWR4AIgBANIMAhABmg0BEqoNAlVTyA0B0g2gBGh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OODA1LjIwMDk3MDBET1VCTEVDTElDS0JJRE1BTkFHRS9CMzQ4Mjk0MzYuNDM1NTc3NDkzO2RjX3Rya19haWQ9NjI5NjgwMDIwO2RjX3Rya19jaWQ9MjQ2OTM4NDMxO2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTVDak1LREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhNSWdzYWo2bGFvQXVmanpnS3dBc2FaMU9nRFFEc1E2TDRfSjNUdzZBUk5lYUhLeWlSYVZSMjU3dz09O2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjQTNpZG5qRFJlUWFJYmI0QXdjNEFxUjh1OE82SnRyYlJzVWxFQS1xUDg1ZzBjZm9kS2UzR2NmRUc3YTZ6WUFxQ1JKNjU5blRoNHdtTWhvYkE7ZGNfcHViaWQ9Nj9odHRwczovL3d3dy5maWRlbGl0eS5jb20vdHJhZGluZy9vdmVydmlldz9nYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjMzMDgzMjk3MzCwE8GG3yO4E____________wGIFAGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXk4Cu5I9D6bK6FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMIk9uP8-3ZlgMVH-HjBx2H8xeXEAEYBSAAEgIn8fD_BwE&num=5&cid=CAASqgHkaEBACrxneg9kOlfTF_gYmRcfUpNWEbBwi0PT0zD0n0afZOmgW6r58-M6Nldm9l-2wDcwk6J3IUtJ-6Z5x8_nd1hI2Kz-60hu1SxbVOYBQJRqpvYnWyqhcYQG-EgelpIlZN6JwpfXCRoJB-PgCLzeBw6V40xnQSSjlLrb9rgaJQlrEdSb2aiq4S6JuEG08-H5KXuGWg0PdbiCIEeB4qjx6cnquy5gkRd0zA&ad_cpn=%5BCPN%5D&sig=AOD64_0BsWL_FazB1lEKOaeSeg_4phnpiw&ctype=110&video_id=9E01baqH_dg&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Fidelity Investments",
+        "thumbnail": "https://yt3.ggpht.com/proxy/rYDdfS1uRZy1k5V3Bgl5zpOFzWcMxuK6xQvIr1XTzC89vv8VBxauNipnOUMaIZNdSWtSDVbOg3eEob9uthgYQYZEGi_R78PP7UPUIEfbZAF5rEk8Ggfh0s-KJAPY9UueQlv8mKPZNvSuYfnpwt38h6NkhfwMCCwxFmmniBIc3_JiyhFD76WolcNMjAb5KNfAqVW-14ltkv2XwHMlDd_HnSGZzUkG_Fv9QL6zPaHZkwUqlwkDpiAl9D23Ff6WQIR0vjja=w68-h68-nd"
+      },
+      "description": "It’s easy to set up recurring investments in stocks & ETFs.",
+      "thumbnail": "https://i.ytimg.com/vi/9E01baqH_dg/hqdefault.jpg",
+      "videoId": "9E01baqH_dg",
+      "url": "https://www.youtube.com/watch?v=9E01baqH_dg"
+    }
+  ],
+  "playlist_results": [
+    {
+      "position_on_page": 2,
+      "title": "Stanford AA228V I Validation of Safety Critical Systems I 2025",
+      "link": "https://www.youtube.com/playlist?list=PLoROMvodv4rOq1LMLI8U7djzDb8--xpaC",
+      "channel": {
+        "name": "Stanford Online",
+        "link": "https://www.youtube.com/@stanfordonline",
+        "verified": true
+      },
+      "videos": [
+        {
+          "title": "Stanford AA228V I Validation of Safety Critical Systems I Introduction & Overview",
+          "length": "1:06:37",
+          "link": "https://www.youtube.com/watch?v=hE9iWwMZANE&list=PLoROMvodv4rOq1LMLI8U7djzDb8--xpaC"
+        },
+        {
+          "title": "Stanford AA228V I Validation of Safety Critical Systems I System Modeling",
+          "length": "1:12:20",
+          "link": "https://www.youtube.com/watch?v=6-qnwn23Iq4&list=PLoROMvodv4rOq1LMLI8U7djzDb8--xpaC"
+        }
+      ],
+      "video_count": 17,
+      "thumbnail": "https://i.ytimg.com/vi/hE9iWwMZANE/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYZSBkKFQwDw==&rs=AOn4CLDIdEUtv1IU7-oMw08chHszeo1k0g"
+    }
+  ],
+  "video_results": [
+    {
+      "position_on_page": 3,
+      "title": "AI in GxP  Eval & Validation",
+      "link": "https://www.youtube.com/watch?v=6Mk6me3UTKw",
+      "video_id": "6Mk6me3UTKw",
+      "channel": {
+        "name": "Operational AI Systems",
+        "link": "https://www.youtube.com/@OperationalAISystems",
+        "thumbnail": "https://yt3.ggpht.com/3yXbiuc4AM0URnpRuIRykLd0b7dGyDwa1g-GamnbfjFEM5imU77BuMB44kLb0_qDzHqEgTjvcg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "8 months ago",
+      "views": "235 views",
+      "length": "6:45",
+      "description": "This video outlines the rigorous regulatory requirements and structural frameworks necessary for integrating artificial intelligence ...",
+      "thumbnail": "https://i.ytimg.com/vi/6Mk6me3UTKw/hqdefault.jpg",
+      "videoId": "6Mk6me3UTKw",
+      "url": "https://www.youtube.com/watch?v=6Mk6me3UTKw",
+      "channelTitle": "Operational AI Systems",
+      "channelVerified": false,
+      "duration": "6:45"
+    },
+    {
+      "position_on_page": 5,
+      "title": "Bayesian Safety Validation for Black-Box Systems",
+      "link": "https://www.youtube.com/watch?v=dfoc4YXh3os",
+      "video_id": "dfoc4YXh3os",
+      "channel": {
+        "name": "SISL",
+        "link": "https://www.youtube.com/@SISLaboratory",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lQAkp1cf1nwd9ATS9fmywIP1da2O4KuIUpVmU4T-NQvQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "365 views",
+      "length": "9:59",
+      "description": "Presented by Robert Moss to the 2023 AIAA AVIATION Forum. Paper available at https://arxiv.org/abs/2305.02449.",
+      "thumbnail": "https://i.ytimg.com/vi/dfoc4YXh3os/hqdefault.jpg",
+      "videoId": "dfoc4YXh3os",
+      "url": "https://www.youtube.com/watch?v=dfoc4YXh3os",
+      "channelTitle": "SISL",
+      "channelVerified": false,
+      "duration": "9:59"
+    },
+    {
+      "position_on_page": 6,
+      "title": "WEBINAR - Accelerating AEB validation with offline ADAS scenario simulation",
+      "link": "https://www.youtube.com/watch?v=yRQp2wpewVc",
+      "video_id": "yRQp2wpewVc",
+      "channel": {
+        "name": "VI-grade",
+        "link": "https://www.youtube.com/@vigrade01",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_myBWeqLEy7V6USkmeNBYXbFTWbnxM8pXe5-Q0In9oRHiI=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 days ago",
+      "views": "50 views",
+      "length": "43:46",
+      "description": "Validating Automatic Emergency Braking (AEB) systems across a wide range of traffic situations, environmental conditions, sensor ...",
+      "extensions": [
+        "New"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/yRQp2wpewVc/hqdefault.jpg",
+      "videoId": "yRQp2wpewVc",
+      "url": "https://www.youtube.com/watch?v=yRQp2wpewVc",
+      "channelTitle": "VI-grade",
+      "channelVerified": false,
+      "duration": "43:46"
+    },
+    {
+      "position_on_page": 8,
+      "title": "System Validation:   Introduction",
+      "link": "https://www.youtube.com/watch?v=OMCrnJ7VtIs",
+      "video_id": "OMCrnJ7VtIs",
+      "channel": {
+        "name": "Enphase Energy Training",
+        "link": "https://www.youtube.com/@EnphaseEnergyTraining",
+        "thumbnail": "https://yt3.ggpht.com/r9Piqp8dAlk55IA3iks3Kp5xkoXbEyfB9j49_va65f0kyelrCWAv_Xoohm53G_2kaQ2lJn4TYw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "302 views",
+      "length": "1:39",
+      "description": "... enabling the system metering next checking and loading base level operating software and finally functional validation which ...",
+      "thumbnail": "https://i.ytimg.com/vi/OMCrnJ7VtIs/hqdefault.jpg",
+      "videoId": "OMCrnJ7VtIs",
+      "url": "https://www.youtube.com/watch?v=OMCrnJ7VtIs",
+      "channelTitle": "Enphase Energy Training",
+      "channelVerified": false,
+      "duration": "1:39"
+    },
+    {
+      "position_on_page": 9,
+      "title": "AVL Insight Engineering | Verification and Validation",
+      "link": "https://www.youtube.com/watch?v=6H6udMJjzno",
+      "video_id": "6H6udMJjzno",
+      "channel": {
+        "name": "AVL",
+        "link": "https://www.youtube.com/@AVLList",
+        "thumbnail": "https://yt3.ggpht.com/uFcVMCb6AzWA19-XgQAh2BmZsEXWuYLwRkz6sOsiJ3DY9rKTjud3ekC6TtPuvo-4scsdKd1V=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "765 views",
+      "length": "2:50",
+      "description": "In this video, we learn that even in a field where data is at the heart of every task, communication with colleagues from different ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/6H6udMJjzno/hqdefault.jpg",
+      "videoId": "6H6udMJjzno",
+      "url": "https://www.youtube.com/watch?v=6H6udMJjzno",
+      "channelTitle": "AVL",
+      "channelVerified": false,
+      "duration": "2:50"
+    },
+    {
+      "position_on_page": 10,
+      "title": "AVS140 - Autoclave Validation System",
+      "link": "https://www.youtube.com/watch?v=8RI6yXaAdI4",
+      "video_id": "8RI6yXaAdI4",
+      "channel": {
+        "name": "MadgeTech, Inc.",
+        "link": "https://www.youtube.com/@Madgetechdataloggers",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nRWgk4K_jeA73zXgB2wJpMkZod1sgMhQG2Hpz39YHkJA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "8 years ago",
+      "views": "7,897 views",
+      "length": "3:02",
+      "description": "Learn how to Validate an autoclave using the AVS(Autoclave Validation System) from MadgeTech. The AVS140 consists of six ...",
+      "thumbnail": "https://i.ytimg.com/vi/8RI6yXaAdI4/hqdefault.jpg",
+      "videoId": "8RI6yXaAdI4",
+      "url": "https://www.youtube.com/watch?v=8RI6yXaAdI4",
+      "channelTitle": "MadgeTech, Inc.",
+      "channelVerified": false,
+      "duration": "3:02"
+    },
+    {
+      "position_on_page": 11,
+      "title": "Look like a seasoned Systems Engineer, by knowing the difference between Verification and Validation",
+      "link": "https://www.youtube.com/watch?v=L52SFrLrSsU",
+      "video_id": "L52SFrLrSsU",
+      "channel": {
+        "name": "raymondbwolfgang",
+        "link": "https://www.youtube.com/@raymondbwolfgang",
+        "thumbnail": "https://yt3.ggpht.com/cRGe101lV9YKfK0gG9CU0uOuBxSp-CDbDJy-3Y13o46tVgVhBTPe4r6-bG-tuTCu5rSECQcBwg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "1,109 views",
+      "length": "2:58",
+      "description": "New to Systems Engineering, and involved with Verification or Validation? Knowing the difference will give you more credibility at ...",
+      "thumbnail": "https://i.ytimg.com/vi/L52SFrLrSsU/hqdefault.jpg",
+      "videoId": "L52SFrLrSsU",
+      "url": "https://www.youtube.com/watch?v=L52SFrLrSsU",
+      "channelTitle": "raymondbwolfgang",
+      "channelVerified": false,
+      "duration": "2:58"
+    },
+    {
+      "position_on_page": 14,
+      "title": "9. Verification and Validation",
+      "link": "https://www.youtube.com/watch?v=-63JXElqPaY",
+      "video_id": "-63JXElqPaY",
+      "channel": {
+        "name": "MIT OpenCourseWare",
+        "link": "https://www.youtube.com/@mitocw",
+        "thumbnail": "https://yt3.ggpht.com/swNtJDBP8xHP_zwrbL4tCUQt02B-7Mr8XggFMBjANHn_Q5aUtPmxPs8f8Ag3wO2O-rJpsQQGpA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "9 years ago",
+      "views": "93,349 views",
+      "length": "1:37:49",
+      "description": "MIT 16.842 Fundamentals of Systems Engineering, Fall 2015 View the complete course: http://ocw.mit.edu/16-842F15 Instructor: ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/-63JXElqPaY/hqdefault.jpg",
+      "videoId": "-63JXElqPaY",
+      "url": "https://www.youtube.com/watch?v=-63JXElqPaY",
+      "channelTitle": "MIT OpenCourseWare",
+      "channelVerified": false,
+      "duration": "1:37:49"
+    },
+    {
+      "position_on_page": 15,
+      "title": "Stanford AA228V I Validation of Safety Critical Systems I Runtime Monitoring",
+      "link": "https://www.youtube.com/watch?v=uDaHF-rIXb0",
+      "video_id": "uDaHF-rIXb0",
+      "channel": {
+        "name": "Stanford Online",
+        "link": "https://www.youtube.com/@stanfordonline",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/UE4m1O9zmzlEViC33IbGBU0idM-rbGzN1NWag8xMt6JHBG5SmuWmJdF1_uQhhGKLjLiUXvOTwA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "869 views",
+      "length": "1:15:21",
+      "description": "To follow along with the course, visit the course website: https://aa228v.stanford.edu/ Textbook: ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/uDaHF-rIXb0/hqdefault.jpg",
+      "videoId": "uDaHF-rIXb0",
+      "url": "https://www.youtube.com/watch?v=uDaHF-rIXb0",
+      "channelTitle": "Stanford Online",
+      "channelVerified": true,
+      "duration": "1:15:21"
+    },
+    {
+      "position_on_page": 16,
+      "title": "Hybrid AI Assisted AV Scenario Validation and Curation",
+      "link": "https://www.youtube.com/watch?v=zKnjDjVT7lA",
+      "video_id": "zKnjDjVT7lA",
+      "channel": {
+        "name": "The AV Engineer ",
+        "link": "https://www.youtube.com/@The_AV_Engineer",
+        "thumbnail": "https://yt3.ggpht.com/gb5mANjwc4dSBmDyKl6-U8z4k6rnOko84RhMjPoPxJiOZnRVehpkhUf9t6B5SCrq5XOdRvDhjw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 weeks ago",
+      "views": "6 views",
+      "length": "13:46",
+      "description": "Real-world driving data isn't enough to make self-driving cars safe, and AI alone can't fill the gap either. We break down what it ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/zKnjDjVT7lA/hqdefault.jpg",
+      "videoId": "zKnjDjVT7lA",
+      "url": "https://www.youtube.com/watch?v=zKnjDjVT7lA",
+      "channelTitle": "The AV Engineer ",
+      "channelVerified": false,
+      "duration": "13:46"
+    },
+    {
+      "position_on_page": 18,
+      "title": "Best tools for AVAD scenario validation",
+      "link": "https://www.youtube.com/watch?v=-1P_JxxDGIs",
+      "video_id": "-1P_JxxDGIs",
+      "channel": {
+        "name": "The AV Engineer ",
+        "link": "https://www.youtube.com/@The_AV_Engineer",
+        "thumbnail": "https://yt3.ggpht.com/gb5mANjwc4dSBmDyKl6-U8z4k6rnOko84RhMjPoPxJiOZnRVehpkhUf9t6B5SCrq5XOdRvDhjw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 weeks ago",
+      "views": "5 views",
+      "length": "11:04",
+      "description": "What does it actually take to prove a self-driving car is safe? We break down AV scenario validation, ADAS testing, sensor ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/-1P_JxxDGIs/hqdefault.jpg",
+      "videoId": "-1P_JxxDGIs",
+      "url": "https://www.youtube.com/watch?v=-1P_JxxDGIs",
+      "channelTitle": "The AV Engineer ",
+      "channelVerified": false,
+      "duration": "11:04"
+    },
+    {
+      "position_on_page": 20,
+      "title": "How a Regional Bank Automated Loan Validation with Agentic AI",
+      "link": "https://www.youtube.com/watch?v=kA306Bzhn_M",
+      "video_id": "kA306Bzhn_M",
+      "channel": {
+        "name": "Ashling",
+        "link": "https://www.youtube.com/@ashlingconsulting",
+        "thumbnail": "https://yt3.ggpht.com/kuDkwXyQy9btzno1jklyg0hsCAqcGo7Qu7SVBFwy_JraDBXJnZmmKcwLoLU0ZYgQAQTp8vlsRg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 weeks ago",
+      "views": "4 views",
+      "length": "2:38",
+      "description": "How a Regional Bank Automated Loan Validation with Agentic AI | 9x Faster Validation | Banking Case Study What happens ...",
+      "thumbnail": "https://i.ytimg.com/vi/kA306Bzhn_M/hqdefault.jpg",
+      "videoId": "kA306Bzhn_M",
+      "url": "https://www.youtube.com/watch?v=kA306Bzhn_M",
+      "channelTitle": "Ashling",
+      "channelVerified": false,
+      "duration": "2:38"
+    },
+    {
+      "position_on_page": 22,
+      "title": "Validation | Terminology Tuesdays",
+      "link": "https://www.youtube.com/watch?v=fKc6fqEIlA0",
+      "video_id": "fKc6fqEIlA0",
+      "channel": {
+        "name": "unRAVL AI",
+        "link": "https://www.youtube.com/@unRAVL-AI",
+        "thumbnail": "https://yt3.ggpht.com/gKQGBJE9JLHVdxXx_jPJiq71ZPkMzxdMFOAUx7Z3BX_8GNDluVBRh3BeBI1qvlMikoj4tUzFpi4=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 days ago",
+      "views": "5 views",
+      "length": "3:28",
+      "description": "Welcome to unRAVL AI's Terminology Tuesdays. This week's term is Validation. Understanding what you mean is only part of the ...",
+      "extensions": [
+        "New",
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/fKc6fqEIlA0/hqdefault.jpg",
+      "videoId": "fKc6fqEIlA0",
+      "url": "https://www.youtube.com/watch?v=fKc6fqEIlA0",
+      "channelTitle": "unRAVL AI",
+      "channelVerified": false,
+      "duration": "3:28"
+    },
+    {
+      "position_on_page": 23,
+      "title": "Automated and Connected Mobility | Virtual Validation",
+      "link": "https://www.youtube.com/watch?v=2XteLF3VVRg",
+      "video_id": "2XteLF3VVRg",
+      "channel": {
+        "name": "AVL",
+        "link": "https://www.youtube.com/@AVLList",
+        "thumbnail": "https://yt3.ggpht.com/uFcVMCb6AzWA19-XgQAh2BmZsEXWuYLwRkz6sOsiJ3DY9rKTjud3ekC6TtPuvo-4scsdKd1V=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "532 views",
+      "length": "2:04",
+      "description": "Our virtual validation models for testing ADAS functions can help to reduce time-to-market and costs significantly. To achieve the ...",
+      "thumbnail": "https://i.ytimg.com/vi/2XteLF3VVRg/hqdefault.jpg",
+      "videoId": "2XteLF3VVRg",
+      "url": "https://www.youtube.com/watch?v=2XteLF3VVRg",
+      "channelTitle": "AVL",
+      "channelVerified": false,
+      "duration": "2:04"
+    },
+    {
+      "position_on_page": 24,
+      "title": "Take a glimpse into the life of a Validation Test Engineer",
+      "link": "https://www.youtube.com/watch?v=ZlKdqDzH15w",
+      "video_id": "ZlKdqDzH15w",
+      "channel": {
+        "name": "Positioning Universal",
+        "link": "https://www.youtube.com/@positioninguniversal4570",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_ntQdpZeadyBc6ykkFvWMOgsCip7g1t9THlg_XXnvIvsg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "1,933 views",
+      "length": "5:27",
+      "description": "PUI's David McFarland has an unusual job: he drives many tens of thousands of miles in a van chock-full of our devices and looks ...",
+      "thumbnail": "https://i.ytimg.com/vi/ZlKdqDzH15w/hqdefault.jpg",
+      "videoId": "ZlKdqDzH15w",
+      "url": "https://www.youtube.com/watch?v=ZlKdqDzH15w",
+      "channelTitle": "Positioning Universal",
+      "channelVerified": false,
+      "duration": "5:27"
+    },
+    {
+      "position_on_page": 25,
+      "title": "Why Tool Calls Need Validation Before Execution in Agent Systems",
+      "link": "https://www.youtube.com/watch?v=_IeBzzzJTn4",
+      "video_id": "_IeBzzzJTn4",
+      "channel": {
+        "name": "Manifold AI Learning",
+        "link": "https://www.youtube.com/@ManifoldAILearning",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kjt_hOLsPvXXFNtWHU4OuXpkrdtrWDkI6MY74OBs3UjQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 months ago",
+      "views": "549 views",
+      "length": "15:56",
+      "description": "Start Your Agentic AI Learning Path 1️⃣ Starting your Agentic AI journey? Join the Agentic AI Developer Bootcamp with a ...",
+      "thumbnail": "https://i.ytimg.com/vi/_IeBzzzJTn4/hqdefault.jpg",
+      "videoId": "_IeBzzzJTn4",
+      "url": "https://www.youtube.com/watch?v=_IeBzzzJTn4",
+      "channelTitle": "Manifold AI Learning",
+      "channelVerified": false,
+      "duration": "15:56"
+    },
+    {
+      "position_on_page": 26,
+      "title": "Stanford AA228V I Validation of Safety Critical Systems I Guest Lecture: Somil Bansal, Stanford",
+      "link": "https://www.youtube.com/watch?v=OU67A1tyfmc",
+      "video_id": "OU67A1tyfmc",
+      "channel": {
+        "name": "Stanford Online",
+        "link": "https://www.youtube.com/@stanfordonline",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/UE4m1O9zmzlEViC33IbGBU0idM-rbGzN1NWag8xMt6JHBG5SmuWmJdF1_uQhhGKLjLiUXvOTwA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "1,866 views",
+      "length": "1:02:17",
+      "description": "To follow along with the course, visit the course website: https://aa228v.stanford.edu/ Textbook: ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/OU67A1tyfmc/hqdefault.jpg",
+      "videoId": "OU67A1tyfmc",
+      "url": "https://www.youtube.com/watch?v=OU67A1tyfmc",
+      "channelTitle": "Stanford Online",
+      "channelVerified": true,
+      "duration": "1:02:17"
+    },
+    {
+      "position_on_page": 27,
+      "title": "Application Validation Assistant (AVA) - How to use video",
+      "link": "https://www.youtube.com/watch?v=FlU6v4mtlkI",
+      "video_id": "FlU6v4mtlkI",
+      "channel": {
+        "name": "HRSAtube",
+        "link": "https://www.youtube.com/@HRSAtube",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lVvbdf7JiJqxh05u5VKOyT_SjgOqjx4Yyea3CvgmCHPRo=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 months ago",
+      "views": "357 views",
+      "length": "15:31",
+      "description": "The Application Validation Assistant (AVA) is a standalone tool developed by HRSA OIT team to help the applicants/grantees to ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/FlU6v4mtlkI/hqdefault.jpg",
+      "videoId": "FlU6v4mtlkI",
+      "url": "https://www.youtube.com/watch?v=FlU6v4mtlkI",
+      "channelTitle": "HRSAtube",
+      "channelVerified": true,
+      "duration": "15:31"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 12,
+      "shorts": [
+        {
+          "title": "Accelerate in-cabin monitoring system validation processes with Anyverse #shorts",
+          "link": "https://www.youtube.com/shorts/XU1cp-pD3RI",
+          "thumbnail": "https://i.ytimg.com/vi/XU1cp-pD3RI/frame0.jpg",
+          "views_original": "182 views",
+          "views": 182,
+          "video_id": "XU1cp-pD3RI"
+        },
+        {
+          "title": "Field Test Validation | Autonomous Tracking & System Response Evaluation",
+          "link": "https://www.youtube.com/shorts/gc4KjApWLVI",
+          "thumbnail": "https://i.ytimg.com/vi/gc4KjApWLVI/frame0.jpg",
+          "views_original": "1.5K views",
+          "views": 1500,
+          "video_id": "gc4KjApWLVI"
+        },
+        {
+          "title": "Task-CoEvolve: Smarter Validation for LLM Harness Optimization",
+          "link": "https://www.youtube.com/shorts/6rAOF9xBG4w",
+          "thumbnail": "https://i.ytimg.com/vi/6rAOF9xBG4w/frame0.jpg",
+          "views_original": "99 views",
+          "views": 99,
+          "video_id": "6rAOF9xBG4w"
+        },
+        {
+          "title": "Is Harness Engineering Real or Just AI Hype? | Anthony Lusardi | Undefined Ep 02 | #podcast",
+          "link": "https://www.youtube.com/shorts/rRDwi7E_6nA",
+          "thumbnail": "https://i.ytimg.com/vi/rRDwi7E_6nA/frame0.jpg",
+          "views_original": "241 views",
+          "views": 241,
+          "video_id": "rRDwi7E_6nA"
+        },
+        {
+          "title": "Balancing machine validation",
+          "link": "https://www.youtube.com/shorts/oe2-kCEgqZ0",
+          "thumbnail": "https://i.ytimg.com/vi/oe2-kCEgqZ0/frame0.jpg",
+          "views_original": "30 views",
+          "views": 30,
+          "video_id": "oe2-kCEgqZ0"
+        }
+      ]
+    },
+    {
+      "position_on_page": 17,
+      "shorts": [
+        {
+          "title": "5 Useful SQL Tips and Tricks You May Not Know (pt3) #shorts #sql #programming #data",
+          "link": "https://www.youtube.com/shorts/IcoAk2QTeBk",
+          "thumbnail": "https://i.ytimg.com/vi/IcoAk2QTeBk/frame0.jpg",
+          "views_original": "644 views",
+          "views": 644,
+          "video_id": "IcoAk2QTeBk"
+        },
+        {
+          "title": "Validating every keystroke is hostile — timing is the product.",
+          "link": "https://www.youtube.com/shorts/dDfdcDxVK1M",
+          "thumbnail": "https://i.ytimg.com/vi/dDfdcDxVK1M/frame0.jpg",
+          "views_original": "36 views",
+          "views": 36,
+          "video_id": "dDfdcDxVK1M"
+        },
+        {
+          "title": "V6.0 Factory-Starter YouTube Publish Validation",
+          "link": "https://www.youtube.com/shorts/tP6TQBLVg1E",
+          "thumbnail": "https://i.ytimg.com/vi/tP6TQBLVg1E/frame0.jpg",
+          "views_original": "No views",
+          "views": 0,
+          "video_id": "tP6TQBLVg1E"
+        },
+        {
+          "title": "We’re #Hiring || Position: System Validation Engineer",
+          "link": "https://www.youtube.com/shorts/Moghbnfyw5Y",
+          "thumbnail": "https://i.ytimg.com/vi/Moghbnfyw5Y/frame0.jpg",
+          "views_original": "679 views",
+          "views": 679,
+          "video_id": "Moghbnfyw5Y"
+        }
+      ]
+    }
+  ],
+  "channel_results": [
+    {
+      "position_on_page": 21,
+      "title": "System Verification",
+      "link": "https://www.youtube.com/@systemverification7075",
+      "handle": "@systemverification7075",
+      "subscribers": 88,
+      "thumbnail": "https://yt3.ggpht.com/V2xIzDx4P2Q81ovI3ca-MKR_wkYZx1adcxEx_Mb7cJ36wx2daGVFivx3f_lhGcv7xfFgnDLd0g=s88-c-k-c0x00ffffff-no-rj-mo"
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=ANH+Validation+System",
+    "next": "https://www.youtube.com/results?search_query=ANH%20Validation%20System&sp=SBSCASJQTG9ST012b2R2NHJPcTFMTUxJOFU3ZGp6RGI4LS14cGFDggELNk1rNm1lM1VUS3eCAQtkZm9jNFlYaDNvc4IBC3lSUXAyd3Bld1ZjggELT01Dcm5KN1Z0SXOCAQs2SDZ1ZE1Kanpub4IBCzhSSTZ5WGFBZEk0ggELTDUyU0ZyTHJTc1WCAQstNjNKWEVscVBhWYIBC3VEYUhGLXJJWGIwggELektuakRqVlQ3bEGCAQstMVBfSnh4REdJc4IBC2tBMzA2Qnpobl9NggEYVUNvUm1fdmotejN2QjllcDdjVEhuMWdnggELZktjNmZxRUlsQTCCAQsyWHRlTEYzVlZSZ4IBC1psS2RxRHpIMTV3ggELX0llQnp6ekpUbjSCAQtPVTY3QTF0eWZtY4IBC0ZsVTZ2NG10bGtJsgEGCgQIGxAC6gEECAIQCQ%253D%253D",
+    "next_page_token": "SBSCASJQTG9ST012b2R2NHJPcTFMTUxJOFU3ZGp6RGI4LS14cGFDggELNk1rNm1lM1VUS3eCAQtkZm9jNFlYaDNvc4IBC3lSUXAyd3Bld1ZjggELT01Dcm5KN1Z0SXOCAQs2SDZ1ZE1Kanpub4IBCzhSSTZ5WGFBZEk0ggELTDUyU0ZyTHJTc1WCAQstNjNKWEVscVBhWYIBC3VEYUhGLXJJWGIwggELektuakRqVlQ3bEGCAQstMVBfSnh4REdJc4IBC2tBMzA2Qnpobl9NggEYVUNvUm1fdmotejN2QjllcDdjVEhuMWdnggELZktjNmZxRUlsQTCCAQsyWHRlTEYzVlZSZ4IBC1psS2RxRHpIMTV3ggELX0llQnp6ekpUbjSCAQtPVTY3QTF0eWZtY4IBC0ZsVTZ2NG10bGtJsgEGCgQIGxAC6gEECAIQCQ%3D%3D"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=ANH+Validation+System",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=ANH+Validation+System&sp=SBSCASJQTG9ST012b2R2NHJPcTFMTUxJOFU3ZGp6RGI4LS14cGFDggELNk1rNm1lM1VUS3eCAQtkZm9jNFlYaDNvc4IBC3lSUXAyd3Bld1ZjggELT01Dcm5KN1Z0SXOCAQs2SDZ1ZE1Kanpub4IBCzhSSTZ5WGFBZEk0ggELTDUyU0ZyTHJTc1WCAQstNjNKWEVscVBhWYIBC3VEYUhGLXJJWGIwggELektuakRqVlQ3bEGCAQstMVBfSnh4REdJc4IBC2tBMzA2Qnpobl9NggEYVUNvUm1fdmotejN2QjllcDdjVEhuMWdnggELZktjNmZxRUlsQTCCAQsyWHRlTEYzVlZSZ4IBC1psS2RxRHpIMTV3ggELX0llQnp6ekpUbjSCAQtPVTY3QTF0eWZtY4IBC0ZsVTZ2NG10bGtJsgEGCgQIGxAC6gEECAIQCQ%253D%253D",
+    "next_page_token": "SBSCASJQTG9ST012b2R2NHJPcTFMTUxJOFU3ZGp6RGI4LS14cGFDggELNk1rNm1lM1VUS3eCAQtkZm9jNFlYaDNvc4IBC3lSUXAyd3Bld1ZjggELT01Dcm5KN1Z0SXOCAQs2SDZ1ZE1Kanpub4IBCzhSSTZ5WGFBZEk0ggELTDUyU0ZyTHJTc1WCAQstNjNKWEVscVBhWYIBC3VEYUhGLXJJWGIwggELektuakRqVlQ3bEGCAQstMVBfSnh4REdJc4IBC2tBMzA2Qnpobl9NggEYVUNvUm1fdmotejN2QjllcDdjVEhuMWdnggELZktjNmZxRUlsQTCCAQsyWHRlTEYzVlZSZ4IBC1psS2RxRHpIMTV3ggELX0llQnp6ekpUbjSCAQtPVTY3QTF0eWZtY4IBC0ZsVTZ2NG10bGtJsgEGCgQIGxAC6gEECAIQCQ%3D%3D"
+  }
+}

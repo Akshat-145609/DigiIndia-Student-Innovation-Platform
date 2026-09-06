@@ -1,0 +1,600 @@
+{
+  "search_metadata": {
+    "id": "6a9c0e2009a51a55db6146d8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/lxOWxNX5p-s17hW_SOu0aJtpj1SshJERAb6DtMPvikk/6a9c0e2009a51a55db6146d8.json",
+    "markdown_endpoint": "https://serpapi.com/searches/lxOWxNX5p-s17hW_SOu0aJtpj1SshJERAb6DtMPvikk/6a9c0e2009a51a55db6146d8.md",
+    "created_at": "2026-09-05 12:42:08 UTC",
+    "processed_at": "2026-09-05 12:42:08 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=Health+Assistant+Project",
+    "raw_html_file": "https://serpapi.com/searches/lxOWxNX5p-s17hW_SOu0aJtpj1SshJERAb6DtMPvikk/6a9c0e2009a51a55db6146d8.html",
+    "total_time_taken": 2.11
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "Health Assistant Project"
+  },
+  "search_information": {
+    "total_results": 2126745,
+    "video_results_state": "Results for exact spelling"
+  },
+  "ads_results": [
+    {
+      "position_on_page": 1,
+      "title": "The best way to try Shopify out — an extended, 3-month trial",
+      "link": "https://www.youtube.com/watch?v=HGS1zW38BQ8",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CCivjIA6cauDxHaHXsNYPoqrWgQnwhOCoiAHX95PwgRawkB8QASAAYMnW9obIo5AZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLy-5sqqQJqSn6p-K22PqgDBMgDCqoErAJP0DmGqenTqocvUv6mub0E5XxSNP1DxeMLIBp4k5nlnhimP5oeaMy0cnpEXCNNxbMYn8IhV-XaveROFt7nadThTrQWvtGaPwMY8JWHqhCF8SJ_Qf7ChrcZ1hJYTgYkQwCkd968VkW56uWKBZeOdOUirBoroX7sDFqLyXutEWfcmgD2dy_Ur6Ehuow1ewYDlrVDsteo-SyVR332Ql5CFXhUBs42vcRpMq6HyaBofPgVGtOb7f9HZtdor-bOlpWDDmGl8zhOPPxojnsnHfnCI5eh8FuevWy5tUSbeU67opN6tRE2aNiiPt7dPJQAaq_OmW5kJPhGxd5guOBo-2a-2cENOzNF8t4cSBRsyceh0FuweccnU-sj7WVrkm1Y2x8VSnBq_R_z47hMeQ8XlkuIBciH1bxZkgUICBN4s-fvrAWgBqEBgAfyqsz7BJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLSEdTMXpXMzhCUTioCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjY7Ly0u9eWA2ABmglNaHR0cHM6Ly93d3cuc3R5bGVmYWN0b3J5cHJvZHVjdGlvbnMuY29tL2hvdy10by11bmxvY2stYS0zLW1vbnRoLXNob3BpZnktdHJpYWyxCUdZPwtsk3w8yAkXyAmPAcgJwgGYCwG6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCEroDBXZpZGxz0AsT0gwCEAHaDCYKCxDQ8YuEt-_ugb0BEgIBAxoNGMiH1bxZII-0suHdBUABSgIQH5oNAROqDQJVU8gNAdINdWh0dHBzOi8vd3d3LnN0eWxlZmFjdG9yeXByb2R1Y3Rpb25zLmNvbS9ob3ctdG8tdW5sb2NrLWEtMy1tb250aC1zaG9waWZ5LXRyaWFsP2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDAxNzk3ODMxMrgT____________AbAUA8AVgYCAQNAVAdgVAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXjY7UEXksFj26FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI4IG9tLvXlgMVoSvMBB0ilTWQEAEYASAAEgIJYvD_BwE&num=1&cid=CAASqgHkaADKolWAZGaatGNRxJyaaJdCxsgZa4irZlkcuG5PKKhgee96wmCmjFn8tKSTXq5K3tZn-5akgfGar8KqVoCqmzikUlTmgFsae-wGfx4B48w6BwGR3GefDwRPWO18NHc1B8n7AdPLgu_EiAdzSu4uhBxWVIv17pKo5o8w4y5Jca0Evkb0Bh3Ir78MlNLUmV3nU5NGgU9x_ENcENwCOPW7-VG-rU-6azjZjA&ad_cpn=%5BCPN%5D&sig=AOD64_1wrGeTbbakbMwEzKkrsFmm8WbDGw&ctype=110&video_id=HGS1zW38BQ8&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Style Factory",
+        "thumbnail": "https://yt3.ggpht.com/proxy/lXILA8k5vCLoCqam4gFoS6UzbgO-H0JeHffp3_WwddZvVWNIeFZk7rXSvqdZ4TodxkslRpIOY8naQiAu2agA9g_MHehKzzDhp8v2jKPVWA1ZPOt-mb1Zf6EPOO3I9XGf_PFKlonXkTPSht4hLbIroCeRBdEp4IBh8KJaYvxzWpFHXX5jvAAWYT0GCpdKaeVSdsWDnlrwRBAlmnBiiNqDiJHMa3jfliJ5wXgG1367owc0fJx0ik1Z0zJQDwKyN9TLG0ux=w68-h68-nd"
+      },
+      "description": "Find out how you can unlock an extended Shopify trial.",
+      "thumbnail": "https://i.ytimg.com/vi/HGS1zW38BQ8/hqdefault.jpg",
+      "videoId": "HGS1zW38BQ8",
+      "url": "https://www.youtube.com/watch?v=HGS1zW38BQ8"
+    },
+    {
+      "position_on_page": 4,
+      "title": "Get instant answers with Intuit Intelligence",
+      "link": "https://www.youtube.com/watch?v=K3QM9Pc9hIY",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CHpZAIA6cauDxHaHXsNYPoqrWgQme0NiLiQHrxM_rkhawkB8QAiAAYMnW9obIo5AZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAZnU36MoqAMEyAMKqgTIAk_QOYap6dOqhy9S_qa5vQTlfFI0_UPF4wsgGniTmeWeGKY_mh5ozLRyekRcI03FsxifwiFX5dq95E4W3udp1OFOtBa-0Zo_AxjwlYeqEIXxIn9B_sKGtxnWElhOBiRDAKR33rxWRbnq5YoFl4505SKsGiuhfuwMWovJe60RZ9yaAPZ3L9SvoSG6jDV7BgOWtUOy16j5LJVHffZCXkIVeFQGzja9xGkyrofJoGh8-BUa05vt_0dm12iv5s6WlYMOYaXzOE48_GiOeycd-cIjl6HwW569bLm1RJt5Truik3q1ETZo2MWkHx87WcrDyYS40IzB9bcrOcytLki-Bobn-QPBAY-CR9DaSDvRMvpr4xV4yYoYHyjFGZhys0zXqQMkCa3N1A1ZWmWRAKUGZiZ48W7T5B5_UrcY_THyKdT5jdd4REw1sPnv5q-IBd3ThMZZkgUICBN4-LLDhQOgBqEBgAeZjLCDA5AHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLSzNRTTlQYzloSVmoCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjY7Ly0u9eWA2ABmgkwaHR0cHM6Ly9xdWlja2Jvb2tzLmludHVpdC5jb20vb2EvZ2V0LXF1aWNrYm9va3MvsQneQ99Xc6AavcgJF8gJjwHICcIByAmXAroLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEDgAIBiAIFugMFdmlkbHPQCxLgCwGiDDRiFAoSY29tLmludHVpdC5RQk9pUGFkahcKFWNvbS5pbnR1aXQucXVpY2tib29rc3gAiAEA0gwCEAHaDCYKCxDgrvGknYSLpaYBEgIBAxoNGN3ThMZZIIPrwZfiBUABSgIQH5oNARKqDQJVU8gNAdINxQVodHRwczovL2FkLmRvdWJsZWNsaWNrLm5ldC9kZG0vdHJhY2tjbGsvTjU1MDYuNTc0MzQzMEtTTy1EVjM2MC9CMzYyNDk4NTkuNDU0ODQyODcyO2RjX3Rya19haWQ9NjQ4NzUzNjYyO2RjX3Rya19jaWQ9MjYyNDE3NDU0O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQThDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSTNkT0V4bG1vQXZpeXc0VURzQUxPd1pUckEwQTdFTW1QM1lRRDRJOHVqanJUWXJnVjhwZHVFNFR4Ymc9PTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0QwUTNkbFlYT0NsMnNxa0prd2pzOUtDOGZYdWxJNjcxMExPa3JyaTZFc1lUTHQxLVdtRklIcS16OFRFeVA4Y1EtYl9NWmdNd2JSa3BJczlnO2RjX3B1YmlkPTY_aHR0cHM6Ly9xdWlja2Jvb2tzLmludHVpdC5jb20vb2EvZ2V0LXF1aWNrYm9va3MvP0NJRD1WSURfVVNfUUJPX1VTX0RWMzYwX0Nyb3NzRGV2aWNlX0lOSV9RQk9fQk9GX1JPQVNfUlRfNDU0ODQyODcyXzI2MjQxNzQ1NF9ST0FTT3B0aW1pemVkLUZZMjctUlRHLU5BLURlbWFuZEdlbi1JbmRleDczSW50dWl0SW50ZWxsaWdlbmNlVGlmZmFueUJhaXJhNTBvZmYxNXMtTkE6TkEmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MDM3NjMyNDc3sBPNsdwjuBP___________8BiBQBsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF_h-CWzBcksruhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMI4IG9tLvXlgMVoSvMBB0ilTWQEAEYAiAAEgK_JfD_BwE&num=2&cid=CAASqgHkaADKolWAZGaatGNRxJyaaJdCxsgZa4irZlkcuG5PKKhgee96wmCmjFn8tKSTXq5K3tZn-5akgfGar8KqVoCqmzikUlTmgFsae-wGfx4B48w6BwGR3GefDwRPWO18NHc1B8n7AdPLgu_EiAdzSu4uhBxWVIv17pKo5o8w4y5Jca0Evkb0Bh3Ir78MlNLUmV3nU5NGgU9x_ENcENwCOPW7-VG-rU-6azjZjA&ad_cpn=%5BCPN%5D&sig=AOD64_1YJIbgEcxUjE4LoAd8c1CDRjPAZw&ctype=110&video_id=K3QM9Pc9hIY&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Intuit QuickBooks",
+        "thumbnail": "https://yt3.ggpht.com/proxy/dkbaOTtPDemZRHCDkCMk7kEwR9AmFVZEikZenpJCd13WWuOs9SVosRtQeAOJ4Mi_L9wxM4kDgOGBAWzK1GyoDylbld1RKTh6oV7SrYwCgmX4425TJ5yDqvjR29nPrf63NhrpaFaGBaRUQMOHIJTNzdBzVnr4QCMmzLPfiDLvtCHHf_Q9q-geDiBz0b2T2U5OIaYsm0_y-XzsiDJl3R6yl8xQPHfCcJiM_hC7QGzIEW32TGjkdRrBsD_1n0ZKyogM5Kjq=w68-h68-nd"
+      },
+      "description": "Get personalized insights tailored to your business with Intuit Intelligence.",
+      "thumbnail": "https://i.ytimg.com/vi/K3QM9Pc9hIY/hqdefault.jpg",
+      "videoId": "K3QM9Pc9hIY",
+      "url": "https://www.youtube.com/watch?v=K3QM9Pc9hIY"
+    },
+    {
+      "position_on_page": 7,
+      "title": "Stay present and still get perfect notes.",
+      "link": "https://www.youtube.com/watch?v=tazK-1H0YZE",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CIb28IA6cauDxHaHXsNYPoqrWgQn9vd3RiAHV4cuAmxawkB8QAyAAYMnW9obIo5AZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfDOtIdBqQJqSn6p-K22PqgDBMgDCqoEqwJP0DmGqenTqocvUv6mub0E5XxSNP1DxeMLIBp4k5nlnhimP5oeaMy0cnpEXCNNxbMYn8IhV-XaveROFt7nadThTrQWvtGaPwMY8JWHqhCF8SJ_Qf7ChrcZ1hJYTgYkQwCkd968VkW56uWKBZeOdOUirBoroX7sDFqLyXutEWfcmgD2dy_Ur6Ehuow1ewYDlrVDsteo-SyVR332Ql5CFXhUBs42vcRpMq6HyaBofPgVGtOb7f9HZtdor-bOlpWDDmGl8zhOPPxojnsnHfnCI5eh8FuevWy5tUSbeU67opN6tRE2aNjDqR8fM1nKx9L63taewjsMg7DQcCVOj_r4PhEHubqoqkWH2D1HYOGH2dWdhYpoKCw7W9JDsG1Uz_tYBQut7z3z7a79XykeGIgF79SQ1lmSBQgIE3jF-aGBHKAGoQGAB_CGhecbkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAt0YXpLLTFIMFlaRagIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWNjsvLS715YDYAGaCRdodHRwczovL3d3dy5ncmFub2xhLmFpL7EJsNEbnt9H69fICRfICY8ByAnCAcgJlwKYCwG6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDBXZpZGxz0AsSogwrYhYKFGNvbS5ncmFub2xhLmlvcy1wcm9kagwKCmFpLmdyYW5vbGF4AIgBANIMAhAB2gwlCgoQgKKpvZ7XwLxQEgIBAxoNGO_UkNZZIO2y9vDmBUABSgIQH5oNARKqDQJVU8gNAdINmwFodHRwczovL3d3dy5ncmFub2xhLmFpLz91dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPXlvdXR1YmUmdXRtX2NhbXBhaWduPXVzX2RnZW5feXRfc2NhbGUmdXRtX2NvbnRlbnQ9Y29uY2VwdDVfbmV3JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDA3MTM4MzY2M7gT____________AbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRd7TTPqlr-RAboXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMI4IG9tLvXlgMVoSvMBB0ilTWQEAEYAyAAEgINJfD_BwE&num=3&cid=CAASqgHkaADKolWAZGaatGNRxJyaaJdCxsgZa4irZlkcuG5PKKhgee96wmCmjFn8tKSTXq5K3tZn-5akgfGar8KqVoCqmzikUlTmgFsae-wGfx4B48w6BwGR3GefDwRPWO18NHc1B8n7AdPLgu_EiAdzSu4uhBxWVIv17pKo5o8w4y5Jca0Evkb0Bh3Ir78MlNLUmV3nU5NGgU9x_ENcENwCOPW7-VG-rU-6azjZjA&ad_cpn=%5BCPN%5D&sig=AOD64_0ufkTKQpOO4gc6nUrJMgyJFs71Pw&ctype=110&video_id=tazK-1H0YZE&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Granola",
+        "thumbnail": "https://yt3.ggpht.com/proxy/BmJErbDLIQoEoPkIEIhH-jVuXHZ6sjCgoLfudEQyzMOnZzRAQrudZa-fbIXEvufXFgTS92xDq8NdeksvjchsNEMag1vtzMGvpblJ3VUE5_f2TXh2zVW07ki_lw3YgPLfN3TFx_dQRDaBxu2R2obd_kus0o7BTFfJnWlFjYbIpknMpwbzfeqhRVqfZO4pRN9SfC8_dJtE1kjUW0lP7DTUFdIrDKeLFe1ln36IBOnbFhs8T5C0ZeRaR0jbrjaGFQiKsJQVrBM=w68-h68-nd"
+      },
+      "description": "Granola is the AI notepad that turns back-to-backs into forward motion.",
+      "thumbnail": "https://i.ytimg.com/vi/tazK-1H0YZE/hqdefault.jpg",
+      "videoId": "tazK-1H0YZE",
+      "url": "https://www.youtube.com/watch?v=tazK-1H0YZE"
+    },
+    {
+      "position_on_page": 13,
+      "title": "Not For Beginners: Apply If You’re Doing $10K+/Mo & Ready To Scale Fast",
+      "link": "https://www.youtube.com/watch?v=G-y7MRQbNzA",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CXyDtIA6cauDxHaHXsNYPoqrWgQnpgvOLiQG0yI210hWwkB8QBCAAYMnW9obIo5AZggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAc2Li8UBqAMEyAMKqgS6Ak_QOYap6dOqhy9S_qa5vQTlfFI0_UPF4wsgGniTmeWeGKY_mh5ozLRyekRcI03FsxifwiFX5dq95E4W3udp1OFOtBa-0Zo_AxjwlYeqEIXxIn9B_sKGtxnWElhOBiRDAKR33rxWRbnq5YoFl4505SKsGiuhfuwMWovJe60RZ9yaAPZ3L9SvoSG6jDV7BgOWtUOy16j5LJVHffZCXkIVeFQGzja9xGkyrofJoGh8-BUa05vt_0dm12iv5s6WlYMOYaXzOE48_GiOeycd-cIjl6HwW569bLm1RJt5Truik3q1ETZo2MSrHx87WcrltK7B0Z7CI1S0is5wJX6qgfg-EQe5uuDxRYfYLEcc3J2f_53omjdmLBMjPPo9X3CKJZ-ZoIQr2GhuhHa5hKA89_GwBfFtWb5AaGLDRt0NiAW9s539VZIFCAgTeN2hlrsCoAahAYAHm_T0ugKQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0cteTdNUlFiTnpBqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRY2Oy8tLvXlgNgAZoJIWh0dHBzOi8vYm9va2NsZWFuaW5nam9icy5jb20vYm9va7EJslClkywRrkzICRfICY8ByAnCAcgJlwKYCwG6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDBXZpZGxz0AsS0gwCEAHaDCUKChDAsre_3ty4r0MSAgEDGg0YvbOd_VUg4c69nekFQAFKAhAfmg0BEqoNAlVTyA0B0g2kAmh0dHBzOi8vYm9va2NsZWFuaW5nam9icy5jb20vYm9vaz91dG1fc291cmNlPWFkd29yZHMmdXRtX21lZGl1bT1jcGMmdXRtX2NhbXBhaWduPUJvb2tfQV9DYWxsX0RlbWFuZEdlbiZ1dG1fY29udGVudD1EZW1hbmRHZW5fVmlkZW9BZHMmdXRtX3Rlcm09WW91VHViZV9Vc2VycyZ1dG1fa2V5d29yZD0mdXRtX21hdGNodHlwZT0mY2FtcGFpZ25faWQ9MjMwNzk2Mzk0ODUmYWRfZ3JvdXBfaWQ9MjAwMDQ2MjQxNjMzJmFkX2lkPTgxNzY3MTkzMjA5NyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjMwNzk2Mzk0ODW4E____________wGIFAGwFAPAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakX04DGuDTvyYG6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI4IG9tLvXlgMVoSvMBB0ilTWQEAEYBCAAEgKYVvD_BwE&num=4&cid=CAASqgHkaADKolWAZGaatGNRxJyaaJdCxsgZa4irZlkcuG5PKKhgee96wmCmjFn8tKSTXq5K3tZn-5akgfGar8KqVoCqmzikUlTmgFsae-wGfx4B48w6BwGR3GefDwRPWO18NHc1B8n7AdPLgu_EiAdzSu4uhBxWVIv17pKo5o8w4y5Jca0Evkb0Bh3Ir78MlNLUmV3nU5NGgU9x_ENcENwCOPW7-VG-rU-6azjZjA&ad_cpn=%5BCPN%5D&sig=AOD64_341DHg9mURCTykTSt8Mp1KBQGUNg&ctype=110&video_id=G-y7MRQbNzA&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "BookCleaningJobs.com",
+        "thumbnail": "https://yt3.ggpht.com/proxy/gX_CHoKWqbUKkB-u9IhV3fd2z4wzUJCdRE0dg2mH4z9_aOf5oX6zrzpekprreNJA9-f63-NHYHqQgcTjI8rYBYmZ-bs_KfBsFtQTw2ogrESl9kCz_j9Yd-pKNZUZE8Ni5ZYQIvuGcxup0tspfamPc3vVNfEpVNNQbAowQxUIUlzkSbWft4yA5nwv1Zp4mgU5KBn4pkXLFSdGGygjs_kHOaVuz8MsLkjvRHmXAl7ZmRj-o0URwGdFmGL-XalcfZAXNewB=w68-h68-nd"
+      },
+      "description": "Serious About Scaling? Schedule A Free Strategy Call With Our Cleaning Biz Experts",
+      "thumbnail": "https://i.ytimg.com/vi/G-y7MRQbNzA/hqdefault.jpg",
+      "videoId": "G-y7MRQbNzA",
+      "url": "https://www.youtube.com/watch?v=G-y7MRQbNzA"
+    }
+  ],
+  "video_results": [
+    {
+      "position_on_page": 2,
+      "title": "IOT Based Intelligent Medical Assistant",
+      "link": "https://www.youtube.com/watch?v=7pLlOqrBOfI",
+      "video_id": "7pLlOqrBOfI",
+      "channel": {
+        "name": "Agni College of Technology",
+        "link": "https://www.youtube.com/@agnicollege",
+        "thumbnail": "https://yt3.ggpht.com/6c6XYlGqc168WIRvvW6_i-NLwJUGz_6MRLdKQuVAuRxoY5S21YIQj5MXXVuCWRggV_OVO08k_g=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 years ago",
+      "views": "1,190 views",
+      "length": "3:51",
+      "description": "ACT comes with a new invention named IOT Based Intelligent Medical Assistant to assist health care industry.",
+      "thumbnail": "https://i.ytimg.com/vi/7pLlOqrBOfI/hqdefault.jpg",
+      "videoId": "7pLlOqrBOfI",
+      "url": "https://www.youtube.com/watch?v=7pLlOqrBOfI",
+      "channelTitle": "Agni College of Technology",
+      "channelVerified": false,
+      "duration": "3:51"
+    },
+    {
+      "position_on_page": 5,
+      "title": "I Wish I Knew This Before | HEALTHCARE ADMINISTRATION",
+      "link": "https://www.youtube.com/watch?v=_2oxkikIX5c",
+      "video_id": "_2oxkikIX5c",
+      "channel": {
+        "name": "The HCA Daily with Professor Ashley",
+        "link": "https://www.youtube.com/@professorashley",
+        "thumbnail": "https://yt3.ggpht.com/GK5uE0gy4lQOiILKM6C46xcaI3a6zcrcZxnOyd0xyOzkgSrJMyZYO6PDqQjqVBuiSTKqBN36=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "195,810 views",
+      "length": "14:50",
+      "description": "Read the Blog: ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/_2oxkikIX5c/hqdefault.jpg",
+      "videoId": "_2oxkikIX5c",
+      "url": "https://www.youtube.com/watch?v=_2oxkikIX5c",
+      "channelTitle": "The HCA Daily with Professor Ashley",
+      "channelVerified": false,
+      "duration": "14:50"
+    },
+    {
+      "position_on_page": 6,
+      "title": "Nurse Assistant/Home Health Aide program at American River College",
+      "link": "https://www.youtube.com/watch?v=4UJXtZHKQIk",
+      "video_id": "4UJXtZHKQIk",
+      "channel": {
+        "name": "American River College...",
+        "link": "https://www.youtube.com/@AmericanRiverCollegeNews",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_kdYILkIC5sPmD6MEbliDSBjIW4KlMpBJGQRDC_BX81IwQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "10 years ago",
+      "views": "33,581 views",
+      "length": "4:03",
+      "description": "For more information on this program, please visit ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/4UJXtZHKQIk/hqdefault.jpg",
+      "videoId": "4UJXtZHKQIk",
+      "url": "https://www.youtube.com/watch?v=4UJXtZHKQIk",
+      "channelTitle": "American River College...",
+      "channelVerified": false,
+      "duration": "4:03"
+    },
+    {
+      "position_on_page": 8,
+      "title": "The CTE Video Gateway Project - CNA Health Assistant Gabrielle Corrales",
+      "link": "https://www.youtube.com/watch?v=VfsbRinOryA",
+      "video_id": "VfsbRinOryA",
+      "channel": {
+        "name": "True Kids 1",
+        "link": "https://www.youtube.com/@true-kids-1",
+        "thumbnail": "https://yt3.ggpht.com/PKa7bvipDahQRNXos6uG8RTf3aVof2ohRPaB2OaavPHgFSpucwNm3FTiDIat1VTc7sNZiTt-WQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "61 views",
+      "length": "3:20",
+      "description": "True Kids 1 and The Northwest Regional Educational Cooperative #2 Present The CTE Video Gateway Project: a video series on ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/VfsbRinOryA/hqdefault.jpg",
+      "videoId": "VfsbRinOryA",
+      "url": "https://www.youtube.com/watch?v=VfsbRinOryA",
+      "channelTitle": "True Kids 1",
+      "channelVerified": false,
+      "duration": "3:20"
+    },
+    {
+      "position_on_page": 10,
+      "title": "Artificial intelligence in healthcare: opportunities and challenges | Navid Toosi Saidy | TEDxQUT",
+      "link": "https://www.youtube.com/watch?v=uvqDTbusdUU",
+      "video_id": "uvqDTbusdUU",
+      "channel": {
+        "name": "TEDx Talks",
+        "link": "https://www.youtube.com/@TEDx",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/1gDPO-4YPWFErfn3yQBnv0yxpkmiud1m5CrorApkOqUYdNd9FrZQ9xB9C9VmDt4EsgArnlwqAQc=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "328,162 views",
+      "length": "8:37",
+      "description": "Artificial intelligence has the ability to revolutionise and personalise targeted healthcare for individual patients. The regulatory ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/uvqDTbusdUU/hqdefault.jpg",
+      "videoId": "uvqDTbusdUU",
+      "url": "https://www.youtube.com/watch?v=uvqDTbusdUU",
+      "channelTitle": "TEDx Talks",
+      "channelVerified": true,
+      "duration": "8:37"
+    },
+    {
+      "position_on_page": 11,
+      "title": "What does a Medical Assistant Do? Roles, Duties & Job of a Medical Assistant Explained",
+      "link": "https://www.youtube.com/watch?v=lAKRcIe0wYY",
+      "video_id": "lAKRcIe0wYY",
+      "channel": {
+        "name": "Certified Success",
+        "link": "https://www.youtube.com/@Certified-Success",
+        "thumbnail": "https://yt3.ggpht.com/W9g1lZRPr8y1HsGg0dbAegnt-VOpJd9zEFd0E3YJ35anapdHEOxOV-a_0FiGHggUYIgqV25MHQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "125,565 views",
+      "length": "10:56",
+      "description": "Become a Medical Assistant With Preppy: https://preppy.org/med-asst-with-preppy ❗❗Sign up for Nancy's Free Masterclass ...",
+      "thumbnail": "https://i.ytimg.com/vi/lAKRcIe0wYY/hqdefault.jpg",
+      "videoId": "lAKRcIe0wYY",
+      "url": "https://www.youtube.com/watch?v=lAKRcIe0wYY",
+      "channelTitle": "Certified Success",
+      "channelVerified": false,
+      "duration": "10:56"
+    },
+    {
+      "position_on_page": 12,
+      "title": "The future of AI: Robotic nurses in healthcare | FOX 5 News",
+      "link": "https://www.youtube.com/watch?v=Bxr4ElBKwLs",
+      "video_id": "Bxr4ElBKwLs",
+      "channel": {
+        "name": "FOX 5 Atlanta",
+        "link": "https://www.youtube.com/@fox5atlanta",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/WIRgF0eBtaOW8vEetzylnHLi0hQN5mGXRYE4omVTC9hcCtHcrcwg5PEXbOx6QMQI_rqejT245g=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "10,679 views",
+      "length": "1:51",
+      "description": "One company has deployed what is thought to be the world's first fully robotic medical assistant. Subscribe to FOX 5 Atlanta!",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Bxr4ElBKwLs/hqdefault.jpg",
+      "videoId": "Bxr4ElBKwLs",
+      "url": "https://www.youtube.com/watch?v=Bxr4ElBKwLs",
+      "channelTitle": "FOX 5 Atlanta",
+      "channelVerified": true,
+      "duration": "1:51"
+    },
+    {
+      "position_on_page": 14,
+      "title": "AI in Healthcare : Build an AI-Powered Healthcare App in 30 Days | AI Healthcare App Development",
+      "link": "https://www.youtube.com/watch?v=O89Tik6wJXA",
+      "video_id": "O89Tik6wJXA",
+      "channel": {
+        "name": "Code Brew Labs",
+        "link": "https://www.youtube.com/@codebrewappdevelopment",
+        "thumbnail": "https://yt3.ggpht.com/r7w3RU_FQbihsr-r_NhOdgaftQm4ypesvqhswURxgyhfho5dmg4dmQZ4YgkZHNL7cpq49zSwLw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "11 months ago",
+      "views": "4,014 views",
+      "length": "8:13",
+      "description": "Want to build your own AI-Powered Healthcare app? Book a Free Demo Call with us here: https://bit.ly/4uWFZgA If you're ...",
+      "thumbnail": "https://i.ytimg.com/vi/O89Tik6wJXA/hqdefault.jpg",
+      "videoId": "O89Tik6wJXA",
+      "url": "https://www.youtube.com/watch?v=O89Tik6wJXA",
+      "channelTitle": "Code Brew Labs",
+      "channelVerified": false,
+      "duration": "8:13"
+    },
+    {
+      "position_on_page": 15,
+      "title": "How Virtual Medical Assistants Can Simplify Medical Billing and Coding?",
+      "link": "https://www.youtube.com/watch?v=8eLX5hxPJ_w",
+      "video_id": "8eLX5hxPJ_w",
+      "channel": {
+        "name": "Staffingly, Inc",
+        "link": "https://www.youtube.com/@staffingly",
+        "thumbnail": "https://yt3.ggpht.com/jHQxV1DYPdQgMYDr_2rhdUWWVEnVuhAT1p-SG9367iKf2tD61f6nNHLGPKeexVx-Erl-7y5DgHw=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "754 views",
+      "length": "4:14",
+      "description": "How Virtual Medical Assistants Can Simplify Medical Billing and Coding? Read full Article ...",
+      "thumbnail": "https://i.ytimg.com/vi/8eLX5hxPJ_w/hqdefault.jpg",
+      "videoId": "8eLX5hxPJ_w",
+      "url": "https://www.youtube.com/watch?v=8eLX5hxPJ_w",
+      "channelTitle": "Staffingly, Inc",
+      "channelVerified": false,
+      "duration": "4:14"
+    },
+    {
+      "position_on_page": 16,
+      "title": "HealthMate.AI | Smart AI Healthcare Assistant | Bolt Hackathon Project 2025",
+      "link": "https://www.youtube.com/watch?v=TLK5fV4T3NI",
+      "video_id": "TLK5fV4T3NI",
+      "channel": {
+        "name": "HealthMate",
+        "link": "https://www.youtube.com/@HealthMate.Ai08",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_ndcvfGMjJ5N0T9FGGljlW0MIasnhQ51n8SqWws3I87BZNWS8mHL02lh20MpWB32TlN3A=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "242 views",
+      "length": "14:14",
+      "description": "Welcome to HealthMate.AI – your smart AI-powered healthcare assistant designed to support patients during post-hospital ...",
+      "thumbnail": "https://i.ytimg.com/vi/TLK5fV4T3NI/hqdefault.jpg",
+      "videoId": "TLK5fV4T3NI",
+      "url": "https://www.youtube.com/watch?v=TLK5fV4T3NI",
+      "channelTitle": "HealthMate",
+      "channelVerified": false,
+      "duration": "14:14"
+    },
+    {
+      "position_on_page": 18,
+      "title": "How to Build A Healthcare Mobile App with AI + ChatGPT 🚑",
+      "link": "https://www.youtube.com/watch?v=56MD5YtKo0c",
+      "video_id": "56MD5YtKo0c",
+      "channel": {
+        "name": "Dennis Babych",
+        "link": "https://www.youtube.com/@dennisbabych",
+        "thumbnail": "https://yt3.ggpht.com/-JGyk0Z3OCTHKBmHsIjnEsM_TOMKOnmv48n7kf57LubUvJG0xawLMiSjthu0YWrRU53jymTWWg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "110,622 views",
+      "length": "19:15",
+      "description": "Learn How to Build A Healthcare Mobile App? step by step tutorial/guide: Book a FREE call to discuss your idea ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/56MD5YtKo0c/hqdefault.jpg",
+      "videoId": "56MD5YtKo0c",
+      "url": "https://www.youtube.com/watch?v=56MD5YtKo0c",
+      "channelTitle": "Dennis Babych",
+      "channelVerified": false,
+      "duration": "19:15"
+    },
+    {
+      "position_on_page": 19,
+      "title": "Building a Clinical AI Assistant with Claude",
+      "link": "https://www.youtube.com/watch?v=AxNhO-e3ubA",
+      "video_id": "AxNhO-e3ubA",
+      "channel": {
+        "name": "NextWork",
+        "link": "https://www.youtube.com/@itsnextwork",
+        "thumbnail": "https://yt3.ggpht.com/vVRkctWN9VUk-a-Dr-ySmEtKp1Ngo87YcfpfwYL8R4U3HPYqZAu5jeQM4Eu3xYtT76ddGw-QPQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 months ago",
+      "views": "3,969 views",
+      "length": "1:08:44",
+      "description": "Get the full step-by-step project guide here: https://learn.nextwork.org/projects/ai-prompt-engineering-healthcare Welcome to the ...",
+      "thumbnail": "https://i.ytimg.com/vi/AxNhO-e3ubA/hqdefault.jpg",
+      "videoId": "AxNhO-e3ubA",
+      "url": "https://www.youtube.com/watch?v=AxNhO-e3ubA",
+      "channelTitle": "NextWork",
+      "channelVerified": false,
+      "duration": "1:08:44"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 3,
+      "shorts": [
+        {
+          "title": "Arduino Health Assistant System | Arduino Health Monitoring System | Arduino Wireless Health Monitor",
+          "link": "https://www.youtube.com/shorts/U4Y17Tc-ZyM",
+          "thumbnail": "https://i.ytimg.com/vi/U4Y17Tc-ZyM/frame0.jpg",
+          "views_original": "299K views",
+          "views": 299000,
+          "video_id": "U4Y17Tc-ZyM"
+        },
+        {
+          "title": "Health  Monitoring System of Patient  Based on IOT Using ESP8266 & ARDUINO #school #science #health",
+          "link": "https://www.youtube.com/shorts/7B01Ano90LI",
+          "thumbnail": "https://i.ytimg.com/vi/7B01Ano90LI/frame0.jpg",
+          "views_original": "32K views",
+          "views": 32000,
+          "video_id": "7B01Ano90LI"
+        },
+        {
+          "title": "1 Unique Project Idea | Health Care Assistance using NLTK with Source Code | #shorts #mlprojects",
+          "link": "https://www.youtube.com/shorts/3oJetj8nT6E",
+          "thumbnail": "https://i.ytimg.com/vi/3oJetj8nT6E/frame0.jpg",
+          "views_original": "3K views",
+          "views": 3000,
+          "video_id": "3oJetj8nT6E"
+        },
+        {
+          "title": "A Day in the Life of a Certified Medical Assistant at Health First.",
+          "link": "https://www.youtube.com/shorts/omrEj5JPnM0",
+          "thumbnail": "https://i.ytimg.com/vi/omrEj5JPnM0/frame0.jpg",
+          "views_original": "26K views",
+          "views": 26000,
+          "video_id": "omrEj5JPnM0"
+        },
+        {
+          "title": "ChatGPT for Doctors | AI-Powered Medical Assistant",
+          "link": "https://www.youtube.com/shorts/gf5MCaKyPqE",
+          "thumbnail": "https://i.ytimg.com/vi/gf5MCaKyPqE/frame0.jpg",
+          "views_original": "32K views",
+          "views": 32000,
+          "video_id": "gf5MCaKyPqE"
+        }
+      ]
+    },
+    {
+      "position_on_page": 9,
+      "shorts": [
+        {
+          "title": "Day in the life of a HCA | Recruitment",
+          "link": "https://www.youtube.com/shorts/G9Bv-vUgmjA",
+          "thumbnail": "https://i.ytimg.com/vi/G9Bv-vUgmjA/frame0.jpg",
+          "views_original": "53K views",
+          "views": 53000,
+          "video_id": "G9Bv-vUgmjA"
+        },
+        {
+          "title": "Medical Assistant Duties and Responsibilities | Medical Assistant Job Description",
+          "link": "https://www.youtube.com/shorts/wRajMwyh2k8",
+          "thumbnail": "https://i.ytimg.com/vi/wRajMwyh2k8/frame0.jpg",
+          "views_original": "10K views",
+          "views": 10000,
+          "video_id": "wRajMwyh2k8"
+        },
+        {
+          "title": "Track your Health with AI Sheela G - Your Personal Conversational Healthcare Assistant",
+          "link": "https://www.youtube.com/shorts/GcwKRnfISOE",
+          "thumbnail": "https://i.ytimg.com/vi/GcwKRnfISOE/frame0.jpg",
+          "views_original": "341 views",
+          "views": 341,
+          "video_id": "GcwKRnfISOE"
+        },
+        {
+          "title": "Experience a Day in the Life of a Medical Assistant! 🩺✨ #HealthcareHeroes #MedicalAssistant",
+          "link": "https://www.youtube.com/shorts/ZXY8x1gNyRU",
+          "thumbnail": "https://i.ytimg.com/vi/ZXY8x1gNyRU/frame0.jpg",
+          "views_original": "68K views",
+          "views": 68000,
+          "video_id": "ZXY8x1gNyRU"
+        },
+        {
+          "title": "Teamwork| NHS Job Interview Strategy |Healthcare Assistant  job interview",
+          "link": "https://www.youtube.com/shorts/PV9oKCeM01Y",
+          "thumbnail": "https://i.ytimg.com/vi/PV9oKCeM01Y/frame0.jpg",
+          "views_original": "28K views",
+          "views": 28000,
+          "video_id": "PV9oKCeM01Y"
+        },
+        {
+          "title": "This is What a Day in the Life of a Medical Assistant Looks Like!",
+          "link": "https://www.youtube.com/shorts/wYwrCR-eNfY",
+          "thumbnail": "https://i.ytimg.com/vi/wYwrCR-eNfY/frame0.jpg",
+          "views_original": "19K views",
+          "views": 19000,
+          "video_id": "wYwrCR-eNfY"
+        },
+        {
+          "title": "POV: Your medical assistant got into PA school 🥴",
+          "link": "https://www.youtube.com/shorts/j2B0_vfUm2g",
+          "thumbnail": "https://i.ytimg.com/vi/j2B0_vfUm2g/frame0.jpg",
+          "views_original": "48K views",
+          "views": 48000,
+          "video_id": "j2B0_vfUm2g"
+        },
+        {
+          "title": "NURSING ASSISTANT INTERVIEW QUESTIONS & ANSWERS! (How to Pass Your Healthcare Interview) #Nursing",
+          "link": "https://www.youtube.com/shorts/T5_-nYepcBg",
+          "thumbnail": "https://i.ytimg.com/vi/T5_-nYepcBg/frame0.jpg",
+          "views_original": "408K views",
+          "views": 408000,
+          "video_id": "T5_-nYepcBg"
+        },
+        {
+          "title": "A Day In The Life of a Medical Assistant 🩺 #medicalassistant #healthcare",
+          "link": "https://www.youtube.com/shorts/IwJPaaahQXE",
+          "thumbnail": "https://i.ytimg.com/vi/IwJPaaahQXE/frame0.jpg",
+          "views_original": "318K views",
+          "views": 318000,
+          "video_id": "IwJPaaahQXE"
+        },
+        {
+          "title": "day in the life as a medical assistant",
+          "link": "https://www.youtube.com/shorts/1NKLxg5oeEo",
+          "thumbnail": "https://i.ytimg.com/vi/1NKLxg5oeEo/frame0.jpg",
+          "views_original": "1.7M views",
+          "views": 1700000,
+          "video_id": "1NKLxg5oeEo"
+        },
+        {
+          "title": "Healthcare Assistant program",
+          "link": "https://www.youtube.com/shorts/_1z57noPXz8",
+          "thumbnail": "https://i.ytimg.com/vi/_1z57noPXz8/frame0.jpg",
+          "views_original": "67 views",
+          "views": 67,
+          "video_id": "_1z57noPXz8"
+        },
+        {
+          "title": "Multimodal Biomedical AI - 2f Virtual health assistant",
+          "link": "https://www.youtube.com/shorts/G_wVzAqyBR8",
+          "thumbnail": "https://i.ytimg.com/vi/G_wVzAqyBR8/frame0.jpg",
+          "views_original": "159 views",
+          "views": 159,
+          "video_id": "G_wVzAqyBR8"
+        },
+        {
+          "title": "MEDVA - Hiring Medical VA- no experience needed #MEDVA #wfh #hiringph #remotework",
+          "link": "https://www.youtube.com/shorts/L8PYobMWcLQ",
+          "thumbnail": "https://i.ytimg.com/vi/L8PYobMWcLQ/frame0.jpg",
+          "views_original": "50K views",
+          "views": 50000,
+          "video_id": "L8PYobMWcLQ"
+        },
+        {
+          "title": "Mic'd Up Blood Draw as a Medical Assistant Student",
+          "link": "https://www.youtube.com/shorts/f1YrDSOp2Rw",
+          "thumbnail": "https://i.ytimg.com/vi/f1YrDSOp2Rw/frame0.jpg",
+          "views_original": "38K views",
+          "views": 38000,
+          "video_id": "f1YrDSOp2Rw"
+        },
+        {
+          "title": "Reason’s I regret becoming a Medical Assistant: 0",
+          "link": "https://www.youtube.com/shorts/7-Va3U9dDDw",
+          "thumbnail": "https://i.ytimg.com/vi/7-Va3U9dDDw/frame0.jpg",
+          "views_original": "272K views",
+          "views": 272000,
+          "video_id": "7-Va3U9dDDw"
+        },
+        {
+          "title": "Medical Assistant Student Testimonial 🩺💙 | Building Confidence & Real Healthcare Skills",
+          "link": "https://www.youtube.com/shorts/QnxjjRrTYgc",
+          "thumbnail": "https://i.ytimg.com/vi/QnxjjRrTYgc/frame0.jpg",
+          "views_original": "31 views",
+          "views": 31,
+          "video_id": "QnxjjRrTYgc"
+        },
+        {
+          "title": "🤯 AI in Healthcare—How Hospitals Will Change in 3 Years!",
+          "link": "https://www.youtube.com/shorts/bUXNSLf9gdM",
+          "thumbnail": "https://i.ytimg.com/vi/bUXNSLf9gdM/frame0.jpg",
+          "views_original": "21K views",
+          "views": 21000,
+          "video_id": "bUXNSLf9gdM"
+        },
+        {
+          "title": "HEALTHCARE ASSISTANT INTERVIEW QUESTIONS! How to PASS a HCA Interview! #hca #jobinterview #nhsjobs",
+          "link": "https://www.youtube.com/shorts/ThQ357EwfCY",
+          "thumbnail": "https://i.ytimg.com/vi/ThQ357EwfCY/frame0.jpg",
+          "views_original": "143K views",
+          "views": 143000,
+          "video_id": "ThQ357EwfCY"
+        },
+        {
+          "title": "Project Medicine Serving Robot.  For more details visit our site https://tinkerspace.in/",
+          "link": "https://www.youtube.com/shorts/wFMcvVM89YQ",
+          "thumbnail": "https://i.ytimg.com/vi/wFMcvVM89YQ/frame0.jpg",
+          "views_original": "14K views",
+          "views": 14000,
+          "video_id": "wFMcvVM89YQ"
+        },
+        {
+          "title": "Has Healthcare Standardization Gone Too Far? #healthsystemCIO #HealthcareAI #HealthIT",
+          "link": "https://www.youtube.com/shorts/5iP2MDEhp14",
+          "thumbnail": "https://i.ytimg.com/vi/5iP2MDEhp14/frame0.jpg",
+          "views_original": "36 views",
+          "views": 36,
+          "video_id": "5iP2MDEhp14"
+        }
+      ]
+    }
+  ],
+  "playlist_results": [
+    {
+      "position_on_page": 17,
+      "title": "civil Surgeon health assistant",
+      "link": "https://www.youtube.com/playlist?list=PLVnIMbrG5UuMx6KcJqMcpbLVXgZu3CCOP",
+      "channel": {
+        "name": "BD Job Qus",
+        "link": "https://www.youtube.com/@Mainulatikkhann"
+      },
+      "videos": [
+        {
+          "title": "সিভিল সার্জনের কার্যালয়ের স্বাস্থ্য সহকারী প্রশ্ন সমাধান ২০২৪।Health Assistant Question Solve #job",
+          "length": "8:26",
+          "link": "https://www.youtube.com/watch?v=r4wdJDXyflc&list=PLVnIMbrG5UuMx6KcJqMcpbLVXgZu3CCOP&pp=0gcJCeIE0aJEHMZM"
+        },
+        {
+          "title": "Civil Surgeon  health assistant qus solve.স্বাস্থ্যকর্মী প্রশ্ন সমাধান সিভিল সার্জন।#bcs #civil#bcs",
+          "length": "9:05",
+          "link": "https://www.youtube.com/watch?v=Db73Dz_QSMk&list=PLVnIMbrG5UuMx6KcJqMcpbLVXgZu3CCOP"
+        }
+      ],
+      "video_count": 7,
+      "thumbnail": "https://i.ytimg.com/vi/r4wdJDXyflc/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAzSF-BZX0wjiMrCiPNbjBtBGL3UQ"
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=Health+Assistant+Project",
+    "next": "https://www.youtube.com/results?search_query=Health%20Assistant%20Project&sp=SBSCAQs3cExsT3FyQk9mSYIBC18yb3hraWtJWDVjggELNFVKWHRaSEtRSWuCAQtWZnNiUmluT3J5QYIBC3V2cURUYnVzZFVVggELbEFLUmNJZTB3WVmCAQtCeHI0RWxCS3dMc4IBC084OVRpazZ3SlhBggELOGVMWDVoeFBKX3eCAQtUTEs1ZlY0VDNOSYIBIlBMVm5JTWJyRzVVdU14NktjSnFNY3BiTFZYZ1p1M0NDT1CCAQs1Nk1ENVl0S28wY4IBC0F4TmhPLWUzdWJBsgEGCgQIExAC6gEECAIQGQ%253D%253D",
+    "next_page_token": "SBSCAQs3cExsT3FyQk9mSYIBC18yb3hraWtJWDVjggELNFVKWHRaSEtRSWuCAQtWZnNiUmluT3J5QYIBC3V2cURUYnVzZFVVggELbEFLUmNJZTB3WVmCAQtCeHI0RWxCS3dMc4IBC084OVRpazZ3SlhBggELOGVMWDVoeFBKX3eCAQtUTEs1ZlY0VDNOSYIBIlBMVm5JTWJyRzVVdU14NktjSnFNY3BiTFZYZ1p1M0NDT1CCAQs1Nk1ENVl0S28wY4IBC0F4TmhPLWUzdWJBsgEGCgQIExAC6gEECAIQGQ%3D%3D"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=Health+Assistant+Project",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=Health+Assistant+Project&sp=SBSCAQs3cExsT3FyQk9mSYIBC18yb3hraWtJWDVjggELNFVKWHRaSEtRSWuCAQtWZnNiUmluT3J5QYIBC3V2cURUYnVzZFVVggELbEFLUmNJZTB3WVmCAQtCeHI0RWxCS3dMc4IBC084OVRpazZ3SlhBggELOGVMWDVoeFBKX3eCAQtUTEs1ZlY0VDNOSYIBIlBMVm5JTWJyRzVVdU14NktjSnFNY3BiTFZYZ1p1M0NDT1CCAQs1Nk1ENVl0S28wY4IBC0F4TmhPLWUzdWJBsgEGCgQIExAC6gEECAIQGQ%253D%253D",
+    "next_page_token": "SBSCAQs3cExsT3FyQk9mSYIBC18yb3hraWtJWDVjggELNFVKWHRaSEtRSWuCAQtWZnNiUmluT3J5QYIBC3V2cURUYnVzZFVVggELbEFLUmNJZTB3WVmCAQtCeHI0RWxCS3dMc4IBC084OVRpazZ3SlhBggELOGVMWDVoeFBKX3eCAQtUTEs1ZlY0VDNOSYIBIlBMVm5JTWJyRzVVdU14NktjSnFNY3BiTFZYZ1p1M0NDT1CCAQs1Nk1ENVl0S28wY4IBC0F4TmhPLWUzdWJBsgEGCgQIExAC6gEECAIQGQ%3D%3D"
+  }
+}

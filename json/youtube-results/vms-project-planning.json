@@ -1,0 +1,763 @@
+{
+  "search_metadata": {
+    "id": "6a9d49d3d649a938073a8be7",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/hV1hQkIBpVmy_TAQkZBap04JbTFzpRNsoqikLM-62OE/6a9d49d3d649a938073a8be7.json",
+    "markdown_endpoint": "https://serpapi.com/searches/hV1hQkIBpVmy_TAQkZBap04JbTFzpRNsoqikLM-62OE/6a9d49d3d649a938073a8be7.md",
+    "created_at": "2026-09-06 11:09:07 UTC",
+    "processed_at": "2026-09-06 11:09:07 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=VMS+Project+Planning",
+    "raw_html_file": "https://serpapi.com/searches/hV1hQkIBpVmy_TAQkZBap04JbTFzpRNsoqikLM-62OE/6a9d49d3d649a938073a8be7.html",
+    "total_time_taken": 1.68
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "VMS Project Planning"
+  },
+  "search_information": {
+    "total_results": 417386,
+    "video_results_state": "Results for exact spelling"
+  },
+  "ads_results": [
+    {
+      "position_on_page": 1,
+      "title": "Ford Maverick: made for whatever comes your way.​",
+      "link": "https://www.youtube.com/watch?v=ay2b0iNsczw",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CvskU1EmdasrFD9jbmsUPjfHnsAX1xYm7iQGhh_KzrhZkEAEgAGDJnrOJkKToD4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGz6uTDPqgDBMgDCqoExQJP0JBMEdhOpZKZhIiBCPlRpgbypwtFLjqHxULg7kTocrxxMKrem4LeC9Q0E7HXgLx8aN3ta1quQMrh6ZOfwdGU5EVJjF1Jzo2huthB6gK0KJOfmK0by676cNQmpEFcRSyBIIVKyZrVXS-ZNuebX3QchuHggk2pOYf689rLyhM_ndnNjUflcKHNQP0kLC8coH56a0ist1ZWdvOg-8HBWSynfKSYn8uVt7amoZjZBj-sTluNtJlOqn-Gf9bTh7r1nOyRsM23GNMuQoDAw8w2tfAhVzNWiMIEPboihj7jPRnxd4Jg1WSgZJJzO7q1CK_gYGYaFsI85_OMSDHV5j_Ur-MvNWReCR3j57MjNwuRQioQcFFGgADRQsPAAlm-rUMJ7NQuAhTc2rAKMqS42f6JJfP48zTvXRjvehYffCKqfgLNJ_psLbtQiAXEsezfVpIFCAgTeOfe_7IZoAahAYAHs6K1oxmQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxAqgHwsixApIIC2F5MmIwaU5zY3p3qAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRY4OqrvujZlgNgAZoJKmh0dHBzOi8vd3d3LmZvcmQuY29tL3RydWNrcy9tYXZlcmljay8yMDI2L7EJUo9nFkXUXtDICRfICY8ByAnCAcgJlwK6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBA4ACAYgCBboDBXZpY2Jm0AsS4AsBogwyYhUKE2NvbS5zaWVtZW5zLmZvcmQ4MEFqFAoSY29tLmZvcmQuZm9yZGFsZXhheACIAQDSDAIQAdoMJgoLEKCe-8HkhYXjqAESAgEDGg0YxLHs31YgvPjF6MIFQAFKAhAfmg0BEqoNAlVTyA0B0g2_BWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OMzAxNi41MjY3OTI1R01ORVhVU01FRElBLVNPTFVUSS9CMzQ1ODIyNDEuNDM0MjMyMTg2O2RjX3Rya19haWQ9NjQ5MDkxNTQ5O2RjX3Rya19jaWQ9MjYyMjg0NTA5O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTZDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSXhMSHMzMWFvQXVmZV83SVpzQUw3enJUb0EwQTdFTlhFVkRqb1NjZ3E0ZEJZbkt6M2taT2c1elE9O2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2dkcHI9JHtHRFBSfTtnZHByX2NvbnNlbnQ9JHtHRFBSX0NPTlNFTlRfNzU1fTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7O2RjX3J1aT0xO2RjX2Vwcz1BSGFzOGNEVHNlUDZaMWx5TUx2WHdIWnlwRUNyYmFwVGFLM05nUDlvaGpmam5qaXNTRy1JNnhEcFQwQ2RfWTJLWUNDMUJkSHkzNVI3VFRISEZacmw1ZztkY19wdWJpZD02P2h0dHBzOi8vd3d3LmZvcmQuY29tL3RydWNrcy9tYXZlcmljay8yMDI2Lz9sZWFkc291cmNlPWZkYWYtYmFubmVyYWQmYmFubmVyaWQ9MzQ1ODIyNDF8OTgwODMxMnw0MzQyMzIxODZ8MjYyMjg0NTA5fDY0OTA5MTU0OSZmY2lkPWRpc18zNDU4MjI0MV85ODA4MzEyLVlURCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjMyODY0NTQ0NjiwE-OcuyS4E____________wGwFAPAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakX0HS17cFp76e6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIyv-rvujZlgMV2K2mAh2N-BlWEAEYASAAEgJYFvD_BwE&num=1&cid=CAASwgHkaOCYesZPWvHB5fTEWAfIPgvehbgFNi1mjAczJXCro00S08LMZxtR15xA-PS4OtRPmMz4WFLoaRuwY-dFivv55gu-NyVo1XWR7Q-dms7z5JU8IbpuZJeVFaR1WmUSnIA89SC04L-07GEA4c_6ALEVIwJL6SWO3kysQeD2S5rQsYEkdVZFMdCyL0zmOypJNgLt_tXyTurIhVzSqRNpR-eZpu4xcLtu8mKi89NRdv8YFN5WKEHwS66pOSViol8XkRPWGQ&ad_cpn=%5BCPN%5D&sig=AOD64_2Kzglbkch_hQSLE0XI69JiaGNdWw&ctype=110&video_id=ay2b0iNsczw&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Ford",
+        "thumbnail": "https://yt3.ggpht.com/proxy/CcO1kwb0wHsy5J4tRTNPTDGlSPeGeiykAuN1FBSeIZhuqDVMnBQPCYTBr5JrhvbVGAxaUtEkUXQdwunKK3D8iB3CryGYstiisX1Gzqkw3XWFpaYhxGHdbw6G0lswwRRKs51nRq9yimW_byVr4gF-SX4lABxJeR33xOD1xzlEdWB8nhe1nHtiG25z8LBKKjRjO5flgOKWeIkHQuLD2hYxX60czXzWYwecHzqkdfhOmaK7cyzPnaWXa9zIV8ypMaRpKsLjnxU=w68-h68-nd"
+      },
+      "description": "You can take on just about any road, paved or unpaved, with Ford Maverick.",
+      "thumbnail": "https://i.ytimg.com/vi/ay2b0iNsczw/hqdefault.jpg",
+      "videoId": "ay2b0iNsczw",
+      "url": "https://www.youtube.com/watch?v=ay2b0iNsczw"
+    },
+    {
+      "position_on_page": 4,
+      "title": "Stevesie Data",
+      "link": "https://www.youtube.com/watch?v=HBNeORaayYo",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=COghq1EmdasrFD9jbmsUPjfHnsAXWkfOxiQHh0YGuoRawkB8QAiAAYMmes4mQpOgPggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLR8tgDqAMEyAMKqgSnAk_QkEwR2E6lkpmEiIEI-VGmBvKnC0UuOofFQuDuROhyvHEwqt6bgt4L1DQTsdeAvHxo3e1rWq5AyuHpk5_B0ZTkRUmMXUnOjaG62EHqArQok5-YrRvLrvpw1CakQVxFLIEghUrJmtVdL5k255tfdByG4eCCTak5h_rz2svKEz-d2c2NR-Vwoc1A_SQsLxygfnprSKy3VlZ286D7wcFZLKd8pJify5W3tqahmNkGP6xOW420mU6qf4Z_1tOHuvWc7JGwzbcY0y5CgMDDzDa18CFXM1aIwgQ9uiKGPuM9GfF3nmfTZKBtknNUoaUyq_Jjs_zN7fH_rQOREk3v3VJBtkGE55kicIrnSCAGAYCYXeHQe_mJlDehG_ybHuTghRrsLPWGMyM_5zKIBdjnkflZkgUHCBN43qTSJ6AGoQGAB_atjSeQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0hCTmVPUmFheVlvqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRY4OqrvujZlgNgAZoJGWh0dHBzOi8vc3RldmVzaWUuY29tL2FwcHOxCYXncdeU-FKmyAkXyAmPAcgJwgHICZcCmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWNiZtALEtIMAhAB2gwmCgsQ0PL4r9nk687UARICAQMaDRjY55H5WSD6-MeH1QVAAUoCEB-aDQESqg0CVVPIDQHSDUFodHRwczovL3N0ZXZlc2llLmNvbS9hcHBzP2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDE0NDgwMjc3NrgT____________AYgUAbAUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRcytIcweErcJ7oXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIyv-rvujZlgMV2K2mAh2N-BlWEAEYAiAAEgIH4vD_BwE&num=2&cid=CAASwgHkaOCYesZPWvHB5fTEWAfIPgvehbgFNi1mjAczJXCro00S08LMZxtR15xA-PS4OtRPmMz4WFLoaRuwY-dFivv55gu-NyVo1XWR7Q-dms7z5JU8IbpuZJeVFaR1WmUSnIA89SC04L-07GEA4c_6ALEVIwJL6SWO3kysQeD2S5rQsYEkdVZFMdCyL0zmOypJNgLt_tXyTurIhVzSqRNpR-eZpu4xcLtu8mKi89NRdv8YFN5WKEHwS66pOSViol8XkRPWGQ&ad_cpn=%5BCPN%5D&sig=AOD64_1--NlOmWcUdtdUSdtZR4UKf2ndUQ&ctype=110&video_id=HBNeORaayYo&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Stevesie Data",
+        "thumbnail": "https://yt3.ggpht.com/proxy/-0cq4XjmDDxB61LEnuNEQ-efJC03boT0Q1paPJrW92Zs1Q3FaC4VPAlmk3AZFBvfp3Poo1DdyzKgNigHPL4tMgk2cESPXmo8W4pWFFGkEH1NTYp4b2Hf71yMESUf4Wkyy2CdRIhVrolqaBaKo6F-Yol1JGN1rgJVu5-6GOYgeBzCt-PglvyGbUTD1ju6qvqigF5HDGOpNZhPGq8FlgwjToy8n5XxL_-ZVfLd03YzX2rWJoMrAiiiw9S6faAUMRrmPIOlFis=w68-h68-nd"
+      },
+      "description": "Scrape Data Not Screens",
+      "thumbnail": "https://i.ytimg.com/vi/HBNeORaayYo/hqdefault.jpg",
+      "videoId": "HBNeORaayYo",
+      "url": "https://www.youtube.com/watch?v=HBNeORaayYo"
+    },
+    {
+      "position_on_page": 7,
+      "title": "Get 3 months of full access to Shopify for $1/mo",
+      "link": "https://www.youtube.com/watch?v=5JXRUFEOvPs",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CwfXN1EmdasrFD9jbmsUPjfHnsAXwhOCoiAHX95PwgRawkB8QAyAAYMmes4mQpOgPggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLy-5sqqQJqSn6p-K22PqgDBMgDCqoEoAJP0JBMEdhOpZKZhIiBCPlRpgbypwtFLjqHxULg7kTocrxxMKrem4LeC9Q0E7HXgLx8aN3ta1quQMrh6ZOfwdGU5EVJjF1Jzo2huthB6gK0KJOfmK0by676cNQmpEFcRSyBIIVKyZrVXS-ZNuebX3QchuHggk2pOYf689rLyhM_ndnNjUflcKHNQP0kLC8coH56a0ist1ZWdvOg-8HBWSynfKSYn8uVt7amoZjZBj-sTluNtJlOqn-Gf9bTh7r1nOyRsM23GNMuQoDAw8w2tfAhVzNWiMIEPboihj7jPRnxd5_mEqanoFjGXdXPzVQU1oq3s8_k__Ik0YjlfdXxQPVTNMe2Cfr483PDH70TYf9t7kv3U2_BkTXkAsterDyDXgGIBciH1bxZkgUICBN4s-fvrAWgBqEBgAfyqsz7BJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbECkggLNUpYUlVGRU92UHOoCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjg6qu-6NmWA2ABmglNaHR0cHM6Ly93d3cuc3R5bGVmYWN0b3J5cHJvZHVjdGlvbnMuY29tL2hvdy10by11bmxvY2stYS0zLW1vbnRoLXNob3BpZnktdHJpYWyxCUdZPwtsk3w8yAkXyAmPAcgJwgGYCwG6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCEroDBXZpY2Jm0AsT0gwCEAHaDCUKChCQ2O2D9bHKzGsSAgEDGg0YyIfVvFkgj7Sy4d0FQAFKAhAfmg0BE6oNAlVTyA0B0g11aHR0cHM6Ly93d3cuc3R5bGVmYWN0b3J5cHJvZHVjdGlvbnMuY29tL2hvdy10by11bmxvY2stYS0zLW1vbnRoLXNob3BpZnktdHJpYWw_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MDE3OTc4MzEyuBP___________8BsBQDwBWBgIBA0BUB2BUBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqReNjtQReSwWPboXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=EAIaIQobChMIyv-rvujZlgMV2K2mAh2N-BlWEAEYAyAAEgJ0hfD_BwE&num=3&cid=CAASwgHkaOCYesZPWvHB5fTEWAfIPgvehbgFNi1mjAczJXCro00S08LMZxtR15xA-PS4OtRPmMz4WFLoaRuwY-dFivv55gu-NyVo1XWR7Q-dms7z5JU8IbpuZJeVFaR1WmUSnIA89SC04L-07GEA4c_6ALEVIwJL6SWO3kysQeD2S5rQsYEkdVZFMdCyL0zmOypJNgLt_tXyTurIhVzSqRNpR-eZpu4xcLtu8mKi89NRdv8YFN5WKEHwS66pOSViol8XkRPWGQ&ad_cpn=%5BCPN%5D&sig=AOD64_0R_fo2JDV0NxWDjQ6ig6JQnjizsg&ctype=110&video_id=5JXRUFEOvPs&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Style Factory",
+        "thumbnail": "https://yt3.ggpht.com/proxy/lXILA8k5vCLoCqam4gFoS6UzbgO-H0JeHffp3_WwddZvVWNIeFZk7rXSvqdZ4TodxkslRpIOY8naQiAu2agA9g_MHehKzzDhp8v2jKPVWA1ZPOt-mb1Zf6EPOO3I9XGf_PFKlonXkTPSht4hLbIroCeRBdEp4IBh8KJaYvxzWpFHXX5jvAAWYT0GCpdKaeVSdsWDnlrwRBAlmnBiiNqDiJHMa3jfliJ5wXgG1367owc0fJx0ik1Z0zJQDwKyN9TLG0ux=w68-h68-nd"
+      },
+      "description": "Find out how you can unlock an extended Shopify trial.",
+      "thumbnail": "https://i.ytimg.com/vi/5JXRUFEOvPs/hqdefault.jpg",
+      "videoId": "5JXRUFEOvPs",
+      "url": "https://www.youtube.com/watch?v=5JXRUFEOvPs"
+    },
+    {
+      "position_on_page": 13,
+      "title": "Omnisend’s 24/7 Email & SMS support is powered by real humans – always.",
+      "link": "https://www.youtube.com/watch?v=mbVMR4OBnw0",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CX2AZ1EmdasrFD9jbmsUPjfHnsAWcy8uKiQHmlJ2h3RWwkB8QBCAAYMmes4mQpOgPggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAcik7IgDqQJRsKvVDnyzPqgDBMgDCqoEpgJP0JBMEdhOpZKZhIiBCPlRpgbypwtFLjqHxULg7kTocrxxMKrem4LeC9Q0E7HXgLx8aN3ta1quQMrh6ZOfwdGU5EVJjF1Jzo2huthB6gK0KJOfmK0by676cNQmpEFcRSyBIIVKyZrVXS-ZNuebX3QchuHggk2pOYf689rLyhM_ndnNjUflcKHNQP0kLC8coH56a0ist1ZWdvOg-8HBWSynfKSYn8uVt7amoZjZBj-sTluNtJlOqn-Gf9bTh7r1nOyRsM23GNMuQoDAw8w2tfAhVzNWiMIEPboihj7jPRnxd9jzEqanoFilZZKKzlQU_4_qaAc0QwYo5vWd5V_b89bRHXewCdnusETZN9GqpBRcypR3orY3rQ80sSKtXZU47CLjN1d0Mx6IBbLTjqpWkgUHCBN4muKyd6AGoQGAB6Dbk3eQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC21iVk1SNE9CbncwqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRY4OqrvujZlgNgAZoJLGh0dHBzOi8vd3d3Lm9tbmlzZW5kLmNvbS93b29jb21tZXJjZS1wbHVnaW4vsQnBX7qruRo0l8gJF8gJjwHICcIByAmXApgLAboLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMFdmljYmbQCxLSDAIQAdoMJgoLELCIpYmOvp_M2wESAgEDGg0YstOOqlYghrr-4OgFQAFKAhAfmg0BEqoNAlVTyA0B0g3MAmh0dHBzOi8vd3d3Lm9tbmlzZW5kLmNvbS93b29jb21tZXJjZS1wbHVnaW4vP3V0bV90ZXJtPSZ1dG1fY2FtcGFpZ249RGVtYW5kK0dlbislN0MrV29vQ29tbWVyY2UrJTdDK1VTQSZ1dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPWNwYyZoc2FfYWNjPTY5MDEwMTM2MDcmaHNhX2NhbT0yMzE3Mzc2OTY1MCZoc2FfZ3JwPTE5OTkxOTM3NzY3MCZoc2FfYWQ9ODA3MjgxMDU0NTIzJmhzYV9zcmM9JmhzYV90Z3Q9YXVkLTI0ODE1MDc3NTI2MTYmaHNhX2t3PSZoc2FfbXQ9JmhzYV9uZXQ9YWR3b3JkcyZoc2FfdmVyPTMmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzMTczNzY5NjUwuBP___________8BiBQBsBQDwBWBgIBA0BUB2BUB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF72ZePsWJ6iXuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=EAIaIQobChMIyv-rvujZlgMV2K2mAh2N-BlWEAEYBCAAEgJ9LvD_BwE&num=4&cid=CAASwgHkaOCYesZPWvHB5fTEWAfIPgvehbgFNi1mjAczJXCro00S08LMZxtR15xA-PS4OtRPmMz4WFLoaRuwY-dFivv55gu-NyVo1XWR7Q-dms7z5JU8IbpuZJeVFaR1WmUSnIA89SC04L-07GEA4c_6ALEVIwJL6SWO3kysQeD2S5rQsYEkdVZFMdCyL0zmOypJNgLt_tXyTurIhVzSqRNpR-eZpu4xcLtu8mKi89NRdv8YFN5WKEHwS66pOSViol8XkRPWGQ&ad_cpn=%5BCPN%5D&sig=AOD64_0DDTJsA36wTGHX19eKMQkxWhVGUg&ctype=110&video_id=mbVMR4OBnw0&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Omnisend",
+        "thumbnail": "https://yt3.ggpht.com/proxy/_vOGY7urvWtWzoIIBbQDBSeaEUMLOM_E3MSth6uOtu5RnOMDyhxE6PMGsdoZm53vBJ9304_oSYahKnDYcTM0NWtXKTzFLWZrpbUA6FgMpHB4JqkY7v9iQOL6jqXiGYiXdzN4JL8-70TayJdVReNnEBk23GOpBGwt98SKHnpCBF22QsfVWlbndh-d5cKlzDSCxtUBFIFfBmy9PsqUFKgLjgjsJr1RRYX3RiZaVHH5vJMFHuLB5eJdy4izWuQimNhjw3t6eJQ=w68-h68-nd"
+      },
+      "description": "Start free with Omnisend, no credit card needed. Go PRO anytime for every add-on.",
+      "thumbnail": "https://i.ytimg.com/vi/mbVMR4OBnw0/hqdefault.jpg",
+      "videoId": "mbVMR4OBnw0",
+      "url": "https://www.youtube.com/watch?v=mbVMR4OBnw0"
+    },
+    {
+      "position_on_page": 19,
+      "title": "Different people need different phone plans. Tello makes it easy for everyone",
+      "link": "https://www.youtube.com/watch?v=KKa-l0l_p04",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDEti1EmdasrFD9jbmsUPjfHnsAWrnrP4eZCe0oXNFWQQBSAAYMmes4mQpOgPggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfq9hMIDqAMEyAMKqgSlAk_QkEwR2E6lkpmEiIEI-VGmBvKnC0UuOofFQuDuROhyvHEwqt6bgt4L1DQTsdeAvHxo3e1rWq5AyuHpk5_B0ZTkRUmMXUnOjaG62EHqArQok5-YrRvLrvpw1CakQVxFLIEghUrJmtVdL5k255tfdByG4eCCTak5h_rz2svKEz-d2c2NR-Vwoc1A_SQsLxygfnprSKy3VlZ286D7wcFZLKd8pJify5W3tqahmNkGP6xOW420mU6qf4Z_1tOHuvWc7JGwzbcY0y5CgMDDzDa18CFXM1aIwgQ9uiKGPuM9GfF3t-oSpq6gWLcRpwk3soyuiWbSwrZzVJoAJZdn1l-jPEqNXpu3nK_3n_PB_4_b3EVmWl-Atju54RqUXWVOtzjiNEVyFjPoiAWIws7YTZIFBwgTeJ7L5D6gBqEBgAfuwfs9kAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAtLS2EtbDBsX3AwNKgIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWODqq77o2ZYDYAGaCRVodHRwczovL3d3dy50ZWxsby5jb22xCTj-NsnvjB-4yAkXyAmPAcgJwgHICZcCmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWNiZtALEtIMAhAB2gwlCgoQ8IPHuICezNMEEgIBAxoNGIjCzthNIOD_7_iSBUABSgIQH5oNARKqDQJVU8gNAdINoAFodHRwczovL3d3dy50ZWxsby5jb20_c3JjPWdvb2dsZSZtZG09Y3BjJmNtZz1UZWxsbyUyMERlbUdlbiUyMERpc3BsYXklMjBGYW1pbHkmZGV2aWNlPWMmZ2VvPTkwMTY5MzQmYWRncm91cD0xNzY4ODQwMjMyNjQmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIwODU1MzY1ODk2uBP___________8BoBTNx8vLuPX5lsABoBSb57u0sL-97iegFPvvofHDg-OL7AGwFAPAFYGAgEDQFQHYFQHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXlpMc0ecIZn66FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMIyv-rvujZlgMV2K2mAh2N-BlWEAEYBSAAEgJDyfD_BwE&num=5&cid=CAASwgHkaOCYesZPWvHB5fTEWAfIPgvehbgFNi1mjAczJXCro00S08LMZxtR15xA-PS4OtRPmMz4WFLoaRuwY-dFivv55gu-NyVo1XWR7Q-dms7z5JU8IbpuZJeVFaR1WmUSnIA89SC04L-07GEA4c_6ALEVIwJL6SWO3kysQeD2S5rQsYEkdVZFMdCyL0zmOypJNgLt_tXyTurIhVzSqRNpR-eZpu4xcLtu8mKi89NRdv8YFN5WKEHwS66pOSViol8XkRPWGQ&ad_cpn=%5BCPN%5D&sig=AOD64_1wCDAeOMHy3Wk45GrAFcpbnN1Nqg&ctype=110&video_id=KKa-l0l_p04&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Tello Mobile",
+        "thumbnail": "https://yt3.ggpht.com/proxy/Dacq7HJzH_R42FCSTmFUAGss1_bl0yAQ293MnhcquHqffQFXaxK9LglRG8KSR-qL7j_pTn5CL_dApZrmZza2wbGUmAGPaLCe7vlmIu20Qx0MPddZS1BjnrbL5Wgfo2kwFMcB9YFPxeFAH7vld6Wdtm_48rkVnkKg8eF6vuHSq-qikbnNwAbCb5ilye6UKJ0go3bdJ6Xl_zav5jMyjL6qlB2TQmd0avCDzIjsemhDSZRQZoD765QIEDlytPKT90DyNqd8=w68-h68-nd"
+      },
+      "description": "Switch in minutes. No store. No contract. No drama.",
+      "thumbnail": "https://i.ytimg.com/vi/KKa-l0l_p04/hqdefault.jpg",
+      "videoId": "KKa-l0l_p04",
+      "url": "https://www.youtube.com/watch?v=KKa-l0l_p04"
+    }
+  ],
+  "video_results": [
+    {
+      "position_on_page": 2,
+      "title": "Milestone Systems XProtect Video Management Software (VMS) Product Demonstration",
+      "link": "https://www.youtube.com/watch?v=pnWiq8NB9SY",
+      "video_id": "pnWiq8NB9SY",
+      "channel": {
+        "name": "Milestone Systems",
+        "link": "https://www.youtube.com/@Milestonesys",
+        "thumbnail": "https://yt3.ggpht.com/sAft5DhcsxSYWpr7eAGFVgNUYqW80IaPyY0RSJmn2WoD2FLm90Xc37h-wwmuK0QzIorbJI9eqHc=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "8,917 views",
+      "length": "7:17",
+      "description": "With physical and cyber security threats on the rise, it's more important than ever to level up your business security systems.",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/pnWiq8NB9SY/hqdefault.jpg",
+      "videoId": "pnWiq8NB9SY",
+      "url": "https://www.youtube.com/watch?v=pnWiq8NB9SY",
+      "channelTitle": "Milestone Systems",
+      "channelVerified": false,
+      "duration": "7:17"
+    },
+    {
+      "position_on_page": 3,
+      "title": "Eleven VMS Keynote #1 - Master your SoW-based projects",
+      "link": "https://www.youtube.com/watch?v=3y0I9SPZwI8",
+      "video_id": "3y0I9SPZwI8",
+      "channel": {
+        "name": "Eleven VMS",
+        "link": "https://www.youtube.com/@ElevenVMS",
+        "thumbnail": "https://yt3.ggpht.com/Mhj4SQo_AW5d2bz3qefgsgxnBAXPjuRRu3KjLUwCRrj6gTQ8By_hE56Cndr0BDlSr6JQdyfN=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 months ago",
+      "views": "26 views",
+      "length": "4:31",
+      "description": "During this Keynote, our experts Clémentine Lourme (Senior CSM) and Adeline Barthet (Solution Engineer) will show you how to: ...",
+      "thumbnail": "https://i.ytimg.com/vi/3y0I9SPZwI8/hqdefault.jpg",
+      "videoId": "3y0I9SPZwI8",
+      "url": "https://www.youtube.com/watch?v=3y0I9SPZwI8",
+      "channelTitle": "Eleven VMS",
+      "channelVerified": false,
+      "duration": "4:31"
+    },
+    {
+      "position_on_page": 5,
+      "title": "Project Planning for Beginners - Project Management Training",
+      "link": "https://www.youtube.com/watch?v=ZWmXi3TW1yA",
+      "video_id": "ZWmXi3TW1yA",
+      "channel": {
+        "name": "ProjectManager",
+        "link": "https://www.youtube.com/@ProjectManager",
+        "thumbnail": "https://yt3.ggpht.com/h86bYLWOqhuuGUVPy_4b1lMWMRVZFwLSO3pEK2g4YrZCBeyEur5XRd1NAsDt3AE3uSJNBnmZ2w=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 years ago",
+      "views": "1,080,681 views",
+      "length": "5:41",
+      "description": "New to PM? Learn the importance of project planning. To get started, download this FREE project plan template for Word: ...",
+      "thumbnail": "https://i.ytimg.com/vi/ZWmXi3TW1yA/hqdefault.jpg",
+      "videoId": "ZWmXi3TW1yA",
+      "url": "https://www.youtube.com/watch?v=ZWmXi3TW1yA",
+      "channelTitle": "ProjectManager",
+      "channelVerified": false,
+      "duration": "5:41"
+    },
+    {
+      "position_on_page": 8,
+      "title": "How To Use SmartSheet | SmartSheet Tutorial For Project Management (2026)",
+      "link": "https://www.youtube.com/watch?v=wakW40iXfKQ",
+      "video_id": "wakW40iXfKQ",
+      "channel": {
+        "name": "Tutorials by Manizha & Ryan",
+        "link": "https://www.youtube.com/@tutorialsbymanizharyan2121",
+        "thumbnail": "https://yt3.ggpht.com/DtVXjQ_3aypFRJAR_aDMUgwnG4bNE2lVf9KOiZ7hpjmxpxhliviw0fEv_xJXec60ZWRgGofXsA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "184,954 views",
+      "length": "8:02",
+      "description": "How To Use SmartSheet | SmartSheet Tutorial For Project Management (2026) In this video, we show you How To Use ...",
+      "thumbnail": "https://i.ytimg.com/vi/wakW40iXfKQ/hqdefault.jpg",
+      "videoId": "wakW40iXfKQ",
+      "url": "https://www.youtube.com/watch?v=wakW40iXfKQ",
+      "channelTitle": "Tutorials by Manizha & Ryan",
+      "channelVerified": false,
+      "duration": "8:02"
+    },
+    {
+      "position_on_page": 9,
+      "title": "What is Project Management? | Explained in 10 Minutes",
+      "link": "https://www.youtube.com/watch?v=bw-NvGvLHtM",
+      "video_id": "bw-NvGvLHtM",
+      "channel": {
+        "name": "Max Mao",
+        "link": "https://www.youtube.com/@themaxmao",
+        "thumbnail": "https://yt3.ggpht.com/4JuzLjy8DhKyiwzSLnm3CY29uijQ304Oj9KlN_0X5Csq55d5JNr1gzWEKoEmF0G6HMLsAwUlmg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "635,121 views",
+      "length": "9:31",
+      "description": "A comprehensive review of project management. JOIN ME All Socials: https://linktr.ee/maxmao Join My Community: ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/bw-NvGvLHtM/hqdefault.jpg",
+      "videoId": "bw-NvGvLHtM",
+      "url": "https://www.youtube.com/watch?v=bw-NvGvLHtM",
+      "channelTitle": "Max Mao",
+      "channelVerified": false,
+      "duration": "9:31"
+    },
+    {
+      "position_on_page": 10,
+      "title": "What is a Project Management Plan? | Explained in 11 Minutes",
+      "link": "https://www.youtube.com/watch?v=CTEWSmzaz14",
+      "video_id": "CTEWSmzaz14",
+      "channel": {
+        "name": "Max Mao",
+        "link": "https://www.youtube.com/@themaxmao",
+        "thumbnail": "https://yt3.ggpht.com/4JuzLjy8DhKyiwzSLnm3CY29uijQ304Oj9KlN_0X5Csq55d5JNr1gzWEKoEmF0G6HMLsAwUlmg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "8,957 views",
+      "length": "11:01",
+      "description": "Project management plan explained in simple terms. JOIN ME All Socials: https://linktr.ee/maxmao Join My Community: ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/CTEWSmzaz14/hqdefault.jpg",
+      "videoId": "CTEWSmzaz14",
+      "url": "https://www.youtube.com/watch?v=CTEWSmzaz14",
+      "channelTitle": "Max Mao",
+      "channelVerified": false,
+      "duration": "11:01"
+    },
+    {
+      "position_on_page": 11,
+      "title": "What Is a Vendor Management System (VMS)? | Everything You Need to Know!",
+      "link": "https://www.youtube.com/watch?v=FoAe_3jBEdk",
+      "video_id": "FoAe_3jBEdk",
+      "channel": {
+        "name": "Workforce Workshop",
+        "link": "https://www.youtube.com/@workforceworkshop",
+        "thumbnail": "https://yt3.ggpht.com/YBwnBJL_tlkqp4eazLW3pkbuReWVHpyuIwuzHJ2NzERV2kxgk3FafnMFuzDbS06wHMykPI3EL4c=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "10 months ago",
+      "views": "772 views",
+      "length": "18:27",
+      "description": "What Is a Vendor Management System (VMS)? A Vendor Management System (VMS) is software that helps organizations procure ...",
+      "thumbnail": "https://i.ytimg.com/vi/FoAe_3jBEdk/hqdefault.jpg",
+      "videoId": "FoAe_3jBEdk",
+      "url": "https://www.youtube.com/watch?v=FoAe_3jBEdk",
+      "channelTitle": "Workforce Workshop",
+      "channelVerified": false,
+      "duration": "18:27"
+    },
+    {
+      "position_on_page": 14,
+      "title": "VMS IDE 1 Starting a Project",
+      "link": "https://www.youtube.com/watch?v=Ib1Fo6cG1Vs",
+      "video_id": "Ib1Fo6cG1Vs",
+      "channel": {
+        "name": "VSI Official Channel",
+        "link": "https://www.youtube.com/@VSIOfficialChannel",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nN0D8ZB7BFH_kIiiFBMn-nUGCdpyhfp_Vjh3wZUfO7SXM=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 years ago",
+      "views": "1,993 views",
+      "length": "3:56",
+      "description": "https://wiki.vmssoftware.com/VMS_IDE - VMS IDE documentation.",
+      "thumbnail": "https://i.ytimg.com/vi/Ib1Fo6cG1Vs/hqdefault.jpg",
+      "videoId": "Ib1Fo6cG1Vs",
+      "url": "https://www.youtube.com/watch?v=Ib1Fo6cG1Vs",
+      "channelTitle": "VSI Official Channel",
+      "channelVerified": false,
+      "duration": "3:56"
+    },
+    {
+      "position_on_page": 15,
+      "title": "SMART VMS : Visitor Management System",
+      "link": "https://www.youtube.com/watch?v=Ft3DJeCFBMA",
+      "video_id": "Ft3DJeCFBMA",
+      "channel": {
+        "name": "Blue Ocean Data Solutions",
+        "link": "https://www.youtube.com/@blueoceands",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_npgYa6eUI_EsJIFDukvstOtBCCpSMg9TLg_2D1gEhQuM0=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "705 views",
+      "length": "4:19",
+      "description": "Blue Ocean Data Solutions specialize in manufacturing solutions which inline with industry 4.0 direction. For further enquiry, feel ...",
+      "thumbnail": "https://i.ytimg.com/vi/Ft3DJeCFBMA/hqdefault.jpg",
+      "videoId": "Ft3DJeCFBMA",
+      "url": "https://www.youtube.com/watch?v=Ft3DJeCFBMA",
+      "channelTitle": "Blue Ocean Data Solutions",
+      "channelVerified": false,
+      "duration": "4:19"
+    },
+    {
+      "position_on_page": 16,
+      "title": "How Does a Visitor Management System (VMS) Work?",
+      "link": "https://www.youtube.com/watch?v=PpZlwASW3nI",
+      "video_id": "PpZlwASW3nI",
+      "channel": {
+        "name": "Smart Workplaces",
+        "link": "https://www.youtube.com/@TheSmartWorkplace",
+        "thumbnail": "https://yt3.ggpht.com/qO9PGnvirF-Tas2tCfEEyxjLhDT88hvVIYtdHXkUM6mPcyRecP185aR-Ylayynf4ABTYHQXGJA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "4,170 views",
+      "length": "8:07",
+      "description": "A Visitor Management System (VMS) helps to track and manage visitors, keeping workplaces safe, organized, and secure.",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/PpZlwASW3nI/hqdefault.jpg",
+      "videoId": "PpZlwASW3nI",
+      "url": "https://www.youtube.com/watch?v=PpZlwASW3nI",
+      "channelTitle": "Smart Workplaces",
+      "channelVerified": false,
+      "duration": "8:07"
+    },
+    {
+      "position_on_page": 18,
+      "title": "How To Create a Project Plan: the foolproof way to guarantee the success of any project",
+      "link": "https://www.youtube.com/watch?v=ntQ1Mx3GZwk",
+      "video_id": "ntQ1Mx3GZwk",
+      "channel": {
+        "name": "Philip VanDusen",
+        "link": "https://www.youtube.com/@PhilipVanDusen",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/aMVA6XTiMVGOQqHe8wnUC-ueFm1YVjlyX3RZelbuY5zM29gEowij41HMnKwcDiveI6PcB5oBvA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 years ago",
+      "views": "194,311 views",
+      "length": "7:00",
+      "description": "I get asked a lot of questions about project management, so I decided to address one of the most important parts of any project: ...",
+      "thumbnail": "https://i.ytimg.com/vi/ntQ1Mx3GZwk/hqdefault.jpg",
+      "videoId": "ntQ1Mx3GZwk",
+      "url": "https://www.youtube.com/watch?v=ntQ1Mx3GZwk",
+      "channelTitle": "Philip VanDusen",
+      "channelVerified": true,
+      "duration": "7:00"
+    },
+    {
+      "position_on_page": 20,
+      "title": "Project Demo – Supreme Industries Ltd. | Vehicle Management System (VMS)",
+      "link": "https://www.youtube.com/watch?v=37Hhiw-iSDM",
+      "video_id": "37Hhiw-iSDM",
+      "channel": {
+        "name": "Zypheron",
+        "link": "https://www.youtube.com/@iamsuvodip",
+        "thumbnail": "https://yt3.ggpht.com/HaMgTwqMO7LUiO-SH2T4Ou8wGKe5GXQJM6nfzXAEtGoElVUgQee0y0PVtjcWRKTzDETOeA9Hpo4=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "25 views",
+      "length": "3:18",
+      "description": "Vehicle Management System (VMS) – Project Demo Developed as part of internship period at **Supreme Industries Limited**, ...",
+      "thumbnail": "https://i.ytimg.com/vi/37Hhiw-iSDM/hqdefault.jpg",
+      "videoId": "37Hhiw-iSDM",
+      "url": "https://www.youtube.com/watch?v=37Hhiw-iSDM",
+      "channelTitle": "Zypheron",
+      "channelVerified": false,
+      "duration": "3:18"
+    },
+    {
+      "position_on_page": 21,
+      "title": "Project Planning: Plan Your Project - PM Fundamentals",
+      "link": "https://www.youtube.com/watch?v=LhBo0T4wcM0",
+      "video_id": "LhBo0T4wcM0",
+      "channel": {
+        "name": "Online PM Courses - Mike Clayton",
+        "link": "https://www.youtube.com/@Onlinepmcourses",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lpAYy0iFi5W7Pv5iqWCyjdowL2v71CA1uSsPSAQ_71lg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "10 years ago",
+      "views": "231,664 views",
+      "length": "11:41",
+      "description": "Learn all the basics of Project Management, in a structured program: https://geni.us/PM_CoreCourses What are the 10 things you ...",
+      "thumbnail": "https://i.ytimg.com/vi/LhBo0T4wcM0/hqdefault.jpg",
+      "videoId": "LhBo0T4wcM0",
+      "url": "https://www.youtube.com/watch?v=LhBo0T4wcM0",
+      "channelTitle": "Online PM Courses - Mike Clayton",
+      "channelVerified": false,
+      "duration": "11:41"
+    },
+    {
+      "position_on_page": 22,
+      "title": "AV Project Management (WBS, LND, Gantt Chart) | Learn with AVIXA",
+      "link": "https://www.youtube.com/watch?v=BbqlkY0ArfM",
+      "video_id": "BbqlkY0ArfM",
+      "channel": {
+        "name": "AVIXA",
+        "link": "https://www.youtube.com/@AVIXATV",
+        "thumbnail": "https://yt3.ggpht.com/Yr1vKrhGsvtOLqnLuiZs93gYpHHE5rRlmDlw2ZMD-TvoCiGD4wbZtRCa8QFCPNfqUFhHrscoyA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "8,102 views",
+      "length": "7:50",
+      "description": "Join AVIXA Instructor, Chuck Espinoza, as he takes a deeper dive into the 3 main components of Project Management; Work ...",
+      "thumbnail": "https://i.ytimg.com/vi/BbqlkY0ArfM/hqdefault.jpg",
+      "videoId": "BbqlkY0ArfM",
+      "url": "https://www.youtube.com/watch?v=BbqlkY0ArfM",
+      "channelTitle": "AVIXA",
+      "channelVerified": false,
+      "duration": "7:50"
+    },
+    {
+      "position_on_page": 23,
+      "title": "How to Write a Project Plan [PROJECT PLANNING STEPS THAT WORK]",
+      "link": "https://www.youtube.com/watch?v=Lt9_4vzPdlo",
+      "video_id": "Lt9_4vzPdlo",
+      "channel": {
+        "name": "Adriana Girdler",
+        "link": "https://www.youtube.com/@AdrianaGirdler",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/tfEaW4Xp1QcFVrFoikU3sbNc13nR_gWT4e4IxgSfMGWP5NruQywjrjBibfvudFIRcXg0cBTYAA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "406,296 views",
+      "length": "11:10",
+      "description": "How to Write a Project Plan [PROJECT PLANNING STEPS THAT WORK] / Are you wondering how to write a project plan and ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/Lt9_4vzPdlo/hqdefault.jpg",
+      "videoId": "Lt9_4vzPdlo",
+      "url": "https://www.youtube.com/watch?v=Lt9_4vzPdlo",
+      "channelTitle": "Adriana Girdler",
+      "channelVerified": true,
+      "duration": "11:10"
+    },
+    {
+      "position_on_page": 24,
+      "title": "Project Management Simplified: Learn The Fundamentals of PMI's Framework ✓",
+      "link": "https://www.youtube.com/watch?v=ZKOL-rZ79gs",
+      "video_id": "ZKOL-rZ79gs",
+      "channel": {
+        "name": "Deniz Sasal",
+        "link": "https://www.youtube.com/@DenizSasal",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/fLG-9bxOJ5G7ifFkq6RsFgp9S6oOqIzwfhjxHpxXWfmcdvX50tiz6AeNrYuaienozG7uRiOzjQ=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "9 years ago",
+      "views": "3,537,244 views",
+      "length": "48:19",
+      "description": "Project Management is simple enough to understand. No need to complicate things unnecessarily. PM Templates: ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/ZKOL-rZ79gs/hqdefault.jpg",
+      "videoId": "ZKOL-rZ79gs",
+      "url": "https://www.youtube.com/watch?v=ZKOL-rZ79gs",
+      "channelTitle": "Deniz Sasal",
+      "channelVerified": true,
+      "duration": "48:19"
+    },
+    {
+      "position_on_page": 25,
+      "title": "How to Make a Project Management Plan (Complete)",
+      "link": "https://www.youtube.com/watch?v=qb80N-HfKbk",
+      "video_id": "qb80N-HfKbk",
+      "channel": {
+        "name": "David McLachlan",
+        "link": "https://www.youtube.com/@davidmclachlanproject",
+        "verified": true,
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_myCDKGaaNcr1lQZx8oYvq7nHziTz54sjXzN3EWTcvmlA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "112,103 views",
+      "length": "52:43",
+      "description": "Timestamps: 00:00 Project Plans Overview 03:29 Project Management Plan 08:52 Stakeholder Management Plan 12:55 ...",
+      "thumbnail": "https://i.ytimg.com/vi/qb80N-HfKbk/hqdefault.jpg",
+      "videoId": "qb80N-HfKbk",
+      "url": "https://www.youtube.com/watch?v=qb80N-HfKbk",
+      "channelTitle": "David McLachlan",
+      "channelVerified": true,
+      "duration": "52:43"
+    },
+    {
+      "position_on_page": 26,
+      "title": "VMS IDE 3 Building a Project",
+      "link": "https://www.youtube.com/watch?v=7IRYBQS0C8Y",
+      "video_id": "7IRYBQS0C8Y",
+      "channel": {
+        "name": "VSI Official Channel",
+        "link": "https://www.youtube.com/@VSIOfficialChannel",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nN0D8ZB7BFH_kIiiFBMn-nUGCdpyhfp_Vjh3wZUfO7SXM=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 years ago",
+      "views": "977 views",
+      "length": "3:13",
+      "description": "https://wiki.vmssoftware.com/VMS_IDE - VMS IDE documentation.",
+      "thumbnail": "https://i.ytimg.com/vi/7IRYBQS0C8Y/hqdefault.jpg",
+      "videoId": "7IRYBQS0C8Y",
+      "url": "https://www.youtube.com/watch?v=7IRYBQS0C8Y",
+      "channelTitle": "VSI Official Channel",
+      "channelVerified": false,
+      "duration": "3:13"
+    },
+    {
+      "position_on_page": 27,
+      "title": "What is a Vendor Management System (VMS)?",
+      "link": "https://www.youtube.com/watch?v=UqZPu0G93Fw",
+      "video_id": "UqZPu0G93Fw",
+      "channel": {
+        "name": "Outsource Accelerator",
+        "link": "https://www.youtube.com/@OutsourceAccelerator",
+        "thumbnail": "https://yt3.ggpht.com/B6M0HsBFXglBGvbvu-WAxhCUXzxT-foIOSRyANc1HoOgiHD7Tz3zJR3BQ7lcDsiXoMv-lbKSW1E=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "13,911 views",
+      "length": "6:08",
+      "description": "Are you struggling with managing multiple vendors for your #business ? Look no further! In this video, we introduce you to the ...",
+      "thumbnail": "https://i.ytimg.com/vi/UqZPu0G93Fw/hqdefault.jpg",
+      "videoId": "UqZPu0G93Fw",
+      "url": "https://www.youtube.com/watch?v=UqZPu0G93Fw",
+      "channelTitle": "Outsource Accelerator",
+      "channelVerified": false,
+      "duration": "6:08"
+    }
+  ],
+  "playlist_results": [
+    {
+      "position_on_page": 6,
+      "title": "Project Management Videos",
+      "link": "https://www.youtube.com/playlist?list=PLF1064CD7B0A98261",
+      "channel": {
+        "name": "ProjectManager",
+        "link": "https://www.youtube.com/@ProjectManager"
+      },
+      "videos": [
+        {
+          "title": "Project Management Intro",
+          "length": "0:32",
+          "link": "https://www.youtube.com/watch?v=d8_gaRIrrUw&list=PLF1064CD7B0A98261"
+        },
+        {
+          "title": "Online Project Management Software vs Sticky Notes",
+          "length": "7:29",
+          "link": "https://www.youtube.com/watch?v=x3QZ0a5PbcE&list=PLF1064CD7B0A98261"
+        }
+      ],
+      "video_count": 319,
+      "thumbnail": "https://i.ytimg.com/vi/d8_gaRIrrUw/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYZSBIKEgwDw==&rs=AOn4CLCNJcGd9f1qAcb0G2yysFj2Ulhfug"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 12,
+      "shorts": [
+        {
+          "title": "Our ep 6 guest is Vass Stammes - the founder of VMS Town Planning and the creator of PropCheck.",
+          "link": "https://www.youtube.com/shorts/gZlxVyJffCk",
+          "thumbnail": "https://i.ytimg.com/vi/gZlxVyJffCk/frame0.jpg",
+          "views_original": "633 views",
+          "views": 633,
+          "video_id": "gZlxVyJffCk"
+        },
+        {
+          "title": "Don't implement in a vacuum! 🌟 Gen 1 #VMS Tips",
+          "link": "https://www.youtube.com/shorts/tNfT3ZjQF2Y",
+          "thumbnail": "https://i.ytimg.com/vi/tNfT3ZjQF2Y/frame0.jpg",
+          "views_original": "68 views",
+          "views": 68,
+          "video_id": "tNfT3ZjQF2Y"
+        },
+        {
+          "title": "Nuvo's Big VMS Plan: A Project Transformation #shorts",
+          "link": "https://www.youtube.com/shorts/DdhSry2c5Ew",
+          "thumbnail": "https://i.ytimg.com/vi/DdhSry2c5Ew/frame0.jpg",
+          "views_original": "53 views",
+          "views": 53,
+          "video_id": "DdhSry2c5Ew"
+        },
+        {
+          "title": "What's your \"why\"? 🌟 Gen 1 #VMS Tips",
+          "link": "https://www.youtube.com/shorts/CpyZc5CJdwM",
+          "thumbnail": "https://i.ytimg.com/vi/CpyZc5CJdwM/frame0.jpg",
+          "views_original": "31 views",
+          "views": 31,
+          "video_id": "CpyZc5CJdwM"
+        },
+        {
+          "title": "VIDEO MANAGEMENT SYSTEM #Vms #ITMS #video #viralvideo #highway #Tunnel Project #shorts #edindia",
+          "link": "https://www.youtube.com/shorts/9se6URnbefU",
+          "thumbnail": "https://i.ytimg.com/vi/9se6URnbefU/frame0.jpg",
+          "views_original": "294 views",
+          "views": 294,
+          "video_id": "9se6URnbefU"
+        }
+      ]
+    },
+    {
+      "position_on_page": 17,
+      "shorts": [
+        {
+          "title": "Venture Minerals: Strategic funding to meet key goals at Jupiter",
+          "link": "https://www.youtube.com/shorts/mJe5FZxD_xk",
+          "thumbnail": "https://i.ytimg.com/vi/mJe5FZxD_xk/frame0.jpg",
+          "views_original": "513 views",
+          "views": 513,
+          "video_id": "mJe5FZxD_xk"
+        },
+        {
+          "title": "DAY 11 - Project Collaboration & Management Tools - Business Analytics",
+          "link": "https://www.youtube.com/shorts/bwNbzWaIXhc",
+          "thumbnail": "https://i.ytimg.com/vi/bwNbzWaIXhc/frame0.jpg",
+          "views_original": "83 views",
+          "views": 83,
+          "video_id": "bwNbzWaIXhc"
+        },
+        {
+          "title": "VMS - Vehicle Management System with 35% OFF for Lifetime Software Deals",
+          "link": "https://www.youtube.com/shorts/cqJeO5JIOgg",
+          "thumbnail": "https://i.ytimg.com/vi/cqJeO5JIOgg/frame0.jpg",
+          "views_original": "1.2K views",
+          "views": 1200,
+          "video_id": "cqJeO5JIOgg"
+        },
+        {
+          "title": "Your Action Plan Isn't a Plan Without These 7 Things",
+          "link": "https://www.youtube.com/shorts/frHPbHUy_wc",
+          "thumbnail": "https://i.ytimg.com/vi/frHPbHUy_wc/frame0.jpg",
+          "views_original": "23 views",
+          "views": 23,
+          "video_id": "frHPbHUy_wc"
+        },
+        {
+          "title": "Visitor Management System |  Unlocking the Power of a  (VMS)",
+          "link": "https://www.youtube.com/shorts/AD2iyhObIxY",
+          "thumbnail": "https://i.ytimg.com/vi/AD2iyhObIxY/frame0.jpg",
+          "views_original": "644 views",
+          "views": 644,
+          "video_id": "AD2iyhObIxY"
+        },
+        {
+          "title": "Venture Minerals Limited (ASX: VMS) - Jupiter- more outstanding REE hits up to 60 m over 2,000 ppm",
+          "link": "https://www.youtube.com/shorts/aaa78p3yg_c",
+          "thumbnail": "https://i.ytimg.com/vi/aaa78p3yg_c/frame0.jpg",
+          "views_original": "69 views",
+          "views": 69,
+          "video_id": "aaa78p3yg_c"
+        },
+        {
+          "title": "VMS  -  Best Vehicle Management System for Personal & Business Purposes",
+          "link": "https://www.youtube.com/shorts/fyP_a7Ncv2U",
+          "thumbnail": "https://i.ytimg.com/vi/fyP_a7Ncv2U/frame0.jpg",
+          "views_original": "5.1K views",
+          "views": 5100,
+          "video_id": "fyP_a7Ncv2U"
+        },
+        {
+          "title": "Master Project Management with 10 sec PMP test questions",
+          "link": "https://www.youtube.com/shorts/-fVambVy5xw",
+          "thumbnail": "https://i.ytimg.com/vi/-fVambVy5xw/frame0.jpg",
+          "views_original": "97K views",
+          "views": 97000,
+          "video_id": "-fVambVy5xw"
+        },
+        {
+          "title": "What is a Vendor Management System (VMS)? #shorts",
+          "link": "https://www.youtube.com/shorts/T3Hjmk6VA7Y",
+          "thumbnail": "https://i.ytimg.com/vi/T3Hjmk6VA7Y/frame0.jpg",
+          "views_original": "1.1K views",
+          "views": 1100,
+          "video_id": "T3Hjmk6VA7Y"
+        },
+        {
+          "title": "What is a Vendor Management System (VMS)?",
+          "link": "https://www.youtube.com/shorts/prrfsw7_luA",
+          "thumbnail": "https://i.ytimg.com/vi/prrfsw7_luA/frame0.jpg",
+          "views_original": "1.3K views",
+          "views": 1300,
+          "video_id": "prrfsw7_luA"
+        },
+        {
+          "title": "Enviro VMS",
+          "link": "https://www.youtube.com/shorts/U3yqFd6DOk0",
+          "thumbnail": "https://i.ytimg.com/vi/U3yqFd6DOk0/frame0.jpg",
+          "views_original": "135 views",
+          "views": 135,
+          "video_id": "U3yqFd6DOk0"
+        },
+        {
+          "title": "Microsoft Planner: Steps to Create a New Plan From Scratch",
+          "link": "https://www.youtube.com/shorts/TICfuJK11RE",
+          "thumbnail": "https://i.ytimg.com/vi/TICfuJK11RE/frame0.jpg",
+          "views_original": "25K views",
+          "views": 25000,
+          "video_id": "TICfuJK11RE"
+        },
+        {
+          "title": "7 Steps To Create Successful Project Management Plan",
+          "link": "https://www.youtube.com/shorts/8eMHXLnsgRY",
+          "thumbnail": "https://i.ytimg.com/vi/8eMHXLnsgRY/frame0.jpg",
+          "views_original": "57K views",
+          "views": 57000,
+          "video_id": "8eMHXLnsgRY"
+        },
+        {
+          "title": "Madala apartment Perinthalmanna :Working progress",
+          "link": "https://www.youtube.com/shorts/PpeESB-YqRM",
+          "thumbnail": "https://i.ytimg.com/vi/PpeESB-YqRM/frame0.jpg",
+          "views_original": "432 views",
+          "views": 432,
+          "video_id": "PpeESB-YqRM"
+        },
+        {
+          "title": "MS Project vs Primavera P6? Forget the Tools—Master the skills #msproject #projectplanning",
+          "link": "https://www.youtube.com/shorts/-9IDAFUrS_A",
+          "thumbnail": "https://i.ytimg.com/vi/-9IDAFUrS_A/frame0.jpg",
+          "views_original": "10K views",
+          "views": 10000,
+          "video_id": "-9IDAFUrS_A"
+        },
+        {
+          "title": "VMS Kya Hai? | Video Management System Explained  #cctvinstallation #tekrukh #nvr",
+          "link": "https://www.youtube.com/shorts/2caNckddQ3U",
+          "thumbnail": "https://i.ytimg.com/vi/2caNckddQ3U/frame0.jpg",
+          "views_original": "296 views",
+          "views": 296,
+          "video_id": "2caNckddQ3U"
+        },
+        {
+          "title": "Growing Wisdom in Project Management with Dr. Tresia Eaves | IPM Day 2026",
+          "link": "https://www.youtube.com/shorts/DgsHavY0WoE",
+          "thumbnail": "https://i.ytimg.com/vi/DgsHavY0WoE/frame0.jpg",
+          "views_original": "47 views",
+          "views": 47,
+          "video_id": "DgsHavY0WoE"
+        },
+        {
+          "title": "DAY 12 | PROJECT COST & PERFORMANCE TRACKING - BUSINESS ANALYTICS",
+          "link": "https://www.youtube.com/shorts/5ELZ5QRIwC8",
+          "thumbnail": "https://i.ytimg.com/vi/5ELZ5QRIwC8/frame0.jpg",
+          "views_original": "29 views",
+          "views": 29,
+          "video_id": "5ELZ5QRIwC8"
+        },
+        {
+          "title": "VMS Parent App - Projects",
+          "link": "https://www.youtube.com/shorts/kmTt1oDWdgg",
+          "thumbnail": "https://i.ytimg.com/vi/kmTt1oDWdgg/frame0.jpg",
+          "views_original": "1.4K views",
+          "views": 1400,
+          "video_id": "kmTt1oDWdgg"
+        },
+        {
+          "title": "Primavera P6 + AI: Planning Engineers Must Know This in 2026 🤖📅 #Shorts #intelligentplanning",
+          "link": "https://www.youtube.com/shorts/MoBGeOJ5lGg",
+          "thumbnail": "https://i.ytimg.com/vi/MoBGeOJ5lGg/frame0.jpg",
+          "views_original": "31 views",
+          "views": 31,
+          "video_id": "MoBGeOJ5lGg"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=VMS+Project+Planning",
+    "next": "https://www.youtube.com/results?search_query=VMS%20Project%20Planning&sp=SBSCAQtwbldpcThOQjlTWYIBCzN5MEk5U1Bad0k4ggELWldtWGkzVFcxeUGCARJQTEYxMDY0Q0Q3QjBBOTgyNjGCAQt3YWtXNDBpWGZLUYIBC2J3LU52R3ZMSHRNggELQ1RFV1NtemF6MTSCAQtGb0FlXzNqQkVka4IBC0liMUZvNmNHMVZzggELRnQzREplQ0ZCTUGCAQtQcFpsd0FTVzNuSYIBC250UTFNeDNHWndrggELMzdIaGl3LWlTRE2CAQtMaEJvMFQ0d2NNMIIBC0JicWxrWTBBcmZNggELTHQ5XzR2elBkbG-CAQtaS09MLXJaNzlnc4IBC3FiODBOLUhmS2JrggELN0lSWUJRUzBDOFmCAQtVcVpQdTBHOTNGd7IBBgoECBsQAuoBBAgCEBk%253D",
+    "next_page_token": "SBSCAQtwbldpcThOQjlTWYIBCzN5MEk5U1Bad0k4ggELWldtWGkzVFcxeUGCARJQTEYxMDY0Q0Q3QjBBOTgyNjGCAQt3YWtXNDBpWGZLUYIBC2J3LU52R3ZMSHRNggELQ1RFV1NtemF6MTSCAQtGb0FlXzNqQkVka4IBC0liMUZvNmNHMVZzggELRnQzREplQ0ZCTUGCAQtQcFpsd0FTVzNuSYIBC250UTFNeDNHWndrggELMzdIaGl3LWlTRE2CAQtMaEJvMFQ0d2NNMIIBC0JicWxrWTBBcmZNggELTHQ5XzR2elBkbG-CAQtaS09MLXJaNzlnc4IBC3FiODBOLUhmS2JrggELN0lSWUJRUzBDOFmCAQtVcVpQdTBHOTNGd7IBBgoECBsQAuoBBAgCEBk%3D"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=VMS+Project+Planning",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=VMS+Project+Planning&sp=SBSCAQtwbldpcThOQjlTWYIBCzN5MEk5U1Bad0k4ggELWldtWGkzVFcxeUGCARJQTEYxMDY0Q0Q3QjBBOTgyNjGCAQt3YWtXNDBpWGZLUYIBC2J3LU52R3ZMSHRNggELQ1RFV1NtemF6MTSCAQtGb0FlXzNqQkVka4IBC0liMUZvNmNHMVZzggELRnQzREplQ0ZCTUGCAQtQcFpsd0FTVzNuSYIBC250UTFNeDNHWndrggELMzdIaGl3LWlTRE2CAQtMaEJvMFQ0d2NNMIIBC0JicWxrWTBBcmZNggELTHQ5XzR2elBkbG-CAQtaS09MLXJaNzlnc4IBC3FiODBOLUhmS2JrggELN0lSWUJRUzBDOFmCAQtVcVpQdTBHOTNGd7IBBgoECBsQAuoBBAgCEBk%253D",
+    "next_page_token": "SBSCAQtwbldpcThOQjlTWYIBCzN5MEk5U1Bad0k4ggELWldtWGkzVFcxeUGCARJQTEYxMDY0Q0Q3QjBBOTgyNjGCAQt3YWtXNDBpWGZLUYIBC2J3LU52R3ZMSHRNggELQ1RFV1NtemF6MTSCAQtGb0FlXzNqQkVka4IBC0liMUZvNmNHMVZzggELRnQzREplQ0ZCTUGCAQtQcFpsd0FTVzNuSYIBC250UTFNeDNHWndrggELMzdIaGl3LWlTRE2CAQtMaEJvMFQ0d2NNMIIBC0JicWxrWTBBcmZNggELTHQ5XzR2elBkbG-CAQtaS09MLXJaNzlnc4IBC3FiODBOLUhmS2JrggELN0lSWUJRUzBDOFmCAQtVcVpQdTBHOTNGd7IBBgoECBsQAuoBBAgCEBk%3D"
+  }
+}

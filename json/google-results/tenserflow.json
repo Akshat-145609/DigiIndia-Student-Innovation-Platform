@@ -1,0 +1,659 @@
+{
+  "search_metadata": {
+    "id": "6a9d4cd455ba650396272f46",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/O4CIeoay3cl80ina89LNnQHokmkvfsNMdDRcGL8pMMs/6a9d4cd455ba650396272f46.json",
+    "markdown_endpoint": "https://serpapi.com/searches/O4CIeoay3cl80ina89LNnQHokmkvfsNMdDRcGL8pMMs/6a9d4cd455ba650396272f46.md",
+    "created_at": "2026-09-06 11:21:56 UTC",
+    "processed_at": "2026-09-06 11:21:56 UTC",
+    "google_url": "https://www.google.co.in/search?q=Tenserflow&oq=Tenserflow&uule=w+CAIQICIFSW5kaWE&hl=hi&gl=in&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/O4CIeoay3cl80ina89LNnQHokmkvfsNMdDRcGL8pMMs/6a9d4cd455ba650396272f46.html",
+    "total_time_taken": 3.14
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "Tenserflow",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.co.in",
+    "hl": "hi",
+    "gl": "in",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "Tenserflow",
+    "total_results": 141000,
+    "time_taken_displayed": 0.31,
+    "organic_results_state": "Some results for exact spelling but showing fixed spelling",
+    "spelling_fix": "Tensorflow",
+    "showing_results_for": "Tensorflow"
+  },
+  "knowledge_graph": {
+    "title": "टेन्सर फ्लो (TensorFlow)",
+    "type": "सॉफ्टवेयर",
+    "entity_type": "kp3_verticals",
+    "kgmid": "/g/11bwp1s2k3",
+    "knowledge_graph_search_link": "https://www.google.co.in/search?kgmid=/g/11bwp1s2k3&hl=hi-IN&q=%E0%A4%9F%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%B8%E0%A4%B0+%E0%A4%AB%E0%A5%8D%E0%A4%B2%E0%A5%8B+%28TensorFlow%29",
+    "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi-IN&kgmid=%2Fg%2F11bwp1s2k3&location=India&q=%E0%A4%9F%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%B8%E0%A4%B0+%E0%A4%AB%E0%A5%8D%E0%A4%B2%E0%A5%8B+%28TensorFlow%29",
+    "header_images": [
+      {
+        "image": "https://serpapi.com/searches/6a9d4cd455ba650396272f46/images/flNLrSJXdMVXS0l8TOlsWOIKM-1BWeUR-GRCIx211V9cc0TIN4Q0a2HvHm7Mf8ll.webp",
+        "source": "https://databasecamp.de/en/python-coding/tensorflow-en"
+      },
+      {
+        "image": "https://serpapi.com/searches/6a9d4cd455ba650396272f46/images/flNLrSJXdMVXS0l8TOlsWE64Wk-9zJTjjHzdNxzpjQG0lcdDIxBuxoRpOeZQrVZH.webp",
+        "source": "https://www.techrepublic.com/article/tensorflow-googles-open-source-software-library-for-machine-learning-the-smart-persons-guide/"
+      },
+      {
+        "image": "https://serpapi.com/searches/6a9d4cd455ba650396272f46/images/flNLrSJXdMVXS0l8TOlsWE1bSucXwa4ScR_34KjS92dzYTjjsP-DAlnubeSfzrP4.webp",
+        "source": "https://www.tutorialspoint.com/tensorflow/tensorflow_quick_guide.htm"
+      },
+      {
+        "image": "https://serpapi.com/searches/6a9d4cd455ba650396272f46/images/flNLrSJXdMVXS0l8TOlsWAeyFUh2dNzeAz55tZDNrvBVHuk0SMT9MVhWntZdXX7W.webp",
+        "source": "https://www.lucentinnovation.com/resources/technology-posts/harnessing-the-power-of-tensorflow-revolutionising-machine-learning-with-practical-examples"
+      }
+    ],
+    "description": "TensorFlow मशीन लर्निंग और आर्टिफिशियल इंटेलिजेंस के लिए एक सॉफ्टवेयर लाइब्रेरी है। इसका उपयोग कई प्रकार के कार्यों में किया जा सकता है, लेकिन इसका उपयोग मुख्य रूप से तंत्रिका नेटवर्क के प्रशिक्षण और अनुमान के लिए किया जाता है। यह PyTorch जैसे अन्य के साथ सबसे लोकप्रिय गहन शिक्षण ढाँचों में से एक है।",
+    "description_highlighted_words": [],
+    "source": {
+      "name": " विकिपीडिया (अंग्रेज़ी)",
+      "link": "https://en.wikipedia.org/wiki/TensorFlow"
+    }
+  },
+  "inline_videos": [
+    {
+      "position": 1,
+      "title": "What is Tensorflow?",
+      "link": "https://www.youtube.com/watch?v=B6jxuMrACOQ",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYfxWsEv8Fn_nHnuwKcz2j9PHqBvZwlT2n_NdWUcB_YeUip9PH8Gnw4Q&s",
+      "channel": "Roboflow",
+      "duration": "1:24",
+      "platform": "YouTube",
+      "date": "2 मई 2021",
+      "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQ1JLCA-f0gG0P7IvbVFAfc9hbikazblEKcLQ"
+    },
+    {
+      "position": 2,
+      "title": "TensorFlow Tutorial For Beginners | Deep Learning & ...",
+      "link": "https://www.youtube.com/watch?v=tx-O8SGL8i4",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAxVQwVkwyihLnBFRkPTT3CyL74yWF47db82RVerZ-yb2vZu5s4PTN8A&s",
+      "channel": "edureka!",
+      "duration": "11:00",
+      "platform": "YouTube",
+      "date": "25 मार्च 2024",
+      "short_clip": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRhSyJAuUClVWHrcjSa_EHf_hVvr-uayEOBXA",
+      "key_moments": [
+        {
+          "time": "00:20",
+          "title": "Tensorflow",
+          "link": "https://www.youtube.com/watch?v=tx-O8SGL8i4&t=20"
+        },
+        {
+          "time": "02:47",
+          "title": "Eager Execution",
+          "link": "https://www.youtube.com/watch?v=tx-O8SGL8i4&t=167"
+        },
+        {
+          "time": "07:32",
+          "title": "Simple Program in Tensorflow",
+          "link": "https://www.youtube.com/watch?v=tx-O8SGL8i4&t=452"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "title": "Understanding TensorFlow (Video)",
+      "link": "https://realpython.com/videos/understanding-tensorflow/",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLmF7QSIl3OXOgPDEtW7E8TByp8tSOB7FK5pAErOZ3VyUsaSIY_FmZ1g&s",
+      "channel": "Real Python",
+      "duration": "1:43",
+      "platform": "Real Python",
+      "date": "29 अक्टू॰ 2024"
+    },
+    {
+      "position": 4,
+      "title": "What is TensorFlow? - TensorFlow Video Tutorial",
+      "link": "https://www.linkedin.com/learning/tensorflow-neural-networks-and-working-with-tables/what-is-tensorflow",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb13vVgaR-F1TwxMiu-2RfR9JStuOIPJ8FXYOI8t5Ko-DNCgEg-0eNVg&s",
+      "channel": "Jonathan Fernandes",
+      "duration": "2:31",
+      "platform": "LinkedIn",
+      "date": "31 जन॰ 2022"
+    }
+  ],
+  "related_questions": [
+    {
+      "question": "What is TensorFlow used for?",
+      "type": "ai_overview",
+      "page_token": "ngNdQHicHdDbaoMwGABg9jK9rMbWjhbKwHlCakSNfzQ3Q1PbOONh1U6au73LnmpPs7En-OD7-pZN3_48MTHP43TQtGVZ1tdhuMp6zYd102vl9Oi5xkspq5K3h93zDr1c-NGZFut1WKw4G0ewEz3N9i335a3OICC2REBZmOiBHeZuBzJTKQIPZ3sf54EodfOdtWZUoMCviPVRKddnvlAVFfe6226LHsuKYBF66JEb8yk2YlXmVkY8TLESMnXkGOZgFAAiMVqUI9AjOzhRh6nSdvuzx1WlQ1aBW7LO2XJqsrCdUZrNgnciKqi-gMdTV7m3mibi3EMUU9emfy4BC-GcSQ4u85rASnz8iCgjEbEaQkSf6KAICEocc8K-haFl91IfNonCm9WFfx43q_-x49ulmw_jbbj-AvTLeR8",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=ngNdQHicHdDbaoMwGABg9jK9rMbWjhbKwHlCakSNfzQ3Q1PbOONh1U6au73LnmpPs7En-OD7-pZN3_48MTHP43TQtGVZ1tdhuMp6zYd102vl9Oi5xkspq5K3h93zDr1c-NGZFut1WKw4G0ewEz3N9i335a3OICC2REBZmOiBHeZuBzJTKQIPZ3sf54EodfOdtWZUoMCviPVRKddnvlAVFfe6226LHsuKYBF66JEb8yk2YlXmVkY8TLESMnXkGOZgFAAiMVqUI9AjOzhRh6nSdvuzx1WlQ1aBW7LO2XJqsrCdUZrNgnciKqi-gMdTV7m3mibi3EMUU9emfy4BC-GcSQ4u85rASnz8iCgjEbEaQkSf6KAICEocc8K-haFl91IfNonCm9WFfx43q_-x49ulmw_jbbj-AvTLeR8",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlVrUldOVkpmVHpSWVNIUTFla1ZWU2w5dVMwWkhYemRLUjNaUFpURkZURkpCZEc5c1MxQklNa2Q1VFdaUVZrSjRVMGxhWTBaQ1pIRlBiMDAyUW00M05HaFZMVEZzTlhCTU5VcENTVlZRZVVoQmNYbGFaelJMTTI5d1FSSVhNV3Q1WkdGMmRVNUJZVU5hYzJWTlVIVTFkbVZ4VVZrYUlrRkVjM0k1WmxGbmFXSjNPVkZKWDJWb1pWOWxSRVV6UjBGeVdVdFJkbGQ0Ym5jIiwiZmN2IjoiMyIsImVpIjoiMWt5ZGF2dU5BYUNac2VNUHU1dmVxUVkiLCJxYyI6IkNncDBaVzV6YjNKbWJHOTNFQUI5WFowVVB3IiwicXVlc3Rpb24iOiJXaGF0IGlzIFRlbnNvckZsb3cgdXNlZCBmb3I/IiwibGsiOiJHaFIzYUdGMElIUmxibk52Y21ac2IzY2daRzlsY3ciLCJicyI6ImMtTXk0NUlKejBnc1VjZ3NWZ2hKelN2T0wzTEx5UzlYS0MxT1RWRkl5eS15TnhLVEVpa0h5WmVBSmROQWtpbjVxY1Zjamx4eVdQU1ZGU3NFVklia0Z5Vm4yQnZKUzhtV1ExVWdhUWFxS0tnc0FhbmdzdWFTOWtUUkRiUlF3ZGRIQVVpbTVOZ2J5VWhKb1dvRlNlZm1RS1M1YkxHNkcyaTZkMnBSWXJHOWtheVVOSGJiczBIeUFvd0EiLCJpZCI6ImZjXzFreWRhdnVOQWFDWnNlTVB1NXZlcVFZXzYifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlVrUldOVkpmVHpSWVNIUTFla1ZWU2w5dVMwWkhYemRLUjNaUFpURkZURkpCZEc5c1MxQklNa2Q1VFdaUVZrSjRVMGxhWTBaQ1pIRlBiMDAyUW00M05HaFZMVEZzTlhCTU5VcENTVlZRZVVoQmNYbGFaelJMTTI5d1FSSVhNV3Q1WkdGMmRVNUJZVU5hYzJWTlVIVTFkbVZ4VVZrYUlrRkVjM0k1WmxGbmFXSjNPVkZKWDJWb1pWOWxSRVV6UjBGeVdVdFJkbGQ0Ym5jIiwiZmN2IjoiMyIsImVpIjoiMWt5ZGF2dU5BYUNac2VNUHU1dmVxUVkiLCJxYyI6IkNncDBaVzV6YjNKbWJHOTNFQUI5WFowVVB3IiwicXVlc3Rpb24iOiJXaGF0IGlzIFRlbnNvckZsb3cgdXNlZCBmb3I%2FIiwibGsiOiJHaFIzYUdGMElIUmxibk52Y21ac2IzY2daRzlsY3ciLCJicyI6ImMtTXk0NUlKejBnc1VjZ3NWZ2hKelN2T0wzTEx5UzlYS0MxT1RWRkl5eS15TnhLVEVpa0h5WmVBSmROQWtpbjVxY1Zjamx4eVdQU1ZGU3NFVklia0Z5Vm4yQnZKUzhtV1ExVWdhUWFxS0tnc0FhbmdzdWFTOWtUUkRiUlF3ZGRIQVVpbTVOZ2J5VWhKb1dvRlNlZm1RS1M1YkxHNkcyaTZkMnBSWXJHOWtheVVOSGJiczBIeUFvd0EiLCJpZCI6ImZjXzFreWRhdnVOQWFDWnNlTVB1NXZlcVFZXzYifQ%3D%3D"
+    },
+    {
+      "question": "What is TensorFlow vs PyTorch?",
+      "type": "ai_overview",
+      "page_token": "lQFUT3icHdBdbpswAABg9TJ9TDC0nRIpmkTBIWS4svEP-GXy7CQQG8MaWghvu8tOtdNs2gW-h-_Xb9d6--dhbsZxuG3X62maVpe-v7jTSver1q_V7e71Wivnfihtty9fXsDXs96lH4f49echxmwYeEICmnD2ltigBpv7KUNh4YeUiKdJCXQrQjudaL6YyCUqROlJDNh4mEpLEt6Ba0njEXXNUVNSldC1sgRHA9wsILpKD4n0zUHB-CrZyFUGM5oYYTwpeEeU3BOlKs6rJc9oRvbY86c6Yve6Mq0JwV2Lf1b4jDC9TFVojsryN2afXZHl39QSQxNsMuTdqwEQFRDuqYAzpjxKGz2ryNm6koBa2GAwLJIBbCgPZQWJIH2LGVn01XU8zYGwMmB2hqwifW03NfK81NEh0I7kZQZDhh_P-nMXPf7_3H0_d-N2eO8vfwG61oLJ",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=lQFUT3icHdBdbpswAABg9TJ9TDC0nRIpmkTBIWS4svEP-GXy7CQQG8MaWghvu8tOtdNs2gW-h-_Xb9d6--dhbsZxuG3X62maVpe-v7jTSver1q_V7e71Wivnfihtty9fXsDXs96lH4f49echxmwYeEICmnD2ltigBpv7KUNh4YeUiKdJCXQrQjudaL6YyCUqROlJDNh4mEpLEt6Ba0njEXXNUVNSldC1sgRHA9wsILpKD4n0zUHB-CrZyFUGM5oYYTwpeEeU3BOlKs6rJc9oRvbY86c6Yve6Mq0JwV2Lf1b4jDC9TFVojsryN2afXZHl39QSQxNsMuTdqwEQFRDuqYAzpjxKGz2ryNm6koBa2GAwLJIBbCgPZQWJIH2LGVn01XU8zYGwMmB2hqwifW03NfK81NEh0I7kZQZDhh_P-nMXPf7_3H0_d-N2eO8vfwG61oLJ",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlVrUldOVkpmVHpSWVNIUTFla1ZWU2w5dVMwWkhYemRLUjNaUFpURkZURkpCZEc5c1MxQklNa2Q1VFdaUVZrSjRVMGxhWTBaQ1pIRlBiMDAyUW00M05HaFZMVEZzTlhCTU5VcENTVlZRZVVoQmNYbGFaelJMTTI5d1FSSVhNV3Q1WkdGMmRVNUJZVU5hYzJWTlVIVTFkbVZ4VVZrYUlrRkVjM0k1WmxGbmFXSjNPVkZKWDJWb1pWOWxSRVV6UjBGeVdVdFJkbGQ0Ym5jIiwiZmN2IjoiMyIsImVpIjoiMWt5ZGF2dU5BYUNac2VNUHU1dmVxUVkiLCJxYyI6IkNncDBaVzV6YjNKbWJHOTNFQUI5WFowVVB3IiwicXVlc3Rpb24iOiJXaGF0IGlzIFRlbnNvckZsb3cgdnMgUHlUb3JjaD8iLCJsayI6IkdoMTNhR0YwSUdseklIUmxibk52Y21ac2IzY2dkbk1nY0hsMGIzSmphQSIsImJzIjoiYy1NeTQ1SUp6MGdzVWNnc1ZnaEp6U3ZPTDNMTHlTOVhLQzFPVFZGSXl5LXlOeEtURWlrSHlaZUFKZE5Ba2luNXFjVmNqbHh5V1BTVkZTc0VWSWJrRnlWbjJCdkpTOG1XUTFVZ2FRYXFLS2dzQWFuZ3N1YVM5a1RSRGJSUXdkZEhBVWltNU5nYnlVaEpvV29GU2VmbVFLUzViTEc2RzJpNmQycFJZckc5a2F5VU5IYmJzMEh5QW93QSIsImlkIjoiZmNfMWt5ZGF2dU5BYUNac2VNUHU1dmVxUVlfNiJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlVrUldOVkpmVHpSWVNIUTFla1ZWU2w5dVMwWkhYemRLUjNaUFpURkZURkpCZEc5c1MxQklNa2Q1VFdaUVZrSjRVMGxhWTBaQ1pIRlBiMDAyUW00M05HaFZMVEZzTlhCTU5VcENTVlZRZVVoQmNYbGFaelJMTTI5d1FSSVhNV3Q1WkdGMmRVNUJZVU5hYzJWTlVIVTFkbVZ4VVZrYUlrRkVjM0k1WmxGbmFXSjNPVkZKWDJWb1pWOWxSRVV6UjBGeVdVdFJkbGQ0Ym5jIiwiZmN2IjoiMyIsImVpIjoiMWt5ZGF2dU5BYUNac2VNUHU1dmVxUVkiLCJxYyI6IkNncDBaVzV6YjNKbWJHOTNFQUI5WFowVVB3IiwicXVlc3Rpb24iOiJXaGF0IGlzIFRlbnNvckZsb3cgdnMgUHlUb3JjaD8iLCJsayI6IkdoMTNhR0YwSUdseklIUmxibk52Y21ac2IzY2dkbk1nY0hsMGIzSmphQSIsImJzIjoiYy1NeTQ1SUp6MGdzVWNnc1ZnaEp6U3ZPTDNMTHlTOVhLQzFPVFZGSXl5LXlOeEtURWlrSHlaZUFKZE5Ba2luNXFjVmNqbHh5V1BTVkZTc0VWSWJrRnlWbjJCdkpTOG1XUTFVZ2FRYXFLS2dzQWFuZ3N1YVM5a1RSRGJSUXdkZEhBVWltNU5nYnlVaEpvV29GU2VmbVFLUzViTEc2RzJpNmQycFJZckc5a2F5VU5IYmJzMEh5QW93QSIsImlkIjoiZmNfMWt5ZGF2dU5BYUNac2VNUHU1dmVxUVlfNiJ9"
+    },
+    {
+      "question": "Is TensorFlow for ML or dl?",
+      "type": "ai_overview",
+      "page_token": "obXennicHdBfboIwHADg7DI-Kn_URROz2EnFJfwMlbbQlwWKUKUWImxV33aXnWqn2bILfA_f17c-mebnSahh6PrlZGKtHddtW-vjWLbjk5nk_d3Iicy1LnLZLOfPc_elkqugt-i1tSimXcc2xDlcFtvCX98kU3euUQWOugu_bHlQu4WzsyLFQ-qQUOBFRbRSjMsbbKiXuvgjZzsbUyCll00hDAa5VSaiDOUcQmJQJr1ZxBpMy6BExRmizEUIvIWBANu4UfPIw0PR2GnqCHw03SPyWEJY6e3D9Sx7IEsbOEu3dTnvTtRh_jGBaaSzA37g65ETVRq2jznecAM6YciFVGjJsNie3hAJ4b7n4s-r_UyznjZdnIdAxIMOoFVPDfQygDYxQEaV_Fz5o_-x1Xt1GZbdta1_AdfPeXo",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=obXennicHdBfboIwHADg7DI-Kn_URROz2EnFJfwMlbbQlwWKUKUWImxV33aXnWqn2bILfA_f17c-mebnSahh6PrlZGKtHddtW-vjWLbjk5nk_d3Iicy1LnLZLOfPc_elkqugt-i1tSimXcc2xDlcFtvCX98kU3euUQWOugu_bHlQu4WzsyLFQ-qQUOBFRbRSjMsbbKiXuvgjZzsbUyCll00hDAa5VSaiDOUcQmJQJr1ZxBpMy6BExRmizEUIvIWBANu4UfPIw0PR2GnqCHw03SPyWEJY6e3D9Sx7IEsbOEu3dTnvTtRh_jGBaaSzA37g65ETVRq2jznecAM6YciFVGjJsNie3hAJ4b7n4s-r_UyznjZdnIdAxIMOoFVPDfQygDYxQEaV_Fz5o_-x1Xt1GZbdta1_AdfPeXo",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlVrUldOVkpmVHpSWVNIUTFla1ZWU2w5dVMwWkhYemRLUjNaUFpURkZURkpCZEc5c1MxQklNa2Q1VFdaUVZrSjRVMGxhWTBaQ1pIRlBiMDAyUW00M05HaFZMVEZzTlhCTU5VcENTVlZRZVVoQmNYbGFaelJMTTI5d1FSSVhNV3Q1WkdGMmRVNUJZVU5hYzJWTlVIVTFkbVZ4VVZrYUlrRkVjM0k1WmxGbmFXSjNPVkZKWDJWb1pWOWxSRVV6UjBGeVdVdFJkbGQ0Ym5jIiwiZmN2IjoiMyIsImVpIjoiMWt5ZGF2dU5BYUNac2VNUHU1dmVxUVkiLCJxYyI6IkNncDBaVzV6YjNKbWJHOTNFQUI5WFowVVB3IiwicXVlc3Rpb24iOiJJcyBUZW5zb3JGbG93IGZvciBNTCBvciBkbD8iLCJsayI6IkdocHBjeUIwWlc1emIzSm1iRzkzSUdadmNpQnRiQ0J2Y2lCa2JBIiwiYnMiOiJjLU15NDVJSnowZ3NVY2dzVmdoSnpTdk9MM0xMeVM5WEtDMU9UVkZJeXkteU54S1RFaWtIeVplQUpkTkFraW41cWNWY2pseHlXUFNWRlNzRVZJYmtGeVZuMkJ2SlM4bVdRMVVnYVFhcUtLZ3NBYW5nc3VhUzlrVFJEYlJRd2RkSEFVaW01TmdieVVoSm9Xb0ZTZWZtUUtTNWJMRzZHMmk2ZDJwUllyRzlrYXlVTkhiYnMwSHlBb3dBIiwiaWQiOiJmY18xa3lkYXZ1TkFhQ1pzZU1QdTV2ZXFRWV82In0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlVrUldOVkpmVHpSWVNIUTFla1ZWU2w5dVMwWkhYemRLUjNaUFpURkZURkpCZEc5c1MxQklNa2Q1VFdaUVZrSjRVMGxhWTBaQ1pIRlBiMDAyUW00M05HaFZMVEZzTlhCTU5VcENTVlZRZVVoQmNYbGFaelJMTTI5d1FSSVhNV3Q1WkdGMmRVNUJZVU5hYzJWTlVIVTFkbVZ4VVZrYUlrRkVjM0k1WmxGbmFXSjNPVkZKWDJWb1pWOWxSRVV6UjBGeVdVdFJkbGQ0Ym5jIiwiZmN2IjoiMyIsImVpIjoiMWt5ZGF2dU5BYUNac2VNUHU1dmVxUVkiLCJxYyI6IkNncDBaVzV6YjNKbWJHOTNFQUI5WFowVVB3IiwicXVlc3Rpb24iOiJJcyBUZW5zb3JGbG93IGZvciBNTCBvciBkbD8iLCJsayI6IkdocHBjeUIwWlc1emIzSm1iRzkzSUdadmNpQnRiQ0J2Y2lCa2JBIiwiYnMiOiJjLU15NDVJSnowZ3NVY2dzVmdoSnpTdk9MM0xMeVM5WEtDMU9UVkZJeXkteU54S1RFaWtIeVplQUpkTkFraW41cWNWY2pseHlXUFNWRlNzRVZJYmtGeVZuMkJ2SlM4bVdRMVVnYVFhcUtLZ3NBYW5nc3VhUzlrVFJEYlJRd2RkSEFVaW01TmdieVVoSm9Xb0ZTZWZtUUtTNWJMRzZHMmk2ZDJwUllyRzlrYXlVTkhiYnMwSHlBb3dBIiwiaWQiOiJmY18xa3lkYXZ1TkFhQ1pzZU1QdTV2ZXFRWV82In0%3D"
+    },
+    {
+      "question": "What is TensorFlow vs Keras?",
+      "type": "ai_overview",
+      "page_token": "OWpvCHicHdDbboIwAADQ7Gd8FAqDZSZmkUvBZpbY0lb7skC5KeUyJUN927_sq_Y1S3Y-4Xz_6FPf_j7JZprG68ow5nle1sNQ63KphuWpN7LrvVeGyrTOM9Wu3BcXvFVqHV5nzx9mb8_GkQfEpJZm5QFtC2E6zMIDbsNpZ-mz6iZ2tKWfduiQn4nJY52pnmQyrJ20dSLR3mRCAcjE-Jn23GfhdOGxdyzO6sYDNqt488ws-Nj3ZIvNpqFRaBIbV5K_8oQ3LRHQ2UEUlAKhRIzXHDatAkdQWC1IbU5wV_ipPbo592zKPZcBZBYUWDxUFD7gpRSkKXqe7AUMRI91yj2AD1IrDmV0Qh6J8T0RktKAZKrDLjVhR01ESkZQYW-mTJP3XNwiHkhvUamvtb34H1t_VN20Gi9D_QdT4XdC",
+      "serpapi_ai_overview_link": "https://serpapi.com/search.json?engine=google_ai_overview&page_token=OWpvCHicHdDbboIwAADQ7Gd8FAqDZSZmkUvBZpbY0lb7skC5KeUyJUN927_sq_Y1S3Y-4Xz_6FPf_j7JZprG68ow5nle1sNQ63KphuWpN7LrvVeGyrTOM9Wu3BcXvFVqHV5nzx9mb8_GkQfEpJZm5QFtC2E6zMIDbsNpZ-mz6iZ2tKWfduiQn4nJY52pnmQyrJ20dSLR3mRCAcjE-Jn23GfhdOGxdyzO6sYDNqt488ws-Nj3ZIvNpqFRaBIbV5K_8oQ3LRHQ2UEUlAKhRIzXHDatAkdQWC1IbU5wV_ipPbo592zKPZcBZBYUWDxUFD7gpRSkKXqe7AUMRI91yj2AD1IrDmV0Qh6J8T0RktKAZKrDLjVhR01ESkZQYW-mTJP3XNwiHkhvUamvtb34H1t_VN20Gi9D_QdT4XdC",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlVrUldOVkpmVHpSWVNIUTFla1ZWU2w5dVMwWkhYemRLUjNaUFpURkZURkpCZEc5c1MxQklNa2Q1VFdaUVZrSjRVMGxhWTBaQ1pIRlBiMDAyUW00M05HaFZMVEZzTlhCTU5VcENTVlZRZVVoQmNYbGFaelJMTTI5d1FSSVhNV3Q1WkdGMmRVNUJZVU5hYzJWTlVIVTFkbVZ4VVZrYUlrRkVjM0k1WmxGbmFXSjNPVkZKWDJWb1pWOWxSRVV6UjBGeVdVdFJkbGQ0Ym5jIiwiZmN2IjoiMyIsImVpIjoiMWt5ZGF2dU5BYUNac2VNUHU1dmVxUVkiLCJxYyI6IkNncDBaVzV6YjNKbWJHOTNFQUI5WFowVVB3IiwicXVlc3Rpb24iOiJXaGF0IGlzIFRlbnNvckZsb3cgdnMgS2VyYXM/IiwibGsiOiJHaHQzYUdGMElHbHpJSFJsYm5OdmNtWnNiM2NnZG5NZ2EyVnlZWE0iLCJicyI6ImMtTXk0NUlKejBnc1VjZ3NWZ2hKelN2T0wzTEx5UzlYS0MxT1RWRkl5eS15TnhLVEVpa0h5WmVBSmROQWtpbjVxY1Zjamx4eVdQU1ZGU3NFVklia0Z5Vm4yQnZKUzhtV1ExVWdhUWFxS0tnc0FhbmdzdWFTOWtUUkRiUlF3ZGRIQVVpbTVOZ2J5VWhKb1dvRlNlZm1RS1M1YkxHNkcyaTZkMnBSWXJHOWtheVVOSGJiczBIeUFvd0EiLCJpZCI6ImZjXzFreWRhdnVOQWFDWnNlTVB1NXZlcVFZXzYifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJTbWxVTkhSSlVrUldOVkpmVHpSWVNIUTFla1ZWU2w5dVMwWkhYemRLUjNaUFpURkZURkpCZEc5c1MxQklNa2Q1VFdaUVZrSjRVMGxhWTBaQ1pIRlBiMDAyUW00M05HaFZMVEZzTlhCTU5VcENTVlZRZVVoQmNYbGFaelJMTTI5d1FSSVhNV3Q1WkdGMmRVNUJZVU5hYzJWTlVIVTFkbVZ4VVZrYUlrRkVjM0k1WmxGbmFXSjNPVkZKWDJWb1pWOWxSRVV6UjBGeVdVdFJkbGQ0Ym5jIiwiZmN2IjoiMyIsImVpIjoiMWt5ZGF2dU5BYUNac2VNUHU1dmVxUVkiLCJxYyI6IkNncDBaVzV6YjNKbWJHOTNFQUI5WFowVVB3IiwicXVlc3Rpb24iOiJXaGF0IGlzIFRlbnNvckZsb3cgdnMgS2VyYXM%2FIiwibGsiOiJHaHQzYUdGMElHbHpJSFJsYm5OdmNtWnNiM2NnZG5NZ2EyVnlZWE0iLCJicyI6ImMtTXk0NUlKejBnc1VjZ3NWZ2hKelN2T0wzTEx5UzlYS0MxT1RWRkl5eS15TnhLVEVpa0h5WmVBSmROQWtpbjVxY1Zjamx4eVdQU1ZGU3NFVklia0Z5Vm4yQnZKUzhtV1ExVWdhUWFxS0tnc0FhbmdzdWFTOWtUUkRiUlF3ZGRIQVVpbTVOZ2J5VWhKb1dvRlNlZm1RS1M1YkxHNkcyaTZkMnBSWXJHOWtheVVOSGJiczBIeUFvd0EiLCJpZCI6ImZjXzFreWRhdnVOQWFDWnNlTVB1NXZlcVFZXzYifQ%3D%3D"
+    }
+  ],
+  "ai_overview": {
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "TensorFlow is a free, open-source software library for machine learning and artificial intelligence created by Google.",
+        "snippet_links": [
+          {
+            "text": "TensorFlow",
+            "link": "https://www.tensorflow.org/"
+          }
+        ],
+        "snippet_highlighted_words": [
+          "a free, open-source software library for machine learning and artificial intelligence created by Google"
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "What is TensorFlow?"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "It is a popular deep learning framework used to train and run neural networks."
+          },
+          {
+            "snippet": "The name comes from \"tensors,\" which are multi-dimensional data arrays that flow through computational graph nodes."
+          },
+          {
+            "snippet": "It uses a fast C++ backend with user-friendly front-end APIs, mostly in Python."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Key Components"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Keras: The official high-level API used to build and train models easily (tf.keras)."
+          },
+          {
+            "snippet": "TensorFlow Lite: A lightweight tool for running models on mobile and edge devices."
+          },
+          {
+            "snippet": "TensorFlow.js: A library that lets you run machine learning directly in a web browser."
+          },
+          {
+            "snippet": "TensorFlow Extended (TFX): A platform for setting up production machine learning pipelines."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you'd like to get started, tell me:"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Are you working on a classification or regression task?"
+          },
+          {
+            "snippet": "Would you like a code example to set up your first model?"
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "link": "https://en.wikipedia.org/wiki/TensorFlow",
+        "source": "en.wikipedia.org",
+        "index": 0
+      },
+      {
+        "link": "https://www.nvidia.com/en-us/glossary/tensorflow/",
+        "source": "nvidia.com",
+        "index": 1
+      },
+      {
+        "link": "https://www.infoworld.com/article/2255099/what-is-tensorflow-the-machine-learning-library-explained.html",
+        "source": "infoworld.com",
+        "index": 2
+      },
+      {
+        "link": "https://www.databricks.com/blog/what-is-tensorflow",
+        "source": "databricks.com",
+        "index": 3
+      },
+      {
+        "link": "https://www.tensorflow.org/about",
+        "source": "tensorflow.org",
+        "index": 4
+      },
+      {
+        "link": "https://www.geeksforgeeks.org/python/introduction-to-tensorflow/",
+        "source": "geeksforgeeks.org",
+        "index": 5
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=i8NETqtGHms",
+        "source": "youtube.com",
+        "index": 6
+      },
+      {
+        "title": "TensorFlow - Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/TensorFlow",
+        "snippet": "TensorFlow is a software library for machine learning and artificial intelligence. It can be used across a range of tasks, but is used mainly for training and i...",
+        "source": "Wikipedia",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoQvJ0vUKdZ9u7-3ikjVtp7GQY9KM2M6d6PsFXmQ_lRr1XAh65MqvsB8OxRF8dGjlrnPiv_zE2lMI0mgeJtnZW_xIDLM-HppAf3qtP",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://en.wikipedia.org&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 7
+      },
+      {
+        "title": "What Is TensorFlow? | NVIDIA Glossary",
+        "link": "https://www.nvidia.com/en-us/glossary/tensorflow/",
+        "snippet": "Heavily used by data scientists, software developers, and educators, TensorFlow is an open-source platform for machine learning using data flow graphs. Nodes in...",
+        "source": "NVIDIA",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRTx30-VvTY2K2Vts5c_nyf7mDYP01mRPG_R5XiMReztFrGu-lRwlJKnZgPJKVqJPJ74r240koviG4yjktMyc7SsCXRT4C0-yRl2Sla",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.nvidia.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 8
+      },
+      {
+        "title": "What is TensorFlow? The machine learning library explained",
+        "link": "https://www.infoworld.com/article/2255099/what-is-tensorflow-the-machine-learning-library-explained.html",
+        "snippet": "TensorFlow bundles together a slew of machine learning and deep learning models and algorithms (aka neural networks) and makes them useful by way of common prog...",
+        "source": "InfoWorld",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQsgpQmH745rmbuNq-DxQ-oJpco4jWxaEpn24Mipmns_6eHqiB8GeuVYfK6X0lvoH6Xohg5QOnn0zWkzQYnvsWW_dliU83G77obX0cc",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.infoworld.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 9
+      },
+      {
+        "title": "What is TensorFlow? | Databricks",
+        "link": "https://www.databricks.com/blog/what-is-tensorflow",
+        "snippet": "How does TensorFlow work? TensorFlow combines various machine learning and deep learning (or neural networking) models and algorithms, and makes them useful by",
+        "source": "Databricks",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSKU94tMjgFZmWFIwgnh8s_6-LEqRsQHZr6E9tQDQsj-IZv5oMqnX8OCH6YeNWTF9OgVWZ5BLRTnnAzLoaJDTxuh6vRNCvO1Y-5F2g1",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.databricks.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 10
+      },
+      {
+        "title": "Why TensorFlow",
+        "link": "https://www.tensorflow.org/about",
+        "snippet": "Why TensorFlow * An entire ecosystem to help you solve challenging, real-world problems with machine learning. Easy model building. TensorFlow offers",
+        "source": "TensorFlow",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDGB8OwTbBRfgPmvYFaxKJo86JNj5MzCKgLS2bn828ewasmvYQfjQ3bwOOnvqU_gYvw3vnwTcemDkGtNE7EOL2f9rmCre2CyEAVBEH",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.tensorflow.org&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 11
+      },
+      {
+        "title": "Introduction to TensorFlow - GeeksforGeeks",
+        "link": "https://www.geeksforgeeks.org/python/introduction-to-tensorflow/",
+        "snippet": "Key Features * TensorFlow Core: The base API for TensorFlow that allows users to define models, build computations and execute them. * Keras: Keras is",
+        "source": "GeeksforGeeks",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTSBj8F3w7yfBmNFZSUb0zNPeNbY_7kUFDinsvltsXt3hRZCrxofTqZO6v3McSz2XnBsz9e-tlpN02fDlN-9DaNvtj7Zjw8TpwAJ5kw",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.geeksforgeeks.org&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 12
+      },
+      {
+        "title": "TensorFlow in 100 Seconds",
+        "link": "https://www.youtube.com/watch?v=i8NETqtGHms",
+        "snippet": "tensorflow an open-source. machine learning framework famous for powering deep neural networks with highlevel. code it was developed by the Google Brain team an",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmy6iTn0ywLnY1EIZsKjrSrJM6hMlFg6m-SFBvG8y5bWaXhfqIOZTaAdvi962VXEXO-amol5U3wWC1NdD7DvCIelGFl9q-o9xSK6tow",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 13
+      }
+    ]
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "TensorFlow: A Comprehensive Guide for Data Scientists",
+      "link": "https://databasecamp.de/en/python-coding/tensorflow-en",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESbgHrOzAVU4MxujmYWlBiYoqYJaZ2Q_fB-LoxghO67Jm4hc23G1HppUt4BG4R9I3Ax2_VUnL1lsQsu9t8hJcb_NlfMyduM_afFN2lQTn7wHPFH1BwGv_dT68jI-WM74GiHaQJNhi9wEVJyJg78kas&ved=2ahUKEwj70LKt69mWAxWgTGwGHbuNN2UQFnoECC0QAQ&uoh=1",
+      "displayed_link": "https://databasecamp.de › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAeFBMVEUNRHQAQXIMRHQ2XYVIZ4tJaYwjUX0AOG25xdF6jqZ7j6ebq70AOm4AM2oAPXAAO2-TpLcrVoA9Y4pEaI0AP3GLnbKntcYaTXttiKTG097V3-dWdpenusswXIV3lrEVSHZMcZVrg58AL2hffp2Op73g5uxZdJRagKB9HOBfAAABVElEQVR4AXTSB2KEIBAFUP6wgFkRBcZgl029_w0j6W2_3ad0IQSuhIrJ079R-lBT3fybc22FsHXj_kvbtQWt-BZ4j3Il_EUTopIO_yBb098mFwbJf9CobpwGRxz1zL-w6Zc1bONKYs9e4gc2dW84-Hokgkyz-0Awc7vMJmSpU760gNazfcO7PN_Hxbs9OQbf9zGQkP6-YDN2xDjfH7cuzjo_nFzMQLsWNFVmweo-MeKWwjI2LidjVNXZ48-pfR0YpUjb9fHWS79MVXXeCtraFIy7lA5Va3LspuSMCd-6gtVlPynecZkc_Br0NxREZnyyQB4JPgHuAxG5_Ky9tdUICELy8RNlxIEhbuNgcHznn-P4gQK75qJPKs7lz-TmS_-BgpCZBAdinj0E2r753iDInQRS-SKyvhf42dq9nMtnIM_EBa8sMBsLXl2aBa8t6pOml-HNDgD_Kx4G649SegAAAABJRU5ErkJggg.png",
+      "date": "18 जुल॰ 2023",
+      "snippet": "TensorFlow is an open-source framework from Google for creating Machine Learning models. Although the software is written in C++, it is ...",
+      "snippet_highlighted_words": [
+        "TensorFlow"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "TensorFlow is an open-source framework from Google for creating Machine Learning models. Although the software is written in C++, it is ...",
+          "source_info_link": "https://databasecamp.de/en/python-coding/tensorflow-en",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAeFBMVEUNRHQAQXIMRHQ2XYVIZ4tJaYwjUX0AOG25xdF6jqZ7j6ebq70AOm4AM2oAPXAAO2-TpLcrVoA9Y4pEaI0AP3GLnbKntcYaTXttiKTG097V3-dWdpenusswXIV3lrEVSHZMcZVrg58AL2hffp2Op73g5uxZdJRagKB9HOBfAAABVElEQVR4AXTSB2KEIBAFUP6wgFkRBcZgl029_w0j6W2_3ad0IQSuhIrJ079R-lBT3fybc22FsHXj_kvbtQWt-BZ4j3Il_EUTopIO_yBb098mFwbJf9CobpwGRxz1zL-w6Zc1bONKYs9e4gc2dW84-Hokgkyz-0Awc7vMJmSpU760gNazfcO7PN_Hxbs9OQbf9zGQkP6-YDN2xDjfH7cuzjo_nFzMQLsWNFVmweo-MeKWwjI2LidjVNXZ48-pfR0YpUjb9fHWS79MVXXeCtraFIy7lA5Va3LspuSMCd-6gtVlPynecZkc_Br0NxREZnyyQB4JPgHuAxG5_Ky9tdUICELy8RNlxIEhbuNgcHznn-P4gQK75qJPKs7lz-TmS_-BgpCZBAdinj0E2r753iDInQRS-SKyvhf42dq9nMtnIM_EBa8sMBsLXl2aBa8t6pOml-HNDgD_Kx4G649SegAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://databasecamp.de/en/python-coding/tensorflow-en&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fdatabasecamp.de%2Fen%2Fpython-coding%2Ftensorflow-en",
+      "source": "Data Basecamp"
+    },
+    {
+      "position": 2,
+      "title": "TensorFlow Basics in 10 Minutes Deep Learning Tutorial",
+      "link": "https://www.youtube.com/watch?v=3rLs_BOuL80",
+      "displayed_link": "1.1 हज़ार+ व्यू · 3 वर्ष पहले",
+      "thumbnail": "https://serpapi.com/searches/6a9d4cd455ba650396272f46/images/BzPFohptaTWEO64khuzEKLYJ--SwDLGBPKN_bFCRBC4.jpeg",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAhUlEQVR4AWNwL_ChCFPHgP8MxqxA7ArEKVBcCcUNIAznI-RdQXrABgAZpv8ZjP6Tg0F6QQbsosCAXSADHmGVVPIC0jKEDHgAMuAbmgRE445D___feYzXIJBeBigH04BVW_9DAcgwqEGYaik2gGIvUByIlEbjDooTEiwps5GRlNmolpkowgBVP9wMSzSKGAAAAABJRU5ErkJggg.png",
+      "snippet": "Learn TensorFlow basics for deep learning | TensorFlow vs PyTorch | AI with Python | Machine learning & data science tutorial | What is ...",
+      "duration": "12:23",
+      "key_moments": [
+        {
+          "time": "01:25",
+          "title": "Install Tensorflow",
+          "link": "https://www.youtube.com/watch?v=3rLs_BOuL80&t=85"
+        },
+        {
+          "time": "02:22",
+          "title": "How To Work with Tensors",
+          "link": "https://www.youtube.com/watch?v=3rLs_BOuL80&t=142"
+        },
+        {
+          "time": "03:49",
+          "title": "Variable Method",
+          "link": "https://www.youtube.com/watch?v=3rLs_BOuL80&t=229"
+        },
+        {
+          "time": "04:50",
+          "title": "Create Random Tensors",
+          "link": "https://www.youtube.com/watch?v=3rLs_BOuL80&t=290"
+        },
+        {
+          "time": "06:20",
+          "title": "Convert It to a Tensor",
+          "link": "https://www.youtube.com/watch?v=3rLs_BOuL80&t=380"
+        },
+        {
+          "time": "06:40",
+          "title": "Working with Dimensions",
+          "link": "https://www.youtube.com/watch?v=3rLs_BOuL80&t=400"
+        },
+        {
+          "time": "08:01",
+          "title": "Tensor Operations",
+          "link": "https://www.youtube.com/watch?v=3rLs_BOuL80&t=481"
+        },
+        {
+          "time": "08:41",
+          "title": "Functions",
+          "link": "https://www.youtube.com/watch?v=3rLs_BOuL80&t=521"
+        },
+        {
+          "time": "09:29",
+          "title": "Change the Tensor Dimension with the Reshape Method",
+          "link": "https://www.youtube.com/watch?v=3rLs_BOuL80&t=569"
+        },
+        {
+          "time": "10:44",
+          "title": "Remove all Single Dimensions",
+          "link": "https://www.youtube.com/watch?v=3rLs_BOuL80&t=644"
+        }
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "Learn TensorFlow basics for deep learning | TensorFlow vs PyTorch | AI with Python | Machine learning & data science tutorial | What is ...",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAhUlEQVR4AWNwL_ChCFPHgP8MxqxA7ArEKVBcCcUNIAznI-RdQXrABgAZpv8ZjP6Tg0F6QQbsosCAXSADHmGVVPIC0jKEDHgAMuAbmgRE445D___feYzXIJBeBigH04BVW_9DAcgwqEGYaik2gGIvUByIlEbjDooTEiwps5GRlNmolpkowgBVP9wMSzSKGAAAAABJRU5ErkJggg.png"
+        }
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.google.co.in/goto?url=CAESYwHrOzAVUMcXxZjjgYPc2FNN4KdhEPn7Byev0aLFSxSMJILkCXsk1_KPoaqoy1TkEkh4C4ejv6ZAeKa2kUnqv-krKkBFOUeTEP6OAtlg62500QS8TwpSA1cFSZjQTKBFkxpevA&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.google.co.in%2Fgoto%3Furl%3DCAESYwHrOzAVUMcXxZjjgYPc2FNN4KdhEPn7Byev0aLFSxSMJILkCXsk1_KPoaqoy1TkEkh4C4ejv6ZAeKa2kUnqv-krKkBFOUeTEP6OAtlg62500QS8TwpSA1cFSZjQTKBFkxpevA",
+      "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcQ9Zcs7rl4f1HZlpxhpRkjkPb4LZCnatGIuJw",
+      "source": "YouTube · Evren Ozkip"
+    },
+    {
+      "position": 3,
+      "title": "Tensorflow Quickstart #python #ai ...",
+      "link": "https://www.youtube.com/shorts/1m-s-mHoS70",
+      "displayed_link": "19 हज़ार+ व्यू · 1 वर्ष पहले",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrEb3fLcGbUP4G26WJaPTzTEiMmNspvRHw2ImmVcJdZ3tRO2sP8mA5ow&s",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAhUlEQVR4AWNwL_ChCFPHgP8MxqxA7ArEKVBcCcUNIAznI-RdQXrABgAZpv8ZjP6Tg0F6QQbsosCAXSADHmGVVPIC0jKEDHgAMuAbmgRE445D___feYzXIJBeBigH04BVW_9DAcgwqEGYaik2gGIvUByIlEbjDooTEiwps5GRlNmolpkowgBVP9wMSzSKGAAAAABJRU5ErkJggg.png",
+      "snippet": "Tensorflow Quickstart #python #ai #tensorflow #artificialintelligence #docker · Docker Simply Explained with a Machine Learning Project for ...",
+      "duration": "1:00",
+      "about_this_result": {
+        "source": {
+          "description": "Tensorflow Quickstart #python #ai #tensorflow #artificialintelligence #docker · Docker Simply Explained with a Machine Learning Project for ...",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAhUlEQVR4AWNwL_ChCFPHgP8MxqxA7ArEKVBcCcUNIAznI-RdQXrABgAZpv8ZjP6Tg0F6QQbsosCAXSADHmGVVPIC0jKEDHgAMuAbmgRE445D___feYzXIJBeBigH04BVW_9DAcgwqEGYaik2gGIvUByIlEbjDooTEiwps5GRlNmolpkowgBVP9wMSzSKGAAAAABJRU5ErkJggg.png"
+        }
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.google.co.in/goto?url=CAESYgHrOzAVVe8z_6QnF7Ddv1zML2zTNSKSwJBiEhPUjxBE4cCUwC1zrIm-1fGJPpG2zXQy18KEwW6DxpAmJQEmkNmpwUTgaR-LlIHrKqDvqwcUmkwIEt--y81SPWiSUYxqCDHa&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.google.co.in%2Fgoto%3Furl%3DCAESYgHrOzAVVe8z_6QnF7Ddv1zML2zTNSKSwJBiEhPUjxBE4cCUwC1zrIm-1fGJPpG2zXQy18KEwW6DxpAmJQEmkNmpwUTgaR-LlIHrKqDvqwcUmkwIEt--y81SPWiSUYxqCDHa",
+      "video_link": "https://encrypted-vtbn0.gstatic.com/video?q=tbn:ANd9GcRy_Wz0VlZCgrbl8AG3mVMCiFNBDYZXf53Q_Q",
+      "source": "YouTube · Python Simplified"
+    },
+    {
+      "position": 4,
+      "title": "TensorFlow Tutorial 2022",
+      "link": "https://www.youtube.com/watch?v=Y__gyApx_7c",
+      "displayed_link": "30.3 हज़ार+ व्यू · 4 वर्ष पहले",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6WvfEaDyeeCGR65oH02AqY_8jan3Erkj8KrUpfFhTF15ZCyTWXKSGjA&s",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAhUlEQVR4AWNwL_ChCFPHgP8MxqxA7ArEKVBcCcUNIAznI-RdQXrABgAZpv8ZjP6Tg0F6QQbsosCAXSADHmGVVPIC0jKEDHgAMuAbmgRE445D___feYzXIJBeBigH04BVW_9DAcgwqEGYaik2gGIvUByIlEbjDooTEiwps5GRlNmolpkowgBVP9wMSzSKGAAAAABJRU5ErkJggg.png",
+      "snippet": "I'll teach a ton about how to use TensorFlow and I'll answer all your questions live. I'll cover all of the following and much more ...",
+      "duration": "2:03:57",
+      "key_moments": [
+        {
+          "time": "00:00",
+          "title": "Welcome",
+          "link": "https://www.youtube.com/watch?v=Y__gyApx_7c&t=0"
+        },
+        {
+          "time": "07:35",
+          "title": "Numpy and Pandas",
+          "link": "https://www.youtube.com/watch?v=Y__gyApx_7c&t=455"
+        },
+        {
+          "time": "21:15",
+          "title": "Getting the Shape of the Data",
+          "link": "https://www.youtube.com/watch?v=Y__gyApx_7c&t=1275"
+        },
+        {
+          "time": "33:12",
+          "title": "Plotting Salary Data",
+          "link": "https://www.youtube.com/watch?v=Y__gyApx_7c&t=1992"
+        },
+        {
+          "time": "58:46",
+          "title": "Matrix",
+          "link": "https://www.youtube.com/watch?v=Y__gyApx_7c&t=3526"
+        },
+        {
+          "time": "01:08:31",
+          "title": "Reshape Example",
+          "link": "https://www.youtube.com/watch?v=Y__gyApx_7c&t=4111"
+        },
+        {
+          "time": "01:21:46",
+          "title": "Min-Max Scaler",
+          "link": "https://www.youtube.com/watch?v=Y__gyApx_7c&t=4906"
+        },
+        {
+          "time": "01:37:24",
+          "title": "Build Neural Network with Training Data",
+          "link": "https://www.youtube.com/watch?v=Y__gyApx_7c&t=5844"
+        },
+        {
+          "time": "01:45:09",
+          "title": "Learning Rate",
+          "link": "https://www.youtube.com/watch?v=Y__gyApx_7c&t=6309"
+        },
+        {
+          "time": "01:58:41",
+          "title": "Highly Correlated Features",
+          "link": "https://www.youtube.com/watch?v=Y__gyApx_7c&t=7121"
+        }
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "I'll teach a ton about how to use TensorFlow and I'll answer all your questions live. I'll cover all of the following and much more ...",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8_9hAAAAhUlEQVR4AWNwL_ChCFPHgP8MxqxA7ArEKVBcCcUNIAznI-RdQXrABgAZpv8ZjP6Tg0F6QQbsosCAXSADHmGVVPIC0jKEDHgAMuAbmgRE445D___feYzXIJBeBigH04BVW_9DAcgwqEGYaik2gGIvUByIlEbjDooTEiwps5GRlNmolpkowgBVP9wMSzSKGAAAAABJRU5ErkJggg.png"
+        }
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://www.google.co.in/goto?url=CAESYwHrOzAVT37Fa1nOYZ1K8OfmRrgBdqAi5JVpmCRSYHzRL1QwyGu4SM-ULmvizASIa4FARnCXoofckzUEElMEmh7EzY8bRnSBQLUp5lmsdiwxbYaM1vhi5WvbQaTG_mpvHjQ8mQ&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fwww.google.co.in%2Fgoto%3Furl%3DCAESYwHrOzAVT37Fa1nOYZ1K8OfmRrgBdqAi5JVpmCRSYHzRL1QwyGu4SM-ULmvizASIa4FARnCXoofckzUEElMEmh7EzY8bRnSBQLUp5lmsdiwxbYaM1vhi5WvbQaTG_mpvHjQ8mQ",
+      "source": "YouTube · Derek Banas"
+    },
+    {
+      "position": 5,
+      "title": "Learn TensorFlow - Google Play पर ऐप्लिकेशन",
+      "link": "https://play.google.com/store/apps/details?id=in.softecks.tensorflow&hl=hi",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Din.softecks.tensorflow%26hl%3Dhi&ved=2ahUKEwj70LKt69mWAxWgTGwGHbuNN2UQFnoECC4QAQ",
+      "displayed_link": "https://play.google.com › store › apps › details",
+      "favicon": "https://serpapi.com/searches/6a9d4cd455ba650396272f46/images/BzPFohptaTWEO64khuzEKJki7awLPOUoCdSvBI6gEAE.png",
+      "snippet": "टेन्सरफ्लो, मशीन लर्निंग, डीप लर्निंग, न्यूरल नेटवर्क और एआई सीखें।",
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "rating": 3.7,
+            "reviews": 25
+          },
+          "extensions": [
+            "3.7(25)",
+            "मुफ़्त",
+            "Android",
+            "शैक्षणिक"
+          ]
+        }
+      },
+      "about_this_result": {
+        "source": {
+          "description": "टेन्सरफ्लो, मशीन लर्निंग, डीप लर्निंग, न्यूरल नेटवर्क और एआई सीखें।",
+          "source_info_link": "https://play.google.com/store/apps/details?id=in.softecks.tensorflow&hl=hi",
+          "icon": "https://serpapi.com/searches/6a9d4cd455ba650396272f46/images/BzPFohptaTWEO64khuzEKHV1482ibVWbEOm0yg9XYsVWGXDqexO7NstgHpLp_D1b.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://play.google.com/store/apps/details?id=in.softecks.tensorflow&hl=hi&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Din.softecks.tensorflow%26hl%3Dhi",
+      "source": "Google Play"
+    },
+    {
+      "position": 6,
+      "title": "TensorFlow & Keras - Jonathan Hui",
+      "link": "https://jonathan-hui.medium.com/tensorflow-keras-53f190a37704",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESdQHrOzAV9WHqf8VLYUlwEiWd6oX6Gl7oBP6pTt82TqJuxEpg6e11lySEGBWdJBrc7FvmMmnb-m01mgs_tJSxV-LFte7ocqeW5ua_4fCq9BcA3GBk7fcWjhlIgpgDjeyWtLoCEjs1hExznXO_-SfmU8hA2jxM3g&ved=2ahUKEwj70LKt69mWAxWgTGwGHbuNN2UQFnoECCwQAQ&uoh=1",
+      "displayed_link": "100+ लाइक · 5 वर्ष पहले",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAARVBMVEVHcEwAAAAAAAAAAAAAAAAAAAB2dnanp6fW1tb___-JiYmzs7Pm5uaUlJS5ubm_v79XV1fMzMwuLi5GRkZgYGAWFhbz8_NaZDsbAAAABnRSTlMATcb6_504Ks4-AAAA00lEQVR4AX3TCw6DIBAEUNQpP_Gv3P-oHbJKpA1MErPwXAgRlVJdP-AvQ98p5oNKPuxDNZ3q69iroY6DQiOC2jAA8kC_ENY55yFhafHGkTNByonlWOC8cGpFShh_cVmJm-x4o7bbg_tG3VMj5oR86tx5pFYDHFZQuwBkRKCyOAWDM2_0RI8AJLx4HDNmBIjBT4JHehEZ5awRGU2BO9EgLxsLBE9z3YjIYxd4cvygT3vcaDWYeEIWsHxS8yfbU6vUjAa0DQqNNK9J84I1r2b7Urd-hy8WUBIcmpFBTAAAAABJRU5ErkJggg.png",
+      "snippet": "And each layer has exactly one input and one output tensor — a tensor is a TF class either containing a scalar, a vector, or an n-dimension ...",
+      "about_this_result": {
+        "source": {
+          "description": "And each layer has exactly one input and one output tensor — a tensor is a TF class either containing a scalar, a vector, or an n-dimension ...",
+          "source_info_link": "https://jonathan-hui.medium.com/tensorflow-keras-53f190a37704",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAARVBMVEVHcEwAAAAAAAAAAAAAAAAAAAB2dnanp6fW1tb___-JiYmzs7Pm5uaUlJS5ubm_v79XV1fMzMwuLi5GRkZgYGAWFhbz8_NaZDsbAAAABnRSTlMATcb6_504Ks4-AAAA00lEQVR4AX3TCw6DIBAEUNQpP_Gv3P-oHbJKpA1MErPwXAgRlVJdP-AvQ98p5oNKPuxDNZ3q69iroY6DQiOC2jAA8kC_ENY55yFhafHGkTNByonlWOC8cGpFShh_cVmJm-x4o7bbg_tG3VMj5oR86tx5pFYDHFZQuwBkRKCyOAWDM2_0RI8AJLx4HDNmBIjBT4JHehEZ5awRGU2BO9EgLxsLBE9z3YjIYxd4cvygT3vcaDWYeEIWsHxS8yfbU6vUjAa0DQqNNK9J84I1r2b7Urd-hy8WUBIcmpFBTAAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://jonathan-hui.medium.com/tensorflow-keras-53f190a37704&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fjonathan-hui.medium.com%2Ftensorflow-keras-53f190a37704",
+      "source": "Medium · Jonathan Hui"
+    },
+    {
+      "position": 7,
+      "title": "TensorFlow is dead, long live TensorFlow!",
+      "link": "https://hackernoon.com/tensorflow-is-dead-long-live-tensorflow-49d3e975cf04",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFQp2RXe52OFueGTiPXip_Z5dxMnagCZsAnxg941oM6Mc9vrSPGmc5EgL63hSMgSvUU028mU-0Js8YC0qBVAjP1GJKE8NVjzOX6HfzHsVMeFZfrSNaqc4HtTbpKqcojFG2meCXI4EbMWuarlWri2oyCm2lXg4ab9mAkPOYbKzDQ&ved=2ahUKEwj70LKt69mWAxWgTGwGHbuNN2UQFnoECCsQAQ&uoh=1",
+      "displayed_link": "https://hackernoon.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAzFBMVEUA_wAD-wMZshkjkCMfmx4rdSs_Kz4-Mj0-Lz01RjQI9wgqeSo9NTw8PDs9OTw0TjMwMC8lJSMvLy5JSUipqajW1tZiYmLExMRWVlUZdRkpHyj___9ubm0ZGRf5-fnp6ekjIyEpJCciQiAjoyIhTyClsqXa2drx8fHAx8A8YjsrbCouHi1MREsyTzEH8Ac7kjpJX0geax0vEy4pEyc7QDo7RjoniSd4eHcA4QAlXyQnlyZGlEVTTlJWaVUmNiaxubFCUkIvXC4cphsnfyaB106FAAABA0lEQVR4AWySAxbEMBRFx67NsW1r_4uq-090D9rkhu-nkFFEKeCUyggVwlZrdaDRbOGy3eEAXmBIUeI4WWZLRdV0STNMWlq2xBmO6_lds9cfYGo4Gk-0ydR3vakT_czmC0SWl4YTkciI7kpApY1LZQ2qtdnyuDR3m00WXGk_1qao9LXZvtJKJw4PyTyQEdNjdZPOHC5pKZ3Olw0uryImsWWdaTf_OS5urfRA9_Fk6iD4E-3-yCLc3J4vA5Vd_X27FfEQAAgB4gPI-B6fb7fb9VPT7Wq_P1GyHpfMhpKRxe5OJhMoNvlMRFmWRY4pAUpWGx2gHg49aTo5IwFmtETNiDU7AAAs6DD3DqV89wAAAABJRU5ErkJggg.png",
+      "date": "28 मार्च 2019",
+      "snippet": "TensorFlow is now cuddly and this is a game-changer, because it means that one of the most potent tools of our time just dropped the bulk of its ...",
+      "snippet_highlighted_words": [
+        "TensorFlow is now cuddly"
+      ],
+      "about_this_result": {
+        "source": {
+          "description": "TensorFlow is now cuddly and this is a game-changer, because it means that one of the most potent tools of our time just dropped the bulk of its ...",
+          "source_info_link": "https://hackernoon.com/tensorflow-is-dead-long-live-tensorflow-49d3e975cf04",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAzFBMVEUA_wAD-wMZshkjkCMfmx4rdSs_Kz4-Mj0-Lz01RjQI9wgqeSo9NTw8PDs9OTw0TjMwMC8lJSMvLy5JSUipqajW1tZiYmLExMRWVlUZdRkpHyj___9ubm0ZGRf5-fnp6ekjIyEpJCciQiAjoyIhTyClsqXa2drx8fHAx8A8YjsrbCouHi1MREsyTzEH8Ac7kjpJX0geax0vEy4pEyc7QDo7RjoniSd4eHcA4QAlXyQnlyZGlEVTTlJWaVUmNiaxubFCUkIvXC4cphsnfyaB106FAAABA0lEQVR4AWySAxbEMBRFx67NsW1r_4uq-090D9rkhu-nkFFEKeCUyggVwlZrdaDRbOGy3eEAXmBIUeI4WWZLRdV0STNMWlq2xBmO6_lds9cfYGo4Gk-0ydR3vakT_czmC0SWl4YTkciI7kpApY1LZQ2qtdnyuDR3m00WXGk_1qao9LXZvtJKJw4PyTyQEdNjdZPOHC5pKZ3Olw0uryImsWWdaTf_OS5urfRA9_Fk6iD4E-3-yCLc3J4vA5Vd_X27FfEQAAgB4gPI-B6fb7fb9VPT7Wq_P1GyHpfMhpKRxe5OJhMoNvlMRFmWRY4pAUpWGx2gHg49aTo5IwFmtETNiDU7AAAs6DD3DqV89wAAAABJRU5ErkJggg.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://hackernoon.com/tensorflow-is-dead-long-live-tensorflow-49d3e975cf04&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fhackernoon.com%2Ftensorflow-is-dead-long-live-tensorflow-49d3e975cf04",
+      "source": "HackerNoon"
+    },
+    {
+      "position": 8,
+      "title": "deep learning - Why choose TensorFlow?",
+      "link": "https://datascience.stackexchange.com/questions/30973/why-choose-tensorflow",
+      "redirect_link": "https://www.google.co.in/url?sa=t&source=web&rct=j&opi=89978449&url=CAESgwEB6zswFUq5O4Z7ZaTvEuowFrAAcxyMhHJ8QSqlOobjcM248p69PAru-ExjfzzHK2pvCHklgSKwlZCqU-TmRxajgtPsTYxVHAT_sJD_sKshuFfBBjXgIz7LcDgHbJOnQ7xgHR7cN4HwtPPPu9GHy_P5c9wDQJ4ewzuDlnky3bE5-JIfbg&ved=2ahUKEwj70LKt69mWAxWgTGwGHbuNN2UQFnoECC8QAQ&uoh=1",
+      "displayed_link": "https://datascience.stackexchange.com › ...",
+      "favicon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAyVBMVEVHcEzk6f_k6f_k6f_k6f_k6f_l6v_k6f_k6f_k6f_k6f-wxf_h5v-4wf_n6_-9xv7w8v_S2P-yuvxedty3wP8AAP-Xo-1BWc83UMtwiealvv9-sP-2wP_K0P6eqvJVa9aEl-2Wtv-yvO-hsvpLZNQySsl_leuIovOxv_87U8w_Vs6CnfB3kOmStv-LpvWMrvqSt_-Es_-Gsv-5xfJ7p_lqlvCLtv9igOJ0nfNzrf9zrv9xpPltrf-Gsv9yrf97r_90rf9yrv9sq_8zMJ9QAAAAQ3RSTlMAcL6N2_-m8M5RsRH__v_______7EC______8kav____-W________0______x___-_9r___8H____xP8Kp7973uCHnLQEzAAAAQ9JREFUeAHM0LUBgEAMAMB3d9l_VNwJPdfGg06YLCiCML4Cg4JLKTlXCKbNFEQwtXaFyX8GLRSifCPg562ct1-x4GL0r55pjWVfqm_XWHc8hYnL0Y9UUMMBxVAQLCD27ottG_239XHbnMdjWoDMJqAjuKLrupIgeZ4PWsBCAupq5MaCamKSJlKc-XlBwEJ1PfTKsiq1uM7TtGkpaEa8l1oWNF0F2NU9BXUhioIAoKnhxxiGcXoV0uayyfCPWeWyjrTQxmpprhnD5BeLuzbadGjI9sjvh_1Y9mSpzut9UTv4Zq8hVOt43-fzBrd2ODBdyjI5z9P-DiNabA0NLaxNTS0t7cywRCi3vZ2Do5UTkjYAqMAgCsvydvwAAAAASUVORK5CYII.png",
+      "date": "28 अप्रैल 2018",
+      "snippet": "I have noticed that most of the deep learning developers use TensorFlow. So why choose TensorFlow? What is the advantage of TensorFlow over Theano and CNTK?",
+      "about_this_result": {
+        "source": {
+          "description": "Tensorflow has much more flexibility to do the things that you want. If you just want to train a standard CNN, then perhaps Theano will do the ...",
+          "source_info_link": "https://datascience.stackexchange.com/questions/30973/why-choose-tensorflow",
+          "icon": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y-mAAAAyVBMVEVHcEzk6f_k6f_k6f_k6f_k6f_l6v_k6f_k6f_k6f_k6f-wxf_h5v-4wf_n6_-9xv7w8v_S2P-yuvxedty3wP8AAP-Xo-1BWc83UMtwiealvv9-sP-2wP_K0P6eqvJVa9aEl-2Wtv-yvO-hsvpLZNQySsl_leuIovOxv_87U8w_Vs6CnfB3kOmStv-LpvWMrvqSt_-Es_-Gsv-5xfJ7p_lqlvCLtv9igOJ0nfNzrf9zrv9xpPltrf-Gsv9yrf97r_90rf9yrv9sq_8zMJ9QAAAAQ3RSTlMAcL6N2_-m8M5RsRH__v_______7EC______8kav____-W________0______x___-_9r___8H____xP8Kp7973uCHnLQEzAAAAQ9JREFUeAHM0LUBgEAMAMB3d9l_VNwJPdfGg06YLCiCML4Cg4JLKTlXCKbNFEQwtXaFyX8GLRSifCPg562ct1-x4GL0r55pjWVfqm_XWHc8hYnL0Y9UUMMBxVAQLCD27ottG_239XHbnMdjWoDMJqAjuKLrupIgeZ4PWsBCAupq5MaCamKSJlKc-XlBwEJ1PfTKsiq1uM7TtGkpaEa8l1oWNF0F2NU9BXUhioIAoKnhxxiGcXoV0uayyfCPWeWyjrTQxmpprhnD5BeLuzbadGjI9sjvh_1Y9mSpzut9UTv4Zq8hVOt43-fzBrd2ODBdyjI5z9P-DiNabA0NLaxNTS0t7cywRCi3vZ2Do5UTkjYAqMAgCsvydvwAAAAASUVORK5CYII.png"
+        },
+        "languages": [
+          "hi"
+        ],
+        "regions": [
+          "IN"
+        ]
+      },
+      "about_page_link": "https://www.google.co.in/search?q=About+https://datascience.stackexchange.com/questions/30973/why-choose-tensorflow&tbm=ilp",
+      "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&google_domain=google.co.in&q=About+https%3A%2F%2Fdatascience.stackexchange.com%2Fquestions%2F30973%2Fwhy-choose-tensorflow",
+      "source": "Data Science Stack Exchange"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.co.in/search?q=Tensorflow&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=1kydavuNAaCZseMPu5veqQY&start=10&sa=N&sstk=AS6-VmI6frwz5s2wfvok5knvO37OvFkwnz4uLiM1hQoI8B7vKgh7WsrDdxQ4vVPQymhX4wNqN9kUAvaR7X6-IIj7_i6GuYQxijixjw&ved=2ahUKEwj70LKt69mWAxWgTGwGHbuNN2UQ8NMDegQIRBAI",
+    "other_pages": {
+      "2": "https://www.google.co.in/search?q=Tensorflow&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=1kydavuNAaCZseMPu5veqQY&start=10&sa=N&sstk=AS6-VmI6frwz5s2wfvok5knvO37OvFkwnz4uLiM1hQoI8B7vKgh7WsrDdxQ4vVPQymhX4wNqN9kUAvaR7X6-IIj7_i6GuYQxijixjw&ved=2ahUKEwj70LKt69mWAxWgTGwGHbuNN2UQ8tMDegQIRBAE",
+      "3": "https://www.google.co.in/search?q=Tensorflow&sca_esv=724bf23b4d8e06a3&gl=in&hl=hi&ei=1kydavuNAaCZseMPu5veqQY&start=20&sa=N&sstk=AS6-VmI6frwz5s2wfvok5knvO37OvFkwnz4uLiM1hQoI8B7vKgh7WsrDdxQ4vVPQymhX4wNqN9kUAvaR7X6-IIj7_i6GuYQxijixjw&ved=2ahUKEwj70LKt69mWAxWgTGwGHbuNN2UQ8tMDegQIRBAG"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Tensorflow&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Tensorflow&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Tensorflow&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.co.in&hl=hi&location=India&q=Tensorflow&start=20"
+    }
+  }
+}

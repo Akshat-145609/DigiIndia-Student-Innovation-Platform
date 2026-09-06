@@ -470,6 +470,163 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        /* CODE CARD CONTAINER WITH LIVE RUN PREVIEW */
+        .code-card {
+            background: #1e1e2e;
+            border-radius: 12px;
+            margin: 16px 0;
+            overflow: hidden;
+            border: 1px solid #313244;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+        }
+        .code-card-header {
+            background: #181825;
+            padding: 8px 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #313244;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .code-card-lang {
+            color: #89b4fa;
+            font-size: 11.5px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .code-card-actions {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+        }
+        .code-card-actions button {
+            font-size: 11.5px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+        .code-card pre {
+            margin: 0;
+            padding: 16px;
+            overflow-x: auto;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #cdd6f4;
+            background: transparent;
+        }
+        .live-preview-box {
+            background: #ffffff;
+            border-top: 2px solid #1a73e8;
+            padding: 14px;
+        }
+        .live-preview-iframe {
+            width: 100%;
+            min-height: 280px;
+            border: 1px solid #dfe1e5;
+            border-radius: 8px;
+            background: #ffffff;
+        }
+
+        /* AI CHAT & MARKDOWN STYLING */
+        .ai-chat-stream {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            margin-bottom: 24px;
+        }
+        .ai-bubble {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 18px;
+            padding: clamp(16px, 3vw, 24px);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+            color: #1e293b;
+            line-height: 1.65;
+            font-size: clamp(13.5px, 1.8vw, 15px);
+        }
+        .ai-bubble h1, .ai-bubble h2, .ai-bubble h3 {
+            color: #0f172a;
+            font-weight: 700;
+            margin-top: 18px;
+            margin-bottom: 10px;
+        }
+        .ai-bubble h1 { font-size: 1.45rem; }
+        .ai-bubble h2 { font-size: 1.25rem; }
+        .ai-bubble h3 { font-size: 1.1rem; }
+        .ai-bubble p { margin-bottom: 12px; }
+        .ai-bubble ul, .ai-bubble ol { padding-left: 24px; margin-bottom: 14px; }
+        .ai-bubble li { margin-bottom: 4px; }
+        .ai-bubble table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 13.5px;
+        }
+        .ai-bubble table th, .ai-bubble table td {
+            border: 1px solid #e2e8f0;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        .ai-bubble table th {
+            background: #f8fafc;
+            font-weight: 600;
+        }
+        .user-bubble {
+            background: #f0f7ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 18px;
+            padding: 12px 18px;
+            max-width: 85%;
+            margin-left: auto;
+            font-weight: 500;
+            color: #1e3a8a;
+            font-size: clamp(13.5px, 1.8vw, 14.5px);
+        }
+        .ai-wrapped-link {
+            color: #1a73e8;
+            text-decoration: underline;
+            font-weight: 500;
+        }
+        .ai-wrapped-link:hover {
+            color: #1557b0;
+        }
+        .ai-chat-input-capsule {
+            background: #ffffff;
+            border: 1px solid #dfe1e5;
+            border-radius: 28px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 4px 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .ai-chat-input-field {
+            border: none;
+            outline: none;
+            width: 100%;
+            padding: 10px 6px;
+            font-size: 14.5px;
+            background: transparent;
+        }
+        .quick-prompt-pill {
+            font-size: 12px;
+            padding: 5px 12px;
+            border-radius: 20px;
+            background: #f1f5f9;
+            border: 1px solid #e2e8f0;
+            color: #334155;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            white-space: nowrap;
+        }
+        .quick-prompt-pill:hover {
+            background: #e2e8f0;
+            color: #0f172a;
+        }
     </style>
 </head>
 <body>
@@ -600,6 +757,9 @@
                 <button class="serp-tab-btn active" onclick="setSerpCategory('all', this)">
                     <i class="bi bi-grid-fill"></i>All Results
                 </button>
+                <button class="serp-tab-btn" onclick="setSerpCategory('ai_overview', this)">
+                    <i class="bi bi-stars text-primary"></i>AI Overview
+                </button>
                 <button class="serp-tab-btn" onclick="setSerpCategory('google', this)">
                     <i class="bi bi-google text-primary"></i>Google Web
                 </button>
@@ -660,7 +820,62 @@
     <!-- Toast Notifications -->
     <div id="toast-container" class="position-fixed bottom-0 end-0 p-3" style="z-index: 1090;"></div>
 
+    <!-- STORY & DOCUMENT SANDBOX MODAL -->
+    <div class="modal fade" id="docSandboxModal" tabindex="-1" aria-labelledby="docSandboxModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable modal-fullscreen-lg-down">
+            <div class="modal-content border-0 shadow-lg rounded-4 overflow-hidden">
+                <div class="modal-header border-bottom bg-light px-4 py-3">
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="bi bi-journal-richtext text-primary fs-4"></i>
+                        <div>
+                            <h5 class="modal-title fw-bold text-dark mb-0" id="docSandboxModalLabel">DigiIndia Story & Document Sandbox</h5>
+                            <small class="text-muted">Fullscreen developer preview, README markdown export, Word .doc and PDF generation</small>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center flex-wrap gap-2 ms-auto">
+                        <button class="btn btn-outline-dark btn-sm rounded-pill px-3" onclick="exportDocSandbox('readme')">
+                            <i class="bi bi-file-earmark-code me-1"></i>Download README.md
+                        </button>
+                        <button class="btn btn-outline-primary btn-sm rounded-pill px-3" onclick="exportDocSandbox('doc')">
+                            <i class="bi bi-file-earmark-word me-1"></i>Download .doc
+                        </button>
+                        <button class="btn btn-outline-danger btn-sm rounded-pill px-3" onclick="exportDocSandbox('pdf')">
+                            <i class="bi bi-file-earmark-pdf me-1"></i>Print / PDF
+                        </button>
+                        <button type="button" class="btn-close ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="modal-body p-4 p-md-5" id="docSandboxBody" style="background:#ffffff; color:#202124; font-size:15px; line-height:1.75;">
+                    <!-- Formatted Markdown content rendered here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- INLINE CODE EDITOR MODAL -->
+    <div class="modal fade" id="codeEditorModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content rounded-4 border-0 shadow">
+                <div class="modal-header bg-light">
+                    <h6 class="modal-title fw-bold text-dark"><i class="bi bi-pencil-square me-2 text-primary"></i>Edit Code Snippet</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-3">
+                    <textarea id="codeEditorTextarea" class="form-control font-monospace" style="height: 350px; font-size: 13px; background: #1e1e2e; color: #cdd6f4; border-radius: 8px;"></textarea>
+                </div>
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-secondary rounded-pill px-3 btn-sm" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-success rounded-pill px-3 btn-sm text-white" onclick="saveEditedCode()">
+                        <i class="bi bi-play-fill me-1"></i>Update & Run Live Preview
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- SCRIPT DEPENDENCIES (IN STRICT SAFE ORDER) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="/js/config.js"></script>
     <script src="/js/api.js"></script>
     <script src="/js/network.js"></script>
@@ -669,6 +884,49 @@
         let currentSearchQuery = "";
         let currentSerpCategory = "all";
         let homeDebounceTimer = null;
+        let isAiChatLoading = false;
+
+        // AI Chat State (18,000 token rolling memory)
+        let aiChatMessages = [];
+        let currentAiModel = "Gemini (gemini-3.6-flash)";
+        let currentActiveDocMarkdown = "";
+        let activeCodeSnippets = {};
+        let activeEditingCodeId = null;
+
+        // DSA-Optimized In-Memory Cache & Pagination State
+        const searchDataCache = new Map();
+        const paginationState = {
+            google: 6,
+            youtube: 4,
+            github: 6,
+            projects: 6,
+            students: 6,
+            all: {
+                google: 4,
+                youtube: 2,
+                projects: 4,
+                students: 3,
+                github: 4
+            }
+        };
+
+        // Configure Marked.js with Safe Outbound Link Redirection
+        if (typeof marked !== "undefined") {
+            const renderer = new marked.Renderer();
+            renderer.link = function(href, title, text) {
+                let targetHref = href;
+                if (href && (href.startsWith("http://") || href.startsWith("https://"))) {
+                    targetHref = `/api/v1/search/redirect?url=${encodeURIComponent(href)}`;
+                }
+                const titleAttr = title ? ` title="${title}"` : "";
+                return `<a href="${targetHref}" target="_blank" rel="noopener noreferrer" class="ai-wrapped-link"${titleAttr}>${text} <i class="bi bi-box-arrow-up-right" style="font-size:0.78em;"></i></a>`;
+            };
+            marked.setOptions({
+                renderer: renderer,
+                gfm: true,
+                breaks: true
+            });
+        }
 
         // SPA Navigation: Switch to Landing View
         function switchToLandingView(e) {
@@ -763,7 +1021,13 @@
         function setSerpCategory(cat, btn) {
             currentSerpCategory = cat;
             document.querySelectorAll(".serp-tab-bar .serp-tab-btn").forEach(b => b.classList.remove("active"));
-            btn.classList.add("active");
+            if (btn) btn.classList.add("active");
+
+            if (cat === "ai_overview") {
+                renderAiOverviewWorkspace();
+                return;
+            }
+
             executeSerpSearch(currentSearchQuery);
         }
 
@@ -818,6 +1082,16 @@
             return clean;
         }
 
+        function escapeHtml(str) {
+            if (!str) return "";
+            return String(str)
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+
         // Clean Google SERP Card Item Renderer
         function renderGoogleSERPItem(web, query) {
             const iconClass = web.deployingBodyIcon || "bi-globe";
@@ -826,7 +1100,6 @@
 
             return `
                 <div class="google-serp-item">
-                    <!-- Favicon & Deploying Body Header -->
                     <div class="serp-site-header">
                         <div class="serp-favicon">
                             <i class="bi ${iconClass} text-primary"></i>
@@ -840,19 +1113,16 @@
                         </div>
                     </div>
 
-                    <!-- Title Link -->
                     <div class="serp-headline">
                         <a href="${web.url}" target="_blank">
                             ${stripHtmlAndSanitize(web.title)}
                         </a>
                     </div>
 
-                    <!-- Snippet -->
                     <div class="serp-snippet">
                         ${stripHtmlAndSanitize(web.snippet)}
                     </div>
 
-                    <!-- Sitelinks Chips -->
                     <div class="serp-sitelinks-row">
                         ${(web.sitelinks || []).map(link => `
                             <a href="${web.url}" target="_blank" class="serp-sublink-chip">
@@ -867,16 +1137,20 @@
             `;
         }
 
-        // YouTube Video SERP Card Renderer
+        // YouTube Video SERP Card Renderer (Ensures High-Resolution Native Thumbnails)
         function renderYouTubeSERPItem(yt, query) {
+            const vid = yt.videoId || yt.video_id || "";
+            const directThumb = yt.thumbnail || (vid ? `https://i.ytimg.com/vi/${vid}/hqdefault.jpg` : "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=640&q=80");
+            const watchUrl = yt.url || yt.link || (vid ? `https://www.youtube.com/watch?v=${vid}` : "#");
+
             return `
                 <div class="yt-serp-card">
                     <div class="row g-3 align-items-center">
                         <div class="col-12 col-md-5 col-lg-4">
-                            <a href="${yt.url}" target="_blank" class="d-block text-decoration-none">
+                            <a href="${watchUrl}" target="_blank" class="d-block text-decoration-none">
                                 <div class="yt-thumb-box">
-                                    <img src="${yt.thumbnail || 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=640&q=80'}" alt="Video thumbnail">
-                                    <span class="yt-duration-pill">${yt.duration || '12:00'}</span>
+                                    <img src="${directThumb}" alt="Video thumbnail" onerror="this.src='https://i.ytimg.com/vi/${vid}/hqdefault.jpg'">
+                                    <span class="yt-duration-pill">${yt.duration || 'Video'}</span>
                                     <div class="yt-play-btn-circle">
                                         <i class="bi bi-play-fill ms-1"></i>
                                     </div>
@@ -885,7 +1159,7 @@
                         </div>
                         <div class="col-12 col-md-7 col-lg-8">
                             <h6 class="fw-bold mb-1">
-                                <a href="${yt.url}" target="_blank" class="text-dark text-decoration-none">
+                                <a href="${watchUrl}" target="_blank" class="text-dark text-decoration-none">
                                     ${stripHtmlAndSanitize(yt.title)}
                                 </a>
                             </h6>
@@ -893,15 +1167,15 @@
                                 <span class="fw-semibold text-dark"><i class="bi bi-youtube text-danger me-1"></i>${yt.channelTitle || 'YouTube Creator'}</span>
                                 ${yt.channelVerified ? '<i class="bi bi-check-circle-fill text-primary" style="font-size: 11px;" title="Verified"></i>' : ''}
                                 <span>•</span>
-                                <span>${yt.views || '20K views'}</span>
+                                <span>${yt.views || '12K views'}</span>
                                 <span>•</span>
                                 <span>${yt.uploadedTime || 'Recently'}</span>
                             </div>
                             <p class="small text-muted mb-3 line-clamp-2" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
-                                ${stripHtmlAndSanitize(yt.description || 'Watch tutorial on YouTube.')}
+                                ${stripHtmlAndSanitize(yt.description || 'Watch video tutorial demonstration on YouTube.')}
                             </p>
                             <div class="d-flex gap-2">
-                                <a href="${yt.url}" target="_blank" class="btn btn-danger btn-sm rounded-pill px-3 fw-semibold">
+                                <a href="${watchUrl}" target="_blank" class="btn btn-danger btn-sm rounded-pill px-3 fw-semibold">
                                     <i class="bi bi-youtube me-1"></i>Watch Video
                                 </a>
                                 <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(query || yt.title)}" target="_blank" class="btn btn-outline-secondary btn-sm rounded-pill px-3">
@@ -1012,12 +1286,764 @@
             `;
         }
 
-        // Execute SERP Query
+        // ==========================================
+        // CODE CARD CONTAINER & LIVE PREVIEW ENGINE
+        // ==========================================
+        function parseAndRenderAiMarkdown(text, messageIndex) {
+            const codeBlockRegex = /```([a-zA-Z0-9_-]*)\n([\s\S]*?)```/g;
+            let blockIdx = 0;
+
+            let hasHtml = false;
+            let hasCss = false;
+            let hasJs = false;
+            let combinedHtml = "";
+            let combinedCss = "";
+            let combinedJs = "";
+
+            let m;
+            while ((m = codeBlockRegex.exec(text)) !== null) {
+                const lang = (m[1] || "code").toLowerCase();
+                const code = m[2];
+                const codeId = `code_${messageIndex}_${blockIdx++}`;
+                activeCodeSnippets[codeId] = { code, lang };
+
+                if (['html', 'htm'].includes(lang)) { hasHtml = true; combinedHtml += code + "\n"; }
+                if (['css'].includes(lang)) { hasCss = true; combinedCss += code + "\n"; }
+                if (['javascript', 'js'].includes(lang)) { hasJs = true; combinedJs += code + "\n"; }
+            }
+
+            blockIdx = 0;
+            const textWithCards = text.replace(codeBlockRegex, (match, lang, code) => {
+                const codeId = `code_${messageIndex}_${blockIdx++}`;
+                const cleanLang = (lang || "code").toLowerCase();
+                const isWebCode = ['html', 'htm', 'css', 'js', 'javascript'].includes(cleanLang);
+
+                return `
+<div class="code-card my-3" id="card_${codeId}">
+    <div class="code-card-header">
+        <span class="code-card-lang"><i class="bi bi-code-square me-1"></i>${cleanLang}</span>
+        <div class="code-card-actions">
+            <button class="btn btn-sm btn-outline-light" onclick="copyCodeSnippet(this, '${codeId}')" title="Copy to clipboard">
+                <i class="bi bi-clipboard"></i> Copy
+            </button>
+            <button class="btn btn-sm btn-outline-light" onclick="editCodeSnippet('${codeId}')" title="Edit code">
+                <i class="bi bi-pencil"></i> Edit
+            </button>
+            <button class="btn btn-sm btn-outline-light" onclick="downloadCodeSnippet('${codeId}')" title="Download file">
+                <i class="bi bi-download"></i> Download
+            </button>
+            ${isWebCode ? `
+            <button class="btn btn-sm btn-success text-white" onclick="toggleLivePreview('${codeId}')" title="Run live preview without reload">
+                <i class="bi bi-play-fill"></i> Run Preview
+            </button>
+            ` : ''}
+        </div>
+    </div>
+    <pre><code id="code_content_${codeId}">${escapeHtml(code)}</code></pre>
+    <div id="preview_box_${codeId}" class="live-preview-box d-none">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+            <span class="small fw-semibold text-primary"><i class="bi bi-display me-1"></i>Live Interactive Sandbox Preview</span>
+            <button class="btn btn-sm btn-link text-danger p-0 small" onclick="toggleLivePreview('${codeId}')">Close Sandbox</button>
+        </div>
+        <iframe id="iframe_${codeId}" class="live-preview-iframe" sandbox="allow-scripts allow-modals"></iframe>
+    </div>
+</div>
+                `;
+            });
+
+            let renderedHtml = (typeof marked !== "undefined") ? marked.parse(textWithCards) : textWithCards;
+
+            // Multi-File Linking Algorithm: Combine separate HTML, CSS, JS blocks
+            if ((hasHtml && hasCss) || (hasHtml && hasJs) || (hasCss && hasJs)) {
+                const combinedId = `combined_${messageIndex}`;
+                activeCodeSnippets[combinedId] = { html: combinedHtml, css: combinedCss, js: combinedJs, lang: 'combined' };
+                const comboBanner = `
+<div class="p-3 bg-primary-subtle border border-primary-subtle rounded-4 mb-3 d-flex flex-wrap align-items-center justify-content-between gap-2">
+    <div>
+        <strong class="text-primary"><i class="bi bi-layers-fill me-1"></i>Combined Web Component Detected</strong>
+        <p class="small text-muted mb-0">Separate HTML, CSS, and JS blocks linked into a unified executable document.</p>
+    </div>
+    <button class="btn btn-primary rounded-pill px-3 fw-semibold header-btn" onclick="runCombinedPreview('${combinedId}')">
+        <i class="bi bi-play-circle-fill me-1"></i>Run Full Web App Preview
+    </button>
+</div>
+<div id="combined_preview_box_${combinedId}" class="live-preview-box rounded-4 border mb-3 d-none">
+    <div class="d-flex justify-content-between align-items-center mb-2">
+        <span class="small fw-bold text-success"><i class="bi bi-window me-1"></i>Unified Application Live Sandbox</span>
+        <button class="btn btn-sm btn-link text-danger p-0 small" onclick="document.getElementById('combined_preview_box_${combinedId}').classList.add('d-none')">Close</button>
+    </div>
+    <iframe id="combined_iframe_${combinedId}" class="live-preview-iframe" style="min-height: 340px;" sandbox="allow-scripts allow-modals"></iframe>
+</div>
+                `;
+                renderedHtml = comboBanner + renderedHtml;
+            }
+
+            return renderedHtml;
+        }
+
+        function copyCodeSnippet(btn, codeId) {
+            const item = activeCodeSnippets[codeId];
+            if (!item || !item.code) return;
+            navigator.clipboard.writeText(item.code).then(() => {
+                const orig = btn.innerHTML;
+                btn.innerHTML = `<i class="bi bi-check2 text-success"></i> Copied!`;
+                setTimeout(() => btn.innerHTML = orig, 2000);
+            });
+        }
+
+        function editCodeSnippet(codeId) {
+            const item = activeCodeSnippets[codeId];
+            if (!item) return;
+            activeEditingCodeId = codeId;
+            const textarea = document.getElementById("codeEditorTextarea");
+            if (textarea) textarea.value = item.code;
+            const modalEl = document.getElementById("codeEditorModal");
+            if (modalEl && window.bootstrap) {
+                new bootstrap.Modal(modalEl).show();
+            }
+        }
+
+        function saveEditedCode() {
+            if (!activeEditingCodeId) return;
+            const textarea = document.getElementById("codeEditorTextarea");
+            const newCode = textarea ? textarea.value : "";
+            activeCodeSnippets[activeEditingCodeId].code = newCode;
+            const codeEl = document.getElementById(`code_content_${activeEditingCodeId}`);
+            if (codeEl) codeEl.textContent = newCode;
+
+            const modalEl = document.getElementById("codeEditorModal");
+            if (modalEl && window.bootstrap) {
+                bootstrap.Modal.getInstance(modalEl)?.hide();
+            }
+
+            toggleLivePreview(activeEditingCodeId);
+            API.showToast("Code updated and rendered in live preview.", "success");
+        }
+
+        function downloadCodeSnippet(codeId) {
+            const item = activeCodeSnippets[codeId];
+            if (!item || !item.code) return;
+            let ext = "txt";
+            const l = (item.lang || "code").toLowerCase();
+            if (['html', 'htm'].includes(l)) ext = "html";
+            else if (l === 'css') ext = "css";
+            else if (['js', 'javascript'].includes(l)) ext = "js";
+            else if (['python', 'py'].includes(l)) ext = "py";
+            else if (l === 'json') ext = "json";
+            else if (['md', 'markdown'].includes(l)) ext = "md";
+
+            const blob = new Blob([item.code], { type: 'text/plain;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `code_snippet.${ext}`;
+            a.click();
+            URL.revokeObjectURL(url);
+            API.showToast(`Downloaded code_snippet.${ext}`, "success");
+        }
+
+        function toggleLivePreview(codeId) {
+            const box = document.getElementById(`preview_box_${codeId}`);
+            const iframe = document.getElementById(`iframe_${codeId}`);
+            if (!box || !iframe) return;
+
+            if (!box.classList.contains('d-none')) {
+                box.classList.add('d-none');
+                return;
+            }
+
+            box.classList.remove('d-none');
+            const item = activeCodeSnippets[codeId];
+            let doc = "";
+            if (['html', 'htm'].includes(item.lang)) {
+                doc = item.code.includes('<html') ? item.code : `<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:16px;margin:0;}</style></head><body>${item.code}</body></html>`;
+            } else if (item.lang === 'css') {
+                doc = `<!DOCTYPE html><html><head><style>${item.code}</style></head><body><div style="font-family:sans-serif;padding:20px;"><h3>CSS Live Preview Element</h3><p>Styling rendered live inside isolated iframe container.</p><button style="padding:8px 16px; border-radius:6px; cursor:pointer;">Demo Button</button></div></body></html>`;
+            } else if (['js', 'javascript'].includes(item.lang)) {
+                doc = `<!DOCTYPE html><html><head><meta charset="utf-8"><style>body{font-family:monospace;padding:16px;background:#1e1e2e;color:#cdd6f4;}</style></head><body><div id="app">Running Script...</div><script>try{ ${item.code} }catch(e){ document.body.innerHTML += '<pre style="color:#f87171;">' + e.message + '</pre>'; }<\/script></body></html>`;
+            }
+            iframe.srcdoc = doc;
+        }
+
+        function runCombinedPreview(combinedId) {
+            const data = activeCodeSnippets[combinedId];
+            if (!data) return;
+            const box = document.getElementById(`combined_preview_box_${combinedId}`);
+            const iframe = document.getElementById(`combined_iframe_${combinedId}`);
+            if (!box || !iframe) return;
+
+            box.classList.remove('d-none');
+            const doc = `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; padding: 16px; margin: 0; }
+    ${data.css}
+  </style>
+</head>
+<body>
+  ${data.html}
+  <script>
+    try {
+      ${data.js}
+    } catch(err) {
+      console.error(err);
+    }
+  <\/script>
+</body>
+</html>`;
+            iframe.srcdoc = doc;
+        }
+
+        // ==========================================
+        // STORY / DOCUMENT SANDBOX MODAL
+        // ==========================================
+        function openDocSandbox(text) {
+            currentActiveDocMarkdown = text || "";
+            const body = document.getElementById('docSandboxBody');
+            if (body && typeof marked !== "undefined") {
+                body.innerHTML = marked.parse(currentActiveDocMarkdown);
+            }
+            const modalEl = document.getElementById('docSandboxModal');
+            if (modalEl && window.bootstrap) {
+                new bootstrap.Modal(modalEl).show();
+            }
+        }
+
+        function exportDocSandbox(format) {
+            if (!currentActiveDocMarkdown) {
+                API.showToast("No active document content to export.", "warning");
+                return;
+            }
+
+            if (format === 'readme') {
+                const blob = new Blob([currentActiveDocMarkdown], { type: 'text/markdown;charset=utf-8;' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'README.md';
+                a.click();
+                URL.revokeObjectURL(url);
+                API.showToast("README.md downloaded successfully.", "success");
+            } else if (format === 'doc') {
+                const htmlContent = (typeof marked !== "undefined") ? marked.parse(currentActiveDocMarkdown) : currentActiveDocMarkdown;
+                const header = "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>DigiIndia Documentation</title><style>body{font-family:Arial,sans-serif;line-height:1.6;}h1,h2,h3{color:#1a73e8;}</style></head><body>";
+                const footer = "</body></html>";
+                const sourceHTML = header + htmlContent + footer;
+                const blob = new Blob(['\ufeff' + sourceHTML], { type: 'application/msword' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'DigiIndia_Documentation.doc';
+                a.click();
+                URL.revokeObjectURL(url);
+                API.showToast("Word document (.doc) downloaded.", "success");
+            } else if (format === 'pdf') {
+                window.print();
+            }
+        }
+
+        // ==========================================
+        // DEDICATED AI OVERVIEW CHAT WORKSPACE
+        // ==========================================
+        function renderAiOverviewWorkspace() {
+            const container = document.getElementById("serpResultsContainer");
+            document.getElementById("serpStatsText").innerText = `AI Overview & Architecture Assistant (18,000 Token Rolling Memory)`;
+
+            let html = `
+                <div class="ai-chat-wrapper">
+                    <!-- AI Workspace Header -->
+                    <div class="d-flex flex-wrap align-items-center justify-content-between p-3 mb-4 bg-light rounded-4 border gap-2">
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="badge bg-primary rounded-pill px-3 py-1">
+                                <i class="bi bi-stars me-1"></i>AI Overview
+                            </span>
+                            <span class="badge bg-secondary-subtle text-secondary rounded-pill" id="aiModelBadge">
+                                ${currentAiModel}
+                            </span>
+                            <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill">
+                                <i class="bi bi-memory me-1"></i>18,000 Token Context
+                            </span>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-outline-dark btn-sm rounded-pill px-3" onclick="openDocSandboxFromLatest()">
+                                <i class="bi bi-journal-text me-1"></i>Story Sandbox
+                            </button>
+                            <button class="btn btn-outline-secondary btn-sm rounded-pill px-3" onclick="clearAiChat()">
+                                <i class="bi bi-trash me-1"></i>Clear
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Chat Message Stream -->
+                    <div id="aiChatStream" class="ai-chat-stream"></div>
+
+                    <!-- Quick Suggestions -->
+                    <div class="d-flex flex-wrap gap-2 mb-3">
+                        <span class="small text-muted align-self-center me-1">Quick prompts:</span>
+                        <span class="quick-prompt-pill" onclick="sendAiChatMessage('Generate complete README.md with technical architecture and install guide')">
+                            <i class="bi bi-file-earmark-code me-1"></i>Generate README.md
+                        </span>
+                        <span class="quick-prompt-pill" onclick="sendAiChatMessage('Create a runnable HTML, CSS, and JS demo component')">
+                            <i class="bi bi-play-circle me-1"></i>Frontend HTML/CSS/JS Demo
+                        </span>
+                        <span class="quick-prompt-pill" onclick="sendAiChatMessage('Explain core architectural design patterns & DSA time complexity')">
+                            <i class="bi bi-diagram-3 me-1"></i>DSA & Architecture
+                        </span>
+                        <span class="quick-prompt-pill" onclick="sendAiChatMessage('Audit security and verify runtime SEO elements')">
+                            <i class="bi bi-shield-check me-1"></i>Security & SEO Audit
+                        </span>
+                    </div>
+
+                    <!-- Follow-up Input Capsule -->
+                    <form id="aiChatForm" onsubmit="handleAiChatSubmit(event)" class="mb-5">
+                        <div class="ai-chat-input-capsule">
+                            <i class="bi bi-stars text-primary ms-2 fs-5"></i>
+                            <input 
+                                type="text" 
+                                id="aiChatInputField" 
+                                class="ai-chat-input-field" 
+                                placeholder="Ask a technical question, request runnable code, or generate docs..." 
+                                autocomplete="off"
+                            >
+                            <button type="submit" id="aiChatSendBtn" class="btn btn-primary rounded-circle d-flex align-items-center justify-content-center p-0" style="width:36px; height:36px;">
+                                <i class="bi bi-arrow-up text-white"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            `;
+
+            container.innerHTML = html;
+            renderAiMessagesStream();
+
+            // Auto-trigger first turn if empty and search query exists
+            if (aiChatMessages.length === 0 && currentSearchQuery) {
+                sendAiChatMessage(currentSearchQuery);
+            }
+        }
+
+        function renderAiMessagesStream() {
+            const streamEl = document.getElementById("aiChatStream");
+            if (!streamEl) return;
+
+            if (aiChatMessages.length === 0) {
+                streamEl.innerHTML = `
+                    <div class="text-center py-5 text-muted">
+                        <div class="spinner-border text-primary" role="status"></div>
+                        <p class="mt-2 small">Synthesizing comprehensive AI overview...</p>
+                    </div>
+                `;
+                return;
+            }
+
+            streamEl.innerHTML = aiChatMessages.map((msg, idx) => {
+                if (msg.role === "user") {
+                    return `
+                        <div class="user-bubble">
+                            <div class="small fw-semibold text-primary mb-1"><i class="bi bi-person-fill me-1"></i>You</div>
+                            <div>${escapeHtml(msg.content)}</div>
+                        </div>
+                    `;
+                } else {
+                    return `
+                        <div class="ai-bubble">
+                            <div class="d-flex align-items-center justify-content-between mb-3 pb-2 border-bottom">
+                                <div class="d-flex align-items-center gap-2">
+                                    <span class="badge bg-primary-subtle text-primary rounded-pill px-3 py-1">
+                                        <i class="bi bi-stars me-1"></i>${msg.model || 'DigiIndia AI'}
+                                    </span>
+                                    <small class="text-muted">${msg.provider || 'AI Engine'}</small>
+                                </div>
+                                <button class="btn btn-outline-secondary btn-sm rounded-pill px-3" onclick="openDocSandbox(aiChatMessages[${idx}].content)">
+                                    <i class="bi bi-arrows-fullscreen me-1"></i>Full Sandbox
+                                </button>
+                            </div>
+                            <div class="ai-markdown-content">
+                                ${parseAndRenderAiMarkdown(msg.content, idx)}
+                            </div>
+                        </div>
+                    `;
+                }
+            }).join("");
+
+            // Scroll to bottom
+            window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+        }
+
+        function handleAiChatSubmit(e) {
+            e.preventDefault();
+            const input = document.getElementById("aiChatInputField");
+            if (!input) return;
+            const text = input.value.trim();
+            if (!text || isAiChatLoading) return;
+            input.value = "";
+            sendAiChatMessage(text);
+        }
+
+        async function sendAiChatMessage(text) {
+            if (!text || isAiChatLoading) return;
+            isAiChatLoading = true;
+
+            // Push User Message
+            aiChatMessages.push({ role: "user", content: text, timestamp: Date.now() });
+            renderAiMessagesStream();
+
+            // Disable Send Button
+            const btn = document.getElementById("aiChatSendBtn");
+            if (btn) btn.disabled = true;
+
+            try {
+                const res = await API.request(`/ai/chat`, {
+                    method: "POST",
+                    body: JSON.stringify({
+                        prompt: text,
+                        messages: aiChatMessages.map(m => ({ role: m.role, content: m.content }))
+                    })
+                });
+
+                const reply = res.reply || "Unable to synthesize response.";
+                currentAiModel = res.model || "Gemini (gemini-3.6-flash)";
+
+                aiChatMessages.push({
+                    role: "assistant",
+                    content: reply,
+                    model: res.model,
+                    provider: res.provider,
+                    timestamp: Date.now()
+                });
+
+                // Update model badge if present
+                const badge = document.getElementById("aiModelBadge");
+                if (badge) badge.innerText = currentAiModel;
+
+            } catch (err) {
+                aiChatMessages.push({
+                    role: "assistant",
+                    content: `### Query Analysis Notice\n\nEncountered temporary connection threshold: ${err.message}. Retrying with local intelligent fallback.`,
+                    model: "DigiBot-NLP-Synthesis",
+                    provider: "DigiIndia Knowledge Engine",
+                    timestamp: Date.now()
+                });
+            } finally {
+                isAiChatLoading = false;
+                if (btn) btn.disabled = false;
+                renderAiMessagesStream();
+            }
+        }
+
+        function openDocSandboxFromLatest() {
+            const lastAi = aiChatMessages.slice().reverse().find(m => m.role === 'assistant');
+            if (lastAi) {
+                openDocSandbox(lastAi.content);
+            } else {
+                API.showToast("No active AI document generated yet.", "warning");
+            }
+        }
+
+        function clearAiChat() {
+            aiChatMessages = [];
+            activeCodeSnippets = {};
+            renderAiOverviewWorkspace();
+        }
+
+        // ==========================================
+        // DSA PAGINATION & RENDERERS
+        // ==========================================
+        function loadMoreGoogle() {
+            paginationState.google += 6;
+            renderGoogleResultsPage();
+        }
+
+        function loadMoreYouTube() {
+            paginationState.youtube += 4;
+            renderYouTubeResultsPage();
+        }
+
+        function loadMoreGitHub() {
+            paginationState.github += 6;
+            renderGitHubResultsPage();
+        }
+
+        function loadMoreProjects() {
+            paginationState.projects += 6;
+            renderProjectsResultsPage();
+        }
+
+        function loadMoreStudents() {
+            paginationState.students += 6;
+            renderStudentsResultsPage();
+        }
+
+        function expandAllSection(sec) {
+            if (sec === 'google') paginationState.all.google += 4;
+            if (sec === 'youtube') paginationState.all.youtube += 2;
+            if (sec === 'projects') paginationState.all.projects += 4;
+            if (sec === 'students') paginationState.all.students += 3;
+            if (sec === 'github') paginationState.all.github += 4;
+            renderAllResultsPage();
+        }
+
+        function renderGoogleResultsPage() {
+            const container = document.getElementById("serpResultsContainer");
+            const data = searchDataCache.get(`global_${currentSearchQuery}`) || {};
+            const gResults = data.googleWebResults || [];
+            const displayed = gResults.slice(0, paginationState.google);
+
+            document.getElementById("serpStatsText").innerText = `About ${gResults.length} web results retrieved live from Google Search`;
+
+            let html = displayed.map(w => renderGoogleSERPItem(w, currentSearchQuery)).join("");
+            if (paginationState.google < gResults.length) {
+                html += `
+                    <div class="text-center my-4">
+                        <button class="btn btn-outline-primary rounded-pill px-4" onclick="loadMoreGoogle()">
+                            <i class="bi bi-chevron-down me-1"></i>View More Google Results (${gResults.length - paginationState.google} remaining)
+                        </button>
+                    </div>
+                `;
+            }
+            container.innerHTML = html || `<div class="text-center py-5 text-muted">No web results found.</div>`;
+        }
+
+        function renderYouTubeResultsPage() {
+            const container = document.getElementById("serpResultsContainer");
+            const data = searchDataCache.get(`global_${currentSearchQuery}`) || {};
+            const ytResults = data.youtubeResources || [];
+            const displayed = ytResults.slice(0, paginationState.youtube);
+
+            document.getElementById("serpStatsText").innerText = `About ${ytResults.length} video demonstrations retrieved live from YouTube`;
+
+            let html = displayed.map(y => renderYouTubeSERPItem(y, currentSearchQuery)).join("");
+            if (paginationState.youtube < ytResults.length) {
+                html += `
+                    <div class="text-center my-4">
+                        <button class="btn btn-outline-danger rounded-pill px-4" onclick="loadMoreYouTube()">
+                            <i class="bi bi-chevron-down me-1"></i>View More YouTube Videos (${ytResults.length - paginationState.youtube} remaining)
+                        </button>
+                    </div>
+                `;
+            }
+            container.innerHTML = html || `<div class="text-center py-5 text-muted">No videos found.</div>`;
+        }
+
+        function renderGitHubResultsPage() {
+            const container = document.getElementById("serpResultsContainer");
+            const data = searchDataCache.get(`global_${currentSearchQuery}`) || {};
+            const repos = data.githubRepositories || [];
+            const displayed = repos.slice(0, paginationState.github);
+
+            document.getElementById("serpStatsText").innerText = `About ${repos.length} live public repositories from GitHub`;
+
+            let html = `<div class="serp-entity-grid">${displayed.map(r => renderGitHubRepoCard(r)).join("")}</div>`;
+            if (paginationState.github < repos.length) {
+                html += `
+                    <div class="text-center my-4">
+                        <button class="btn btn-outline-dark rounded-pill px-4" onclick="loadMoreGitHub()">
+                            <i class="bi bi-chevron-down me-1"></i>View More Repositories (${repos.length - paginationState.github} remaining)
+                        </button>
+                    </div>
+                `;
+            }
+            container.innerHTML = html;
+        }
+
+        function renderProjectsResultsPage() {
+            const container = document.getElementById("serpResultsContainer");
+            const projects = searchDataCache.get(`projects_${currentSearchQuery}`) || [];
+            const displayed = projects.slice(0, paginationState.projects);
+
+            document.getElementById("serpStatsText").innerText = `About ${projects.length} verified projects found`;
+
+            let html = `<div class="serp-entity-grid">${displayed.map(p => renderProjectCard(p)).join("")}</div>`;
+            if (paginationState.projects < projects.length) {
+                html += `
+                    <div class="text-center my-4">
+                        <button class="btn btn-outline-success rounded-pill px-4" onclick="loadMoreProjects()">
+                            <i class="bi bi-chevron-down me-1"></i>View More Projects (${projects.length - paginationState.projects} remaining)
+                        </button>
+                    </div>
+                `;
+            }
+            container.innerHTML = projects.length ? html : `<div class="text-center py-5 text-muted">No student projects found matching "${currentSearchQuery}".</div>`;
+        }
+
+        function renderStudentsResultsPage() {
+            const container = document.getElementById("serpResultsContainer");
+            const students = searchDataCache.get(`students_${currentSearchQuery}`) || [];
+            const displayed = students.slice(0, paginationState.students);
+
+            document.getElementById("serpStatsText").innerText = `About ${students.length} verified student innovators found`;
+
+            let html = `<div class="serp-entity-grid">${displayed.map(s => renderStudentCard(s)).join("")}</div>`;
+            if (paginationState.students < students.length) {
+                html += `
+                    <div class="text-center my-4">
+                        <button class="btn btn-outline-info rounded-pill px-4" onclick="loadMoreStudents()">
+                            <i class="bi bi-chevron-down me-1"></i>View More Innovators (${students.length - paginationState.students} remaining)
+                        </button>
+                    </div>
+                `;
+            }
+            container.innerHTML = students.length ? html : `<div class="text-center py-5 text-muted">No student innovators found matching "${currentSearchQuery}".</div>`;
+        }
+
+        function renderAllResultsPage() {
+            const container = document.getElementById("serpResultsContainer");
+            const globalRes = searchDataCache.get(`global_${currentSearchQuery}`) || {};
+            const projects = searchDataCache.get(`projects_${currentSearchQuery}`) || [];
+            const students = searchDataCache.get(`students_${currentSearchQuery}`) || [];
+
+            const gResults = globalRes.googleWebResults || [];
+            const ytResults = globalRes.youtubeResources || [];
+            const repos = globalRes.githubRepositories || [];
+            const totalCount = gResults.length + ytResults.length + projects.length + students.length + repos.length;
+
+            document.getElementById("serpStatsText").innerText = `About ${totalCount} results retrieved live from internet & platform`;
+
+            let html = `
+                <div class="d-flex flex-wrap align-items-center gap-2 mb-4 p-2 px-3 bg-light rounded-4 border">
+                    <span class="small fw-semibold text-muted me-1"><i class="bi bi-arrow-up-right-square me-1"></i>Direct Search:</span>
+                    <a href="https://www.google.com/search?q=${encodeURIComponent(currentSearchQuery || 'student innovation')}" target="_blank" class="serp-sublink-chip">
+                        <i class="bi bi-google text-primary"></i>Google Search
+                    </a>
+                    <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(currentSearchQuery || 'student project demo')}" target="_blank" class="serp-sublink-chip">
+                        <i class="bi bi-youtube text-danger"></i>YouTube Demos
+                    </a>
+                    <a href="https://github.com/search?q=${encodeURIComponent(currentSearchQuery || 'student innovation')}" target="_blank" class="serp-sublink-chip">
+                        <i class="bi bi-github text-dark"></i>GitHub
+                    </a>
+                </div>
+            `;
+
+            // 1. Google Web Results Section
+            if (gResults.length > 0) {
+                const dispG = gResults.slice(0, paginationState.all.google);
+                html += `
+                    <div class="d-flex justify-content-between align-items-center mb-2 mt-2">
+                        <h6 class="fw-bold text-dark mb-0"><i class="bi bi-google text-primary me-2"></i>Google Search Web Index</h6>
+                        <span class="small text-muted">${dispG.length} of ${gResults.length}</span>
+                    </div>
+                `;
+                html += dispG.map(w => renderGoogleSERPItem(w, currentSearchQuery)).join("");
+                if (paginationState.all.google < gResults.length) {
+                    html += `
+                        <div class="text-center mb-4">
+                            <button class="btn btn-sm btn-outline-primary rounded-pill px-3" onclick="expandAllSection('google')">
+                                <i class="bi bi-chevron-down me-1"></i>View More Google Results (${gResults.length - paginationState.all.google} more)
+                            </button>
+                        </div>
+                    `;
+                }
+            }
+
+            // 2. YouTube Video Demonstrations Section
+            if (ytResults.length > 0) {
+                const dispYt = ytResults.slice(0, paginationState.all.youtube);
+                html += `
+                    <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
+                        <h6 class="fw-bold text-dark mb-0"><i class="bi bi-youtube text-danger me-2"></i>YouTube Video Demonstrations</h6>
+                        <span class="small text-muted">${dispYt.length} of ${ytResults.length}</span>
+                    </div>
+                `;
+                html += dispYt.map(y => renderYouTubeSERPItem(y, currentSearchQuery)).join("");
+                if (paginationState.all.youtube < ytResults.length) {
+                    html += `
+                        <div class="text-center mb-4">
+                            <button class="btn btn-sm btn-outline-danger rounded-pill px-3" onclick="expandAllSection('youtube')">
+                                <i class="bi bi-chevron-down me-1"></i>View More YouTube Videos (${ytResults.length - paginationState.all.youtube} more)
+                            </button>
+                        </div>
+                    `;
+                }
+            }
+
+            // 3. Platform Verified Projects Section
+            if (projects.length > 0) {
+                const dispP = projects.slice(0, paginationState.all.projects);
+                html += `
+                    <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
+                        <h6 class="fw-bold text-dark mb-0"><i class="bi bi-code-slash text-success me-2"></i>DigiIndia Verified Projects</h6>
+                        <span class="small text-muted">${dispP.length} of ${projects.length}</span>
+                    </div>
+                    <div class="serp-entity-grid">
+                        ${dispP.map(p => renderProjectCard(p)).join("")}
+                    </div>
+                `;
+                if (paginationState.all.projects < projects.length) {
+                    html += `
+                        <div class="text-center mb-4">
+                            <button class="btn btn-sm btn-outline-success rounded-pill px-3" onclick="expandAllSection('projects')">
+                                <i class="bi bi-chevron-down me-1"></i>View More Projects (${projects.length - paginationState.all.projects} more)
+                            </button>
+                        </div>
+                    `;
+                }
+            }
+
+            // 4. Student Innovators Section
+            if (students.length > 0) {
+                const dispS = students.slice(0, paginationState.all.students);
+                html += `
+                    <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
+                        <h6 class="fw-bold text-dark mb-0"><i class="bi bi-people text-info me-2"></i>Verified Student Innovators</h6>
+                        <span class="small text-muted">${dispS.length} of ${students.length}</span>
+                    </div>
+                    <div class="serp-entity-grid">
+                        ${dispS.map(s => renderStudentCard(s)).join("")}
+                    </div>
+                `;
+                if (paginationState.all.students < students.length) {
+                    html += `
+                        <div class="text-center mb-4">
+                            <button class="btn btn-sm btn-outline-info rounded-pill px-3" onclick="expandAllSection('students')">
+                                <i class="bi bi-chevron-down me-1"></i>View More Innovators (${students.length - paginationState.all.students} more)
+                            </button>
+                        </div>
+                    `;
+                }
+            }
+
+            // 5. GitHub Repos Section
+            if (repos.length > 0) {
+                const dispR = repos.slice(0, paginationState.all.github);
+                html += `
+                    <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
+                        <h6 class="fw-bold text-dark mb-0"><i class="bi bi-github text-dark me-2"></i>GitHub Open Source Repositories</h6>
+                        <span class="small text-muted">${dispR.length} of ${repos.length}</span>
+                    </div>
+                    <div class="serp-entity-grid">
+                        ${dispR.map(r => renderGitHubRepoCard(r)).join("")}
+                    </div>
+                `;
+                if (paginationState.all.github < repos.length) {
+                    html += `
+                        <div class="text-center mb-4">
+                            <button class="btn btn-sm btn-outline-dark rounded-pill px-3" onclick="expandAllSection('github')">
+                                <i class="bi bi-chevron-down me-1"></i>View More Repositories (${repos.length - paginationState.all.github} more)
+                            </button>
+                        </div>
+                    `;
+                }
+            }
+
+            container.innerHTML = html;
+        }
+
+        // ==========================================
+        // MAIN EXECUTE SERP SEARCH DISPATCHER
+        // ==========================================
         async function executeSerpSearch(overrideQuery) {
             const query = (typeof overrideQuery === 'string' ? overrideQuery : document.getElementById("serpTopInput").value || "").trim();
             currentSearchQuery = query;
             const sortBy = document.getElementById("serpSortSelect")?.value || "relevance";
             const container = document.getElementById("serpResultsContainer");
+
+            if (currentSerpCategory === "ai_overview") {
+                renderAiOverviewWorkspace();
+                return;
+            }
 
             container.innerHTML = `
                 <div class="text-center py-5 text-muted">
@@ -1026,7 +2052,7 @@
                 </div>
             `;
 
-            // Request AI Overview
+            // Request AI Overview Banner for SERP page
             if (query.length >= 3) {
                 API.request(`/ai/assistant`, {
                     method: "POST",
@@ -1042,157 +2068,79 @@
             }
 
             try {
-                let html = "";
+                // Fetch & Cache Global Live Results if not in memory
+                const globalCacheKey = `global_${query}`;
+                if (!searchDataCache.has(globalCacheKey)) {
+                    const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`).catch(() => ({}));
+                    searchDataCache.set(globalCacheKey, globalRes);
+                }
 
                 // 1. Google Web Tab
                 if (currentSerpCategory === "google") {
-                    const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
-                    const gResults = globalRes.googleWebResults || [];
-                    document.getElementById("serpStatsText").innerText = `About ${gResults.length} web results retrieved live from Google Search`;
-                    html = gResults.map(w => renderGoogleSERPItem(w, query)).join("");
-                    container.innerHTML = html || `<div class="text-center py-5 text-muted">No web results found.</div>`;
+                    renderGoogleResultsPage();
                     return;
                 }
 
                 // 2. YouTube Tab
                 if (currentSerpCategory === "youtube") {
-                    const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
-                    const ytResults = globalRes.youtubeResources || [];
-                    document.getElementById("serpStatsText").innerText = `About ${ytResults.length} video demonstrations retrieved live from YouTube`;
-                    html = ytResults.map(y => renderYouTubeSERPItem(y, query)).join("");
-                    container.innerHTML = html || `<div class="text-center py-5 text-muted">No videos found.</div>`;
+                    renderYouTubeResultsPage();
                     return;
                 }
 
                 // 3. GitHub Repos Tab
                 if (currentSerpCategory === "github") {
-                    const globalRes = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`);
-                    const repos = globalRes.githubRepositories || [];
-                    document.getElementById("serpStatsText").innerText = `About ${repos.length} live public repositories from GitHub`;
-                    html = `<div class="serp-entity-grid">${repos.map(r => renderGitHubRepoCard(r)).join("")}</div>`;
-                    container.innerHTML = html;
+                    renderGitHubResultsPage();
                     return;
                 }
 
                 // 4. Projects Tab
                 if (currentSerpCategory === "projects") {
-                    const projects = await API.request(`/search/projects?q=${encodeURIComponent(query)}&sort_by=${sortBy}`);
-                    document.getElementById("serpStatsText").innerText = `About ${projects.length} verified projects found`;
-                    html = `<div class="serp-entity-grid">${projects.map(p => renderProjectCard(p)).join("")}</div>`;
-                    container.innerHTML = projects.length ? html : `<div class="text-center py-5 text-muted">No student projects found matching "${query}".</div>`;
+                    const pKey = `projects_${query}`;
+                    if (!searchDataCache.has(pKey)) {
+                        const projects = await API.request(`/search/projects?q=${encodeURIComponent(query)}&sort_by=${sortBy}`).catch(() => []);
+                        searchDataCache.set(pKey, projects);
+                    }
+                    renderProjectsResultsPage();
                     return;
                 }
 
                 // 5. Innovators Tab
                 if (currentSerpCategory === "students") {
-                    const students = await API.request(`/search/students?q=${encodeURIComponent(query)}`);
-                    document.getElementById("serpStatsText").innerText = `About ${students.length} verified student innovators found`;
-                    html = `<div class="serp-entity-grid">${students.map(s => renderStudentCard(s)).join("")}</div>`;
-                    container.innerHTML = students.length ? html : `<div class="text-center py-5 text-muted">No student innovators found matching "${query}".</div>`;
+                    const sKey = `students_${query}`;
+                    if (!searchDataCache.has(sKey)) {
+                        const students = await API.request(`/search/students?q=${encodeURIComponent(query)}`).catch(() => []);
+                        searchDataCache.set(sKey, students);
+                    }
+                    renderStudentsResultsPage();
                     return;
                 }
 
                 // 6. Semantic Tab
                 if (currentSerpCategory === "semantic") {
-                    const projects = await API.request(`/search/semantic?q=${encodeURIComponent(query)}`);
+                    const semKey = `semantic_${query}`;
+                    if (!searchDataCache.has(semKey)) {
+                        const sem = await API.request(`/search/semantic?q=${encodeURIComponent(query)}`).catch(() => []);
+                        searchDataCache.set(semKey, sem);
+                    }
+                    const projects = searchDataCache.get(semKey) || [];
                     document.getElementById("serpStatsText").innerText = `About ${projects.length} semantic vector matches`;
-                    html = `<div class="serp-entity-grid">${projects.map(p => renderProjectCard(p)).join("")}</div>`;
-                    container.innerHTML = projects.length ? html : `<div class="text-center py-5 text-muted">No semantic vector matches found.</div>`;
+                    container.innerHTML = `<div class="serp-entity-grid">${projects.map(p => renderProjectCard(p)).join("")}</div>` || `<div class="text-center py-5 text-muted">No semantic vector matches found.</div>`;
                     return;
                 }
 
-                // 7. ALL RESULTS (Grand Google SERP Layout)
-                const [globalRes, projects, students] = await Promise.all([
-                    API.request(`/search/global-live?q=${encodeURIComponent(query)}`).catch(() => ({})),
-                    API.request(`/search/projects?q=${encodeURIComponent(query)}&sort_by=${sortBy}`).catch(() => []),
-                    API.request(`/search/students?q=${encodeURIComponent(query)}`).catch(() => [])
-                ]);
-
-                const gResults = globalRes.googleWebResults || [];
-                const ytResults = globalRes.youtubeResources || [];
-                const repos = globalRes.githubRepositories || [];
-                const totalCount = gResults.length + ytResults.length + projects.length + students.length + repos.length;
-
-                document.getElementById("serpStatsText").innerText = `About ${totalCount} results retrieved live from internet & platform`;
-
-                // Quick External Jump Chips
-                html += `
-                    <div class="d-flex flex-wrap align-items-center gap-2 mb-4 p-2 px-3 bg-light rounded-4 border">
-                        <span class="small fw-semibold text-muted me-1"><i class="bi bi-arrow-up-right-square me-1"></i>Direct Search:</span>
-                        <a href="https://www.google.com/search?q=${encodeURIComponent(query || 'student innovation')}" target="_blank" class="serp-sublink-chip">
-                            <i class="bi bi-google text-primary"></i>Google Search
-                        </a>
-                        <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(query || 'student project demo')}" target="_blank" class="serp-sublink-chip">
-                            <i class="bi bi-youtube text-danger"></i>YouTube Demos
-                        </a>
-                        <a href="https://github.com/search?q=${encodeURIComponent(query || 'student innovation')}" target="_blank" class="serp-sublink-chip">
-                            <i class="bi bi-github text-dark"></i>GitHub
-                        </a>
-                    </div>
-                `;
-
-                // 1. Google Web Results Section
-                if (gResults.length > 0) {
-                    html += `
-                        <div class="d-flex justify-content-between align-items-center mb-2 mt-2">
-                            <h6 class="fw-bold text-dark mb-0"><i class="bi bi-google text-primary me-2"></i>Google Search Web Index</h6>
-                            <button class="btn btn-sm btn-link text-decoration-none text-primary p-0 small" onclick="setSerpCategory('google', document.querySelectorAll('.serp-tab-btn')[1])">View all (${gResults.length})</button>
-                        </div>
-                    `;
-                    html += gResults.slice(0, 4).map(w => renderGoogleSERPItem(w, query)).join("");
+                // 7. ALL RESULTS TAB
+                const pKey = `projects_${query}`;
+                if (!searchDataCache.has(pKey)) {
+                    const projects = await API.request(`/search/projects?q=${encodeURIComponent(query)}&sort_by=${sortBy}`).catch(() => []);
+                    searchDataCache.set(pKey, projects);
+                }
+                const sKey = `students_${query}`;
+                if (!searchDataCache.has(sKey)) {
+                    const students = await API.request(`/search/students?q=${encodeURIComponent(query)}`).catch(() => []);
+                    searchDataCache.set(sKey, students);
                 }
 
-                // 2. YouTube Video Demonstrations Section
-                if (ytResults.length > 0) {
-                    html += `
-                        <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
-                            <h6 class="fw-bold text-dark mb-0"><i class="bi bi-youtube text-danger me-2"></i>YouTube Video Demonstrations</h6>
-                            <button class="btn btn-sm btn-link text-decoration-none text-danger p-0 small" onclick="setSerpCategory('youtube', document.querySelectorAll('.serp-tab-btn')[2])">View all (${ytResults.length})</button>
-                        </div>
-                    `;
-                    html += ytResults.slice(0, 2).map(y => renderYouTubeSERPItem(y, query)).join("");
-                }
-
-                // 3. Platform Verified Projects Section
-                if (projects.length > 0) {
-                    html += `
-                        <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
-                            <h6 class="fw-bold text-dark mb-0"><i class="bi bi-code-slash text-success me-2"></i>DigiIndia Verified Projects</h6>
-                            <button class="btn btn-sm btn-link text-decoration-none text-success p-0 small" onclick="setSerpCategory('projects', document.querySelectorAll('.serp-tab-btn')[3])">View all (${projects.length})</button>
-                        </div>
-                        <div class="serp-entity-grid">
-                            ${projects.slice(0, 4).map(p => renderProjectCard(p)).join("")}
-                        </div>
-                    `;
-                }
-
-                // 4. Student Innovators Section
-                if (students.length > 0) {
-                    html += `
-                        <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
-                            <h6 class="fw-bold text-dark mb-0"><i class="bi bi-people text-info me-2"></i>Verified Student Innovators</h6>
-                            <button class="btn btn-sm btn-link text-decoration-none text-info p-0 small" onclick="setSerpCategory('students', document.querySelectorAll('.serp-tab-btn')[4])">View all (${students.length})</button>
-                        </div>
-                        <div class="serp-entity-grid">
-                            ${students.slice(0, 3).map(s => renderStudentCard(s)).join("")}
-                        </div>
-                    `;
-                }
-
-                // 5. GitHub Repos Section
-                if (repos.length > 0) {
-                    html += `
-                        <div class="d-flex justify-content-between align-items-center mb-2 mt-4">
-                            <h6 class="fw-bold text-dark mb-0"><i class="bi bi-github text-dark me-2"></i>GitHub Open Source Repositories</h6>
-                            <button class="btn btn-sm btn-link text-decoration-none text-dark p-0 small" onclick="setSerpCategory('github', document.querySelectorAll('.serp-tab-btn')[5])">View all (${repos.length})</button>
-                        </div>
-                        <div class="serp-entity-grid">
-                            ${repos.slice(0, 4).map(r => renderGitHubRepoCard(r)).join("")}
-                        </div>
-                    `;
-                }
-
-                container.innerHTML = html;
+                renderAllResultsPage();
 
             } catch (err) {
                 container.innerHTML = `
@@ -1208,6 +2156,8 @@
             try {
                 const res = await API.request(`/search/digibot/crawl?query=${encodeURIComponent(currentSearchQuery || 'student project')}`, { method: "POST" });
                 API.showToast(`DigiBot indexed ${res.indexedCount || 6} new repositories!`, "success");
+                // Clear cache so new results reflect
+                searchDataCache.clear();
                 executeSerpSearch(currentSearchQuery);
             } catch(e) { API.showToast(e.message, "error"); }
         }

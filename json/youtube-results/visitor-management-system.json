@@ -1,0 +1,768 @@
+{
+  "search_metadata": {
+    "id": "6a9d4908a1de127f9ac88126",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/MPrh-Xmw-SNtl4zQnmpP1B8qp0Xym8OQMnHqEVo2_V0/6a9d4908a1de127f9ac88126.json",
+    "markdown_endpoint": "https://serpapi.com/searches/MPrh-Xmw-SNtl4zQnmpP1B8qp0Xym8OQMnHqEVo2_V0/6a9d4908a1de127f9ac88126.md",
+    "created_at": "2026-09-06 11:05:44 UTC",
+    "processed_at": "2026-09-06 11:05:44 UTC",
+    "youtube_url": "https://www.youtube.com/results?search_query=Visitor+Management+System",
+    "raw_html_file": "https://serpapi.com/searches/MPrh-Xmw-SNtl4zQnmpP1B8qp0Xym8OQMnHqEVo2_V0/6a9d4908a1de127f9ac88126.html",
+    "total_time_taken": 2.39
+  },
+  "search_parameters": {
+    "engine": "youtube",
+    "search_query": "Visitor Management System"
+  },
+  "search_information": {
+    "total_results": 549515,
+    "video_results_state": "Results for exact spelling"
+  },
+  "ads_results": [
+    {
+      "position_on_page": 1,
+      "title": "A website makes your goth stylist dreams real.",
+      "link": "https://www.youtube.com/watch?v=tnN9SL55xw4",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CttegCUmdasGMFrKuv8IPqKPU6Ab7qMqviQHQl63ykhawkB8QASAAYMmW94zkpKwTggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfClvdICqAMEyAMKqgTKAk_QYzVZCdlA-nEQvl_i_hHAmMAVB22tjqqYOKClfFnKQv3qE8HM730einoxaZ1Asbs8fso1YhW5xQbylY9n3eGtQC-Sckk0msdq-2d4Bs1JZAWkZldShed0MxMBkHygH3VYVrybZ24UGREQflXljCf3jjLUA0939a6jOFfkDKeniXDU6-v77qfs8mUgHGyKerrZAdzcXuyk9e3YV7AeCqt-fW1XhBnlH_mWuCLmODkzr5tfGwhqAPE3KVw0hpWpPYo7oxzkQJulS_8YAITEvwnxPR6N3YjuOpOjOLifJFtIFsQiLV21kdC0sHYLvNskkOwXPtuiNDz80Bqm1KfW8e_PNUBMg6ui8bd8ZLYe2VBsc5MtdO49Aj0ui958w-DPO8T4QLIFjrYBX2NDnPIZmUQ6HwOs88qG1n7gn31RhNkZ7XStSKNy6Sj5eIgFupKqolGSBQgIE3ik-eGtAaAGoQGAB_jZwq0BkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKSCAt0bk45U0w1NXh3NKgIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWIClzN3n2ZYDYAGaCTBodHRwczovL3d3dy5zcXVhcmVzcGFjZS5jb20vZ28vY3JlYXRlLWEtd2Vic2l0ZS-xCcegbR8J3ZQ2yAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWNiZtALEuALAaIMUWIgCh5jb20uc3F1YXJlc3BhY2Uuc3F1YXJlc3BhY2VhcHBqKAomY29tLnNxdWFyZXNwYWNlLmFuZHJvaWQuc3F1YXJlc3BhY2VhcHB4AIgBANIMAhABmg0BEqoNAlVTyA0B0g3eBWh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9ONzE4Njc5LjMxNTlHT09HTEUvQjM0NDQ1NDg5LjQ0NzM4MzQxOTtkY190cmtfYWlkPTY0MTA0NjExMTtkY190cmtfY2lkPTI1NjY3MTgwNDtkY19kYm1fdG9rZW49QU9qZUxORUFBQUE2Q2pNS0RBZ0FGUUFBQUFBZEFBQUFBQklNQ0FBVkFBQUFBQjBBQUFBQUloTUl1cEtxb2xHb0FvUGd0UUt3QXRfQzhPVURRRHNRdTRDMEFzbXlXeFF4QzlGdDVSRGR6QVFWTzFRPTtkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0FCbXpIdlItemprQXowX2ZRUmk2NFpXSkthR2lHYnBWODk1aGN5N2RiUjRxU3ZfbHhKeFFTSjNWMW42ZFRZaUJ6dWpPd1VUdmdRQWJyNFFBO2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuc3F1YXJlc3BhY2UuY29tL2dvL2NyZWF0ZS1hLXdlYnNpdGUvP2NoYW5uZWw9dmlkZW9fcHJvZ3JhbW1hdGljJnN1YmNoYW5uZWw9TjcxODY3OS4zMTU5R09PR0xFJmNhbXBhaWduPTM0NDQ1NDg5JnN1YmNhbXBhaWduPTQ0NzM4MzQxOV82NDEwNDYxMTEmc291cmNlPTI1NjY3MTgwNCZ1dG1fbWVkaXVtPXZpZGVvX3Byb2dyYW1tYXRpYyZ1dG1fc291cmNlPU43MTg2NzkuMzE1OUdPT0dMRSZ1dG1fY29udGVudD0mZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIxODE1MjY1NTk0sBPCucMkuBP___________8BiBQBsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF82AU44bOY1YuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMIgbXM3efZlgMVMtdPAh2oERVtEAEYASAAEgJ7r_D_BwE&num=1&cid=CAASwgHkaHh5JRBm18plhsTeh9XKLX2RAuQxSsvI8iL7xpyI1lFQSo8NbQcQMoAfN2055aigcBpfmDqI9mZkNLwlvRWXAxnpHCttBwB2RBjrFEWZVfgz_DMOJzzuiQUumOqWIpmXsR1JvyAxtBC2Kb36mJ8QH0p6HsaKHzkKQhid92dCs1wasezOBZxhCfSyoFyDh5KzvWqb12Cex9qiGJkIoZCSV4vZRsWJKvyozzKrk8he3femIg2De1FPI7khGu0Aj81VFA&ad_cpn=%5BCPN%5D&sig=AOD64_1LAi7w5Wfik782RmveH7p07SYkQg&ctype=110&video_id=tnN9SL55xw4&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Squarespace",
+        "thumbnail": "https://yt3.ggpht.com/proxy/OV0yjYL3Kk9I_i7Omx09d9RPjt0_v4WbF7A4zOK17mKSTTLGS6IO5mPBrpBATxaPMOmf0MGg_Ub91n5qb0n0PLL_J9gidUb63dm9kE-Nwkg_7ZqLObNCs5G-E0YLi1MvkceqjxZndTLsAbHnJpP7OC_QAhOQZtbUFk8jZD838Uhn1Ibf0TfqBSYqRLc2WV7uen0op44FyOJoJOb0pAE2hP68C2i7Kf-ZIeH6Z7WWqDm3UWjzKA17dHtTZKxulgfXUtKJF44=w68-h68-nd"
+      },
+      "description": "Get a domain and start a website at squarespace.com today.",
+      "thumbnail": "https://i.ytimg.com/vi/tnN9SL55xw4/hqdefault.jpg",
+      "videoId": "tnN9SL55xw4",
+      "url": "https://www.youtube.com/watch?v=tnN9SL55xw4"
+    },
+    {
+      "position_on_page": 4,
+      "title": "Stevesie Data",
+      "link": "https://www.youtube.com/watch?v=X4rbee3wl5k",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CectECUmdasGMFrKuv8IPqKPU6AbWkfOxiQGG1MaQlBawkB8QAiAAYMmW94zkpKwTggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLR8tgDqAMEyAMKqgSsAk_QYzVZCdlA-nEQvl_i_hHAmMAVB22tjqqYOKClfFnKQv3qE8HM730einoxaZ1Asbs8fso1YhW5xQbylY9n3eGtQC-Sckk0msdq-2d4Bs1JZAWkZldShed0MxMBkHygH3VYVrybZ24UGREQflXljCf3jjLUA0939a6jOFfkDKeniXDU6-v77qfs8mUgHGyKerrZAdzcXuyk9e3YV7AeCqt-fW1XhBnlH_mWuCLmODkzr5tfGwhqAPE3KVw0hpWpPYo7oxzkQJulS_8YAITEvwnxPR6N3YjuOpOjOLifJFtIFsQiLV3t09K0sHsLvP50mYcKLNh30ufTHQJMoiD3aeYts-0S7S85Npw3knzk2mFmYklahU4XvTTtK03gx3mMe8tAULLFcVkqoIYUpIgF2OeR-VmSBQcIE3jepNInoAahAYAH9q2NJ5AHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECkggLWDRyYmVlM3dsNWuoCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiApczd59mWA2ABmgkZaHR0cHM6Ly9zdGV2ZXNpZS5jb20vYXBwc7EJhedx15T4UqbICRfICY8ByAnCAcgJlwKYCwG6Cz0IAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBboDBXZpY2Jm0AsS0gwCEAGaDQESqg0CVVPIDQHSDUFodHRwczovL3N0ZXZlc2llLmNvbS9hcHBzP2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDE0NDgwMjc3NrgT____________AYgUAbAUA8AVgYCAQNAVAdgVAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRcytIcweErcJ7oXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMIgbXM3efZlgMVMtdPAh2oERVtEAEYAiAAEgL9KfD_BwE&num=2&cid=CAASwgHkaHh5JRBm18plhsTeh9XKLX2RAuQxSsvI8iL7xpyI1lFQSo8NbQcQMoAfN2055aigcBpfmDqI9mZkNLwlvRWXAxnpHCttBwB2RBjrFEWZVfgz_DMOJzzuiQUumOqWIpmXsR1JvyAxtBC2Kb36mJ8QH0p6HsaKHzkKQhid92dCs1wasezOBZxhCfSyoFyDh5KzvWqb12Cex9qiGJkIoZCSV4vZRsWJKvyozzKrk8he3femIg2De1FPI7khGu0Aj81VFA&ad_cpn=%5BCPN%5D&sig=AOD64_1yEfjW4erzX1duxQ4UsFFZOmrGnw&ctype=110&video_id=X4rbee3wl5k&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Stevesie Data",
+        "thumbnail": "https://yt3.ggpht.com/proxy/-0cq4XjmDDxB61LEnuNEQ-efJC03boT0Q1paPJrW92Zs1Q3FaC4VPAlmk3AZFBvfp3Poo1DdyzKgNigHPL4tMgk2cESPXmo8W4pWFFGkEH1NTYp4b2Hf71yMESUf4Wkyy2CdRIhVrolqaBaKo6F-Yol1JGN1rgJVu5-6GOYgeBzCt-PglvyGbUTD1ju6qvqigF5HDGOpNZhPGq8FlgwjToy8n5XxL_-ZVfLd03YzX2rWJoMrAiiiw9S6faAUMRrmPIOlFis=w68-h68-nd"
+      },
+      "description": "Scrape Data Not Screens",
+      "thumbnail": "https://i.ytimg.com/vi/X4rbee3wl5k/hqdefault.jpg",
+      "videoId": "X4rbee3wl5k",
+      "url": "https://www.youtube.com/watch?v=X4rbee3wl5k"
+    },
+    {
+      "position_on_page": 7,
+      "title": "Get 3 months of full access to Shopify for $1/mo",
+      "link": "https://www.youtube.com/watch?v=5JXRUFEOvPs",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CvsWtCUmdasGMFrKuv8IPqKPU6AbwhOCoiAHX95PwgRawkB8QAyAAYMmW94zkpKwTggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAfLy-5sqqQJqSn6p-K22PqgDBMgDCqoEpQJP0GM1WQnZQPpxEL5f4v4RwJjAFQdtrY6qmDigpXxZykL96hPBzO99Hop6MWmdQLG7PH7KNWIVucUG8pWPZ93hrUAvknJJNJrHavtneAbNSWQFpGZXUoXndDMTAZB8oB91WFa8m2duFBkREH5V5Ywn944y1ANPd_WuozhX5Aynp4lw1Ovr--6n7PJlIBxsinq62QHc3F7spPXt2FewHgqrfn1tV4QZ5R_5lrgi5jg5M6-bXxsIagDxNylcNIaVqT2KO6Mc5ECbpUv_GACExL8J8T0ejd2I7jqTozi4nyRbSBbEIi1d3mMTdre2wQn3APN49cptTpmZ8QgCp3wSbcF0JRDsfeG1GRm3veBo3zl42vGw-AlwJ7PuFt19zt_gWcGH-ckA6IgFyIfVvFmSBQgIE3iz5--sBaAGoQGAB_KqzPsEkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB9XOG6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKSCAs1SlhSVUZFT3ZQc6gIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWIClzN3n2ZYDYAGaCU1odHRwczovL3d3dy5zdHlsZWZhY3Rvcnlwcm9kdWN0aW9ucy5jb20vaG93LXRvLXVubG9jay1hLTMtbW9udGgtc2hvcGlmeS10cmlhbLEJR1k_C2yTfDzICRfICY8ByAnCAZgLAboLPQgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAISugMFdmljYmbQCxPSDAIQAZoNAROqDQJVU8gNAdINdWh0dHBzOi8vd3d3LnN0eWxlZmFjdG9yeXByb2R1Y3Rpb25zLmNvbS9ob3ctdG8tdW5sb2NrLWEtMy1tb250aC1zaG9waWZ5LXRyaWFsP2dhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDAxNzk3ODMxMrgT____________AbAUA8AVgYCAQNAVAdgVAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXjY7UEXksFj26FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMIgbXM3efZlgMVMtdPAh2oERVtEAEYAyAAEgKle_D_BwE&num=3&cid=CAASwgHkaHh5JRBm18plhsTeh9XKLX2RAuQxSsvI8iL7xpyI1lFQSo8NbQcQMoAfN2055aigcBpfmDqI9mZkNLwlvRWXAxnpHCttBwB2RBjrFEWZVfgz_DMOJzzuiQUumOqWIpmXsR1JvyAxtBC2Kb36mJ8QH0p6HsaKHzkKQhid92dCs1wasezOBZxhCfSyoFyDh5KzvWqb12Cex9qiGJkIoZCSV4vZRsWJKvyozzKrk8he3femIg2De1FPI7khGu0Aj81VFA&ad_cpn=%5BCPN%5D&sig=AOD64_2zwsAwG3q7oiqNINqbCG1yLMrsYQ&ctype=110&video_id=5JXRUFEOvPs&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Style Factory",
+        "thumbnail": "https://yt3.ggpht.com/proxy/lXILA8k5vCLoCqam4gFoS6UzbgO-H0JeHffp3_WwddZvVWNIeFZk7rXSvqdZ4TodxkslRpIOY8naQiAu2agA9g_MHehKzzDhp8v2jKPVWA1ZPOt-mb1Zf6EPOO3I9XGf_PFKlonXkTPSht4hLbIroCeRBdEp4IBh8KJaYvxzWpFHXX5jvAAWYT0GCpdKaeVSdsWDnlrwRBAlmnBiiNqDiJHMa3jfliJ5wXgG1367owc0fJx0ik1Z0zJQDwKyN9TLG0ux=w68-h68-nd"
+      },
+      "description": "Find out how you can unlock an extended Shopify trial.",
+      "thumbnail": "https://i.ytimg.com/vi/5JXRUFEOvPs/hqdefault.jpg",
+      "videoId": "5JXRUFEOvPs",
+      "url": "https://www.youtube.com/watch?v=5JXRUFEOvPs"
+    },
+    {
+      "position_on_page": 13,
+      "title": "2025 F-150 is part of Ford F-Series, the best-selling truck lineup.",
+      "link": "https://www.youtube.com/watch?v=08Ru1K_5tIc",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CgvFYCUmdasGMFrKuv8IPqKPU6AbyxYm7iQGMu-Sx4xRkEAQgAGDJlveM5KSsE4IBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGz6uTDPqgDBMgDCqoEygJP0GM1WQnZQPpxEL5f4v4RwJjAFQdtrY6qmDigpXxZykL96hPBzO99Hop6MWmdQLG7PH7KNWIVucUG8pWPZ93hrUAvknJJNJrHavtneAbNSWQFpGZXUoXndDMTAZB8oB91WFa8m2duFBkREH5V5Ywn944y1ANPd_WuozhX5Aynp4lw1Ovr--6n7PJlIBxsinq62QHc3F7spPXt2FewHgqrfn1tV4QZ5R_5lrgi5jg5M6-bXxsIagDxNylcNIaVqT2KO6Mc5ECbpUv_GACExL8J8T0ejd2I7jqTozi4nyRbSBbEIi1dwXYTdr62wXv0E4p558nV63899MAJjWwHiLAOKdQ6StAfbjTkAoOH-Qla7voXGwDuPQI9ec2uOPvgyyGGhkOyIKrdDV9jQ5zyGZlEOhsZ7o3JhtZ-4J9Yde_VGe10rUijJa9YvUCIBc-t7N9WkgUICBN4597_shmgBqEBgAezorWjGZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECqAfCyLECkggLMDhSdTFLXzV0SWOoCAHSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFiApczd59mWA2ABmgkmaHR0cHM6Ly93d3cuZm9yZC5jb20vdHJ1Y2tzL2YxNTAvMjAyNS-xCSm0Imp_FCGByAkXyAmPAcgJwgHICZcCugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQOAAgGIAgW6AwV2aWNiZtALEuALAaIMMmIVChNjb20uc2llbWVucy5mb3JkODBBahQKEmNvbS5mb3JkLmZvcmRhbGV4YXgAiAEA0gwCEAGaDQESqg0CVVPIDQHSDbsFaHR0cHM6Ly9hZC5kb3VibGVjbGljay5uZXQvZGRtL3RyYWNrY2xrL04zMDE2LjUyNjc5MjVHTU5FWFVTTUVESUEtU09MVVRJL0IzNDU4MjI0MS40MzQyMzAxMTM7ZGNfdHJrX2FpZD02Mjg5OTE2ODE7ZGNfdHJrX2NpZD0yNDYxNjA5MTY7ZGNfZGJtX3Rva2VuPUFPamVMTkVBQUFBNkNqUUtEQWdBRlFBQUFBQWRBQUFBQUJJTUNBQVZBQUFBQUIwQUFBQUFJaFFJejYzczMxYW9BdWZlXzdJWnNBTDd6clRvQTBBN0VOWEVWSXQ5U01Zd2Jvcm1xMGNGbHFTOGZ4MD07ZGNfbGF0PTtkY19yZGlkPTt0YWdfZm9yX2NoaWxkX2RpcmVjdGVkX3RyZWF0bWVudD07dGZ1YT07Z2Rwcj0ke0dEUFJ9O2dkcHJfY29uc2VudD0ke0dEUFJfQ09OU0VOVF83NTV9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTs7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0JEQUZqa0NRSkZjdlMySDFYS1lxTlNlNS1EcFRpRGRHeVZoSU5XY25iVktlaW9TWEJ5Y3BTZ1pvNk1qZHhnVUJFSVIya29mVnFycDZOZ1RRO2RjX3B1YmlkPTY_aHR0cHM6Ly93d3cuZm9yZC5jb20vdHJ1Y2tzL2YxNTAvMjAyNS8_bGVhZHNvdXJjZT1mZGFmLWJhbm5lcmFkJmJhbm5lcmlkPTM0NTgyMjQxfDk4MDgzMTJ8NDM0MjMwMTEzfDI0NjE2MDkxNnw2Mjg5OTE2ODEmZmNpZD1kaXNfMzQ1ODIyNDFfOTgwODMxMi1ZVEQmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzMjg2NDUzOTY3sBPjnLskuBP___________8BiBQFsBQDwBWBgIBA0BUB2BUBmBYBqBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF9B0te3Bae-nuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMIgbXM3efZlgMVMtdPAh2oERVtEAEYBCAAEgJf1_D_BwE&num=4&cid=CAASwgHkaHh5JRBm18plhsTeh9XKLX2RAuQxSsvI8iL7xpyI1lFQSo8NbQcQMoAfN2055aigcBpfmDqI9mZkNLwlvRWXAxnpHCttBwB2RBjrFEWZVfgz_DMOJzzuiQUumOqWIpmXsR1JvyAxtBC2Kb36mJ8QH0p6HsaKHzkKQhid92dCs1wasezOBZxhCfSyoFyDh5KzvWqb12Cex9qiGJkIoZCSV4vZRsWJKvyozzKrk8he3femIg2De1FPI7khGu0Aj81VFA&ad_cpn=%5BCPN%5D&sig=AOD64_2D6CpAR1DoMlfGp7OAVjy8PTAIaw&ctype=110&video_id=08Ru1K_5tIc&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Ford",
+        "thumbnail": "https://yt3.ggpht.com/proxy/CcO1kwb0wHsy5J4tRTNPTDGlSPeGeiykAuN1FBSeIZhuqDVMnBQPCYTBr5JrhvbVGAxaUtEkUXQdwunKK3D8iB3CryGYstiisX1Gzqkw3XWFpaYhxGHdbw6G0lswwRRKs51nRq9yimW_byVr4gF-SX4lABxJeR33xOD1xzlEdWB8nhe1nHtiG25z8LBKKjRjO5flgOKWeIkHQuLD2hYxX60czXzWYwecHzqkdfhOmaK7cyzPnaWXa9zIV8ypMaRpKsLjnxU=w68-h68-nd"
+      },
+      "description": "Tough this smart can only be called F-150.",
+      "thumbnail": "https://i.ytimg.com/vi/08Ru1K_5tIc/hqdefault.jpg",
+      "videoId": "08Ru1K_5tIc",
+      "url": "https://www.youtube.com/watch?v=08Ru1K_5tIc"
+    },
+    {
+      "position_on_page": 19,
+      "title": "Modernize IT operations and unlock efficiency with Freshservice",
+      "link": "https://www.youtube.com/watch?v=-L4fB4vuOkU",
+      "website": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=CH2ERCUmdasGMFrKuv8IPqKPU6AbOnpn-iAHQqcC59RWwkB8QBSAAYMmW94zkpKwTggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAceSt5UDqAMEyAMKqgSqAk_QYzVZCdlA-nEQvl_i_hHAmMAVB22tjqqYOKClfFnKQv3qE8HM730einoxaZ1Asbs8fso1YhW5xQbylY9n3eGtQC-Sckk0msdq-2d4Bs1JZAWkZldShed0MxMBkHygH3VYVrybZ24UGREQflXljCf3jjLUA0939a6jOFfkDKeniXDU6-v77qfs8mUgHGyKerrZAdzcXuyk9e3YV7AeCqt-fW1XhBnlH_mWuCLmODkzr5tfGwhqAPE3KVw0hpWpPYo7oxzkQJulS_8YAITEvwnxPR6N3YjuOpOjOLifJFtIFsQiLV20chN2t7bBd7Jh7mP1yhwrkF852NakqSUQueyvOhAiYJypHrfqym-wElDhanUmOFQ2Gz3PJ1VrTgeJ6GVycrzdorhV9FCIBcWCyMBYkgUHCBN4woLmaqAGoQGAB6HtyGqQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxApIICy1MNGZCNHZ1T2tVqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYgKXM3efZlgNgAZoJKGh0dHBzOi8vd3d3LmZyZXNod29ya3MuY29tL2ZyZXNoc2VydmljZS-xCUzdhy1UIkYxyAkXyAmPAcgJwgHICZcCmAsBugs9CAMQBRgEIAcoATAcQAFIAFh9YABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6AwV2aWNiZtALEqIMQGIaChhjb20uZnJlc2hkZXNrLkZyZXNoc2FsZXNqHQobY29tLmZyZXNoY2hhdC5hZ2VudC5hbmRyb2lkeACIAQDSDAIQAZoNARKqDQJVU8gNAdIN6QFodHRwczovL3d3dy5mcmVzaHdvcmtzLmNvbS9mcmVzaHNlcnZpY2UvP3V0bV9zb3VyY2U9cGFpZF9zb2NpYWwmdXRtX21lZGl1bT15b3V0dWJlJnV0bV9jYW1wYWlnbj1GWTI2UTItU09DX1BELUZTZXJ2aWNlLU5BLVZJRC1ETS1Zb3VUdWJlX0RlbWFuZEdlbl9Db25zaWRlcmF0aW9uJnV0bV9jb250ZW50PWZyZXNoc2VydmljZS1wcm9kdWN0JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzc1NzcxNzgyObgT____________AYgUBrAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRekjlD4-WuL-7oXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMIgbXM3efZlgMVMtdPAh2oERVtEAEYBSAAEgLu6_D_BwE&num=5&cid=CAASwgHkaHh5JRBm18plhsTeh9XKLX2RAuQxSsvI8iL7xpyI1lFQSo8NbQcQMoAfN2055aigcBpfmDqI9mZkNLwlvRWXAxnpHCttBwB2RBjrFEWZVfgz_DMOJzzuiQUumOqWIpmXsR1JvyAxtBC2Kb36mJ8QH0p6HsaKHzkKQhid92dCs1wasezOBZxhCfSyoFyDh5KzvWqb12Cex9qiGJkIoZCSV4vZRsWJKvyozzKrk8he3femIg2De1FPI7khGu0Aj81VFA&ad_cpn=%5BCPN%5D&sig=AOD64_3n4g7uvB2NBTziVfeogKBZytn7XA&ctype=110&video_id=-L4fB4vuOkU&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=2&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D",
+      "channel": {
+        "name": "Freshworks",
+        "thumbnail": "https://yt3.ggpht.com/proxy/muGBdxc3btZ7tshDzcvbMQz0sBdGM27a6DqyKIOGK9rIH-RKChaKOa4wTxJrY0Zzbw0A5DO4mRzDPplJEbzaOLugHs9FMeOXC0foET4skrct65O2XcF05LM5zIaou5h8gOXJiKyeft4x9W23PSzT4HmNkqCEslMHzrz-hQ6lvs7TVZdZIZ6Pi7ZSJGCJ3c2sFxlTIuMyzyR_azsJMaI57zUVy0D14rouT0fvFE9b-oBseKvn1pKXQMnGtlDCsdZctXYT=w68-h68-nd"
+      },
+      "description": "Manage systems smarter and prevent issues before they disrupt work",
+      "thumbnail": "https://i.ytimg.com/vi/-L4fB4vuOkU/hqdefault.jpg",
+      "videoId": "-L4fB4vuOkU",
+      "url": "https://www.youtube.com/watch?v=-L4fB4vuOkU"
+    }
+  ],
+  "video_results": [
+    {
+      "position_on_page": 2,
+      "title": "How Does a Visitor Management System (VMS) Work?",
+      "link": "https://www.youtube.com/watch?v=PpZlwASW3nI",
+      "video_id": "PpZlwASW3nI",
+      "channel": {
+        "name": "Smart Workplaces",
+        "link": "https://www.youtube.com/@TheSmartWorkplace",
+        "thumbnail": "https://yt3.ggpht.com/qO9PGnvirF-Tas2tCfEEyxjLhDT88hvVIYtdHXkUM6mPcyRecP185aR-Ylayynf4ABTYHQXGJA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "4,170 views",
+      "length": "8:07",
+      "description": "A Visitor Management System (VMS) helps to track and manage visitors, keeping workplaces safe, organized, and secure.",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/PpZlwASW3nI/hqdefault.jpg",
+      "videoId": "PpZlwASW3nI",
+      "url": "https://www.youtube.com/watch?v=PpZlwASW3nI",
+      "channelTitle": "Smart Workplaces",
+      "channelVerified": false,
+      "duration": "8:07"
+    },
+    {
+      "position_on_page": 3,
+      "title": "What is Visitor Management?",
+      "link": "https://www.youtube.com/watch?v=izgNcnOD7u0",
+      "video_id": "izgNcnOD7u0",
+      "channel": {
+        "name": "ZAP IN - Visitor Management System",
+        "link": "https://www.youtube.com/@zapin-visitormanagementsys8083",
+        "thumbnail": "https://yt3.ggpht.com/qh24n8yTUHxDqHufhSWmMsf-MBdbki2xdxT8joP1qYGb2HEWkwwXLJKtHQnKltmxyW7NdqYs=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "10,908 views",
+      "length": "1:32",
+      "description": "Visitor management is the process of overseeing and monitoring visitors on your premises. This process usually starts when ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/izgNcnOD7u0/hqdefault.jpg",
+      "videoId": "izgNcnOD7u0",
+      "url": "https://www.youtube.com/watch?v=izgNcnOD7u0",
+      "channelTitle": "ZAP IN - Visitor Management System",
+      "channelVerified": false,
+      "duration": "1:32"
+    },
+    {
+      "position_on_page": 5,
+      "title": "5 Best Visitor Management Software (UPDATED for 2026)",
+      "link": "https://www.youtube.com/watch?v=Hzs2ygSyApI",
+      "video_id": "Hzs2ygSyApI",
+      "channel": {
+        "name": "Business Solution",
+        "link": "https://www.youtube.com/@BusinessSolution-org",
+        "thumbnail": "https://yt3.ggpht.com/jd3YNZZwxrQxYdIXGTDQzNLxFYHbmUyyrTDOOGJNGOVx37XTM6skYF2KY79YzMueAmwMj4fka94=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 months ago",
+      "views": "2,950 views",
+      "length": "13:24",
+      "description": "Here are the best visitor management software systems: 1. SwipedOn SwipedOn free trial (+discount) ...",
+      "thumbnail": "https://i.ytimg.com/vi/Hzs2ygSyApI/hqdefault.jpg",
+      "videoId": "Hzs2ygSyApI",
+      "url": "https://www.youtube.com/watch?v=Hzs2ygSyApI",
+      "channelTitle": "Business Solution",
+      "channelVerified": false,
+      "duration": "13:24"
+    },
+    {
+      "position_on_page": 6,
+      "title": "What Does a Visitor Management System (VMS) Do?",
+      "link": "https://www.youtube.com/watch?v=ab4mms9_-DI",
+      "video_id": "ab4mms9_-DI",
+      "channel": {
+        "name": "Eptura",
+        "link": "https://www.youtube.com/@Eptura",
+        "thumbnail": "https://yt3.ggpht.com/GaaztiA7kBdihl5xMArWBH713DqYjG6vaFb5z3gm9Bpf3o6J9crrmIcDKlSDLzBayQelU72shg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "2,648 views",
+      "length": "2:29",
+      "description": "Get started with a cloud-based visitor management system that drives efficiency and security: https://sta.mx/z35b Are you ...",
+      "thumbnail": "https://i.ytimg.com/vi/ab4mms9_-DI/hqdefault.jpg",
+      "videoId": "ab4mms9_-DI",
+      "url": "https://www.youtube.com/watch?v=ab4mms9_-DI",
+      "channelTitle": "Eptura",
+      "channelVerified": false,
+      "duration": "2:29"
+    },
+    {
+      "position_on_page": 9,
+      "title": "5 Best Visitor Management Software Systems (VMS)",
+      "link": "https://www.youtube.com/watch?v=L3oqUYaIk4w",
+      "video_id": "L3oqUYaIk4w",
+      "channel": {
+        "name": "Business Solution",
+        "link": "https://www.youtube.com/@BusinessSolution-org",
+        "thumbnail": "https://yt3.ggpht.com/jd3YNZZwxrQxYdIXGTDQzNLxFYHbmUyyrTDOOGJNGOVx37XTM6skYF2KY79YzMueAmwMj4fka94=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "11,077 views",
+      "length": "6:16",
+      "description": "Here are the best visitor management software systems: 1. Envoy Envoy free plan: https://businessolution.org/get/envoy/ 2.",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/L3oqUYaIk4w/hqdefault.jpg",
+      "videoId": "L3oqUYaIk4w",
+      "url": "https://www.youtube.com/watch?v=L3oqUYaIk4w",
+      "channelTitle": "Business Solution",
+      "channelVerified": false,
+      "duration": "6:16"
+    },
+    {
+      "position_on_page": 10,
+      "title": "What is a Visitor Management System | VMS Explained 2026",
+      "link": "https://www.youtube.com/watch?v=NxvlOBuW8p0",
+      "video_id": "NxvlOBuW8p0",
+      "channel": {
+        "name": "HowToHarbor",
+        "link": "https://www.youtube.com/@How2Harbor",
+        "thumbnail": "https://yt3.ggpht.com/t--w-AZdMPo2cDAcbnhGS0xw1HkizBX62VBbrjwX8tM2-f_xhdO0vguTn_6qE6LmTNyoKaAgS9I=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "356 views",
+      "length": "2:29",
+      "description": "In this insightful \"What is a Visitor Management System\" video, we explain the essential role of VMS in modern security and ...",
+      "thumbnail": "https://i.ytimg.com/vi/NxvlOBuW8p0/hqdefault.jpg",
+      "videoId": "NxvlOBuW8p0",
+      "url": "https://www.youtube.com/watch?v=NxvlOBuW8p0",
+      "channelTitle": "HowToHarbor",
+      "channelVerified": false,
+      "duration": "2:29"
+    },
+    {
+      "position_on_page": 11,
+      "title": "How the Raptor Visitor Management system works",
+      "link": "https://www.youtube.com/watch?v=E4vsQ9G09v8",
+      "video_id": "E4vsQ9G09v8",
+      "channel": {
+        "name": "Raptor Technologies",
+        "link": "https://www.youtube.com/@RaptorTechnologies",
+        "thumbnail": "https://yt3.ggpht.com/_r7PlQmM2r0DW6SRGEnQWsj04tRP2ecpiUZwZbmovVNa7YGWvLBrkU1L1dqnpvRHCEC1Rn26lg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "8 years ago",
+      "views": "21,512 views",
+      "length": "1:06",
+      "description": "https://raptortech.com/protect-your-school/raptor-visitor-management-system/ Screen and track everyone coming into your schools ...",
+      "thumbnail": "https://i.ytimg.com/vi/E4vsQ9G09v8/hqdefault.jpg",
+      "videoId": "E4vsQ9G09v8",
+      "url": "https://www.youtube.com/watch?v=E4vsQ9G09v8",
+      "channelTitle": "Raptor Technologies",
+      "channelVerified": false,
+      "duration": "1:06"
+    },
+    {
+      "position_on_page": 14,
+      "title": "These Are the Best Visitor Management Systems + How They Work for Guests and Admins",
+      "link": "https://www.youtube.com/watch?v=MfIBshfqyPk",
+      "video_id": "MfIBshfqyPk",
+      "channel": {
+        "name": "Smart Workplaces",
+        "link": "https://www.youtube.com/@TheSmartWorkplace",
+        "thumbnail": "https://yt3.ggpht.com/qO9PGnvirF-Tas2tCfEEyxjLhDT88hvVIYtdHXkUM6mPcyRecP185aR-Ylayynf4ABTYHQXGJA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "9 months ago",
+      "views": "1,162 views",
+      "length": "12:34",
+      "description": "Before talking about the best visitor management systems, I want to show you what a modern systems looks like, how you ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/MfIBshfqyPk/hqdefault.jpg",
+      "videoId": "MfIBshfqyPk",
+      "url": "https://www.youtube.com/watch?v=MfIBshfqyPk",
+      "channelTitle": "Smart Workplaces",
+      "channelVerified": false,
+      "duration": "12:34"
+    },
+    {
+      "position_on_page": 15,
+      "title": "Raptor Visitor Management System at Lynwood Unified",
+      "link": "https://www.youtube.com/watch?v=OPhje8Tw6MY",
+      "video_id": "OPhje8Tw6MY",
+      "channel": {
+        "name": "Lynwood Unified School District",
+        "link": "https://www.youtube.com/@LynwoodUnified",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_nP2aCJaGi7PpFb5ZdF0IkV3Q9QN9QoxgVnJ9KVBcc7nuI=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "512 views",
+      "length": "1:34",
+      "description": "At Lynwood Unified School District, the safety of our students and staff is our highest priority. To enhance campus security, we ...",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/OPhje8Tw6MY/hqdefault.jpg",
+      "videoId": "OPhje8Tw6MY",
+      "url": "https://www.youtube.com/watch?v=OPhje8Tw6MY",
+      "channelTitle": "Lynwood Unified School District",
+      "channelVerified": false,
+      "duration": "1:34"
+    },
+    {
+      "position_on_page": 16,
+      "title": "Meet Verkada Guest: Visitor Management System",
+      "link": "https://www.youtube.com/watch?v=mG4trw6Cxjs",
+      "video_id": "mG4trw6Cxjs",
+      "channel": {
+        "name": "Verkada",
+        "link": "https://www.youtube.com/@Verkada",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_lIFGr6YQ9BpKhZ73cjoUTyIUj1o4tY_ufpHZUELobsow=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "13,477 views",
+      "length": "1:16",
+      "description": "Welcome guests with our visitor management system that integrates seamlessly with video security and access control. Verkada ...",
+      "thumbnail": "https://i.ytimg.com/vi/mG4trw6Cxjs/hqdefault.jpg",
+      "videoId": "mG4trw6Cxjs",
+      "url": "https://www.youtube.com/watch?v=mG4trw6Cxjs",
+      "channelTitle": "Verkada",
+      "channelVerified": false,
+      "duration": "1:16"
+    },
+    {
+      "position_on_page": 18,
+      "title": "A Step-By-Step Guide: How a Visitor Management System Works",
+      "link": "https://www.youtube.com/watch?v=WWsl0MnzgnE",
+      "video_id": "WWsl0MnzgnE",
+      "channel": {
+        "name": "SwipedOn: Visitor Management System",
+        "link": "https://www.youtube.com/@swipedon8582",
+        "thumbnail": "https://yt3.ggpht.com/a2nD3W94QdryGv-kgMJ2YN7GLdxSsLkEFF1_AL1Caa0OIDCAtq95A2QL7usaUfdI0KYlzfv2ByU=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "6 years ago",
+      "views": "1,954 views",
+      "length": "2:53",
+      "description": "https://www.swipedon.com/blog/how-a-visitor-management-system-works On any given day, you'll have customers, clients, ...",
+      "thumbnail": "https://i.ytimg.com/vi/WWsl0MnzgnE/hqdefault.jpg",
+      "videoId": "WWsl0MnzgnE",
+      "url": "https://www.youtube.com/watch?v=WWsl0MnzgnE",
+      "channelTitle": "SwipedOn: Visitor Management System",
+      "channelVerified": false,
+      "duration": "2:53"
+    },
+    {
+      "position_on_page": 20,
+      "title": "The Best Visitor Management Software (VMS) Systems in 2025",
+      "link": "https://www.youtube.com/watch?v=G7ZnzTVVMic",
+      "video_id": "G7ZnzTVVMic",
+      "channel": {
+        "name": "Smart Workplaces",
+        "link": "https://www.youtube.com/@TheSmartWorkplace",
+        "thumbnail": "https://yt3.ggpht.com/qO9PGnvirF-Tas2tCfEEyxjLhDT88hvVIYtdHXkUM6mPcyRecP185aR-Ylayynf4ABTYHQXGJA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "1,842 views",
+      "length": "10:07",
+      "description": "Are you looking to improve how you manage visitor access at your office? In this video, we dive into everything you need to know ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/G7ZnzTVVMic/hqdefault.jpg",
+      "videoId": "G7ZnzTVVMic",
+      "url": "https://www.youtube.com/watch?v=G7ZnzTVVMic",
+      "channelTitle": "Smart Workplaces",
+      "channelVerified": false,
+      "duration": "10:07"
+    },
+    {
+      "position_on_page": 21,
+      "title": "Raptor Visitor Management System at Oakwood School",
+      "link": "https://www.youtube.com/watch?v=JPOMkMD9w_M",
+      "video_id": "JPOMkMD9w_M",
+      "channel": {
+        "name": "Oakwood School",
+        "link": "https://www.youtube.com/@oakwoodschool-morganhill",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_ncpR-paHQy_ZGXrFQcYMLYAWeYwecfrTaloTQGn7puxA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "2 years ago",
+      "views": "1,477 views",
+      "length": "2:24",
+      "description": "Oakwood School now uses the Raptor Visitor Management System to help maintain a safe school environment.",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/JPOMkMD9w_M/hqdefault.jpg",
+      "videoId": "JPOMkMD9w_M",
+      "url": "https://www.youtube.com/watch?v=JPOMkMD9w_M",
+      "channelTitle": "Oakwood School",
+      "channelVerified": false,
+      "duration": "2:24"
+    },
+    {
+      "position_on_page": 22,
+      "title": "Raptor Visitor Management System",
+      "link": "https://www.youtube.com/watch?v=h-mSng9jzqE",
+      "video_id": "h-mSng9jzqE",
+      "channel": {
+        "name": "Raptor Technologies",
+        "link": "https://www.youtube.com/@RaptorTechnologies",
+        "thumbnail": "https://yt3.ggpht.com/_r7PlQmM2r0DW6SRGEnQWsj04tRP2ecpiUZwZbmovVNa7YGWvLBrkU1L1dqnpvRHCEC1Rn26lg=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "7 years ago",
+      "views": "29,459 views",
+      "length": "1:25",
+      "description": "https://raptortech.com/protect-your-school/raptor-visitor-management-system/ Control access to your schools at all times.",
+      "extensions": [
+        "CC"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/h-mSng9jzqE/hqdefault.jpg",
+      "videoId": "h-mSng9jzqE",
+      "url": "https://www.youtube.com/watch?v=h-mSng9jzqE",
+      "channelTitle": "Raptor Technologies",
+      "channelVerified": false,
+      "duration": "1:25"
+    },
+    {
+      "position_on_page": 23,
+      "title": "What is Visitor Management? (And Why Most Systems Are Failing You)",
+      "link": "https://www.youtube.com/watch?v=d7KX4BgzpFQ",
+      "video_id": "d7KX4BgzpFQ",
+      "channel": {
+        "name": "Acre Security",
+        "link": "https://www.youtube.com/@acresecurity",
+        "thumbnail": "https://yt3.ggpht.com/AqmpL9flqxoEtlr3NBWeSqenKtpL7ot2R4zJVz44YWQh6SBLAM5ukeaa722GDvbzy9YUoWkl-A=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "11 months ago",
+      "views": "147 views",
+      "length": "5:55",
+      "description": "Do you know who's in your building right now? If your answer is “Steve probably knows,” your visitor management system might ...",
+      "extensions": [
+        "4K"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/d7KX4BgzpFQ/hqdefault.jpg",
+      "videoId": "d7KX4BgzpFQ",
+      "url": "https://www.youtube.com/watch?v=d7KX4BgzpFQ",
+      "channelTitle": "Acre Security",
+      "channelVerified": false,
+      "duration": "5:55"
+    },
+    {
+      "position_on_page": 24,
+      "title": "HikCentral Professional Visitor Management System",
+      "link": "https://www.youtube.com/watch?v=0pg5uObNkLg",
+      "video_id": "0pg5uObNkLg",
+      "channel": {
+        "name": "Hikvision Corporate Channel",
+        "link": "https://www.youtube.com/@HikvisionCorporateChannel",
+        "thumbnail": "https://yt3.ggpht.com/rMWSw2kUQlvA6sRiOAVi3R7XUdxOrqOtR9lf5P4VBoZjiBz5dbUbh24wsPpyCMzyrP2SPAdZNA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "4 years ago",
+      "views": "129,898 views",
+      "length": "1:31",
+      "description": "Fluent experience, secured protection. Learn more at: ...",
+      "thumbnail": "https://i.ytimg.com/vi/0pg5uObNkLg/hqdefault.jpg",
+      "videoId": "0pg5uObNkLg",
+      "url": "https://www.youtube.com/watch?v=0pg5uObNkLg",
+      "channelTitle": "Hikvision Corporate Channel",
+      "channelVerified": false,
+      "duration": "1:31"
+    },
+    {
+      "position_on_page": 25,
+      "title": "VersionX: Demo -  Visitor Management System with Access Control - A Demo",
+      "link": "https://www.youtube.com/watch?v=Iy2sORyEZSs",
+      "video_id": "Iy2sORyEZSs",
+      "channel": {
+        "name": "VersionX",
+        "link": "https://www.youtube.com/@versionxltd",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_n2QydVG4jCF4zwtegGIqC3Fgl3VxR2Kwy_iMlWAR4GJA=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "1 year ago",
+      "views": "3,480 views",
+      "length": "0:27",
+      "description": "VersionX VMS with Access Control in Action! Check out how our Visitor Management System seamlessly integrates with flap ...",
+      "thumbnail": "https://i.ytimg.com/vi/Iy2sORyEZSs/hqdefault.jpg",
+      "videoId": "Iy2sORyEZSs",
+      "url": "https://www.youtube.com/watch?v=Iy2sORyEZSs",
+      "channelTitle": "VersionX",
+      "channelVerified": false,
+      "duration": "0:27"
+    },
+    {
+      "position_on_page": 26,
+      "title": "Visitor Management System Features [Elevate Building Security & Compliance]",
+      "link": "https://www.youtube.com/watch?v=9MtLW8MbLJk",
+      "video_id": "9MtLW8MbLJk",
+      "channel": {
+        "name": "AutomateWorkflow | Visitor Management System ",
+        "link": "https://www.youtube.com/@automateworkflow",
+        "thumbnail": "https://yt3.ggpht.com/gzGHFvCbR32oRWeyxRbFcCCZj7IPlaAze2zxvUyFoYXyhBVV9x0zSFpz0eGl19W71RmALCPXWBI=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "3 years ago",
+      "views": "941 views",
+      "length": "0:54",
+      "description": "MyLobby is a complete visitor management system that helps you ensure everyone in your building is safe and that you comply ...",
+      "thumbnail": "https://i.ytimg.com/vi/9MtLW8MbLJk/hqdefault.jpg",
+      "videoId": "9MtLW8MbLJk",
+      "url": "https://www.youtube.com/watch?v=9MtLW8MbLJk",
+      "channelTitle": "AutomateWorkflow | Visitor Management System ",
+      "channelVerified": false,
+      "duration": "0:54"
+    },
+    {
+      "position_on_page": 27,
+      "title": "What is Visitor management system software? How it works?",
+      "link": "https://www.youtube.com/watch?v=uymPABPadio",
+      "video_id": "uymPABPadio",
+      "channel": {
+        "name": "EITS - Embassy IT Solutions",
+        "link": "https://www.youtube.com/@eits-embassyitsolutions703",
+        "thumbnail": "https://yt3.ggpht.com/ytc/AIdro_niwRudwHQXKQqnh2GNSJMrpsM9xg7SR4kJKAfQAr7fS38=s68-c-k-c0x00ffffff-no-rj"
+      },
+      "published_date": "5 years ago",
+      "views": "168 views",
+      "length": "1:03",
+      "description": "What is Visitor management system? Visitor management software is a simple, secured and easy to operate software. By which ...",
+      "thumbnail": "https://i.ytimg.com/vi/uymPABPadio/hqdefault.jpg",
+      "videoId": "uymPABPadio",
+      "url": "https://www.youtube.com/watch?v=uymPABPadio",
+      "channelTitle": "EITS - Embassy IT Solutions",
+      "channelVerified": false,
+      "duration": "1:03"
+    }
+  ],
+  "shorts_results": [
+    {
+      "position_on_page": 8,
+      "shorts": [
+        {
+          "title": "Smart Visitor Management System – Secure, Streamlined, Smart",
+          "link": "https://www.youtube.com/shorts/0I0fdFRjzZo",
+          "thumbnail": "https://i.ytimg.com/vi/0I0fdFRjzZo/frame0.jpg",
+          "views_original": "170 views",
+          "views": 170,
+          "video_id": "0I0fdFRjzZo"
+        },
+        {
+          "title": "Visitor Management | Secure, Touchless & Paperless Check-Ins with Visitorz.io #comedy #office #fun",
+          "link": "https://www.youtube.com/shorts/0uAGHJYWiy0",
+          "thumbnail": "https://i.ytimg.com/vi/0uAGHJYWiy0/frame0.jpg",
+          "views_original": "16K views",
+          "views": 16000,
+          "video_id": "0uAGHJYWiy0"
+        },
+        {
+          "title": "Ubio Virdi Visitor Management System",
+          "link": "https://www.youtube.com/shorts/n4HjZdyO-VQ",
+          "thumbnail": "https://i.ytimg.com/vi/n4HjZdyO-VQ/frame0.jpg",
+          "views_original": "3.9K views",
+          "views": 3900,
+          "video_id": "n4HjZdyO-VQ"
+        },
+        {
+          "title": "Is a Visitor Management System Essential for Enhanced Security and Efficiency in Large Enterprises?",
+          "link": "https://www.youtube.com/shorts/CwvDXIhwq5I",
+          "thumbnail": "https://i.ytimg.com/vi/CwvDXIhwq5I/frame0.jpg",
+          "views_original": "4.7K views",
+          "views": 4700,
+          "video_id": "CwvDXIhwq5I"
+        },
+        {
+          "title": "Visitor Management System",
+          "link": "https://www.youtube.com/shorts/amJME1pSB8c",
+          "thumbnail": "https://i.ytimg.com/vi/amJME1pSB8c/frame0.jpg",
+          "views_original": "1.2K views",
+          "views": 1200,
+          "video_id": "amJME1pSB8c"
+        }
+      ]
+    },
+    {
+      "position_on_page": 12,
+      "shorts": [
+        {
+          "title": "Visitor Management System |  Unlocking the Power of a  (VMS)",
+          "link": "https://www.youtube.com/shorts/AD2iyhObIxY",
+          "thumbnail": "https://i.ytimg.com/vi/AD2iyhObIxY/frame0.jpg",
+          "views_original": "644 views",
+          "views": 644,
+          "video_id": "AD2iyhObIxY"
+        },
+        {
+          "title": "VMS, VISITOR MANAGEMENT SYSTEM  by FellaFeeds",
+          "link": "https://www.youtube.com/shorts/8yG5baY1Y5s",
+          "thumbnail": "https://i.ytimg.com/vi/8yG5baY1Y5s/frame0.jpg",
+          "views_original": "1.8K views",
+          "views": 1800,
+          "video_id": "8yG5baY1Y5s"
+        },
+        {
+          "title": "Visitor Management System with Face Recognition | Axis Gatepass VMS",
+          "link": "https://www.youtube.com/shorts/29YYrYGRXJA",
+          "thumbnail": "https://i.ytimg.com/vi/29YYrYGRXJA/frame0.jpg",
+          "views_original": "3.3K views",
+          "views": 3300,
+          "video_id": "29YYrYGRXJA"
+        },
+        {
+          "title": "Advance Visitor management system | VizMan | #visitormanagement , #OfficeSecurity",
+          "link": "https://www.youtube.com/shorts/_a4UrC7xoxk",
+          "thumbnail": "https://i.ytimg.com/vi/_a4UrC7xoxk/frame0.jpg",
+          "views_original": "141 views",
+          "views": 141,
+          "video_id": "_a4UrC7xoxk"
+        },
+        {
+          "title": "Why use a visitor management system?",
+          "link": "https://www.youtube.com/shorts/FT9JtPhuTyU",
+          "thumbnail": "https://i.ytimg.com/vi/FT9JtPhuTyU/frame0.jpg",
+          "views_original": "414 views",
+          "views": 414,
+          "video_id": "FT9JtPhuTyU"
+        },
+        {
+          "title": "Visitor Management System, Visitor Management Software | ATSS",
+          "link": "https://www.youtube.com/shorts/PcRE7Pj8lbg",
+          "thumbnail": "https://i.ytimg.com/vi/PcRE7Pj8lbg/frame0.jpg",
+          "views_original": "1.3K views",
+          "views": 1300,
+          "video_id": "PcRE7Pj8lbg"
+        },
+        {
+          "title": "Visitors Management System : kivo.ai",
+          "link": "https://www.youtube.com/shorts/nHXaE-e5GFk",
+          "thumbnail": "https://i.ytimg.com/vi/nHXaE-e5GFk/frame0.jpg",
+          "views_original": "837 views",
+          "views": 837,
+          "video_id": "nHXaE-e5GFk"
+        },
+        {
+          "title": "Visitor Management System",
+          "link": "https://www.youtube.com/shorts/FnxtWeu4Ms8",
+          "thumbnail": "https://i.ytimg.com/vi/FnxtWeu4Ms8/frame0.jpg",
+          "views_original": "2.3K views",
+          "views": 2300,
+          "video_id": "FnxtWeu4Ms8"
+        },
+        {
+          "title": "Effective Visitor Management System In Dubai | Zapio Technology",
+          "link": "https://www.youtube.com/shorts/R4LTecN9lcw",
+          "thumbnail": "https://i.ytimg.com/vi/R4LTecN9lcw/frame0.jpg",
+          "views_original": "145 views",
+          "views": 145,
+          "video_id": "R4LTecN9lcw"
+        },
+        {
+          "title": "Visitor management system. What will the visitor check-in process look like? Easy? Hard?",
+          "link": "https://www.youtube.com/shorts/dJ6a5A7QgGc",
+          "thumbnail": "https://i.ytimg.com/vi/dJ6a5A7QgGc/frame0.jpg",
+          "views_original": "1.2K views",
+          "views": 1200,
+          "video_id": "dJ6a5A7QgGc"
+        },
+        {
+          "title": "visitor management system",
+          "link": "https://www.youtube.com/shorts/5V8Mofh_-JA",
+          "thumbnail": "https://i.ytimg.com/vi/5V8Mofh_-JA/frame0.jpg",
+          "views_original": "400 views",
+          "views": 400,
+          "video_id": "5V8Mofh_-JA"
+        },
+        {
+          "title": "The Must Have Features of a Visitor Management System #visitormanagementsystem",
+          "link": "https://www.youtube.com/shorts/4j5WOf9NP2U",
+          "thumbnail": "https://i.ytimg.com/vi/4j5WOf9NP2U/frame0.jpg",
+          "views_original": "235 views",
+          "views": 235,
+          "video_id": "4j5WOf9NP2U"
+        },
+        {
+          "title": "NexGen's Sprinter Visitor Management System # #serviceprovider #visitormanagement #uae",
+          "link": "https://www.youtube.com/shorts/oG7JtL7wfbY",
+          "thumbnail": "https://i.ytimg.com/vi/oG7JtL7wfbY/frame0.jpg",
+          "views_original": "763 views",
+          "views": 763,
+          "video_id": "oG7JtL7wfbY"
+        },
+        {
+          "title": "Voyceworks - Speech enabled Visitor Management System - English",
+          "link": "https://www.youtube.com/shorts/AQ_WX9pE9cw",
+          "thumbnail": "https://i.ytimg.com/vi/AQ_WX9pE9cw/frame0.jpg",
+          "views_original": "161 views",
+          "views": 161,
+          "video_id": "AQ_WX9pE9cw"
+        },
+        {
+          "title": "5 - SPEAR  Visitor Management System AI Based",
+          "link": "https://www.youtube.com/shorts/hRE_UvaV6iY",
+          "thumbnail": "https://i.ytimg.com/vi/hRE_UvaV6iY/frame0.jpg",
+          "views_original": "101 views",
+          "views": 101,
+          "video_id": "hRE_UvaV6iY"
+        },
+        {
+          "title": "Kiosk Based Visitor Management system | Available on IndiaMART",
+          "link": "https://www.youtube.com/shorts/YwgsuYkMNnc",
+          "thumbnail": "https://i.ytimg.com/vi/YwgsuYkMNnc/frame0.jpg",
+          "views_original": "1.3K views",
+          "views": 1300,
+          "video_id": "YwgsuYkMNnc"
+        },
+        {
+          "title": "This is how a visitor management system works.   #visitormanagement #techexplained #smartsecurity",
+          "link": "https://www.youtube.com/shorts/wRHTKCbrKnY",
+          "thumbnail": "https://i.ytimg.com/vi/wRHTKCbrKnY/frame0.jpg",
+          "views_original": "1K views",
+          "views": 1000,
+          "video_id": "wRHTKCbrKnY"
+        },
+        {
+          "title": "Visitdesk Host - Smart Visitor Management System",
+          "link": "https://www.youtube.com/shorts/J7K2TEmFuJc",
+          "thumbnail": "https://i.ytimg.com/vi/J7K2TEmFuJc/frame0.jpg",
+          "views_original": "585 views",
+          "views": 585,
+          "video_id": "J7K2TEmFuJc"
+        },
+        {
+          "title": "MyTaman Visitor Management System - Panic Button",
+          "link": "https://www.youtube.com/shorts/mhYmPd8gbHI",
+          "thumbnail": "https://i.ytimg.com/vi/mhYmPd8gbHI/frame0.jpg",
+          "views_original": "802 views",
+          "views": 802,
+          "video_id": "mhYmPd8gbHI"
+        },
+        {
+          "title": "Visitor Management System Explanation | Benefits, Features & Why your business needs VMS",
+          "link": "https://www.youtube.com/shorts/C2l0tRcyYOs",
+          "thumbnail": "https://i.ytimg.com/vi/C2l0tRcyYOs/frame0.jpg",
+          "views_original": "615 views",
+          "views": 615,
+          "video_id": "C2l0tRcyYOs"
+        }
+      ]
+    }
+  ],
+  "playlist_results": [
+    {
+      "position_on_page": 17,
+      "title": "Visitor Management System in Laravel",
+      "link": "https://www.youtube.com/playlist?list=PLxl69kCRkiI0U5cXlIEYC7YmpgzW7YYMT",
+      "channel": {
+        "name": "Webslesson",
+        "link": "https://www.youtube.com/@webslesson"
+      },
+      "videos": [
+        {
+          "title": "Laravel Project on Visitor Management System - Introduction - 1",
+          "length": "12:51",
+          "link": "https://www.youtube.com/watch?v=KrjKDTtqY7I&list=PLxl69kCRkiI0U5cXlIEYC7YmpgzW7YYMT"
+        },
+        {
+          "title": "Laravel Project on Visitor Management System - Initial Set Up - 2",
+          "length": "6:16",
+          "link": "https://www.youtube.com/watch?v=LN7o_ghbGzE&list=PLxl69kCRkiI0U5cXlIEYC7YmpgzW7YYMT"
+        }
+      ],
+      "video_count": 15,
+      "thumbnail": "https://i.ytimg.com/vi/KrjKDTtqY7I/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBg0zE-gYb_di73kowhjoSL6F02QQ"
+    }
+  ],
+  "pagination": {
+    "current": "https://www.youtube.com/results?search_query=Visitor+Management+System",
+    "next": "https://www.youtube.com/results?search_query=Visitor%20Management%20System&sp=SBSCAQtQcFpsd0FTVzNuSYIBC2l6Z05jbk9EN3UwggELSHpzMnlnU3lBcEmCAQthYjRtbXM5Xy1ESYIBC0wzb3FVWWFJazR3ggELTnh2bE9CdVc4cDCCAQtFNHZzUTlHMDl2OIIBC01mSUJzaGZxeVBrggELT1BoamU4VHc2TVmCAQttRzR0cnc2Q3hqc4IBIlBMeGw2OWtDUmtpSTBVNWNYbElFWUM3WW1wZ3pXN1lZTVSCAQtXV3NsME1uemduRYIBC0c3Wm56VFZWTWljggELSlBPTWtNRDl3X02CAQtoLW1Tbmc5anpxRYIBC2Q3S1g0Qmd6cEZRggELMHBnNXVPYk5rTGeCAQtJeTJzT1J5RVpTc4IBCzlNdExXOE1iTEprggELdXltUEFCUGFkaW-yAQYKBAgbEALqAQQIAhAZ",
+    "next_page_token": "SBSCAQtQcFpsd0FTVzNuSYIBC2l6Z05jbk9EN3UwggELSHpzMnlnU3lBcEmCAQthYjRtbXM5Xy1ESYIBC0wzb3FVWWFJazR3ggELTnh2bE9CdVc4cDCCAQtFNHZzUTlHMDl2OIIBC01mSUJzaGZxeVBrggELT1BoamU4VHc2TVmCAQttRzR0cnc2Q3hqc4IBIlBMeGw2OWtDUmtpSTBVNWNYbElFWUM3WW1wZ3pXN1lZTVSCAQtXV3NsME1uemduRYIBC0c3Wm56VFZWTWljggELSlBPTWtNRDl3X02CAQtoLW1Tbmc5anpxRYIBC2Q3S1g0Qmd6cEZRggELMHBnNXVPYk5rTGeCAQtJeTJzT1J5RVpTc4IBCzlNdExXOE1iTEprggELdXltUEFCUGFkaW-yAQYKBAgbEALqAQQIAhAZ"
+  },
+  "serpapi_pagination": {
+    "current": "https://serpapi.com/search.json?engine=youtube&search_query=Visitor+Management+System",
+    "next": "https://serpapi.com/search.json?engine=youtube&search_query=Visitor+Management+System&sp=SBSCAQtQcFpsd0FTVzNuSYIBC2l6Z05jbk9EN3UwggELSHpzMnlnU3lBcEmCAQthYjRtbXM5Xy1ESYIBC0wzb3FVWWFJazR3ggELTnh2bE9CdVc4cDCCAQtFNHZzUTlHMDl2OIIBC01mSUJzaGZxeVBrggELT1BoamU4VHc2TVmCAQttRzR0cnc2Q3hqc4IBIlBMeGw2OWtDUmtpSTBVNWNYbElFWUM3WW1wZ3pXN1lZTVSCAQtXV3NsME1uemduRYIBC0c3Wm56VFZWTWljggELSlBPTWtNRDl3X02CAQtoLW1Tbmc5anpxRYIBC2Q3S1g0Qmd6cEZRggELMHBnNXVPYk5rTGeCAQtJeTJzT1J5RVpTc4IBCzlNdExXOE1iTEprggELdXltUEFCUGFkaW-yAQYKBAgbEALqAQQIAhAZ",
+    "next_page_token": "SBSCAQtQcFpsd0FTVzNuSYIBC2l6Z05jbk9EN3UwggELSHpzMnlnU3lBcEmCAQthYjRtbXM5Xy1ESYIBC0wzb3FVWWFJazR3ggELTnh2bE9CdVc4cDCCAQtFNHZzUTlHMDl2OIIBC01mSUJzaGZxeVBrggELT1BoamU4VHc2TVmCAQttRzR0cnc2Q3hqc4IBIlBMeGw2OWtDUmtpSTBVNWNYbElFWUM3WW1wZ3pXN1lZTVSCAQtXV3NsME1uemduRYIBC0c3Wm56VFZWTWljggELSlBPTWtNRDl3X02CAQtoLW1Tbmc5anpxRYIBC2Q3S1g0Qmd6cEZRggELMHBnNXVPYk5rTGeCAQtJeTJzT1J5RVpTc4IBCzlNdExXOE1iTEprggELdXltUEFCUGFkaW-yAQYKBAgbEALqAQQIAhAZ"
+  }
+}

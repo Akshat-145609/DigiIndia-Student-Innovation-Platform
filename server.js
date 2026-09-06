@@ -1916,8 +1916,8 @@ app.get('/api/v1/projects/my', authenticateToken, async (req, res) => {
   }
 });
 
-// GET /api/v1/projects/public
-app.get('/api/v1/projects/public', async (req, res) => {
+// GET /api/v1/projects and /api/v1/projects/public
+app.get(['/api/v1/projects', '/api/v1/projects/public'], async (req, res) => {
   try {
     const limit = parseInt(req.query.limit) || 50;
     const allProjects = await getCollectionDocs('projects');

@@ -16,6 +16,7 @@ def create_project(schema: ProjectCreateSchema, user: dict = Depends(require_aut
 def list_my_projects(user: dict = Depends(require_authenticated_user)):
     return ProjectService.list_user_projects(user["uid"])
 
+@router.get("")
 @router.get("/public")
 def list_public_projects(limit: int = 50):
     return ProjectService.list_public_projects(limit)

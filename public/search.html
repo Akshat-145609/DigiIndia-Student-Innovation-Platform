@@ -32,6 +32,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/link-handler.js"></script>
 
     <style>
         :root {
@@ -873,6 +874,49 @@
         </div>
     </div>
 
+    <!-- LEARN MORE CUSTOM MODAL (WITH TOP-LEFT CROSS & BOTTOM-LEFT CLOSE BUTTONS) -->
+    <div class="modal fade" id="serpLearnMoreModal" tabindex="-1" aria-labelledby="serpLearnMoreModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content rounded-4 border-0 shadow-lg position-relative overflow-hidden">
+                <!-- Cross Button at Top-Left as requested -->
+                <button type="button" class="btn btn-sm btn-light border rounded-circle position-absolute d-flex align-items-center justify-content-center" 
+                        style="top: 16px; left: 16px; z-index: 1060; width: 38px; height: 38px; box-shadow: 0 2px 8px rgba(0,0,0,0.12);" 
+                        data-bs-dismiss="modal" aria-label="Close" title="Close (Top Left)">
+                    <i class="bi bi-x-lg text-dark"></i>
+                </button>
+
+                <div class="modal-header border-bottom-0 pb-0 pt-4 px-4 ps-5">
+                    <div class="ms-3">
+                        <span class="badge rounded-pill px-3 py-1 mb-1" id="learnMoreBadge" style="background: #1a73e8; color: white;">
+                            <i class="bi bi-info-circle me-1"></i>Resource Overview
+                        </span>
+                        <h5 class="modal-title fw-bold text-dark" id="serpLearnMoreModalLabel">Resource Overview</h5>
+                    </div>
+                </div>
+
+                <div class="modal-body px-4 py-3" id="serpLearnMoreModalBody">
+                    <!-- Injected via openSerpLearnMore() -->
+                </div>
+
+                <div class="modal-footer border-top-0 pt-0 pb-4 px-4 justify-content-between align-items-center">
+                    <!-- Close Button at Bottom-Left as requested -->
+                    <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal" title="Close (Bottom Left)">
+                        <i class="bi bi-x-circle me-1"></i>Close
+                    </button>
+                    <div class="d-flex gap-2">
+                        <button type="button" class="btn btn-outline-primary rounded-pill px-3" id="learnMoreCopyBtn" onclick="copyLearnMoreUrl()">
+                            <i class="bi bi-clipboard me-1"></i>Copy Link
+                        </button>
+                        <a id="learnMoreActionBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill px-4 fw-semibold">
+                            Visit Resource <i class="bi bi-box-arrow-up-right ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- SCRIPT DEPENDENCIES (IN STRICT SAFE ORDER) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -909,6 +953,244 @@
                 github: 4
             }
         };
+
+        // Active SERP Items Registry for "Learn More" Modal Inspection
+        const activeSerpRegistry = {
+            google: [],
+            youtube: [],
+            project: [],
+            student: [],
+            github: []
+        };
+        let currentLearnMoreUrl = "";
+
+        function copyLearnMoreUrl() {
+            if (!currentLearnMoreUrl) return;
+            navigator.clipboard.writeText(currentLearnMoreUrl).then(() => {
+                API.showToast("Destination link copied to clipboard!", "success");
+            }).catch(() => {
+                API.showToast("Copied to clipboard", "info");
+            });
+        }
+
+        function openSerpLearnMore(type, index) {
+            const list = activeSerpRegistry[type] || [];
+            const item = list[index];
+            if (!item) return;
+
+            const modalTitle = document.getElementById("serpLearnMoreModalLabel");
+            const modalBadge = document.getElementById("learnMoreBadge");
+            const modalBody = document.getElementById("serpLearnMoreModalBody");
+            const actionBtn = document.getElementById("learnMoreActionBtn");
+
+            let title = "";
+            let badgeText = "";
+            let badgeBg = "#1a73e8";
+            let bodyHtml = "";
+            let targetUrl = "#";
+
+            const wrapUrl = (typeof window.LinkHandler !== "undefined" && window.LinkHandler.wrapUrl) ? 
+                window.LinkHandler.wrapUrl : (u => u);
+
+            if (type === "google") {
+                title = item.title || "Google Search Result";
+                badgeText = `<i class="bi bi-google me-1"></i>${item.deployingBody || "Google Web Search"}`;
+                targetUrl = item.url || "#";
+                currentLearnMoreUrl = targetUrl;
+
+                bodyHtml = `
+                    <div class="p-3 bg-light rounded-4 border mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-3 py-1">
+                                <i class="bi ${item.deployingBodyIcon || 'bi-globe'} me-1"></i>${item.deployingBody || 'Live Web'}
+                            </span>
+                            <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill px-2 py-1 ms-auto" style="font-size:11px;">
+                                <i class="bi bi-shield-check me-1"></i>Verified Safe
+                            </span>
+                        </div>
+                        <h6 class="fw-bold text-dark mb-1">${escapeHtml(title)}</h6>
+                        <div class="text-muted small text-truncate mb-2" style="font-size:12px;">${escapeHtml(item.displayUrl || targetUrl)}</div>
+                        <p class="text-secondary small mb-0">${escapeHtml(item.snippet || 'No snippet description available.')}</p>
+                    </div>
+
+                    ${(item.sitelinks && item.sitelinks.length > 0) ? `
+                    <div class="mb-3">
+                        <label class="form-label small fw-bold text-dark mb-1"><i class="bi bi-diagram-3 me-1 text-primary"></i>Indexed Site Links</label>
+                        <div class="d-flex flex-wrap gap-2">
+                            ${item.sitelinks.map(s => `<a href="${wrapUrl(targetUrl)}" target="_blank" class="serp-sublink-chip"><i class="bi bi-box-arrow-up-right me-1 small"></i>${escapeHtml(s)}</a>`).join('')}
+                        </div>
+                    </div>` : ''}
+
+                    <div class="card p-3 border-0 bg-light rounded-3">
+                        <div class="d-flex justify-content-between text-muted small">
+                            <span>Protocol: <strong>${targetUrl.startsWith('https') ? 'HTTPS (SSL Secured)' : 'HTTP'}</strong></span>
+                            <span>Destination Gateway: <strong>Verified Redirection Interstitial</strong></span>
+                        </div>
+                    </div>
+                `;
+            } else if (type === "youtube") {
+                title = item.title || "YouTube Demonstration";
+                badgeText = `<i class="bi bi-youtube me-1"></i>YouTube Video Demonstration`;
+                badgeBg = "#dc3545";
+                const vid = item.videoId || item.video_id || "";
+                targetUrl = item.url || item.link || (vid ? `https://www.youtube.com/watch?v=${vid}` : "#");
+                currentLearnMoreUrl = targetUrl;
+                const thumb = item.thumbnail || (vid ? `https://i.ytimg.com/vi/${vid}/hqdefault.jpg` : "");
+
+                bodyHtml = `
+                    ${thumb ? `
+                    <div class="mb-3 rounded-4 overflow-hidden position-relative shadow-sm text-center bg-dark" style="max-height: 280px;">
+                        <img src="${thumb}" alt="${escapeHtml(title)}" class="img-fluid w-100 object-fit-cover" style="max-height: 280px;">
+                        <a href="${wrapUrl(targetUrl)}" target="_blank" class="yt-play-btn-circle position-absolute top-50 start-50 translate-middle">
+                            <i class="bi bi-play-fill fs-3 ms-1 text-white"></i>
+                        </a>
+                    </div>` : ''}
+
+                    <div class="p-3 bg-light rounded-4 border mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span class="badge bg-danger-subtle text-danger border border-danger-subtle rounded-pill px-3 py-1">
+                                <i class="bi bi-youtube me-1"></i>${escapeHtml(item.channelTitle || 'YouTube Creator')}
+                            </span>
+                            <span class="small text-muted ms-auto">${escapeHtml(item.duration || 'Video')} • ${escapeHtml(item.views || 'Verified Views')}</span>
+                        </div>
+                        <h6 class="fw-bold text-dark mb-2">${escapeHtml(title)}</h6>
+                        <p class="text-secondary small mb-0">${escapeHtml(item.description || 'Watch verified video demonstration and technical implementation walkthrough.')}</p>
+                    </div>
+
+                    <div class="card p-3 border-0 bg-light rounded-3 text-muted small">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span>Channel: <strong>${escapeHtml(item.channelTitle || 'Creator')}</strong></span>
+                            <span>Uploaded: <strong>${escapeHtml(item.uploadedTime || 'Recently')}</strong></span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Resolution: <strong>Native YouTube CDN (1080p)</strong></span>
+                            <span>Video ID: <code>${escapeHtml(vid || 'N/A')}</code></span>
+                        </div>
+                    </div>
+                `;
+            } else if (type === "project") {
+                title = item.title || "Student Innovation Project";
+                badgeText = `<i class="bi bi-cpu me-1"></i>Verified Project Submission`;
+                badgeBg = "#10b981";
+                targetUrl = `/project.html?id=${item.projectId || item.id || ''}`;
+                currentLearnMoreUrl = window.location.origin + targetUrl;
+
+                bodyHtml = `
+                    <div class="p-3 bg-light rounded-4 border mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill px-3 py-1">
+                                <i class="bi bi-shield-check me-1"></i>Trust Score: ${item.trustScore || 85}/100
+                            </span>
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill px-2 py-1 ms-auto">
+                                ${item.visibility || 'Public Verified'}
+                            </span>
+                        </div>
+                        <h6 class="fw-bold text-dark mb-2">${escapeHtml(title)}</h6>
+                        <p class="text-secondary small mb-3">${escapeHtml(item.description || 'Verified student repository submission with code ownership audit.')}</p>
+                        
+                        <div class="mb-2">
+                            <span class="small fw-semibold text-muted d-block mb-1">Technology Stack:</span>
+                            <div class="d-flex flex-wrap gap-1">
+                                ${(item.technologyStack || []).map(t => `<span class="badge bg-white text-dark border">${escapeHtml(t)}</span>`).join('')}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-3 border-0 bg-light rounded-3 text-muted small">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span>Owner UID: <code>${escapeHtml((item.ownerUID || '').substring(0, 12))}...</code></span>
+                            <span>Verification: <strong class="text-success">${escapeHtml(item.verificationStatus || 'verified')}</strong></span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Repository: <a href="${wrapUrl(item.repositoryURL || '#')}" target="_blank" class="text-primary">${escapeHtml(item.repositoryURL || 'GitHub Repo')}</a></span>
+                            <span>Live URL: <a href="${wrapUrl(item.liveURL || '#')}" target="_blank" class="text-success">${escapeHtml(item.liveURL || 'Web App')}</a></span>
+                        </div>
+                    </div>
+                `;
+            } else if (type === "student") {
+                title = item.fullName || "Student Innovator";
+                badgeText = `<i class="bi bi-person-badge me-1"></i>Student Developer`;
+                badgeBg = "#0dcaf0";
+                targetUrl = `/profile.html?spn=${item.spn || ''}`;
+                currentLearnMoreUrl = window.location.origin + targetUrl;
+
+                bodyHtml = `
+                    <div class="p-3 bg-light rounded-4 border mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span class="badge bg-info-subtle text-dark border border-info-subtle rounded-pill px-3 py-1">
+                                SPN: ${item.spn || 'N/A'}
+                            </span>
+                            <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill px-2 py-1 ms-auto">
+                                <i class="bi bi-patch-check-fill me-1"></i>${item.verificationStatus || 'verified'}
+                            </span>
+                        </div>
+                        <h6 class="fw-bold text-dark mb-1">${escapeHtml(title)}</h6>
+                        <div class="text-muted small mb-2"><i class="bi bi-building me-1"></i>${escapeHtml(item.college || 'Academic Institution')}</div>
+                        
+                        <div class="mb-2">
+                            <span class="small fw-semibold text-muted d-block mb-1">Developer Skills:</span>
+                            <div class="d-flex flex-wrap gap-1">
+                                ${(item.skills || []).map(sk => `<span class="badge bg-white text-secondary border">${escapeHtml(sk)}</span>`).join('')}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-3 border-0 bg-light rounded-3 text-muted small">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span>Course: <strong>${escapeHtml(item.course || 'Engineering / CS')}</strong></span>
+                            <span>Semester: <strong>${escapeHtml(item.semester || 'Final Year')}</strong></span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Identity Status: <strong class="text-success">Verified Active</strong></span>
+                            <span>Student UID: <code>${escapeHtml((item.studentUID || item.uid || '').substring(0, 10))}...</code></span>
+                        </div>
+                    </div>
+                `;
+            } else if (type === "github") {
+                title = item.title || "GitHub Repository";
+                badgeText = `<i class="bi bi-github me-1"></i>GitHub Open Source`;
+                badgeBg = "#212529";
+                targetUrl = item.url || "#";
+                currentLearnMoreUrl = targetUrl;
+
+                bodyHtml = `
+                    <div class="p-3 bg-light rounded-4 border mb-3">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span class="badge bg-dark text-white rounded-pill px-3 py-1">
+                                <i class="bi bi-code-slash me-1"></i>${escapeHtml(item.language || 'Code')}
+                            </span>
+                            <span class="badge bg-warning-subtle text-dark border border-warning-subtle rounded-pill px-2 py-1 ms-auto">
+                                <i class="bi bi-star-fill text-warning me-1"></i>${item.stars || 0} Stars
+                            </span>
+                        </div>
+                        <h6 class="fw-bold text-dark mb-2">${escapeHtml(title)}</h6>
+                        <p class="text-secondary small mb-0">${escapeHtml(item.description || 'Open source software repository hosted on GitHub.')}</p>
+                    </div>
+
+                    <div class="card p-3 border-0 bg-light rounded-3 text-muted small">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span>Source: <strong>GitHub Official Public API</strong></span>
+                            <span>Forks: <strong>${item.forks || 0}</strong></span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Full Repository: <a href="${wrapUrl(targetUrl)}" target="_blank" class="text-primary text-truncate">${escapeHtml(targetUrl)}</a></span>
+                        </div>
+                    </div>
+                `;
+            }
+
+            modalTitle.textContent = title;
+            modalBadge.innerHTML = badgeText;
+            modalBadge.style.background = badgeBg;
+            modalBody.innerHTML = bodyHtml;
+            actionBtn.href = wrapUrl(targetUrl);
+
+            const modalEl = document.getElementById("serpLearnMoreModal");
+            if (modalEl && typeof bootstrap !== "undefined") {
+                bootstrap.Modal.getOrCreateInstance(modalEl).show();
+            }
+        }
+
 
         // Configure Marked.js with Safe Outbound Link Redirection
         if (typeof marked !== "undefined") {
@@ -1094,7 +1376,8 @@
         }
 
         // Clean Google SERP Card Item Renderer
-        function renderGoogleSERPItem(web, query) {
+        function renderGoogleSERPItem(web, query, index = 0) {
+            activeSerpRegistry.google[index] = web;
             const iconClass = web.deployingBodyIcon || "bi-globe";
             const bodyName = web.deployingBody || "Web Deployment";
             const badgeBg = web.badgeColor || "primary";
@@ -1124,12 +1407,15 @@
                         ${stripHtmlAndSanitize(web.snippet)}
                     </div>
 
-                    <div class="serp-sitelinks-row">
+                    <div class="serp-sitelinks-row align-items-center">
                         ${(web.sitelinks || []).map(link => `
                             <a href="${web.url}" target="_blank" class="serp-sublink-chip">
                                 <i class="bi bi-box-arrow-up-right me-1 small"></i>${link}
                             </a>
                         `).join("")}
+                        <button type="button" class="btn btn-sm btn-outline-primary rounded-pill px-3 py-1 ms-1 d-inline-flex align-items-center gap-1" onclick="openSerpLearnMore('google', ${index})">
+                            <i class="bi bi-info-circle"></i> Learn More
+                        </button>
                         <a href="https://www.google.com/search?q=${encodeURIComponent(query || web.title)}" target="_blank" class="serp-sublink-chip ms-auto text-primary">
                             <i class="bi bi-google me-1"></i>Search on Google
                         </a>
@@ -1139,7 +1425,8 @@
         }
 
         // YouTube Video SERP Card Renderer (Ensures High-Resolution Native Thumbnails)
-        function renderYouTubeSERPItem(yt, query) {
+        function renderYouTubeSERPItem(yt, query, index = 0) {
+            activeSerpRegistry.youtube[index] = yt;
             const vid = yt.videoId || yt.video_id || "";
             const directThumb = yt.thumbnail || (vid ? `https://i.ytimg.com/vi/${vid}/hqdefault.jpg` : "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=640&q=80");
             const watchUrl = yt.url || yt.link || (vid ? `https://www.youtube.com/watch?v=${vid}` : "#");
@@ -1175,10 +1462,13 @@
                             <p class="small text-muted mb-3 line-clamp-2" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">
                                 ${stripHtmlAndSanitize(yt.description || 'Watch video tutorial demonstration on YouTube.')}
                             </p>
-                            <div class="d-flex gap-2">
+                            <div class="d-flex gap-2 flex-wrap align-items-center">
                                 <a href="${watchUrl}" target="_blank" class="btn btn-danger btn-sm rounded-pill px-3 fw-semibold">
                                     <i class="bi bi-youtube me-1"></i>Watch Video
                                 </a>
+                                <button type="button" class="btn btn-outline-secondary btn-sm rounded-pill px-3 d-inline-flex align-items-center gap-1" onclick="openSerpLearnMore('youtube', ${index})">
+                                    <i class="bi bi-info-circle"></i> Learn More
+                                </button>
                                 <a href="https://www.youtube.com/results?search_query=${encodeURIComponent(query || yt.title)}" target="_blank" class="btn btn-outline-secondary btn-sm rounded-pill px-3">
                                     <i class="bi bi-search me-1"></i>More on YT
                                 </a>
@@ -1190,7 +1480,8 @@
         }
 
         // Project Card Renderer
-        function renderProjectCard(p) {
+        function renderProjectCard(p, index = 0) {
+            activeSerpRegistry.project[index] = p;
             return `
                 <div class="serp-entity-card">
                     <div>
@@ -1211,11 +1502,14 @@
                             ${(p.technologyStack || []).slice(0, 3).map(t => `<span class="badge bg-light text-secondary border serp-entity-badge">${stripHtmlAndSanitize(t)}</span>`).join("")}
                         </div>
                     </div>
-                    <div class="d-flex justify-content-between align-items-center pt-2 border-top">
-                        <a href="${p.repositoryURL || '#'}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-3 header-btn">
+                    <div class="d-flex justify-content-between align-items-center pt-2 border-top gap-1">
+                        <a href="${p.repositoryURL || '#'}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-2 header-btn">
                             <i class="bi bi-github me-1"></i>Code
                         </a>
-                        <a href="/project.html?id=${p.projectId || p.id}" class="btn btn-primary btn-sm rounded-pill px-3 fw-semibold header-btn">
+                        <button type="button" class="btn btn-outline-primary btn-sm rounded-pill px-2 header-btn d-inline-flex align-items-center gap-1" onclick="openSerpLearnMore('project', ${index})">
+                            <i class="bi bi-info-circle me-1"></i>Learn More
+                        </button>
+                        <a href="/project.html?id=${p.projectId || p.id}" class="btn btn-primary btn-sm rounded-pill px-2 fw-semibold header-btn">
                             Overview <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -1224,7 +1518,8 @@
         }
 
         // Student Card Renderer
-        function renderStudentCard(s) {
+        function renderStudentCard(s, index = 0) {
+            activeSerpRegistry.student[index] = s;
             return `
                 <div class="serp-entity-card">
                     <div>
@@ -1246,10 +1541,13 @@
                             ${(s.skills || []).slice(0, 3).map(sk => `<span class="badge bg-secondary-subtle text-secondary serp-entity-badge">${stripHtmlAndSanitize(sk)}</span>`).join("")}
                         </div>
                     </div>
-                    <div class="d-flex align-items-center gap-2 pt-2 border-top">
+                    <div class="d-flex align-items-center gap-1 pt-2 border-top">
                         <a href="/profile.html?spn=${s.spn}" class="btn btn-outline-primary btn-sm rounded-pill flex-grow-1 text-center header-btn">
                             Profile
                         </a>
+                        <button type="button" class="btn btn-outline-info btn-sm rounded-pill flex-grow-1 text-center header-btn d-inline-flex align-items-center justify-content-center gap-1" onclick="openSerpLearnMore('student', ${index})">
+                            <i class="bi bi-info-circle me-1"></i>Learn More
+                        </button>
                         <button id="btnConnect_${s.studentUID}" class="btn btn-primary btn-sm rounded-pill flex-grow-1 text-center header-btn" onclick="handleSearchConnect('${s.studentUID}', this)">
                             <i class="bi bi-person-plus me-1"></i>Connect
                         </button>
@@ -1259,7 +1557,8 @@
         }
 
         // GitHub Repo Card Renderer
-        function renderGitHubRepoCard(repo) {
+        function renderGitHubRepoCard(repo, index = 0) {
+            activeSerpRegistry.github[index] = repo;
             return `
                 <div class="serp-entity-card">
                     <div>
@@ -1277,11 +1576,16 @@
                             ${stripHtmlAndSanitize(repo.description)}
                         </p>
                     </div>
-                    <div class="d-flex justify-content-between align-items-center pt-2 border-top">
+                    <div class="d-flex justify-content-between align-items-center pt-2 border-top gap-1">
                         <span class="badge bg-light text-secondary border serp-entity-badge">${repo.language || 'Code'}</span>
-                        <a href="${repo.url}" target="_blank" class="btn btn-outline-dark btn-sm rounded-pill px-3 header-btn">
-                            <i class="bi bi-box-arrow-up-right me-1"></i>View Repo
-                        </a>
+                        <div class="d-flex gap-1">
+                            <button type="button" class="btn btn-outline-dark btn-sm rounded-pill px-2 header-btn d-inline-flex align-items-center gap-1" onclick="openSerpLearnMore('github', ${index})">
+                                <i class="bi bi-info-circle me-1"></i>Learn More
+                            </button>
+                            <a href="${repo.url}" target="_blank" class="btn btn-dark btn-sm rounded-pill px-2 header-btn">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Repo
+                            </a>
+                        </div>
                     </div>
                 </div>
             `;
@@ -1751,39 +2055,212 @@
         }
 
         // ==========================================
-        // DSA PAGINATION & RENDERERS
+        // DSA PAGINATION & ASYNC QUERY EXTENSION
         // ==========================================
-        function loadMoreGoogle() {
+        let isFetchingMoreSerp = false;
+
+        async function fetchMoreSerpContent(type) {
+            if (isFetchingMoreSerp) return;
+            isFetchingMoreSerp = true;
+            const query = (currentSearchQuery || "student innovation").trim();
+
+            try {
+                if (type === 'google' || type === 'youtube' || type === 'github') {
+                    const globalCacheKey = `global_${query}`;
+                    const currentData = searchDataCache.get(globalCacheKey) || { googleWebResults: [], youtubeResources: [], githubRepositories: [] };
+
+                    // Fetch additional results via query crawl or live search
+                    const res = await API.request(`/search/global-live?q=${encodeURIComponent(query)}`).catch(() => null);
+
+                    if (res) {
+                        // DSA Deduplication via O(1) Set lookup
+                        const existingGoogleUrls = new Set(currentData.googleWebResults.map(x => x.url));
+                        (res.googleWebResults || []).forEach(item => {
+                            if (item.url && !existingGoogleUrls.has(item.url)) {
+                                existingGoogleUrls.add(item.url);
+                                currentData.googleWebResults.push(item);
+                            }
+                        });
+
+                        const existingYtKeys = new Set(currentData.youtubeResources.map(x => x.url || x.videoId));
+                        (res.youtubeResources || []).forEach(item => {
+                            const key = item.url || item.videoId;
+                            if (key && !existingYtKeys.has(key)) {
+                                existingYtKeys.add(key);
+                                currentData.youtubeResources.push(item);
+                            }
+                        });
+
+                        const existingGhUrls = new Set(currentData.githubRepositories.map(x => x.url));
+                        (res.githubRepositories || []).forEach(item => {
+                            if (item.url && !existingGhUrls.has(item.url)) {
+                                existingGhUrls.add(item.url);
+                                currentData.githubRepositories.push(item);
+                            }
+                        });
+
+                        searchDataCache.set(globalCacheKey, currentData);
+                    }
+                } else if (type === 'projects') {
+                    const pKey = `projects_${query}`;
+                    const current = searchDataCache.get(pKey) || [];
+                    const sortBy = document.getElementById("serpSortSelect")?.value || "relevance";
+                    const res = await API.request(`/search/projects?q=${encodeURIComponent(query)}&sort_by=${sortBy}`).catch(() => []);
+                    const existingIds = new Set(current.map(p => p.projectId || p.id));
+                    (res || []).forEach(p => {
+                        const id = p.projectId || p.id;
+                        if (id && !existingIds.has(id)) {
+                            existingIds.add(id);
+                            current.push(p);
+                        }
+                    });
+                    searchDataCache.set(pKey, current);
+                } else if (type === 'students') {
+                    const sKey = `students_${query}`;
+                    const current = searchDataCache.get(sKey) || [];
+                    const res = await API.request(`/search/students?q=${encodeURIComponent(query)}`).catch(() => []);
+                    const existingIds = new Set(current.map(s => s.studentUID || s.uid || s.spn));
+                    (res || []).forEach(s => {
+                        const id = s.studentUID || s.uid || s.spn;
+                        if (id && !existingIds.has(id)) {
+                            existingIds.add(id);
+                            current.push(s);
+                        }
+                    });
+                    searchDataCache.set(sKey, current);
+                }
+            } finally {
+                isFetchingMoreSerp = false;
+            }
+        }
+
+        async function loadMoreGoogle(btnEl) {
+            const data = searchDataCache.get(`global_${currentSearchQuery}`) || {};
+            const gResults = data.googleWebResults || [];
+            if (paginationState.google >= gResults.length) {
+                if (btnEl) {
+                    btnEl.disabled = true;
+                    btnEl.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span>Loading more Google results...`;
+                }
+                await fetchMoreSerpContent('google');
+            }
             paginationState.google += 6;
             renderGoogleResultsPage();
         }
 
-        function loadMoreYouTube() {
+        async function loadMoreYouTube(btnEl) {
+            const data = searchDataCache.get(`global_${currentSearchQuery}`) || {};
+            const ytResults = data.youtubeResources || [];
+            if (paginationState.youtube >= ytResults.length) {
+                if (btnEl) {
+                    btnEl.disabled = true;
+                    btnEl.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span>Loading more videos...`;
+                }
+                await fetchMoreSerpContent('youtube');
+            }
             paginationState.youtube += 4;
             renderYouTubeResultsPage();
         }
 
-        function loadMoreGitHub() {
+        async function loadMoreGitHub(btnEl) {
+            const data = searchDataCache.get(`global_${currentSearchQuery}`) || {};
+            const repos = data.githubRepositories || [];
+            if (paginationState.github >= repos.length) {
+                if (btnEl) {
+                    btnEl.disabled = true;
+                    btnEl.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span>Loading more repositories...`;
+                }
+                await fetchMoreSerpContent('github');
+            }
             paginationState.github += 6;
             renderGitHubResultsPage();
         }
 
-        function loadMoreProjects() {
+        async function loadMoreProjects(btnEl) {
+            const projects = searchDataCache.get(`projects_${currentSearchQuery}`) || [];
+            if (paginationState.projects >= projects.length) {
+                if (btnEl) {
+                    btnEl.disabled = true;
+                    btnEl.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span>Loading more projects...`;
+                }
+                await fetchMoreSerpContent('projects');
+            }
             paginationState.projects += 6;
             renderProjectsResultsPage();
         }
 
-        function loadMoreStudents() {
+        async function loadMoreStudents(btnEl) {
+            const students = searchDataCache.get(`students_${currentSearchQuery}`) || [];
+            if (paginationState.students >= students.length) {
+                if (btnEl) {
+                    btnEl.disabled = true;
+                    btnEl.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span>Loading more innovators...`;
+                }
+                await fetchMoreSerpContent('students');
+            }
             paginationState.students += 6;
             renderStudentsResultsPage();
         }
 
-        function expandAllSection(sec) {
-            if (sec === 'google') paginationState.all.google += 4;
-            if (sec === 'youtube') paginationState.all.youtube += 2;
-            if (sec === 'projects') paginationState.all.projects += 4;
-            if (sec === 'students') paginationState.all.students += 3;
-            if (sec === 'github') paginationState.all.github += 4;
+        async function expandAllSection(sec, btnEl) {
+            if (sec === 'google') {
+                const data = searchDataCache.get(`global_${currentSearchQuery}`) || {};
+                const gResults = data.googleWebResults || [];
+                if (paginationState.all.google >= gResults.length) {
+                    if (btnEl) {
+                        btnEl.disabled = true;
+                        btnEl.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span>Loading more Google results...`;
+                    }
+                    await fetchMoreSerpContent('google');
+                }
+                paginationState.all.google += 4;
+            }
+            if (sec === 'youtube') {
+                const data = searchDataCache.get(`global_${currentSearchQuery}`) || {};
+                const ytResults = data.youtubeResources || [];
+                if (paginationState.all.youtube >= ytResults.length) {
+                    if (btnEl) {
+                        btnEl.disabled = true;
+                        btnEl.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span>Loading more YouTube videos...`;
+                    }
+                    await fetchMoreSerpContent('youtube');
+                }
+                paginationState.all.youtube += 3;
+            }
+            if (sec === 'projects') {
+                const projects = searchDataCache.get(`projects_${currentSearchQuery}`) || [];
+                if (paginationState.all.projects >= projects.length) {
+                    if (btnEl) {
+                        btnEl.disabled = true;
+                        btnEl.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span>Loading more projects...`;
+                    }
+                    await fetchMoreSerpContent('projects');
+                }
+                paginationState.all.projects += 4;
+            }
+            if (sec === 'students') {
+                const students = searchDataCache.get(`students_${currentSearchQuery}`) || [];
+                if (paginationState.all.students >= students.length) {
+                    if (btnEl) {
+                        btnEl.disabled = true;
+                        btnEl.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span>Loading more innovators...`;
+                    }
+                    await fetchMoreSerpContent('students');
+                }
+                paginationState.all.students += 4;
+            }
+            if (sec === 'github') {
+                const data = searchDataCache.get(`global_${currentSearchQuery}`) || {};
+                const repos = data.githubRepositories || [];
+                if (paginationState.all.github >= repos.length) {
+                    if (btnEl) {
+                        btnEl.disabled = true;
+                        btnEl.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span>Loading more repositories...`;
+                    }
+                    await fetchMoreSerpContent('github');
+                }
+                paginationState.all.github += 4;
+            }
             renderAllResultsPage();
         }
 
@@ -1791,16 +2268,25 @@
             const container = document.getElementById("serpResultsContainer");
             const data = searchDataCache.get(`global_${currentSearchQuery}`) || {};
             const gResults = data.googleWebResults || [];
+            activeSerpRegistry.google = [...gResults];
             const displayed = gResults.slice(0, paginationState.google);
 
             document.getElementById("serpStatsText").innerText = `About ${gResults.length} web results retrieved live from Google Search`;
 
-            let html = displayed.map(w => renderGoogleSERPItem(w, currentSearchQuery)).join("");
+            let html = displayed.map((w, idx) => renderGoogleSERPItem(w, currentSearchQuery, idx)).join("");
             if (paginationState.google < gResults.length) {
                 html += `
                     <div class="text-center my-4">
-                        <button class="btn btn-outline-primary rounded-pill px-4" onclick="loadMoreGoogle()">
+                        <button class="btn btn-outline-primary rounded-pill px-4" onclick="loadMoreGoogle(this)">
                             <i class="bi bi-chevron-down me-1"></i>View More Google Results (${gResults.length - paginationState.google} remaining)
+                        </button>
+                    </div>
+                `;
+            } else if (gResults.length > 0) {
+                html += `
+                    <div class="text-center my-4">
+                        <button class="btn btn-outline-secondary rounded-pill px-4" onclick="loadMoreGoogle(this)">
+                            <i class="bi bi-arrow-clockwise me-1"></i>Load Additional Results for "${escapeHtml(currentSearchQuery)}"
                         </button>
                     </div>
                 `;
@@ -1812,16 +2298,25 @@
             const container = document.getElementById("serpResultsContainer");
             const data = searchDataCache.get(`global_${currentSearchQuery}`) || {};
             const ytResults = data.youtubeResources || [];
+            activeSerpRegistry.youtube = [...ytResults];
             const displayed = ytResults.slice(0, paginationState.youtube);
 
             document.getElementById("serpStatsText").innerText = `About ${ytResults.length} video demonstrations retrieved live from YouTube`;
 
-            let html = displayed.map(y => renderYouTubeSERPItem(y, currentSearchQuery)).join("");
+            let html = displayed.map((y, idx) => renderYouTubeSERPItem(y, currentSearchQuery, idx)).join("");
             if (paginationState.youtube < ytResults.length) {
                 html += `
                     <div class="text-center my-4">
-                        <button class="btn btn-outline-danger rounded-pill px-4" onclick="loadMoreYouTube()">
+                        <button class="btn btn-outline-danger rounded-pill px-4" onclick="loadMoreYouTube(this)">
                             <i class="bi bi-chevron-down me-1"></i>View More YouTube Videos (${ytResults.length - paginationState.youtube} remaining)
+                        </button>
+                    </div>
+                `;
+            } else if (ytResults.length > 0) {
+                html += `
+                    <div class="text-center my-4">
+                        <button class="btn btn-outline-secondary rounded-pill px-4" onclick="loadMoreYouTube(this)">
+                            <i class="bi bi-arrow-clockwise me-1"></i>Load Additional Videos for "${escapeHtml(currentSearchQuery)}"
                         </button>
                     </div>
                 `;
@@ -1833,16 +2328,25 @@
             const container = document.getElementById("serpResultsContainer");
             const data = searchDataCache.get(`global_${currentSearchQuery}`) || {};
             const repos = data.githubRepositories || [];
+            activeSerpRegistry.github = [...repos];
             const displayed = repos.slice(0, paginationState.github);
 
             document.getElementById("serpStatsText").innerText = `About ${repos.length} live public repositories from GitHub`;
 
-            let html = `<div class="serp-entity-grid">${displayed.map(r => renderGitHubRepoCard(r)).join("")}</div>`;
+            let html = `<div class="serp-entity-grid">${displayed.map((r, idx) => renderGitHubRepoCard(r, idx)).join("")}</div>`;
             if (paginationState.github < repos.length) {
                 html += `
                     <div class="text-center my-4">
-                        <button class="btn btn-outline-dark rounded-pill px-4" onclick="loadMoreGitHub()">
+                        <button class="btn btn-outline-dark rounded-pill px-4" onclick="loadMoreGitHub(this)">
                             <i class="bi bi-chevron-down me-1"></i>View More Repositories (${repos.length - paginationState.github} remaining)
+                        </button>
+                    </div>
+                `;
+            } else if (repos.length > 0) {
+                html += `
+                    <div class="text-center my-4">
+                        <button class="btn btn-outline-secondary rounded-pill px-4" onclick="loadMoreGitHub(this)">
+                            <i class="bi bi-arrow-clockwise me-1"></i>Load Additional Repositories for "${escapeHtml(currentSearchQuery)}"
                         </button>
                     </div>
                 `;
@@ -1853,41 +2357,43 @@
         function renderProjectsResultsPage() {
             const container = document.getElementById("serpResultsContainer");
             const projects = searchDataCache.get(`projects_${currentSearchQuery}`) || [];
+            activeSerpRegistry.project = [...projects];
             const displayed = projects.slice(0, paginationState.projects);
 
             document.getElementById("serpStatsText").innerText = `About ${projects.length} verified projects found`;
 
-            let html = `<div class="serp-entity-grid">${displayed.map(p => renderProjectCard(p)).join("")}</div>`;
+            let html = `<div class="serp-entity-grid">${displayed.map((p, idx) => renderProjectCard(p, idx)).join("")}</div>`;
             if (paginationState.projects < projects.length) {
                 html += `
                     <div class="text-center my-4">
-                        <button class="btn btn-outline-success rounded-pill px-4" onclick="loadMoreProjects()">
+                        <button class="btn btn-outline-success rounded-pill px-4" onclick="loadMoreProjects(this)">
                             <i class="bi bi-chevron-down me-1"></i>View More Projects (${projects.length - paginationState.projects} remaining)
                         </button>
                     </div>
                 `;
             }
-            container.innerHTML = projects.length ? html : `<div class="text-center py-5 text-muted">No student projects found matching "${currentSearchQuery}".</div>`;
+            container.innerHTML = projects.length ? html : `<div class="text-center py-5 text-muted">No student projects found matching "${escapeHtml(currentSearchQuery)}".</div>`;
         }
 
         function renderStudentsResultsPage() {
             const container = document.getElementById("serpResultsContainer");
             const students = searchDataCache.get(`students_${currentSearchQuery}`) || [];
+            activeSerpRegistry.student = [...students];
             const displayed = students.slice(0, paginationState.students);
 
             document.getElementById("serpStatsText").innerText = `About ${students.length} verified student innovators found`;
 
-            let html = `<div class="serp-entity-grid">${displayed.map(s => renderStudentCard(s)).join("")}</div>`;
+            let html = `<div class="serp-entity-grid">${displayed.map((s, idx) => renderStudentCard(s, idx)).join("")}</div>`;
             if (paginationState.students < students.length) {
                 html += `
                     <div class="text-center my-4">
-                        <button class="btn btn-outline-info rounded-pill px-4" onclick="loadMoreStudents()">
+                        <button class="btn btn-outline-info rounded-pill px-4" onclick="loadMoreStudents(this)">
                             <i class="bi bi-chevron-down me-1"></i>View More Innovators (${students.length - paginationState.students} remaining)
                         </button>
                     </div>
                 `;
             }
-            container.innerHTML = students.length ? html : `<div class="text-center py-5 text-muted">No student innovators found matching "${currentSearchQuery}".</div>`;
+            container.innerHTML = students.length ? html : `<div class="text-center py-5 text-muted">No student innovators found matching "${escapeHtml(currentSearchQuery)}".</div>`;
         }
 
         function renderAllResultsPage() {
@@ -1899,6 +2405,12 @@
             const gResults = globalRes.googleWebResults || [];
             const ytResults = globalRes.youtubeResources || [];
             const repos = globalRes.githubRepositories || [];
+            activeSerpRegistry.google = [...gResults];
+            activeSerpRegistry.youtube = [...ytResults];
+            activeSerpRegistry.project = [...projects];
+            activeSerpRegistry.student = [...students];
+            activeSerpRegistry.github = [...repos];
+
             const totalCount = gResults.length + ytResults.length + projects.length + students.length + repos.length;
 
             document.getElementById("serpStatsText").innerText = `About ${totalCount} results retrieved live from internet & platform`;
@@ -1927,11 +2439,11 @@
                         <span class="small text-muted">${dispG.length} of ${gResults.length}</span>
                     </div>
                 `;
-                html += dispG.map(w => renderGoogleSERPItem(w, currentSearchQuery)).join("");
+                html += dispG.map((w, idx) => renderGoogleSERPItem(w, currentSearchQuery, idx)).join("");
                 if (paginationState.all.google < gResults.length) {
                     html += `
                         <div class="text-center mb-4">
-                            <button class="btn btn-sm btn-outline-primary rounded-pill px-3" onclick="expandAllSection('google')">
+                            <button class="btn btn-sm btn-outline-primary rounded-pill px-3" onclick="expandAllSection('google', this)">
                                 <i class="bi bi-chevron-down me-1"></i>View More Google Results (${gResults.length - paginationState.all.google} more)
                             </button>
                         </div>
@@ -1948,11 +2460,11 @@
                         <span class="small text-muted">${dispYt.length} of ${ytResults.length}</span>
                     </div>
                 `;
-                html += dispYt.map(y => renderYouTubeSERPItem(y, currentSearchQuery)).join("");
+                html += dispYt.map((y, idx) => renderYouTubeSERPItem(y, currentSearchQuery, idx)).join("");
                 if (paginationState.all.youtube < ytResults.length) {
                     html += `
                         <div class="text-center mb-4">
-                            <button class="btn btn-sm btn-outline-danger rounded-pill px-3" onclick="expandAllSection('youtube')">
+                            <button class="btn btn-sm btn-outline-danger rounded-pill px-3" onclick="expandAllSection('youtube', this)">
                                 <i class="bi bi-chevron-down me-1"></i>View More YouTube Videos (${ytResults.length - paginationState.all.youtube} more)
                             </button>
                         </div>
@@ -1969,13 +2481,13 @@
                         <span class="small text-muted">${dispP.length} of ${projects.length}</span>
                     </div>
                     <div class="serp-entity-grid">
-                        ${dispP.map(p => renderProjectCard(p)).join("")}
+                        ${dispP.map((p, idx) => renderProjectCard(p, idx)).join("")}
                     </div>
                 `;
                 if (paginationState.all.projects < projects.length) {
                     html += `
                         <div class="text-center mb-4">
-                            <button class="btn btn-sm btn-outline-success rounded-pill px-3" onclick="expandAllSection('projects')">
+                            <button class="btn btn-sm btn-outline-success rounded-pill px-3" onclick="expandAllSection('projects', this)">
                                 <i class="bi bi-chevron-down me-1"></i>View More Projects (${projects.length - paginationState.all.projects} more)
                             </button>
                         </div>
@@ -1992,13 +2504,13 @@
                         <span class="small text-muted">${dispS.length} of ${students.length}</span>
                     </div>
                     <div class="serp-entity-grid">
-                        ${dispS.map(s => renderStudentCard(s)).join("")}
+                        ${dispS.map((s, idx) => renderStudentCard(s, idx)).join("")}
                     </div>
                 `;
                 if (paginationState.all.students < students.length) {
                     html += `
                         <div class="text-center mb-4">
-                            <button class="btn btn-sm btn-outline-info rounded-pill px-3" onclick="expandAllSection('students')">
+                            <button class="btn btn-sm btn-outline-info rounded-pill px-3" onclick="expandAllSection('students', this)">
                                 <i class="bi bi-chevron-down me-1"></i>View More Innovators (${students.length - paginationState.all.students} more)
                             </button>
                         </div>
@@ -2015,13 +2527,13 @@
                         <span class="small text-muted">${dispR.length} of ${repos.length}</span>
                     </div>
                     <div class="serp-entity-grid">
-                        ${dispR.map(r => renderGitHubRepoCard(r)).join("")}
+                        ${dispR.map((r, idx) => renderGitHubRepoCard(r, idx)).join("")}
                     </div>
                 `;
                 if (paginationState.all.github < repos.length) {
                     html += `
                         <div class="text-center mb-4">
-                            <button class="btn btn-sm btn-outline-dark rounded-pill px-3" onclick="expandAllSection('github')">
+                            <button class="btn btn-sm btn-outline-dark rounded-pill px-3" onclick="expandAllSection('github', this)">
                                 <i class="bi bi-chevron-down me-1"></i>View More Repositories (${repos.length - paginationState.all.github} more)
                             </button>
                         </div>

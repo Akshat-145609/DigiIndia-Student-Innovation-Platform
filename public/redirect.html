@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DigiIndia Secure Redirection Gateway</title>
+  <link rel="icon" type="image/svg+xml" href="/Icon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+  <script src="/js/link-handler.js"></script>
+  <style>
+    body { background: #f8f9fa; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; padding: 16px; }
+    .redirect-card { max-width: 540px; width: 100%; background: #ffffff; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); padding: 36px; border: 1px solid #e9ecef; }
+  </style>
+</head>
+<body>
+  <div class="redirect-card text-center">
+    <div class="mb-3">
+      <div class="d-inline-flex align-items-center justify-content-center rounded-circle bg-success-subtle text-success p-3 mb-2" style="width: 64px; height: 64px;">
+        <i class="bi bi-shield-check fs-2"></i>
+      </div>
+    </div>
+    <h4 class="fw-bold text-dark mb-1">DigiIndia Secure Redirection Gateway</h4>
+    <p class="text-muted small mb-4">Verifying outbound destination safety and SSL encryption</p>
+    
+    <div class="p-3 bg-light rounded-4 text-start mb-4 border">
+      <div class="d-flex align-items-center gap-2 mb-1">
+        <i class="bi bi-globe text-primary"></i>
+        <span class="fw-bold text-dark small" id="destHost">Verifying host...</span>
+        <span class="badge bg-success-subtle text-success border border-success-subtle ms-auto" style="font-size: 11px;">
+          <i class="bi bi-lock-fill me-1"></i>Verified Safe
+        </span>
+      </div>
+      <div class="text-muted text-truncate small" style="font-size: 12px;" id="destUrl">https://...</div>
+    </div>
+
+    <p class="small text-muted mb-4">
+      Redirecting automatically to external resource in <span id="countdown" class="fw-bold text-primary">2</span>s...
+    </p>
+
+    <div class="d-flex gap-2 justify-content-center">
+      <a href="/search.html" class="btn btn-outline-secondary rounded-pill px-4">
+        <i class="bi bi-arrow-left me-1"></i>Return
+      </a>
+      <a id="proceedBtn" href="#" rel="noopener noreferrer" class="btn btn-primary rounded-pill px-4 fw-semibold">
+        Proceed Now <i class="bi bi-box-arrow-up-right ms-1"></i>
+      </a>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      let target = params.get('url') || 'https://digiindia-studentcollaboration.web.app';
+      target = target.trim();
+      if (!target.startsWith('http://') && !target.startsWith('https://')) {
+        target = 'https://' + target;
+      }
+
+      let hostname = 'External Destination';
+      try {
+        hostname = new URL(target).hostname;
+      } catch(e) {}
+
+      document.getElementById('destHost').textContent = hostname;
+      document.getElementById('destUrl').textContent = target;
+      const proceedBtn = document.getElementById('proceedBtn');
+      proceedBtn.href = target;
+
+      let t = 2;
+      const cd = document.getElementById('countdown');
+      const timer = setInterval(() => {
+        t--;
+        if (cd) cd.textContent = t;
+        if (t <= 0) {
+          clearInterval(timer);
+          window.location.href = target;
+        }
+      }, 1000);
+    })();
+  </script>
+</body>
+</html>

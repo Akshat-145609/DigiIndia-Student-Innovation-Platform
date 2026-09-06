@@ -26,6 +26,12 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/api/v1/search/redirect**",
+        "destination": "/redirect.html"
+      }
     ]
   },
   "auth": {

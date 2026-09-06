@@ -916,7 +916,8 @@
             renderer.link = function(href, title, text) {
                 let targetHref = href;
                 if (href && (href.startsWith("http://") || href.startsWith("https://"))) {
-                    targetHref = `/api/v1/search/redirect?url=${encodeURIComponent(href)}`;
+                    const base = (typeof API !== "undefined" && API.getBaseUrl) ? API.getBaseUrl() : "/api/v1";
+                    targetHref = `${base}/search/redirect?url=${encodeURIComponent(href)}`;
                 }
                 const titleAttr = title ? ` title="${title}"` : "";
                 return `<a href="${targetHref}" target="_blank" rel="noopener noreferrer" class="ai-wrapped-link"${titleAttr}>${text} <i class="bi bi-box-arrow-up-right" style="font-size:0.78em;"></i></a>`;

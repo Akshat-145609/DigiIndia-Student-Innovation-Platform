@@ -29,8 +29,18 @@
     ],
     "redirects": [
       {
-        "source": "/api/v1/verification/**",
-        "destination": "https://digiindia-student-innovation-platform-2.onrender.com/api/v1/verification/:splat",
+        "source": "/api/v1/verification/project/crawl",
+        "destination": "https://digiindia-student-innovation-platform-2.onrender.com/api/v1/verification/project/crawl",
+        "type": 307
+      },
+      {
+        "source": "/api/v1/verification/:path*",
+        "destination": "https://digiindia-student-innovation-platform-2.onrender.com/api/v1/verification/:path*",
+        "type": 307
+      },
+      {
+        "source": "/api/v1/:path*",
+        "destination": "https://digiindia-student-innovation-platform-2.onrender.com/api/v1/:path*",
         "type": 307
       }
     ],

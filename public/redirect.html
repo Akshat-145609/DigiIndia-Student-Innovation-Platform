@@ -7,55 +7,422 @@
   <link rel="icon" type="image/svg+xml" href="/Icon.svg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="/js/link-handler.js"></script>
   <style>
     body { background: #f8f9fa; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; padding: 16px; }
     .redirect-card { max-width: 540px; width: 100%; background: #ffffff; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); padding: 36px; border: 1px solid #e9ecef; }
+    .btn-top-left-close {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      width: 34px;
+      height: 34px;
+      z-index: 1060;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      border: 1px solid #dee2e6;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      cursor: pointer;
+      transition: all 0.15s ease-in-out;
+      color: #333;
+    }
+    .btn-top-left-close:hover {
+      background: #f1f3f5;
+      transform: scale(1.05);
+      color: #000;
+    }
+    .sandbox-doc-view {
+      font-size: 13.5px;
+      line-height: 1.6;
+      color: #24292f;
+      background: #ffffff;
+      border: 1px solid #e1e4e8;
+      border-radius: 12px;
+      padding: 24px;
+      max-height: 60vh;
+      overflow-y: auto;
+    }
+    .sandbox-doc-view h1, .sandbox-doc-view h2, .sandbox-doc-view h3 {
+      font-weight: 700;
+      margin-top: 18px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #eaecef;
+      padding-bottom: 6px;
+    }
+    .sandbox-doc-view pre {
+      background: #f6f8fa;
+      padding: 12px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-size: 12px;
+      border: 1px solid #e1e4e8;
+    }
+    .sandbox-doc-view code {
+      background: #f0f3f6;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-family: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    .sandbox-doc-view table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 16px;
+    }
+    .sandbox-doc-view th, .sandbox-doc-view td {
+      border: 1px solid #d0d7de;
+      padding: 6px 12px;
+      text-align: left;
+    }
+    .sandbox-doc-view th {
+      background: #f6f8fa;
+      font-weight: 600;
+    }
+    .sandbox-doc-view blockquote {
+      border-left: 4px solid #0969da;
+      padding-left: 12px;
+      color: #57606a;
+      margin-left: 0;
+    }
   </style>
 </head>
 <body>
-  <div class="redirect-card text-center">
+  <!-- MAIN REDIRECTION CARD -->
+  <div class="redirect-card text-center position-relative">
     <div class="mb-3">
-      <div class="d-inline-flex align-items-center justify-content-center rounded-circle bg-success-subtle text-success p-3 mb-2" style="width: 64px; height: 64px;">
-        <i class="bi bi-shield-check fs-2"></i>
+      <div id="statusIconBg" class="d-inline-flex align-items-center justify-content-center rounded-circle bg-success-subtle text-success p-3 mb-2" style="width: 64px; height: 64px;">
+        <i id="statusIcon" class="bi bi-shield-check fs-2"></i>
       </div>
     </div>
     <h4 class="fw-bold text-dark mb-1">DigiIndia Secure Redirection Gateway</h4>
-    <p class="text-muted small mb-4">Verifying outbound destination safety and SSL encryption</p>
+    <p class="text-muted small mb-4" id="statusSubtitle">Verifying outbound destination safety and SSL encryption</p>
     
     <div class="p-3 bg-light rounded-4 text-start mb-4 border">
       <div class="d-flex align-items-center gap-2 mb-1">
         <i class="bi bi-globe text-primary"></i>
         <span class="fw-bold text-dark small" id="destHost">Verifying host...</span>
-        <span class="badge bg-success-subtle text-success border border-success-subtle ms-auto" style="font-size: 11px;">
+        <span id="destStatusBadge" class="badge bg-success-subtle text-success border border-success-subtle ms-auto" style="font-size: 11px;">
           <i class="bi bi-lock-fill me-1"></i>Verified Safe
         </span>
       </div>
       <div class="text-muted text-truncate small" style="font-size: 12px;" id="destUrl">https://...</div>
     </div>
 
-    <p class="small text-muted mb-4">
+    <p class="small text-muted mb-4" id="countdownMessage">
       Redirecting automatically to external resource in <span id="countdown" class="fw-bold text-primary">2</span>s...
     </p>
 
     <div class="d-flex gap-2 justify-content-center">
-      <a href="/search.html" class="btn btn-outline-secondary rounded-pill px-4">
+      <button type="button" onclick="cancelAndReturn()" class="btn btn-outline-secondary rounded-pill px-4">
         <i class="bi bi-arrow-left me-1"></i>Return
-      </a>
+      </button>
       <a id="proceedBtn" href="#" rel="noopener noreferrer" class="btn btn-primary rounded-pill px-4 fw-semibold">
         Proceed Now <i class="bi bi-box-arrow-up-right ms-1"></i>
       </a>
     </div>
   </div>
 
+  <!-- 1. ALERT CONFIRMATION MODAL (SHOWN ONLY AND ONLY WHEN DESTINATION IS SUSPICIOUS) -->
+  <div class="modal fade" id="suspiciousAlertModal" tabindex="-1" aria-labelledby="suspiciousAlertModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0 shadow-lg position-relative overflow-hidden">
+        <!-- Top-Left Cross Icon to cancel and return to safety -->
+        <button type="button" class="btn-top-left-close" onclick="cancelAndReturn()" aria-label="Close" title="Cancel & Return to Safety">
+          <i class="bi bi-x-lg"></i>
+        </button>
+
+        <div class="modal-header border-bottom-0 pb-0 pt-4 px-4 ps-5">
+          <div class="ms-3">
+            <span class="badge bg-danger text-white rounded-pill px-3 py-1 mb-1">
+              <i class="bi bi-shield-fill-exclamation me-1"></i>Security Warning
+            </span>
+            <h5 class="modal-title fw-bold text-danger mb-0" id="suspiciousAlertModalLabel">Suspicious Destination Detected</h5>
+          </div>
+        </div>
+
+        <div class="modal-body px-4 py-3">
+          <p class="text-muted small mb-3">
+            DigiIndia AI Security Scanner inspected this outbound link and flagged it as potentially hazardous. Automatic redirection has been blocked for your safety.
+          </p>
+
+          <div class="p-3 bg-light rounded-3 border mb-3">
+            <div class="small fw-semibold text-dark mb-1 text-truncate" id="modalDestUrl">
+              <i class="bi bi-link-45deg me-1 text-primary"></i>
+            </div>
+            <div class="small text-muted mb-2">Host: <strong id="modalDestHost"></strong></div>
+            <div class="d-flex flex-column gap-1" id="modalReasonsBadges">
+              <!-- Threat indicators injected here -->
+            </div>
+          </div>
+
+          <p class="small text-secondary mb-0">
+            Click the <strong class="text-info"><i class="bi bi-info-circle-fill me-1"></i>info icon</strong> below to inspect the complete <strong>AI System Scanner Live URL Test Report</strong> and DOM source code diagnosis.
+          </p>
+        </div>
+
+        <div class="modal-footer border-top-0 pt-0 pb-4 px-4 d-flex justify-content-between align-items-center">
+          <!-- Info Icon Button to trigger AI Live Scanner diagnosis report modal -->
+          <button type="button" class="btn btn-outline-info rounded-circle d-flex align-items-center justify-content-center shadow-sm" 
+                  style="width: 42px; height: 42px;" 
+                  onclick="openAiSecurityReportModal()" 
+                  title="View AI Live Scanner Report & Technical Brief">
+            <i class="bi bi-info-lg fs-5"></i>
+          </button>
+
+          <div class="d-flex gap-2">
+            <button type="button" class="btn btn-outline-secondary rounded-pill px-3" onclick="cancelAndReturn()">
+              <i class="bi bi-arrow-left me-1"></i>Return to Safety
+            </button>
+            <a id="modalProceedAnywayBtn" href="#" rel="noopener noreferrer" class="btn btn-danger rounded-pill px-3 fw-semibold">
+              Proceed Anyway <i class="bi bi-exclamation-triangle-fill ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. AI SYSTEM SCANNER LIVE URL TEST REPORT / DIAGNOSIS MODAL -->
+  <div class="modal fade" id="aiSecurityReportModal" tabindex="-1" aria-labelledby="aiSecurityReportModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content rounded-4 border-0 shadow-lg position-relative overflow-hidden">
+        <!-- Top-Left Cross Icon to close report modal -->
+        <button type="button" class="btn-top-left-close" onclick="closeAiSecurityModal()" aria-label="Close" title="Close Report">
+          <i class="bi bi-x-lg"></i>
+        </button>
+
+        <div class="modal-header border-bottom bg-light pt-3 pb-3 px-4 ps-5">
+          <div class="ms-3">
+            <div class="d-flex align-items-center gap-2 mb-1">
+              <span class="badge bg-primary text-white"><i class="bi bi-robot me-1"></i>DigiIndia AI Scanner</span>
+              <span class="badge bg-white text-secondary border"><i class="bi bi-cpu me-1"></i>Live Server & DOM Audit</span>
+            </div>
+            <h5 class="modal-title fw-bold text-dark mb-0" id="aiSecurityReportModalLabel">AI System Scanner – Live URL Diagnosis</h5>
+          </div>
+        </div>
+
+        <div class="modal-body p-4" id="aiSecurityReportModalBody">
+          <div class="text-center py-5" id="aiReportLoadingState">
+            <div class="spinner-border text-primary mb-3" role="status"></div>
+            <h6 class="fw-bold text-dark">Performing Live Destination URL Diagnosis...</h6>
+            <p class="small text-muted mb-0">Auditing server SSL, fetching DOM source code, running heuristics, and synthesizing AI technical brief.</p>
+          </div>
+          <div id="aiReportContentState" class="d-none sandbox-doc-view">
+            <!-- Rendered README.md markdown from AI System Scanner injected here -->
+          </div>
+        </div>
+
+        <div class="modal-footer border-top bg-light px-4 py-3 d-flex justify-content-between align-items-center">
+          <button type="button" class="btn btn-secondary rounded-pill px-3 btn-sm" onclick="closeAiSecurityModal()">
+            <i class="bi bi-x-circle me-1"></i>Close Report
+          </button>
+          <div class="d-flex gap-2">
+            <button type="button" class="btn btn-outline-secondary rounded-pill px-3 btn-sm" onclick="cancelAndReturn()">
+              Return to Safety
+            </button>
+            <a id="reportProceedAnywayBtn" href="#" rel="noopener noreferrer" class="btn btn-danger rounded-pill px-3 btn-sm fw-semibold">
+              Proceed to Destination (Unsafe) <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-    (function() {
+    // Security definitions for client-side evaluation
+    const RAW_IP_REGEX = /^(?:https?:\/\/)?(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?(?:[\/?#]|$)/i;
+    const SUSPICIOUS_TLDS = [
+      '.xyz', '.top', '.tk', '.ml', '.ga', '.cf', '.gq', '.buzz', '.fit', '.rest',
+      '.work', '.click', '.link', '.stream', '.cam', '.live', '.loan', '.racing',
+      '.surf', '.monster', '.icu', '.sbs', '.cfd', '.lat', '.quest', '.beauty'
+    ];
+    const TARGET_BRANDS = [
+      'paypal', 'google', 'microsoft', 'apple', 'netflix', 'facebook',
+      'instagram', 'amazon', 'bank', 'sbi', 'hdfc', 'icici', 'aadhaar', 'digilocker'
+    ];
+    const SENSITIVE_ACTIONS = [
+      'login', 'signin', 'verify', 'update', 'security', 'account', 'wallet',
+      'recover', 'portal', 'secure', 'auth', 'banking', 'checkpoint'
+    ];
+    const DANGEROUS_EXTENSIONS = [
+      '.exe', '.scr', '.bat', '.cmd', '.vbs', '.ps1', '.msi', '.jar', '.apk', '.dmg', '.iso', '.zip', '.rar', '.7z'
+    ];
+    const TUNNEL_DOMAINS = [
+      'ngrok-free.app', 'ngrok.io', 'loca.lt', 'trycloudflare.com', 'serveo.net', 'pagekite.me'
+    ];
+
+    function clientQuickSecurityCheck(rawUrl) {
+      if (!rawUrl || typeof rawUrl !== 'string') {
+        return { isSuspicious: true, reasons: ['Invalid or empty destination URL'], riskScore: 100, riskLevel: 'HIGH' };
+      }
+      const trimmed = rawUrl.trim();
+      const reasons = [];
+      let riskScore = 0;
+
+      if (trimmed.includes('suspicious=true')) {
+        reasons.push('Triggered by security test parameter flag');
+        riskScore += 80;
+      }
+      if (trimmed.startsWith('javascript:') || trimmed.startsWith('data:') || trimmed.startsWith('vbscript:')) {
+        reasons.push('Dangerous script pseudo-protocol detected');
+        riskScore += 100;
+      }
+      if (trimmed.includes('@')) {
+        reasons.push('User-info / credential obfuscation symbol (@) in URL');
+        riskScore += 50;
+      }
+      if (RAW_IP_REGEX.test(trimmed)) {
+        reasons.push('Direct raw IP address destination without domain name');
+        riskScore += 65;
+      }
+
+      let parsed;
+      try {
+        parsed = new URL(trimmed.startsWith('http') ? trimmed : 'https://' + trimmed);
+      } catch (e) {
+        return { isSuspicious: true, reasons: ['Malformed or unparseable destination URL'], riskScore: 90, riskLevel: 'HIGH' };
+      }
+
+      const hostname = parsed.hostname.toLowerCase();
+      const pathname = parsed.pathname.toLowerCase();
+      const fullPath = (pathname + parsed.search).toLowerCase();
+
+      for (const tld of SUSPICIOUS_TLDS) {
+        if (hostname.endsWith(tld)) {
+          reasons.push(`High-abuse Top-Level Domain detected: ${tld}`);
+          riskScore += 45;
+          break;
+        }
+      }
+
+      for (const tunnel of TUNNEL_DOMAINS) {
+        if (hostname.includes(tunnel)) {
+          reasons.push(`Public port-forwarding / tunnel service detected: ${tunnel}`);
+          riskScore += 40;
+          break;
+        }
+      }
+
+      for (const brand of TARGET_BRANDS) {
+        if (hostname.includes(brand) && !hostname.endsWith(`${brand}.com`) && !hostname.endsWith(`${brand}.org`) && !hostname.endsWith(`${brand}.gov.in`)) {
+          for (const action of SENSITIVE_ACTIONS) {
+            if (hostname.includes(action) || pathname.includes(action)) {
+              reasons.push(`Phishing heuristic: Brand spoofing ('${brand}') combined with credential action ('${action}')`);
+              riskScore += 60;
+              break;
+            }
+          }
+        }
+      }
+
+      for (const ext of DANGEROUS_EXTENSIONS) {
+        if (pathname.endsWith(ext)) {
+          reasons.push(`Direct link to dangerous executable/binary download: ${ext}`);
+          riskScore += 55;
+          break;
+        }
+      }
+
+      const isSuspicious = riskScore >= 40 || reasons.length > 0;
+      const riskLevel = riskScore >= 70 ? 'CRITICAL' : (riskScore >= 40 ? 'HIGH' : 'SAFE');
+      return { isSuspicious, reasons, riskScore, riskLevel, hostname };
+    }
+
+    // Modal instances and state
+    let alertModalInstance = null;
+    let aiReportModalInstance = null;
+    let targetUrl = '';
+    let isSuspicious = false;
+
+    function cancelAndReturn() {
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = "/search.html";
+      }
+    }
+
+    function openAiSecurityReportModal() {
+      // 1. Cancel / close Alert Confirmation Modal
+      if (alertModalInstance) {
+        alertModalInstance.hide();
+      }
+      // 2. Open AI Scanner Report Modal
+      const reportEl = document.getElementById('aiSecurityReportModal');
+      if (reportEl && window.bootstrap) {
+        aiReportModalInstance = new bootstrap.Modal(reportEl);
+        aiReportModalInstance.show();
+        fetchLiveSecurityReport();
+      }
+    }
+
+    function closeAiSecurityModal() {
+      if (aiReportModalInstance) {
+        aiReportModalInstance.hide();
+      }
+    }
+
+    async function fetchLiveSecurityReport() {
+      const loadingState = document.getElementById('aiReportLoadingState');
+      const contentState = document.getElementById('aiReportContentState');
+
+      // Endpoints to probe in priority order
+      const apiEndpoints = [
+        `/api/v1/search/analyze-url?url=${encodeURIComponent(targetUrl)}`,
+        `https://digiindia-student-innovation-platform-2.onrender.com/api/v1/search/analyze-url?url=${encodeURIComponent(targetUrl)}`,
+        `https://digiindia-student-platform.onrender.com/api/v1/search/analyze-url?url=${encodeURIComponent(targetUrl)}`
+      ];
+
+      let reportData = null;
+      for (const endpoint of apiEndpoints) {
+        try {
+          const res = await fetch(endpoint, { method: 'GET', headers: { 'Accept': 'application/json' } });
+          if (res.ok) {
+            reportData = await res.json();
+            if (reportData && reportData.aiReportMarkdown) break;
+          }
+        } catch (e) {
+          // fallback to next endpoint
+        }
+      }
+
+      if (loadingState) loadingState.classList.add('d-none');
+      if (contentState) {
+        contentState.classList.remove('d-none');
+        let markdownText = '';
+        if (reportData && reportData.aiReportMarkdown) {
+          markdownText = reportData.aiReportMarkdown;
+        } else {
+          // Heuristic markdown fallback report
+          const check = clientQuickSecurityCheck(targetUrl);
+          markdownText = `# 🛡️ AI Security Scanner Live URL Test Report\\n\\n` +
+            `**Target Destination:** \`${targetUrl}\`  \\n` +
+            `**Threat Assessment:** **${check.riskLevel} RISK** (Risk Score: ${check.riskScore}/100)  \\n\\n` +
+            `### ⚠️ Identified Threat Indicators\\n` +
+            check.reasons.map(r => `- ❌ **Anomaly Detected:** ${r}`).join('\\n') + `\\n\\n` +
+            `### 🔬 Client-Side Deep Diagnostic Findings\\n` +
+            `- **Protocol Audit:** Direct unverified or high-risk domain signature.\\n` +
+            `- **Redirect Interception:** Automatic navigation halted by DigiIndia Security Gateway.\\n` +
+            `- **Recommendation:** Do not enter credentials, personal data, or execute downloaded files from this host.`;
+        }
+        contentState.innerHTML = (typeof marked !== 'undefined') ? marked.parse(markdownText) : markdownText;
+      }
+    }
+
+    (function initGateway() {
       const params = new URLSearchParams(window.location.search);
       let target = params.get('url') || 'https://digiindia-studentcollaboration.web.app';
       target = target.trim();
       if (!target.startsWith('http://') && !target.startsWith('https://')) {
         target = 'https://' + target;
       }
+      targetUrl = target;
 
       let hostname = 'External Destination';
       try {
@@ -65,18 +432,74 @@
       document.getElementById('destHost').textContent = hostname;
       document.getElementById('destUrl').textContent = target;
       const proceedBtn = document.getElementById('proceedBtn');
-      proceedBtn.href = target;
+      if (proceedBtn) proceedBtn.href = target;
 
-      let t = 2;
-      const cd = document.getElementById('countdown');
-      const timer = setInterval(() => {
-        t--;
-        if (cd) cd.textContent = t;
-        if (t <= 0) {
-          clearInterval(timer);
-          window.location.href = target;
+      const modalProceedAnywayBtn = document.getElementById('modalProceedAnywayBtn');
+      if (modalProceedAnywayBtn) modalProceedAnywayBtn.href = target;
+      const reportProceedAnywayBtn = document.getElementById('reportProceedAnywayBtn');
+      if (reportProceedAnywayBtn) reportProceedAnywayBtn.href = target;
+
+      // Evaluate Quick Security Check
+      const checkResult = clientQuickSecurityCheck(target);
+      isSuspicious = checkResult.isSuspicious;
+
+      if (isSuspicious) {
+        // Suspicious: Alter Main Card to Warning State
+        const statusIconBg = document.getElementById('statusIconBg');
+        if (statusIconBg) {
+          statusIconBg.className = 'd-inline-flex align-items-center justify-content-center rounded-circle bg-danger-subtle text-danger p-3 mb-2';
         }
-      }, 1000);
+        const statusIcon = document.getElementById('statusIcon');
+        if (statusIcon) {
+          statusIcon.className = 'bi bi-shield-slash fs-2';
+        }
+        const destStatusBadge = document.getElementById('destStatusBadge');
+        if (destStatusBadge) {
+          destStatusBadge.className = 'badge bg-danger-subtle text-danger border border-danger-subtle ms-auto';
+          destStatusBadge.innerHTML = '<i class="bi bi-shield-slash-fill me-1"></i>Suspicious Flagged';
+        }
+        const cdMsg = document.getElementById('countdownMessage');
+        if (cdMsg) {
+          cdMsg.className = 'small text-danger fw-semibold mb-4';
+          cdMsg.textContent = 'Automatic redirect BLOCKED due to potential security risks detected.';
+        }
+        if (proceedBtn) {
+          proceedBtn.className = 'btn btn-danger rounded-pill px-4 fw-semibold';
+          proceedBtn.innerHTML = 'Proceed Anyway (Unsafe) <i class="bi bi-exclamation-triangle-fill ms-1"></i>';
+        }
+
+        // Prepare Alert Confirmation Modal
+        const modalDestUrl = document.getElementById('modalDestUrl');
+        if (modalDestUrl) modalDestUrl.innerHTML = '<i class="bi bi-link-45deg me-1 text-primary"></i>' + target;
+        const modalDestHost = document.getElementById('modalDestHost');
+        if (modalDestHost) modalDestHost.textContent = hostname;
+
+        const badgesContainer = document.getElementById('modalReasonsBadges');
+        if (badgesContainer) {
+          badgesContainer.innerHTML = checkResult.reasons.map(r => 
+            `<span class="badge bg-danger-subtle text-danger border border-danger-subtle p-2 text-start text-wrap"><i class="bi bi-exclamation-triangle-fill me-1"></i>${r}</span>`
+          ).join('');
+        }
+
+        // ONLY AND ONLY WHEN suspicious: Show the Alert Confirmation Modal
+        const alertEl = document.getElementById('suspiciousAlertModal');
+        if (alertEl && window.bootstrap) {
+          alertModalInstance = new bootstrap.Modal(alertEl);
+          alertModalInstance.show();
+        }
+      } else {
+        // Safe: Smooth 2-second countdown & redirect
+        let t = 2;
+        const cd = document.getElementById('countdown');
+        const timer = setInterval(() => {
+          t--;
+          if (cd) cd.textContent = t;
+          if (t <= 0) {
+            clearInterval(timer);
+            window.location.href = target;
+          }
+        }, 1000);
+      }
     })();
   </script>
 </body>

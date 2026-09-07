@@ -205,10 +205,116 @@
         initClickListener();
     }
 
+    // Predefined regex and security suite for quick client evaluation
+    var RAW_IP_REGEX = /^(?:https?:\/\/)?(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?(?:[\/?#]|$)/i;
+    var SUSPICIOUS_TLDS = [
+        '.xyz', '.top', '.tk', '.ml', '.ga', '.cf', '.gq', '.buzz', '.fit', '.rest',
+        '.work', '.click', '.link', '.stream', '.cam', '.live', '.loan', '.racing',
+        '.surf', '.monster', '.icu', '.sbs', '.cfd', '.lat', '.quest', '.beauty'
+    ];
+    var TARGET_BRANDS = [
+        'paypal', 'google', 'microsoft', 'apple', 'netflix', 'facebook',
+        'instagram', 'amazon', 'bank', 'sbi', 'hdfc', 'icici', 'aadhaar', 'digilocker'
+    ];
+    var SENSITIVE_ACTIONS = [
+        'login', 'signin', 'verify', 'update', 'security', 'account', 'wallet',
+        'recover', 'portal', 'secure', 'auth', 'banking', 'checkpoint'
+    ];
+    var DANGEROUS_EXTENSIONS = [
+        '.exe', '.scr', '.bat', '.cmd', '.vbs', '.ps1', '.msi', '.jar', '.apk', '.dmg', '.iso', '.zip', '.rar', '.7z'
+    ];
+    var TUNNEL_DOMAINS = [
+        'ngrok-free.app', 'ngrok.io', 'loca.lt', 'trycloudflare.com', 'serveo.net', 'pagekite.me'
+    ];
+
+    function quickSecurityCheck(rawUrl) {
+        if (!rawUrl || typeof rawUrl !== 'string') {
+            return { isSuspicious: true, reasons: ['Invalid destination URL'], riskScore: 100, riskLevel: 'HIGH' };
+        }
+        var trimmed = rawUrl.trim();
+        var reasons = [];
+        var riskScore = 0;
+
+        if (trimmed.includes('suspicious=true')) {
+            reasons.push('Triggered by security test parameter flag');
+            riskScore += 80;
+        }
+        if (trimmed.startsWith('javascript:') || trimmed.startsWith('data:') || trimmed.startsWith('vbscript:')) {
+            reasons.push('Dangerous script pseudo-protocol detected');
+            riskScore += 100;
+        }
+        if (trimmed.includes('@')) {
+            reasons.push('User-info / credential obfuscation symbol (@) in URL');
+            riskScore += 50;
+        }
+        if (RAW_IP_REGEX.test(trimmed)) {
+            reasons.push('Direct raw IP address destination');
+            riskScore += 65;
+        }
+
+        var parsed;
+        try {
+            parsed = new URL(trimmed.startsWith('http') ? trimmed : 'https://' + trimmed);
+        } catch (e) {
+            return { isSuspicious: true, reasons: ['Malformed destination URL'], riskScore: 90, riskLevel: 'HIGH' };
+        }
+
+        var hostname = (parsed.hostname || '').toLowerCase();
+        var pathname = (parsed.pathname || '').toLowerCase();
+
+        for (var i = 0; i < SUSPICIOUS_TLDS.length; i++) {
+            if (hostname.endsWith(SUSPICIOUS_TLDS[i])) {
+                reasons.push('High-abuse Top-Level Domain: ' + SUSPICIOUS_TLDS[i]);
+                riskScore += 45;
+                break;
+            }
+        }
+
+        for (var j = 0; j < TUNNEL_DOMAINS.length; j++) {
+            if (hostname.includes(TUNNEL_DOMAINS[j])) {
+                reasons.push('Public tunnel service: ' + TUNNEL_DOMAINS[j]);
+                riskScore += 40;
+                break;
+            }
+        }
+
+        for (var k = 0; k < TARGET_BRANDS.length; k++) {
+            var brand = TARGET_BRANDS[k];
+            if (hostname.includes(brand) && !hostname.endsWith(brand + '.com') && !hostname.endsWith(brand + '.org') && !hostname.endsWith(brand + '.gov.in')) {
+                for (var l = 0; l < SENSITIVE_ACTIONS.length; l++) {
+                    var action = SENSITIVE_ACTIONS[l];
+                    if (hostname.includes(action) || pathname.includes(action)) {
+                        reasons.push('Phishing heuristic: Brand ' + brand + ' combined with ' + action);
+                        riskScore += 60;
+                        break;
+                    }
+                }
+            }
+        }
+
+        for (var m = 0; m < DANGEROUS_EXTENSIONS.length; m++) {
+            if (pathname.endsWith(DANGEROUS_EXTENSIONS[m])) {
+                reasons.push('Direct executable binary download: ' + DANGEROUS_EXTENSIONS[m]);
+                riskScore += 55;
+                break;
+            }
+        }
+
+        var isSuspicious = riskScore >= 40 || reasons.length > 0;
+        var riskLevel = riskScore >= 70 ? 'CRITICAL' : (riskScore >= 40 ? 'HIGH' : 'SAFE');
+        return { isSuspicious: isSuspicious, reasons: reasons, riskScore: riskScore, riskLevel: riskLevel, hostname: hostname };
+    }
+
+    function isSuspiciousUrl(rawUrl) {
+        return quickSecurityCheck(rawUrl).isSuspicious;
+    }
+
     // Expose API on window for programmatic usage
     window.LinkHandler = {
         wrapUrl: wrapRedirectUrl,
         isExternal: isExternalUrl,
+        quickSecurityCheck: quickSecurityCheck,
+        isSuspiciousUrl: isSuspiciousUrl,
         processAllLinks: function (node) {
             processAllLinks(node || document);
         },

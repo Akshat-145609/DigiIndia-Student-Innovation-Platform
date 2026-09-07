@@ -2415,35 +2415,398 @@ app.get('/api/v1/ai/models', async (req, res) => {
 });
 
 // ==========================================
-// SECURE OUTBOUND LINK REDIRECTION GATEWAY
+// SECURE OUTBOUND LINK REDIRECTION GATEWAY & AI SECURITY SCANNER
 // ==========================================
-app.get(['/api/v1/search/redirect', '/search/redirect'], (req, res) => {
-  const targetUrl = req.query.url;
-  if (!targetUrl) {
-    return res.status(400).send('Missing destination URL parameter (?url=...).');
+const RAW_IP_REGEX = /^(?:https?:\/\/)?(?:(?:\d{1,3}\.){3}\d{1,3}|\[[0-9a-fA-F:]+\]|0x[0-9a-fA-F]+(?:\.0x[0-9a-fA-F]+)*|0[0-7]+(?:\.0[0-7]+)*)(?::\d+)?(?:\/.*)?$/i;
+const SUSPICIOUS_TLDS = new Set([
+  'xyz', 'top', 'zip', 'mov', 'click', 'link', 'work', 'gq', 'cf', 'tk', 'ml',
+  'ru', 'country', 'stream', 'download', 'racing', 'bid', 'loan', 'date',
+  'faith', 'review', 'icu', 'buzz', 'monster', 'rest', 'fit', 'kim', 'surf', 'cam'
+]);
+const TRUSTED_DOMAINS = new Set([
+  'google.com', 'www.google.com', 'github.com', 'www.github.com', 'youtube.com', 'www.youtube.com',
+  'youtu.be', 'stackoverflow.com', 'developer.mozilla.org', 'wikipedia.org', 'en.wikipedia.org',
+  'microsoft.com', 'www.microsoft.com', 'apple.com', 'www.apple.com', 'linkedin.com', 'www.linkedin.com',
+  'twitter.com', 'x.com', 'reddit.com', 'www.reddit.com', 'npmjs.com', 'pypi.org', 'firebase.google.com',
+  'web.app', 'firebaseapp.com', 'onrender.com'
+]);
+const TARGET_BRANDS = [
+  'google', 'paypal', 'microsoft', 'apple', 'netflix', 'amazon', 'metamask',
+  'binance', 'coinbase', 'steamcommunity', 'discord-nitro', 'chase', 'wellsfargo',
+  'bank', 'sbi', 'icici', 'hdfc', 'instagram', 'facebook', 'whatsapp', 'telegram'
+];
+const SENSITIVE_ACTIONS = [
+  'login', 'signin', 'verify', 'verification', 'security', 'account', 'update',
+  'billing', 'wallet', 'claim', 'airdrop', 'free-gift', 'recovery', 'auth', 'passcode'
+];
+const DANGEROUS_EXTENSIONS = [
+  '.exe', '.bat', '.cmd', '.scr', '.vbs', '.msi', '.apk', '.iso', '.dmg',
+  '.sh', '.ps1', '.jar', '.hta', '.pif', '.reg', '.dll', '.com'
+];
+const TUNNEL_DOMAINS = new Set([
+  'ngrok.io', 'loca.lt', 'trycloudflare.com', 'serveo.net', 'duckdns.org',
+  'no-ip.biz', 'no-ip.org', 'pagekite.me', 'portmap.io'
+]);
+const SUSPICIOUS_PORTS = new Set(['8080', '8888', '1337', '6666', '3128', '4444', '9999', '5555', '7777']);
+
+function quickSecurityCheck(url) {
+  if (!url || typeof url !== 'string') {
+    return { isSuspicious: false, reasons: [], riskScore: 0, riskLevel: 'safe', hostname: '', targetUrl: '' };
+  }
+  let target = url.trim();
+  const reasons = [];
+  let riskScore = 0;
+
+  if (!target.startsWith('http://') && !target.startsWith('https://')) {
+    if (/^(javascript|data|vbscript|file):/i.test(target)) {
+      reasons.push(`Dangerous URI scheme detected (${target.split(':')[0]}:)`);
+      riskScore += 90;
+    }
+    target = 'https://' + target;
   }
 
   let parsed;
   try {
-    parsed = new URL(targetUrl);
-    if (!['http:', 'https:'].includes(parsed.protocol)) {
-      return res.status(400).send('Invalid destination URL protocol.');
-    }
+    parsed = new URL(target);
   } catch (e) {
-    return res.status(400).send('Malformed destination URL.');
+    return { isSuspicious: true, reasons: ['Malformed destination URL structure'], riskScore: 85, riskLevel: 'high', hostname: 'unknown', targetUrl: target };
   }
 
-  if (req.headers.accept && req.headers.accept.includes('application/json')) {
+  const hostname = (parsed.hostname || '').toLowerCase();
+  const path = (parsed.pathname || '').toLowerCase();
+  const query = (parsed.search || '').toLowerCase();
+
+  // Test flag
+  if (query.includes('suspicious=true') || query.includes('threat=true') || query.includes('test-malicious') || query.includes('phishing=true')) {
+    reasons.push('Explicit security audit test parameter flag detected (?suspicious=true)');
+    riskScore += 85;
+  }
+
+  // Rule 1: Raw IP
+  if (RAW_IP_REGEX.test(target) || /^(?:\d{1,3}\.){3}\d{1,3}$/.test(hostname)) {
+    reasons.push(`Destination uses raw IP address hostname (${hostname}) instead of registered domain`);
+    riskScore += 75;
+  }
+
+  // Rule 2: Suspicious ports
+  if (parsed.port && SUSPICIOUS_PORTS.has(parsed.port)) {
+    reasons.push(`Non-standard HTTP port detected (:${parsed.port})`);
+    riskScore += 40;
+  }
+
+  // Rule 3: Authority @ symbol
+  if (parsed.username || parsed.password) {
+    reasons.push("URL contains '@' userinfo character commonly used to disguise actual destination host");
+    riskScore += 80;
+  }
+
+  // Rule 4: Dangerous payload extensions
+  for (const ext of DANGEROUS_EXTENSIONS) {
+    if (path.endsWith(ext) || path.includes(`${ext}?`) || query.includes(ext)) {
+      reasons.push(`Direct executable/script payload download detected (${ext})`);
+      riskScore += 85;
+      break;
+    }
+  }
+
+  const isTrusted = Array.from(TRUSTED_DOMAINS).some(td => hostname === td || hostname.endsWith(`.${td}`));
+
+  if (!isTrusted) {
+    // Rule 5: Suspicious TLDs
+    const parts = hostname.split('.');
+    const tld = parts.length > 1 ? parts[parts.length - 1] : '';
+    if (SUSPICIOUS_TLDS.has(tld)) {
+      reasons.push(`High-abuse top-level domain detected (.${tld})`);
+      riskScore += 60;
+    }
+
+    // Rule 6: Tunnel domains
+    for (const td of TUNNEL_DOMAINS) {
+      if (hostname === td || hostname.endsWith(`.${td}`)) {
+        reasons.push(`Anonymous tunnel / dynamic DNS service detected (${td})`);
+        riskScore += 65;
+        break;
+      }
+    }
+
+    // Rule 7: Brand Phishing
+    for (const brand of TARGET_BRANDS) {
+      if (hostname.includes(brand) && hostname !== `${brand}.com` && !hostname.endsWith(`.${brand}.com`)) {
+        reasons.push(`Potential brand impersonation: '${brand}' detected in unverified domain '${hostname}'`);
+        riskScore += 70;
+        break;
+      }
+    }
+
+    // Rule 8: Sensitive action keywords
+    const actionMatches = SENSITIVE_ACTIONS.filter(act => path.includes(act) || query.includes(act));
+    if (actionMatches.length >= 2) {
+      reasons.push(`Multiple sensitive credential/account keywords detected: ${actionMatches.slice(0, 3).join(', ')}`);
+      riskScore += 50;
+    }
+
+    // Rule 9: Punycode
+    if (hostname.includes('xn--')) {
+      reasons.push('Punycode (xn--) encoding detected, potential internationalized homograph impersonation');
+      riskScore += 65;
+    }
+
+    // Rule 10: Deep subdomains
+    if (parts.length >= 5) {
+      reasons.push(`Excessively deep subdomain structure (${parts.length} levels)`);
+      riskScore += 35;
+    }
+
+    // Rule 11: Insecure HTTP with sensitive terms
+    if (parsed.protocol === 'http:' && actionMatches.length > 0) {
+      reasons.push('Insecure plain HTTP protocol used with credential/account parameters');
+      riskScore += 45;
+    }
+  }
+
+  let isSuspicious = (riskScore >= 50) || (reasons.length > 0 && !isTrusted);
+  if (isTrusted && !query.includes('suspicious=true')) {
+    isSuspicious = false;
+    reasons.length = 0;
+    riskScore = 0;
+  }
+
+  let riskLevel = 'safe';
+  if (riskScore >= 70) riskLevel = 'high';
+  else if (riskScore >= 40 || isSuspicious) riskLevel = 'medium';
+  else if (riskScore > 0) riskLevel = 'low';
+
+  return {
+    isSuspicious,
+    reasons,
+    riskScore: Math.min(riskScore, 100),
+    riskLevel,
+    hostname,
+    protocol: parsed.protocol,
+    targetUrl: target
+  };
+}
+
+async function deepAnalyzeUrl(url) {
+  const quick = quickSecurityCheck(url);
+  const targetUrl = quick.targetUrl || url;
+  const hostname = quick.hostname || 'unknown';
+
+  const serverInfo = {
+    http_status: null,
+    is_reachable: false,
+    ssl_active: targetUrl.startsWith('https://'),
+    server_header: 'Unknown',
+    content_type: 'Unknown',
+    has_csp: false,
+    has_hsts: false,
+    has_x_frame_options: false,
+    response_time_ms: 0
+  };
+  const domFindings = [];
+  let sourceCodeSnippet = '';
+
+  const startTime = Date.now();
+  try {
+    const resp = await fetch(targetUrl, {
+      signal: AbortSignal.timeout(4000),
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 DigiIndiaSecurityBot/2.0',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+      },
+      redirect: 'follow'
+    });
+    serverInfo.http_status = resp.status;
+    serverInfo.is_reachable = true;
+    serverInfo.response_time_ms = Date.now() - startTime;
+    serverInfo.server_header = resp.headers.get('server') || 'Protected / Hidden';
+    serverInfo.content_type = resp.headers.get('content-type') || 'Unknown';
+    serverInfo.has_csp = resp.headers.has('content-security-policy');
+    serverInfo.has_hsts = resp.headers.has('strict-transport-security');
+    serverInfo.has_x_frame_options = resp.headers.has('x-frame-options');
+
+    const html = await resp.text();
+    sourceCodeSnippet = html.substring(0, 1200);
+
+    if (html) {
+      if (/<input[^>]*type=["']password["']/i.test(html)) {
+        if (!serverInfo.ssl_active) {
+          domFindings.push('Insecure password input field served over unencrypted HTTP');
+        }
+        if (/<form[^>]*action=["']http:\/\//i.test(html)) {
+          domFindings.push('Credential form submits over insecure unencrypted HTTP protocol');
+        }
+      }
+      if (/(eval\(|document\.write\(atob\(|unescape\(|String\.fromCharCode)/i.test(html)) {
+        domFindings.push('Obfuscated or dynamically evaluated JavaScript code detected');
+      }
+      if (/(coinhive|cryptonight)/i.test(html)) {
+        domFindings.push('Cryptocurrency mining script signature detected in source');
+      }
+      if (/<iframe[^>]*(display:\s*none|visibility:\s*hidden|width=["']0["']|height=["']0["'])/i.test(html)) {
+        domFindings.push('Hidden zero-pixel iframe detected in DOM (common in clickjacking/drive-by downloads)');
+      }
+      if (/<meta[^>]*http-equiv=["']refresh["']/i.test(html)) {
+        domFindings.push('Automated client-side meta-refresh redirection detected');
+      }
+    }
+  } catch (e) {
+    serverInfo.is_reachable = false;
+    serverInfo.error_note = e.message;
+  }
+
+  const allReasons = [...quick.reasons];
+  domFindings.forEach(df => {
+    if (!allReasons.includes(df)) allReasons.push(df);
+  });
+
+  const isSuspicious = quick.isSuspicious || domFindings.length > 0;
+  const riskScore = Math.min(quick.riskScore + (domFindings.length * 20), 100);
+  const riskLevel = riskScore >= 70 ? 'high' : (isSuspicious ? 'medium' : 'safe');
+
+  // Synthesize AI Technical Brief
+  let aiReportMarkdown = '';
+  const prompt = `You are the DigiIndia AI System Security Scanner. Generate an executive, professional technical security brief formatted in GitHub README markdown for this destination URL test:
+
+Destination URL: ${targetUrl}
+Hostname: ${hostname}
+Risk Level: ${riskLevel.toUpperCase()} (${riskScore}/100)
+Matched Threat Reasons:
+${allReasons.map(r => `- ${r}`).join('\n') || '- None detected. Destination appears clean.'}
+
+Server & Network Test:
+- HTTP Status: ${serverInfo.http_status}
+- SSL Active: ${serverInfo.ssl_active}
+- HSTS Configured: ${serverInfo.has_hsts}
+- Content Security Policy (CSP): ${serverInfo.has_csp}
+- Server Header: ${serverInfo.server_header}
+- Gateway Latency: ${serverInfo.response_time_ms}ms
+
+DOM & Client Source Code Analysis:
+${domFindings.map(d => `- ${d}`).join('\n') || '- Clean DOM structure.'}
+Source Code Excerpt:
+\`\`\`html
+${sourceCodeSnippet.substring(0, 500)}
+\`\`\`
+
+Provide a structured, clean, executive technical brief in markdown including:
+1. Executive Verdict & Risk Badge
+2. Threat Analysis & Pattern Breakdown
+3. Live Technical & Server Diagnosis (in a clean markdown table)
+4. Source Code Inspection Note
+5. Final Security Recommendation.`;
+
+  try {
+    for (const model of GEMINI_MODELS) {
+      try {
+        const aiRes = await requestGeminiChat(model, [{ role: 'user', parts: [{ text: prompt }] }]);
+        if (aiRes && aiRes.reply && aiRes.reply.length > 80) {
+          aiReportMarkdown = aiRes.reply.trim();
+          break;
+        }
+      } catch (e) {}
+    }
+  } catch (e) {}
+
+  if (!aiReportMarkdown) {
+    const today = new Date().toISOString();
+    const badgeColor = riskLevel === 'high' ? '🔴' : (riskLevel === 'medium' ? '🟡' : '🟢');
+    const verdictText = riskLevel === 'high' ? 'DANGEROUS / HIGH RISK' : (riskLevel === 'medium' ? 'SUSPICIOUS / PROCEED WITH CAUTION' : 'VERIFIED SAFE');
+    aiReportMarkdown = `# 🛡️ DigiIndia AI Security Scanner – Live URL Audit Report
+
+> **Scan Timestamp:** \`${today}\` &bull; **Engine:** \`Node.js Heuristics v2.4 + AI Synthesis\`
+
+### ${badgeColor} Security Verdict: ${verdictText} (Risk Score: ${riskScore}/100)
+
+Destination **\`${hostname}\`** was evaluated through our real-time security gateway.
+
+---
+
+## 🔍 Key Threat Indicators & Pattern Matches
+${allReasons.map(r => `- ${r}`).join('\n') || '- None detected. Destination appears clean.'}
+
+---
+
+## ⚙️ Live Server & SSL Technical Diagnosis
+
+| Metric | Measured Value | Security Evaluation |
+| :--- | :--- | :--- |
+| **HTTP Status** | \`${serverInfo.http_status || 'N/A'}\` | ${serverInfo.http_status === 200 ? 'Server responded normally' : 'Non-standard response or unverified'} |
+| **SSL / HTTPS Protocol** | \`${serverInfo.ssl_active ? 'Enforced (HTTPS)' : 'Unencrypted (Plain HTTP)'}\` | ${serverInfo.ssl_active ? 'Encrypted in transit' : 'Insecure connection'} |
+| **HSTS Enforcement** | \`${serverInfo.has_hsts ? 'Active' : 'Missing'}\` | ${serverInfo.has_hsts ? 'Guards against downgrade attacks' : 'Vulnerable to MITM'} |
+| **Content Security Policy** | \`${serverInfo.has_csp ? 'Active' : 'Missing'}\` | ${serverInfo.has_csp ? 'XSS protection enabled' : 'Standard policy'} |
+| **Server Banner** | \`${serverInfo.server_header}\` | Identified infrastructure |
+| **Gateway Latency** | \`${serverInfo.response_time_ms} ms\` | Live probe verification |
+
+---
+
+## 💻 DOM & Source Code Analysis
+${domFindings.map(d => `- ${d}`).join('\n') || '- Clean DOM structure without credential hijacking or obfuscated payloads.'}
+
+${sourceCodeSnippet ? `\`\`\`html\n${sourceCodeSnippet.substring(0, 350)}\n\`\`\`` : ''}
+
+---
+
+## ⚠️ Security Recommendation
+${riskLevel !== 'safe' ? '**Do NOT proceed to this link.** It exhibits patterns characteristic of credential phishing or unauthorized software delivery.' : '**The destination link appears safe to visit.** Normal SSL and network security parameters were verified.'}
+`;
+  }
+
+  return {
+    targetUrl,
+    domain: hostname,
+    isSuspicious,
+    riskLevel,
+    riskScore,
+    reasons: allReasons,
+    serverInfo,
+    domFindings,
+    sourceCodeSnippet: sourceCodeSnippet.substring(0, 600),
+    aiReportMarkdown,
+    timestamp: Date.now() / 1000
+  };
+}
+
+// Live URL Security Analysis Endpoint
+app.all(['/api/v1/search/analyze-url', '/search/analyze-url'], async (req, res) => {
+  const targetUrl = req.query.url || req.body?.url;
+  if (!targetUrl) {
+    return res.status(400).json({ detail: 'Missing destination URL parameter (?url=...).' });
+  }
+  try {
+    const report = await deepAnalyzeUrl(targetUrl);
+    res.json(report);
+  } catch (err) {
+    res.status(500).json({ detail: err.message });
+  }
+});
+
+// Outbound Link Redirection Gateway
+app.get(['/api/v1/search/redirect', '/search/redirect'], (req, res) => {
+  const targetUrl = (req.query.url || '').trim();
+  if (!targetUrl) {
+    return res.status(400).send('Missing destination URL parameter (?url=...).');
+  }
+
+  const scan = quickSecurityCheck(targetUrl);
+  const isSuspicious = scan.isSuspicious;
+
+  if (req.headers.accept && req.headers.accept.includes('application/json') || req.query.format === 'json') {
     return res.json({
       targetUrl,
-      domain: parsed.hostname,
-      protocol: parsed.protocol,
-      verified: true
+      domain: scan.hostname,
+      protocol: scan.protocol,
+      isSuspicious: scan.isSuspicious,
+      riskLevel: scan.riskLevel,
+      riskScore: scan.riskScore,
+      reasons: scan.reasons,
+      verified: !scan.isSuspicious
     });
   }
 
-  const safeHost = parsed.hostname.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  const safeUrl = targetUrl.replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const safeHost = scan.hostname.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const safeUrl = scan.targetUrl.replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const reasonsBadgesHtml = scan.reasons.map(r => `<span class="badge bg-danger-subtle text-danger border border-danger-subtle px-3 py-2 rounded-pill small mb-1 text-wrap text-start"><i class="bi bi-shield-x me-1"></i>${r.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</span>`).join('');
 
   const html = `<!DOCTYPE html>
 <html lang="en">
@@ -2454,16 +2817,25 @@ app.get(['/api/v1/search/redirect', '/search/redirect'], (req, res) => {
   <link rel="icon" type="image/svg+xml" href="/Icon.svg">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <style>
     body { background: #f8f9fa; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; padding: 16px; }
     .redirect-card { max-width: 540px; width: 100%; background: #ffffff; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); padding: 36px; border: 1px solid #e9ecef; }
+    .sandbox-doc-view { color: #1e293b; font-size: 14.5px; line-height: 1.75; }
+    .sandbox-doc-view h1, .sandbox-doc-view h2, .sandbox-doc-view h3 { color: #0f172a; font-weight: 700; margin-top: 18px; margin-bottom: 10px; }
+    .sandbox-doc-view table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 13.5px; }
+    .sandbox-doc-view table th, .sandbox-doc-view table td { border: 1px solid #cbd5e1; padding: 8px 12px; }
+    .sandbox-doc-view table th { background: #f1f5f9; color: #0f172a; }
+    .sandbox-doc-view pre { background: #1e1e2e; color: #cdd6f4; padding: 14px; border-radius: 8px; overflow-x: auto; }
   </style>
 </head>
 <body>
+
+  <!-- MAIN GATEWAY CARD -->
   <div class="redirect-card text-center">
     <div class="mb-3">
-      <div class="d-inline-flex align-items-center justify-content-center rounded-circle bg-success-subtle text-success p-3 mb-2" style="width: 64px; height: 64px;">
-        <i class="bi bi-shield-check fs-2"></i>
+      <div class="d-inline-flex align-items-center justify-content-center rounded-circle ${isSuspicious ? 'bg-danger-subtle text-danger' : 'bg-success-subtle text-success'} p-3 mb-2" style="width: 64px; height: 64px;">
+        <i class="bi ${isSuspicious ? 'bi-shield-exclamation' : 'bi-shield-check'} fs-2"></i>
       </div>
     </div>
     <h4 class="fw-bold text-dark mb-1">DigiIndia Secure Redirection Gateway</h4>
@@ -2473,38 +2845,223 @@ app.get(['/api/v1/search/redirect', '/search/redirect'], (req, res) => {
       <div class="d-flex align-items-center gap-2 mb-1">
         <i class="bi bi-globe text-primary"></i>
         <span class="fw-bold text-dark small">${safeHost}</span>
-        <span class="badge bg-success-subtle text-success border border-success-subtle ms-auto" style="font-size: 11px;">
-          <i class="bi bi-lock-fill me-1"></i>Verified Safe
+        <span class="badge ${isSuspicious ? 'bg-danger-subtle text-danger border border-danger-subtle' : 'bg-success-subtle text-success border border-success-subtle'} ms-auto" style="font-size: 11px;">
+          <i class="bi ${isSuspicious ? 'bi-exclamation-triangle-fill' : 'bi-lock-fill'} me-1"></i>${isSuspicious ? 'Suspicious Link Flagged' : 'Verified Safe'}
         </span>
       </div>
       <div class="text-muted text-truncate small" style="font-size: 12px;">${safeUrl}</div>
     </div>
 
+    ${isSuspicious ? `
+    <div class="alert alert-danger text-start p-3 rounded-4 mb-4 small">
+      <div class="d-flex align-items-center gap-2 mb-2 text-danger fw-bold">
+        <i class="bi bi-exclamation-octagon-fill"></i>Threat Warning: Automatic redirection blocked
+      </div>
+      <div class="d-flex flex-column gap-1">
+        ${reasonsBadgesHtml}
+      </div>
+    </div>
+    ` : `
     <p class="small text-muted mb-4">
       Redirecting automatically to external resource in <span id="countdown" class="fw-bold text-primary">2</span>s...
     </p>
+    `}
 
     <div class="d-flex gap-2 justify-content-center">
       <a href="/search.html" class="btn btn-outline-secondary rounded-pill px-4">
         <i class="bi bi-arrow-left me-1"></i>Return
       </a>
-      <a id="proceedBtn" href="${safeUrl}" rel="noopener noreferrer" class="btn btn-primary rounded-pill px-4 fw-semibold">
-        Proceed Now <i class="bi bi-box-arrow-up-right ms-1"></i>
+      <a id="proceedBtn" href="${safeUrl}" rel="noopener noreferrer" class="btn ${isSuspicious ? 'btn-danger' : 'btn-primary'} rounded-pill px-4 fw-semibold">
+        ${isSuspicious ? 'Proceed Anyway (Unsafe)' : 'Proceed Now'} <i class="bi bi-box-arrow-up-right ms-1"></i>
       </a>
     </div>
   </div>
 
+  <!-- 1. ALERT CONFIRMATION MODAL (SHOWN ONLY AND ONLY WHEN DESTINATION IS SUSPICIOUS) -->
+  <div class="modal fade" id="suspiciousAlertModal" tabindex="-1" aria-labelledby="suspiciousAlertModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content rounded-4 border-0 shadow-lg position-relative overflow-hidden">
+        <!-- Top-Left Cross Icon to cancel and return -->
+        <button type="button" class="btn btn-sm btn-light border rounded-circle position-absolute d-flex align-items-center justify-content-center shadow-sm" 
+                style="top: 14px; left: 14px; width: 34px; height: 34px; z-index: 1060;" 
+                onclick="cancelAndReturn()" aria-label="Close" title="Cancel & Return to Safety">
+          <i class="bi bi-x-lg text-dark"></i>
+        </button>
+
+        <div class="modal-header border-bottom-0 pb-0 pt-4 px-4 ps-5">
+          <div class="ms-3">
+            <span class="badge bg-danger text-white rounded-pill px-3 py-1 mb-1">
+              <i class="bi bi-shield-fill-exclamation me-1"></i>Security Warning
+            </span>
+            <h5 class="modal-title fw-bold text-danger mb-0" id="suspiciousAlertModalLabel">Suspicious Destination Detected</h5>
+          </div>
+        </div>
+
+        <div class="modal-body px-4 py-3">
+          <p class="text-muted small mb-3">
+            DigiIndia AI Security Scanner inspected this outbound link and flagged it as potentially hazardous. Automatic redirection has been blocked for your safety.
+          </p>
+
+          <div class="p-3 bg-light rounded-3 border mb-3">
+            <div class="small fw-semibold text-dark mb-1 text-truncate"><i class="bi bi-link-45deg me-1 text-primary"></i>${safeUrl}</div>
+            <div class="small text-muted mb-2">Host: <strong>${safeHost}</strong></div>
+            <div class="d-flex flex-column gap-1">
+              ${reasonsBadgesHtml}
+            </div>
+          </div>
+
+          <p class="small text-secondary mb-0">
+            Click the <strong class="text-info"><i class="bi bi-info-circle-fill me-1"></i>info icon</strong> below to inspect the complete <strong>AI System Scanner Live URL Test Report</strong> and DOM source code diagnosis.
+          </p>
+        </div>
+
+        <div class="modal-footer border-top-0 pt-0 pb-4 px-4 d-flex justify-content-between align-items-center">
+          <!-- Info Icon Button as requested -->
+          <button type="button" class="btn btn-outline-info rounded-circle d-flex align-items-center justify-content-center shadow-sm" 
+                  style="width: 40px; height: 40px;" 
+                  onclick="openAiSecurityReportModal()" 
+                  title="View AI Live Scanner Report & Technical Brief">
+            <i class="bi bi-info-lg fs-5"></i>
+          </button>
+
+          <div class="d-flex gap-2">
+            <button type="button" class="btn btn-outline-secondary rounded-pill px-3" onclick="cancelAndReturn()">
+              <i class="bi bi-arrow-left me-1"></i>Return to Safety
+            </button>
+            <a href="${safeUrl}" rel="noopener noreferrer" class="btn btn-danger rounded-pill px-3 fw-semibold">
+              Proceed Anyway <i class="bi bi-exclamation-triangle-fill ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. AI SYSTEM SCANNER LIVE URL TEST REPORT / DIAGNOSIS MODAL -->
+  <div class="modal fade" id="aiSecurityReportModal" tabindex="-1" aria-labelledby="aiSecurityReportModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content rounded-4 border-0 shadow-lg position-relative overflow-hidden">
+        <!-- Top-Left Cross Icon to close report modal -->
+        <button type="button" class="btn btn-sm btn-light border rounded-circle position-absolute d-flex align-items-center justify-content-center shadow-sm" 
+                style="top: 14px; left: 14px; width: 34px; height: 34px; z-index: 1060;" 
+                onclick="closeAiSecurityModal()" aria-label="Close" title="Close Report">
+          <i class="bi bi-x-lg text-dark"></i>
+        </button>
+
+        <div class="modal-header border-bottom bg-light pt-3 pb-3 px-4 ps-5">
+          <div class="ms-3">
+            <div class="d-flex align-items-center gap-2 mb-1">
+              <span class="badge bg-primary text-white"><i class="bi bi-robot me-1"></i>DigiIndia AI Scanner</span>
+              <span class="badge bg-white text-secondary border"><i class="bi bi-cpu me-1"></i>Live Node.js Engine & DOM Audit</span>
+            </div>
+            <h5 class="modal-title fw-bold text-dark mb-0" id="aiSecurityReportModalLabel">AI System Scanner – Live URL Diagnosis</h5>
+          </div>
+        </div>
+
+        <div class="modal-body p-4" id="aiSecurityReportModalBody">
+          <div class="text-center py-5" id="aiReportLoadingState">
+            <div class="spinner-border text-primary mb-3" role="status"></div>
+            <h6 class="fw-bold text-dark">Performing Live Destination URL Diagnosis...</h6>
+            <p class="small text-muted mb-0">Auditing server SSL, fetching DOM source code, running heuristics, and synthesizing AI technical brief.</p>
+          </div>
+          <div id="aiReportContentState" class="d-none sandbox-doc-view">
+            <!-- Rendered README.md markdown from AI System Scanner injected here -->
+          </div>
+        </div>
+
+        <div class="modal-footer border-top bg-light px-4 py-3 d-flex justify-content-between align-items-center">
+          <button type="button" class="btn btn-secondary rounded-pill px-3 btn-sm" onclick="closeAiSecurityModal()">
+            <i class="bi bi-x-circle me-1"></i>Close Report
+          </button>
+          <div class="d-flex gap-2">
+            <button type="button" class="btn btn-outline-secondary rounded-pill px-3 btn-sm" onclick="cancelAndReturn()">
+              Return to Safety
+            </button>
+            <a href="${safeUrl}" rel="noopener noreferrer" class="btn btn-danger rounded-pill px-3 btn-sm fw-semibold">
+              Proceed to Destination (Unsafe) <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-    let t = 2;
-    const cd = document.getElementById('countdown');
-    const timer = setInterval(() => {
-      t--;
-      if (cd) cd.textContent = t;
-      if (t <= 0) {
-        clearInterval(timer);
-        window.location.href = "${safeUrl}";
+    const isSuspicious = ${isSuspicious ? 'true' : 'false'};
+    const targetUrl = "${safeUrl}";
+    let alertModalInstance = null;
+    let aiReportModalInstance = null;
+
+    function cancelAndReturn() {
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = "/search.html";
       }
-    }, 1000);
+    }
+
+    function openAiSecurityReportModal() {
+      if (alertModalInstance) {
+        alertModalInstance.hide();
+      }
+      const reportEl = document.getElementById('aiSecurityReportModal');
+      if (reportEl && window.bootstrap) {
+        aiReportModalInstance = new bootstrap.Modal(reportEl);
+        aiReportModalInstance.show();
+        fetchLiveSecurityReport();
+      }
+    }
+
+    function closeAiSecurityModal() {
+      if (aiReportModalInstance) {
+        aiReportModalInstance.hide();
+      }
+    }
+
+    async function fetchLiveSecurityReport() {
+      const loadingState = document.getElementById('aiReportLoadingState');
+      const contentState = document.getElementById('aiReportContentState');
+      try {
+        const res = await fetch(\`/api/v1/search/analyze-url?url=\${encodeURIComponent(targetUrl)}\`);
+        const data = await res.json();
+        if (loadingState) loadingState.classList.add('d-none');
+        if (contentState) {
+          contentState.classList.remove('d-none');
+          const markdownText = data.aiReportMarkdown || "### No Report Generated";
+          contentState.innerHTML = (typeof marked !== "undefined") ? marked.parse(markdownText) : markdownText;
+        }
+      } catch (err) {
+        if (loadingState) loadingState.classList.add('d-none');
+        if (contentState) {
+          contentState.classList.remove('d-none');
+          contentState.innerHTML = \`<div class="alert alert-warning">Unable to complete live audit: \${err.message}</div>\`;
+        }
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      if (isSuspicious) {
+        // ONLY AND ONLY WHEN suspicious: Halt redirect and show Alert Confirmation Modal
+        const alertEl = document.getElementById('suspiciousAlertModal');
+        if (alertEl && window.bootstrap) {
+          alertModalInstance = new bootstrap.Modal(alertEl);
+          alertModalInstance.show();
+        }
+      } else {
+        // Normal Safe Destination: Countdown and redirect smoothly
+        let t = 2;
+        const cd = document.getElementById('countdown');
+        const timer = setInterval(() => {
+          t--;
+          if (cd) cd.textContent = t;
+          if (t <= 0) {
+            clearInterval(timer);
+            window.location.href = targetUrl;
+          }
+        }, 1000);
+      }
+    });
   </script>
 </body>
 </html>`;

@@ -256,18 +256,33 @@
     const TUNNEL_DOMAINS = [
       'ngrok-free.app', 'ngrok.io', 'loca.lt', 'trycloudflare.com', 'serveo.net', 'pagekite.me'
     ];
+    const MALICIOUS_KEYWORDS = [
+      'evil', 'malware', 'phish', 'phishing', 'scam', 'fake', 'fraud', 'trojan',
+      'stealer', 'spyware', 'spying', 'adware', 'ransom', 'ransomware', 'botnet',
+      'darkweb', 'keygen', 'crack', 'pwn', 'backdoor', 'exploit', 'hacker',
+      'free-nitro', 'free-gift', 'claim-reward', 'airdrop', 'crypto-bonus',
+      'wallet-drain', 'wallet-connect', 'untrusted', 'insecure-login', 'spoof',
+      'danger', 'sinkhole', 'payload', 'attack', 'c2'
+    ];
+    const TRUSTED_DOMAINS = [
+      'google.com', 'github.com', 'youtube.com', 'youtu.be', 'wikipedia.org',
+      'microsoft.com', 'apple.com', 'stackoverflow.com', 'mozilla.org',
+      'linkedin.com', 'twitter.com', 'x.com', 'reddit.com', 'npmjs.com',
+      'pypi.org', 'firebase.google.com', 'web.app', 'firebaseapp.com', 'onrender.com',
+      'dpgnotes.web.app', 'w3schools.com', 'geeksforgeeks.org', 'medium.com', 'dev.to', 'git-scm.com'
+    ];
 
     function clientQuickSecurityCheck(rawUrl) {
       if (!rawUrl || typeof rawUrl !== 'string') {
-        return { isSuspicious: true, reasons: ['Invalid or empty destination URL'], riskScore: 100, riskLevel: 'HIGH' };
+        return { isSuspicious: true, reasons: ['Invalid or empty destination URL'], riskScore: 100, riskLevel: 'HIGH', isTrusted: false };
       }
       const trimmed = rawUrl.trim();
       const reasons = [];
       let riskScore = 0;
 
-      if (trimmed.includes('suspicious=true')) {
+      if (trimmed.includes('suspicious=true') || trimmed.includes('threat=true') || trimmed.includes('phishing=true')) {
         reasons.push('Triggered by security test parameter flag');
-        riskScore += 80;
+        riskScore += 85;
       }
       if (trimmed.startsWith('javascript:') || trimmed.startsWith('data:') || trimmed.startsWith('vbscript:')) {
         reasons.push('Dangerous script pseudo-protocol detected');
@@ -275,63 +290,76 @@
       }
       if (trimmed.includes('@')) {
         reasons.push('User-info / credential obfuscation symbol (@) in URL');
-        riskScore += 50;
+        riskScore += 80;
       }
       if (RAW_IP_REGEX.test(trimmed)) {
         reasons.push('Direct raw IP address destination without domain name');
-        riskScore += 65;
+        riskScore += 75;
       }
 
       let parsed;
       try {
         parsed = new URL(trimmed.startsWith('http') ? trimmed : 'https://' + trimmed);
       } catch (e) {
-        return { isSuspicious: true, reasons: ['Malformed or unparseable destination URL'], riskScore: 90, riskLevel: 'HIGH' };
+        return { isSuspicious: true, reasons: ['Malformed or unparseable destination URL'], riskScore: 90, riskLevel: 'HIGH', isTrusted: false };
       }
 
       const hostname = parsed.hostname.toLowerCase();
       const pathname = parsed.pathname.toLowerCase();
       const fullPath = (pathname + parsed.search).toLowerCase();
 
-      for (const tld of SUSPICIOUS_TLDS) {
-        if (hostname.endsWith(tld)) {
-          reasons.push(`High-abuse Top-Level Domain detected: ${tld}`);
-          riskScore += 45;
-          break;
-        }
-      }
+      const isTrusted = TRUSTED_DOMAINS.some(td => hostname === td || hostname.endsWith('.' + td));
 
-      for (const tunnel of TUNNEL_DOMAINS) {
-        if (hostname.includes(tunnel)) {
-          reasons.push(`Public port-forwarding / tunnel service detected: ${tunnel}`);
-          riskScore += 40;
-          break;
+      // Check malicious intent keywords (e.g. evil-site.com, phish, malware)
+      if (!isTrusted) {
+        for (const kw of MALICIOUS_KEYWORDS) {
+          if (hostname.includes(kw) || pathname.includes(kw) || fullPath.includes(kw)) {
+            reasons.push(`High-risk malicious/deceptive keyword detected ('${kw}') in destination URL`);
+            riskScore += 75;
+            break;
+          }
         }
-      }
 
-      for (const brand of TARGET_BRANDS) {
-        if (hostname.includes(brand) && !hostname.endsWith(`${brand}.com`) && !hostname.endsWith(`${brand}.org`) && !hostname.endsWith(`${brand}.gov.in`)) {
-          for (const action of SENSITIVE_ACTIONS) {
-            if (hostname.includes(action) || pathname.includes(action)) {
-              reasons.push(`Phishing heuristic: Brand spoofing ('${brand}') combined with credential action ('${action}')`);
-              riskScore += 60;
-              break;
+        for (const tld of SUSPICIOUS_TLDS) {
+          if (hostname.endsWith(tld)) {
+            reasons.push(`High-abuse Top-Level Domain detected: ${tld}`);
+            riskScore += 55;
+            break;
+          }
+        }
+
+        for (const tunnel of TUNNEL_DOMAINS) {
+          if (hostname.includes(tunnel)) {
+            reasons.push(`Public port-forwarding / tunnel service detected: ${tunnel}`);
+            riskScore += 50;
+            break;
+          }
+        }
+
+        for (const brand of TARGET_BRANDS) {
+          if (hostname.includes(brand) && !hostname.endsWith(`${brand}.com`) && !hostname.endsWith(`${brand}.org`) && !hostname.endsWith(`${brand}.gov.in`)) {
+            for (const action of SENSITIVE_ACTIONS) {
+              if (hostname.includes(action) || pathname.includes(action)) {
+                reasons.push(`Phishing heuristic: Brand spoofing ('${brand}') combined with credential action ('${action}')`);
+                riskScore += 70;
+                break;
+              }
             }
+          }
+        }
+
+        for (const ext of DANGEROUS_EXTENSIONS) {
+          if (pathname.endsWith(ext) || pathname.includes(ext + '?')) {
+            reasons.push(`Direct link to dangerous executable/binary download: ${ext}`);
+            riskScore += 80;
+            break;
           }
         }
       }
 
-      for (const ext of DANGEROUS_EXTENSIONS) {
-        if (pathname.endsWith(ext)) {
-          reasons.push(`Direct link to dangerous executable/binary download: ${ext}`);
-          riskScore += 55;
-          break;
-        }
-      }
-
-      const isSuspicious = riskScore >= 40 || reasons.length > 0;
+      const isSuspicious = riskScore >= 50 || (reasons.length > 0 && !isTrusted);
       const riskLevel = riskScore >= 70 ? 'CRITICAL' : (riskScore >= 40 ? 'HIGH' : 'SAFE');
-      return { isSuspicious, reasons, riskScore, riskLevel, hostname };
+      return { isSuspicious, reasons, riskScore, riskLevel, hostname, isTrusted };
     }
 
     // Modal instances and state

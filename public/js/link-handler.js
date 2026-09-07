@@ -226,6 +226,21 @@
     var TUNNEL_DOMAINS = [
         'ngrok-free.app', 'ngrok.io', 'loca.lt', 'trycloudflare.com', 'serveo.net', 'pagekite.me'
     ];
+    var MALICIOUS_KEYWORDS = [
+        'evil', 'malware', 'phish', 'phishing', 'scam', 'fake', 'fraud', 'trojan',
+        'stealer', 'spyware', 'spying', 'adware', 'ransom', 'ransomware', 'botnet',
+        'darkweb', 'keygen', 'crack', 'pwn', 'backdoor', 'exploit', 'hacker',
+        'free-nitro', 'free-gift', 'claim-reward', 'airdrop', 'crypto-bonus',
+        'wallet-drain', 'wallet-connect', 'untrusted', 'insecure-login', 'spoof',
+        'danger', 'sinkhole', 'payload', 'attack', 'c2'
+    ];
+    var TRUSTED_DOMAINS = [
+        'google.com', 'github.com', 'youtube.com', 'youtu.be', 'wikipedia.org',
+        'microsoft.com', 'apple.com', 'stackoverflow.com', 'mozilla.org',
+        'linkedin.com', 'twitter.com', 'x.com', 'reddit.com', 'npmjs.com',
+        'pypi.org', 'firebase.google.com', 'web.app', 'firebaseapp.com', 'onrender.com',
+        'dpgnotes.web.app', 'w3schools.com', 'geeksforgeeks.org', 'medium.com', 'dev.to', 'git-scm.com'
+    ];
 
     function quickSecurityCheck(rawUrl) {
         if (!rawUrl || typeof rawUrl !== 'string') {
@@ -300,9 +315,34 @@
             }
         }
 
-        var isSuspicious = riskScore >= 40 || reasons.length > 0;
+        var isTrusted = false;
+        for (var t = 0; t < TRUSTED_DOMAINS.length; t++) {
+            if (hostname === TRUSTED_DOMAINS[t] || hostname.endsWith('.' + TRUSTED_DOMAINS[t])) {
+                isTrusted = true;
+                break;
+            }
+        }
+
+        if (!isTrusted) {
+            for (var n = 0; n < MALICIOUS_KEYWORDS.length; n++) {
+                var kw = MALICIOUS_KEYWORDS[n];
+                if (hostname.includes(kw) || pathname.includes(kw) || (parsed.search && parsed.search.toLowerCase().includes(kw))) {
+                    reasons.push("High-risk malicious/deceptive keyword detected ('" + kw + "') in destination URL");
+                    riskScore += 75;
+                    break;
+                }
+            }
+        }
+
+        var isSuspicious = (riskScore >= 40 || reasons.length > 0) && (!isTrusted || trimmed.includes('suspicious=true'));
+        if (isTrusted && !trimmed.includes('suspicious=true')) {
+            isSuspicious = false;
+            reasons = [];
+            riskScore = 0;
+        }
+
         var riskLevel = riskScore >= 70 ? 'CRITICAL' : (riskScore >= 40 ? 'HIGH' : 'SAFE');
-        return { isSuspicious: isSuspicious, reasons: reasons, riskScore: riskScore, riskLevel: riskLevel, hostname: hostname };
+        return { isSuspicious: isSuspicious, reasons: reasons, riskScore: riskScore, riskLevel: riskLevel, hostname: hostname, isTrusted: isTrusted };
     }
 
     function isSuspiciousUrl(rawUrl) {

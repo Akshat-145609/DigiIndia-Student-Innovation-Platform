@@ -69,6 +69,16 @@ class SecurityScannerService:
     # 7. Non-standard HTTP ports commonly used for unauthorized backdoors
     SUSPICIOUS_PORTS = {'8080', '8888', '1337', '6666', '3128', '4444', '9999', '5555', '7777'}
 
+    # 8. Malicious & Deceptive Intent Keywords (Immediate Flag on Untrusted Hosts)
+    MALICIOUS_KEYWORDS = [
+        'evil', 'malware', 'phish', 'phishing', 'scam', 'fake', 'fraud', 'trojan',
+        'stealer', 'spyware', 'spying', 'adware', 'ransom', 'ransomware', 'botnet',
+        'darkweb', 'keygen', 'crack', 'pwn', 'backdoor', 'exploit', 'hacker',
+        'free-nitro', 'free-gift', 'claim-reward', 'airdrop', 'crypto-bonus',
+        'wallet-drain', 'wallet-connect', 'untrusted', 'insecure-login', 'spoof',
+        'danger', 'sinkhole', 'payload', 'attack', 'c2'
+    ]
+
     @classmethod
     def quick_check(cls, url: str) -> dict:
         """
@@ -181,6 +191,13 @@ class SecurityScannerService:
             if parsed.scheme == "http" and any(act in path or act in query for act in cls.SENSITIVE_ACTIONS):
                 reasons.append("Insecure plain HTTP protocol used with credential/account parameters")
                 risk_score += 45
+
+            # Rule 12: Malicious / Deceptive Intent Keywords (e.g. evil-site.com, phish, malware)
+            for kw in cls.MALICIOUS_KEYWORDS:
+                if kw in hostname or kw in path or kw in query:
+                    reasons.append(f"High-risk malicious/deceptive keyword detected ('{kw}') in destination URL")
+                    risk_score += 75
+                    break
 
         # Determine verdict
         is_suspicious = (risk_score >= 50) or (len(reasons) > 0 and not is_trusted)

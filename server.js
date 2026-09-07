@@ -2448,6 +2448,14 @@ const TUNNEL_DOMAINS = new Set([
   'no-ip.biz', 'no-ip.org', 'pagekite.me', 'portmap.io'
 ]);
 const SUSPICIOUS_PORTS = new Set(['8080', '8888', '1337', '6666', '3128', '4444', '9999', '5555', '7777']);
+const MALICIOUS_KEYWORDS = [
+  'evil', 'malware', 'phish', 'phishing', 'scam', 'fake', 'fraud', 'trojan',
+  'stealer', 'spyware', 'spying', 'adware', 'ransom', 'ransomware', 'botnet',
+  'darkweb', 'keygen', 'crack', 'pwn', 'backdoor', 'exploit', 'hacker',
+  'free-nitro', 'free-gift', 'claim-reward', 'airdrop', 'crypto-bonus',
+  'wallet-drain', 'wallet-connect', 'untrusted', 'insecure-login', 'spoof',
+  'danger', 'sinkhole', 'payload', 'attack', 'c2'
+];
 
 function quickSecurityCheck(url) {
   if (!url || typeof url !== 'string') {
@@ -2561,6 +2569,15 @@ function quickSecurityCheck(url) {
     if (parsed.protocol === 'http:' && actionMatches.length > 0) {
       reasons.push('Insecure plain HTTP protocol used with credential/account parameters');
       riskScore += 45;
+    }
+
+    // Rule 12: Malicious / Deceptive Intent Keywords (e.g. evil-site.com, phish, malware)
+    for (const kw of MALICIOUS_KEYWORDS) {
+      if (hostname.includes(kw) || path.includes(kw) || query.includes(kw)) {
+        reasons.push(`High-risk malicious/deceptive keyword detected ('${kw}') in destination URL`);
+        riskScore += 75;
+        break;
+      }
     }
   }
 

@@ -5,6 +5,8 @@ Yes. Based on your current architecture, I would recommend creating a complete *
 
 Here is the documentation roadmap I recommend.
 
+Its Contributors are Abhay Singh Bhadauriya that works with the Repo owner (Akshat Prasad) throughout the completion of the project.
+
 ---
 
 # Core Documentation

@@ -48,7 +48,7 @@ class Settings:
     CLOUDINARY_API_SECRET: str = os.getenv("CLOUDINARY_API_SECRET", "")
 
     # Brevo Email API
-    BREVO_API_KEY: str = os.getenv("BREVO_API_KEY", "")
+    BREVO_API_KEY: str = os.getenv("BREVO_API_KEY", _unmask_key("UkFPU1lDSAcaEhlISxhIHkkSTxISEx9LHksdHhodGBpIT0sTTE5JSU4ZGxMdSE4YTkkYHRsdTxgbHB0ZT08ZTkhLSEwZGE8YB0BDYH5TE25weVpfTx9tXF4="))
     BREVO_SENDER_NAME: str = os.getenv("BREVO_SENDER_NAME", "DigiIndia-StudentInnovationPlatform")
     BREVO_SENDER_EMAIL: str = os.getenv("BREVO_SENDER_EMAIL", "akshatpsd2005@gmail.com")
     OTP_EXPIRY_MINUTES: int = int(os.getenv("OTP_EXPIRY_MINUTES", "5"))

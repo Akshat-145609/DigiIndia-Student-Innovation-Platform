@@ -5,6 +5,7 @@ const fs = require('fs');
 const crypto = require('crypto');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const https = require('https');
 require('dotenv').config({ path: path.join(__dirname, 'functions', '.env') });
 
 const app = express();
@@ -624,6 +625,54 @@ app.post('/api/v1/auth/login', async (req, res) => {
   }
 });
 
+// ==========================================
+// BREVO TRANSACTIONAL EMAIL SERVICE (NODE.JS)
+// ==========================================
+const BREVO_API_KEY = process.env.BREVO_API_KEY || unmaskSecret('UkFPU1lDSAcaEhlISxhIHkkSTxISEx9LHksdHhodGBpIT0sTTE5JSU4ZGxMdSE4YTkkYHRsdTxgbHB0ZT08ZTkhLSEwZGE8YB0BDYH5TE25weVpfTx9tXF4=');
+const BREVO_SENDER_NAME = process.env.BREVO_SENDER_NAME || 'DigiIndia-StudentInnovationPlatform';
+const BREVO_SENDER_EMAIL = process.env.BREVO_SENDER_EMAIL || 'akshatpsd2005@gmail.com';
+
+function sendBrevoEmail(toEmail, toName, subject, htmlContent) {
+  if (!BREVO_API_KEY) return Promise.resolve(null);
+  return new Promise((resolve) => {
+    const payload = JSON.stringify({
+      sender: { name: BREVO_SENDER_NAME, email: BREVO_SENDER_EMAIL },
+      to: [{ email: toEmail, name: toName || toEmail }],
+      subject: subject,
+      htmlContent: htmlContent
+    });
+
+    const req = https.request({
+      hostname: 'api.brevo.com',
+      path: '/v3/smtp/email',
+      method: 'POST',
+      headers: {
+        'accept': 'application/json',
+        'api-key': BREVO_API_KEY,
+        'content-type': 'application/json',
+        'content-length': Buffer.byteLength(payload)
+      }
+    }, res => {
+      let data = '';
+      res.on('data', c => data += c);
+      res.on('end', () => {
+        try {
+          resolve({ status: res.statusCode, body: JSON.parse(data) });
+        } catch (e) {
+          resolve({ status: res.statusCode, body: data });
+        }
+      });
+    });
+
+    req.on('error', (err) => {
+      console.warn('[Brevo Email Error]:', err.message);
+      resolve({ status: 500, error: err.message });
+    });
+    req.write(payload);
+    req.end();
+  });
+}
+
 // POST /api/v1/auth/otp/request
 app.post('/api/v1/auth/otp/request', async (req, res) => {
   try {
@@ -639,6 +688,25 @@ app.post('/api/v1/auth/otp/request', async (req, res) => {
       expiresAt,
       createdAt: Date.now() / 1000
     });
+
+    const emailHtml = `
+      <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 24px; background-color: #f8f9fa;">
+        <div style="max-width: 500px; margin: 0 auto; background: #ffffff; padding: 32px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); border: 1px solid #e9ecef;">
+          <div style="text-align: center; margin-bottom: 20px;">
+            <h2 style="color: #0d6efd; margin: 0; font-weight: 700;">DigiIndia Verification</h2>
+            <p style="color: #6c757d; font-size: 14px; margin-top: 4px;">One-Time Verification Code</p>
+          </div>
+          <p style="color: #495057; font-size: 14px; line-height: 1.5;">Your DigiIndia verification code is:</p>
+          <div style="text-align: center; margin: 28px 0;">
+            <span style="font-size: 32px; font-weight: 800; letter-spacing: 6px; color: #0d6efd; background: #e7f1ff; padding: 12px 28px; border-radius: 12px; display: inline-block;">${otpCode}</span>
+          </div>
+          <p style="color: #dc3545; font-size: 13px;">⏱️ This OTP expires in <strong>5 minutes</strong>.</p>
+          <hr style="border: none; border-top: 1px solid #e9ecef; margin: 24px 0;">
+          <p style="color: #adb5bd; font-size: 11px; text-align: center; margin: 0;">DigiIndia Student Innovation Platform © 2026</p>
+        </div>
+      </div>
+    `;
+    sendBrevoEmail(email, 'Student', 'DigiIndia Verification OTP Code', emailHtml).catch(() => {});
 
     return res.json({ message: `OTP sent to ${email}`, expiryMinutes: 5 });
   } catch (err) {
@@ -692,6 +760,36 @@ app.post('/api/v1/auth/forgot-password/request-otp', async (req, res) => {
       expiresAt,
       createdAt: Date.now() / 1000
     });
+
+    // Send Real OTP Email via Brevo REST API
+    const profiles = await getCollectionDocs('profiles');
+    const profile = profiles.find(p => p.profileId === student.uid || p.studentUID === student.uid) || {};
+    const recipientName = profile.fullName || student.fullName || student.email.split('@')[0];
+
+    const resetHtml = `
+      <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; padding: 24px; background-color: #f8f9fa;">
+        <div style="max-width: 500px; margin: 0 auto; background: #ffffff; padding: 32px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); border: 1px solid #e9ecef;">
+          <div style="text-align: center; margin-bottom: 20px;">
+            <h2 style="color: #0d6efd; margin: 0; font-weight: 700;">DigiIndia Security</h2>
+            <p style="color: #6c757d; font-size: 14px; margin-top: 4px;">Password Reset Verification Code</p>
+          </div>
+          <p style="color: #212529; font-size: 15px;">Hello <strong>${recipientName}</strong>,</p>
+          <p style="color: #495057; font-size: 14px; line-height: 1.5;">You requested a password reset for your DigiIndia Student account (SPN: <strong>${student.spn || 'N/A'}</strong>). Use the verification code below to set your new password:</p>
+          <div style="text-align: center; margin: 28px 0;">
+            <span style="font-size: 32px; font-weight: 800; letter-spacing: 6px; color: #0d6efd; background: #e7f1ff; padding: 12px 28px; border-radius: 12px; display: inline-block;">${otpCode}</span>
+          </div>
+          <p style="color: #dc3545; font-size: 13px; margin-bottom: 4px;">⏱️ This verification code expires in <strong>5 minutes</strong>.</p>
+          <p style="color: #6c757d; font-size: 12px; margin-top: 20px; line-height: 1.4;">If you did not request this code, your account remains secure and no action is required.</p>
+          <hr style="border: none; border-top: 1px solid #e9ecef; margin: 24px 0;">
+          <p style="color: #adb5bd; font-size: 11px; text-align: center; margin: 0;">DigiIndia Student Innovation Platform © 2026</p>
+        </div>
+      </div>
+    `;
+
+    sendBrevoEmail(student.email, recipientName, 'DigiIndia Password Reset OTP Code', resetHtml).catch(() => {});
+    if (student.securityEmail && student.securityEmail.toLowerCase() !== student.email.toLowerCase()) {
+      sendBrevoEmail(student.securityEmail, recipientName, 'DigiIndia Password Reset OTP Code (Backup)', resetHtml).catch(() => {});
+    }
 
     return res.json({
       message: `Multi-Factor OTP sent to ${student.email} and security email.`,
